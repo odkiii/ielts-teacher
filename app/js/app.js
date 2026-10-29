@@ -564,7 +564,7 @@
   const RTAG = { mh: 'R-MH', mi: 'R-MI', tfng: 'R-TFNG', mcq: 'R-MCQ', sc: 'R-COMP' };
   function viewReading() {
     const p = P();
-    let h = head('Reading', 'Три учебных текста по формату Academic') + '<div class="list">' + READ.tests.map((t) => {
+    let h = head('Reading', READ.tests.length + ' учебных текстов по формату Academic') + '<div class="list">' + READ.tests.map((t) => {
       const n = t.groups.reduce((a, g) => a + g.items.length, 0); const rs = p.reads.filter((r) => r.id === t.id); const best = rs.length ? rs.reduce((a, r) => (r.raw > a.raw ? r : a)) : null;
       return '<a class="rowi" href="#read/' + t.id + '"><div class="grow"><b>' + esc(t.title) + '</b><div class="mut" style="margin-top:2px">' + esc(t.topic) + ' · ' + n + ' вопросов · ' + t.minutes + ' мин</div></div>' + (best ? '<span class="chip on">' + best.raw + '/' + best.total + '</span>' : ico('chev', 'chev')) + '</a>';
     }).join('') + '</div><p class="mut" style="margin-top:14px">' + esc(READ.note) + ' Реальные тесты — в Cambridge IELTS и на ielts.org.</p>';

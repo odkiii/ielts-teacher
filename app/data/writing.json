@@ -1,1 +1,887 @@
-{"note":"Задания и данные написаны для проекта по мотивам открытых описаний формата IELTS и повторяющихся тем 2024–2026 (отчёты кандидатов); это не оригинальные вопросы экзамена. Данные в Task 1 вымышленные.","types":{"op":"Мнение (agree/disagree)","db":"Две точки зрения","ad":"Плюсы и минусы","ps":"Проблема и решение","tp":"Двойной вопрос"},"skeleton":{"op":["Intro: перефразируй тему + чёткая позиция","Body 1: главный довод + объяснение + пример","Body 2: второй довод (или уступка + возражение) + пример","Conclusion: повтори позицию другими словами"],"db":["Intro: тема + 'This essay will discuss both views and give my own opinion'","Body 1: первая точка зрения + пример","Body 2: вторая точка зрения + пример","Conclusion: твоя позиция (она должна быть ясна и в intro)"],"ad":["Intro: тема + что обсудишь","Body 1: преимущества (1–2) + пример","Body 2: недостатки (1–2) + пример","Conclusion: что перевешивает (если вопрос 'outweigh' — обязательно ответь)"],"ps":["Intro: тема + 'will outline causes and solutions'","Body 1: причины/проблемы с объяснением","Body 2: решения (кто что делает) + ожидаемый результат","Conclusion: краткий итог"],"tp":["Intro: тема + ответ на оба вопроса вкратце","Body 1: ответ на вопрос 1 + пример","Body 2: ответ на вопрос 2 + пример","Conclusion: итог по обоим вопросам"]},"task2":[{"id":"w01","type":"op","topic":"Education","q":"Some people think that schools should teach practical life skills, such as cooking, managing money and basic first aid, rather than focusing mainly on academic subjects. To what extent do you agree or disagree?","ideas":["Практические навыки нужны каждому","Академические предметы развивают мышление","Время в школе ограничено: что убрать?"]},{"id":"w02","type":"db","topic":"Work","q":"Some people believe that employees should work from home whenever possible. Others think it is better for people to work in an office. Discuss both views and give your own opinion.","ideas":["Дом: гибкость, нет дороги","Офис: командная работа, границы работы и дома","Гибридный формат"]},{"id":"w03","type":"ad","topic":"Technology","q":"Many people now use artificial intelligence tools to help with writing, research and decision making. Do the advantages of this development outweigh the disadvantages?","ideas":["Скорость и доступность","Ошибки, зависимость, потеря навыков","Роль образования и правил"]},{"id":"w04","type":"ps","topic":"Environment","q":"Plastic waste is damaging oceans and wildlife in many parts of the world. What are the causes of this problem and what measures could be taken to solve it?","ideas":["Одноразовая упаковка, слабая переработка","Налоги и запреты, ответственность производителей","Поведение потребителей"]},{"id":"w05","type":"tp","topic":"Health","q":"In many countries, people are living longer than ever before. What problems might this cause for society? What can governments do to prepare for these problems?","ideas":["Нагрузка на здравоохранение и пенсии","Нехватка работников","Раннее планирование, гибкая занятость"]},{"id":"w06","type":"op","topic":"Transport","q":"Governments should spend more money on public transport rather than on building new roads. To what extent do you agree or disagree?","ideas":["Экология и пробки","Доступность для небогатых","Дороги нужны для грузов и сельских районов"]},{"id":"w07","type":"db","topic":"Education","q":"Some people think that children should start learning a foreign language at primary school, while others believe it is better to wait until secondary school. Discuss both views and give your opinion.","ideas":["Раннее усвоение языка","Риск перегрузки, нехватка учителей","Качество важнее возраста"]},{"id":"w08","type":"ad","topic":"Media","q":"More and more people get their news from social media instead of newspapers and television. What are the advantages and disadvantages of this trend?","ideas":["Скорость, разнообразие","Фейки, пузыри фильтров","Медиаграмотность"]},{"id":"w09","type":"op","topic":"Crime","q":"Some people believe that the best way to reduce crime is to give longer prison sentences. Others believe there are better alternatives. To what extent do you agree?","ideas":["Сдерживание и безопасность","Перевоспитание и профилактика","Стоимость тюрем"]},{"id":"w10","type":"ps","topic":"Urban life","q":"Many cities are becoming more crowded and expensive to live in. What problems does this cause and what can be done about it?","ideas":["Жильё, транспорт, нагрузка на услуги","Развитие других регионов, доступное жильё","Удалёнка и децентрализация"]},{"id":"w11","type":"tp","topic":"Technology","q":"Some people say that children spend too much time using screens. Why is this happening? What can parents and schools do to encourage other activities?","ideas":["Доступность устройств, контент","Правила, альтернативы, личный пример","Баланс, а не запрет"]},{"id":"w12","type":"op","topic":"Globalisation","q":"As cultures become more similar because of global trade and media, local traditions are disappearing. Is this a positive or negative development?","ideas":["Потеря идентичности","Обмен идеями и удобство","Что можно сохранить"]},{"id":"w13","type":"db","topic":"Work","q":"Some people say that a high salary is the most important factor when choosing a job. Others believe that job satisfaction matters more. Discuss both views and give your opinion.","ideas":["Финансовая безопасность","Мотивация и здоровье","Разные этапы жизни"]},{"id":"w14","type":"ad","topic":"Education","q":"Many universities now offer degrees entirely online. What are the advantages and disadvantages of studying in this way?","ideas":["Гибкость, цена, доступ","Изоляция, самодисциплина","Качество и признание"]},{"id":"w15","type":"ps","topic":"Health","q":"Fewer people are taking regular exercise than in the past. What are the reasons for this, and how can people be encouraged to be more active?","ideas":["Сидячая работа, транспорт, экраны","Городская среда, налоги/стимулы, школа","Поддержка работодателей"]},{"id":"w16","type":"op","topic":"Environment","q":"Individuals can do very little to protect the environment, and only governments and large companies can make a real difference. To what extent do you agree or disagree?","ideas":["Масштаб проблемы","Совокупность решений людей","Давление потребителей на бизнес"]},{"id":"w17","type":"tp","topic":"Society","q":"In some countries, young people are leaving rural areas to live and work in cities. What are the reasons for this? Is it a positive or negative development?","ideas":["Работа, образование, услуги","Нагрузка на города / пустеющие деревни","Возможные решения"]},{"id":"w18","type":"db","topic":"Culture","q":"Some people believe that museums and historical sites should be free for everyone. Others think visitors should pay. Discuss both views and give your opinion.","ideas":["Доступ к культуре","Финансирование и содержание","Льготы для групп"]},{"id":"w19","type":"ad","topic":"Work","q":"In many countries, people are working fewer hours per week or four days instead of five. What are the advantages and disadvantages of a shorter working week?","ideas":["Здоровье, продуктивность","Затраты бизнеса, услуги","Не для всех профессий"]},{"id":"w20","type":"op","topic":"Science","q":"Governments should invest more in scientific research even if it does not lead to immediate benefits. To what extent do you agree or disagree?","ideas":["Долгосрочные открытия","Альтернативные приоритеты","Роль частного сектора"]}],"task1":[{"id":"a1","kind":"line","title":"Households with internet access in four countries, 2005–2020 (%)","x":["2005","2010","2015","2020"],"series":[{"name":"Country A","v":[30,52,78,92]},{"name":"Country B","v":[18,35,60,81]},{"name":"Country C","v":[45,65,80,88]},{"name":"Country D","v":[8,20,41,67]}],"hint":"тренды, сравнение стартов и финишей"},{"id":"a2","kind":"bar","title":"Average weekly leisure time by activity and age group (hours)","cats":["16–24","25–44","45–64","65+"],"series":[{"name":"Screens","v":[18,12,10,8]},{"name":"Exercise","v":[5,3,3,4]},{"name":"Reading","v":[2,3,5,9]}],"hint":"сгруппируй по возрасту или по активности"},{"id":"a3","kind":"table","title":"Main way of travelling to work in five cities (%)","head":["City","Car","Public transport","Bicycle","On foot"],"rows":[["Northport",62,20,6,12],["Eastvale",38,41,9,12],["Southgate",71,14,3,12],["Westbury",29,35,24,12],["Midtown",50,30,8,12]],"hint":"найди максимумы/минимумы, закономерность по Car"},{"id":"a4","kind":"pie","title":"Sources of household energy, 2000 and 2020 (%)","charts":[{"label":"2000","parts":[{"n":"Coal","v":38},{"n":"Gas","v":34},{"n":"Oil","v":18},{"n":"Renewables","v":10}]},{"label":"2020","parts":[{"n":"Coal","v":12},{"n":"Gas","v":36},{"n":"Oil","v":9},{"n":"Renewables","v":43}]}],"hint":"изменения по каждому источнику"},{"id":"a5","kind":"line","title":"Average monthly rainfall in two cities (mm)","x":["Jan","Mar","May","Jul","Sep","Nov"],"series":[{"name":"Bayford","v":[90,70,50,20,45,85]},{"name":"Carrow","v":[30,35,60,95,70,40]}],"hint":"противоположные сезонные пики"},{"id":"a6","kind":"bar","title":"Recycling rates by material, 2010 and 2020 (%)","cats":["Paper","Glass","Plastic","Metal"],"series":[{"name":"2010","v":[55,40,15,48]},{"name":"2020","v":[72,58,38,60]}],"hint":"рост везде; самый сильный — plastic"},{"id":"a7","kind":"table","title":"Visitors to five museums (thousands per year)","head":["Museum","2015","2020"],"rows":[["Science Hall",420,380],["City History",310,450],["Modern Art",280,260],["Maritime",150,210],["Natural World",500,640]],"hint":"кто вырос, кто упал"},{"id":"a8","kind":"line","title":"Electricity from renewable sources, 2000–2020 (terawatt hours)","x":["2000","2005","2010","2015","2020"],"series":[{"name":"Wind","v":[5,15,45,95,170]},{"name":"Solar","v":[1,3,12,60,150]},{"name":"Hydro","v":[110,115,118,120,122]}],"hint":"hydro стабилен; wind и solar растут быстро"}],"gt":[{"id":"g1","tone":"Formal","q":"You recently stayed at a hotel. The heating did not work properly during your stay. Write a letter to the hotel manager. In your letter: describe what went wrong; explain how it affected your stay; say what you would like the hotel to do."},{"id":"g2","tone":"Informal","q":"A friend is visiting your town next month. Write a letter to your friend. In your letter: tell him or her what the weather is usually like; suggest things to do; offer to meet him or her at the station."},{"id":"g3","tone":"Formal","q":"You would like to join an evening course at a local college. Write a letter to the college secretary. In your letter: say which course interests you; explain why you want to take it; ask about dates, price and registration."},{"id":"g4","tone":"Semi-formal","q":"Your neighbour plays loud music late at night. Write a letter to your neighbour. In your letter: describe the problem; explain how it affects you; suggest a solution."},{"id":"g5","tone":"Informal","q":"You have just started a new job. Write a letter to a friend. In your letter: describe the job; say what you like and dislike about it; invite your friend to visit you."},{"id":"g6","tone":"Formal","q":"You borrowed a book from the town library and lost it. Write a letter to the librarian. In your letter: explain what happened; say when you borrowed the book; offer to solve the problem."}]}
+{
+ "note": "Задания и данные написаны для проекта по мотивам открытых описаний формата IELTS и повторяющихся тем 2024–2026 (отчёты кандидатов); это не оригинальные вопросы экзамена. Данные в Task 1 вымышленные.",
+ "types": {
+  "op": "Мнение (agree/disagree)",
+  "db": "Две точки зрения",
+  "ad": "Плюсы и минусы",
+  "ps": "Проблема и решение",
+  "tp": "Двойной вопрос"
+ },
+ "skeleton": {
+  "op": [
+   "Intro: перефразируй тему + чёткая позиция",
+   "Body 1: главный довод + объяснение + пример",
+   "Body 2: второй довод (или уступка + возражение) + пример",
+   "Conclusion: повтори позицию другими словами"
+  ],
+  "db": [
+   "Intro: тема + 'This essay will discuss both views and give my own opinion'",
+   "Body 1: первая точка зрения + пример",
+   "Body 2: вторая точка зрения + пример",
+   "Conclusion: твоя позиция (она должна быть ясна и в intro)"
+  ],
+  "ad": [
+   "Intro: тема + что обсудишь",
+   "Body 1: преимущества (1–2) + пример",
+   "Body 2: недостатки (1–2) + пример",
+   "Conclusion: что перевешивает (если вопрос 'outweigh' — обязательно ответь)"
+  ],
+  "ps": [
+   "Intro: тема + 'will outline causes and solutions'",
+   "Body 1: причины/проблемы с объяснением",
+   "Body 2: решения (кто что делает) + ожидаемый результат",
+   "Conclusion: краткий итог"
+  ],
+  "tp": [
+   "Intro: тема + ответ на оба вопроса вкратце",
+   "Body 1: ответ на вопрос 1 + пример",
+   "Body 2: ответ на вопрос 2 + пример",
+   "Conclusion: итог по обоим вопросам"
+  ]
+ },
+ "task2": [
+  {
+   "id": "w01",
+   "type": "op",
+   "topic": "Education",
+   "q": "Some people think that schools should teach practical life skills, such as cooking, managing money and basic first aid, rather than focusing mainly on academic subjects. To what extent do you agree or disagree?",
+   "ideas": [
+    "Практические навыки нужны каждому",
+    "Академические предметы развивают мышление",
+    "Время в школе ограничено: что убрать?"
+   ]
+  },
+  {
+   "id": "w02",
+   "type": "db",
+   "topic": "Work",
+   "q": "Some people believe that employees should work from home whenever possible. Others think it is better for people to work in an office. Discuss both views and give your own opinion.",
+   "ideas": [
+    "Дом: гибкость, нет дороги",
+    "Офис: командная работа, границы работы и дома",
+    "Гибридный формат"
+   ]
+  },
+  {
+   "id": "w03",
+   "type": "ad",
+   "topic": "Technology",
+   "q": "Many people now use artificial intelligence tools to help with writing, research and decision making. Do the advantages of this development outweigh the disadvantages?",
+   "ideas": [
+    "Скорость и доступность",
+    "Ошибки, зависимость, потеря навыков",
+    "Роль образования и правил"
+   ]
+  },
+  {
+   "id": "w04",
+   "type": "ps",
+   "topic": "Environment",
+   "q": "Plastic waste is damaging oceans and wildlife in many parts of the world. What are the causes of this problem and what measures could be taken to solve it?",
+   "ideas": [
+    "Одноразовая упаковка, слабая переработка",
+    "Налоги и запреты, ответственность производителей",
+    "Поведение потребителей"
+   ]
+  },
+  {
+   "id": "w05",
+   "type": "tp",
+   "topic": "Health",
+   "q": "In many countries, people are living longer than ever before. What problems might this cause for society? What can governments do to prepare for these problems?",
+   "ideas": [
+    "Нагрузка на здравоохранение и пенсии",
+    "Нехватка работников",
+    "Раннее планирование, гибкая занятость"
+   ]
+  },
+  {
+   "id": "w06",
+   "type": "op",
+   "topic": "Transport",
+   "q": "Governments should spend more money on public transport rather than on building new roads. To what extent do you agree or disagree?",
+   "ideas": [
+    "Экология и пробки",
+    "Доступность для небогатых",
+    "Дороги нужны для грузов и сельских районов"
+   ]
+  },
+  {
+   "id": "w07",
+   "type": "db",
+   "topic": "Education",
+   "q": "Some people think that children should start learning a foreign language at primary school, while others believe it is better to wait until secondary school. Discuss both views and give your opinion.",
+   "ideas": [
+    "Раннее усвоение языка",
+    "Риск перегрузки, нехватка учителей",
+    "Качество важнее возраста"
+   ]
+  },
+  {
+   "id": "w08",
+   "type": "ad",
+   "topic": "Media",
+   "q": "More and more people get their news from social media instead of newspapers and television. What are the advantages and disadvantages of this trend?",
+   "ideas": [
+    "Скорость, разнообразие",
+    "Фейки, пузыри фильтров",
+    "Медиаграмотность"
+   ]
+  },
+  {
+   "id": "w09",
+   "type": "op",
+   "topic": "Crime",
+   "q": "Some people believe that the best way to reduce crime is to give longer prison sentences. Others believe there are better alternatives. To what extent do you agree?",
+   "ideas": [
+    "Сдерживание и безопасность",
+    "Перевоспитание и профилактика",
+    "Стоимость тюрем"
+   ]
+  },
+  {
+   "id": "w10",
+   "type": "ps",
+   "topic": "Urban life",
+   "q": "Many cities are becoming more crowded and expensive to live in. What problems does this cause and what can be done about it?",
+   "ideas": [
+    "Жильё, транспорт, нагрузка на услуги",
+    "Развитие других регионов, доступное жильё",
+    "Удалёнка и децентрализация"
+   ]
+  },
+  {
+   "id": "w11",
+   "type": "tp",
+   "topic": "Technology",
+   "q": "Some people say that children spend too much time using screens. Why is this happening? What can parents and schools do to encourage other activities?",
+   "ideas": [
+    "Доступность устройств, контент",
+    "Правила, альтернативы, личный пример",
+    "Баланс, а не запрет"
+   ]
+  },
+  {
+   "id": "w12",
+   "type": "op",
+   "topic": "Globalisation",
+   "q": "As cultures become more similar because of global trade and media, local traditions are disappearing. Is this a positive or negative development?",
+   "ideas": [
+    "Потеря идентичности",
+    "Обмен идеями и удобство",
+    "Что можно сохранить"
+   ]
+  },
+  {
+   "id": "w13",
+   "type": "db",
+   "topic": "Work",
+   "q": "Some people say that a high salary is the most important factor when choosing a job. Others believe that job satisfaction matters more. Discuss both views and give your opinion.",
+   "ideas": [
+    "Финансовая безопасность",
+    "Мотивация и здоровье",
+    "Разные этапы жизни"
+   ]
+  },
+  {
+   "id": "w14",
+   "type": "ad",
+   "topic": "Education",
+   "q": "Many universities now offer degrees entirely online. What are the advantages and disadvantages of studying in this way?",
+   "ideas": [
+    "Гибкость, цена, доступ",
+    "Изоляция, самодисциплина",
+    "Качество и признание"
+   ]
+  },
+  {
+   "id": "w15",
+   "type": "ps",
+   "topic": "Health",
+   "q": "Fewer people are taking regular exercise than in the past. What are the reasons for this, and how can people be encouraged to be more active?",
+   "ideas": [
+    "Сидячая работа, транспорт, экраны",
+    "Городская среда, налоги/стимулы, школа",
+    "Поддержка работодателей"
+   ]
+  },
+  {
+   "id": "w16",
+   "type": "op",
+   "topic": "Environment",
+   "q": "Individuals can do very little to protect the environment, and only governments and large companies can make a real difference. To what extent do you agree or disagree?",
+   "ideas": [
+    "Масштаб проблемы",
+    "Совокупность решений людей",
+    "Давление потребителей на бизнес"
+   ]
+  },
+  {
+   "id": "w17",
+   "type": "tp",
+   "topic": "Society",
+   "q": "In some countries, young people are leaving rural areas to live and work in cities. What are the reasons for this? Is it a positive or negative development?",
+   "ideas": [
+    "Работа, образование, услуги",
+    "Нагрузка на города / пустеющие деревни",
+    "Возможные решения"
+   ]
+  },
+  {
+   "id": "w18",
+   "type": "db",
+   "topic": "Culture",
+   "q": "Some people believe that museums and historical sites should be free for everyone. Others think visitors should pay. Discuss both views and give your opinion.",
+   "ideas": [
+    "Доступ к культуре",
+    "Финансирование и содержание",
+    "Льготы для групп"
+   ]
+  },
+  {
+   "id": "w19",
+   "type": "ad",
+   "topic": "Work",
+   "q": "In many countries, people are working fewer hours per week or four days instead of five. What are the advantages and disadvantages of a shorter working week?",
+   "ideas": [
+    "Здоровье, продуктивность",
+    "Затраты бизнеса, услуги",
+    "Не для всех профессий"
+   ]
+  },
+  {
+   "id": "w20",
+   "type": "op",
+   "topic": "Science",
+   "q": "Governments should invest more in scientific research even if it does not lead to immediate benefits. To what extent do you agree or disagree?",
+   "ideas": [
+    "Долгосрочные открытия",
+    "Альтернативные приоритеты",
+    "Роль частного сектора"
+   ]
+  },
+  {
+   "id": "w21",
+   "type": "op",
+   "topic": "Environment",
+   "q": "Some people believe that individuals can do little to protect the environment and that only governments and large companies can make a real difference. To what extent do you agree or disagree?",
+   "ideas": [
+    "Выбор потребителей влияет на рынок",
+    "Масштаб: законы и корпорации",
+    "Вывод: роли дополняют друг друга"
+   ]
+  },
+  {
+   "id": "w22",
+   "type": "db",
+   "topic": "Work",
+   "q": "Some people prefer to work for a large company, while others prefer a small business. Discuss both views and give your own opinion.",
+   "ideas": [
+    "Большая: стабильность, карьера",
+    "Малая: гибкость, ответственность",
+    "Своё мнение"
+   ]
+  },
+  {
+   "id": "w23",
+   "type": "ad",
+   "topic": "Education",
+   "q": "More and more students now study at universities abroad. Do the advantages of this outweigh the disadvantages?",
+   "ideas": [
+    "Языки, опыт, сети контактов",
+    "Стоимость, тоска по дому",
+    "Взвесь и выбери"
+   ]
+  },
+  {
+   "id": "w24",
+   "type": "ps",
+   "topic": "Urban life",
+   "q": "Many city centres suffer from noise and air pollution. What are the causes, and what can be done to improve the situation?",
+   "ideas": [
+    "Транспорт, строительство",
+    "Зоны с низкими выбросами, зелень",
+    "Общественный транспорт"
+   ]
+  },
+  {
+   "id": "w25",
+   "type": "tp",
+   "topic": "Technology",
+   "q": "Many people now spend several hours a day on social media. Why is this? Is it a positive or negative development?",
+   "ideas": [
+    "Общение, развлечение, привычка",
+    "Тревожность vs связь с людьми",
+    "Баланс"
+   ]
+  },
+  {
+   "id": "w26",
+   "type": "op",
+   "topic": "Health",
+   "q": "Governments should tax unhealthy food, such as sugary drinks, to improve public health. To what extent do you agree or disagree?",
+   "ideas": [
+    "Налог меняет поведение",
+    "Бьёт по бедным",
+    "Альтернативы: образование, маркировка"
+   ]
+  },
+  {
+   "id": "w27",
+   "type": "db",
+   "topic": "Society",
+   "q": "Some people think the best way to reduce crime is to give longer prison sentences. Others believe there are better alternatives. Discuss both views and give your own opinion.",
+   "ideas": [
+    "Сдерживание, изоляция",
+    "Образование, работа, профилактика",
+    "Своё мнение"
+   ]
+  },
+  {
+   "id": "w28",
+   "type": "ad",
+   "topic": "Work",
+   "q": "In some countries, more people work from home than before. Do the advantages of this development outweigh the disadvantages?",
+   "ideas": [
+    "Время, гибкость",
+    "Изоляция, границы работа/дом",
+    "Вывод"
+   ]
+  },
+  {
+   "id": "w29",
+   "type": "tp",
+   "topic": "Media",
+   "q": "News is now available around the clock on the internet and on television. What are the effects on society? Is this a positive or negative development?",
+   "ideas": [
+    "Информированность vs перегрузка",
+    "Фейки, скорость",
+    "Вывод"
+   ]
+  },
+  {
+   "id": "w30",
+   "type": "op",
+   "topic": "Culture",
+   "q": "Museums and historical sites should be free for everyone, paid for by taxes. To what extent do you agree or disagree?",
+   "ideas": [
+    "Доступ к культуре",
+    "Деньги на содержание",
+    "Компромисс: льготы"
+   ]
+  }
+ ],
+ "task1": [
+  {
+   "id": "a1",
+   "kind": "line",
+   "title": "Households with internet access in four countries, 2005–2020 (%)",
+   "x": [
+    "2005",
+    "2010",
+    "2015",
+    "2020"
+   ],
+   "series": [
+    {
+     "name": "Country A",
+     "v": [
+      30,
+      52,
+      78,
+      92
+     ]
+    },
+    {
+     "name": "Country B",
+     "v": [
+      18,
+      35,
+      60,
+      81
+     ]
+    },
+    {
+     "name": "Country C",
+     "v": [
+      45,
+      65,
+      80,
+      88
+     ]
+    },
+    {
+     "name": "Country D",
+     "v": [
+      8,
+      20,
+      41,
+      67
+     ]
+    }
+   ],
+   "hint": "тренды, сравнение стартов и финишей"
+  },
+  {
+   "id": "a2",
+   "kind": "bar",
+   "title": "Average weekly leisure time by activity and age group (hours)",
+   "cats": [
+    "16–24",
+    "25–44",
+    "45–64",
+    "65+"
+   ],
+   "series": [
+    {
+     "name": "Screens",
+     "v": [
+      18,
+      12,
+      10,
+      8
+     ]
+    },
+    {
+     "name": "Exercise",
+     "v": [
+      5,
+      3,
+      3,
+      4
+     ]
+    },
+    {
+     "name": "Reading",
+     "v": [
+      2,
+      3,
+      5,
+      9
+     ]
+    }
+   ],
+   "hint": "сгруппируй по возрасту или по активности"
+  },
+  {
+   "id": "a3",
+   "kind": "table",
+   "title": "Main way of travelling to work in five cities (%)",
+   "head": [
+    "City",
+    "Car",
+    "Public transport",
+    "Bicycle",
+    "On foot"
+   ],
+   "rows": [
+    [
+     "Northport",
+     62,
+     20,
+     6,
+     12
+    ],
+    [
+     "Eastvale",
+     38,
+     41,
+     9,
+     12
+    ],
+    [
+     "Southgate",
+     71,
+     14,
+     3,
+     12
+    ],
+    [
+     "Westbury",
+     29,
+     35,
+     24,
+     12
+    ],
+    [
+     "Midtown",
+     50,
+     30,
+     8,
+     12
+    ]
+   ],
+   "hint": "найди максимумы/минимумы, закономерность по Car"
+  },
+  {
+   "id": "a4",
+   "kind": "pie",
+   "title": "Sources of household energy, 2000 and 2020 (%)",
+   "charts": [
+    {
+     "label": "2000",
+     "parts": [
+      {
+       "n": "Coal",
+       "v": 38
+      },
+      {
+       "n": "Gas",
+       "v": 34
+      },
+      {
+       "n": "Oil",
+       "v": 18
+      },
+      {
+       "n": "Renewables",
+       "v": 10
+      }
+     ]
+    },
+    {
+     "label": "2020",
+     "parts": [
+      {
+       "n": "Coal",
+       "v": 12
+      },
+      {
+       "n": "Gas",
+       "v": 36
+      },
+      {
+       "n": "Oil",
+       "v": 9
+      },
+      {
+       "n": "Renewables",
+       "v": 43
+      }
+     ]
+    }
+   ],
+   "hint": "изменения по каждому источнику"
+  },
+  {
+   "id": "a5",
+   "kind": "line",
+   "title": "Average monthly rainfall in two cities (mm)",
+   "x": [
+    "Jan",
+    "Mar",
+    "May",
+    "Jul",
+    "Sep",
+    "Nov"
+   ],
+   "series": [
+    {
+     "name": "Bayford",
+     "v": [
+      90,
+      70,
+      50,
+      20,
+      45,
+      85
+     ]
+    },
+    {
+     "name": "Carrow",
+     "v": [
+      30,
+      35,
+      60,
+      95,
+      70,
+      40
+     ]
+    }
+   ],
+   "hint": "противоположные сезонные пики"
+  },
+  {
+   "id": "a6",
+   "kind": "bar",
+   "title": "Recycling rates by material, 2010 and 2020 (%)",
+   "cats": [
+    "Paper",
+    "Glass",
+    "Plastic",
+    "Metal"
+   ],
+   "series": [
+    {
+     "name": "2010",
+     "v": [
+      55,
+      40,
+      15,
+      48
+     ]
+    },
+    {
+     "name": "2020",
+     "v": [
+      72,
+      58,
+      38,
+      60
+     ]
+    }
+   ],
+   "hint": "рост везде; самый сильный — plastic"
+  },
+  {
+   "id": "a7",
+   "kind": "table",
+   "title": "Visitors to five museums (thousands per year)",
+   "head": [
+    "Museum",
+    "2015",
+    "2020"
+   ],
+   "rows": [
+    [
+     "Science Hall",
+     420,
+     380
+    ],
+    [
+     "City History",
+     310,
+     450
+    ],
+    [
+     "Modern Art",
+     280,
+     260
+    ],
+    [
+     "Maritime",
+     150,
+     210
+    ],
+    [
+     "Natural World",
+     500,
+     640
+    ]
+   ],
+   "hint": "кто вырос, кто упал"
+  },
+  {
+   "id": "a8",
+   "kind": "line",
+   "title": "Electricity from renewable sources, 2000–2020 (terawatt hours)",
+   "x": [
+    "2000",
+    "2005",
+    "2010",
+    "2015",
+    "2020"
+   ],
+   "series": [
+    {
+     "name": "Wind",
+     "v": [
+      5,
+      15,
+      45,
+      95,
+      170
+     ]
+    },
+    {
+     "name": "Solar",
+     "v": [
+      1,
+      3,
+      12,
+      60,
+      150
+     ]
+    },
+    {
+     "name": "Hydro",
+     "v": [
+      110,
+      115,
+      118,
+      120,
+      122
+     ]
+    }
+   ],
+   "hint": "hydro стабилен; wind и solar растут быстро"
+  },
+  {
+   "id": "a9",
+   "kind": "bar",
+   "title": "Percentage of adults who use online banking, by age group, 2012 and 2022",
+   "cats": [
+    "18–29",
+    "30–44",
+    "45–59",
+    "60+"
+   ],
+   "series": [
+    {
+     "name": "2012",
+     "v": [
+      48,
+      41,
+      27,
+      9
+     ]
+    },
+    {
+     "name": "2022",
+     "v": [
+      93,
+      89,
+      76,
+      45
+     ]
+    }
+   ],
+   "hint": "рост везде; самый большой скачок у 60+"
+  },
+  {
+   "id": "a10",
+   "kind": "line",
+   "title": "Average daily steps in three cities, 2015–2023 (thousands)",
+   "x": [
+    "2015",
+    "2017",
+    "2019",
+    "2021",
+    "2023"
+   ],
+   "series": [
+    {
+     "name": "Alton",
+     "v": [
+      6.2,
+      6.5,
+      6.9,
+      7.4,
+      8.1
+     ]
+    },
+    {
+     "name": "Brix",
+     "v": [
+      7.8,
+      7.6,
+      7.1,
+      6.9,
+      7.0
+     ]
+    },
+    {
+     "name": "Cardon",
+     "v": [
+      5.1,
+      5.9,
+      6.4,
+      6.6,
+      6.5
+     ]
+    }
+   ],
+   "hint": "три разных тренда"
+  },
+  {
+   "id": "a11",
+   "kind": "table",
+   "title": "Hours spent on selected activities by students in four countries (per week)",
+   "head": [
+    "Country",
+    "Study",
+    "Part-time work",
+    "Sport",
+    "Sleep"
+   ],
+   "rows": [
+    [
+     "Country A",
+     32,
+     6,
+     5,
+     52
+    ],
+    [
+     "Country B",
+     24,
+     12,
+     4,
+     56
+    ],
+    [
+     "Country C",
+     38,
+     3,
+     7,
+     49
+    ],
+    [
+     "Country D",
+     28,
+     9,
+     3,
+     54
+    ]
+   ],
+   "hint": "сравни по каждому столбцу, выдели экстремумы"
+  }
+ ],
+ "gt": [
+  {
+   "id": "g1",
+   "tone": "Formal",
+   "q": "You recently stayed at a hotel. The heating did not work properly during your stay. Write a letter to the hotel manager. In your letter: describe what went wrong; explain how it affected your stay; say what you would like the hotel to do."
+  },
+  {
+   "id": "g2",
+   "tone": "Informal",
+   "q": "A friend is visiting your town next month. Write a letter to your friend. In your letter: tell him or her what the weather is usually like; suggest things to do; offer to meet him or her at the station."
+  },
+  {
+   "id": "g3",
+   "tone": "Formal",
+   "q": "You would like to join an evening course at a local college. Write a letter to the college secretary. In your letter: say which course interests you; explain why you want to take it; ask about dates, price and registration."
+  },
+  {
+   "id": "g4",
+   "tone": "Semi-formal",
+   "q": "Your neighbour plays loud music late at night. Write a letter to your neighbour. In your letter: describe the problem; explain how it affects you; suggest a solution."
+  },
+  {
+   "id": "g5",
+   "tone": "Informal",
+   "q": "You have just started a new job. Write a letter to a friend. In your letter: describe the job; say what you like and dislike about it; invite your friend to visit you."
+  },
+  {
+   "id": "g6",
+   "tone": "Formal",
+   "q": "You borrowed a book from the town library and lost it. Write a letter to the librarian. In your letter: explain what happened; say when you borrowed the book; offer to solve the problem."
+  },
+  {
+   "id": "g7",
+   "tone": "Semi-formal",
+   "q": "A neighbour is going on holiday and has asked you to look after their pet. Write a letter to your neighbour. In your letter: say whether you can help; explain what you will need to know; suggest when to meet before they leave."
+  },
+  {
+   "id": "g8",
+   "tone": "Formal",
+   "q": "You bought an item online but it arrived damaged. Write a letter to the company. In your letter: describe the problem; explain what you have already done; say what you want the company to do."
+  },
+  {
+   "id": "g9",
+   "tone": "Informal",
+   "q": "A friend has just moved to your city and is looking for a place to study English. Write a letter to your friend. In your letter: suggest a place; explain why it is good; offer to go there together."
+  }
+ ]
+}

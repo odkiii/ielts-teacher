@@ -1,112 +1,431 @@
 {
-  "resourceMap": {
-    "L:basic": ["bbc-6-minute-english", "elllo", "breaking-news-english", "ted-ed-lessons", "voa-learning-english"],
-    "L:academic": ["ted-talks", "reading-uni-lectures", "yt-yale", "yt-stanford", "academic-english-uk-listening"],
-    "L:test": ["engnovate", "idp-prepare-hub", "ielts-org", "engexam-listening"],
-    "R:basic": ["breaking-news-english", "voa-learning-english", "ielts-liz"],
-    "R:test": ["engnovate", "idp-prepare-hub", "ielts-org"],
-    "W": ["ielts-simon", "idp-prepare-writing-band8", "ielts-liz", "yt-ielts-advantage", "yt-e2-ielts"],
-    "S": ["yourielts-speaking", "ielts-liz", "yt-ielts-liz", "yt-e2-ielts", "shadowingenglish"],
-    "V": ["oxford-wordlists", "ngsl-nawl", "awl-eap-foundation", "avl-english-corpora", "english-vocabulary-profile"],
-    "G": ["cambridge-dictionary-grammar"]
-  },
-  "questionTypes": ["True/False/Not Given", "Matching Headings", "Matching Information", "Sentence Completion", "Multiple Choice", "Summary Completion", "Yes/No/Not Given", "Table/Flow-chart Completion"],
-  "task1Types": ["линейный график (динамика)", "столбчатая диаграмма (сравнение)", "круговые диаграммы (доли)", "таблица", "процесс (цикл)", "карта (изменения)", "смешанный график + таблица"],
-  "letterPrompts": [
-    { "tone": "formal", "text": "Напиши письмо в управляющую компанию: в вашем доме неделю нет горячей воды. Опиши проблему, что уже делали, и что просишь." },
-    { "tone": "semi-formal", "text": "Напиши письмо руководителю: ты хочешь взять неделю отпуска вне графика. Объясни причину и предложи, как закрыть задачи." },
-    { "tone": "informal", "text": "Напиши другу: ты приглашаешь его на свой день рождения. Дай детали, предложи варианты, как добраться." },
-    { "tone": "formal", "text": "Напиши в магазин: товар пришёл с дефектом. Опиши, чего ждёшь (замена/возврат)." },
-    { "tone": "semi-formal", "text": "Напиши соседу: музыка по вечерам мешает. Вежливо попроси решить вопрос." },
-    { "tone": "informal", "text": "Напиши другу из другой страны: расскажи о недавней поездке и предложи встретиться." }
+ "resourceMap": {
+  "L:basic": [
+   "bbc-6-minute-english",
+   "elllo",
+   "breaking-news-english",
+   "ted-ed-lessons",
+   "voa-learning-english"
   ],
-  "writingPrompts": [
-    { "type": "opinion", "text": "Some people believe that children should start learning a foreign language at primary school. To what extent do you agree or disagree?" },
-    { "type": "discussion", "text": "Some people think governments should spend money on public transport, while others think roads should be improved. Discuss both views and give your opinion." },
-    { "type": "advantages/disadvantages", "text": "More people now work from home. Do the advantages of this outweigh the disadvantages?" },
-    { "type": "problem/solution", "text": "In many cities, traffic congestion is a growing problem. What are the causes, and what measures could be taken to reduce it?" },
-    { "type": "opinion", "text": "Some argue that university education should be free for everyone. To what extent do you agree or disagree?" },
-    { "type": "two-part", "text": "Many people spend a large part of their free time on social media. Why is this? Is it a positive or negative development?" },
-    { "type": "discussion", "text": "Some people prefer to buy products made in their own country; others prefer imported goods. Discuss both views and give your opinion." },
-    { "type": "problem/solution", "text": "Obesity is increasing in many countries. What are the reasons, and what can individuals and governments do about it?" },
-    { "type": "opinion", "text": "Technology makes people less creative. To what extent do you agree or disagree?" },
-    { "type": "advantages/disadvantages", "text": "Tourism brings money to many regions but may damage local culture and the environment. Do the benefits outweigh the drawbacks?" },
-    { "type": "two-part", "text": "Fewer people read books nowadays. What are the reasons for this, and is it a problem?" },
-    { "type": "opinion", "text": "It is better for a country to have a few large cities than many small towns. To what extent do you agree or disagree?" }
+  "L:academic": [
+   "ted-talks",
+   "reading-uni-lectures",
+   "yt-yale",
+   "yt-stanford",
+   "academic-english-uk-listening"
   ],
-  "speakingTopics": ["Hometown", "Work or studies", "Home and accommodation", "Food and cooking", "Free time and hobbies", "Technology", "Travel", "Weather", "Music", "Health and exercise", "Family", "Friends", "Shopping", "Transport", "Reading", "Sleep", "Social media", "Sport", "Neighbours", "Daily routine"],
-  "cueCards": [
-    "Describe a person who has influenced you",
-    "Describe a place you would like to visit",
-    "Describe a time you helped someone",
-    "Describe an object that is important to you",
-    "Describe a skill you learned recently",
-    "Describe a memorable meal",
-    "Describe a book or film you enjoyed",
-    "Describe a time you were late",
-    "Describe a piece of good news you received",
-    "Describe a place in your city you like to go",
-    "Describe a goal you want to achieve",
-    "Describe a time you changed your mind",
-    "Describe an interesting teacher you remember",
-    "Describe a journey you remember well",
-    "Describe a decision you made that was difficult",
-    "Describe a time you were very busy"
+  "L:test": [
+   "engnovate",
+   "idp-prepare-hub",
+   "ielts-org",
+   "engexam-listening"
   ],
-  "cards": [
-    { "f": "Task 1: резко вырос (verb)", "b": "soared / surged / rocketed — The figure surged to 40% in 2015." },
-    { "f": "Task 1: резко упал (verb)", "b": "plummeted / plunged / dropped sharply — Sales plummeted in March." },
-    { "f": "Task 1: стабильно рос", "b": "rose steadily / climbed gradually — Output climbed gradually over the decade." },
-    { "f": "Task 1: колебался", "b": "fluctuated around — Prices fluctuated around $50." },
-    { "f": "Task 1: достиг пика", "b": "peaked at — Usage peaked at 60% in 2010." },
-    { "f": "Task 1: стабилизировался", "b": "levelled off at / remained stable at — It levelled off at 20%." },
-    { "f": "Task 1: составлял треть", "b": "accounted for roughly a third / made up 33% of the total" },
-    { "f": "Task 1: чуть больше / чуть меньше", "b": "just over / just under / approximately / roughly" },
-    { "f": "Task 1: в два раза выше", "b": "twice as high as / double the figure for" },
-    { "f": "Task 1: Overview — главное", "b": "Overall, … / The most striking feature is that… / In general, there was an upward trend in…" },
-    { "f": "Task 1: в отличие от", "b": "By contrast, … / Whereas … / In comparison, …" },
-    { "f": "Task 1 процесс: начинается с", "b": "The process begins with… / The first stage involves…" },
-    { "f": "Task 1 процесс: затем", "b": "This is followed by… / Once this is complete, … / Subsequently, …" },
-    { "f": "Task 1 карта: был заменён", "b": "was replaced by / was converted into / was demolished to make way for" },
-    { "f": "Task 2: моя позиция", "b": "This essay will argue that… / I partly agree with this view because…" },
-    { "f": "Task 2: одна веская причина", "b": "One compelling reason is that… / This is largely because…" },
-    { "f": "Task 2: приведу пример", "b": "For instance, … / A case in point is…" },
-    { "f": "Task 2: безусловно… но", "b": "Admittedly, …, but… / That said, … / Critics might argue that…" },
-    { "f": "Task 2: как результат", "b": "As a result, … / Consequently, … / This, in turn, leads to…" },
-    { "f": "Task 2: осторожное утверждение (hedging)", "b": "tends to / is likely to / may lead to / can be attributed to / to some extent" },
-    { "f": "Task 2: вывод", "b": "In conclusion, the benefits of … outweigh the drawbacks, provided that…" },
-    { "f": "collocation: давать преимущество", "b": "gain / have a competitive advantage — Bilingual staff gain a competitive advantage." },
-    { "f": "collocation: оказывать давление", "b": "place a burden on / put pressure on — Ageing places a burden on healthcare." },
-    { "f": "collocation: повышать осведомлённость", "b": "raise awareness of — Campaigns raise awareness of recycling." },
-    { "f": "collocation: принимать меры", "b": "take measures to / take steps to — Governments must take steps to cut emissions." },
-    { "f": "collocation: вредный для", "b": "detrimental to / harmful to — Noise is detrimental to health." },
-    { "f": "collocation: найти баланс", "b": "strike a balance between work and leisure" },
-    { "f": "collocation: сократить разрыв", "b": "narrow / bridge the gap between rich and poor" },
-    { "f": "collocation: долгосрочные последствия", "b": "long-term consequences / far-reaching effects" },
-    { "f": "collocation: культурное разнообразие", "b": "cultural diversity / cultural heritage" },
-    { "f": "collocation: решать проблему безработицы", "b": "tackle unemployment / address the issue of…" },
-    { "f": "collocation: экологические проблемы", "b": "environmental degradation / pressing environmental issues" },
-    { "f": "collocation: возобновляемая энергия", "b": "renewable energy sources / switch to renewables" },
-    { "f": "collocation: инфраструктура общественного транспорта", "b": "public transport infrastructure / improve transport links" },
-    { "f": "paraphrase: increase", "b": "rise / grow / climb / go up" },
-    { "f": "paraphrase: problem", "b": "issue / challenge / difficulty / concern" },
-    { "f": "paraphrase: people", "b": "individuals / the public / citizens / residents" },
-    { "f": "paraphrase: important", "b": "significant / vital / crucial / essential" },
-    { "f": "paraphrase: help", "b": "assist / support / contribute to / benefit" },
-    { "f": "paraphrase: many people believe", "b": "It is widely believed that… / A large number of people argue that…" },
-    { "f": "Speaking P1: мягкое начало ответа", "b": "I'd say… / To be honest, … / It depends on… / Not really, but…" },
-    { "f": "Speaking P2: вступление", "b": "I'd like to talk about… / The person I have in mind is…" },
-    { "f": "Speaking P2: детали", "b": "What stood out to me was… / It was the kind of place where…" },
-    { "f": "Speaking P2: оценка", "b": "Looking back, I realise that… / It left me feeling…" },
-    { "f": "Speaking P2: завершение", "b": "All in all, … / That's pretty much it." },
-    { "f": "Speaking P3: общие формулировки", "b": "People tend to… / Society often… / In my experience, …" },
-    { "f": "Speaking P3: на одной стороне… на другой", "b": "On the one hand, … on the other hand, …" },
-    { "f": "Speaking: выиграть время", "b": "That's an interesting question… / Let me think… / How can I put it…" },
-    { "f": "Speaking: уточнить/поправиться", "b": "What I mean is… / Let me put it another way…" },
-    { "f": "Формула ответа Part 3", "b": "Answer → Explain → Example (прямой ответ → причина → пример)" },
-    { "f": "Letter (formal): цель письма", "b": "I am writing to express my concern about… / I am writing to enquire about…" },
-    { "f": "Letter (formal): просьба", "b": "I would be grateful if you could… / I would appreciate it if you could…" },
-    { "f": "Letter (formal): завершение", "b": "I look forward to hearing from you. / Yours faithfully, (Dear Sir/Madam)" },
-    { "f": "Letter (informal): начало и конец", "b": "Thanks so much for… / It was great to hear that… / Let me know if you can make it." }
+  "R:basic": [
+   "breaking-news-english",
+   "voa-learning-english",
+   "ielts-liz"
+  ],
+  "R:test": [
+   "engnovate",
+   "idp-prepare-hub",
+   "ielts-org"
+  ],
+  "W": [
+   "ielts-simon",
+   "idp-prepare-writing-band8",
+   "ielts-liz",
+   "yt-ielts-advantage",
+   "yt-e2-ielts"
+  ],
+  "S": [
+   "yourielts-speaking",
+   "ielts-liz",
+   "yt-ielts-liz",
+   "yt-e2-ielts",
+   "shadowingenglish"
+  ],
+  "V": [
+   "oxford-wordlists",
+   "ngsl-nawl",
+   "awl-eap-foundation",
+   "avl-english-corpora",
+   "english-vocabulary-profile"
+  ],
+  "G": [
+   "cambridge-dictionary-grammar"
   ]
+ },
+ "questionTypes": [
+  "True/False/Not Given",
+  "Matching Headings",
+  "Matching Information",
+  "Sentence Completion",
+  "Multiple Choice",
+  "Summary Completion",
+  "Yes/No/Not Given",
+  "Table/Flow-chart Completion"
+ ],
+ "task1Types": [
+  "линейный график (динамика)",
+  "столбчатая диаграмма (сравнение)",
+  "круговые диаграммы (доли)",
+  "таблица",
+  "процесс (цикл)",
+  "карта (изменения)",
+  "смешанный график + таблица"
+ ],
+ "letterPrompts": [
+  {
+   "tone": "formal",
+   "text": "Напиши письмо в управляющую компанию: в вашем доме неделю нет горячей воды. Опиши проблему, что уже делали, и что просишь."
+  },
+  {
+   "tone": "semi-formal",
+   "text": "Напиши письмо руководителю: ты хочешь взять неделю отпуска вне графика. Объясни причину и предложи, как закрыть задачи."
+  },
+  {
+   "tone": "informal",
+   "text": "Напиши другу: ты приглашаешь его на свой день рождения. Дай детали, предложи варианты, как добраться."
+  },
+  {
+   "tone": "formal",
+   "text": "Напиши в магазин: товар пришёл с дефектом. Опиши, чего ждёшь (замена/возврат)."
+  },
+  {
+   "tone": "semi-formal",
+   "text": "Напиши соседу: музыка по вечерам мешает. Вежливо попроси решить вопрос."
+  },
+  {
+   "tone": "informal",
+   "text": "Напиши другу из другой страны: расскажи о недавней поездке и предложи встретиться."
+  }
+ ],
+ "writingPrompts": [
+  {
+   "type": "opinion",
+   "text": "Some people believe that children should start learning a foreign language at primary school. To what extent do you agree or disagree?"
+  },
+  {
+   "type": "discussion",
+   "text": "Some people think governments should spend money on public transport, while others think roads should be improved. Discuss both views and give your opinion."
+  },
+  {
+   "type": "advantages/disadvantages",
+   "text": "More people now work from home. Do the advantages of this outweigh the disadvantages?"
+  },
+  {
+   "type": "problem/solution",
+   "text": "In many cities, traffic congestion is a growing problem. What are the causes, and what measures could be taken to reduce it?"
+  },
+  {
+   "type": "opinion",
+   "text": "Some argue that university education should be free for everyone. To what extent do you agree or disagree?"
+  },
+  {
+   "type": "two-part",
+   "text": "Many people spend a large part of their free time on social media. Why is this? Is it a positive or negative development?"
+  },
+  {
+   "type": "discussion",
+   "text": "Some people prefer to buy products made in their own country; others prefer imported goods. Discuss both views and give your opinion."
+  },
+  {
+   "type": "problem/solution",
+   "text": "Obesity is increasing in many countries. What are the reasons, and what can individuals and governments do about it?"
+  },
+  {
+   "type": "opinion",
+   "text": "Technology makes people less creative. To what extent do you agree or disagree?"
+  },
+  {
+   "type": "advantages/disadvantages",
+   "text": "Tourism brings money to many regions but may damage local culture and the environment. Do the benefits outweigh the drawbacks?"
+  },
+  {
+   "type": "two-part",
+   "text": "Fewer people read books nowadays. What are the reasons for this, and is it a problem?"
+  },
+  {
+   "type": "opinion",
+   "text": "It is better for a country to have a few large cities than many small towns. To what extent do you agree or disagree?"
+  }
+ ],
+ "speakingTopics": [
+  "Hometown",
+  "Work or studies",
+  "Home and accommodation",
+  "Food and cooking",
+  "Free time and hobbies",
+  "Technology",
+  "Travel",
+  "Weather",
+  "Music",
+  "Health and exercise",
+  "Family",
+  "Friends",
+  "Shopping",
+  "Transport",
+  "Reading",
+  "Sleep",
+  "Social media",
+  "Sport",
+  "Neighbours",
+  "Daily routine",
+  "Clothes",
+  "Holidays and festivals",
+  "Birthdays",
+  "Colours",
+  "Photography",
+  "Handwriting",
+  "Museums",
+  "Public transport",
+  "Languages",
+  "Cooking at home",
+  "Pets",
+  "The internet",
+  "Mobile phones",
+  "Small talk",
+  "Noise",
+  "Parks and nature",
+  "Bicycles",
+  "Weekends",
+  "TV and films",
+  "Gifts"
+ ],
+ "cueCards": [
+  "Describe a person who has influenced you",
+  "Describe a place you would like to visit",
+  "Describe a time you helped someone",
+  "Describe an object that is important to you",
+  "Describe a skill you learned recently",
+  "Describe a memorable meal",
+  "Describe a book or film you enjoyed",
+  "Describe a time you were late",
+  "Describe a piece of good news you received",
+  "Describe a place in your city you like to go",
+  "Describe a goal you want to achieve",
+  "Describe a time you changed your mind",
+  "Describe an interesting teacher you remember",
+  "Describe a journey you remember well",
+  "Describe a decision you made that was difficult",
+  "Describe a time you were very busy"
+ ],
+ "cards": [
+  {
+   "f": "Task 1: резко вырос (verb)",
+   "b": "soared / surged / rocketed — The figure surged to 40% in 2015."
+  },
+  {
+   "f": "Task 1: резко упал (verb)",
+   "b": "plummeted / plunged / dropped sharply — Sales plummeted in March."
+  },
+  {
+   "f": "Task 1: стабильно рос",
+   "b": "rose steadily / climbed gradually — Output climbed gradually over the decade."
+  },
+  {
+   "f": "Task 1: колебался",
+   "b": "fluctuated around — Prices fluctuated around $50."
+  },
+  {
+   "f": "Task 1: достиг пика",
+   "b": "peaked at — Usage peaked at 60% in 2010."
+  },
+  {
+   "f": "Task 1: стабилизировался",
+   "b": "levelled off at / remained stable at — It levelled off at 20%."
+  },
+  {
+   "f": "Task 1: составлял треть",
+   "b": "accounted for roughly a third / made up 33% of the total"
+  },
+  {
+   "f": "Task 1: чуть больше / чуть меньше",
+   "b": "just over / just under / approximately / roughly"
+  },
+  {
+   "f": "Task 1: в два раза выше",
+   "b": "twice as high as / double the figure for"
+  },
+  {
+   "f": "Task 1: Overview — главное",
+   "b": "Overall, … / The most striking feature is that… / In general, there was an upward trend in…"
+  },
+  {
+   "f": "Task 1: в отличие от",
+   "b": "By contrast, … / Whereas … / In comparison, …"
+  },
+  {
+   "f": "Task 1 процесс: начинается с",
+   "b": "The process begins with… / The first stage involves…"
+  },
+  {
+   "f": "Task 1 процесс: затем",
+   "b": "This is followed by… / Once this is complete, … / Subsequently, …"
+  },
+  {
+   "f": "Task 1 карта: был заменён",
+   "b": "was replaced by / was converted into / was demolished to make way for"
+  },
+  {
+   "f": "Task 2: моя позиция",
+   "b": "This essay will argue that… / I partly agree with this view because…"
+  },
+  {
+   "f": "Task 2: одна веская причина",
+   "b": "One compelling reason is that… / This is largely because…"
+  },
+  {
+   "f": "Task 2: приведу пример",
+   "b": "For instance, … / A case in point is…"
+  },
+  {
+   "f": "Task 2: безусловно… но",
+   "b": "Admittedly, …, but… / That said, … / Critics might argue that…"
+  },
+  {
+   "f": "Task 2: как результат",
+   "b": "As a result, … / Consequently, … / This, in turn, leads to…"
+  },
+  {
+   "f": "Task 2: осторожное утверждение (hedging)",
+   "b": "tends to / is likely to / may lead to / can be attributed to / to some extent"
+  },
+  {
+   "f": "Task 2: вывод",
+   "b": "In conclusion, the benefits of … outweigh the drawbacks, provided that…"
+  },
+  {
+   "f": "collocation: давать преимущество",
+   "b": "gain / have a competitive advantage — Bilingual staff gain a competitive advantage."
+  },
+  {
+   "f": "collocation: оказывать давление",
+   "b": "place a burden on / put pressure on — Ageing places a burden on healthcare."
+  },
+  {
+   "f": "collocation: повышать осведомлённость",
+   "b": "raise awareness of — Campaigns raise awareness of recycling."
+  },
+  {
+   "f": "collocation: принимать меры",
+   "b": "take measures to / take steps to — Governments must take steps to cut emissions."
+  },
+  {
+   "f": "collocation: вредный для",
+   "b": "detrimental to / harmful to — Noise is detrimental to health."
+  },
+  {
+   "f": "collocation: найти баланс",
+   "b": "strike a balance between work and leisure"
+  },
+  {
+   "f": "collocation: сократить разрыв",
+   "b": "narrow / bridge the gap between rich and poor"
+  },
+  {
+   "f": "collocation: долгосрочные последствия",
+   "b": "long-term consequences / far-reaching effects"
+  },
+  {
+   "f": "collocation: культурное разнообразие",
+   "b": "cultural diversity / cultural heritage"
+  },
+  {
+   "f": "collocation: решать проблему безработицы",
+   "b": "tackle unemployment / address the issue of…"
+  },
+  {
+   "f": "collocation: экологические проблемы",
+   "b": "environmental degradation / pressing environmental issues"
+  },
+  {
+   "f": "collocation: возобновляемая энергия",
+   "b": "renewable energy sources / switch to renewables"
+  },
+  {
+   "f": "collocation: инфраструктура общественного транспорта",
+   "b": "public transport infrastructure / improve transport links"
+  },
+  {
+   "f": "paraphrase: increase",
+   "b": "rise / grow / climb / go up"
+  },
+  {
+   "f": "paraphrase: problem",
+   "b": "issue / challenge / difficulty / concern"
+  },
+  {
+   "f": "paraphrase: people",
+   "b": "individuals / the public / citizens / residents"
+  },
+  {
+   "f": "paraphrase: important",
+   "b": "significant / vital / crucial / essential"
+  },
+  {
+   "f": "paraphrase: help",
+   "b": "assist / support / contribute to / benefit"
+  },
+  {
+   "f": "paraphrase: many people believe",
+   "b": "It is widely believed that… / A large number of people argue that…"
+  },
+  {
+   "f": "Speaking P1: мягкое начало ответа",
+   "b": "I'd say… / To be honest, … / It depends on… / Not really, but…"
+  },
+  {
+   "f": "Speaking P2: вступление",
+   "b": "I'd like to talk about… / The person I have in mind is…"
+  },
+  {
+   "f": "Speaking P2: детали",
+   "b": "What stood out to me was… / It was the kind of place where…"
+  },
+  {
+   "f": "Speaking P2: оценка",
+   "b": "Looking back, I realise that… / It left me feeling…"
+  },
+  {
+   "f": "Speaking P2: завершение",
+   "b": "All in all, … / That's pretty much it."
+  },
+  {
+   "f": "Speaking P3: общие формулировки",
+   "b": "People tend to… / Society often… / In my experience, …"
+  },
+  {
+   "f": "Speaking P3: на одной стороне… на другой",
+   "b": "On the one hand, … on the other hand, …"
+  },
+  {
+   "f": "Speaking: выиграть время",
+   "b": "That's an interesting question… / Let me think… / How can I put it…"
+  },
+  {
+   "f": "Speaking: уточнить/поправиться",
+   "b": "What I mean is… / Let me put it another way…"
+  },
+  {
+   "f": "Формула ответа Part 3",
+   "b": "Answer → Explain → Example (прямой ответ → причина → пример)"
+  },
+  {
+   "f": "Letter (formal): цель письма",
+   "b": "I am writing to express my concern about… / I am writing to enquire about…"
+  },
+  {
+   "f": "Letter (formal): просьба",
+   "b": "I would be grateful if you could… / I would appreciate it if you could…"
+  },
+  {
+   "f": "Letter (formal): завершение",
+   "b": "I look forward to hearing from you. / Yours faithfully, (Dear Sir/Madam)"
+  },
+  {
+   "f": "Letter (informal): начало и конец",
+   "b": "Thanks so much for… / It was great to hear that… / Let me know if you can make it."
+  }
+ ]
 }

@@ -8,7 +8,7 @@
 - Формат строки: `term|перевод|пример с [[формой слова]]|pos|домен`. Сборка: `npm run data`.
 
 ## Reading (`app/data/reading.json`)
-3 учебных текста (Academic-формат, 40 вопросов: matching headings, matching information, True/False/Not Given, completion). Тексты оригинальные; не из Cambridge/IDP/British Council. Типы заданий соответствуют официальному описанию формата (см. [IDP: Reading question types](https://ielts.idp.com/prepare/article-ielts-reading-question-types)). Пересчёт в band — приблизительный.
+5 учебных текстов (Academic-формат, 66 вопросов: matching headings, matching information, True/False/Not Given, completion). Тексты оригинальные; не из Cambridge/IDP/British Council. Типы заданий соответствуют официальному описанию формата (см. [IDP: Reading question types](https://ielts.idp.com/prepare/article-ielts-reading-question-types)). Пересчёт в band — приблизительный.
 
 ## Writing (`app/data/writing.json`)
 20 вопросов Task 2, 8 заданий Task 1 (данные вымышленные), 6 писем GT. Темы отражают повторяющиеся кластеры 2024–2026 из отчётов кандидатов (образование, технологии и работа, окружающая среда, здоровье, город и транспорт, культура, преступность, СМИ). Настоящие вопросы IELTS не публикуются, поэтому это не оригинальные экзаменационные задания.

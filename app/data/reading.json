@@ -1,1 +1,838 @@
-{"note":"Учебные тексты написаны для проекта в формате IELTS Academic Reading; это не материалы реального экзамена.","tests":[{"id":"r1","title":"Walking back to the centre","topic":"Urban planning","minutes":20,"paras":[{"k":"A","t":"For most of the twentieth century, city planners designed for cars. Wide roads, large car parks and separate zones for housing, shopping and work made sense when petrol was cheap and traffic was light. Over time, however, this approach produced neighbourhoods in which even a loaf of bread required a drive. Today, a growing number of cities are reversing that logic and trying to bring daily destinations within walking distance of people's homes."},{"k":"B","t":"The idea is often summarised as the \"fifteen-minute city\": shops, schools, clinics and parks should be reachable on foot or by bicycle in a quarter of an hour. Supporters argue that this is not a new invention but a return to the way towns grew before mass car ownership. Critics reply that no planning slogan can fit every place, and that people also travel across a city for work, specialised health care and leisure, journeys that no single neighbourhood can absorb."},{"k":"C","t":"The health case for walkable districts is straightforward. People who walk or cycle to everyday destinations build physical activity into their routine without needing a gym membership. Doctors point out that this kind of gentle, regular movement is easier to sustain than intensive exercise programmes, which many adults abandon within months. Less traffic also means cleaner air and quieter streets, benefits that are felt most strongly by children and older residents."},{"k":"D","t":"Local shops have a stake in the change as well. Studies of streets that were closed to cars on a trial basis often report that customers visit more often, although they tend to spend less on each visit. Shop owners are frequently suspicious at first, fearing that drivers will go elsewhere. In several cases those fears faded once the owners saw the number of passers-by rise, but the evidence is not uniform, and some businesses that depend on deliveries have struggled."},{"k":"E","t":"Not everyone gains equally. Neighbourhoods that become pleasant to walk in tend to become more expensive, and long-standing residents may be priced out. Planners therefore combine street improvements with measures to keep housing affordable, such as limits on rent increases or requirements that new developments include lower-cost flats. Without such measures, the people the policy is meant to help may be the first to leave."},{"k":"F","t":"Finally, there is the question of speed. Redesigning a street can take a few weeks with paint and planters, but rebuilding a district's shops, schools and homes takes decades. Most experts therefore see walkable planning as a direction rather than a destination: small changes made consistently, rather than a single dramatic transformation."}],"groups":[{"type":"mh","title":"Questions 1–6","instr":"The text has six paragraphs, A–F. Choose the correct heading for each paragraph from the list of headings below. Write the correct number, i–viii. Two headings are not needed.","options":[["i","The risk of pushing out existing residents"],["ii","A long-term process rather than a quick fix"],["iii","From car-centred planning to a different goal"],["iv","A simple idea with its doubters"],["v","Benefits for body and environment"],["vi","Mixed results for local traders"],["vii","Government plans to ban private cars"],["viii","The invention of the bicycle"]],"items":[{"n":1,"q":"Paragraph A","a":"iii","why":"A describes how planning for cars is now being reversed."},{"n":2,"q":"Paragraph B","a":"iv","why":"B presents the fifteen-minute idea and the critics' reply."},{"n":3,"q":"Paragraph C","a":"v","why":"C: physical activity, cleaner air, quieter streets."},{"n":4,"q":"Paragraph D","a":"vi","why":"D: customers visit more but spend less; some businesses struggled."},{"n":5,"q":"Paragraph E","a":"i","why":"E: long-standing residents may be priced out."},{"n":6,"q":"Paragraph F","a":"ii","why":"F: decades of rebuilding; a direction, not a destination."}]},{"type":"tfng","title":"Questions 7–11","instr":"Do the following statements agree with the information in the text? Choose TRUE if the statement agrees, FALSE if it contradicts, NOT GIVEN if there is no information.","items":[{"n":7,"q":"Supporters say the fifteen-minute city is a recent invention.","a":"F","why":"B: 'not a new invention but a return to the way towns grew'."},{"n":8,"q":"Critics note that some journeys cannot be made within a single neighbourhood.","a":"T","why":"B: people also travel across a city for work, health care and leisure."},{"n":9,"q":"Doctors consider intensive exercise programmes more effective than everyday walking.","a":"NG","why":"C says gentle movement is easier to sustain, but never compares effectiveness."},{"n":10,"q":"Shops on trial car-free streets always lose customers.","a":"F","why":"D: customers often visit more often."},{"n":11,"q":"Some shops that rely on deliveries have found pedestrianised streets difficult.","a":"T","why":"D: 'businesses that depend on deliveries have struggled'."}]},{"type":"sc","title":"Questions 12–14","instr":"Complete the sentences. Write NO MORE THAN TWO WORDS from the text for each answer.","items":[{"n":12,"q":"Planners try to keep housing affordable by requiring new developments to include _____ flats.","a":["lower-cost","lower cost"],"why":"E: 'lower-cost flats'."},{"n":13,"q":"A street can be redesigned in a few weeks using paint and _____.","a":["planters"],"why":"F: 'with paint and planters'."},{"n":14,"q":"Experts see walkable planning as a _____ rather than a destination.","a":["direction"],"why":"F, last sentence."}]}]},{"id":"r2","title":"Practice made personal","topic":"Technology and education","minutes":20,"paras":[{"k":"A","t":"Adaptive learning software, which adjusts the difficulty of exercises according to a student's answers, is no longer experimental. Schools in many countries now use it for mathematics and language practice, and a newer generation of tools built on large language models can hold a written conversation with a learner, explaining a mistake in several different ways until one of them makes sense."},{"k":"B","t":"The appeal is easy to see. A teacher with thirty pupils cannot sit beside each one while they struggle with a problem; software can. Pupils who are ahead can move on without waiting, and those who are behind can repeat a topic without feeling embarrassed in front of classmates. Several teachers interviewed for this article said that their most anxious pupils were the ones who gained most from this private practice."},{"k":"C","t":"Yet the technology has limits that its enthusiasts sometimes underplay. Software is good at checking whether an answer is right, but much less reliable at judging whether an argument is well reasoned or an essay original. Language models can also produce confident explanations that are wrong, which is a particular risk for learners who are not yet able to tell the difference. For this reason, most educators advise treating such tools as a first draft of help rather than an authority."},{"k":"D","t":"A further concern is attention. Tools that reward quick answers can encourage pupils to guess and move on, and some researchers warn that the effort of struggling with a problem is itself part of learning. If a program removes every difficulty, they argue, it may also remove the benefit. Designers respond by building in pauses and asking pupils to explain their thinking before showing a solution, though how well these features work is still being studied."},{"k":"E","t":"What, then, is the role of the teacher? The most common view among those interviewed was that the teacher's job shifts rather than shrinks. With routine practice handled by software, teachers can spend more time on discussion, on projects and on pupils who need personal encouragement. A few, however, feared that schools under financial pressure might treat the software as a cheaper replacement for staff instead of a support for them."}],"groups":[{"type":"mcq","title":"Questions 1–4","instr":"Choose the correct letter, A, B, C or D.","items":[{"n":1,"q":"According to paragraph A, tools based on large language models can","opts":["A  replace textbooks entirely.","B  explain a mistake in more than one way.","C  mark examinations officially.","D  predict which pupils will fail."],"a":"B","why":"A: 'explaining a mistake in several different ways'."},{"n":2,"q":"What do the teachers say about their most anxious pupils?","opts":["A  They dislike using software.","B  They gain most from private practice.","C  They should work in larger groups.","D  They tend to guess more often."],"a":"B","why":"B: anxious pupils 'gained most from this private practice'."},{"n":3,"q":"The writer's main point in paragraph C is that","opts":["A  software cannot check any answers.","B  language models are more accurate than teachers.","C  the tools are less reliable on reasoning and originality, so caution is needed.","D  learners can easily spot wrong explanations."],"a":"C","why":"C: good at checking right answers, less reliable on reasoning; treat as 'a first draft of help'."},{"n":4,"q":"The researchers mentioned in paragraph D believe that","opts":["A  guessing is a useful learning strategy.","B  struggling with a problem can help learning.","C  pupils should never use software.","D  designers have ignored the problem."],"a":"B","why":"D: 'the effort of struggling with a problem is itself part of learning'."}]},{"type":"tfng","title":"Questions 5–10","instr":"Do the following statements agree with the information in the text? Choose TRUE, FALSE or NOT GIVEN.","items":[{"n":5,"q":"Adaptive learning software is still only experimental.","a":"F","why":"A: 'no longer experimental'."},{"n":6,"q":"Pupils who are behind can repeat a topic without embarrassment.","a":"T","why":"B."},{"n":7,"q":"Language models always give correct explanations.","a":"F","why":"C: they can produce confident explanations that are wrong."},{"n":8,"q":"Most pupils in the schools visited prefer software to teachers.","a":"NG","why":"Pupils' preferences are not discussed."},{"n":9,"q":"Designers have added pauses to some tools.","a":"T","why":"D: 'building in pauses'."},{"n":10,"q":"All the teachers interviewed feared being replaced by software.","a":"F","why":"E: 'A few' feared this."}]},{"type":"sc","title":"Questions 11–13","instr":"Complete the sentences. Write ONE WORD ONLY from the text for each answer.","items":[{"n":11,"q":"A teacher with thirty pupils cannot _____ beside each one while they struggle.","a":["sit"],"why":"B."},{"n":12,"q":"Software is good at checking whether an answer is _____, but less good at judging an argument.","a":["right","correct"],"why":"C: 'whether an answer is right'."},{"n":13,"q":"Teachers can spend more time on discussion, projects and pupils who need personal _____.","a":["encouragement"],"why":"E."}]}]},{"id":"r3","title":"Why teenagers stay up late","topic":"Science and health","minutes":20,"paras":[{"k":"A","t":"Parents of teenagers often complain that their children cannot get up in the morning. For a long time this was put down to laziness or too much time on screens. Sleep researchers now offer a more biological explanation: during adolescence the internal body clock shifts, so that teenagers naturally feel sleepy later in the evening and wake later in the morning than children or older adults."},{"k":"B","t":"This shift is thought to be driven partly by changes in the timing of melatonin, a hormone that helps the body prepare for sleep. In teenagers, melatonin rises later at night than in younger children. As a result, a teenager asked to fall asleep at ten o'clock may simply not feel tired, however hard they try, and may lie awake for an hour or more."},{"k":"C","t":"The problem is made worse by school timetables. In many countries lessons begin at around eight o'clock or earlier, which means pupils must wake at a time when their bodies are still biologically 'at night'. Surveys regularly show that many teenagers sleep less than the eight to ten hours that health authorities recommend, and the shortfall tends to build up over the school week."},{"k":"D","t":"Lack of sleep affects more than mood. Tired pupils find it harder to concentrate and to remember new material, and some studies link persistent sleep shortage with a higher risk of accidents and of low mood. Teachers also report that the first lessons of the day can be unproductive, with pupils present in the classroom but only partly alert."},{"k":"E","t":"Several schools and districts have experimented with later start times. Results have varied, but a number of reports describe improved attendance and fewer pupils falling asleep in class. Not all families welcome the change: later finishes can clash with sports training, part-time jobs and childcare duties, and some parents say that evenings become shorter rather than mornings longer."},{"k":"F","t":"Researchers are cautious about drawing firm conclusions. Sleep is hard to measure outside a laboratory, and it is affected by diet, stress, family routines and the use of devices at night. Most agree, however, that expecting teenagers to behave like early risers is unrealistic, and that schools and parents should at least be aware of the biology involved."}],"groups":[{"type":"mi","title":"Questions 1–5","instr":"Which paragraph contains the following information? Write the correct letter, A–F. You may use any letter more than once.","options":[["A","A"],["B","B"],["C","C"],["D","D"],["E","E"],["F","F"]],"items":[{"n":1,"q":"a hormone whose timing changes during adolescence","a":"B","why":"B: melatonin."},{"n":2,"q":"a reference to an earlier explanation that blamed teenagers","a":"A","why":"A: 'put down to laziness'."},{"n":3,"q":"a reason why some families dislike later school starts","a":"E","why":"E: clashes with sport, jobs and childcare."},{"n":4,"q":"a comment on the difficulty of measuring sleep reliably","a":"F","why":"F: 'hard to measure outside a laboratory'."},{"n":5,"q":"an example of how timetables make the problem worse","a":"C","why":"C: lessons begin around eight o'clock."}]},{"type":"tfng","title":"Questions 6–9","instr":"Do the following statements agree with the information in the text? Choose TRUE, FALSE or NOT GIVEN.","items":[{"n":6,"q":"Melatonin rises earlier at night in teenagers than in younger children.","a":"F","why":"B: it rises later."},{"n":7,"q":"Health authorities recommend that teenagers sleep for eight to ten hours.","a":"T","why":"C."},{"n":8,"q":"Later start times have solved attendance problems in every school that tried them.","a":"F","why":"E: 'Results have varied'."},{"n":9,"q":"Teenagers in cold countries sleep longer than those in warm countries.","a":"NG","why":"Climate is not mentioned."}]},{"type":"sc","title":"Questions 10–13","instr":"Complete the sentences. Write NO MORE THAN TWO WORDS from the text for each answer.","items":[{"n":10,"q":"Tired pupils find it harder to concentrate and to remember new _____.","a":["material"],"why":"D."},{"n":11,"q":"Some studies link persistent sleep shortage with accidents and _____.","a":["low mood"],"why":"D."},{"n":12,"q":"Later finishes can clash with sports training, part-time jobs and _____ duties.","a":["childcare"],"why":"E."},{"n":13,"q":"Sleep is affected by diet, stress, family routines and the use of _____ at night.","a":["devices"],"why":"F."}]}]}]}
+{
+ "note": "Учебные тексты написаны для проекта в формате IELTS Academic Reading; это не материалы реального экзамена.",
+ "tests": [
+  {
+   "id": "r1",
+   "title": "Walking back to the centre",
+   "topic": "Urban planning",
+   "minutes": 20,
+   "paras": [
+    {
+     "k": "A",
+     "t": "For most of the twentieth century, city planners designed for cars. Wide roads, large car parks and separate zones for housing, shopping and work made sense when petrol was cheap and traffic was light. Over time, however, this approach produced neighbourhoods in which even a loaf of bread required a drive. Today, a growing number of cities are reversing that logic and trying to bring daily destinations within walking distance of people's homes."
+    },
+    {
+     "k": "B",
+     "t": "The idea is often summarised as the \"fifteen-minute city\": shops, schools, clinics and parks should be reachable on foot or by bicycle in a quarter of an hour. Supporters argue that this is not a new invention but a return to the way towns grew before mass car ownership. Critics reply that no planning slogan can fit every place, and that people also travel across a city for work, specialised health care and leisure, journeys that no single neighbourhood can absorb."
+    },
+    {
+     "k": "C",
+     "t": "The health case for walkable districts is straightforward. People who walk or cycle to everyday destinations build physical activity into their routine without needing a gym membership. Doctors point out that this kind of gentle, regular movement is easier to sustain than intensive exercise programmes, which many adults abandon within months. Less traffic also means cleaner air and quieter streets, benefits that are felt most strongly by children and older residents."
+    },
+    {
+     "k": "D",
+     "t": "Local shops have a stake in the change as well. Studies of streets that were closed to cars on a trial basis often report that customers visit more often, although they tend to spend less on each visit. Shop owners are frequently suspicious at first, fearing that drivers will go elsewhere. In several cases those fears faded once the owners saw the number of passers-by rise, but the evidence is not uniform, and some businesses that depend on deliveries have struggled."
+    },
+    {
+     "k": "E",
+     "t": "Not everyone gains equally. Neighbourhoods that become pleasant to walk in tend to become more expensive, and long-standing residents may be priced out. Planners therefore combine street improvements with measures to keep housing affordable, such as limits on rent increases or requirements that new developments include lower-cost flats. Without such measures, the people the policy is meant to help may be the first to leave."
+    },
+    {
+     "k": "F",
+     "t": "Finally, there is the question of speed. Redesigning a street can take a few weeks with paint and planters, but rebuilding a district's shops, schools and homes takes decades. Most experts therefore see walkable planning as a direction rather than a destination: small changes made consistently, rather than a single dramatic transformation."
+    }
+   ],
+   "groups": [
+    {
+     "type": "mh",
+     "title": "Questions 1–6",
+     "instr": "The text has six paragraphs, A–F. Choose the correct heading for each paragraph from the list of headings below. Write the correct number, i–viii. Two headings are not needed.",
+     "options": [
+      [
+       "i",
+       "The risk of pushing out existing residents"
+      ],
+      [
+       "ii",
+       "A long-term process rather than a quick fix"
+      ],
+      [
+       "iii",
+       "From car-centred planning to a different goal"
+      ],
+      [
+       "iv",
+       "A simple idea with its doubters"
+      ],
+      [
+       "v",
+       "Benefits for body and environment"
+      ],
+      [
+       "vi",
+       "Mixed results for local traders"
+      ],
+      [
+       "vii",
+       "Government plans to ban private cars"
+      ],
+      [
+       "viii",
+       "The invention of the bicycle"
+      ]
+     ],
+     "items": [
+      {
+       "n": 1,
+       "q": "Paragraph A",
+       "a": "iii",
+       "why": "A describes how planning for cars is now being reversed."
+      },
+      {
+       "n": 2,
+       "q": "Paragraph B",
+       "a": "iv",
+       "why": "B presents the fifteen-minute idea and the critics' reply."
+      },
+      {
+       "n": 3,
+       "q": "Paragraph C",
+       "a": "v",
+       "why": "C: physical activity, cleaner air, quieter streets."
+      },
+      {
+       "n": 4,
+       "q": "Paragraph D",
+       "a": "vi",
+       "why": "D: customers visit more but spend less; some businesses struggled."
+      },
+      {
+       "n": 5,
+       "q": "Paragraph E",
+       "a": "i",
+       "why": "E: long-standing residents may be priced out."
+      },
+      {
+       "n": 6,
+       "q": "Paragraph F",
+       "a": "ii",
+       "why": "F: decades of rebuilding; a direction, not a destination."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "title": "Questions 7–11",
+     "instr": "Do the following statements agree with the information in the text? Choose TRUE if the statement agrees, FALSE if it contradicts, NOT GIVEN if there is no information.",
+     "items": [
+      {
+       "n": 7,
+       "q": "Supporters say the fifteen-minute city is a recent invention.",
+       "a": "F",
+       "why": "B: 'not a new invention but a return to the way towns grew'."
+      },
+      {
+       "n": 8,
+       "q": "Critics note that some journeys cannot be made within a single neighbourhood.",
+       "a": "T",
+       "why": "B: people also travel across a city for work, health care and leisure."
+      },
+      {
+       "n": 9,
+       "q": "Doctors consider intensive exercise programmes more effective than everyday walking.",
+       "a": "NG",
+       "why": "C says gentle movement is easier to sustain, but never compares effectiveness."
+      },
+      {
+       "n": 10,
+       "q": "Shops on trial car-free streets always lose customers.",
+       "a": "F",
+       "why": "D: customers often visit more often."
+      },
+      {
+       "n": 11,
+       "q": "Some shops that rely on deliveries have found pedestrianised streets difficult.",
+       "a": "T",
+       "why": "D: 'businesses that depend on deliveries have struggled'."
+      }
+     ]
+    },
+    {
+     "type": "sc",
+     "title": "Questions 12–14",
+     "instr": "Complete the sentences. Write NO MORE THAN TWO WORDS from the text for each answer.",
+     "items": [
+      {
+       "n": 12,
+       "q": "Planners try to keep housing affordable by requiring new developments to include _____ flats.",
+       "a": [
+        "lower-cost",
+        "lower cost"
+       ],
+       "why": "E: 'lower-cost flats'."
+      },
+      {
+       "n": 13,
+       "q": "A street can be redesigned in a few weeks using paint and _____.",
+       "a": [
+        "planters"
+       ],
+       "why": "F: 'with paint and planters'."
+      },
+      {
+       "n": 14,
+       "q": "Experts see walkable planning as a _____ rather than a destination.",
+       "a": [
+        "direction"
+       ],
+       "why": "F, last sentence."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r2",
+   "title": "Practice made personal",
+   "topic": "Technology and education",
+   "minutes": 20,
+   "paras": [
+    {
+     "k": "A",
+     "t": "Adaptive learning software, which adjusts the difficulty of exercises according to a student's answers, is no longer experimental. Schools in many countries now use it for mathematics and language practice, and a newer generation of tools built on large language models can hold a written conversation with a learner, explaining a mistake in several different ways until one of them makes sense."
+    },
+    {
+     "k": "B",
+     "t": "The appeal is easy to see. A teacher with thirty pupils cannot sit beside each one while they struggle with a problem; software can. Pupils who are ahead can move on without waiting, and those who are behind can repeat a topic without feeling embarrassed in front of classmates. Several teachers interviewed for this article said that their most anxious pupils were the ones who gained most from this private practice."
+    },
+    {
+     "k": "C",
+     "t": "Yet the technology has limits that its enthusiasts sometimes underplay. Software is good at checking whether an answer is right, but much less reliable at judging whether an argument is well reasoned or an essay original. Language models can also produce confident explanations that are wrong, which is a particular risk for learners who are not yet able to tell the difference. For this reason, most educators advise treating such tools as a first draft of help rather than an authority."
+    },
+    {
+     "k": "D",
+     "t": "A further concern is attention. Tools that reward quick answers can encourage pupils to guess and move on, and some researchers warn that the effort of struggling with a problem is itself part of learning. If a program removes every difficulty, they argue, it may also remove the benefit. Designers respond by building in pauses and asking pupils to explain their thinking before showing a solution, though how well these features work is still being studied."
+    },
+    {
+     "k": "E",
+     "t": "What, then, is the role of the teacher? The most common view among those interviewed was that the teacher's job shifts rather than shrinks. With routine practice handled by software, teachers can spend more time on discussion, on projects and on pupils who need personal encouragement. A few, however, feared that schools under financial pressure might treat the software as a cheaper replacement for staff instead of a support for them."
+    }
+   ],
+   "groups": [
+    {
+     "type": "mcq",
+     "title": "Questions 1–4",
+     "instr": "Choose the correct letter, A, B, C or D.",
+     "items": [
+      {
+       "n": 1,
+       "q": "According to paragraph A, tools based on large language models can",
+       "opts": [
+        "A  replace textbooks entirely.",
+        "B  explain a mistake in more than one way.",
+        "C  mark examinations officially.",
+        "D  predict which pupils will fail."
+       ],
+       "a": "B",
+       "why": "A: 'explaining a mistake in several different ways'."
+      },
+      {
+       "n": 2,
+       "q": "What do the teachers say about their most anxious pupils?",
+       "opts": [
+        "A  They dislike using software.",
+        "B  They gain most from private practice.",
+        "C  They should work in larger groups.",
+        "D  They tend to guess more often."
+       ],
+       "a": "B",
+       "why": "B: anxious pupils 'gained most from this private practice'."
+      },
+      {
+       "n": 3,
+       "q": "The writer's main point in paragraph C is that",
+       "opts": [
+        "A  software cannot check any answers.",
+        "B  language models are more accurate than teachers.",
+        "C  the tools are less reliable on reasoning and originality, so caution is needed.",
+        "D  learners can easily spot wrong explanations."
+       ],
+       "a": "C",
+       "why": "C: good at checking right answers, less reliable on reasoning; treat as 'a first draft of help'."
+      },
+      {
+       "n": 4,
+       "q": "The researchers mentioned in paragraph D believe that",
+       "opts": [
+        "A  guessing is a useful learning strategy.",
+        "B  struggling with a problem can help learning.",
+        "C  pupils should never use software.",
+        "D  designers have ignored the problem."
+       ],
+       "a": "B",
+       "why": "D: 'the effort of struggling with a problem is itself part of learning'."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "title": "Questions 5–10",
+     "instr": "Do the following statements agree with the information in the text? Choose TRUE, FALSE or NOT GIVEN.",
+     "items": [
+      {
+       "n": 5,
+       "q": "Adaptive learning software is still only experimental.",
+       "a": "F",
+       "why": "A: 'no longer experimental'."
+      },
+      {
+       "n": 6,
+       "q": "Pupils who are behind can repeat a topic without embarrassment.",
+       "a": "T",
+       "why": "B."
+      },
+      {
+       "n": 7,
+       "q": "Language models always give correct explanations.",
+       "a": "F",
+       "why": "C: they can produce confident explanations that are wrong."
+      },
+      {
+       "n": 8,
+       "q": "Most pupils in the schools visited prefer software to teachers.",
+       "a": "NG",
+       "why": "Pupils' preferences are not discussed."
+      },
+      {
+       "n": 9,
+       "q": "Designers have added pauses to some tools.",
+       "a": "T",
+       "why": "D: 'building in pauses'."
+      },
+      {
+       "n": 10,
+       "q": "All the teachers interviewed feared being replaced by software.",
+       "a": "F",
+       "why": "E: 'A few' feared this."
+      }
+     ]
+    },
+    {
+     "type": "sc",
+     "title": "Questions 11–13",
+     "instr": "Complete the sentences. Write ONE WORD ONLY from the text for each answer.",
+     "items": [
+      {
+       "n": 11,
+       "q": "A teacher with thirty pupils cannot _____ beside each one while they struggle.",
+       "a": [
+        "sit"
+       ],
+       "why": "B."
+      },
+      {
+       "n": 12,
+       "q": "Software is good at checking whether an answer is _____, but less good at judging an argument.",
+       "a": [
+        "right",
+        "correct"
+       ],
+       "why": "C: 'whether an answer is right'."
+      },
+      {
+       "n": 13,
+       "q": "Teachers can spend more time on discussion, projects and pupils who need personal _____.",
+       "a": [
+        "encouragement"
+       ],
+       "why": "E."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r3",
+   "title": "Why teenagers stay up late",
+   "topic": "Science and health",
+   "minutes": 20,
+   "paras": [
+    {
+     "k": "A",
+     "t": "Parents of teenagers often complain that their children cannot get up in the morning. For a long time this was put down to laziness or too much time on screens. Sleep researchers now offer a more biological explanation: during adolescence the internal body clock shifts, so that teenagers naturally feel sleepy later in the evening and wake later in the morning than children or older adults."
+    },
+    {
+     "k": "B",
+     "t": "This shift is thought to be driven partly by changes in the timing of melatonin, a hormone that helps the body prepare for sleep. In teenagers, melatonin rises later at night than in younger children. As a result, a teenager asked to fall asleep at ten o'clock may simply not feel tired, however hard they try, and may lie awake for an hour or more."
+    },
+    {
+     "k": "C",
+     "t": "The problem is made worse by school timetables. In many countries lessons begin at around eight o'clock or earlier, which means pupils must wake at a time when their bodies are still biologically 'at night'. Surveys regularly show that many teenagers sleep less than the eight to ten hours that health authorities recommend, and the shortfall tends to build up over the school week."
+    },
+    {
+     "k": "D",
+     "t": "Lack of sleep affects more than mood. Tired pupils find it harder to concentrate and to remember new material, and some studies link persistent sleep shortage with a higher risk of accidents and of low mood. Teachers also report that the first lessons of the day can be unproductive, with pupils present in the classroom but only partly alert."
+    },
+    {
+     "k": "E",
+     "t": "Several schools and districts have experimented with later start times. Results have varied, but a number of reports describe improved attendance and fewer pupils falling asleep in class. Not all families welcome the change: later finishes can clash with sports training, part-time jobs and childcare duties, and some parents say that evenings become shorter rather than mornings longer."
+    },
+    {
+     "k": "F",
+     "t": "Researchers are cautious about drawing firm conclusions. Sleep is hard to measure outside a laboratory, and it is affected by diet, stress, family routines and the use of devices at night. Most agree, however, that expecting teenagers to behave like early risers is unrealistic, and that schools and parents should at least be aware of the biology involved."
+    }
+   ],
+   "groups": [
+    {
+     "type": "mi",
+     "title": "Questions 1–5",
+     "instr": "Which paragraph contains the following information? Write the correct letter, A–F. You may use any letter more than once.",
+     "options": [
+      [
+       "A",
+       "A"
+      ],
+      [
+       "B",
+       "B"
+      ],
+      [
+       "C",
+       "C"
+      ],
+      [
+       "D",
+       "D"
+      ],
+      [
+       "E",
+       "E"
+      ],
+      [
+       "F",
+       "F"
+      ]
+     ],
+     "items": [
+      {
+       "n": 1,
+       "q": "a hormone whose timing changes during adolescence",
+       "a": "B",
+       "why": "B: melatonin."
+      },
+      {
+       "n": 2,
+       "q": "a reference to an earlier explanation that blamed teenagers",
+       "a": "A",
+       "why": "A: 'put down to laziness'."
+      },
+      {
+       "n": 3,
+       "q": "a reason why some families dislike later school starts",
+       "a": "E",
+       "why": "E: clashes with sport, jobs and childcare."
+      },
+      {
+       "n": 4,
+       "q": "a comment on the difficulty of measuring sleep reliably",
+       "a": "F",
+       "why": "F: 'hard to measure outside a laboratory'."
+      },
+      {
+       "n": 5,
+       "q": "an example of how timetables make the problem worse",
+       "a": "C",
+       "why": "C: lessons begin around eight o'clock."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "title": "Questions 6–9",
+     "instr": "Do the following statements agree with the information in the text? Choose TRUE, FALSE or NOT GIVEN.",
+     "items": [
+      {
+       "n": 6,
+       "q": "Melatonin rises earlier at night in teenagers than in younger children.",
+       "a": "F",
+       "why": "B: it rises later."
+      },
+      {
+       "n": 7,
+       "q": "Health authorities recommend that teenagers sleep for eight to ten hours.",
+       "a": "T",
+       "why": "C."
+      },
+      {
+       "n": 8,
+       "q": "Later start times have solved attendance problems in every school that tried them.",
+       "a": "F",
+       "why": "E: 'Results have varied'."
+      },
+      {
+       "n": 9,
+       "q": "Teenagers in cold countries sleep longer than those in warm countries.",
+       "a": "NG",
+       "why": "Climate is not mentioned."
+      }
+     ]
+    },
+    {
+     "type": "sc",
+     "title": "Questions 10–13",
+     "instr": "Complete the sentences. Write NO MORE THAN TWO WORDS from the text for each answer.",
+     "items": [
+      {
+       "n": 10,
+       "q": "Tired pupils find it harder to concentrate and to remember new _____.",
+       "a": [
+        "material"
+       ],
+       "why": "D."
+      },
+      {
+       "n": 11,
+       "q": "Some studies link persistent sleep shortage with accidents and _____.",
+       "a": [
+        "low mood"
+       ],
+       "why": "D."
+      },
+      {
+       "n": 12,
+       "q": "Later finishes can clash with sports training, part-time jobs and _____ duties.",
+       "a": [
+        "childcare"
+       ],
+       "why": "E."
+      },
+      {
+       "n": 13,
+       "q": "Sleep is affected by diet, stress, family routines and the use of _____ at night.",
+       "a": [
+        "devices"
+       ],
+       "why": "F."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r4",
+   "title": "Bringing back the beaver",
+   "topic": "Environment",
+   "minutes": 20,
+   "paras": [
+    {
+     "k": "A",
+     "t": "Beavers were hunted to extinction in Britain about four centuries ago, mainly for their fur and scent glands. In recent years, however, small groups have been released in carefully fenced areas, and wild populations have also appeared elsewhere in the country. Their return has divided opinion."
+    },
+    {
+     "k": "B",
+     "t": "Beavers build dams from branches and mud. These slow the flow of rivers and create ponds and areas of wet ground. Researchers monitoring one site in the south-west found that a single family of beavers lowered the peak flow of water downstream during storms by about a third."
+    },
+    {
+     "k": "C",
+     "t": "The benefits for wildlife are clear. Ponds attract amphibians, insects and the birds that feed on them, while dead wood and standing water create habitats that are rare in intensively farmed land. Surveys at the same site recorded more species of dragonfly after the beavers arrived than before."
+    },
+    {
+     "k": "D",
+     "t": "Not everyone welcomes the animals. Farmers whose fields lie beside rivers report that dams can flood crops and block drainage channels, and some beavers gnaw through trees planted by landowners. Compensation schemes exist in some countries but not in all."
+    },
+    {
+     "k": "E",
+     "t": "Managers have developed practical answers. Flow devices, which are pipes passed through a dam, keep the water at a safe level, and trees can be protected with wire mesh. Where a family causes serious problems it can be moved, although relocation is expensive and does not always work, since animals may travel a long way from the release point."
+    },
+    {
+     "k": "F",
+     "t": "Public attitudes matter too. A survey of residents living near release sites found that most supported the project, while support was lower among people who lived further away and had no direct experience of the animals. Researchers suggest that seeing the benefits first-hand persuades people more than being told about them."
+    }
+   ],
+   "groups": [
+    {
+     "type": "mcq",
+     "title": "Questions 1–4",
+     "instr": "Choose the correct letter, A, B, C or D.",
+     "items": [
+      {
+       "n": 1,
+       "q": "According to paragraph A, beavers disappeared from Britain because",
+       "opts": [
+        "A  the climate changed.",
+        "B  people hunted them.",
+        "C  a disease spread.",
+        "D  forests were cut down."
+       ],
+       "a": "B",
+       "why": "A: 'hunted to extinction… for their fur and scent glands'."
+      },
+      {
+       "n": 2,
+       "q": "At the research site in the south-west, the beavers' dams",
+       "opts": [
+        "A  stopped flooding completely.",
+        "B  lowered the highest water flow downstream in storms.",
+        "C  dried out the river in summer.",
+        "D  made the water run faster."
+       ],
+       "a": "B",
+       "why": "B: 'lowered the peak flow… by about a third'."
+      },
+      {
+       "n": 3,
+       "q": "What does paragraph D say about compensation for farmers?",
+       "opts": [
+        "A  It is paid in every country.",
+        "B  It exists in some countries only.",
+        "C  Farmers have refused it.",
+        "D  It covers lost trees only."
+       ],
+       "a": "B",
+       "why": "D: 'in some countries but not in all'."
+      },
+      {
+       "n": 4,
+       "q": "What does the writer say about moving beavers to another place?",
+       "opts": [
+        "A  It is cheap and reliable.",
+        "B  It is the first thing managers try.",
+        "C  It can be costly and may fail.",
+        "D  It is forbidden by law."
+       ],
+       "a": "C",
+       "why": "E: 'expensive and does not always work'."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "title": "Questions 5–9",
+     "instr": "Do the following statements agree with the information in the text? Choose TRUE if the statement agrees, FALSE if it contradicts, NOT GIVEN if there is no information.",
+     "items": [
+      {
+       "n": 5,
+       "q": "Some beavers have been released in fenced areas.",
+       "a": "T",
+       "why": "A: 'released in carefully fenced areas'."
+      },
+      {
+       "n": 6,
+       "q": "The south-west site has been monitored for more than ten years.",
+       "a": "NG",
+       "why": "The length of monitoring is not mentioned."
+      },
+      {
+       "n": 7,
+       "q": "More dragonfly species were recorded after the beavers arrived.",
+       "a": "T",
+       "why": "C."
+      },
+      {
+       "n": 8,
+       "q": "Habitats with standing water are common on intensively farmed land.",
+       "a": "F",
+       "why": "C: 'rare in intensively farmed land'."
+      },
+      {
+       "n": 9,
+       "q": "People living far from release sites support the project more than people living nearby.",
+       "a": "F",
+       "why": "F: support was lower among those further away."
+      }
+     ]
+    },
+    {
+     "type": "sc",
+     "title": "Questions 10–13",
+     "instr": "Complete the sentences. Write NO MORE THAN TWO WORDS from the text for each answer.",
+     "items": [
+      {
+       "n": 10,
+       "q": "Beavers were originally hunted for their fur and _____.",
+       "a": [
+        "scent glands"
+       ],
+       "why": "A."
+      },
+      {
+       "n": 11,
+       "q": "Pipes passed through a dam are known as _____ devices.",
+       "a": [
+        "flow"
+       ],
+       "why": "E."
+      },
+      {
+       "n": 12,
+       "q": "Landowners can protect young trees with wire _____.",
+       "a": [
+        "mesh"
+       ],
+       "why": "E."
+      },
+      {
+       "n": 13,
+       "q": "Researchers say seeing the benefits _____ persuades people more than being told.",
+       "a": [
+        "first-hand",
+        "firsthand",
+        "first hand"
+       ],
+       "why": "F."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r5",
+   "title": "Farming in towers",
+   "topic": "Technology and food",
+   "minutes": 20,
+   "paras": [
+    {
+     "k": "A",
+     "t": "Vertical farms grow crops in stacked layers inside buildings, using LED lights and nutrient-rich water instead of soil. Because air, temperature and light are controlled, harvests do not depend on the weather, and leafy vegetables can be ready in as little as two weeks."
+    },
+    {
+     "k": "B",
+     "t": "Supporters point first to water. Closed systems recycle it, so they use only a fraction of the amount needed to irrigate a field. Because such farms can be built in or near cities, food also travels a short distance, which cuts transport emissions and shortens the time between harvest and sale."
+    },
+    {
+     "k": "C",
+     "t": "The difficulty is cost. Lighting and climate control use large amounts of electricity, and several well-funded companies have closed in recent years because their energy bills were higher than their sales. Analysts say that vertical farming makes financial sense only for high-value crops such as herbs, salad leaves and strawberries; staple foods such as wheat and rice need too much space and light."
+    },
+    {
+     "k": "D",
+     "t": "The source of the electricity matters a great deal. Where power comes from solar or wind, the environmental case is stronger; where it comes from coal, most of the benefit disappears. A few farms have been built next to factories so that they can use waste heat from industrial processes to reduce their costs."
+    },
+    {
+     "k": "E",
+     "t": "Most experts do not expect vertical farms to replace conventional agriculture. They see them instead as a complement, supplying fresh produce to cities and to places with harsh climates, such as deserts and polar regions, where growing crops in fields is impossible."
+    }
+   ],
+   "groups": [
+    {
+     "type": "mi",
+     "title": "Questions 1–4",
+     "instr": "Which paragraph contains the following information? Write the correct letter, A–E. You may use any letter more than once.",
+     "options": [
+      [
+       "A",
+       "A"
+      ],
+      [
+       "B",
+       "B"
+      ],
+      [
+       "C",
+       "C"
+      ],
+      [
+       "D",
+       "D"
+      ],
+      [
+       "E",
+       "E"
+      ]
+     ],
+     "items": [
+      {
+       "n": 1,
+       "q": "a reason why some businesses have failed",
+       "a": "C",
+       "why": "C: bills higher than sales."
+      },
+      {
+       "n": 2,
+       "q": "a way of reducing costs by using heat from another source",
+       "a": "D",
+       "why": "D: waste heat from factories."
+      },
+      {
+       "n": 3,
+       "q": "a description of the conditions that let crops grow whatever the weather",
+       "a": "A",
+       "why": "A: controlled air, temperature and light."
+      },
+      {
+       "n": 4,
+       "q": "a reference to places where field farming cannot work",
+       "a": "E",
+       "why": "E: deserts and polar regions."
+      }
+     ]
+    },
+    {
+     "type": "tfng",
+     "title": "Questions 5–9",
+     "instr": "Do the following statements agree with the information in the text? Choose TRUE if the statement agrees, FALSE if it contradicts, NOT GIVEN if there is no information.",
+     "items": [
+      {
+       "n": 5,
+       "q": "Vertical farms grow plants in soil enriched with nutrients.",
+       "a": "F",
+       "why": "A: 'instead of soil'."
+      },
+      {
+       "n": 6,
+       "q": "Food from a vertical farm can reach shoppers sooner after harvest.",
+       "a": "T",
+       "why": "B: shortens the time between harvest and sale."
+      },
+      {
+       "n": 7,
+       "q": "Every vertical farming company has been profitable.",
+       "a": "F",
+       "why": "C: several have closed."
+      },
+      {
+       "n": 8,
+       "q": "Strawberries are given as an example of a high-value crop.",
+       "a": "T",
+       "why": "C."
+      },
+      {
+       "n": 9,
+       "q": "The text names the company with the largest vertical farm.",
+       "a": "NG",
+       "why": "No company is named."
+      }
+     ]
+    },
+    {
+     "type": "sc",
+     "title": "Questions 10–13",
+     "instr": "Complete the sentences. Write NO MORE THAN TWO WORDS from the text for each answer.",
+     "items": [
+      {
+       "n": 10,
+       "q": "Leafy vegetables can be ready in as little as _____.",
+       "a": [
+        "two weeks"
+       ],
+       "why": "A."
+      },
+      {
+       "n": 11,
+       "q": "Closed systems recycle _____.",
+       "a": [
+        "water"
+       ],
+       "why": "B."
+      },
+      {
+       "n": 12,
+       "q": "The environmental case is stronger when electricity comes from wind or _____ power.",
+       "a": [
+        "solar"
+       ],
+       "why": "D."
+      },
+      {
+       "n": 13,
+       "q": "Some farms use _____ from industrial processes to cut costs.",
+       "a": [
+        "waste heat"
+       ],
+       "why": "D."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

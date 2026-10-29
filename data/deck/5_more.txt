@@ -1,0 +1,118 @@
+sustainable|устойчивый, экологичный|We need [[sustainable]] sources of energy.|adj|env
+renewable|возобновляемый|[[Renewable]] energy is getting cheaper every year.|adj|env
+emissions|выбросы|Cars produce harmful [[emissions]].|n|env
+carbon footprint|углеродный след|Flying greatly increases your [[carbon footprint]].|phr|env
+biodiversity|биоразнообразие|Forests are rich in [[biodiversity]].|n|env
+endangered|находящийся под угрозой исчезновения|The tiger is an [[endangered]] species.|adj|env
+habitat|среда обитания|Many animals are losing their natural [[habitat]].|n|env
+deforestation|вырубка лесов|[[Deforestation]] leads to soil erosion.|n|env
+landfill|свалка|Most plastic ends up in [[landfill]].|n|env
+raise awareness|повышать осведомлённость|The campaign aims to [[raise awareness]] of recycling.|phr|env
+take measures|принимать меры|The government must [[take measures]] to cut pollution.|phr|env
+global warming|глобальное потепление|[[Global warming]] is melting the polar ice.|phr|env
+infrastructure|инфраструктура|Poor [[infrastructure]] slows economic growth.|n|gov
+legislation|законодательство|New [[legislation]] bans single-use plastic bags.|n|gov
+policy|политика, курс|The school has a strict [[policy]] on phones.|n|gov
+tax incentive|налоговая льгота|A [[tax incentive]] encourages firms to hire locally.|phr|gov
+public funding|государственное финансирование|Museums depend on [[public funding]].|phr|gov
+subsidise|субсидировать|The state [[subsidises]] public transport.|v|gov
+regulate|регулировать|Governments [[regulate]] the sale of tobacco.|v|gov
+welfare|благосостояние, соцобеспечение|The country has a generous [[welfare]] system.|n|gov
+impose a ban|вводить запрет|Several cities have [[imposed a ban]] on cars in the centre.|phr|gov
+bureaucracy|бюрократия|Starting a business involves a lot of [[bureaucracy]].|n|gov
+unemployment|безработица|[[Unemployment]] is highest among young people.|n|work
+workforce|рабочая сила|The [[workforce]] is getting older.|n|work
+career prospects|карьерные перспективы|A degree improves your [[career prospects]].|phr|work
+work-life balance|баланс работы и личной жизни|Flexible hours help [[work-life balance]].|phr|work
+salary|зарплата|She asked for a higher [[salary]].|n|work
+promotion|повышение по службе|He worked hard to win a [[promotion]].|n|work
+meet a deadline|уложиться в срок|We must [[meet the deadline]] on Friday.|phr|work
+colleague|коллега|My [[colleagues]] are very supportive.|n|work
+redundant|сокращённый, уволенный|Hundreds of workers were made [[redundant]].|adj|work
+freelance|фрилансер; работающий по найму|She works [[freelance]] as a designer.|adj|work
+apprenticeship|ученичество, стажировка|He did an [[apprenticeship]] as an electrician.|n|work
+gain experience|набираться опыта|Interns [[gain experience]] in a real workplace.|phr|work
+tuition fees|плата за обучение|[[Tuition fees]] have risen sharply.|phr|edu
+compulsory|обязательный|Maths is [[compulsory]] until the age of sixteen.|adj|edu
+dropout|бросивший учёбу|The college has a low [[dropout]] rate.|n|edu
+distance learning|дистанционное обучение|[[Distance learning]] suits people who work full time.|phr|edu
+peer pressure|давление сверстников|Teenagers often give in to [[peer pressure]].|phr|edu
+vocational|профессиональный (об обучении)|[[Vocational]] courses prepare students for a trade.|adj|edu
+boost confidence|повышать уверенность|Praise can [[boost confidence]] in shy pupils.|phr|edu
+enrol|записываться, поступать|She [[enrolled]] on a course in design.|v|edu
+graduate|выпускник; заканчивать вуз|He [[graduated]] from university last year.|v|edu
+critical thinking|критическое мышление|Schools should teach [[critical thinking]].|phr|edu
+obesity|ожирение|[[Obesity]] raises the risk of heart disease.|n|health
+sedentary|малоподвижный|A [[sedentary]] lifestyle harms health.|adj|health
+balanced diet|сбалансированное питание|A [[balanced diet]] includes fruit and vegetables.|phr|health
+life expectancy|продолжительность жизни|[[Life expectancy]] has risen in most countries.|phr|health
+mental health|психическое здоровье|Exercise is good for [[mental health]].|phr|health
+healthcare system|система здравоохранения|The [[healthcare system]] is under pressure.|phr|health
+chronic|хронический|He suffers from [[chronic]] back pain.|adj|health
+prevent|предотвращать|Vaccines [[prevent]] many serious diseases.|v|health
+addictive|вызывающий зависимость|Social media can be [[addictive]].|adj|health
+check-up|медосмотр|I go for a [[check-up]] every year.|n|health
+immune system|иммунная система|Sleep strengthens the [[immune system]].|phr|health
+artificial intelligence|искусственный интеллект|[[Artificial intelligence]] is changing many jobs.|phr|tech
+automation|автоматизация|[[Automation]] has replaced many factory workers.|n|tech
+cyberbullying|кибербуллинг|[[Cyberbullying]] affects many teenagers.|n|tech
+data privacy|конфиденциальность данных|People worry about their [[data privacy]].|phr|tech
+rely on|полагаться на|Many of us [[rely on]] our phones for directions.|phr|tech
+cutting-edge|передовой|The lab uses [[cutting-edge]] technology.|adj|tech
+digital divide|цифровое неравенство|The [[digital divide]] leaves some pupils behind.|phr|tech
+obsolete|устаревший|Typewriters are now [[obsolete]].|adj|tech
+user-friendly|удобный для пользователя|The app is simple and [[user-friendly]].|adj|tech
+breakthrough|прорыв|Scientists announced a [[breakthrough]] in cancer research.|n|sci
+research findings|результаты исследования|The [[research findings]] were published last month.|phr|sci
+conduct an experiment|проводить эксперимент|They [[conducted an experiment]] on plant growth.|phr|sci
+hypothesis|гипотеза|The data support our [[hypothesis]].|n|sci
+evidence|доказательства|There is strong [[evidence]] for this theory.|n|sci
+therefore|поэтому|Prices rose; [[therefore]], demand fell.|adv|sci
+rush hour|час пик|The trains are packed during [[rush hour]].|phr|trans
+traffic congestion|пробки|[[Traffic congestion]] wastes time and fuel.|phr|trans
+commute|ездить на работу; поездка на работу|She [[commutes]] to work by train.|v|trans
+pedestrian|пешеход|The street is closed to cars, for [[pedestrians]] only.|n|trans
+public transport|общественный транспорт|Cheap [[public transport]] reduces car use.|phr|trans
+mass transit|массовый городской транспорт|Cities invest in [[mass transit]].|phr|trans
+fuel-efficient|экономичный (по топливу)|Hybrid cars are more [[fuel-efficient]].|adj|trans
+overcrowded|переполненный|The buses are [[overcrowded]] in the morning.|adj|trans
+criminal|преступник; уголовный|Prison should reform [[criminals]], not only punish them.|n|crime
+deter|сдерживать, отпугивать|Heavy fines may [[deter]] drivers from speeding.|v|crime
+rehabilitation|реабилитация|[[Rehabilitation]] helps prisoners return to society.|n|crime
+offence|правонарушение|Littering is a minor [[offence]].|n|crime
+juvenile|несовершеннолетний|[[Juvenile]] crime has fallen.|adj|crime
+law-abiding|законопослушный|Most citizens are [[law-abiding]].|adj|crime
+community service|общественные работы|He was given 100 hours of [[community service]].|phr|crime
+the press|пресса|[[The press]] plays a key role in democracy.|n|media
+advertising|реклама|[[Advertising]] influences what children want.|n|media
+bias|предвзятость|The article shows clear [[bias]].|n|media
+fake news|фейковые новости|People share [[fake news]] without checking it.|phr|media
+influence|влиять; влияние|Celebrities [[influence]] young people.|v|media
+broadcast|транслировать; передача|The match will be [[broadcast]] live.|v|media
+headline|заголовок|The [[headline]] was misleading.|n|media
+generation gap|разрыв поколений|The [[generation gap]] can cause misunderstandings.|phr|soc
+social cohesion|социальная сплочённость|Shared spaces build [[social cohesion]].|phr|soc
+cultural heritage|культурное наследие|We must protect our [[cultural heritage]].|phr|soc
+immigrant|иммигрант|[[Immigrants]] contribute to the economy.|n|soc
+standard of living|уровень жизни|The [[standard of living]] has improved.|phr|soc
+poverty line|черта бедности|Millions live below the [[poverty line]].|phr|soc
+extended family|большая семья|In many cultures the [[extended family]] lives together.|phr|soc
+volunteer|добровольно вызываться; волонтёр|She [[volunteers]] at an animal shelter.|v|soc
+raise children|воспитывать детей|It is expensive to [[raise children]] in a big city.|phr|soc
+tradition|традиция|Many [[traditions]] are disappearing.|n|soc
+urbanisation|урбанизация|Rapid [[urbanisation]] puts pressure on housing.|n|soc
+tackle|решать (проблему), бороться|We need to [[tackle]] the problem of homelessness.|v|gen
+significant|значительный|There was a [[significant]] rise in prices.|adj|gen
+widespread|широко распространённый|Remote work has become [[widespread]].|adj|gen
+considerably|значительно|Prices have fallen [[considerably]].|adv|gen
+gradually|постепенно|Temperatures are [[gradually]] rising.|adv|gen
+in the long run|в долгосрочной перспективе|Saving pays off [[in the long run]].|phr|gen
+on the other hand|с другой стороны|[[On the other hand]], cities offer more jobs.|phr|gen
+as a result of|в результате|[[As a result of]] the storm, flights were cancelled.|phr|gen
+play a crucial role|играть решающую роль|Teachers [[play a crucial role]] in a child's life.|phr|gen
+a wide range of|широкий выбор|The shop sells [[a wide range of]] products.|phr|gen
+to a large extent|в значительной степени|I agree [[to a large extent]].|phr|gen
+bring about|вызывать, приводить к|Technology has [[brought about]] huge changes.|phr|gen
+deal with|справляться с|How do you [[deal with]] stress?|phr|gen
+come up with|придумать|She [[came up with]] a clever solution.|phr|gen
+take into account|принимать во внимание|We must [[take into account]] the cost.|phr|gen
