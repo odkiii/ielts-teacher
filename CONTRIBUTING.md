@@ -17,3 +17,7 @@
 
 ## Переводы
 UI и документы пока на русском. PR с переводом на английский и другие языки приветствуются.
+
+## Уровни CEFR для фраз
+
+Уровень карточки берётся только из официальных источников (см. `docs/04-content-sources.md`). Если ты нашёл уровень фразы, фразового глагола или идиомы в [English Vocabulary Profile](https://englishprofile.org/?menu=evp-online&dict=us) или Cambridge Dictionary, добавь в `data/official_levels.json` запись `"term|pos": {"cef": "B2", "src": "English Vocabulary Profile"}` и пересобери колоду (`python3 scripts/build_deck.py`). Не копируй списки целиком — только уровень конкретной карточки со ссылкой на источник.

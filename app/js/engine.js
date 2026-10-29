@@ -426,7 +426,7 @@
   }
 
   // ---------- Уровни CEFR для карточек ----------
-  const CEF = ['B1', 'B2', 'C1', 'C2'];
+  const CEF = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
   /** Уровень по среднему баллу IELTS: <5.5 → B1, <7 → B2, <8.5 → C1, иначе C2 */
   function cefOf(skills) {
     const v = ['L', 'R', 'W', 'S'].map((k) => Number(skills && skills[k]) || 0); const a = v.reduce((x, y) => x + y, 0) / 4;
@@ -434,7 +434,8 @@
   }
   /** Приоритет карточки: 0 — на ступень выше уровня ученика, 1 — его уровень, 2 — на две выше, 3 — ниже, 4 — слишком сложные */
   function cefRank(user, card) {
-    const d = CEF.indexOf(card || 'B2') - CEF.indexOf(user || 'B2');
+    if (!card || CEF.indexOf(card) < 0) return 1; // уровень не подтверждён официальными списками — нейтрально
+    const d = CEF.indexOf(card) - CEF.indexOf(user || 'B2');
     return d === 1 ? 0 : d === 0 ? 1 : d === 2 ? 2 : d < 0 ? 3 : 4;
   }
 

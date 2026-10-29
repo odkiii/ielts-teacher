@@ -1,0 +1,1181 @@
+{
+ "a heated debate|coll": {
+  "acl": true
+ },
+ "a sharp increase|coll": {
+  "acl": true
+ },
+ "academic performance|phr": {
+  "acl": true
+ },
+ "achieve|v": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "acquire|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "addiction|n": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "administration|n": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "advertisement|n": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "advertising|n": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "affect|v": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "algorithm|n": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "although|conj": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "analyse|v": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "approach|n": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "appropriate|adj": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "approximately|adv": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "arguably|adv": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "aspect|n": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "assess|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "assist|v": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "assume|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "authority|n": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "available|adj": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "aware|adj": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "benefit|v": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "bias|n": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "breakthrough|n": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "broadcast|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "capacity|n": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "career|n": {
+  "cef": "A1",
+  "src": "Oxford 3000"
+ },
+ "category|n": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "challenge|n": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "chapter|n": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "chronic|adj": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "clarify|v": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "colleague|n": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "commission|n": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "commit|v": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "community|n": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "compelling|adj": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "complex|adj": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "comprehensive|adj": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "compulsory|adj": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "concept|n": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "conclude|v": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "conduct a survey|coll": {
+  "acl": true
+ },
+ "conduct|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "consequence|n": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "consequently|adv": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "conserve|v": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "considerably|adv": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "consistent|adj": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "constitute|v": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "construct|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "consume|v": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "context|n": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "contract|n": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "contribute|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "correlation|n": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "create|v": {
+  "cef": "A1",
+  "src": "Oxford 3000"
+ },
+ "credit|n": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "criminal|n": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "critical thinking|phr": {
+  "acl": true
+ },
+ "crucial|adj": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "culture|n": {
+  "cef": "A1",
+  "src": "Oxford 3000"
+ },
+ "curiosity|n": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "curriculum|n": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "data|n": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "deadline|n": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "decline|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "define|v": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "demonstrate|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "derive|v": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "design|v": {
+  "cef": "A1",
+  "src": "Oxford 3000"
+ },
+ "despite|prep": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "diagnosis|n": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "discipline|n": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "discrimination|n": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "distinct|adj": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "distribute|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "diverse|adj": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "donate|v": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "double|v": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "dramatically|adv": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "draw attention to|coll": {
+  "acl": true
+ },
+ "drought|n": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "economy|n": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "element|n": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "emerge|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "enable|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "enhance|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "enrol|v": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "ensure|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "entertainment|n": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "environment|n": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "epidemic|n": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "establish|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "estimate|n": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "estimate|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "evaluate|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "evidence|n": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "evident|adj": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "exceed|v": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "expand|v": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "experiment|n": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "expose|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "face a challenge|coll": {
+  "acl": true
+ },
+ "facilitate|v": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "factor|n": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "feature|n": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "final|adj": {
+  "cef": "A1",
+  "src": "Oxford 3000"
+ },
+ "financial|adj": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "focus|v": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "foster|v": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "fraud|n": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "function|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "fundamental|adj": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "furthermore|adv": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "generate|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "generation|n": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "globe|n": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "gradually|adv": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "graduate|n": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "graduate|v": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "habitat|n": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "have a profound effect on|coll": {
+  "acl": true
+ },
+ "headline|n": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "highlight|v": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "hypothesis|n": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "identify|v": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "illegal|adj": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "immigrant|n": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "impact|n": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "implement|v": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "implication|n": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "imprisonment|n": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "income|n": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "incorporate|v": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "increasingly|adv": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "indicate|v": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "individual|n": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "inequality|n": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "inevitable|adj": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "influence|v": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "infrastructure|n": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "innovation|n": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "instance|n": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "instead of|phr": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "institute|n": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "integrate|v": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "internal|adj": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "interpret|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "investigate|v": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "invest|v": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "involve|v": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "isolate|v": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "issue|n": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "item|n": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "journal|n": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "journey|n": {
+  "cef": "A1",
+  "src": "Oxford 3000"
+ },
+ "justify|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "labour|n": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "legal|adj": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "legislation|n": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "lifestyle|n": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "likewise|adv": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "literacy|n": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "maintain|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "major|adj": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "make a living|coll": {
+  "acl": true
+ },
+ "mental|adj": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "merely|adv": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "method|n": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "mitigate|v": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "motivation|n": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "museum|n": {
+  "cef": "A1",
+  "src": "Oxford 3000"
+ },
+ "nevertheless|adv": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "normal|adj": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "notably|adv": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "nutrition|n": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "obesity|n": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "objective|n": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "obtain|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "obvious|adj": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "occur|v": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "offence|n": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "offender|n": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "overall|adv": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "participate|v": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "particularly|adv": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "penalty|n": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "perceive|v": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "period|n": {
+  "cef": "A1",
+  "src": "Oxford 3000"
+ },
+ "perspective|n": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "phenomenon|n": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "plunge|v": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "policy|n": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "positive|adj": {
+  "cef": "A1",
+  "src": "Oxford 3000"
+ },
+ "potential|n": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "poverty|n": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "predict|v": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "prescription|n": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "presumably|adv": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "prevention|n": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "prevent|v": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "previous|adj": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "primarily|adv": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "primary|adj": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "principle|n": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "proceed|v": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "process|n": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "prohibit|v": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "promotion|n": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "purchase|n": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "range|n": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "rapid technological advances|phr": {
+  "acl": true
+ },
+ "rapidly|adv": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "recycle|v": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "region|n": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "regulate|v": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "rehabilitation|n": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "relevant|adj": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "reluctant|adj": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "rely|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "renewable|adj": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "require|v": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "research|n": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "reside|v": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "resource|n": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "respond|v": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "restrict|v": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "retain|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "reveal|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "role|n": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "salary|n": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "sample|n": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "scholarship|n": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "scrutiny|n": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "sector|n": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "secure|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "seek|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "select|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "sentence|n": {
+  "cef": "A1",
+  "src": "Oxford 3000"
+ },
+ "shift|n": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "significant|adj": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "similar|adj": {
+  "cef": "A1",
+  "src": "Oxford 3000"
+ },
+ "site|n": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "slightly|adv": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "soar|v": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "somewhat|adv": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "source|n": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "specific|adj": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "sponsorship|n": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "stable|adj": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "standard of living|phr": {
+  "acl": true
+ },
+ "steadily|adv": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "stereotype|n": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "strategy|n": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "stress|n": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "structure|n": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "subsidy|n": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "substantially|adv": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "substantial|adj": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "sufficient|adj": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "surveillance|n": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "survey|n": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "sustainable|adj": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "sustain|v": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "tackle|v": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "take responsibility for|coll": {
+  "acl": true
+ },
+ "take responsibility for|phr": {
+  "acl": true
+ },
+ "tend|v": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "text|n": {
+  "cef": "A1",
+  "src": "Oxford 3000"
+ },
+ "theft|n": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "theory|n": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "therefore|adv": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "tourism|n": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "tradition|n": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "transfer|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "treatment|n": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "undergo|v": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "undermine|v": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "undoubtedly|adv": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "unemployment|n": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "unless|conj": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "used to|phr": {
+  "cef": "A2",
+  "src": "Oxford 3000"
+ },
+ "vaccination|n": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "variable|n": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "vary|v": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "viable|adj": {
+  "cef": "C1",
+  "src": "Oxford 5000"
+ },
+ "victim|n": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "viewer|n": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "virtual|adj": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "volunteer|v": {
+  "cef": "B1",
+  "src": "Oxford 3000"
+ },
+ "welfare|n": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "whereas|conj": {
+  "cef": "B2",
+  "src": "Oxford 3000"
+ },
+ "widespread|adj": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ },
+ "workforce|n": {
+  "cef": "B2",
+  "src": "Oxford 5000"
+ }
+}

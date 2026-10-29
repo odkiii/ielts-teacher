@@ -1,51 +1,50 @@
-#level B2
-take up|начать заниматься (чем-то)|He [[took up]] running last year.|phv|gen|B1
-give up|бросить, отказаться|She [[gave up]] smoking.|phv|health|B1
-carry out|выполнять, проводить|They [[carried out]] a survey.|phv|sci|B2
-bring up|воспитывать; поднимать (тему)|She was [[brought up]] by her grandparents.|phv|soc|B2
-set up|основывать, создавать|They [[set up]] a charity.|phv|work|B2
-turn down|отклонять|He [[turned down]] the job offer.|phv|work|B2
-put off|откладывать|Don't [[put off]] revising until the last day.|phv|edu|B2
-look into|изучать, расследовать|The council will [[look into]] the problem.|phv|gov|B2
-come across|наткнуться на|I [[came across]] an interesting article.|phv|gen|B2
-figure out|разобраться|I couldn't [[figure out]] the answer.|phv|gen|B2
-point out|указывать на|The teacher [[pointed out]] my mistake.|phv|edu|B2
-sum up|подытоживать|To [[sum up]], the benefits outweigh the costs.|phv|gen|B2
-back up|подкреплять (аргументами)|Data [[back up]] this claim.|phv|sci|B2
-break down|ломаться; рушиться|Negotiations [[broke down]] after two days.|phv|gov|B2
-cut down on|сокращать потребление|You should [[cut down on]] sugar.|phv|health|B1
-end up|оказаться в итоге|We [[ended up]] taking a taxi.|phv|gen|B1
-fall behind|отставать|Some pupils [[fall behind]] in maths.|phv|edu|B2
-catch up with|догнать|She worked hard to [[catch up with]] her classmates.|phv|edu|B2
-keep up with|не отставать от|It is hard to [[keep up with]] new technology.|phv|tech|B2
-drop out of|бросить (учёбу)|He [[dropped out of]] university.|phv|edu|B2
-live up to|оправдывать (ожидания)|The film didn't [[live up to]] expectations.|phv|gen|C1
-make up for|компенсировать|Extra work can't [[make up for]] lost sleep.|phv|gen|C1
-phase out|постепенно прекращать|The government will [[phase out]] petrol cars.|phv|env|C1
-step down|уйти с поста|The director [[stepped down]] last month.|phv|work|C1
-stand out|выделяться|Her essay [[stood out]] from the rest.|phv|edu|B2
-rule out|исключать|Doctors cannot [[rule out]] a virus.|phv|health|C1
-pass on|передавать|Parents [[pass on]] values to their children.|phv|soc|B2
-hold back|сдерживать|Fear of failure can [[hold back]] young entrepreneurs.|phv|work|C1
-boil down to|сводиться к|It all [[boils down to]] money.|phv|gen|C1
-get across|донести (мысль)|She struggled to [[get her point across]].|phv|gen|C1
-open up|открывать (возможности)|Languages [[open up]] new opportunities.|phv|gen|B2
-pick up|осваивать, подхватывать|Children [[pick up]] languages quickly.|phv|edu|B2
-work out|вычислить; получиться|I can't [[work out]] the total.|phv|gen|B2
-settle down|остепениться|They [[settled down]] in a small town.|phv|soc|B2
-look up to|уважать|Pupils [[look up to]] their teachers.|phv|soc|B2
-look down on|смотреть свысока|Nobody should [[look down on]] others.|phv|soc|C1
-get over|оправиться|It took months to [[get over]] the illness.|phv|health|B2
-get along with|ладить с|I [[get along with]] my colleagues.|phv|soc|B1
-account for|составлять (долю); объяснять|Cars [[account for]] 60% of journeys.|phv|gen|B2
-level off|выравниваться|Prices [[levelled off]] after 2015.|phv|gen|C1
-go up|расти|Prices [[went up]] sharply.|phv|gen|B1
-build up|наращивать|Athletes [[build up]] strength gradually.|phv|health|B2
-iron out|уладить (проблемы)|They need to [[iron out]] a few problems.|phv|work|C1
-catch on to|начать понимать|It took me a while to [[catch on to]] the joke.|phv|gen|C1
-talk through|подробно обсудить|We [[talked through]] our worries together.|phv|soc|B2
-cope with|справляться с|She [[copes with]] pressure well.|phv|health|B2
-carry on|продолжать|Please [[carry on]] with your work.|phv|gen|B1
-turn out|оказаться|The test [[turned out]] to be easy.|phv|gen|B2
-call off|отменять|The match was [[called off]] because of rain.|phv|gen|B2
-bring about|вызывать, приводить к|The internet has [[brought about]] huge changes.|phv|gen|C1
+take up|начать заниматься (чем-то)|He [[took up]] running last year.|phv|gen
+give up|бросить, отказаться|She [[gave up]] smoking.|phv|health
+carry out|выполнять, проводить|They [[carried out]] a survey.|phv|sci
+bring up|воспитывать; поднимать (тему)|She was [[brought up]] by her grandparents.|phv|soc
+set up|основывать, создавать|They [[set up]] a charity.|phv|work
+turn down|отклонять|He [[turned down]] the job offer.|phv|work
+put off|откладывать|Don't [[put off]] revising until the last day.|phv|edu
+look into|изучать, расследовать|The council will [[look into]] the problem.|phv|gov
+come across|наткнуться на|I [[came across]] an interesting article.|phv|gen
+figure out|разобраться|I couldn't [[figure out]] the answer.|phv|gen
+point out|указывать на|The teacher [[pointed out]] my mistake.|phv|edu
+sum up|подытоживать|To [[sum up]], the benefits outweigh the costs.|phv|gen
+back up|подкреплять (аргументами)|Data [[back up]] this claim.|phv|sci
+break down|ломаться; рушиться|Negotiations [[broke down]] after two days.|phv|gov
+cut down on|сокращать потребление|You should [[cut down on]] sugar.|phv|health
+end up|оказаться в итоге|We [[ended up]] taking a taxi.|phv|gen
+fall behind|отставать|Some pupils [[fall behind]] in maths.|phv|edu
+catch up with|догнать|She worked hard to [[catch up with]] her classmates.|phv|edu
+keep up with|не отставать от|It is hard to [[keep up with]] new technology.|phv|tech
+drop out of|бросить (учёбу)|He [[dropped out of]] university.|phv|edu
+live up to|оправдывать (ожидания)|The film didn't [[live up to]] expectations.|phv|gen
+make up for|компенсировать|Extra work can't [[make up for]] lost sleep.|phv|gen
+phase out|постепенно прекращать|The government will [[phase out]] petrol cars.|phv|env
+step down|уйти с поста|The director [[stepped down]] last month.|phv|work
+stand out|выделяться|Her essay [[stood out]] from the rest.|phv|edu
+rule out|исключать|Doctors cannot [[rule out]] a virus.|phv|health
+pass on|передавать|Parents [[pass on]] values to their children.|phv|soc
+hold back|сдерживать|Fear of failure can [[hold back]] young entrepreneurs.|phv|work
+boil down to|сводиться к|It all [[boils down to]] money.|phv|gen
+get across|донести (мысль)|She struggled to [[get her point across]].|phv|gen
+open up|открывать (возможности)|Languages [[open up]] new opportunities.|phv|gen
+pick up|осваивать, подхватывать|Children [[pick up]] languages quickly.|phv|edu
+work out|вычислить; получиться|I can't [[work out]] the total.|phv|gen
+settle down|остепениться|They [[settled down]] in a small town.|phv|soc
+look up to|уважать|Pupils [[look up to]] their teachers.|phv|soc
+look down on|смотреть свысока|Nobody should [[look down on]] others.|phv|soc
+get over|оправиться|It took months to [[get over]] the illness.|phv|health
+get along with|ладить с|I [[get along with]] my colleagues.|phv|soc
+account for|составлять (долю); объяснять|Cars [[account for]] 60% of journeys.|phv|gen
+level off|выравниваться|Prices [[levelled off]] after 2015.|phv|gen
+go up|расти|Prices [[went up]] sharply.|phv|gen
+build up|наращивать|Athletes [[build up]] strength gradually.|phv|health
+iron out|уладить (проблемы)|They need to [[iron out]] a few problems.|phv|work
+catch on to|начать понимать|It took me a while to [[catch on to]] the joke.|phv|gen
+talk through|подробно обсудить|We [[talked through]] our worries together.|phv|soc
+cope with|справляться с|She [[copes with]] pressure well.|phv|health
+carry on|продолжать|Please [[carry on]] with your work.|phv|gen
+turn out|оказаться|The test [[turned out]] to be easy.|phv|gen
+call off|отменять|The match was [[called off]] because of rain.|phv|gen
+bring about|вызывать, приводить к|The internet has [[brought about]] huge changes.|phv|gen

@@ -195,5 +195,5 @@ test('cefOf / cefRank: карточки на ступень выше', () => {
   assert.equal(E.cefOf({ L: 6, R: 6.5, W: 6, S: 6 }), 'B2');
   assert.equal(E.cefOf({ L: 7.5, R: 7.5, W: 7, S: 7 }), 'C1');
   assert.equal(E.cefRank('B1', 'B2'), 0); assert.equal(E.cefRank('B1', 'B1'), 1);
-  assert.equal(E.cefRank('B1', 'C1'), 2); assert.equal(E.cefRank('C1', 'B1'), 3); assert.equal(E.cefRank('B1', 'C2'), 4);
+  assert.equal(E.cefRank('B1', 'C1'), 2); assert.equal(E.cefRank('C1', 'B1'), 3); assert.equal(E.cefRank('B1', 'C2'), 4); assert.equal(E.cefRank('B1', 'A2'), 3); assert.equal(E.cefRank('B1', undefined), 1);
 });
