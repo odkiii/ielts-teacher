@@ -153,3 +153,20 @@ test('checkAnswer: регистр и дефис не важны, неверно�
   assert.ok(!Eg.checkAnswer({ a: ['planters'] }, 'planter')); assert.ok(!Eg.checkAnswer({ a: ['x'] }, ''));
   assert.ok(Eg.checkAnswer({ a: 'T' }, 't')); assert.ok(!Eg.checkAnswer({ a: 'NG' }, 'F'));
 });
+
+test('parseFeedback: оценки, ошибки, коллокации, советы из ответа ИИ', () => {
+  const txt = require('fs').readFileSync(__dirname + '/fixtures/ai_feedback.txt', 'utf8');
+  const r = Eg.parseFeedback(txt);
+  assert.deepEqual(r.scores, [4, 4, 4, 4]); assert.equal(r.kind, 't2'); assert.equal(r.overallRange, '4.0–4.5');
+  assert.equal(r.errors.length, 9);
+  assert.deepEqual(r.errors[0], { tag: 'W-ART', snippet: 'amount of information', fix: 'the amount of information' });
+  assert.equal(r.errors.find((e) => e.snippet === 'usuable').fix, 'usable');
+  assert.equal(r.errors.find((e) => e.tag === 'W-REP').fix, '');
+  assert.deepEqual(r.collocations, ['practical life skills', 'academic curriculum', 'critical thinking']);
+  assert.equal(r.fixes.length, 3); assert.ok(r.rewrite.startsWith('In my view'));
+});
+test('parseFeedback: без JSON берёт нижние границы; мусор даёт пусто', () => {
+  const r = Eg.parseFeedback('Task Response: 5.5–6.0\nCoherence and Cohesion: 6.0\nLexical Resource: 5.5–6.0\nGrammatical Range and Accuracy: 5.0–5.5');
+  assert.deepEqual(r.scores, [5.5, 6, 5.5, 5]);
+  const e = Eg.parseFeedback('hello'); assert.equal(e.scores, null); assert.equal(e.errors.length, 0);
+});

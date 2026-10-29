@@ -424,9 +424,10 @@
   function viewWriting() {
     const p = P(); const W = WRITING;
     const doneIds = new Set(p.writes.map((w) => w.id));
-    let h = head('Writing', 'Задания в формате IELTS') + seg('wg', [['t2', 'Task 2'], ['t1', 'Task 1'], ['gt', 'Письма'], ['free', 'Своё']], wGroup) + '<div id="wl" style="margin-top:16px"></div>';
+    let h = head('Writing', 'Задания в формате IELTS', '<button class="btn sm" id="wimp">Оценка ИИ</button>') + seg('wg', [['t2', 'Task 2'], ['t1', 'Task 1'], ['gt', 'Письма'], ['free', 'Своё']], wGroup) + '<div id="wl" style="margin-top:16px"></div>';
     if (p.subs.length) h += '<h3>Оценки</h3><div class="list">' + p.subs.slice().reverse().slice(0, 15).map((s) => '<div class="rowi"><div class="grow"><b>' + esc((KINDS.find((k) => k[0] === s.kind) || [0, s.kind])[1]) + '</b> <span class="mut">· ' + esc(fmtD(s.date)) + (s.note ? ' · ' + esc(s.note) : '') + '</span></div><b>' + esc(s.avg) + '</b></div>').join('') + '</div>';
     paint(h);
+    $('#wimp').onclick = () => importSheet(p, wGroup === 't1' ? 't1' : wGroup === 'gt' ? 'gt' : 't2', '');
     const row = (t, title, sub) => '<a class="rowi" href="#write/' + t.id + '"><div class="grow"><b>' + esc(title) + '</b><div class="mut" style="margin-top:2px">' + esc(sub) + '</div></div>' + (doneIds.has(t.id) ? '<span class="chip on">✓</span>' : ico('chev', 'chev')) + '</a>';
     const draw = () => {
       let html;
@@ -445,6 +446,35 @@
       $('#ssave').onclick = () => {
         const sc = [1, 2, 3, 4].map((i) => num($('#sc' + i).value, NaN)); if (sc.some(isNaN)) { toast('Заполни 4 оценки'); return; }
         p.subs.push({ id: uid(), date: today(), kind: segVal('sk'), sc, avg: E.overall(sc[0], sc[1], sc[2], sc[3]), note: $('#snote').value.trim(), ref: ref || '' }); save(); closeSheet(); toast('Сохранено'); route();
+      };
+    });
+  }
+  function importSheet(p, kind0, ref) {
+    openSheet('<h2>Оценка от ИИ</h2><p class="mut" style="margin-top:-6px">Вставь весь ответ ИИ целиком — оценки, ошибки и коллокации разберутся сами.</p><textarea id="ai" style="min-height:150px" placeholder="Вставь ответ ИИ"></textarea><div style="margin-top:12px"><button class="btn p" id="aip">Разобрать</button></div><div id="aiout"></div><div style="text-align:center;margin-top:6px"><button class="link" id="aiman">Ввести оценки вручную</button></div>', () => {
+      $('#aiman').onclick = () => scoreSheet(p, kind0, ref);
+      $('#aip').onclick = () => {
+        const r = E.parseFeedback($('#ai').value);
+        if (!r.scores && !r.errors.length) { toast('Не нашёл оценок и ошибок — вставь ответ целиком'); return; }
+        const sc = r.scores || ['', '', '', ''];
+        const tags = {}; r.errors.forEach((e) => { tags[e.tag] = (tags[e.tag] || 0) + 1; });
+        const known = new Set(p.errors.map((e) => e.tag + '|' + e.snippet.toLowerCase()));
+        const fresh = r.errors.filter((e) => !known.has(e.tag + '|' + e.snippet.toLowerCase()));
+        $('#aiout').innerHTML = '<div class="enter"><h3>Нашёл</h3>' + seg('aik', KINDS, r.kind || kind0) + '<label>Четыре критерия' + (r.overallRange ? ' · ИИ: ' + esc(r.overallRange) : '') + '</label><div class="grid4">' + sc.map((v, i) => '<input id="as' + (i + 1) + '" type="number" inputmode="decimal" step="0.5" min="1" max="9" value="' + v + '">').join('') + '</div>' +
+          '<div class="chips" style="margin:14px -18px 0">' + Object.keys(tags).map((t) => '<span class="chip on" style="flex:none">' + esc(t) + ' ×' + tags[t] + '</span>').join('') + '</div>' +
+          '<label style="display:flex;gap:10px;align-items:center;margin:14px 0 0"><input type="checkbox" id="aie" checked style="width:20px;height:20px"> Записать ошибки в журнал: ' + fresh.length + (r.errors.length - fresh.length ? ' (ещё ' + (r.errors.length - fresh.length) + ' уже есть)' : '') + '</label>' +
+          (r.collocations.length ? '<label style="display:flex;gap:10px;align-items:center;margin:10px 0 0"><input type="checkbox" id="aic" checked style="width:20px;height:20px"> Сохранить коллокации: ' + r.collocations.length + '</label>' : '') +
+          '<div style="margin-top:16px"><button class="btn p" id="ais">Сохранить</button></div></div>';
+        bindSeg('aik');
+        $('#ais').onclick = () => {
+          const v = [1, 2, 3, 4].map((i) => num($('#as' + i).value, NaN));
+          if (v.some(isNaN)) { toast('Укажи 4 оценки'); return; }
+          const avg = E.overall(v[0], v[1], v[2], v[3]);
+          p.subs.push({ id: uid(), date: today(), kind: segVal('aik'), sc: v, avg, note: r.overallRange ? 'ИИ ' + r.overallRange : '', ref: ref || '', src: 'ai', fixes: r.fixes, rewrite: r.rewrite, colls: r.collocations });
+          let n = 0;
+          if ($('#aie') && $('#aie').checked) { fresh.forEach((e) => { p.errors.push({ id: uid(), date: today(), tag: e.tag, snippet: e.snippet, fix: e.fix, src: 'ai', ref: ref || '' }); n++; }); delete p.days[today()]; }
+          if ($('#aic') && $('#aic').checked) { p.colls = p.colls || []; r.collocations.forEach((c) => { if (!p.colls.some((x) => x.t.toLowerCase() === c.toLowerCase())) p.colls.push({ t: c, date: today() }); }); }
+          save(); closeSheet(); toast('Оценка ' + avg + ' · ошибок записано: ' + n); route();
+        };
       };
     });
   }
@@ -489,10 +519,10 @@
         row(a.avgLen >= 14 && a.avgLen <= 28, 'Средняя длина предложения: ' + a.avgLen + ' слов') + row(a.linkers.length >= 4, 'Связки: ' + (a.linkers.length ? a.linkers.slice(0, 8).join(', ') : 'нет') + ' (' + a.linkers.length + ')') +
         row(!a.repeats.length, a.repeats.length ? 'Повторы: ' + a.repeats.map((r) => r[0] + ' ×' + r[1]).join(', ') : 'Сильных повторов нет') +
         (k === 't2' ? row(a.hasConclusion, a.hasConclusion ? 'Есть вывод' : 'Нет явного вывода (in conclusion…)') : k === 't1' ? row(a.hasOverview, a.hasOverview ? 'Есть overview' : 'Нет overview (Overall, …)') : '') + '</div>' +
-        '<p class="mut">Это проверка формы, не оценка. Содержание и грамматику оценит ИИ — скопируй промпт.</p><div class="stack"><button class="btn p" id="wcp">Скопировать промпт для ИИ</button><button class="btn" id="wsv">Сохранить попытку</button><button class="btn" id="wsc">Записать оценку</button></div>', () => {
+        '<p class="mut">Это проверка формы, не оценка. Содержание и грамматику оценит ИИ — скопируй промпт.</p><div class="stack"><button class="btn p" id="wcp">Скопировать промпт для ИИ</button><button class="btn" id="wsv">Сохранить попытку</button><button class="btn" id="wsc">Вставить ответ ИИ</button></div>', () => {
         $('#wcp').onclick = () => copyText(buildPrompt(k, q, text));
         $('#wsv').onclick = () => { p.writes.push({ id, date: today(), words: a.words, text: text.slice(0, 6000) }); save(); closeSheet(); toast('Попытка сохранена'); };
-        $('#wsc').onclick = () => scoreSheet(p, k, id);
+        $('#wsc').onclick = () => importSheet(p, k, id);
       });
     };
   }

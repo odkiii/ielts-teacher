@@ -1,0 +1,44 @@
+1) Band ranges for each criterion
+
+· Task Response: 4.0–4.5
+  Quotes: “i agree with it” (position stated but later contradicted); only 179 words (under length penalty).
+· Coherence and Cohesion: 4.0–4.5
+  Quotes: “at first i would say” (weak opening linker).
+· Lexical Resource: 4.0–4.5
+  Quotes: “usuable” (spelling/word form); “basical living” (word form).
+· Grammatical Range and Accuracy: 4.0–4.5
+  Quotes: “did you ever needed” (tense error).
+
+2) Overall range
+4.0–4.5
+
+3) Three highest-impact fixes
+
+1. Answer the question fully and clearly – state the extent of agreement and develop both sides; meet the 250-word minimum.
+2. Improve paragraphing and logical flow – use clear topic sentences.
+3. Eliminate basic grammar and punctuation errors – capitalise sentence beginnings.
+
+4) Rewritten paragraph one band higher
+(Original second paragraph → level ~5.0–5.5)
+In my view, some academic subjects may seem less directly useful in daily life. Chemistry, for example, is often questioned by students.
+
+5) Three collocations to learn
+
+· practical life skills
+· academic curriculum
+· critical thinking
+
+6) List of errors with codes
+
+· W-ART: “amount of information” → “the amount of information”
+· W-ART: “in better direction” → “in a better direction”
+· W-WF: “usuable” → “usable”
+· W-WF: “did you ever needed” → “did you ever need”
+· W-SVA: “themes are giving” → “subjects give”
+· W-PUNCT: missing capital letters at sentence starts (“at first”, “as i think”)
+· W-PUNCT: “thats why” → “that’s why”
+· W-REP: repeated “i think”, “i agree”, “as i said”
+· W-TR: unclear extent of agreement; key part of question not addressed
+
+JSON line:
+{"c1":4.0,"c2":4.0,"c3":4.0,"c4":4.0}

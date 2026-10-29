@@ -364,6 +364,45 @@
     return String(item.a).toLowerCase() === g.toLowerCase();
   }
 
+
+  // ---------- Разбор ответа ИИ-экзаменатора ----------
+  const CRIT = [['c1', /(task response|task achievement|fluency and coherence)/i], ['c2', /(coherence and cohesion|lexical resource)/i], ['c3', /(lexical resource|grammatical range)/i], ['c4', /(grammatical range and accuracy|pronunciation)/i]];
+  const unq = (x) => String(x || '').replace(/^[\s"'“”‘’«»]+|[\s"'“”‘’«»]+$/g, '').trim();
+  /** Из свободного текста ответа ИИ достаёт оценки, ошибки с кодами, коллокации, советы и переписанный абзац. */
+  function parseFeedback(text) {
+    const t = String(text || '').replace(/\r/g, '');
+    const out = { scores: null, kind: null, errors: [], collocations: [], fixes: [], rewrite: '', overallRange: '' };
+    const j = t.match(/\{[^{}]*["']?c1["']?\s*:\s*[\d.]+[^{}]*\}/i);
+    if (j) {
+      const g = (k) => { const m = j[0].match(new RegExp('["\']?' + k + '["\']?\\s*:\\s*([\\d.]+)', 'i')); return m ? parseFloat(m[1]) : NaN; };
+      const sc = [g('c1'), g('c2'), g('c3'), g('c4')];
+      if (sc.every((v) => v >= 1 && v <= 9)) out.scores = sc;
+    }
+    if (!out.scores) { // запасной путь: нижние границы диапазонов по названиям критериев
+      const names = [/task response|task achievement|fluency and coherence/i, /coherence and cohesion|lexical resource/i, /lexical resource|grammatical range/i, /grammatical range and accuracy|pronunciation/i];
+      const found = [];
+      t.split('\n').forEach((ln) => { const m = ln.match(/(task response|task achievement|coherence and cohesion|lexical resource|grammatical range and accuracy|fluency and coherence|pronunciation)[^\d\n]{0,30}(\d(?:\.\d)?)\s*(?:[–—-]\s*(\d(?:\.\d)?))?/i); if (m && found.length < 4) found.push(parseFloat(m[2])); });
+      if (found.length === 4) out.scores = found;
+    }
+    out.kind = /task achievement/i.test(t) ? 't1' : /fluency and coherence/i.test(t) ? 'sp' : /task response/i.test(t) ? 't2' : null;
+    const om = t.match(/overall range[\s\S]{0,40}?(\d(?:\.\d)?\s*[–—-]\s*\d(?:\.\d)?)/i); if (om) out.overallRange = om[1].replace(/\s/g, '');
+    const seen = new Set(); const re = /^[\s·•*\-–>]*\**\s*((?:W|S|L|R)-[A-Z]{2,6})\s*\**\s*[:：]\s*(.+)$/gm; let m;
+    while ((m = re.exec(t))) {
+      const body = m[2].trim(); const parts = body.split(/\s*(?:→|->|⇒|=>)\s*/);
+      const snippet = unq(parts[0]); const fix = parts.length > 1 ? unq(parts.slice(1).join(' → ')) : '';
+      if (!snippet) continue; const key = m[1] + '|' + snippet.toLowerCase(); if (seen.has(key)) continue; seen.add(key);
+      out.errors.push({ tag: m[1], snippet: snippet.slice(0, 160), fix: fix.slice(0, 160) });
+    }
+    const sec = (head, stop) => { const i = t.search(head); if (i < 0) return ''; const rest = t.slice(i); const k = rest.slice(5).search(stop); return k < 0 ? rest : rest.slice(0, k + 5); };
+    const colBlock = sec(/collocations? to learn/i, /\n\s*(?:6\)|6\.|list of errors|errors? with codes)/i);
+    colBlock.split('\n').slice(1).forEach((ln) => { const b = ln.match(/^\s*(?:[·•*\-–]|\d+[.)])\s*(.+)$/); if (b && unq(b[1])) out.collocations.push(unq(b[1])); });
+    const fixBlock = sec(/highest[- ]impact fixes/i, /\n\s*(?:4\)|4\.|rewritten paragraph)/i);
+    fixBlock.split('\n').slice(1).forEach((ln) => { const b = ln.match(/^\s*(?:\d+[.)]|[·•*\-–])\s*(.+)$/); if (b) out.fixes.push(b[1].trim().slice(0, 300)); });
+    const rwBlock = sec(/rewritten paragraph/i, /\n\s*(?:5\)|5\.|three collocations|collocations? to learn)/i);
+    out.rewrite = rwBlock.split('\n').slice(1).join('\n').replace(/^\s*\(.*?\)\s*$/m, '').trim().slice(0, 1200);
+    return out;
+  }
+
   // ---------- Баллы ----------
   function overall(L, R, W, S) {
     const a = (L + R + W + S) / 4;
@@ -381,6 +420,6 @@
     return 3.5;
   }
 
-  const api = { SK, PHASES, pd, fmt, addDays, daysBetween, weekNo, phaseFor, errorSeverity, weights, dayTasks, newCard, dueCards, review, overall, rawToBand, isWord, plain, lrMode, lrRate, master, unmaster, reviewMastered, buildSession, pickNext, mcq, checkSentence, GAPS, analyseText, checkAnswer };
+  const api = { SK, PHASES, pd, fmt, addDays, daysBetween, weekNo, phaseFor, errorSeverity, weights, dayTasks, newCard, dueCards, review, overall, rawToBand, isWord, plain, lrMode, lrRate, master, unmaster, reviewMastered, buildSession, pickNext, mcq, checkSentence, GAPS, analyseText, checkAnswer, parseFeedback };
   if (typeof module !== 'undefined' && module.exports) module.exports = api; else root.Engine = api;
 })(typeof window !== 'undefined' ? window : globalThis);
