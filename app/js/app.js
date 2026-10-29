@@ -100,6 +100,7 @@
   function paint(html, animate) {
     const v = $('#view'); v.innerHTML = html; v.classList.remove('enter');
     if (animate !== false) { void v.offsetWidth; v.classList.add('enter'); }
+    const ai = v.querySelector('[data-ai]'); if (ai) ai.onclick = () => importSheet(P(), 't2', '');
   }
 
   // ---------- профиль ----------
@@ -163,6 +164,7 @@
     h += '<div class="sum"><span id="sdn">' + s0.dn + ' из ' + d.total + ' мин</span><span id="spc">' + s0.pct + '%</span></div><div class="bar" style="margin-bottom:16px"><i id="sbar" style="width:' + s0.pct + '%"></i></div>';
     const fdue = isToday ? E.errDue(p.errors, today()).length : 0;
     if (fdue) h += fixBanner(fdue);
+    if (isToday) h += aiRow();
     h += '<div class="list">' + d.tasks.map((t) => {
       const more = (t.desc ? '<p>' + esc(t.desc) + '</p>' : '') + (t.resource ? '<div>' + resLine(t.resource) + '</div>' : '');
       return '<div class="task' + (done[t.id] ? ' done' : '') + '" data-id="' + esc(t.id) + '"><button class="cb" aria-label="Готово" aria-pressed="' + !!done[t.id] + '"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></button>' +
@@ -338,6 +340,7 @@
   }
 
   // ---------- Ошибки ----------
+  const aiRow = () => '<div class="list" style="margin-bottom:14px"><button class="rowi" data-ai="1"><div class="grow"><b>Загрузить отчёт ИИ</b><div class="mut" style="margin-top:2px">Вставь ответ проверяющего — баллы и ошибки сохранятся</div></div></button></div>';
   const fixBanner = (n) => '<div class="list" style="margin-bottom:14px"><a class="rowi" href="#fix"><div class="grow"><b>Исправь свои ошибки</b><div class="mut" style="margin-top:2px">' + n + ' фраз на сегодня</div></div>' + ico('chev', 'chev') + '</a></div>';
   const errDots = (e) => (E.errDrillable && !E.errDrillable(e)) ? '' : ' <span class="mut" style="letter-spacing:2px;color:var(--acc)">' + (e.done ? '✓' : '●'.repeat(e.n || 0) + '○'.repeat(3 - (e.n || 0))) + '</span>';
   // ---------- Исправь свои ошибки ----------
@@ -371,6 +374,7 @@
     const top = Object.keys(sev).sort((a, b) => sev[b] - sev[a]).slice(0, 5);
     let h = head('Ошибки', p.errors.length ? 'Записей: ' + p.errors.length : 'Пока пусто', plusBtn('eplus', 'Добавить'));
     const dueN = E.errDue(p.errors, t0).length;
+    h += aiRow();
     if (dueN) h += fixBanner(dueN);
     if (top.length) h += '<div class="chips" style="margin-bottom:14px">' + top.map((t) => '<span class="chip on" style="flex:none">' + esc(t) + ' · ' + p.errors.filter((e) => e.tag === t && e.date >= E.addDays(t0, -30)).length + '</span>').join('') + '</div>';
     if (p.errors.length) h += '<div class="list">' + p.errors.slice().reverse().slice(0, 100).map((e) => '<button class="rowi" data-e="' + esc(e.id) + '"><div class="grow"><div><span class="chip">' + esc(e.tag) + '</span> <span class="mut">' + esc(fmtD(e.date)) + '</span>' + errDots(e) + '</div><div style="margin-top:6px">' + esc(e.snippet) + (e.fix ? ' <span class="mut">→</span> <b>' + esc(e.fix) + '</b>' : '') + '</div></div></button>').join('') + '</div>';
@@ -617,7 +621,7 @@
   function viewProgress() {
     const p = P(); const t0 = today();
     let h = head('Прогресс', p.mocks.length ? 'Последний мок: ' + p.mocks[p.mocks.length - 1].overall : 'Моков пока нет', plusBtn('mplus', 'Новый мок'));
-    h += '<div class="grid4">' + E.SK.map((s) => '<div class="card tile"><div class="mut">' + s + '</div><b>' + p.skills[s] + '</b><div class="mut">→ ' + p.target.overall + '</div></div>').join('') + '</div>';
+    h += aiRow() + '<div class="grid4">' + E.SK.map((s) => '<div class="card tile"><div class="mut">' + s + '</div><b>' + p.skills[s] + '</b><div class="mut">→ ' + p.target.overall + '</div></div>').join('') + '</div>';
     if (p.mocks.length) h += '<h3>Моки</h3><div class="list">' + p.mocks.slice().reverse().map((m) => '<div class="rowi"><div class="grow"><b>' + esc(fmtD(m.date, { day: 'numeric', month: 'long' })) + '</b><div class="mut" style="margin-top:2px">L ' + m.L + ' · R ' + m.R + ' · W ' + m.W + ' · S ' + m.S + '</div></div><span class="big" style="font-size:22px">' + m.overall + '</span></div>').join('') + '</div>';
     const wk = {}; Object.keys(p.days).forEach((d) => { const dd = p.days[d]; const dn = p.done[d] || {}; const k = dd.week; wk[k] = wk[k] || { plan: 0, done: 0 }; dd.tasks.forEach((t) => { wk[k].plan += t.minutes; if (dn[t.id]) wk[k].done += t.minutes; }); });
     const ks = Object.keys(wk).map(Number).sort((a, b) => b - a).slice(0, 8);
