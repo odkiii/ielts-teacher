@@ -1,0 +1,150 @@
+about|приблизительно|It costs [[about]] ten pounds.|adj|gen
+absolutely|абсолютно|You are [[absolutely]] right.|adv|gen
+academic|академический|She won an [[academic]] prize.|adj|edu
+access|доступ|Students have [[access]] to the library.|n|edu
+access|получать доступ|You can [[access]] the files online.|v|tech
+accommodation|жильё|The price includes [[accommodation]].|n|gen
+account|счёт, учётная запись|She opened a bank [[account]].|n|work
+achievement|достижение|Finishing school was a great [[achievement]].|n|edu
+act|акт, поступок|It was an [[act]] of kindness.|n|soc
+ad|реклама|I saw an [[ad]] for the job.|n|media
+addition|добавление|In [[addition]], there is a fee.|n|gen
+admire|восхищаться|I [[admire]] her courage.|v|soc
+admit|признавать|He [[admitted]] his mistake.|v|gen
+advanced|продвинутый|She takes an [[advanced]] English course.|adj|edu
+advise|советовать|Doctors [[advise]] rest.|v|health
+afford|позволить себе|I can't [[afford]] a new car.|v|work
+age|стареть|People [[age]] differently.|v|health
+aged|в возрасте|Children [[aged]] five to ten can join.|adj|soc
+agent|агент|A travel [[agent]] booked our trip.|n|work
+agreement|соглашение|They signed an [[agreement]].|n|work
+ahead|впереди|The road [[ahead]] is closed.|adv|gen
+ai|искусственный интеллект (ИИ)|[[AI]] can summarize long texts.|n|tech
+aim|цель|Our [[aim]] is to improve results.|n|gen
+aim|стремиться, целиться|We [[aim]] to finish early.|v|gen
+alarm|сигнализация, будильник|The fire [[alarm]] rang.|n|gen
+album|альбом|The band released a new [[album]].|n|media
+alcohol|алкоголь|Too much [[alcohol]] is harmful.|n|health
+alcoholic|алкогольный|Avoid [[alcoholic]] drinks.|adj|health
+alternative|альтернативный|Look for an [[alternative]] route.|adj|gen
+amazed|изумлённый|I was [[amazed]] by the view.|adj|gen
+ambition|амбиция|Her [[ambition]] is to become a doctor.|n|edu
+ambitious|амбициозный|He is young and [[ambitious]].|adj|work
+analysis|анализ|The [[analysis]] took two weeks.|n|sci
+announce|объявлять|The school [[announced]] the results.|v|edu
+announcement|объявление|An [[announcement]] was made at noon.|n|media
+annoy|раздражать|Loud music [[annoys]] me.|v|soc
+annoyed|раздражённый|She was [[annoyed]] by the delay.|adj|soc
+annoying|раздражающий|The noise is [[annoying]].|adj|gen
+apart|отдельно, в стороне|The two towns are ten miles [[apart]].|adv|gen
+apologize|извиняться|He [[apologized]] for being late.|v|soc
+application|заявка; приложение|Send your [[application]] by May.|n|work
+appointment|встреча, запись|I have a doctor's [[appointment]].|n|health
+appreciate|ценить, быть благодарным|We [[appreciate]] your help.|v|soc
+arrest|арест|The [[arrest]] was made at dawn.|n|crime
+arrest|арестовывать|Police [[arrested]] two men.|v|crime
+arrival|прибытие|The [[arrival]] of the train was late.|n|trans
+assignment|задание|Complete the [[assignment]] by Friday.|n|edu
+atmosphere|атмосфера|The cafe has a relaxed [[atmosphere]].|n|soc
+attach|прикреплять|[[Attach]] the file to the email.|v|tech
+attitude|отношение|A positive [[attitude]] helps.|n|soc
+attract|привлекать|The festival [[attracts]] tourists.|v|gen
+attraction|достопримечательность; притяжение|The tower is a tourist [[attraction]].|n|gen
+average|составлять в среднем|Prices [[average]] ten pounds.|v|gen
+award|награждать|She was [[awarded]] a prize.|v|edu
+backwards|назад|Take a step [[backwards]].|adv|gen
+bake|печь|She [[bakes]] bread every week.|v|gen
+balance|баланс|Find a [[balance]] between work and rest.|n|health
+balance|балансировать|He [[balanced]] on one leg.|v|health
+ban|запрет|There is a [[ban]] on smoking.|n|gov
+ban|запрещать|The city will [[ban]] plastic bags.|v|gov
+base|основа, база|The army has a [[base]] nearby.|n|gov
+base|основывать|The film is [[based]] on a true story.|v|media
+basic|базовый|He has [[basic]] computer skills.|adj|edu
+basis|основа|On a regular [[basis]], we meet weekly.|n|gen
+battery|батарея|The phone's [[battery]] died.|n|tech
+battle|битва|It was a long [[battle]].|n|gov
+beat|побеждать; бить|Our team [[beat]] the rivals.|v|gen
+beauty|красота|The [[beauty]] of the lake amazed us.|n|gen
+bee|пчела|A [[bee]] landed on the flower.|n|env
+belief|убеждение|It is my [[belief]] that everyone can learn.|n|soc
+bell|звонок, колокол|The school [[bell]] rang.|n|edu
+bend|изгиб|There's a sharp [[bend]] ahead.|n|trans
+bend|сгибать|[[Bend]] your knees.|v|health
+better|лучшее|I hope for something [[better]].|n|gen
+bite|укус|The [[bite]] was painful.|n|health
+bite|кусать|Dogs sometimes [[bite]].|v|gen
+block|блок, квартал|They live two [[blocks]] away.|n|gen
+block|блокировать|A fallen tree [[blocked]] the road.|v|trans
+board|садиться (на транспорт)|Passengers [[board]] at gate five.|v|trans
+bomb|бомба|A [[bomb]] threat closed the station.|n|gov
+bomb|бомбить|The city was [[bombed]].|v|gov
+border|граница|They crossed the [[border]] at night.|n|gov
+bother|беспокоить|Sorry to [[bother]] you.|v|soc
+branch|ветвь, отделение|The bank has a [[branch]] here.|n|work
+brand|бренд|It's a famous [[brand]].|n|work
+brand|клеймить, давать марку|The company [[branded]] itself as green.|v|work
+brave|храбрый|She was [[brave]] to speak up.|adj|soc
+breathe|дышать|It's hard to [[breathe]] here.|v|health
+breathing|дыхание|Deep [[breathing]] reduces stress.|n|health
+bride|невеста|The [[bride]] wore white.|n|soc
+bubble|пузырь|Soap [[bubbles]] floated up.|n|gen
+bury|хоронить, закапывать|Dogs [[bury]] bones.|v|gen
+by|мимо|Cars drove [[by]].|adv|gen
+calm|спокойный|Stay [[calm]].|adj|gen
+calm|спокойствие|The [[calm]] before the storm.|n|gen
+calm|успокаивать|Music helps [[calm]] nerves.|v|health
+campaign|кампания|A health [[campaign]] started.|n|media
+campaign|вести кампанию|Activists [[campaign]] for clean air.|v|soc
+campus|кампус|The university [[campus]] is large.|n|edu
+candidate|кандидат|The best [[candidate]] got the job.|n|work
+cap|кепка; ограничение|He wore a baseball [[cap]].|n|gen
+captain|капитан|The [[captain]] led the team.|n|gen
+careless|небрежный|A [[careless]] mistake cost points.|adj|gen
+ceiling|потолок|The [[ceiling]] is high.|n|gen
+celebration|празднование|The [[celebration]] lasted all night.|n|soc
+central|центральный|The hotel is in a [[central]] location.|adj|gen
+centre|центрировать|[[Centre]] the title on the page.|v|gen
+ceremony|церемония|The [[ceremony]] began at noon.|n|soc
+chain|цепочка (магазинов); цепь|A big supermarket [[chain]] opened.|n|work
+champion|чемпион|She is the world [[champion]].|n|gen
+channel|канал|Switch to another TV [[channel]].|n|media
+charge|плата; обвинение|There is a small [[charge]].|n|work
+charge|взимать плату; заряжать|They [[charge]] ten pounds.|v|work
+cheap|дёшево|You can buy it [[cheap]].|adv|gen
+cheat|обманщик|He is a [[cheat]].|n|soc
+cheat|обманывать, списывать|Don't [[cheat]] on the exam.|v|edu
+cheerful|жизнерадостный|She is a [[cheerful]] girl.|adj|soc
+chemical|химический|[[Chemical]] waste polluted the river.|adj|env
+chemical|химическое вещество|Factories release [[chemicals]].|n|env
+chest|грудь, сундук|He felt pain in his [[chest]].|n|health
+childhood|детство|She had a happy [[childhood]].|n|soc
+claim|утверждение, претензия|His [[claim]] was false.|n|gen
+claim|заявлять, требовать|She [[claims]] to be an expert.|v|gen
+clause|пункт, придаточное|Read the [[clause]] carefully.|n|work
+clear|расчищать, убирать|[[Clear]] the table.|v|gen
+click|щелчок|Just one [[click]] to buy.|n|tech
+click|щёлкать|[[Click]] the link.|v|tech
+client|клиент|The lawyer met a [[client]].|n|work
+climb|подъём|It was a hard [[climb]].|n|gen
+close|близко|Come [[close]].|adv|gen
+cloth|ткань|She wiped it with a [[cloth]].|n|gen
+clue|подсказка, улика|Police found a [[clue]].|n|crime
+coach|тренировать|He [[coaches]] a youth team.|v|gen
+coal|уголь|[[Coal]] pollutes the air.|n|env
+coin|монета|He found an old [[coin]].|n|gen
+collection|коллекция|She has a large [[collection]] of stamps.|n|gen
+coloured|цветной|[[Coloured]] pencils were used.|adj|gen
+combine|сочетать|[[Combine]] work with play.|v|gen
+comment|комментировать|Please [[comment]] on the proposal.|v|media
+commercial|коммерческий|It is a [[commercial]] product.|adj|work
+commercial|реклама (на ТВ)|The [[commercial]] lasted 30 seconds.|n|media
+communication|общение|Good [[communication]] is key.|n|work
+comparison|сравнение|Make a [[comparison]] of the two cities.|n|gen
+competitive|конкурентный|The market is highly [[competitive]].|adj|work
+competitor|конкурент|Our main [[competitor]] cut prices.|n|work
+complaint|жалоба|She made a [[complaint]] to the manager.|n|work
+concentrate|сосредоточиться|It's hard to [[concentrate]] in noise.|v|edu
+conclusion|вывод|The [[conclusion]] is clear.|n|sci
+confident|уверенный|She feels [[confident]] before exams.|adj|edu
+confirm|подтверждать|Please [[confirm]] your booking.|v|gen

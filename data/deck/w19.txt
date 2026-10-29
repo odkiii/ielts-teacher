@@ -1,0 +1,68 @@
+urban|городской|[[Urban]] areas are crowded.|adj|soc
+urge|настоятельно призывать|Doctors [[urge]] people to exercise.|v|health
+urgent|срочный|It is an [[urgent]] matter.|adj|gen
+usage|использование|Energy [[usage]] has fallen.|n|env
+useless|бесполезный|The old phone is [[useless]].|adj|tech
+vaccinate|вакцинировать|Children are [[vaccinated]] early.|v|health
+vaccine|вакцина|A new [[vaccine]] was approved.|n|health
+valid|действительный, обоснованный|Your ticket is [[valid]] for a month.|adj|gen
+value|ценить|Employers [[value]] teamwork.|v|work
+variation|вариация|There is wide [[variation]] in prices.|n|gen
+vast|обширный|A [[vast]] area was flooded.|adj|env
+venue|место проведения|The concert [[venue]] holds 5,000 people.|n|media
+vertical|вертикальный|Draw a [[vertical]] line.|adj|gen
+very|тот самый|This is the [[very]] reason I called.|adj|gen
+via|через|Send it [[via]] email.|prep|tech
+victory|победа|The team celebrated its [[victory]].|n|gen
+viewpoint|точка зрения|Try to see another [[viewpoint]].|n|gen
+villain|злодей|The [[villain]] is caught at the end.|n|media
+violence|насилие|[[Violence]] on TV worries parents.|n|media
+visa|виза|You need a [[visa]] to enter.|n|gov
+visible|видимый|The stars are [[visible]] tonight.|adj|gen
+vision|зрение; видение|He has poor [[vision]].|n|health
+visual|визуальный|Use [[visual]] aids in lessons.|adj|edu
+vital|жизненно важный|Sleep is [[vital]] for health.|adj|health
+vitamin|витамин|Oranges are rich in [[vitamin]] C.|n|health
+volume|объём; громкость|Turn down the [[volume]].|n|gen
+voluntary|добровольный|[[Voluntary]] work builds skills.|adj|soc
+voting|голосование|Online [[voting]] is available.|n|gov
+wage|заработная плата|The minimum [[wage]] rose.|n|work
+wander|бродить|They [[wandered]] around the old town.|v|gen
+warming|потепление|Global [[warming]] is a threat.|n|env
+way|далеко|The shop is [[way]] too expensive.|adv|gen
+weakness|слабость|Everyone has a [[weakness]].|n|soc
+wealth|богатство|Their [[wealth]] grew quickly.|n|soc
+wealthy|богатый|A [[wealthy]] family owns the land.|adj|soc
+weekly|еженедельный|There is a [[weekly]] quiz.|adj|gen
+weird|странный|It was a [[weird]] dream.|adj|gen
+well-being|благополучие|Exercise improves [[well-being]].|n|health
+wheat|пшеница|[[Wheat]] is grown in the plains.|n|env
+wherever|где бы ни|Sit [[wherever]] you like.|conj|gen
+whilst|в то время как|[[Whilst]] I agree, I have doubts.|conj|gen
+whisper|шёпот|Speak in a [[whisper]].|n|gen
+whisper|шептать|She [[whispered]] the answer.|v|gen
+whoever|кто бы ни|[[Whoever]] finishes first wins.|phr|gen
+whom|кого, кому|To [[whom]] should I write?|phr|gen
+widely|широко|The book is [[widely]] read.|adv|media
+wildlife|дикая природа|The park protects [[wildlife]].|n|env
+willing|готовый|Are you [[willing]] to help?|adj|soc
+wind|наматывать; извиваться|The road [[winds]] through the hills.|v|gen
+wire|проволока, провод|A metal [[wire]] connects them.|n|tech
+wisdom|мудрость|[[Wisdom]] comes with age.|n|soc
+wise|мудрый|It was a [[wise]] decision.|adj|gen
+withdraw|снимать (деньги); выводить|You can [[withdraw]] cash here.|v|work
+witness|свидетель|A [[witness]] saw the crash.|n|crime
+witness|быть свидетелем|Millions [[witnessed]] the event.|v|crime
+workplace|рабочее место|The [[workplace]] is changing.|n|work
+workshop|мастерская; семинар|Join our writing [[workshop]].|n|edu
+worm|червь|A [[worm]] crawled across the path.|n|env
+worse|худшее|Things got [[worse]] before getting better.|n|gen
+worst|наихудшее|The [[worst]] is over.|n|gen
+worth|стоимость, ценность|The painting is of great [[worth]].|n|work
+wound|рана|The [[wound]] healed well.|n|health
+wound|ранить|The soldier was [[wounded]].|v|health
+wrap|заворачивать|[[Wrap]] the gift.|v|gen
+wrist|запястье|She sprained her [[wrist]].|n|health
+wrong|неправильное; зло|He knows right from [[wrong]].|n|soc
+yet|но, однако|It's cheap, [[yet]] very good.|conj|gen
+zone|зона|A no-parking [[zone]] was created.|n|trans

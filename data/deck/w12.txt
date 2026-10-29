@@ -1,0 +1,150 @@
+cruise|круиз|They went on a Mediterranean [[cruise]].|n|gen
+cry|крик; плач|A [[cry]] came from the garden.|n|gen
+cue|сигнал, подсказка|Actors wait for their [[cue]].|n|media
+cure|лекарство, излечение|Scientists are searching for a [[cure]].|n|health
+cure|излечивать|Antibiotics can [[cure]] infections.|v|health
+curious|любопытный|Children are naturally [[curious]].|adj|edu
+current|течение, поток|The river [[current]] is strong.|n|env
+curve|кривая|The graph shows a steep [[curve]].|n|sci
+curve|изгибаться|The road [[curves]] to the left.|v|trans
+curved|изогнутый|The building has a [[curved]] roof.|adj|gen
+cute|симпатичный|What a [[cute]] puppy!|adj|gen
+dairy|молочный|[[Dairy]] products are rich in calcium.|adj|health
+dairy|молочная ферма|The farm is a [[dairy]].|n|env
+dare|осмеливаться|Few people [[dare]] to disagree.|v|gen
+darkness|темнота|The street was in [[darkness]].|n|gen
+database|база данных|The [[database]] stores customer details.|n|tech
+date|встречаться; датировать|The church [[dates]] from 1200.|v|gen
+deadly|смертельный|A [[deadly]] virus spread.|adj|health
+dealer|торговец, дилер|A car [[dealer]] offered a discount.|n|work
+debate|дебаты|There is a heated [[debate]] about taxes.|n|gov
+debate|обсуждать, дебатировать|MPs [[debated]] the bill.|v|gov
+debt|долг|Many students leave university in [[debt]].|n|work
+decent|приличный, достойный|Everyone deserves a [[decent]] home.|adj|soc
+deck|палуба|Passengers stood on the [[deck]].|n|trans
+declare|объявлять|The government [[declared]] a state of emergency.|v|gov
+decoration|украшение|Christmas [[decorations]] filled the street.|n|soc
+decrease|снижение|There was a [[decrease]] in crime.|n|gov
+decrease|уменьшаться|Sales [[decreased]] last year.|v|work
+deeply|глубоко|She was [[deeply]] moved.|adv|gen
+defeat|поражение|The team accepted its [[defeat]].|n|gen
+defeat|побеждать|They [[defeated]] their rivals.|v|gen
+defence|защита, оборона|The country spends much on [[defence]].|n|gov
+defend|защищать|Lawyers [[defend]] their clients.|v|crime
+defender|защитник|The [[defender]] blocked the shot.|n|gen
+delay|задержка|The [[delay]] lasted two hours.|n|trans
+delay|задерживать|Bad weather [[delayed]] the flight.|v|trans
+delete|удалять|[[Delete]] old emails.|v|tech
+deliberate|умышленный|It was a [[deliberate]] decision.|adj|gen
+deliberately|умышленно|He [[deliberately]] ignored the rules.|adv|gen
+delight|восторг|The children squealed with [[delight]].|n|gen
+delight|восхищать|The show [[delighted]] the audience.|v|media
+delighted|в восторге|We were [[delighted]] with the results.|adj|gen
+delivery|доставка|Free [[delivery]] is available.|n|work
+demand|спрос; требование|[[Demand]] for electric cars is rising.|n|work
+demand|требовать|Workers [[demanded]] higher pay.|v|work
+democracy|демократия|[[Democracy]] depends on free speech.|n|gov
+democratic|демократический|The country held [[democratic]] elections.|adj|gov
+demonstration|демонстрация; показ|A [[demonstration]] took place outside parliament.|n|soc
+deny|отрицать|She [[denied]] the rumour.|v|gen
+depart|отправляться|The train will [[depart]] at six.|v|trans
+dependent|зависимый|Children are [[dependent]] on their parents.|adj|soc
+deposit|залог, депозит|Pay a [[deposit]] to book the room.|n|work
+depressed|подавленный|He felt [[depressed]] after the loss.|adj|health
+depressing|угнетающий|The news was [[depressing]].|adj|gen
+depression|депрессия|[[Depression]] is a common illness.|n|health
+depth|глубина|Measure the [[depth]] of the pool.|n|sci
+desert|покидать, бросать|Soldiers [[deserted]] the army.|v|gen
+deserve|заслуживать|You [[deserve]] a break.|v|gen
+desire|желание|He has a strong [[desire]] to learn.|n|gen
+desire|желать|Many people [[desire]] a quiet life.|v|gen
+desperate|отчаянный|They were [[desperate]] for help.|adj|soc
+desperately|отчаянно|She [[desperately]] needed a job.|adv|soc
+destruction|разрушение|War brings [[destruction]].|n|gov
+detail|подробно излагать|The report [[details]] the costs.|v|work
+detailed|подробный|A [[detailed]] map was supplied.|adj|gen
+detect|обнаруживать|Sensors [[detect]] smoke.|v|tech
+determination|решимость|Her [[determination]] impressed us.|n|gen
+devote|посвящать|She [[devoted]] her life to teaching.|v|edu
+diabetes|диабет|[[Diabetes]] is linked to diet.|n|health
+differ|отличаться|Opinions [[differ]] on this issue.|v|gen
+dig|копать|Workers [[dig]] a trench.|v|gen
+disability|инвалидность|Access for people with a [[disability]] is required.|n|soc
+disabled|с ограниченными возможностями|The building has [[disabled]] access.|adj|soc
+disagreement|разногласие|There was [[disagreement]] about the budget.|n|gen
+disappoint|разочаровывать|The results [[disappointed]] us.|v|gen
+disappointment|разочарование|She hid her [[disappointment]].|n|gen
+discount|делать скидку|Shops [[discount]] old stock.|v|work
+discourage|отговаривать, препятствовать|High prices [[discourage]] buyers.|v|work
+dishonest|нечестный|It's [[dishonest]] to copy others' work.|adj|soc
+dismiss|отклонять, увольнять|He [[dismissed]] the idea.|v|gen
+disorder|расстройство|An eating [[disorder]] needs treatment.|n|health
+display|выставка, дисплей|The museum has a new [[display]].|n|media
+display|демонстрировать|Shops [[display]] goods in windows.|v|work
+distant|далёкий|A [[distant]] relative visited us.|adj|gen
+distinguish|различать|Learn to [[distinguish]] fact from opinion.|v|edu
+distract|отвлекать|Phones [[distract]] students.|v|edu
+distribution|распределение|The [[distribution]] of food is difficult.|n|gen
+district|район|The shopping [[district]] is busy.|n|gen
+disturb|беспокоить|Please do not [[disturb]] the patients.|v|health
+dive|нырок|He took a [[dive]] into the pool.|n|gen
+dive|нырять|Divers [[dive]] to see coral.|v|gen
+diversity|разнообразие|Cultural [[diversity]] enriches cities.|n|soc
+divide|разделение|The [[divide]] between rich and poor grew.|n|soc
+division|разделение, отдел|The sales [[division]] had a good year.|n|work
+divorce|развод|The [[divorce]] affected the children.|n|soc
+divorce|разводиться|They [[divorced]] last year.|v|soc
+document|документировать|Researchers [[documented]] each case.|v|sci
+domestic|домашний, внутренний|[[Domestic]] flights are cheaper.|adj|trans
+dominant|доминирующий|English is the [[dominant]] language of science.|adj|edu
+dominate|доминировать|Large firms [[dominate]] the market.|v|work
+donation|пожертвование|She made a [[donation]] to charity.|n|soc
+dot|точка|Put a [[dot]] at the end of the line.|n|gen
+downtown|в центре города|He works in [[downtown]] offices.|adj|gen
+downtown|в центре города (нареч.)|They went [[downtown]] to shop.|adv|gen
+downtown|центр города|The [[downtown]] is busy at lunch.|n|gen
+downwards|вниз|Prices moved [[downwards]].|adv|work
+dozen|дюжина|A [[dozen]] people attended.|n|gen
+draft|черновик|I wrote the first [[draft]] yesterday.|n|edu
+draft|составлять черновик|[[Draft]] an outline first.|v|edu
+drag|тащить|He [[dragged]] the box across the floor.|v|gen
+dramatic|драматический; резкий|There was a [[dramatic]] rise in prices.|adj|gen
+dull|скучный; тусклый|The lecture was [[dull]].|adj|edu
+dump|сваливать, выбрасывать|Don't [[dump]] rubbish in the river.|v|env
+duration|продолжительность|The [[duration]] of the course is six weeks.|n|edu
+dynamic|динамичный|She is a [[dynamic]] leader.|adj|work
+economics|экономика (наука)|She studies [[economics]].|n|edu
+economist|экономист|The [[economist]] predicted slow growth.|n|work
+ecosystem|экосистема|The reef is a fragile [[ecosystem]].|n|env
+edit|редактировать|She [[edits]] the school magazine.|v|media
+edition|издание|The latest [[edition]] was published.|n|media
+editorial|редакционный|The [[editorial]] team met on Friday.|adj|media
+efficient|эффективный|Trains are an [[efficient]] way to travel.|adj|trans
+efficiently|эффективно|She works [[efficiently]].|adv|work
+elbow|локоть|He hurt his [[elbow]].|n|health
+elderly|пожилой|The [[elderly]] need support.|adj|soc
+elect|избирать|Voters [[elect]] a new mayor.|v|gov
+electronics|электроника|The shop sells [[electronics]].|n|tech
+elegant|элегантный|She wore an [[elegant]] dress.|adj|gen
+elementary|начальный, элементарный|He teaches at an [[elementary]] school.|adj|edu
+eliminate|устранять|The plan will [[eliminate]] waste.|v|env
+elsewhere|в другом месте|If it's full, look [[elsewhere]].|adv|gen
+embrace|принимать (идею), обнимать|Schools [[embrace]] new technology.|v|edu
+emission|выброс|Carbon [[emission]] must fall.|n|env
+emotional|эмоциональный|She gave an [[emotional]] speech.|adj|soc
+emphasis|акцент|The school puts [[emphasis]] on reading.|n|edu
+emphasize|подчёркивать|Teachers [[emphasize]] key points.|v|edu
+empire|империя|The Roman [[Empire]] was vast.|n|gov
+encounter|столкновение, встреча|It was a strange [[encounter]].|n|gen
+encounter|сталкиваться|Travellers may [[encounter]] delays.|v|trans
+engage|вовлекать|Games [[engage]] pupils.|v|edu
+enjoyable|приятный|It was an [[enjoyable]] evening.|adj|gen
+enquiry|запрос|Send your [[enquiry]] by email.|n|work
+entertaining|развлекательный|The talk was [[entertaining]].|adj|media
+enthusiasm|энтузиазм|Her [[enthusiasm]] is contagious.|n|edu
+enthusiastic|восторженный|He is [[enthusiastic]] about science.|adj|edu
+entire|весь, целый|I read the [[entire]] book.|adj|gen
+entirely|полностью|I [[entirely]] agree.|adv|gen
+entrepreneur|предприниматель|A young [[entrepreneur]] opened a cafe.|n|work
+envelope|конверт|Seal the [[envelope]].|n|work
+equal|равный|Women and men should have [[equal]] pay.|n|soc

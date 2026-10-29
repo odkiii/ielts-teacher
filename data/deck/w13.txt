@@ -1,0 +1,150 @@
+equip|оснащать|Schools must be [[equipped]] with computers.|v|edu
+equivalent|эквивалентный|A degree or an [[equivalent]] qualification is required.|adj|work
+equivalent|эквивалент|There is no direct [[equivalent]] in English.|n|gen
+era|эра|It was the end of an [[era]].|n|gen
+erupt|извергаться; вспыхивать|The volcano [[erupted]] at night.|v|env
+essentially|по сути|[[Essentially]], the plan is simple.|adv|gen
+estate|поместье; недвижимость|He inherited a large [[estate]].|n|gen
+ethic|этика, нормы|A strong work [[ethic]] helps careers.|n|work
+ethical|этичный|Is it [[ethical]] to test on animals?|adj|sci
+ethnic|этнический|The city has many [[ethnic]] groups.|adj|soc
+evaluation|оценка|The course includes an [[evaluation]].|n|edu
+even|ровный; чётный|The road is [[even]].|adj|gen
+evil|злой|The film shows an [[evil]] villain.|adj|media
+evil|зло|Good and [[evil]] are common themes.|n|media
+evolution|эволюция|The [[evolution]] of language is slow.|n|sci
+evolve|развиваться, эволюционировать|Species [[evolve]] over time.|v|sci
+examination|осмотр; экзамен|A medical [[examination]] was required.|n|health
+exception|исключение|There are few [[exceptions]] to the rule.|n|gen
+excessive|чрезмерный|[[Excessive]] noise harms health.|adj|health
+exclude|исключать|The price [[excludes]] tax.|v|work
+excuse|оправдание|He gave an [[excuse]] for being late.|n|gen
+excuse|извинять|Please [[excuse]] my mistake.|v|gen
+executive|исполнительный|An [[executive]] committee made the choice.|adj|work
+executive|руководитель|The [[executive]] signed the deal.|n|work
+exhibit|экспонат|The best [[exhibit]] is in the hall.|n|media
+exhibit|выставлять|The gallery will [[exhibit]] her paintings.|v|media
+existence|существование|The [[existence]] of life elsewhere is unproven.|n|sci
+exit|выход|The [[exit]] is on the left.|n|gen
+exotic|экзотический|The market sells [[exotic]] fruit.|adj|gen
+expansion|расширение|The [[expansion]] of the airport is planned.|n|trans
+expectation|ожидание|The film exceeded my [[expectations]].|n|gen
+expense|расход|Travel [[expenses]] are paid.|n|work
+expertise|компетенция|Her [[expertise]] in law is well known.|n|work
+exploit|эксплуатировать, использовать|Some firms [[exploit]] workers.|v|work
+exploration|исследование|Space [[exploration]] is expensive.|n|sci
+exposure|воздействие|Long [[exposure]] to sun is harmful.|n|health
+extend|расширять, продлевать|They [[extended]] the deadline.|v|work
+extension|продление; расширение|You can apply for an [[extension]].|n|edu
+extensive|обширный|The study involved [[extensive]] research.|adj|sci
+extent|степень, масштаб|To a large [[extent]], I agree.|n|gen
+external|внешний|[[External]] examiners marked the papers.|adj|edu
+extract|отрывок, экстракт|Read this [[extract]] from the novel.|n|media
+extraordinary|необыкновенный|She showed [[extraordinary]] courage.|adj|gen
+extreme|крайность|The weather ranged from one [[extreme]] to another.|n|env
+fabric|ткань|The sofa is covered in soft [[fabric]].|n|gen
+fabulous|потрясающий|We had a [[fabulous]] holiday.|adj|gen
+facility|объект, средство|The school has excellent sports [[facilities]].|n|edu
+failure|неудача|[[Failure]] teaches us a lot.|n|gen
+faith|вера, доверие|People have [[faith]] in doctors.|n|soc
+fake|поддельный|The bag was [[fake]].|adj|crime
+fame|слава|She gained [[fame]] young.|n|media
+fantasy|фантазия|He loves [[fantasy]] novels.|n|media
+fare|плата за проезд|The bus [[fare]] has risen.|n|trans
+fault|вина; недостаток|It was not my [[fault]].|n|gen
+favour|одобрять, отдавать предпочтение|Most people [[favour]] the new plan.|v|gen
+feather|перо|The bird lost a [[feather]].|n|env
+federal|федеральный|[[Federal]] laws apply nationwide.|adj|gov
+fee|плата, взнос|Pay the entry [[fee]] at the desk.|n|work
+feed|корм; кормление|Buy cheap animal [[feed]].|n|env
+feedback|обратная связь|Give students regular [[feedback]].|n|edu
+feel|ощущение|The room has a warm [[feel]].|n|gen
+fellow|товарищ, коллега|My [[fellow]] students helped me.|adj|edu
+fever|лихорадка, температура|The child has a high [[fever]].|n|health
+figure|полагать; выяснять|I [[figure]] it will take an hour.|v|gen
+file|подавать (документ)|She [[filed]] a complaint.|v|work
+finance|финансы|[[Finance]] is a popular degree.|n|work
+finance|финансировать|The state will [[finance]] the project.|v|gov
+finding|результат, вывод|The main [[finding]] was surprising.|n|sci
+firefighter|пожарный|A [[firefighter]] rescued the cat.|n|work
+firework|фейерверк|The [[fireworks]] began at nine.|n|gen
+firm|твёрдый|He took a [[firm]] stand.|adj|gen
+firm|фирма|She works for a law [[firm]].|n|work
+firmly|твёрдо|I [[firmly]] believe in equality.|adv|gen
+fix|выход из положения, исправление|There is no quick [[fix]].|n|gen
+flame|пламя|The [[flame]] went out.|n|gen
+flash|вспышка|A [[flash]] of lightning lit the sky.|n|env
+flash|вспыхивать|The light [[flashed]] twice.|v|gen
+flavour|вкус|The ice cream has a strong [[flavour]].|n|gen
+flexible|гибкий|[[Flexible]] hours suit parents.|adj|work
+float|плавать на поверхности|Wood can [[float]].|v|sci
+fold|складка|She made a [[fold]] in the paper.|n|gen
+folding|складной|He bought a [[folding]] bike.|adj|gen
+follower|последователь|The singer has a million [[followers]].|n|media
+following|после|[[Following]] the storm, power was cut.|prep|gen
+fond|любящий|She is [[fond]] of animals.|adj|soc
+fool|дурак|Don't be a [[fool]].|n|gen
+footprint|след, отпечаток|Reduce your carbon [[footprint]].|n|env
+forbid|запрещать|The law [[forbids]] smoking here.|v|gov
+forecast|прогноз|The weather [[forecast]] is good.|n|env
+forecast|прогнозировать|Experts [[forecast]] rain.|v|env
+forgive|прощать|I [[forgive]] you.|v|soc
+format|формат|Save the file in PDF [[format]].|n|tech
+formation|формирование|The [[formation]] of habits takes time.|n|gen
+former|бывший|The [[former]] president spoke.|adj|gov
+formerly|ранее|The hotel was [[formerly]] a school.|adv|gen
+fortunate|удачливый|We were [[fortunate]] to get tickets.|adj|gen
+fortune|состояние; удача|He made a [[fortune]] in property.|n|work
+forum|форум|Join the online [[forum]].|n|tech
+forward|направленный вперёд|A [[forward]] step was taken.|adj|gen
+fossil|ископаемое|Scientists found a [[fossil]].|n|sci
+found|основывать|He [[founded]] the school in 1990.|v|work
+foundation|фонд; основа|The [[foundation]] funds research.|n|soc
+founder|основатель|The [[founder]] of the company retired.|n|work
+fraction|дробь, малая часть|Only a [[fraction]] of the money was spent.|n|gen
+fragment|фрагмент|A [[fragment]] of pottery was found.|n|sci
+framework|структура, рамки|The law sets a [[framework]] for schools.|n|gov
+free|освобождать|Prisoners were [[freed]].|v|gen
+freedom|свобода|Press [[freedom]] is vital.|n|gov
+frequency|частота|The [[frequency]] of buses is low.|n|trans
+frequent|частый|He is a [[frequent]] visitor.|adj|gen
+fuel|заправлять, подпитывать|Cheap loans [[fuel]] growth.|v|work
+fulfil|выполнять|She [[fulfilled]] her dream.|v|gen
+fully|полностью|The room is [[fully]] equipped.|adv|gen
+fund|фонд|The charity set up a [[fund]].|n|soc
+fund|финансировать|The state [[funds]] schools.|v|gov
+funding|финансирование|[[Funding]] for science has fallen.|n|gov
+furious|яростный|She was [[furious]] about the delay.|adj|soc
+gain|выгода, прирост|The company reported a [[gain]] in profits.|n|work
+gain|получать, набирать|You can [[gain]] experience abroad.|v|work
+gaming|видеоигры|[[Gaming]] is popular among teens.|n|media
+gang|банда|A [[gang]] robbed the shop.|n|crime
+gay|гей|He is openly [[gay]].|adj|soc
+gender|пол, гендер|[[Gender]] equality is the aim.|n|soc
+gene|ген|A [[gene]] affects eye colour.|n|sci
+genetic|генетический|[[Genetic]] tests are common.|adj|sci
+genius|гений|Einstein was a [[genius]].|n|sci
+genre|жанр|What [[genre]] do you like?|n|media
+genuine|подлинный|It is a [[genuine]] leather bag.|adj|gen
+genuinely|искренне|I am [[genuinely]] sorry.|adv|gen
+gesture|жест|A kind [[gesture]] cheered her.|n|soc
+globalization|глобализация|[[Globalization]] connects economies.|n|work
+golden|золотой|They won a [[golden]] medal.|adj|gen
+goodness|доброта; польза|The [[goodness]] of fresh fruit is clear.|n|health
+gorgeous|великолепный|It was a [[gorgeous]] sunset.|adj|gen
+govern|управлять (страной)|Parties [[govern]] by majority.|v|gov
+governor|губернатор|The [[governor]] signed the law.|n|gov
+grab|хватать|She [[grabbed]] her coat.|v|gen
+grade|оценивать, сортировать|Teachers [[grade]] the essays.|v|edu
+grand|величественный|The hotel has a [[grand]] entrance.|adj|gen
+grant|грант|She won a research [[grant]].|n|edu
+grant|предоставлять|Permission was [[granted]].|v|gov
+graphic|графический; наглядный|The report uses [[graphic]] images.|adj|media
+graphics|графика|The game has great [[graphics]].|n|tech
+greatly|значительно|Prices have [[greatly]] increased.|adv|gen
+greenhouse|теплица, парник|Tomatoes grow in a [[greenhouse]].|n|env
+grocery|бакалея, продукты|She buys [[groceries]] online.|n|gen
+guarantee|гарантия|The watch has a two-year [[guarantee]].|n|work
+guarantee|гарантировать|No one can [[guarantee]] success.|v|gen
+guideline|руководство, рекомендация|Follow the safety [[guidelines]].|n|health
+handle|ручка|The [[handle]] of the door broke.|n|gen

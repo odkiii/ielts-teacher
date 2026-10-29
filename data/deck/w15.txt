@@ -1,0 +1,150 @@
+long-term|в долгосрочной перспективе|The plan will pay off [[long-term]].|adv|gen
+loose|свободный, незакреплённый|He wore [[loose]] clothes.|adj|gen
+lord|лорд, господин|The [[lord]] owned the land.|n|gen
+lottery|лотерея|She won the [[lottery]].|n|gen
+low|низкий уровень|Prices hit a new [[low]].|n|work
+lower|понижать|Banks may [[lower]] interest rates.|v|work
+loyal|лояльный|[[Loyal]] customers get discounts.|adj|work
+lung|лёгкое|Smoke damages the [[lungs]].|n|health
+lyric|текст песни|The song's [[lyrics]] are poetic.|n|media
+magnificent|великолепный|We saw a [[magnificent]] view.|adj|gen
+majority|большинство|The [[majority]] voted yes.|n|gov
+make|марка, модель|What [[make]] is your car?|n|trans
+make-up|косметика; состав|She wears little [[make-up]].|n|gen
+making|создание, изготовление|The [[making]] of the film took years.|n|media
+manufacture|производить|Factories [[manufacture]] cars.|v|work
+manufacturing|производство|[[Manufacturing]] jobs have fallen.|n|work
+map|наносить на карту|Scientists [[mapped]] the seabed.|v|sci
+marathon|марафон|He ran a [[marathon]].|n|health
+margin|запас; поле страницы|They won by a narrow [[margin]].|n|gen
+marker|маркер|Use a [[marker]] to underline.|n|edu
+mass|массовый|[[Mass]] production cut costs.|adj|work
+mass|масса|The [[mass]] of the object is five kilos.|n|sci
+massive|огромный|There was a [[massive]] increase in sales.|adj|gen
+master|мастер, владелец|He is a [[master]] of his craft.|n|work
+master|овладевать|It takes years to [[master]] a language.|v|edu
+matching|подходящий, соответствующий|She wore a hat and [[matching]] gloves.|adj|gen
+mate|приятель|My [[mate]] helped me.|n|soc
+mate|спариваться|Birds [[mate]] in spring.|v|env
+material|материальный|[[Material]] wealth is not everything.|adj|soc
+maximum|максимальный|The [[maximum]] speed is 70.|adj|trans
+maximum|максимум|The [[maximum]] is 20 people.|n|gen
+mayor|мэр|The [[mayor]] opened the park.|n|gov
+means|средство, способ|Cars are a [[means]] of transport.|n|trans
+measurement|измерение|Take an accurate [[measurement]].|n|sci
+mechanic|механик|The [[mechanic]] fixed my car.|n|work
+mechanical|механический|It is a [[mechanical]] fault.|adj|tech
+mechanism|механизм|A safety [[mechanism]] stops the machine.|n|tech
+medal|медаль|She won a gold [[medal]].|n|gen
+medication|лекарство|He takes daily [[medication]].|n|health
+medium|средство; средний|Radio is a popular [[medium]].|n|media
+melt|таять|Ice [[melts]] at zero.|v|env
+membership|членство|Gym [[membership]] is cheap.|n|gen
+memorable|запоминающийся|It was a [[memorable]] trip.|adj|gen
+metaphor|метафора|The poem uses a clever [[metaphor]].|n|media
+military|военный|[[Military]] service is compulsory.|adj|gov
+military|вооружённые силы|The [[military]] took control.|n|gov
+miner|шахтёр|Coal [[miners]] work underground.|n|work
+mineral|минерал|The soil is rich in [[minerals]].|n|env
+minimum|минимальный|The [[minimum]] age is 18.|adj|gov
+minimum|минимум|Keep costs to a [[minimum]].|n|work
+minister|министр|The [[minister]] resigned.|n|gov
+minor|незначительный|It was a [[minor]] mistake.|adj|gen
+minority|меньшинство|A [[minority]] disagreed.|n|soc
+miserable|несчастный|He felt [[miserable]] in the rain.|adj|soc
+mission|миссия|The astronauts' [[mission]] lasted a week.|n|sci
+mistake|ошибочно принимать|I [[mistook]] him for his brother.|v|gen
+mixed|смешанный|The results were [[mixed]].|adj|gen
+mode|режим|Switch to airplane [[mode]].|n|tech
+model|моделировать; демонстрировать|She [[models]] for a fashion brand.|v|work
+modest|скромный|He lives a [[modest]] life.|adj|soc
+modify|модифицировать|You can [[modify]] the settings.|v|tech
+monitor|монитор|The [[monitor]] is too bright.|n|tech
+monitor|наблюдать, следить|Doctors [[monitor]] patients.|v|health
+monster|чудовище|The film has a scary [[monster]].|n|media
+monthly|ежемесячный|A [[monthly]] fee is charged.|adj|work
+monument|памятник|The [[monument]] attracts tourists.|n|gen
+moral|моральный|It is a [[moral]] issue.|adj|soc
+moral|мораль|The [[moral]] of the story is simple.|n|media
+moreover|более того|[[Moreover]], it is cheap.|adv|gen
+mortgage|ипотека|They took out a [[mortgage]].|n|work
+mosque|мечеть|The city has a grand [[mosque]].|n|soc
+motion|движение|Set the car in [[motion]].|n|sci
+motivate|мотивировать|Praise can [[motivate]] pupils.|v|edu
+motor|моторный|[[Motor]] skills develop in childhood.|adj|health
+motor|мотор|The [[motor]] stopped.|n|tech
+mount|взбираться, нарастать|Pressure on teachers is [[mounting]].|v|edu
+moving|трогательный|It was a [[moving]] story.|adj|media
+multiple|многократный|He has [[multiple]] jobs.|adj|work
+multiply|умножать(ся)|Rabbits [[multiply]] fast.|v|sci
+mysterious|загадочный|A [[mysterious]] noise woke me.|adj|gen
+myth|миф|It is a [[myth]] that we use 10% of the brain.|n|sci
+naked|голый|Germs are invisible to the [[naked]] eye.|adj|gen
+narrow|сужать(ся)|The road [[narrows]] ahead.|v|trans
+nasty|неприятный|It left a [[nasty]] taste.|adj|gen
+national|гражданин|Foreign [[nationals]] need visas.|n|gov
+navigate|ориентироваться, прокладывать путь|Apps help us [[navigate]] cities.|v|trans
+navigation|навигация|GPS [[navigation]] is common.|n|tech
+nearby|находящийся поблизости|A [[nearby]] shop sells milk.|adj|gen
+nearby|поблизости|Many cafes are [[nearby]].|adv|gen
+neat|аккуратный|Her handwriting is [[neat]].|adj|gen
+necessity|необходимость|Water is a [[necessity]].|n|gen
+negative|минус, отрицательное|List the positives and [[negatives]].|n|gen
+negotiate|вести переговоры|They [[negotiated]] a deal.|v|work
+negotiation|переговоры|The [[negotiation]] lasted a week.|n|work
+nerve|нерв|The [[nerve]] was damaged.|n|health
+neutral|нейтральный|Stay [[neutral]] in the debate.|adj|gen
+newly|недавно|A [[newly]] built bridge opened.|adv|gen
+nightmare|кошмар|Traffic here is a [[nightmare]].|n|trans
+norm|норма|Remote work is the [[norm]] now.|n|soc
+notebook|блокнот, ноутбук|Write it in your [[notebook]].|n|edu
+notion|понятие, идея|The [[notion]] of fairness varies.|n|gen
+novelist|писатель-романист|The [[novelist]] won a prize.|n|media
+nowadays|в наши дни|[[Nowadays]], many people shop online.|adv|gen
+numerous|многочисленный|[[Numerous]] studies confirm this.|adj|sci
+nursing|сестринское дело|She trains in [[nursing]].|adj|health
+obey|подчиняться|Drivers must [[obey]] signs.|v|gov
+object|возражать|Residents [[object]] to the plan.|v|gov
+obligation|обязательство|He has a legal [[obligation]].|n|gov
+observation|наблюдение|The [[observation]] lasted a month.|n|sci
+observe|наблюдать, соблюдать|Scientists [[observe]] animals.|v|sci
+observer|наблюдатель|An [[observer]] watched the vote.|n|gov
+obstacle|препятствие|Cost is the main [[obstacle]].|n|gen
+occasionally|иногда|We [[occasionally]] meet.|adv|gen
+occupation|профессия, занятие|List your [[occupation]].|n|work
+occupy|занимать|The family [[occupies]] two floors.|v|gen
+offend|обижать|His joke [[offended]] her.|v|soc
+offensive|оскорбительный|The remark was [[offensive]].|adj|soc
+official|должностное лицо|A government [[official]] spoke.|n|gov
+ongoing|продолжающийся|There is an [[ongoing]] debate.|adj|gen
+opening|открытие; отверстие|The [[opening]] of the shop drew crowds.|n|work
+openly|открыто|They discussed the issue [[openly]].|adv|gen
+opera|опера|We saw an [[opera]].|n|media
+operate|работать, оперировать|Trams [[operate]] every ten minutes.|v|trans
+operator|оператор|The [[operator]] answered the call.|n|work
+opponent|противник|His [[opponent]] won the debate.|n|gov
+oppose|противостоять|Residents [[oppose]] the road.|v|gov
+opposed|против|Many are [[opposed]] to the plan.|adj|gov
+opposition|оппозиция|The [[opposition]] voted against.|n|gov
+optimistic|оптимистичный|She is [[optimistic]] about the exam.|adj|gen
+orchestra|оркестр|The [[orchestra]] played Mozart.|n|media
+organ|орган|The heart is a vital [[organ]].|n|health
+organic|органический|[[Organic]] food costs more.|adj|health
+origin|происхождение|The [[origin]] of the word is Latin.|n|gen
+otherwise|иначе|Study hard; [[otherwise]] you'll fail.|adv|gen
+outcome|результат|The [[outcome]] was positive.|n|gen
+outer|внешний|The [[outer]] wall is painted.|adj|gen
+outfit|наряд|She chose a smart [[outfit]].|n|gen
+outline|набросок, план|Write an [[outline]] first.|n|edu
+outline|кратко излагать|She [[outlined]] her plan.|v|gen
+output|выпуск, результат|Factory [[output]] rose.|n|work
+outstanding|выдающийся|She gave an [[outstanding]] performance.|adj|gen
+overcome|преодолевать|He [[overcame]] his fear.|v|gen
+overnight|в течение ночи|We stayed [[overnight]].|adv|gen
+overseas|заграничный|[[Overseas]] students pay more.|adj|edu
+overseas|за границей|She studied [[overseas]].|adv|edu
+owe|быть должным|I [[owe]] you ten pounds.|v|work
+ownership|владение|Home [[ownership]] is rising.|n|work
+oxygen|кислород|Plants release [[oxygen]].|n|sci
+pace|темп|He walked at a fast [[pace]].|n|gen
+pace|мерить шагами|She [[paced]] the room.|v|gen

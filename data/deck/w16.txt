@@ -1,0 +1,149 @@
+package|упаковывать|Workers [[package]] the goods carefully.|v|work
+packet|пачка, пакет|She bought a [[packet]] of crisps.|n|gen
+palm|ладонь; пальма|He held it in his [[palm]].|n|gen
+pandemic|пандемический|A [[pandemic]] outbreak closed schools.|adj|health
+pandemic|пандемия|The [[pandemic]] changed how we work.|n|health
+panel|панель; комиссия|A [[panel]] of experts judged the work.|n|work
+panic|паника|There was [[panic]] in the crowd.|n|gen
+parade|парад|Thousands watched the [[parade]].|n|gen
+parallel|параллельный|The two roads run [[parallel]].|adj|gen
+parallel|параллель, сходство|There are many [[parallels]] between them.|n|gen
+parliament|парламент|[[Parliament]] passed the law.|n|gov
+participant|участник|Each [[participant]] got a certificate.|n|edu
+participation|участие|Active [[participation]] improves learning.|n|edu
+partly|частично|The delay was [[partly]] my fault.|adv|gen
+partnership|партнёрство|The firms formed a [[partnership]].|n|work
+passage|отрывок; проход|Read the [[passage]] carefully.|n|edu
+passionate|страстный|She is [[passionate]] about music.|adj|gen
+password|пароль|Choose a strong [[password]].|n|tech
+patience|терпение|Teaching requires [[patience]].|n|edu
+patient|терпеливый|Be [[patient]] with young children.|adj|edu
+pause|делать паузу|She [[paused]] before answering.|v|gen
+peer|ровесник, коллега|Pupils learn from their [[peers]].|n|edu
+pension|пенсия|He receives a state [[pension]].|n|soc
+perception|восприятие|Public [[perception]] of risk differs.|n|soc
+permanent|постоянный|He has a [[permanent]] job.|adj|work
+permanently|постоянно, навсегда|The shop closed [[permanently]].|adv|work
+permit|разрешение|You need a work [[permit]].|n|gov
+permit|разрешать|The rules do not [[permit]] smoking.|v|gov
+pharmacy|аптека|Buy the medicine at the [[pharmacy]].|n|health
+phase|фаза, этап|The first [[phase]] ends in May.|n|work
+philosophy|философия|She studies [[philosophy]].|n|edu
+pick|выбор|Take your [[pick]].|n|gen
+picture|представлять себе|Try to [[picture]] the scene.|v|gen
+pile|куча|A [[pile]] of books lay on the desk.|n|gen
+pile|складывать в кучу|Snow [[piled]] up outside.|v|gen
+pill|таблетка|Take one [[pill]] a day.|n|health
+pitch|поле; тон|The football [[pitch]] was wet.|n|gen
+pity|жалость|It's a [[pity]] you missed it.|n|gen
+placement|стажировка; размещение|She did a work [[placement]].|n|edu
+plain|простой, ясный|He spoke in [[plain]] English.|adj|gen
+plot|сюжет|The [[plot]] of the film is simple.|n|media
+plus|плюс (преимущество)|Free parking is a [[plus]].|n|gen
+plus|плюс, а также|Two [[plus]] two is four.|conj|gen
+pointed|острый; язвительный|A [[pointed]] remark upset him.|adj|gen
+popularity|популярность|The app gained [[popularity]].|n|tech
+portion|порция, часть|A large [[portion]] of income goes on rent.|n|gen
+pose|позировать; создавать (проблему)|The issue [[poses]] a risk.|v|gen
+position|располагать|[[Position]] the camera carefully.|v|gen
+possess|обладать|She [[possesses]] great skill.|v|gen
+potentially|потенциально|It is [[potentially]] dangerous.|adv|gen
+power|приводить в движение|Wind [[powers]] the turbines.|v|env
+praise|похвала|He received much [[praise]].|n|edu
+praise|хвалить|Teachers [[praise]] good effort.|v|edu
+precede|предшествовать|Rain [[preceded]] the storm.|v|gen
+precious|драгоценный|Water is a [[precious]] resource.|adj|env
+precise|точный|Give [[precise]] details.|adj|gen
+precisely|точно|That is [[precisely]] my point.|adv|gen
+predictable|предсказуемый|The ending was [[predictable]].|adj|media
+preference|предпочтение|State your [[preference]].|n|gen
+pregnant|беременная|She is [[pregnant]].|adj|health
+preparation|подготовка|Exam [[preparation]] takes time.|n|edu
+presence|присутствие|Her [[presence]] calmed everyone.|n|gen
+preserve|сохранять|We must [[preserve]] forests.|v|env
+preview|предварительный просмотр|Watch the film [[preview]].|n|media
+preview|просматривать заранее|[[Preview]] the page before printing.|v|tech
+price|оценивать (цену)|The tickets were [[priced]] at ten pounds.|v|work
+pride|гордость|She takes [[pride]] in her work.|n|soc
+prime|главный|The [[prime]] reason is cost.|adj|gen
+principal|основной|Her [[principal]] aim is to win.|adj|gen
+print|печатать; отпечаток|Check the fine [[print]].|n|media
+prior|предшествующий|You need [[prior]] experience.|adj|work
+priority|приоритет|Safety is our top [[priority]].|n|work
+privacy|конфиденциальность|People value their [[privacy]].|n|tech
+probability|вероятность|The [[probability]] of rain is high.|n|sci
+probable|вероятный|It is [[probable]] that prices will rise.|adj|gen
+procedure|процедура|Follow the standard [[procedure]].|n|work
+produce|продукция|Fresh [[produce]] is sold here.|n|env
+professional|профессионал|He is a [[professional]] cook.|n|work
+programming|программирование|She teaches [[programming]].|n|tech
+progress|прогрессировать|Students [[progress]] quickly.|v|edu
+progressive|прогрессивный|The country has [[progressive]] laws.|adj|gov
+project|прогнозировать; проецировать|Experts [[project]] strong growth.|v|work
+promising|многообещающий|The results are [[promising]].|adj|sci
+prompt|побуждать|The question [[prompted]] a debate.|v|gen
+proof|доказательство|There is no [[proof]].|n|sci
+proportion|доля, пропорция|A large [[proportion]] of pupils walk.|n|gen
+proposal|предложение|The council rejected the [[proposal]].|n|gov
+propose|предлагать|I [[propose]] a short break.|v|gen
+prospect|перспектива|The [[prospect]] of rain worried them.|n|gen
+protection|защита|Sunscreen offers [[protection]].|n|health
+protein|белок|Fish is rich in [[protein]].|n|health
+protester|протестующий|[[Protesters]] blocked the road.|n|soc
+psychological|психологический|[[Psychological]] help is available.|adj|health
+psychologist|психолог|A [[psychologist]] helped her.|n|health
+psychology|психология|He studied [[psychology]].|n|edu
+publication|публикация|The [[publication]] of the report caused debate.|n|media
+publicity|реклама, известность|The event got good [[publicity]].|n|media
+publishing|издательское дело|She works in [[publishing]].|n|media
+punk|панк|[[Punk]] music began in the 1970s.|n|media
+pupil|ученик|Each [[pupil]] has a laptop.|n|edu
+pure|чистый|The water is [[pure]].|adj|env
+pursue|преследовать, заниматься|She wants to [[pursue]] a career in law.|v|work
+pursuit|стремление, занятие|The [[pursuit]] of happiness matters.|n|soc
+puzzle|головоломка|A crossword [[puzzle]] keeps the mind sharp.|n|gen
+questionnaire|анкета|Fill in the [[questionnaire]].|n|sci
+racial|расовый|[[Racial]] equality is a goal.|adj|soc
+racism|расизм|The school fights [[racism]].|n|soc
+racist|расистский|It was a [[racist]] remark.|adj|soc
+racist|расист|The man was called a [[racist]].|n|soc
+radiation|излучение|The device emits no [[radiation]].|n|sci
+rail|железная дорога|Travel by [[rail]] is popular.|n|trans
+random|случайный|Choose a [[random]] sample.|adj|sci
+rank|ранг, звание|He holds the [[rank]] of captain.|n|work
+rank|занимать место в рейтинге|The city [[ranks]] among the safest.|v|gen
+rapid|быстрый|The city saw [[rapid]] growth.|adj|gen
+rat|крыса|A [[rat]] ran across the road.|n|env
+rate|оценивать|Customers [[rate]] the service.|v|work
+rating|рейтинг|The hotel has a high [[rating]].|n|work
+raw|сырой|[[Raw]] materials are imported.|adj|work
+reach|досягаемость|Keep medicine out of children's [[reach]].|n|health
+realistic|реалистичный|Set [[realistic]] goals.|adj|edu
+reasonable|разумный|The price is [[reasonable]].|adj|gen
+reasonably|достаточно, разумно|The food was [[reasonably]] priced.|adv|gen
+rebuild|перестраивать|They will [[rebuild]] the bridge.|v|gen
+recall|вспоминать|I can't [[recall]] his name.|v|gen
+receiver|получатель; трубка|The [[receiver]] signed for the parcel.|n|work
+recession|рецессия|The country entered a [[recession]].|n|work
+reckon|считать, полагать|I [[reckon]] it will rain.|v|gen
+recognition|признание|She won wide [[recognition]].|n|gen
+recover|восстанавливаться|He [[recovered]] from surgery.|v|health
+recovery|восстановление|The economy is in [[recovery]].|n|work
+recruit|нанимать|The firm will [[recruit]] twenty staff.|v|work
+recruitment|набор персонала|[[Recruitment]] starts in June.|n|work
+reduction|сокращение|There was a [[reduction]] in crime.|n|gov
+referee|судья|The [[referee]] blew the whistle.|n|gen
+refugee|беженец|Many [[refugees]] crossed the border.|n|soc
+refund|возврат денег|Ask for a [[refund]].|n|work
+refund|возвращать деньги|The shop will [[refund]] you.|v|work
+regard|уважение, внимание|Pay [[regard]] to the rules.|n|gen
+regard|рассматривать|Many [[regard]] him as a hero.|v|gen
+regional|региональный|[[Regional]] airports are busy.|adj|gov
+register|реестр, журнал|The teacher took the [[register]].|n|edu
+register|регистрироваться|You must [[register]] online.|v|gov
+registration|регистрация|[[Registration]] opens in May.|n|edu
+regret|сожаление|He felt deep [[regret]].|n|soc
+regret|сожалеть|I [[regret]] not studying more.|v|soc
+regulation|регулирование, правило|New safety [[regulations]] apply.|n|gov
+reinforce|усиливать|Exercise will [[reinforce]] your muscles.|v|health
+relatively|относительно|Rent is [[relatively]] cheap.|adv|gen

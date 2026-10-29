@@ -1,0 +1,150 @@
+riot|бунт, массовые беспорядки|A [[riot]] broke out after the match.|n|crime
+rip|рвать, разрывать|He [[ripped]] the letter in half.|v|gen
+ritual|ритуал|Morning coffee is my daily [[ritual]].|n|soc
+robust|крепкий, надёжный|The economy is [[robust]].|adj|work
+rock|качать, сотрясать|The explosion [[rocked]] the city.|v|gen
+rotate|вращать(ся); чередовать|Crops are [[rotated]] each year.|v|env
+rotation|вращение; ротация|Crop [[rotation]] keeps the soil healthy.|n|env
+ruling|решение (суда)|The court's [[ruling]] surprised many.|n|crime
+rumour|слух|A [[rumour]] spread about the closure.|n|media
+sack|увольнять|The firm [[sacked]] twenty workers.|v|work
+sacred|священный|The mountain is [[sacred]] to local people.|adj|soc
+sacrifice|жертва|Parents often make big [[sacrifices]].|n|soc
+sacrifice|жертвовать|Don't [[sacrifice]] quality for speed.|v|gen
+safeguard|гарантия, защита|The law is a [[safeguard]] against abuse.|n|gov
+safeguard|защищать|Laws [[safeguard]] workers' rights.|v|gov
+sake|ради|For the [[sake]] of the environment, recycle.|n|gen
+sanction|санкция|The country faced economic [[sanctions]].|n|gov
+say|слово, право голоса|Students should have a [[say]] in school rules.|n|edu
+scam|мошенничество|Beware of online [[scams]].|n|crime
+scam|обманывать, мошенничать|Criminals [[scam]] elderly people.|v|crime
+scattered|рассеянный|Houses were [[scattered]] across the hillside.|adj|gen
+sceptical|скептичный|Experts are [[sceptical]] about the claim.|adj|sci
+scope|охват, масштаб|The [[scope]] of the study is limited.|n|sci
+scrap|обрезок, лом|Metal [[scrap]] is recycled.|n|env
+scrap|отказываться (от плана)|The council [[scrapped]] the plan.|v|gov
+screw|закручивать|[[Screw]] the lid on tightly.|v|gen
+seal|печать; тюлень|The document had an official [[seal]].|n|gov
+seal|запечатывать|He [[sealed]] the envelope.|v|gen
+seasonal|сезонный|[[Seasonal]] workers pick the fruit.|adj|work
+secular|светский|The state is [[secular]].|adj|gov
+seemingly|на вид, по-видимому|A [[seemingly]] simple task turned out hard.|adv|gen
+segment|сегмент|The company targets a new market [[segment]].|n|work
+seize|захватывать, хватать|Police [[seized]] illegal goods.|v|crime
+selective|избирательный|The university is highly [[selective]].|adj|edu
+senator|сенатор|The [[senator]] opposed the bill.|n|gov
+sensation|ощущение; сенсация|He felt a burning [[sensation]].|n|health
+sensitivity|чувствительность|Cultural [[sensitivity]] is important abroad.|n|soc
+sentiment|настроение, чувство|Public [[sentiment]] turned against the plan.|n|soc
+separation|разделение, расставание|The [[separation]] of work and home life matters.|n|soc
+sequel|продолжение (фильма)|The [[sequel]] was less successful.|n|media
+serial|серийный; сериал|He watched a [[serial]] drama.|adj|media
+set-up|устройство, структура|The office [[set-up]] is very modern.|n|work
+settlement|поселение; урегулирование|They reached a [[settlement]] out of court.|n|crime
+sexuality|сексуальность|The school teaches respect for diversity of [[sexuality]].|n|soc
+shareholder|акционер|[[Shareholders]] approved the merger.|n|work
+shatter|разбивать вдребезги|The glass [[shattered]] on the floor.|v|gen
+shed|сбрасывать; проливать|Trees [[shed]] their leaves in autumn.|v|env
+sheer|полный, чистый|The [[sheer]] size of the building is impressive.|adj|gen
+shipping|судоходство, доставка|Free [[shipping]] is offered on orders over £50.|n|trans
+shoot|побег; съёмка|A new [[shoot]] appeared on the plant.|n|env
+shrink|уменьшаться|The glacier has [[shrunk]] by half.|v|env
+sigh|вздох|She gave a [[sigh]] of relief.|n|gen
+sigh|вздыхать|He [[sighed]] and sat down.|v|gen
+simulation|симуляция|Pilots train in a flight [[simulation]].|n|tech
+simultaneously|одновременно|Two events took place [[simultaneously]].|adv|gen
+sin|грех|Gluttony is considered a [[sin]].|n|soc
+situated|расположенный|The hotel is [[situated]] near the beach.|adj|gen
+sketch|набросок|The artist drew a quick [[sketch]].|n|media
+skip|пропускать|Never [[skip]] breakfast.|v|health
+slam|хлопнуть|He [[slammed]] the door.|v|gen
+slap|шлёпнуть|She [[slapped]] the table in anger.|v|gen
+slash|резко сокращать|The shop [[slashed]] its prices.|v|work
+slavery|рабство|[[Slavery]] was abolished in the 19th century.|n|soc
+slot|щель; временной промежуток|Book a time [[slot]] online.|n|gen
+smash|разбивать|The ball [[smashed]] the window.|v|gen
+snap|щёлкнуть; сломаться|The branch [[snapped]] in the wind.|v|gen
+soak|пропитывать, мочить|[[Soak]] the beans overnight.|v|gen
+socialist|социалистический|The government is [[socialist]].|adj|gov
+sole|единственный|He is the [[sole]] owner of the shop.|adj|gen
+solely|исключительно|The decision rests [[solely]] with the manager.|adv|gen
+solicitor|юрист (в Великобритании)|She hired a [[solicitor]] to review the contract.|n|crime
+solidarity|солидарность|Workers showed [[solidarity]] with the strikers.|n|soc
+solo|одиночный|She went on a [[solo]] trip.|adj|gen
+solo|соло|The guitarist played a long [[solo]].|n|media
+sound|надёжный, здравый|He gave [[sound]] advice.|adj|gen
+sovereignty|суверенитет|The island fought for its [[sovereignty]].|n|gov
+span|промежуток времени|The film covers a [[span]] of fifty years.|n|gen
+span|охватывать|His career [[spanned]] forty years.|v|work
+spare|щадить; выделять (время)|Can you [[spare]] a minute?|v|gen
+spark|вызывать, зажигать|The incident [[sparked]] protests.|v|soc
+specialized|специализированный|He works in a [[specialized]] field.|adj|work
+specification|спецификация|Check the technical [[specification]].|n|tech
+specimen|образец, экземпляр|The museum keeps a rare [[specimen]].|n|sci
+spectacle|зрелище|The fireworks were an impressive [[spectacle]].|n|media
+spectrum|спектр|The party covers a broad [[spectrum]] of opinion.|n|gov
+spell|период; заклинание|We had a dry [[spell]] in July.|n|env
+sphere|сфера|She is active in the political [[sphere]].|n|gov
+spin|вращение|Give the wheel a [[spin]].|n|gen
+spin|вращать(ся)|The Earth [[spins]] on its axis.|v|sci
+spine|позвоночник; корешок|Poor posture can damage the [[spine]].|n|health
+spotlight|центр внимания|The scandal put him in the [[spotlight]].|n|media
+spouse|супруг(а)|Please bring your [[spouse]] to the event.|n|soc
+spray|спрей|Use an insect [[spray]].|n|gen
+spray|распылять|Farmers [[spray]] crops with water.|v|env
+spy|шпион|The [[spy]] was caught at the border.|n|gov
+squad|команда, отряд|The football [[squad]] trains daily.|n|gen
+squeeze|сжимать, выжимать|[[Squeeze]] a lemon over the fish.|v|gen
+stab|наносить удар ножом|The man was [[stabbed]] outside the club.|v|crime
+stability|стабильность|Political [[stability]] attracts investors.|n|gov
+stabilize|стабилизировать|Prices began to [[stabilize]].|v|work
+stake|доля; ставка|Investors hold a large [[stake]] in the company.|n|work
+stark|резкий, суровый|There is a [[stark]] contrast between the two.|adj|gen
+start-up|стартап (о компании)|She works for a [[start-up]] firm.|adj|work
+start-up|стартап|Many [[start-ups]] fail in the first year.|n|work
+statistical|статистический|[[Statistical]] analysis showed a link.|adj|sci
+steer|управлять, направлять|She [[steered]] the car carefully.|v|trans
+stem|стебель; ствол|The plant has a thick [[stem]].|n|env
+stem|происходить|Her anxiety [[stems]] from childhood.|v|health
+stimulus|стимул|Tax cuts gave a [[stimulus]] to the economy.|n|work
+stir|размешивать; будоражить|[[Stir]] the soup slowly.|v|gen
+storage|хранение|Cloud [[storage]] saves space.|n|tech
+straightforward|простой, понятный|The instructions are [[straightforward]].|adj|gen
+strain|нагрузка, напряжение|The [[strain]] of work made him ill.|n|health
+strategic|стратегический|It was a [[strategic]] decision.|adj|work
+streaming|потоковая передача|[[Streaming]] services replaced DVDs.|n|media
+striking|поразительный|There is a [[striking]] similarity between them.|adj|gen
+strip|полоса|A [[strip]] of land runs along the river.|n|gen
+strip|раздевать, лишать|The company was [[stripped]] of its licence.|v|gov
+strive|стремиться|We [[strive]] for excellence.|v|gen
+structural|структурный|The building has [[structural]] problems.|adj|gen
+stumble|спотыкаться|She [[stumbled]] on the stairs.|v|gen
+stun|ошеломлять|The news [[stunned]] everyone.|v|gen
+submission|подача; представление|The deadline for [[submission]] is Friday.|n|edu
+subscribe|подписываться|[[Subscribe]] to the channel for updates.|v|media
+subscriber|подписчик|The magazine has 50,000 [[subscribers]].|n|media
+subscription|подписка|A monthly [[subscription]] costs ten pounds.|n|media
+substitute|замена|Honey is a healthy [[substitute]] for sugar.|n|health
+substitute|заменять|You can [[substitute]] butter with oil.|v|gen
+substitution|замещение|Player [[substitution]] changed the match.|n|gen
+subtle|тонкий, едва заметный|There is a [[subtle]] difference in meaning.|adj|gen
+suburban|пригородный|[[Suburban]] areas are quiet.|adj|soc
+succession|последовательность|Three storms struck in quick [[succession]].|n|gen
+successive|последовательный|It was their third [[successive]] win.|adj|gen
+successor|преемник|The CEO named her [[successor]].|n|work
+suck|сосать|The baby [[sucked]] his thumb.|v|gen
+sue|подавать в суд|She decided to [[sue]] the company.|v|crime
+suicide|самоубийство|Mental health charities work to prevent [[suicide]].|n|health
+suite|номер-люкс; набор|They stayed in a hotel [[suite]].|n|gen
+summit|вершина; саммит|Leaders met at the climate [[summit]].|n|gov
+superb|превосходный|The food was [[superb]].|adj|gen
+superior|превосходящий, высший|This product is [[superior]] to the old one.|adj|gen
+supervise|контролировать, руководить|Teachers [[supervise]] the exam.|v|edu
+supervision|надзор|Children need [[supervision]] near water.|n|soc
+supervisor|руководитель, куратор|My [[supervisor]] approved the thesis topic.|n|edu
+supplement|добавка|Take a vitamin [[supplement]].|n|health
+supplement|дополнять|She [[supplements]] her income with tutoring.|v|work
+supportive|поддерживающий|My family has been very [[supportive]].|adj|soc
+supposedly|якобы, предположительно|The route is [[supposedly]] faster.|adv|gen
+suppress|подавлять|The government tried to [[suppress]] the news.|v|gov
+surge|всплеск, резкий рост|There was a [[surge]] in demand.|n|work

@@ -1,0 +1,150 @@
+move|ход, шаг|It was a clever [[move]].|n|gen
+mud|грязь|Her boots were covered in [[mud]].|n|gen
+murder|убийство|Police are investigating a [[murder]].|n|crime
+murder|убивать|He was accused of [[murdering]] his boss.|v|crime
+muscle|мышца|Exercise builds [[muscle]].|n|health
+musical|мюзикл|We saw a [[musical]] in London.|n|media
+mystery|тайна|The cause remains a [[mystery]].|n|gen
+nail|гвоздь; ноготь|Hit the [[nail]] with a hammer.|n|gen
+narrative|повествовательный|The book has a [[narrative]] style.|adj|media
+narrative|рассказ|The [[narrative]] follows three friends.|n|media
+nation|нация|The whole [[nation]] watched.|n|gov
+native|родной; коренной|English is her [[native]] language.|adj|edu
+native|уроженец|He is a [[native]] of Moscow.|n|soc
+naturally|естественно|[[Naturally]], I said yes.|adv|gen
+necessarily|обязательно|Expensive doesn't [[necessarily]] mean better.|adv|gen
+needle|игла|The nurse used a thin [[needle]].|n|health
+neighbourhood|район, окрестности|It's a quiet [[neighbourhood]].|n|soc
+neither|тоже не|"I don't like it." "[[Neither]] do I."|adv|gen
+net|сеть|Fishermen mend their [[nets]].|n|env
+next|следующий|Who is [[next]]?|n|gen
+northern|северный|The [[northern]] regions are colder.|adj|gen
+note|отмечать|Please [[note]] the changes.|v|gen
+now|раз уж|[[Now]] that you're here, let's start.|conj|gen
+nuclear|ядерный|[[Nuclear]] power is controversial.|adj|env
+obviously|очевидно|[[Obviously]], I want to win.|adv|gen
+occasion|случай, событие|It's a special [[occasion]].|n|soc
+odd|странный|That's [[odd]].|adj|gen
+official|официальный|It's an [[official]] statement.|adj|gov
+old-fashioned|старомодный|He has [[old-fashioned]] views.|adj|soc
+once|как только|[[Once]] you finish, call me.|conj|gen
+operation|операция; работа|The [[operation]] went well.|n|health
+organized|организованный|She is very [[organized]].|adj|work
+organizer|организатор|The [[organizer]] booked the hall.|n|work
+original|оригинал|The [[original]] is in the museum.|n|media
+originally|первоначально|The house was [[originally]] a school.|adv|gen
+ought|следует (должен бы)|You [[ought]] to apologize.|v|gen
+ours|наш|The red car is [[ours]].|phr|gen
+outdoor|уличный|[[Outdoor]] sports are popular.|adj|health
+outdoors|на открытом воздухе|They eat [[outdoors]] in summer.|adv|gen
+pack|пачка, упаковка|A [[pack]] of cards.|n|gen
+package|посылка|A [[package]] arrived today.|n|work
+painful|болезненный|The injury was [[painful]].|adj|health
+pale|бледный|She looked [[pale]].|adj|health
+pan|сковорода|Heat the [[pan]].|n|gen
+pass|пропуск; проход|You need a [[pass]] to enter.|n|gen
+passion|страсть|He has a [[passion]] for music.|n|soc
+path|тропа|The [[path]] leads to the lake.|n|gen
+payment|платёж|Make a [[payment]] online.|n|work
+peaceful|мирный|It's a [[peaceful]] village.|adj|soc
+percentage|процент|The [[percentage]] of students fell.|n|gen
+perfectly|отлично, идеально|It works [[perfectly]].|adv|gen
+performance|выступление; результативность|The [[performance]] was brilliant.|n|media
+personally|лично|[[Personally]], I prefer tea.|adv|gen
+persuade|убеждать|She [[persuaded]] him to come.|v|gen
+photographer|фотограф|The [[photographer]] took a portrait.|n|media
+photography|фотография|He studies [[photography]].|n|media
+pin|булавка|She used a [[pin]].|n|gen
+pin|прикалывать|[[Pin]] the notice to the board.|v|gen
+pipe|труба|A [[pipe]] burst.|n|gen
+place|помещать|[[Place]] the cup on the table.|v|gen
+planning|планирование|Careful [[planning]] saves time.|n|work
+pleasant|приятный|We had a [[pleasant]] chat.|adj|gen
+pleasure|удовольствие|It's a [[pleasure]] to meet you.|n|soc
+plenty|множество|There's [[plenty]] of time.|phr|gen
+plot|участок земли|They bought a [[plot]] of land.|n|gen
+plus|плюс (предлог)|Two [[plus]] two is four.|prep|gen
+podcast|подкаст|I listen to a [[podcast]] daily.|n|media
+poem|стихотворение|She wrote a [[poem]].|n|media
+poet|поэт|The [[poet]] read his work.|n|media
+poetry|поэзия|I love [[poetry]].|n|media
+point|указывать|He [[pointed]] at the map.|v|gen
+poison|яд|The [[poison]] killed the fish.|n|env
+poison|отравлять|Chemicals [[poisoned]] the river.|v|env
+poisonous|ядовитый|[[Poisonous]] snakes live here.|adj|env
+political|политический|[[Political]] debates are loud.|adj|gov
+politician|политик|The [[politician]] gave a speech.|n|gov
+politics|политика|She studies [[politics]].|n|gov
+port|порт|Ships entered the [[port]].|n|trans
+portrait|портрет|The artist painted her [[portrait]].|n|media
+possibly|возможно|It could [[possibly]] rain.|adv|gen
+pot|горшок; кастрюля|Put the soup in a [[pot]].|n|gen
+pour|лить|[[Pour]] the milk.|v|gen
+powder|порошок|Mix the [[powder]] with water.|n|gen
+powerful|мощный|A [[powerful]] engine.|adj|gen
+practical|практичный|Give [[practical]] advice.|adj|gen
+pray|молиться|People [[pray]] in church.|v|soc
+prayer|молитва|She said a [[prayer]].|n|soc
+prediction|прогноз|The [[prediction]] came true.|n|sci
+prepared|подготовленный|Be [[prepared]] for delays.|adj|gen
+presentation|презентация|Her [[presentation]] was clear.|n|work
+press|пресса|The [[press]] covered the event.|n|media
+press|нажимать|[[Press]] the button.|v|tech
+pressure|давление|He works under [[pressure]].|n|work
+pretend|притворяться|Children [[pretend]] to be pirates.|v|gen
+previously|ранее|The shop was [[previously]] a bank.|adv|gen
+priest|священник|The [[priest]] blessed them.|n|soc
+prince|принц|The [[prince]] visited the school.|n|gov
+princess|принцесса|The [[princess]] waved.|n|gov
+printing|печать|The [[printing]] press changed the world.|n|media
+prisoner|заключённый|A [[prisoner]] escaped.|n|crime
+private|частный|It's a [[private]] school.|adj|edu
+producer|продюсер|The film [[producer]] arrived.|n|media
+production|производство|Car [[production]] fell.|n|work
+profession|профессия|Teaching is a noble [[profession]].|n|work
+profit|прибыль|The firm made a [[profit]].|n|work
+program|программировать|He [[programs]] robots.|v|tech
+promote|продвигать|They [[promote]] healthy eating.|v|health
+proper|надлежащий|Use the [[proper]] tools.|adj|gen
+properly|как следует|Cook the chicken [[properly]].|adv|gen
+property|собственность|The [[property]] is for sale.|n|work
+protest|протест|There was a [[protest]] outside.|n|soc
+protest|протестовать|Students [[protested]] against fees.|v|soc
+proud|гордый|She is [[proud]] of her son.|adj|soc
+prove|доказывать|The data [[prove]] the claim.|v|sci
+pull|тяга|The [[pull]] of gravity is strong.|n|sci
+punish|наказывать|Schools should not [[punish]] mistakes.|v|edu
+punishment|наказание|The [[punishment]] was fair.|n|crime
+push|толчок|Give the door a [[push]].|n|gen
+qualification|квалификация|A [[qualification]] in law is needed.|n|work
+qualified|квалифицированный|She is a [[qualified]] nurse.|adj|work
+qualify|получать квалификацию; выходить в финал|He [[qualified]] as a teacher.|v|work
+queue|очередь|There was a long [[queue]].|n|gen
+queue|стоять в очереди|People [[queue]] for tickets.|v|gen
+quit|бросать|She [[quit]] her job.|v|work
+quotation|цитата|He used a famous [[quotation]].|n|media
+quote|цитата; расценка|Get a [[quote]] from the builder.|n|work
+quote|цитировать|[[Quote]] the author.|v|edu
+racing|гонки|Horse [[racing]] is popular.|n|gen
+rare|редкий|A [[rare]] bird was spotted.|adj|env
+rarely|редко|He [[rarely]] eats meat.|adv|gen
+reaction|реакция|Her [[reaction]] surprised us.|n|gen
+reality|реальность|Face [[reality]].|n|gen
+receipt|квитанция, чек|Keep the [[receipt]].|n|work
+recommendation|рекомендация|He wrote a [[recommendation]] letter.|n|work
+reference|ссылка; рекомендация|List your [[references]].|n|edu
+reflect|отражать; обдумывать|The lake [[reflects]] the sky.|v|gen
+regularly|регулярно|Exercise [[regularly]].|adv|health
+reject|отклонять|They [[rejected]] the offer.|v|gen
+relate|относиться, связывать|The story [[relates]] to real events.|v|gen
+related|связанный|They are [[related]] by marriage.|adj|soc
+relation|отношение|The [[relation]] between sleep and mood.|n|sci
+relative|относительный|There's a [[relative]] decline.|adj|gen
+relative|родственник|A [[relative]] lives abroad.|n|soc
+relaxed|расслабленный|She feels [[relaxed]].|adj|health
+relaxing|расслабляющий|A [[relaxing]] walk.|adj|health
+release|выпуск|The [[release]] of the film.|n|media
+release|выпускать|The band [[released]] an album.|v|media
+reliable|надёжный|A [[reliable]] source.|adj|media
+religion|религия|[[Religion]] plays a role in culture.|n|soc
+religious|религиозный|A [[religious]] festival.|adj|soc

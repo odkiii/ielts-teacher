@@ -1,0 +1,150 @@
+surgical|хирургический|A [[surgical]] mask protects against germs.|adj|health
+surpass|превосходить|Sales [[surpassed]] all expectations.|v|work
+surplus|излишек|The country has a trade [[surplus]].|n|work
+surrender|сдаваться|The army was forced to [[surrender]].|v|gov
+suspension|приостановка; отстранение|The student faced a week's [[suspension]].|n|edu
+suspicion|подозрение|She looked at him with [[suspicion]].|n|crime
+suspicious|подозрительный|Report any [[suspicious]] behaviour.|adj|crime
+sustainability|устойчивость|Companies talk about [[sustainability]].|n|env
+swing|качели; колебание|There was a big [[swing]] in prices.|n|work
+swing|качаться|The door [[swung]] open.|v|gen
+sword|меч|The knight carried a [[sword]].|n|gen
+symbolic|символический|The gesture was purely [[symbolic]].|adj|gen
+syndrome|синдром|Down [[syndrome]] is a genetic condition.|n|health
+systematic|систематический|A [[systematic]] review covered fifty studies.|adj|sci
+tactic|тактика|Marketing [[tactics]] influence what we buy.|n|work
+tactical|тактический|It was a clever [[tactical]] move.|adj|work
+taxpayer|налогоплательщик|[[Taxpayers]] fund public schools.|n|gov
+tempt|искушать|Advertising can [[tempt]] us to spend more.|v|media
+tenant|арендатор|The [[tenant]] pays rent monthly.|n|gen
+tenure|срок пребывания в должности|During her [[tenure]], profits doubled.|n|work
+terminal|терминал; конечный|The airport has two [[terminals]].|n|trans
+terminate|прекращать|The company will [[terminate]] the contract.|v|work
+terrain|местность|The [[terrain]] is rocky and steep.|n|env
+terrific|потрясающий|It was a [[terrific]] performance.|adj|gen
+testify|давать показания|Three witnesses [[testified]] in court.|v|crime
+testimony|показания|Her [[testimony]] helped the jury.|n|crime
+texture|текстура|The cake has a soft [[texture]].|n|gen
+thankfully|к счастью|[[Thankfully]], nobody was hurt.|adv|gen
+theoretical|теоретический|The course covers both [[theoretical]] and practical work.|adj|edu
+thereafter|после этого|He joined in 2010 and [[thereafter]] rose quickly.|adv|gen
+thereby|тем самым|He saved time, [[thereby]] cutting costs.|adv|gen
+thoughtful|задумчивый, внимательный|It was a [[thoughtful]] gift.|adj|soc
+thread|нить|She followed the [[thread]] of the story.|n|gen
+threshold|порог|Income above the [[threshold]] is taxed.|n|gov
+thrilled|в восторге|She was [[thrilled]] to win.|adj|gen
+thrive|процветать|Plants [[thrive]] in warm weather.|v|env
+tide|прилив/отлив; течение|The [[tide]] came in quickly.|n|env
+tighten|ужесточать, затягивать|Governments will [[tighten]] the rules.|v|gov
+timber|древесина|[[Timber]] is a renewable resource.|n|env
+timely|своевременный|A [[timely]] warning saved lives.|adj|gen
+tobacco|табак|[[Tobacco]] advertising is banned.|n|health
+tolerance|терпимость|Schools teach [[tolerance]] and respect.|n|soc
+tolerate|терпеть|She cannot [[tolerate]] noise.|v|soc
+toll|плата за проезд; ущерб|The war took a heavy [[toll]] on families.|n|soc
+top|превышать|Sales [[topped]] a million.|v|work
+torture|пытка|[[Torture]] is banned under international law.|n|crime
+torture|пытать|Prisoners were [[tortured]].|v|crime
+toss|подбрасывать|He [[tossed]] the ball to her.|v|gen
+total|составлять в сумме|Costs [[total]] ten thousand pounds.|v|work
+toxic|токсичный|[[Toxic]] chemicals polluted the river.|adj|env
+trace|след|Police found no [[trace]] of the thief.|n|crime
+trademark|торговая марка|The logo is a registered [[trademark]].|n|work
+trafficking|торговля людьми/наркотиками|Drug [[trafficking]] is a global crime.|n|crime
+trail|тропа; след|We followed the [[trail]] through the forest.|n|gen
+trail|тянуться; отставать|The team [[trailed]] by two points.|v|gen
+trailer|трейлер, прицеп|Watch the film [[trailer]] online.|n|media
+trans|трансгендерный|The charity supports [[trans]] young people.|adj|soc
+transaction|сделка, операция|Every online [[transaction]] is recorded.|n|work
+transcript|стенограмма|Read the [[transcript]] of the interview.|n|media
+transformation|преобразование|The city's [[transformation]] was rapid.|n|gen
+transit|транзит, перевозка|Goods were damaged in [[transit]].|n|trans
+transmission|передача|Disease [[transmission]] slowed after the lockdown.|n|health
+transparency|прозрачность|Citizens demand [[transparency]] from the government.|n|gov
+transparent|прозрачный|The rules should be [[transparent]].|adj|gov
+trauma|травма (психологическая)|The accident left him with deep [[trauma]].|n|health
+treaty|договор|The two states signed a peace [[treaty]].|n|gov
+tremendous|огромный|She put in a [[tremendous]] amount of effort.|adj|gen
+tribal|племенной|[[Tribal]] communities live in the valley.|adj|soc
+tribunal|трибунал|An employment [[tribunal]] heard his complaint.|n|work
+tribute|дань уважения|Fans paid [[tribute]] to the singer.|n|media
+trigger|триггер, спусковой крючок|Stress can be a [[trigger]] for migraines.|n|health
+trio|трио|The [[trio]] performed at the festival.|n|media
+triumph|триумф|Winning the cup was a great [[triumph]].|n|gen
+trophy|трофей|The captain lifted the [[trophy]].|n|gen
+troubled|неспокойный, проблемный|He had a [[troubled]] childhood.|adj|soc
+trustee|попечитель|A [[trustee]] manages the fund.|n|work
+tuition|обучение; плата за обучение|[[Tuition]] fees have increased.|n|edu
+turnout|явка|Voter [[turnout]] was low.|n|gov
+turnover|оборот; текучесть кадров|Staff [[turnover]] is high in retail.|n|work
+twist|поворот, изгиб|The film has an unexpected [[twist]].|n|media
+twist|крутить, искажать|[[Twist]] the lid to open the jar.|v|gen
+underlying|лежащий в основе|We must address the [[underlying]] causes.|adj|sci
+unify|объединять|The new law will [[unify]] the country.|v|gov
+unprecedented|беспрецедентный|The floods were [[unprecedented]].|adj|env
+unveil|представлять, открывать|The company will [[unveil]] its new phone.|v|media
+upcoming|предстоящий|Check the [[upcoming]] events.|adj|gen
+upgrade|обновление|A software [[upgrade]] is available.|n|tech
+upgrade|модернизировать|You should [[upgrade]] your computer.|v|tech
+uphold|поддерживать, отстаивать|Courts [[uphold]] the law.|v|crime
+utility|коммунальная услуга; полезность|Gas and electricity are public [[utilities]].|n|gov
+utilize|использовать|Schools [[utilize]] new technology.|v|edu
+utterly|совершенно|The idea is [[utterly]] ridiculous.|adv|gen
+vacuum|вакуум; пылесос|Space is a [[vacuum]].|n|sci
+vague|смутный, расплывчатый|His answer was [[vague]].|adj|gen
+vanish|исчезать|The species may [[vanish]] by 2050.|v|env
+varied|разнообразный|The menu is [[varied]].|adj|gen
+vegan|веганский|She follows a [[vegan]] diet.|adj|health
+vegan|веган|The cafe caters for [[vegans]].|n|health
+vein|вена|Blood flows through the [[veins]].|n|health
+vendor|продавец|A street [[vendor]] sells snacks.|n|work
+venture|предприятие, рискованное начинание|The business [[venture]] failed.|n|work
+venture|отваживаться|Few people [[venture]] into the desert.|v|gen
+verbal|устный, словесный|She gave a [[verbal]] agreement.|adj|gen
+verdict|вердикт|The jury reached a [[verdict]].|n|crime
+verify|проверять, подтверждать|Please [[verify]] your email address.|v|tech
+verse|стих, строфа|The poem has three [[verses]].|n|media
+versus|против|It is quality [[versus]] quantity.|conj|gen
+vessel|сосуд; судно|A blood [[vessel]] burst.|n|health
+veteran|ветеран|The [[veteran]] teacher retires this year.|n|work
+vibrant|яркий, энергичный|The city has a [[vibrant]] arts scene.|adj|soc
+vice|порок|Gambling is a [[vice]] for some.|n|soc
+vicious|злобный, жестокий|A [[vicious]] attack shocked the town.|adj|crime
+villager|житель деревни|[[Villagers]] helped rebuild the school.|n|soc
+violate|нарушать|The company [[violated]] safety rules.|v|crime
+violation|нарушение|A traffic [[violation]] costs money.|n|crime
+viral|вирусный|The video went [[viral]].|adj|media
+virtue|добродетель|Patience is a [[virtue]].|n|soc
+vocal|громкий, активный в высказываниях|She is a [[vocal]] critic of the plan.|adj|gov
+vow|клясться|He [[vowed]] to work harder.|v|gen
+vulnerability|уязвимость|The report shows system [[vulnerabilities]].|n|tech
+vulnerable|уязвимый|Children are [[vulnerable]] online.|adj|soc
+ward|палата; район|She works on the children's [[ward]].|n|health
+warehouse|склад|Goods are stored in a [[warehouse]].|n|work
+warfare|война, ведение войны|Modern [[warfare]] uses drones.|n|gov
+warrant|ордер|Police need a [[warrant]] to search the house.|n|crime
+warrant|оправдывать, требовать|The situation does not [[warrant]] panic.|v|gen
+warrior|воин|The statue shows an ancient [[warrior]].|n|gen
+weaken|ослаблять|Stress can [[weaken]] the immune system.|v|health
+weave|ткать|They [[weave]] cloth by hand.|v|gen
+weed|сорняк|Remove each [[weed]] from the garden.|n|env
+well|колодец|Villagers draw water from a [[well]].|n|env
+whatsoever|совсем, вообще|There was no evidence [[whatsoever]].|adv|gen
+whip|хлестать; взбивать|[[Whip]] the cream until thick.|v|gen
+wholly|полностью|He is [[wholly]] responsible.|adv|gen
+widen|расширять(ся)|They plan to [[widen]] the road.|v|trans
+widow|вдова|The [[widow]] received a pension.|n|soc
+width|ширина|Measure the [[width]] of the table.|n|gen
+wildfire|лесной пожар|A [[wildfire]] spread across the hills.|n|env
+willingness|готовность|His [[willingness]] to learn impressed us.|n|edu
+wipe|вытирать|[[Wipe]] the table with a cloth.|v|gen
+wit|остроумие|She is known for her sharp [[wit]].|n|media
+withdrawal|вывод; снятие (со счёта)|Cash [[withdrawal]] is limited per day.|n|work
+workout|тренировка|A daily [[workout]] keeps me fit.|n|health
+worsen|ухудшаться|Air quality may [[worsen]] in winter.|v|env
+worship|поклонение|Places of [[worship]] were closed.|n|soc
+worship|поклоняться|They [[worship]] in the old temple.|v|soc
+worthwhile|стоящий, оправдывающий усилия|The long journey was [[worthwhile]].|adj|gen
+worthy|достойный|She is [[worthy]] of the prize.|adj|gen
+yell|кричать|The coach [[yelled]] at the players.|v|gen
+yield|урожайность, доход|The wheat [[yield]] was higher this year.|n|env

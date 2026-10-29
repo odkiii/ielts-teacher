@@ -1,0 +1,150 @@
+hazard|опасность, риск|Loose wires are a fire [[hazard]].|n|health
+heighten|усиливать|The news [[heightened]] public fears.|v|gen
+heritage|наследие|The city has a rich cultural [[heritage]].|n|soc
+hierarchy|иерархия|The company has a strict [[hierarchy]].|n|work
+high-profile|громкий, получивший огласку|It was a [[high-profile]] court case.|adj|media
+hint|намёк|She gave me a [[hint]] about the answer.|n|gen
+hint|намекать|He [[hinted]] that he might resign.|v|gen
+homeland|родина|Many refugees dream of returning to their [[homeland]].|n|soc
+hook|цеплять|He [[hooked]] the bag on the door.|v|gen
+hopeful|полный надежды|We are [[hopeful]] about the future.|adj|gen
+horizon|горизонт|The sun sank below the [[horizon]].|n|gen
+horn|гудок; рог|The driver sounded his [[horn]].|n|trans
+hospitality|гостеприимство|The villagers showed great [[hospitality]].|n|soc
+hostage|заложник|The [[hostage]] was released unharmed.|n|crime
+hostile|враждебный|The crowd was [[hostile]] to the speaker.|adj|soc
+hub|центр, узел|London is a major transport [[hub]].|n|trans
+humanitarian|гуманитарный|[[Humanitarian]] aid reached the flooded region.|adj|soc
+humanity|человечество; человечность|Climate change threatens all [[humanity]].|n|soc
+humble|скромный|He came from a [[humble]] background.|adj|soc
+hybrid|гибридный|A [[hybrid]] car uses less fuel.|adj|trans
+hybrid|гибрид|The fruit is a [[hybrid]] of two plants.|n|sci
+hydrogen|водород|[[Hydrogen]] could power future cars.|n|env
+identification|идентификация, удостоверение|Please show some form of [[identification]].|n|gen
+ideology|идеология|The party's [[ideology]] has changed.|n|gov
+ignorance|невежество|[[Ignorance]] of the law is no excuse.|n|soc
+imagery|образность, образы|The poem is full of powerful [[imagery]].|n|media
+immense|огромный|The project required [[immense]] effort.|adj|gen
+imminent|неминуемый|A storm is [[imminent]].|adj|env
+immunity|иммунитет|Vaccines give [[immunity]] to disease.|n|health
+implementation|реализация|The [[implementation]] of the new rules took a year.|n|gov
+inability|неспособность|His [[inability]] to listen caused problems.|n|soc
+inadequate|недостаточный|The funding is [[inadequate]].|adj|gov
+inappropriate|неуместный|The joke was [[inappropriate]].|adj|soc
+incidence|частота случаев|The [[incidence]] of asthma has risen.|n|health
+inclined|склонный|Young people are more [[inclined]] to use apps.|adj|gen
+inclusion|включение|The [[inclusion]] of disabled pupils is a priority.|n|edu
+inclusive|инклюзивный|The school aims to be [[inclusive]].|adj|edu
+incur|нести (расходы), навлекать|Late payment will [[incur]] a fee.|v|work
+indicator|показатель|Unemployment is a key economic [[indicator]].|n|gov
+indictment|обвинительное заключение|The [[indictment]] was read in court.|n|crime
+indigenous|коренной|[[Indigenous]] peoples protect the forest.|adj|soc
+induce|вызывать, побуждать|Some drugs [[induce]] sleep.|v|health
+indulge|баловать, потакать|He likes to [[indulge]] his sweet tooth.|v|gen
+infamous|печально известный|The prison is [[infamous]] for its conditions.|adj|crime
+infant|младенец|[[Infant]] mortality has fallen sharply.|n|health
+infect|заражать|The virus can [[infect]] anyone.|v|health
+infectious|заразный|Flu is highly [[infectious]].|adj|health
+inflict|причинять (вред)|Storms can [[inflict]] serious damage.|v|env
+influential|влиятельный|She is an [[influential]] writer.|adj|media
+inherent|присущий|Risk is [[inherent]] in any investment.|adj|gen
+inhibit|сдерживать, подавлять|Fear can [[inhibit]] learning.|v|edu
+initiate|начинать, инициировать|The city will [[initiate]] a recycling scheme.|v|gov
+inject|вводить (инъекцией)|The nurse [[injected]] the vaccine.|v|health
+injection|инъекция|The doctor gave him an [[injection]].|n|health
+injustice|несправедливость|Many people protested against the [[injustice]].|n|soc
+inmate|заключённый|The [[inmates]] take classes in prison.|n|crime
+insider|свой человек, посвящённый|An [[insider]] revealed the secret.|n|work
+inspect|проверять, осматривать|Officials [[inspect]] restaurants twice a year.|v|work
+inspection|проверка|The school passed its [[inspection]].|n|edu
+inspiration|вдохновение|Nature is a source of [[inspiration]] for artists.|n|media
+instinct|инстинкт|Birds migrate by [[instinct]].|n|sci
+institutional|институциональный|[[Institutional]] change takes time.|adj|gov
+instruct|инструктировать|The teacher [[instructed]] us to work in pairs.|v|edu
+instrumental|сыгравший важную роль|She was [[instrumental]] in setting up the charity.|adj|gen
+insufficient|недостаточный|[[Insufficient]] evidence was presented.|adj|sci
+insult|оскорбление|He took the comment as an [[insult]].|n|soc
+intact|нетронутый, целый|The old bridge remained [[intact]].|adj|gen
+intake|потребление; набор|Reduce your salt [[intake]].|n|health
+integral|неотъемлемый|Exercise is an [[integral]] part of the programme.|adj|gen
+integrated|интегрированный|The city has an [[integrated]] transport system.|adj|trans
+integration|интеграция|The [[integration]] of newcomers takes time.|n|soc
+integrity|честность, целостность|A judge must have [[integrity]].|n|gov
+intellectual|интеллектуал|The café attracts artists and [[intellectuals]].|n|soc
+intensify|усиливать(ся)|Efforts to cut waste will [[intensify]].|v|env
+intensity|интенсивность|The [[intensity]] of the storm increased.|n|env
+intensive|интенсивный|He took an [[intensive]] English course.|adj|edu
+intent|намерение|It was not my [[intent]] to offend anyone.|n|gen
+interactive|интерактивный|The museum has [[interactive]] displays.|adj|tech
+interface|интерфейс|The app has a simple [[interface]].|n|tech
+interfere|вмешиваться|Parents should not [[interfere]] too much.|v|soc
+interference|вмешательство; помехи|Radio [[interference]] made the call impossible.|n|tech
+interim|временный|An [[interim]] manager took charge.|adj|work
+interior|внутренний|The [[interior]] walls were painted white.|adj|gen
+interior|интерьер|The car has a leather [[interior]].|n|trans
+intervene|вмешиваться|The government had to [[intervene]].|v|gov
+intervention|вмешательство|Early [[intervention]] helps struggling pupils.|n|edu
+intimate|интимный, близкий|They had an [[intimate]] dinner at home.|adj|soc
+intriguing|интригующий|It is an [[intriguing]] idea.|adj|gen
+investigator|следователь|An [[investigator]] examined the scene.|n|crime
+invisible|невидимый|Germs are [[invisible]] to the eye.|adj|health
+invoke|ссылаться (на закон), вызывать|He [[invoked]] his right to remain silent.|v|crime
+involvement|участие|Parental [[involvement]] helps children succeed.|n|edu
+ironically|по иронии судьбы|[[Ironically]], the shortcut took longer.|adv|gen
+irony|ирония|The [[irony]] was lost on the audience.|n|media
+irrelevant|не относящийся к делу|That detail is [[irrelevant]].|adj|gen
+isolation|изоляция|Long [[isolation]] affects mental health.|n|health
+joint|совместный|They made a [[joint]] decision.|adj|gen
+joint|сустав|Running can hurt your [[joints]].|n|health
+judicial|судебный|The [[judicial]] system must be independent.|adj|crime
+junction|перекрёсток, узел|Turn left at the next [[junction]].|n|trans
+jurisdiction|юрисдикция|The case is outside our [[jurisdiction]].|n|crime
+just|справедливый|A [[just]] society protects the weak.|adj|soc
+justification|оправдание, обоснование|There is no [[justification]] for violence.|n|gen
+kidnap|похищать|Criminals [[kidnapped]] a businessman.|v|crime
+kidney|почка|He needed a [[kidney]] transplant.|n|health
+kingdom|королевство|The United [[Kingdom]] has four nations.|n|gov
+lad|парень|The [[lad]] ran across the field.|n|gen
+landlord|домовладелец|The [[landlord]] raised the rent.|n|gen
+landmark|достопримечательность; веха|The tower is a famous [[landmark]].|n|gen
+lap|круг (на дистанции)|Runners completed ten [[laps]].|n|gen
+large-scale|крупномасштабный|The government launched a [[large-scale]] survey.|adj|gov
+laser|лазер|Surgeons use a [[laser]] for eye operations.|n|sci
+latter|последний (из двух)|Of tea and coffee, I prefer the [[latter]].|adj|gen
+latter|второй (из названных)|Of the two options, the [[latter]] is cheaper.|n|gen
+lawn|газон|He mows the [[lawn]] every week.|n|gen
+lawsuit|судебный иск|She filed a [[lawsuit]] against the company.|n|crime
+layout|планировка|The [[layout]] of the flat is practical.|n|gen
+leak|утечка|A gas [[leak]] forced evacuation.|n|env
+leak|протекать; сливать (информацию)|The roof [[leaks]] when it rains.|v|gen
+leap|прыжок, скачок|The company took a [[leap]] in profits.|n|work
+leap|прыгать|The child [[leapt]] over the puddle.|v|gen
+legacy|наследие|The mayor left a lasting [[legacy]].|n|gov
+legendary|легендарный|He is a [[legendary]] guitarist.|adj|media
+legislative|законодательный|The [[legislative]] process takes months.|adj|gov
+legislature|законодательный орган|The state [[legislature]] passed the bill.|n|gov
+legitimate|законный, обоснованный|That is a [[legitimate]] concern.|adj|gov
+lengthy|длительный|After a [[lengthy]] discussion, they agreed.|adj|gen
+lesbian|лесбийский|The film has a [[lesbian]] lead character.|adj|soc
+lesser|меньший|To a [[lesser]] extent, prices also rose.|adj|gen
+lethal|смертельный|A [[lethal]] dose of the drug killed him.|adj|health
+levy|налог, сбор|The council introduced a [[levy]] on plastic bags.|n|gov
+levy|взимать (налог)|The government plans to [[levy]] a new tax.|v|gov
+liable|ответственный, обязанный по закону|Owners are [[liable]] for any damage.|adj|crime
+liberal|либеральный|She has [[liberal]] views on education.|adj|gov
+liberal|либерал|The [[liberals]] won the election.|n|gov
+liberty|свобода|Citizens value personal [[liberty]].|n|gov
+license|лицензировать|The city will [[license]] new taxis.|v|gov
+lifelong|пожизненный, на всю жизнь|She became a [[lifelong]] friend.|adj|soc
+likelihood|вероятность|The [[likelihood]] of rain is high.|n|gen
+limb|конечность|He broke a [[limb]] skiing.|n|health
+line-up|состав; программа|The festival [[line-up]] includes many bands.|n|media
+linear|линейный|The graph shows a [[linear]] trend.|adj|sci
+linger|задерживаться|The smell [[lingered]] for hours.|v|gen
+listing|список, объявление|Check the online [[listing]] for the flat.|n|gen
+liver|печень|Alcohol can damage the [[liver]].|n|health
+lobby|лобби; холл|The [[lobby]] of the hotel was empty.|n|gov
+lobby|лоббировать|Companies [[lobby]] the government for lower taxes.|v|gov
+logic|логика|There is no [[logic]] in his argument.|n|edu
+long-standing|давний|They have a [[long-standing]] friendship.|adj|soc
+long-time|давний, многолетний|He is a [[long-time]] supporter of the club.|adj|soc

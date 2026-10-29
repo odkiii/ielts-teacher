@@ -1,0 +1,150 @@
+pirate|пират; нелегальная копия|[[Pirate]] copies of the film were sold online.|n|crime
+pit|яма|Workers dug a deep [[pit]].|n|gen
+plea|мольба; признание вины|The judge heard his [[plea]] for mercy.|n|crime
+plead|умолять; заявлять о (невиновности)|She [[pleaded]] with him to stay.|v|crime
+pledge|обещание, обязательство|The mayor made a [[pledge]] to cut pollution.|n|gov
+pledge|обещать, обязываться|Leaders [[pledged]] to protect forests.|v|gov
+plug|вилка; пробка|Pull the [[plug]] out of the socket.|n|tech
+plug|затыкать; подключать|[[Plug]] the lead into the socket.|v|tech
+pole|полюс; столб|Ice is melting at the North [[Pole]].|n|env
+poll|опрос|A recent [[poll]] shows strong support.|n|gov
+pond|пруд|Frogs live in the [[pond]].|n|env
+pop|хлопать; выскакивать|Balloons [[popped]] in the heat.|v|gen
+portfolio|портфолио|She showed her design [[portfolio]] to the employer.|n|work
+portray|изображать|The film [[portrays]] life in the 1920s.|v|media
+postpone|откладывать|The match was [[postponed]] because of rain.|v|gen
+practitioner|практик|A medical [[practitioner]] examined the patient.|n|health
+precedent|прецедент|The ruling set an important [[precedent]].|n|crime
+precision|точность|The task requires great [[precision]].|n|sci
+predator|хищник|Lions are top [[predators]].|n|env
+predecessor|предшественник|The new director is more open than her [[predecessor]].|n|work
+predominantly|преимущественно|The area is [[predominantly]] rural.|adv|gen
+pregnancy|беременность|Doctors advise rest during [[pregnancy]].|n|health
+prejudice|предрассудок|Racial [[prejudice]] still exists.|n|soc
+preliminary|предварительный|[[Preliminary]] results look promising.|adj|sci
+premise|предпосылка|The argument rests on a false [[premise]].|n|edu
+premium|премиальный; страховой взнос|The insurance [[premium]] went up.|n|work
+prescribe|прописывать (лекарство)|The doctor [[prescribed]] antibiotics.|v|health
+presently|в настоящее время; вскоре|He is [[presently]] working abroad.|adv|gen
+preservation|сохранение|The [[preservation]] of old buildings costs money.|n|env
+preside|председательствовать|A judge [[presided]] over the trial.|v|crime
+presidency|президентство|She won the [[presidency]] in 2020.|n|gov
+presidential|президентский|The [[presidential]] election takes place in autumn.|adj|gov
+prestigious|престижный|He studied at a [[prestigious]] university.|adj|edu
+presume|полагать, предполагать|I [[presume]] you have read the report.|v|gen
+prevail|преобладать, одерживать верх|Common sense finally [[prevailed]].|v|gen
+prevalence|распространённость|The [[prevalence]] of obesity is rising.|n|health
+prey|добыча|Owls hunt small [[prey]].|n|env
+principal|директор (школы)|The [[principal]] welcomed new students.|n|edu
+prioritize|расставлять приоритеты|Students should [[prioritize]] their tasks.|v|edu
+privilege|привилегия|Education is a [[privilege]] in many countries.|n|soc
+probe|зонд; расследование|Officials launched a [[probe]] into the accident.|n|crime
+problematic|проблемный|The data is [[problematic]].|adj|sci
+proceedings|судебное разбирательство; процедура|Legal [[proceedings]] began in June.|n|crime
+proceeds|выручка|The [[proceeds]] go to charity.|n|soc
+processing|обработка|Data [[processing]] has become faster.|n|tech
+processor|процессор|The new [[processor]] is much faster.|n|tech
+proclaim|провозглашать|The president [[proclaimed]] a day of mourning.|v|gov
+productive|продуктивный|It was a [[productive]] meeting.|adj|work
+productivity|производительность|Longer breaks can raise [[productivity]].|n|work
+profitable|прибыльный|The shop became [[profitable]] after a year.|adj|work
+profound|глубокий|The film had a [[profound]] effect on me.|adj|gen
+projection|прогноз|Official [[projections]] show slow growth.|n|work
+prominent|выдающийся, заметный|She is a [[prominent]] scientist.|adj|sci
+pronounced|заметный, ярко выраженный|He had a [[pronounced]] limp.|adj|health
+propaganda|пропаганда|The film was used for political [[propaganda]].|n|media
+proposition|предложение, утверждение|It is an attractive [[proposition]] for investors.|n|work
+prosecute|преследовать в судебном порядке|Police [[prosecute]] those who break the law.|v|crime
+prosecution|обвинение|The [[prosecution]] called three witnesses.|n|crime
+prosecutor|прокурор|The [[prosecutor]] presented new evidence.|n|crime
+prospective|будущий, потенциальный|[[Prospective]] students can visit the campus.|adj|edu
+prosperity|процветание|Trade brings [[prosperity]] to the region.|n|gov
+protective|защитный|Wear [[protective]] clothing on the site.|adj|work
+protocol|протокол|Follow the safety [[protocol]].|n|health
+province|провинция|Canada has ten [[provinces]].|n|gov
+provincial|провинциальный|[[Provincial]] governments run schools.|adj|gov
+provision|обеспечение; положение|The [[provision]] of clean water is a priority.|n|gov
+provoke|провоцировать|The remark [[provoked]] an angry reply.|v|soc
+pulse|пульс|The nurse checked his [[pulse]].|n|health
+pump|насос|A water [[pump]] supplies the village.|n|env
+pump|качать|Machines [[pump]] water from the mine.|v|env
+punch|удар кулаком|He threw a [[punch]].|n|crime
+punch|бить кулаком|He [[punched]] the wall in anger.|v|crime
+purely|исключительно|The decision was [[purely]] financial.|adv|gen
+query|запрос|Send your [[query]] to customer service.|n|work
+quest|поиск|Their [[quest]] for a cure continues.|n|sci
+quota|квота|The country set a fishing [[quota]].|n|env
+radar|радар|Ships use [[radar]] to avoid collisions.|n|trans
+radical|радикальный|The reform was [[radical]].|adj|gov
+rage|ярость|He shouted in [[rage]].|n|soc
+raid|рейд, налёт|Police carried out a [[raid]] at dawn.|n|crime
+rally|митинг|Thousands joined the [[rally]].|n|soc
+rally|сплачиваться, оживляться|Prices [[rallied]] after the news.|v|work
+ranking|рейтинг|The university rose in the world [[rankings]].|n|edu
+rape|изнасилование|[[Rape]] is a serious crime.|n|crime
+rape|насиловать|The man was convicted of [[raping]] a woman.|v|crime
+ratio|соотношение|The student-teacher [[ratio]] is 15 to 1.|n|edu
+rational|рациональный|Make a [[rational]] choice, not an emotional one.|adj|gen
+ray|луч|A [[ray]] of sunlight entered the room.|n|sci
+readily|охотно, легко|The data is [[readily]] available.|adv|gen
+realization|осознание|The [[realization]] hit her suddenly.|n|gen
+realm|область, сфера|This question belongs to the [[realm]] of ethics.|n|gen
+rear|задний|Passengers sit in the [[rear]] seats.|adj|trans
+reasoning|рассуждение|His [[reasoning]] was clear.|n|edu
+reassure|успокаивать|The doctor [[reassured]] the patient.|v|health
+rebel|повстанец, бунтарь|The [[rebel]] leader gave a speech.|n|gov
+rebellion|мятеж, бунт|The [[rebellion]] was crushed.|n|gov
+recipient|получатель|The [[recipient]] of the award thanked the jury.|n|gen
+reconstruction|реконструкция, восстановление|The [[reconstruction]] of the bridge took years.|n|gen
+recount|рассказывать, пересчитывать|He [[recounted]] his adventures.|v|media
+referendum|референдум|A [[referendum]] was held on the issue.|n|gov
+reflection|отражение; размышление|On [[reflection]], I changed my mind.|n|gen
+reform|реформа|Education [[reform]] is a priority.|n|gov
+reform|реформировать|The government plans to [[reform]] the tax system.|v|gov
+refuge|убежище|They sought [[refuge]] from the storm.|n|soc
+refusal|отказ|His [[refusal]] surprised everyone.|n|gen
+regain|возвращать, восстанавливать|He slowly [[regained]] his strength.|v|health
+regardless|несмотря ни на что|Everyone pays the same, [[regardless]] of income.|adv|gen
+regime|режим|The old [[regime]] collapsed.|n|gov
+regulator|регулятор|The industry [[regulator]] fined the firm.|n|gov
+regulatory|регулирующий|A new [[regulatory]] body was created.|adj|gov
+reign|правление|The queen's [[reign]] lasted seventy years.|n|gov
+rejection|отказ, отклонение|He accepted the [[rejection]] calmly.|n|gen
+relevance|уместность, актуальность|The [[relevance]] of the study is clear.|n|sci
+reliability|надёжность|The [[reliability]] of the data is questionable.|n|sci
+remainder|остаток|The [[remainder]] of the money was saved.|n|gen
+remains|остатки, останки|Archaeologists found the [[remains]] of a village.|n|sci
+remedy|средство, лекарство|Honey is a natural [[remedy]] for coughs.|n|health
+reminder|напоминание|A [[reminder]] was sent by email.|n|work
+removal|удаление|The [[removal]] of old pipes took a week.|n|gen
+render|делать, приводить в состояние|The storm [[rendered]] the road unusable.|v|gen
+renew|возобновлять|You need to [[renew]] your passport.|v|gov
+renowned|известный|She is a [[renowned]] historian.|adj|edu
+rental|аренда|Car [[rental]] is cheap here.|n|trans
+replacement|замена|The old bridge needs a [[replacement]].|n|gen
+reportedly|по сообщениям|He [[reportedly]] left the country.|adv|media
+representation|представительство|Women want better [[representation]] in politics.|n|gov
+reproduce|воспроизводить; размножаться|Scientists could not [[reproduce]] the results.|v|sci
+republic|республика|France is a [[republic]].|n|gov
+resemble|напоминать, походить|The child [[resembles]] her mother.|v|gen
+residence|резиденция; проживание|He took up [[residence]] in Paris.|n|gen
+residential|жилой|The area is purely [[residential]].|adj|gen
+resignation|отставка|The minister announced his [[resignation]].|n|work
+resilience|устойчивость, жизнестойкость|Children develop [[resilience]] through challenges.|n|soc
+resistance|сопротивление|There was strong [[resistance]] to the plan.|n|gen
+respective|соответствующий|They went to their [[respective]] rooms.|adj|gen
+respectively|соответственно|Prices rose by 5% and 7%, [[respectively]].|adv|gen
+restoration|реставрация|The [[restoration]] of the church took years.|n|gen
+restraint|сдержанность|The police showed [[restraint]].|n|crime
+resume|возобновлять|Classes will [[resume]] on Monday.|v|edu
+retreat|отступление; уединённое место|The army ordered a [[retreat]].|n|gov
+retreat|отступать|Protesters [[retreated]] from the square.|v|gov
+retrieve|извлекать, возвращать|You can [[retrieve]] deleted files from the bin.|v|tech
+revelation|откровение, новость|The report contained a shocking [[revelation]].|n|media
+revenge|месть|He sought [[revenge]] on his rival.|n|soc
+reverse|менять на противоположное|The court [[reversed]] the decision.|v|crime
+revival|возрождение|The town enjoyed an economic [[revival]].|n|work
+revive|возрождать|Efforts to [[revive]] the old language failed.|v|soc
+revolutionary|революционный|It was a [[revolutionary]] idea.|adj|sci
+rhetoric|риторика|The politician's [[rhetoric]] was powerful.|n|gov
+rifle|винтовка|The soldier carried a [[rifle]].|n|gov

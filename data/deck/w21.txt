@@ -1,0 +1,150 @@
+confuse|путать, сбивать с толку|The map [[confused]] me.|v|gen
+confused|сбитый с толку|I'm [[confused]] by the instructions.|adj|gen
+connection|связь|There's a [[connection]] between sleep and mood.|n|sci
+consist|состоять|The team [[consists]] of ten people.|v|gen
+consumer|потребитель|[[Consumers]] want lower prices.|n|work
+contact|контакт|Keep in [[contact]].|n|soc
+contact|связываться|[[Contact]] us by email.|v|work
+container|контейнер|Store food in a [[container]].|n|gen
+content|содержание|The [[content]] of the book is clear.|n|media
+continuous|непрерывный|There was [[continuous]] rain.|adj|gen
+contrast|контраст|There's a sharp [[contrast]] between them.|n|gen
+contrast|противопоставлять|The report [[contrasts]] two methods.|v|sci
+convenient|удобный|The shop is in a [[convenient]] place.|adj|gen
+convince|убеждать|She [[convinced]] him to stay.|v|gen
+cool|охлаждать|[[Cool]] the soup first.|v|gen
+costume|костюм|She wore a historical [[costume]].|n|media
+cottage|коттедж|They rented a seaside [[cottage]].|n|gen
+cotton|хлопок|The shirt is made of [[cotton]].|n|gen
+count|подсчёт|The final [[count]] was 200.|n|gen
+countryside|сельская местность|They live in the [[countryside]].|n|env
+court|суд|The case went to [[court]].|n|crime
+cover|обложка, укрытие|Look at the book [[cover]].|n|media
+covered|покрытый|The hills were [[covered]] in snow.|adj|env
+cream|кремовый|She painted the walls [[cream]].|adj|gen
+cruel|жестокий|It's [[cruel]] to treat animals badly.|adj|soc
+cultural|культурный|The city has rich [[cultural]] life.|adj|soc
+currency|валюта|The local [[currency]] is the euro.|n|work
+current|текущий|What is the [[current]] situation?|adj|gen
+currently|в настоящее время|She is [[currently]] studying law.|adv|gen
+curtain|занавеска|Close the [[curtain]].|n|gen
+custom|обычай|It's a local [[custom]].|n|soc
+cut|порез; сокращение|There were deep budget [[cuts]].|n|gov
+daily|ежедневно|The shop opens [[daily]].|adv|gen
+damage|ущерб|The storm caused serious [[damage]].|n|env
+damage|повреждать|Frost can [[damage]] plants.|v|env
+deal|сделка|They made a good [[deal]].|n|work
+decade|десятилетие|Prices fell over the past [[decade]].|n|gen
+decorate|украшать|They [[decorated]] the room.|v|gen
+deep|глубоко|The snow lay [[deep]].|adv|env
+definite|определённый|We need a [[definite]] answer.|adj|gen
+definition|определение|Look up the [[definition]] of the word.|n|edu
+deliver|доставлять|The firm [[delivers]] goods nationwide.|v|work
+departure|отправление|The [[departure]] time is eight.|n|trans
+destination|пункт назначения|The train reached its [[destination]].|n|trans
+determine|определять|Tests will [[determine]] the cause.|v|sci
+determined|решительный|She is [[determined]] to succeed.|adj|gen
+development|развитие|Child [[development]] needs play.|n|edu
+diagram|диаграмма|Study the [[diagram]] carefully.|n|edu
+diamond|алмаз|The ring has a [[diamond]].|n|gen
+difficulty|трудность|She had [[difficulty]] reading.|n|edu
+direct|прямо|The plane flies [[direct]] to Rome.|adv|trans
+direct|направлять, руководить|He [[directed]] the film.|v|media
+directly|непосредственно|Contact the manager [[directly]].|adv|work
+dirt|грязь|His shoes were covered in [[dirt]].|n|gen
+disadvantage|недостаток|A [[disadvantage]] is the cost.|n|gen
+disappointed|разочарованный|I was [[disappointed]] with the film.|adj|gen
+disappointing|разочаровывающий|The results were [[disappointing]].|adj|gen
+discount|скидка|They offer a student [[discount]].|n|work
+dislike|неприязнь|She has a [[dislike]] of crowds.|n|soc
+dislike|не любить|I [[dislike]] noisy places.|v|soc
+divide|делить|[[Divide]] the cake in two.|v|gen
+documentary|документальный фильм|I watched a [[documentary]] on whales.|n|media
+doubt|сомнение|There's no [[doubt]] about it.|n|gen
+doubt|сомневаться|I [[doubt]] he will come.|v|gen
+dressed|одетый|She was [[dressed]] in black.|adj|gen
+drop|капля; падение|A [[drop]] in prices is expected.|n|work
+drum|барабан|He plays the [[drum]].|n|media
+drunk|пьяный|It's illegal to drive [[drunk]].|adj|crime
+due|ожидаемый; обязанный|The essay is [[due]] on Monday.|adj|edu
+dust|пыль|The shelves were covered in [[dust]].|n|gen
+duty|долг, обязанность|It is her [[duty]] to report.|n|work
+earthquake|землетрясение|An [[earthquake]] struck at night.|n|env
+eastern|восточный|The [[eastern]] coast is rocky.|adj|gen
+economic|экономический|[[Economic]] growth slowed.|adj|work
+edge|край|He stood at the [[edge]] of the cliff.|n|gen
+editor|редактор|The [[editor]] corrected the article.|n|media
+educate|обучать|Schools [[educate]] children.|v|edu
+educated|образованный|She is a highly [[educated]] woman.|adj|edu
+educational|образовательный|It's an [[educational]] game.|adj|edu
+effective|эффективный|The medicine is [[effective]].|adj|health
+effectively|эффективно|She communicates [[effectively]].|adv|work
+effort|усилие|It takes [[effort]] to learn.|n|edu
+election|выборы|The [[election]] takes place in May.|n|gov
+embarrassed|смущённый|She felt [[embarrassed]].|adj|soc
+embarrassing|неловкий|It was an [[embarrassing]] moment.|adj|soc
+emergency|чрезвычайная ситуация|Call 112 in an [[emergency]].|n|health
+emotion|эмоция|He couldn't hide his [[emotion]].|n|soc
+employment|занятость|[[Employment]] is rising.|n|work
+empty|опорожнять|[[Empty]] the bin.|v|gen
+encourage|поощрять|Teachers [[encourage]] questions.|v|edu
+enemy|враг|The [[enemy]] attacked at dawn.|n|gov
+engaged|занятый; помолвленный|The line is [[engaged]].|adj|gen
+engineering|инженерия|She studies [[engineering]].|n|edu
+entertain|развлекать|Clowns [[entertain]] children.|v|media
+entrance|вход|The [[entrance]] is on the left.|n|gen
+entry|вход, запись|[[Entry]] is free.|n|gen
+environmental|экологический|[[Environmental]] groups protest.|adj|env
+episode|эпизод, серия|I watched the latest [[episode]].|n|media
+equal|равный|All people are [[equal]].|adj|soc
+equal|равняться|Two plus two [[equals]] four.|v|sci
+equally|одинаково|Share the work [[equally]].|adv|gen
+escape|побег|The [[escape]] was well planned.|n|crime
+escape|бежать|Prisoners [[escaped]] last night.|v|crime
+essential|существенный|Water is [[essential]] for life.|adj|gen
+eventually|в конце концов|[[Eventually]], they agreed.|adv|gen
+examine|исследовать, осматривать|Doctors [[examine]] patients.|v|health
+except|кроме как|It's the same [[except]] that it's bigger.|conj|gen
+exchange|обмен|A student [[exchange]] was arranged.|n|edu
+exchange|обменивать|[[Exchange]] euros for dollars.|v|work
+excitement|волнение|The children screamed with [[excitement]].|n|soc
+exhibition|выставка|An art [[exhibition]] opens today.|n|media
+expected|ожидаемый|The [[expected]] result was achieved.|adj|gen
+expedition|экспедиция|They joined a polar [[expedition]].|n|sci
+experience|испытывать|Many people [[experience]] stress.|v|health
+experienced|опытный|He is an [[experienced]] pilot.|adj|work
+explode|взрываться|The bomb [[exploded]].|v|gen
+explore|исследовать|Let's [[explore]] the town.|v|gen
+explosion|взрыв|There was a loud [[explosion]].|n|gen
+export|экспорт|Oil is a major [[export]].|n|work
+export|экспортировать|Japan [[exports]] cars.|v|work
+extra|дополнительно|Pay [[extra]] for delivery.|adv|work
+extra|дополнительная плата|Breakfast is an [[extra]].|n|work
+face|сталкиваться с|We [[face]] many challenges.|v|gen
+fairly|довольно; справедливо|The test was [[fairly]] easy.|adv|gen
+familiar|знакомый|The song sounds [[familiar]].|adj|gen
+fancy|нарядный|It's a [[fancy]] restaurant.|adj|gen
+fancy|хотеть, представлять|Do you [[fancy]] a coffee?|v|gen
+far|дальний|The [[far]] side of the lake.|adj|gen
+fascinating|увлекательный|The lecture was [[fascinating]].|adj|edu
+fashionable|модный|[[Fashionable]] clothes are expensive.|adj|gen
+fasten|застёгивать|[[Fasten]] your seat belt.|v|trans
+favour|одолжение|Could you do me a [[favour]]?|n|soc
+fear|бояться|Many people [[fear]] flying.|v|soc
+fence|забор|A wooden [[fence]] surrounds the garden.|n|gen
+fighting|бои, драки|[[Fighting]] broke out in the city.|n|gov
+file|файл, папка|Save the [[file]] on your desktop.|n|tech
+fire|увольнять|The company [[fired]] him.|v|work
+fitness|физическая форма|[[Fitness]] classes are popular.|n|health
+fixed|фиксированный|There is a [[fixed]] price.|adj|work
+flag|флаг|The national [[flag]] is red and white.|n|gov
+flood|наводнение|The [[flood]] destroyed homes.|n|env
+flood|затоплять|Rivers [[flooded]] the fields.|v|env
+flour|мука|Add two cups of [[flour]].|n|gen
+flow|поток|The [[flow]] of traffic was slow.|n|trans
+flow|течь|Rivers [[flow]] to the sea.|v|env
+fold|складывать|[[Fold]] the paper in half.|v|gen
+folk|народный|[[Folk]] music is popular.|adj|media
+folk|люди|Some [[folk]] prefer the city.|n|soc
+following|следующее|Answer the [[following]] questions.|n|edu
+force|сила|The [[force]] of the wind was strong.|n|sci

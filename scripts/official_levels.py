@@ -38,21 +38,26 @@ for pdf, src in ((sys.argv[1], "Oxford 3000"), (sys.argv[2], "Oxford 5000")):
             if cur is None or ORDER.index(lvl) < ORDER.index(cur[0]):
                 ox[word][p] = (lvl, src)
 
-# ---- ACL: пары (головное слово, компонент) ----
+# ---- ACL: записи (головное слово, компонент); страницы двухколоночные ----
+def acl_entries(pdf):
+    out, head = [], None
+    for page in text(pdf, layout=True).split("\f"):
+        lines = page.splitlines()
+        for col in ([l[:46] for l in lines], [l[46:] for l in lines]):  # сначала левая колонка страницы, потом правая
+            for c in col:
+                m = re.match(r"^\s*\d+\s+(.+?)\s*\(([a-z]+)\)\s*$", c)
+                if m:
+                    head = re.sub(r"\s+", " ", m.group(1)).strip(); continue
+                m = re.match(r"^\s{2,}(.+?)\s*\(([a-z]+)\)\s*$", c)
+                if m and head:
+                    out.append((head, re.sub(r"\s+", " ", m.group(1)).strip(), m.group(2)))
+    return out
 acl = set()
 stem = lambda w: re.sub(r"(ing|ed|es|s)$", "", w.lower())
-head = None
-for line in text(sys.argv[3], layout=True).splitlines():
-    for col in (line[:62], line[62:]):
-        m = re.match(r"^\s*\d+\s+(.+?)\s*\((?:[a-z]+)\)\s*$", col)
-        if m:
-            head = [w for w in re.sub(r"\((?:a|an|the)\)", "", m.group(1)).split() if w]; continue
-        m = re.match(r"^\s{2,}(.+?)\s*\((?:[a-z]+)\)\s*$", col)
-        if m and head:
-            comp = re.sub(r"\((?:a|an|the)\)", "", m.group(1)).split()
-            for h in head:
-                for c in comp:
-                    acl.add((stem(h), stem(c)))
+for h, c, _ in acl_entries(sys.argv[3]):
+    for hw in re.sub(r"\((?:a|an|the|of|to|in|on|for|with|by|at|from)\)", "", h).split():
+        for cw in re.sub(r"\((?:a|an|the|of|to|in|on|for|with|by|at|from)\)", "", c).split():
+            acl.add((stem(hw), stem(cw)))
 STOP = {"a", "an", "the", "of", "to", "in", "on", "for", "with", "by", "at", "it", "your", "someone", "someone's", "something", "one", "how"}
 deck = json.load(open(os.path.join(root, "app", "data", "deck.json"), encoding="utf-8"))
 out, st = {}, {"oxford": 0, "acl": 0, "none": 0}

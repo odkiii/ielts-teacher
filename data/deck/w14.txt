@@ -1,0 +1,150 @@
+handle|справляться; обращаться|She can [[handle]] difficult customers.|v|work
+harbour|гавань|Boats filled the [[harbour]].|n|trans
+harm|вред|Smoking causes serious [[harm]].|n|health
+harm|вредить|Plastic can [[harm]] wildlife.|v|env
+harmful|вредный|[[Harmful]] chemicals were found.|adj|env
+headquarters|штаб-квартира|The firm's [[headquarters]] are in Paris.|n|work
+heal|заживать, исцелять|The wound will [[heal]] soon.|v|health
+healthcare|здравоохранение|Free [[healthcare]] is available.|n|health
+hearing|слух; слушание|His [[hearing]] is poor.|n|health
+heaven|небеса|She believes in [[heaven]].|n|soc
+heel|пятка; каблук|My [[heel]] hurts.|n|health
+hell|ад|The traffic was [[hell]].|n|gen
+helmet|шлем|Cyclists should wear a [[helmet]].|n|health
+hence|следовательно|Prices are high; [[hence]] demand is low.|adv|gen
+herb|трава, пряность|Fresh [[herbs]] improve the taste.|n|gen
+hesitate|колебаться|Don't [[hesitate]] to ask.|v|gen
+hidden|скрытый|There is a [[hidden]] cost.|adj|gen
+high|пик, максимум|Prices hit a record [[high]].|n|work
+highway|шоссе|The [[highway]] was empty.|n|trans
+hilarious|уморительный|The film was [[hilarious]].|adj|media
+hip|бедро|He broke his [[hip]].|n|health
+hire|найм|The [[hire]] of new staff is planned.|n|work
+historian|историк|The [[historian]] studied old maps.|n|edu
+hold|захват, удержание|Keep a firm [[hold]] on the rail.|n|gen
+hollow|пустой, полый|The tree trunk was [[hollow]].|adj|gen
+holy|священный|It is a [[holy]] place.|adj|soc
+homeless|бездомный|The charity helps [[homeless]] people.|adj|soc
+honesty|честность|[[Honesty]] is the best policy.|n|soc
+honour|честь|It's an [[honour]] to be here.|n|soc
+honour|чествовать|The school [[honoured]] its best students.|v|soc
+hook|крючок|Hang your coat on the [[hook]].|n|gen
+hopefully|будем надеяться|[[Hopefully]], the train will be on time.|adv|gen
+host|принимать (гостей), проводить|Brazil will [[host]] the event.|v|gen
+house|размещать|The building [[houses]] a library.|v|gen
+household|домашнее хозяйство|The average [[household]] has four people.|n|soc
+housing|жильё|[[Housing]] costs are high.|n|soc
+however|однако|[[However]], not all agree.|conj|gen
+hug|объятие|She gave him a big [[hug]].|n|soc
+hug|обнимать|They [[hugged]] at the station.|v|soc
+humorous|юмористический|It's a [[humorous]] story.|adj|media
+humour|юмор|He has a dry sense of [[humour]].|n|soc
+hunger|голод|[[Hunger]] affects millions.|n|soc
+hunt|охота; поиски|The [[hunt]] for a flat took weeks.|n|gen
+hunting|охота|[[Hunting]] is banned here.|n|env
+hurt|боль, обида|He tried to hide his [[hurt]].|n|soc
+icon|икона, значок|Click the [[icon]] to open the app.|n|tech
+ideal|идеал|Equality is a worthy [[ideal]].|n|soc
+identical|идентичный|The twins are [[identical]].|adj|gen
+illusion|иллюзия|An optical [[illusion]] tricked me.|n|sci
+illustrate|иллюстрировать|The graph [[illustrates]] the trend.|v|sci
+illustration|иллюстрация|The book has colour [[illustrations]].|n|media
+imagination|воображение|Children have vivid [[imaginations]].|n|edu
+immigration|иммиграция|[[Immigration]] policy is debated.|n|soc
+immune|невосприимчивый|She is [[immune]] to the virus.|adj|health
+impatient|нетерпеливый|He grew [[impatient]] waiting.|adj|soc
+imply|подразумевать|The results [[imply]] a link.|v|sci
+impose|вводить, навязывать|The city will [[impose]] a new tax.|v|gov
+impress|производить впечатление|Her speech [[impressed]] everyone.|v|gen
+impressed|под впечатлением|We were [[impressed]] by the service.|adj|gen
+incentive|стимул|Tax breaks are an [[incentive]].|n|work
+inch|дюйм|The screen is ten [[inches]] wide.|n|gen
+incident|инцидент|Police are investigating the [[incident]].|n|crime
+incorrect|неправильный|The answer is [[incorrect]].|adj|edu
+independence|независимость|The country gained [[independence]] in 1960.|n|gov
+index|индекс; указатель|The price [[index]] rose.|n|work
+indication|признак|There is no [[indication]] of improvement.|n|gen
+industrial|промышленный|It is an [[industrial]] area.|adj|work
+infection|инфекция|An [[infection]] spread quickly.|n|health
+infer|делать вывод|We can [[infer]] a trend.|v|sci
+inflation|инфляция|[[Inflation]] reduces savings.|n|work
+info|информация (разг.)|Check the [[info]] online.|n|gen
+inform|информировать|Please [[inform]] us of changes.|v|work
+inhabitant|житель|The city has a million [[inhabitants]].|n|soc
+inherit|наследовать|She [[inherited]] the house.|v|soc
+initial|первоначальный|The [[initial]] results were good.|adj|sci
+initially|первоначально|[[Initially]], the plan worked.|adv|gen
+initiative|инициатива|The city launched a green [[initiative]].|n|gov
+ink|чернила|The pen ran out of [[ink]].|n|gen
+inner|внутренний|The [[inner]] city is busy.|adj|gen
+innovative|инновационный|The firm is [[innovative]].|adj|tech
+input|вклад; ввод данных|We welcome your [[input]].|n|work
+inquiry|расследование; запрос|A public [[inquiry]] was held.|n|gov
+insert|вставлять|[[Insert]] the card.|v|tech
+insight|понимание, проницательность|The book gives [[insight]] into culture.|n|edu
+insist|настаивать|She [[insisted]] on paying.|v|gen
+inspector|инспектор|An [[inspector]] visited the school.|n|edu
+inspire|вдохновлять|Teachers [[inspire]] students.|v|edu
+install|устанавливать|[[Install]] the software.|v|tech
+installation|установка|The [[installation]] took one hour.|n|tech
+instant|мгновенный|[[Instant]] messaging is popular.|adj|tech
+instantly|мгновенно|The file downloads [[instantly]].|adv|tech
+institution|учреждение|The bank is a major [[institution]].|n|work
+insurance|страхование|Health [[insurance]] is expensive.|n|work
+intellectual|интеллектуальный|He enjoys [[intellectual]] challenges.|adj|edu
+intended|предполагаемый|The [[intended]] audience is students.|adj|edu
+intense|интенсивный|The heat was [[intense]].|adj|env
+interact|взаимодействовать|Pupils [[interact]] in groups.|v|edu
+interaction|взаимодействие|Social [[interaction]] is vital.|n|soc
+interpretation|интерпретация|There are several [[interpretations]].|n|sci
+interrupt|прерывать|Don't [[interrupt]] the speaker.|v|gen
+interval|интервал|Review at regular [[intervals]].|n|edu
+invade|вторгаться|The army [[invaded]] the north.|v|gov
+invasion|вторжение|The [[invasion]] began at dawn.|n|gov
+investigation|расследование|The [[investigation]] is ongoing.|n|crime
+investment|инвестиция|Education is a good [[investment]].|n|work
+investor|инвестор|[[Investors]] backed the firm.|n|work
+isolated|изолированный|The village is [[isolated]].|adj|soc
+jail|тюрьма|He spent a year in [[jail]].|n|crime
+jail|сажать в тюрьму|The judge [[jailed]] the thief.|v|crime
+jet|реактивный самолёт|A private [[jet]] landed.|n|trans
+journalism|журналистика|She studies [[journalism]].|n|media
+joy|радость|The news brought great [[joy]].|n|soc
+judgement|суждение, решение|Use your own [[judgement]].|n|gen
+junior|младший|He is a [[junior]] doctor.|adj|work
+jury|присяжные|The [[jury]] reached a verdict.|n|crime
+justice|справедливость, правосудие|Everyone deserves [[justice]].|n|crime
+kit|набор, комплект|A first-aid [[kit]] is in the car.|n|health
+ladder|лестница|He climbed the [[ladder]].|n|gen
+landing|посадка|The plane made a smooth [[landing]].|n|trans
+landscape|пейзаж|The [[landscape]] is stunning.|n|env
+lane|полоса, переулок|Cars must stay in their [[lane]].|n|trans
+largely|в значительной степени|The delay was [[largely]] due to weather.|adv|gen
+lately|в последнее время|I've been tired [[lately]].|adv|gen
+latest|последняя новость|Here is the [[latest]] on the storm.|n|media
+launch|запуск|The [[launch]] of the app was a success.|n|tech
+launch|запускать|The company will [[launch]] a new phone.|v|work
+leadership|руководство|Good [[leadership]] motivates a team.|n|work
+league|лига|The team won the [[league]].|n|gen
+lean|наклоняться|He [[leaned]] against the wall.|v|gen
+leave|отпуск|She is on maternity [[leave]].|n|work
+legend|легенда|The [[legend]] says a king lived here.|n|media
+lens|линза, объектив|The camera has a wide [[lens]].|n|tech
+level|выравнивать|They [[levelled]] the ground.|v|gen
+licence|лицензия, права|You need a driving [[licence]].|n|trans
+lifetime|продолжительность жизни|In his [[lifetime]], he saw many changes.|n|gen
+lighting|освещение|Good [[lighting]] helps study.|n|gen
+limitation|ограничение|Every study has a [[limitation]].|n|sci
+limited|ограниченный|Places are [[limited]].|adj|gen
+line|выстилать; выстраивать в ряд|Trees [[line]] the street.|v|gen
+literally|буквально|He [[literally]] ran all the way.|adv|gen
+literary|литературный|She won a [[literary]] prize.|adj|media
+litre|литр|Buy a [[litre]] of milk.|n|gen
+litter|мусор|Do not drop [[litter]].|n|env
+lively|оживлённый|The town is [[lively]] at night.|adj|soc
+load|груз; нагрузка|The truck carried a heavy [[load]].|n|trans
+load|загружать|[[Load]] the data into the program.|v|tech
+loan|заём|She took out a bank [[loan]].|n|work
+logical|логичный|It is the [[logical]] choice.|adj|gen
+logo|логотип|The company changed its [[logo]].|n|work
+long-term|долгосрочный|[[Long-term]] planning is vital.|adj|work

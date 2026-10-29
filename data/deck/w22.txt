@@ -1,0 +1,150 @@
+force|заставлять|Nobody can [[force]] you to agree.|v|gen
+forever|навсегда|Nothing lasts [[forever]].|adv|gen
+frame|рамка|She put the photo in a [[frame]].|n|gen
+frame|обрамлять|Trees [[frame]] the view.|v|gen
+freeze|замерзать|Water [[freezes]] at zero.|v|env
+frequently|часто|He [[frequently]] travels abroad.|adv|gen
+friendship|дружба|Their [[friendship]] lasted years.|n|soc
+frighten|пугать|The noise [[frightened]] the dog.|v|gen
+frightened|испуганный|She felt [[frightened]] alone.|adj|gen
+frightening|пугающий|It was a [[frightening]] experience.|adj|gen
+frozen|замороженный|[[Frozen]] food is convenient.|adj|gen
+fry|жарить|[[Fry]] the onions.|v|gen
+fuel|топливо|[[Fuel]] prices are rising.|n|trans
+fur|мех|The cat has soft [[fur]].|n|env
+further|дальше, далее|Walk [[further]] along the road.|adv|gen
+garage|гараж|He parked the car in the [[garage]].|n|trans
+gather|собирать(ся)|People [[gathered]] in the square.|v|soc
+generally|как правило|[[Generally]], I walk to work.|adv|gen
+generous|щедрый|She is very [[generous]].|adj|soc
+gentle|нежный, мягкий|He has a [[gentle]] voice.|adj|soc
+ghost|привидение|The old house has a [[ghost]].|n|media
+giant|гигантский|A [[giant]] tree fell.|adj|gen
+giant|великан; гигант|Tech [[giants]] dominate markets.|n|work
+glad|рад|I'm [[glad]] you came.|adj|soc
+global|глобальный|It is a [[global]] problem.|adj|gen
+glove|перчатка|Wear [[gloves]] in winter.|n|gen
+go|попытка|Have a [[go]].|n|gen
+goods|товары|Imported [[goods]] cost more.|n|work
+grade|оценка; класс|She got good [[grades]].|n|edu
+grain|зерно|The country exports [[grain]].|n|env
+grateful|благодарный|We are [[grateful]] for your help.|adj|soc
+growth|рост|Economic [[growth]] slowed.|n|work
+guard|охранник|A [[guard]] stands at the gate.|n|work
+guard|охранять|Soldiers [[guard]] the border.|v|gov
+guilty|виновный|The jury found him [[guilty]].|adj|crime
+hand|передавать|[[Hand]] me the pen.|v|gen
+hang|вешать|[[Hang]] your coat there.|v|gen
+happiness|счастье|Money doesn't buy [[happiness]].|n|soc
+hardly|едва|I [[hardly]] slept.|adv|gen
+hate|ненависть|His [[hate]] was clear.|n|soc
+head|возглавлять|She [[heads]] the department.|v|work
+heating|отопление|The [[heating]] is on.|n|gen
+heavily|сильно|It rained [[heavily]].|adv|env
+helicopter|вертолёт|A [[helicopter]] rescued the climbers.|n|trans
+highly|весьма, высоко|She is [[highly]] skilled.|adv|gen
+hire|нанимать; арендовать|They [[hire]] extra staff in summer.|v|work
+historic|исторический|It was a [[historic]] victory.|adj|gen
+historical|исторический (относящийся к истории)|[[Historical]] records show this.|adj|edu
+honest|честный|Please be [[honest]] with me.|adj|soc
+horrible|ужасный|The weather was [[horrible]].|adj|gen
+horror|ужас|The film is a [[horror]].|n|media
+host|хозяин|Our [[host]] welcomed us.|n|soc
+hunt|охотиться|Wolves [[hunt]] in packs.|v|env
+hurricane|ураган|A [[hurricane]] hit the coast.|n|env
+hurry|спешка|There's no [[hurry]].|n|gen
+hurry|спешить|[[Hurry]] up!|v|gen
+identity|идентичность|Language shapes cultural [[identity]].|n|soc
+ignore|игнорировать|Don't [[ignore]] the warning.|v|gen
+imaginary|воображаемый|The child had an [[imaginary]] friend.|adj|gen
+immediate|немедленный|We need an [[immediate]] answer.|adj|gen
+import|импорт|Oil is a major [[import]].|n|work
+import|импортировать|Britain [[imports]] wine.|v|work
+importance|важность|He stressed the [[importance]] of sleep.|n|gen
+impression|впечатление|She made a good [[impression]].|n|soc
+impressive|впечатляющий|The results are [[impressive]].|adj|gen
+improvement|улучшение|There's been an [[improvement]].|n|gen
+incredibly|невероятно|The view was [[incredibly]] beautiful.|adv|gen
+indeed|действительно|It was [[indeed]] a surprise.|adv|gen
+indirect|косвенный|An [[indirect]] route took longer.|adj|gen
+indoor|внутренний|The city has an [[indoor]] pool.|adj|gen
+indoors|в помещении|Stay [[indoors]] in the storm.|adv|gen
+ingredient|ингредиент|Salt is a basic [[ingredient]].|n|gen
+injure|ранить, травмировать|He [[injured]] his knee.|v|health
+injured|раненый|The [[injured]] were taken to hospital.|adj|health
+innocent|невиновный|The jury found him [[innocent]].|adj|crime
+intelligence|интеллект|Artificial [[intelligence]] is developing.|n|tech
+intend|намереваться|I [[intend]] to study abroad.|v|gen
+intention|намерение|It wasn't my [[intention]] to hurt you.|n|gen
+involved|вовлечённый|Everyone [[involved]] was paid.|adj|gen
+iron|железо|[[Iron]] is a metal.|n|sci
+iron|гладить|She [[ironed]] her shirt.|v|gen
+it|оно (пустое подлежащее)|[[It]] is raining.|n|gen
+judge|судья|The [[judge]] gave a verdict.|n|crime
+judge|судить|Don't [[judge]] a book by its cover.|v|gen
+keen|увлечённый|She is [[keen]] on tennis.|adj|gen
+key|выделять, вводить|[[Key]] in your password.|v|tech
+keyboard|клавиатура|A new [[keyboard]] arrived.|n|tech
+kick|удар ногой|He took a free [[kick]].|n|gen
+kick|ударять ногой|She [[kicked]] the ball.|v|gen
+killing|убийство|The [[killing]] shocked the town.|n|crime
+kind|добрый|He is a [[kind]] man.|adj|soc
+kiss|поцелуй|She gave him a [[kiss]].|n|soc
+kiss|целовать|They [[kissed]] goodbye.|v|soc
+knock|стук|There was a [[knock]] at the door.|n|gen
+label|этикетка|Read the [[label]].|n|gen
+label|маркировать|Please [[label]] the boxes.|v|work
+laboratory|лаборатория|The [[laboratory]] tests samples.|n|sci
+lack|отсутствие|A [[lack]] of sleep harms health.|n|health
+lack|не хватать|The town [[lacks]] a hospital.|v|gen
+latest|последний (новейший)|The [[latest]] model is faster.|adj|tech
+lay|класть|[[Lay]] the book on the table.|v|gen
+layer|слой|A thin [[layer]] of ice formed.|n|env
+lead|свинец|[[Lead]] pipes are dangerous.|n|sci
+leading|ведущий|She is a [[leading]] expert.|adj|work
+leaf|лист|A red [[leaf]] fell.|n|env
+leather|кожа|The sofa is made of [[leather]].|n|gen
+leisure|досуг|[[Leisure]] time is limited.|n|soc
+length|длина|Measure the [[length]].|n|gen
+level|ровный; одного уровня|The ground is [[level]].|adj|gen
+lie|ложь|It was a [[lie]].|n|soc
+lie|лгать|Don't [[lie]] to me.|v|soc
+like|подобное|Doctors, nurses and the [[like]].|n|gen
+limit|предел|The speed [[limit]] is 30.|n|trans
+limit|ограничивать|[[Limit]] sugar.|v|health
+lip|губа|She bit her [[lip]].|n|health
+liquid|жидкий|Water is a [[liquid]].|adj|sci
+liquid|жидкость|Drink more [[liquid]].|n|health
+literature|литература|She studies English [[literature]].|n|edu
+live|прямой, живой|It's a [[live]] concert.|adj|media
+live|в прямом эфире|The match is shown [[live]].|adv|media
+living|живой|[[Living]] things need water.|adj|sci
+living|средства к существованию|What do you do for a [[living]]?|n|work
+local|местный житель|The [[locals]] are friendly.|n|soc
+locate|находить; располагать|Can you [[locate]] the museum?|v|gen
+located|расположенный|The school is [[located]] near the park.|adj|gen
+location|местоположение|The hotel has a great [[location]].|n|gen
+lonely|одинокий|Old people often feel [[lonely]].|adj|soc
+loss|потеря|The [[loss]] of a job is stressful.|n|work
+luxury|роскошь|It's a [[luxury]] hotel.|n|gen
+mad|безумный; сердитый|He went [[mad]] with worry.|adj|gen
+magic|магический|She did a [[magic]] trick.|adj|media
+magic|магия|They believe in [[magic]].|n|media
+mainly|главным образом|The audience was [[mainly]] young.|adv|gen
+mall|торговый центр|They shop at the [[mall]].|n|gen
+management|управление|Good [[management]] saves money.|n|work
+market|продвигать на рынке|They [[market]] the product online.|v|work
+marketing|маркетинг|She works in [[marketing]].|n|work
+marriage|брак|Their [[marriage]] lasted fifty years.|n|soc
+meanwhile|тем временем|[[Meanwhile]], prices rose.|adv|gen
+measure|мера|The government took strict [[measures]].|n|gov
+measure|измерять|[[Measure]] the room.|v|sci
+medium|средний|Choose a [[medium]] size.|adj|gen
+mention|упоминание|There was no [[mention]] of the cost.|n|gen
+mess|беспорядок|The room was a [[mess]].|n|gen
+mild|мягкий|The winters are [[mild]].|adj|env
+mine|шахта|He works in a coal [[mine]].|n|work
+mix|смесь|A [[mix]] of cultures lives here.|n|soc
+mix|смешивать|[[Mix]] the ingredients.|v|gen
+mixture|смесь|A [[mixture]] of oil and water.|n|sci
+mood|настроение|Music improves my [[mood]].|n|health

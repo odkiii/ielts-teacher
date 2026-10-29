@@ -1,0 +1,150 @@
+sponsor|спонсировать|A bank will [[sponsor]] the festival.|v|work
+sporting|спортивный|It was a major [[sporting]] event.|adj|gen
+spot|замечать|I [[spotted]] a mistake.|v|gen
+spread|распространение|The [[spread]] of disease slowed.|n|health
+stage|организовывать, ставить|They [[staged]] a protest.|v|soc
+stall|прилавок, ларёк|She runs a market [[stall]].|n|work
+stance|позиция|The party took a firm [[stance]] on tax.|n|gov
+stand|стенд, позиция|He took a [[stand]] against the plan.|n|gen
+stare|пристально смотреть|Don't [[stare]] at people.|v|soc
+status|статус|Social [[status]] affects choices.|n|soc
+steady|устойчивый, равномерный|There has been [[steady]] growth.|adj|work
+steam|пар|[[Steam]] rose from the pot.|n|gen
+steel|сталь|The bridge is made of [[steel]].|n|work
+steep|крутой|The hill is [[steep]].|adj|env
+step|ступать|She [[stepped]] inside.|v|gen
+sticky|липкий|The table was [[sticky]].|adj|gen
+stimulate|стимулировать|Games can [[stimulate]] the brain.|v|edu
+stock|запас; акции|The shop keeps plenty in [[stock]].|n|work
+stream|поток, ручей|A small [[stream]] runs through the park.|n|env
+strengthen|укреплять|Exercise will [[strengthen]] your heart.|v|health
+stretch|растяжка; отрезок|A long [[stretch]] of road was closed.|n|gen
+stretch|растягивать(ся)|[[Stretch]] before running.|v|health
+strict|строгий|The teacher is [[strict]].|adj|edu
+strictly|строго|Smoking is [[strictly]] forbidden.|adv|gov
+strike|забастовка|Workers went on [[strike]].|n|work
+strike|ударять; бастовать|A storm [[struck]] the coast.|v|env
+stroke|инсульт; штрих|He suffered a [[stroke]].|n|health
+struggle|борьба|It was a daily [[struggle]].|n|soc
+struggle|бороться|Many families [[struggle]] to pay rent.|v|soc
+stuff|набивать|He [[stuffed]] the bag with clothes.|v|gen
+stunning|потрясающий|The view is [[stunning]].|adj|gen
+subject|подверженный|The schedule is [[subject]] to change.|adj|gen
+submit|представлять, подавать|[[Submit]] your essay by Friday.|v|edu
+subsequent|последующий|[[Subsequent]] events proved him right.|adj|gen
+subsequently|впоследствии|She [[subsequently]] became mayor.|adv|gen
+suburb|пригород|They live in a quiet [[suburb]].|n|soc
+suffering|страдание|War causes great [[suffering]].|n|soc
+sum|сумма|A large [[sum]] of money was lost.|n|work
+sum|подводить итог|To [[sum]] up, I agree.|v|gen
+super|превосходный|We had a [[super]] time.|adj|gen
+surgeon|хирург|The [[surgeon]] operated for hours.|n|health
+surgery|операция; хирургия|She needs heart [[surgery]].|n|health
+surround|окружать|Mountains [[surround]] the village.|v|env
+surrounding|окружающий|The [[surrounding]] area is quiet.|adj|env
+survival|выживание|Water is vital for [[survival]].|n|env
+survivor|выживший|There were no [[survivors]].|n|soc
+suspect|подозреваемый|Police arrested a [[suspect]].|n|crime
+suspect|подозревать|I [[suspect]] he is lying.|v|crime
+suspend|приостанавливать|Classes were [[suspended]].|v|edu
+swallow|глотать|It hurts to [[swallow]].|v|health
+swear|клясться; ругаться|Witnesses [[swear]] to tell the truth.|v|crime
+sweep|подметать|[[Sweep]] the floor.|v|gen
+switch|выключатель; переход|The [[switch]] to remote work was fast.|n|work
+sympathetic|сочувствующий|Her teacher was [[sympathetic]].|adj|soc
+sympathy|сочувствие|We express our [[sympathy]].|n|soc
+tag|ярлык, метка|Add a [[tag]] to your post.|n|tech
+tale|рассказ, история|A [[tale]] of two cities.|n|media
+tank|бак, танк|The fuel [[tank]] is full.|n|trans
+tap|кран|Turn off the [[tap]].|n|env
+tap|слегка стучать|He [[tapped]] on the window.|v|gen
+target|нацеливать; быть целью|Ads [[target]] teenagers.|v|media
+tattoo|татуировка|He has a [[tattoo]] on his arm.|n|gen
+tattoo|делать татуировку|She had her arm [[tattooed]].|v|gen
+tear|слеза|A [[tear]] ran down her cheek.|n|soc
+tear|рвать|Don't [[tear]] the page.|v|gen
+tear|разрыв|There is a [[tear]] in the cloth.|n|gen
+tease|дразнить|Siblings often [[tease]] each other.|v|soc
+technological|технологический|[[Technological]] change is fast.|adj|tech
+teens|подростковые годы|She is in her [[teens]].|n|soc
+temple|храм; висок|They visited an ancient [[temple]].|n|soc
+temporarily|временно|The road is [[temporarily]] closed.|adv|trans
+temporary|временный|It's a [[temporary]] job.|adj|work
+tendency|тенденция|There is a [[tendency]] to overeat.|n|health
+tension|напряжение|There was [[tension]] in the room.|n|soc
+term|называть|Experts [[term]] this effect "inflation".|v|gen
+terminal|терминал (компьютер)|Type the command into the [[terminal]].|n|tech
+terms|условия; термины|The [[terms]] of the contract are clear.|n|work
+terribly|ужасно|I'm [[terribly]] sorry.|adv|gen
+terrify|ужасать|Heights [[terrify]] me.|v|soc
+territory|территория|The country claimed the [[territory]].|n|gov
+terror|ужас|They fled in [[terror]].|n|soc
+terrorism|терроризм|The government fights [[terrorism]].|n|gov
+terrorist|террорист|The [[terrorist]] was arrested.|n|crime
+testing|тестирование|Safety [[testing]] is required.|n|sci
+textbook|учебник|Open your [[textbook]].|n|edu
+therapist|терапевт, психотерапевт|A [[therapist]] helped him.|n|health
+therapy|терапия|She had [[therapy]] for anxiety.|n|health
+thesis|диссертация, тезис|He wrote his [[thesis]] on climate.|n|edu
+thorough|тщательный|A [[thorough]] check is needed.|adj|work
+thoroughly|тщательно|Wash your hands [[thoroughly]].|adv|health
+threat|угроза|Plastic is a [[threat]] to fish.|n|env
+threaten|угрожать|Floods [[threaten]] the town.|v|env
+thumb|большой палец|She hurt her [[thumb]].|n|health
+thus|таким образом|He was late, [[thus]] missing the start.|adv|gen
+time|рассчитывать по времени|She [[timed]] the speech.|v|gen
+timeline|хронология|Check the project [[timeline]].|n|work
+timing|выбор времени|The [[timing]] was perfect.|n|gen
+tissue|ткань|Scientists study muscle [[tissue]].|n|health
+title|озаглавить|He [[titled]] the essay "Change".|v|edu
+ton|тонна|A [[ton]] of waste is produced daily.|n|env
+tone|тон|Use a polite [[tone]].|n|gen
+tonne|метрическая тонна|The truck carries ten [[tonnes]].|n|trans
+tough|трудный, жёсткий|It was a [[tough]] decision.|adj|gen
+tournament|турнир|She won the chess [[tournament]].|n|gen
+trace|прослеживать|Police [[traced]] the call.|v|crime
+track|отслеживать|Apps [[track]] your sleep.|v|tech
+trading|торговля|Online [[trading]] is risky.|n|work
+tragedy|трагедия|The flood was a [[tragedy]].|n|soc
+tragic|трагический|It was a [[tragic]] accident.|adj|soc
+trait|черта характера|Honesty is a rare [[trait]].|n|soc
+transform|преобразовывать|Technology can [[transform]] education.|v|tech
+transition|переход|The [[transition]] to green energy is costly.|n|env
+transmit|передавать|Mosquitoes [[transmit]] disease.|v|health
+transportation|транспортировка|Public [[transportation]] is cheap.|n|trans
+trap|ловушка|The mouse fell into a [[trap]].|n|gen
+trap|ловить в ловушку|Many were [[trapped]] by floods.|v|env
+treasure|сокровище|They found buried [[treasure]].|n|gen
+trial|судебный процесс; испытание|The [[trial]] lasted three weeks.|n|crime
+tribe|племя|The [[tribe]] lives in the forest.|n|soc
+trigger|вызывать, запускать|Dust can [[trigger]] allergies.|v|health
+trillion|триллион|The debt is a [[trillion]] dollars.|n|work
+trip|спотыкаться|He [[tripped]] on a stone.|v|gen
+troop|солдаты, войска|[[Troops]] arrived at dawn.|n|gov
+tropical|тропический|[[Tropical]] storms are common.|adj|env
+trouble|беспокоить|Does the noise [[trouble]] you?|v|gen
+truly|истинно, по-настоящему|I'm [[truly]] grateful.|adv|gen
+trust|доверие|[[Trust]] takes time to build.|n|soc
+trust|доверять|I [[trust]] my teacher.|v|soc
+try|попытка|Give it a [[try]].|n|gen
+tsunami|цунами|A [[tsunami]] hit the coast.|n|env
+tune|мелодия|She hummed a [[tune]].|n|media
+tunnel|туннель|The train goes through a [[tunnel]].|n|trans
+ultimate|окончательный, высший|The [[ultimate]] goal is fluency.|adj|gen
+ultimately|в конечном счёте|[[Ultimately]], it's your choice.|adv|gen
+unacceptable|неприемлемый|The delay is [[unacceptable]].|adj|gen
+uncertainty|неопределённость|Economic [[uncertainty]] worries investors.|n|work
+unconscious|бессознательный|He was [[unconscious]] after the fall.|adj|health
+undertake|предпринимать|She will [[undertake]] a new study.|v|sci
+unexpected|неожиданный|An [[unexpected]] guest arrived.|adj|gen
+unfold|разворачиваться|Events began to [[unfold]].|v|gen
+unfortunate|неудачный|It was an [[unfortunate]] mistake.|adj|gen
+unique|уникальный|Each fingerprint is [[unique]].|adj|sci
+unite|объединять|Sport can [[unite]] people.|v|soc
+unity|единство|National [[unity]] is vital.|n|gov
+universal|универсальный|Education is a [[universal]] right.|adj|gov
+universe|вселенная|The [[universe]] is vast.|n|sci
+unknown|неизвестный|An [[unknown]] caller phoned.|adj|gen
+upon|на (книжн.)|Once [[upon]] a time, there was a king.|prep|gen
+upper|верхний|The [[upper]] floor is quiet.|adj|gen
+upwards|вверх|Prices moved [[upwards]].|adv|work

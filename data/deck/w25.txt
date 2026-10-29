@@ -1,0 +1,73 @@
+tour|совершать поездку по|They [[toured]] Italy last summer.|v|trans
+trade|торговля|International [[trade]] is growing.|n|econ
+trade|торговать|The firm [[trades]] with Asia.|v|econ
+translate|переводить|[[Translate]] this into English.|v|edu
+translation|перевод|The [[translation]] is accurate.|n|edu
+transport|перевозить|Trucks [[transport]] goods.|v|trans
+treat|обращаться; лечить|Doctors [[treat]] patients.|v|health
+trend|тенденция|A growing [[trend]] in remote work.|n|soc
+trick|трюк, уловка|It's a clever [[trick]].|n|gen
+trick|обманывать|He [[tricked]] me.|v|gen
+truth|правда|Tell the [[truth]].|n|gen
+tube|труба; метро|I go by [[tube]].|n|trans
+type|печатать|[[Type]] your name.|v|tech
+typically|как правило|He is [[typically]] late.|adv|gen
+tyre|шина|The [[tyre]] is flat.|n|trans
+ugly|уродливый|An [[ugly]] building.|adj|gen
+unable|неспособный|She was [[unable]] to attend.|adj|gen
+uncomfortable|неудобный|An [[uncomfortable]] chair.|adj|gen
+underwear|нижнее бельё|He packed [[underwear]].|n|gen
+unemployed|безработный|He has been [[unemployed]] for months.|adj|work
+unfair|несправедливый|It's [[unfair]] to blame her.|adj|soc
+union|союз; профсоюз|A trade [[union]].|n|work
+unlike|в отличие от|[[Unlike]] her sister, she is shy.|prep|gen
+unlikely|маловероятный|Rain is [[unlikely]].|adj|gen
+unnecessary|ненужный|Avoid [[unnecessary]] costs.|adj|gen
+unpleasant|неприятный|An [[unpleasant]] smell.|adj|gen
+update|обновление|Install the latest [[update]].|n|tech
+update|обновлять|[[Update]] your phone.|v|tech
+upset|расстроенный|She is [[upset]].|adj|gen
+upset|расстраивать|The news [[upset]] him.|v|gen
+used|подержанный|A [[used]] car.|adj|gen
+valuable|ценный|[[Valuable]] advice.|adj|gen
+value|ценность|The [[value]] of education.|n|gen
+various|различные|For [[various]] reasons.|adj|acad
+version|версия|The new [[version]] is faster.|n|tech
+view|рассматривать|[[View]] the report online.|v|gen
+violent|жестокий|[[Violent]] crime fell.|adj|crime
+vote|голосование|The [[vote]] was close.|n|gov
+vote|голосовать|Citizens [[vote]] every four years.|v|gov
+warm|согревать|[[Warm]] the milk.|v|gen
+warn|предупреждать|Doctors [[warn]] about sugar.|v|health
+warning|предупреждение|A storm [[warning]].|n|env
+waste|отходы (прил.)|[[Waste]] paper is recycled.|adj|env
+waste|отходы|Reduce plastic [[waste]].|n|env
+waste|тратить впустую|Don't [[waste]] time.|v|gen
+water|поливать|[[Water]] the plants.|v|env
+wave|махать|She [[waved]] goodbye.|v|gen
+weapon|оружие|The [[weapon]] was banned.|n|crime
+weigh|весить; взвешивать|It [[weighs]] two kilos.|v|gen
+western|западный|[[Western]] countries.|adj|gen
+whenever|всякий раз, когда|Call me [[whenever]] you like.|conj|gen
+whether|ли|I wonder [[whether]] she knows.|conj|gen
+while|некоторое время|Wait a [[while]].|n|gen
+whole|целое|The [[whole]] is greater than its parts.|n|gen
+wi-fi|вай-фай|Is there [[Wi-Fi]] here?|n|tech
+will|воля; завещание|She has a strong [[will]].|n|gen
+win|победа|A great [[win]] for the team.|n|gen
+wing|крыло|The bird flapped its [[wing]].|n|env
+within|в пределах|Reply [[within]] two days.|prep|gen
+wonder|чудо|The [[wonder]] of nature.|n|gen
+wonder|интересоваться, гадать|I [[wonder]] why.|v|gen
+wool|шерсть|A [[wool]] sweater.|n|gen
+worldwide|всемирный|A [[worldwide]] problem.|adj|gen
+worldwide|по всему миру|The film was released [[worldwide]].|adv|media
+worry|беспокойство|It's no cause for [[worry]].|n|health
+worse|хуже|He plays [[worse]] than before.|adv|gen
+worst|хуже всего|She did [[worst]] in maths.|adv|gen
+worth|стоящий|It's [[worth]] a visit.|adj|gen
+written|письменный|A [[written]] test.|adj|edu
+wrong|неправильно|You spelled it [[wrong]].|adv|gen
+yard|двор; ярд|Children play in the [[yard]].|n|gen
+young|молодёжь|The [[young]] want change.|n|soc
+youth|молодость; молодёжь|In my [[youth]] I travelled.|n|soc

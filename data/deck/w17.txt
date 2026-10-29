@@ -1,0 +1,150 @@
+relief|облегчение|It was a [[relief]] to finish the exam.|n|gen
+relieve|облегчать|Medicine can [[relieve]] pain.|v|health
+relieved|испытывающий облегчение|She was [[relieved]] to hear the news.|adj|gen
+remark|замечание|He made a rude [[remark]].|n|soc
+remark|замечать, говорить|She [[remarked]] on the weather.|v|gen
+remarkable|замечательный|It was a [[remarkable]] recovery.|adj|gen
+reporting|репортаж, отчётность|Honest [[reporting]] matters.|n|media
+representative|представительный|The sample is [[representative]] of the population.|adj|sci
+representative|представитель|A [[representative]] of the firm called.|n|work
+reputation|репутация|The school has a good [[reputation]].|n|edu
+requirement|требование|Entry [[requirements]] are strict.|n|edu
+rescue|спасение|The [[rescue]] took three hours.|n|gen
+rescue|спасать|Firefighters [[rescued]] two children.|v|gen
+reserve|запас; резерв|The country has oil [[reserves]].|n|gov
+reserve|бронировать|[[Reserve]] a table.|v|gen
+resident|проживающий|Many [[resident]] doctors work here.|adj|health
+resident|житель|Local [[residents]] complained.|n|soc
+resign|уходить в отставку|The minister [[resigned]].|v|work
+resist|сопротивляться|It's hard to [[resist]] sweets.|v|health
+resolution|решение, резолюция|The council passed a [[resolution]].|n|gov
+resolve|решать (проблему)|They tried to [[resolve]] the dispute.|v|gen
+resort|курорт|They stayed at a ski [[resort]].|n|gen
+restore|восстанавливать|Workers [[restored]] the old theatre.|v|gen
+restriction|ограничение|There are [[restrictions]] on parking.|n|gov
+retail|розничная торговля|[[Retail]] sales rose.|n|work
+retirement|выход на пенсию|He enjoys his [[retirement]].|n|soc
+revenue|доход|Tourism brings in [[revenue]].|n|work
+revision|повторение; пересмотр|[[Revision]] starts in May.|n|edu
+revolution|революция|The Industrial [[Revolution]] changed lives.|n|gen
+reward|награда|The [[reward]] for effort is progress.|n|gen
+reward|вознаграждать|Employers [[reward]] hard work.|v|work
+rhythm|ритм|The song has a lively [[rhythm]].|n|media
+rid|избавлять|Try to get [[rid]] of bad habits.|v|gen
+ridiculous|нелепый|The price is [[ridiculous]].|adj|gen
+risky|рискованный|It's a [[risky]] plan.|adj|gen
+rival|соперничающий|The two [[rival]] firms compete.|adj|work
+rival|соперник|The firm beat its [[rival]].|n|work
+rob|грабить|Thieves [[robbed]] the bank.|v|crime
+robbery|ограбление|There was a [[robbery]] last night.|n|crime
+rocket|ракета|The [[rocket]] launched at dawn.|n|sci
+romance|романтика, роман|A summer [[romance]] began.|n|media
+root|корень|Poverty is the [[root]] of the problem.|n|gen
+rose|роза|He gave her a red [[rose]].|n|gen
+roughly|приблизительно|It takes [[roughly]] an hour.|adv|gen
+round|раунд, круг|The first [[round]] begins at noon.|n|gen
+routine|рутинный|It was a [[routine]] check.|adj|gen
+rub|тереть|[[Rub]] your hands together.|v|gen
+rubber|резиновый|[[Rubber]] boots keep feet dry.|adj|gen
+rubber|резина|Tyres are made of [[rubber]].|n|trans
+ruin|руины; разорение|The castle is in [[ruins]].|n|gen
+ruin|разрушать|The storm [[ruined]] the crops.|v|env
+rural|сельский|[[Rural]] areas lack jobs.|adj|soc
+rush|спешка|Avoid the morning [[rush]].|n|trans
+rush|спешить|Don't [[rush]] your answers.|v|gen
+satellite|спутник|A [[satellite]] orbits the Earth.|n|sci
+satisfaction|удовлетворение|Customer [[satisfaction]] is high.|n|work
+satisfied|довольный|We are [[satisfied]] with the result.|adj|gen
+satisfy|удовлетворять|The meal didn't [[satisfy]] me.|v|gen
+saving|сбережение|The new boiler gives big [[savings]].|n|work
+scale|масштаб, шкала|Rate it on a [[scale]] of one to five.|n|gen
+scandal|скандал|A corruption [[scandal]] shook the party.|n|media
+scare|пугать|The noise [[scared]] the child.|v|gen
+scenario|сценарий|In the worst [[scenario]], prices double.|n|gen
+schedule|планировать|The meeting is [[scheduled]] for noon.|v|work
+scheme|схема, план|A recycling [[scheme]] started.|n|gov
+scholar|учёный|The [[scholar]] wrote several books.|n|edu
+scratch|царапать|The cat [[scratched]] me.|v|gen
+scream|крик|We heard a [[scream]].|n|gen
+scream|кричать|She [[screamed]] with fear.|v|gen
+screen|показывать (фильм); проверять|Hospitals [[screen]] patients.|v|health
+screening|скрининг; показ|Cancer [[screening]] saves lives.|n|health
+seat|усаживать|The hall can [[seat]] 300.|v|gen
+seeker|ищущий|Asylum [[seekers]] arrive daily.|n|soc
+selection|выбор|The shop has a wide [[selection]].|n|work
+self|своё «я»|Know your true [[self]].|n|soc
+seminar|семинар|Attend the [[seminar]] on Friday.|n|edu
+senior|старший|She is a [[senior]] manager.|adj|work
+sense|чувствовать|Animals [[sense]] danger.|v|gen
+sensitive|чувствительный|He is [[sensitive]] to criticism.|adj|soc
+sensor|датчик|A [[sensor]] detects motion.|n|tech
+sequence|последовательность|Follow the [[sequence]] of steps.|n|gen
+session|сессия, занятие|The training [[session]] lasts an hour.|n|edu
+settle|поселяться; улаживать|They [[settled]] in Canada.|v|soc
+settler|поселенец|The first [[settlers]] arrived in 1620.|n|soc
+severe|суровый, тяжёлый|[[Severe]] weather is expected.|adj|env
+severely|серьёзно, сильно|The village was [[severely]] damaged.|adv|env
+sexy|привлекательный (разг.)|Banks want a more [[sexy]] image.|adj|media
+shade|тень|Sit in the [[shade]].|n|env
+shadow|тень (от предмета)|The tree cast a long [[shadow]].|n|gen
+shallow|мелкий|The lake is [[shallow]].|adj|env
+shame|стыд|It's a [[shame]] you missed it.|n|soc
+shape|придавать форму|Experiences [[shape]] our views.|v|gen
+shaped|имеющий форму|The cake is heart-[[shaped]].|adj|gen
+shelter|убежище|Homeless people found [[shelter]].|n|soc
+shelter|укрывать|Trees [[shelter]] the house.|v|env
+ship|отправлять (товар)|We [[ship]] goods worldwide.|v|work
+shock|шок|The news came as a [[shock]].|n|gen
+shock|шокировать|The report [[shocked]] readers.|v|media
+shocked|шокированный|She was [[shocked]] by the price.|adj|gen
+shocking|шокирующий|The photos were [[shocking]].|adj|media
+shooting|стрельба|The [[shooting]] happened at night.|n|crime
+shore|берег|Waves hit the [[shore]].|n|env
+short-term|краткосрочный|[[Short-term]] jobs are common.|adj|work
+shortage|нехватка|There is a [[shortage]] of nurses.|n|health
+shortly|вскоре|The train will leave [[shortly]].|adv|trans
+shot|выстрел; кадр|Hear the [[shot]].|n|crime
+sibling|брат или сестра|He has two [[siblings]].|n|soc
+signature|подпись|Add your [[signature]] here.|n|work
+significance|значимость|The [[significance]] of the find is huge.|n|sci
+significantly|значительно|Prices fell [[significantly]].|adv|work
+silence|тишина|The room fell into [[silence]].|n|gen
+silk|шёлк|The dress is made of [[silk]].|n|gen
+sincere|искренний|Please accept our [[sincere]] thanks.|adj|soc
+skilled|квалифицированный|We need [[skilled]] workers.|adj|work
+skull|череп|The [[skull]] was found in a cave.|n|sci
+slave|раб|A [[slave]] worked on the farm.|n|soc
+slide|слайд|Show the next [[slide]].|n|edu
+slide|скользить|Children [[slide]] down the hill.|v|gen
+slight|небольшой|There is a [[slight]] difference.|adj|gen
+slip|поскользнуться|She [[slipped]] on the ice.|v|gen
+slogan|лозунг|The party's [[slogan]] was catchy.|n|media
+slope|склон|Skiers went down the [[slope]].|n|env
+slope|наклоняться|The roof [[slopes]] gently.|v|gen
+so-called|так называемый|The [[so-called]] experts were wrong.|adj|gen
+solar|солнечный|[[Solar]] panels reduce bills.|adj|env
+somehow|как-то|We will [[somehow]] manage.|adv|gen
+sometime|когда-нибудь|Call me [[sometime]] next week.|adv|gen
+sophisticated|сложный, изощрённый|The software is highly [[sophisticated]].|adj|tech
+soul|душа|The song touched my [[soul]].|n|soc
+spare|запасной|Take a [[spare]] key.|adj|gen
+specialist|специализированный|She needs [[specialist]] treatment.|adj|health
+specialist|специалист|See a heart [[specialist]].|n|health
+specialize|специализироваться|He [[specializes]] in tax law.|v|work
+species|вид (биол.)|Many [[species]] are endangered.|n|env
+specify|уточнять, указывать|Please [[specify]] your needs.|v|work
+spectacular|захватывающий|The view was [[spectacular]].|adj|gen
+spectator|зритель|[[Spectators]] filled the stadium.|n|gen
+speculate|строить догадки|Experts [[speculate]] about the cause.|v|media
+speculation|догадки|There is much [[speculation]] about it.|n|media
+speed|ускоряться|Cars [[speed]] along the road.|v|trans
+spill|проливать|Don't [[spill]] the coffee.|v|gen
+spiritual|духовный|Many seek [[spiritual]] growth.|adj|soc
+spite|злоба; вопреки|In [[spite]] of the rain, we went out.|n|gen
+split|раскол|There was a [[split]] in the party.|n|gov
+split|разделять|They [[split]] the bill.|v|gen
+spoil|портить|Don't let the rain [[spoil]] the day.|v|gen
+spokesman|представитель (мужчина)|A [[spokesman]] denied the story.|n|gov
+spokesperson|официальный представитель|The [[spokesperson]] answered questions.|n|gov
+spokeswoman|представитель (женщина)|A [[spokeswoman]] confirmed it.|n|gov
+sponsor|спонсор|A local firm is the [[sponsor]].|n|work

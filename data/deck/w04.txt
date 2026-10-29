@@ -1,0 +1,150 @@
+eligible|имеющий право|Students over eighteen are [[eligible]] to vote.|adj|gov
+elite|элита|The school was open only to the social [[elite]].|n|soc
+embark|отправляться; приступать|She [[embarked]] on a new career.|v|gen
+embarrassment|смущение|He blushed with [[embarrassment]].|n|soc
+embassy|посольство|They went to the [[embassy]] to renew their passports.|n|gov
+embed|встраивать|Videos are [[embedded]] in the web page.|v|tech
+embody|воплощать|The athlete [[embodies]] hard work and discipline.|v|gen
+emergence|появление|The [[emergence]] of AI has changed many jobs.|n|tech
+empower|расширять возможности|Education can [[empower]] young women.|v|soc
+enact|принимать (закон)|Parliament will [[enact]] the law next year.|v|gov
+encompass|охватывать|The course [[encompasses]] history and politics.|v|edu
+encouragement|поощрение|Children need [[encouragement]] to try new things.|n|edu
+encouraging|обнадёживающий|The first results are [[encouraging]].|adj|gen
+endeavour|усилие, попытка|It was a bold scientific [[endeavour]].|n|sci
+endless|бесконечный|The queue seemed [[endless]].|adj|gen
+endorse|одобрять, поддерживать|Doctors [[endorse]] the new guidelines.|v|health
+endorsement|одобрение, поддержка|The product has the [[endorsement]] of famous athletes.|n|media
+endure|выносить, терпеть|Residents had to [[endure]] months of noise.|v|gen
+enforce|обеспечивать соблюдение|Police [[enforce]] the law.|v|gov
+enforcement|обеспечение соблюдения|Stricter law [[enforcement]] reduced crime.|n|crime
+engagement|вовлечённость; помолвка|Student [[engagement]] improved with group work.|n|edu
+engaging|увлекательный|She is an [[engaging]] speaker.|adj|edu
+enquire|узнавать, справляться|I called to [[enquire]] about the course.|v|gen
+enrich|обогащать|Travel can [[enrich]] your life.|v|soc
+ensue|следовать (в результате)|A long argument [[ensued]].|v|gen
+enterprise|предприятие|Small [[enterprises]] create many jobs.|n|work
+enthusiast|энтузиаст|He is a keen football [[enthusiast]].|n|soc
+entitle|давать право|This ticket [[entitles]] you to a free drink.|v|gen
+entity|организация, сущность|The charity is a separate legal [[entity]].|n|gov
+equality|равенство|Gender [[equality]] is an important goal.|n|soc
+equation|уравнение|She solved the [[equation]] in a minute.|n|sci
+equity|справедливость; собственный капитал|Schools should promote [[equity]] among students.|n|edu
+erect|воздвигать|They [[erected]] a statue in the square.|v|gen
+escalate|обостряться, нарастать|Tensions began to [[escalate]].|v|gov
+essence|суть|The [[essence]] of the argument is simple.|n|gen
+establishment|учреждение; основание|The [[establishment]] of the school took five years.|n|edu
+evacuate|эвакуировать|Residents were [[evacuated]] before the storm.|v|env
+evoke|вызывать (воспоминания)|The smell [[evoked]] memories of childhood.|v|gen
+evolutionary|эволюционный|[[Evolutionary]] biology explains how species change.|adj|sci
+exaggerate|преувеличивать|Don't [[exaggerate]] the risks.|v|gen
+excellence|превосходство|The school is known for academic [[excellence]].|n|edu
+exceptional|исключительный|She shows [[exceptional]] talent.|adj|gen
+excess|избыточный|Pay any [[excess]] baggage fee at check-in.|adj|trans
+excess|избыток|An [[excess]] of sugar harms health.|n|health
+exclusion|исключение (из группы)|Social [[exclusion]] affects many older people.|n|soc
+exclusive|эксклюзивный|The shop sells [[exclusive]] designs.|adj|work
+exclusively|исключительно|This area is used [[exclusively]] by pedestrians.|adv|gen
+execute|выполнять; казнить|The team [[executed]] the plan perfectly.|v|work
+execution|исполнение; казнь|The [[execution]] of the project was smooth.|n|work
+exile|изгнание|The writer lived in [[exile]] for ten years.|n|gov
+expenditure|расходы|Government [[expenditure]] on health has increased.|n|gov
+experimental|экспериментальный|The drug is still at the [[experimental]] stage.|adj|sci
+expire|истекать (о сроке)|My passport will [[expire]] next month.|v|gen
+explicit|явный, чёткий|The rules are [[explicit]] on this point.|adj|gen
+exploitation|эксплуатация|Child labour is a form of [[exploitation]].|n|soc
+explosive|взрывной|The situation is potentially [[explosive]].|adj|gen
+explosive|взрывчатое вещество|Police found [[explosives]] in the van.|n|crime
+extract|извлекать|Workers [[extract]] oil from deep underground.|v|env
+extremist|экстремист|The group is led by an [[extremist]].|n|gov
+faction|фракция|The party split into rival [[factions]].|n|gov
+faculty|факультет; преподавательский состав|She works in the [[faculty]] of law.|n|edu
+fade|блёкнуть, угасать|The colours began to [[fade]].|v|gen
+fairness|справедливость|Pupils expect [[fairness]] from teachers.|n|edu
+fatal|смертельный; роковой|The accident was [[fatal]].|adj|health
+fate|судьба|The [[fate]] of the company is uncertain.|n|gen
+favourable|благоприятный|The weather was [[favourable]] for sailing.|adj|gen
+feminist|феминистский|She wrote a [[feminist]] novel.|adj|soc
+festive|праздничный|The town had a [[festive]] atmosphere.|adj|soc
+fibre|волокно; клетчатка|Fruit is a good source of [[fibre]].|n|health
+fierce|яростный, жёсткий|The two firms face [[fierce]] competition.|adj|work
+film-maker|кинорежиссёр|The young [[film-maker]] won an award.|n|media
+filter|фильтр|A water [[filter]] removes dirt.|n|env
+filter|фильтровать|Software can [[filter]] harmful content.|v|tech
+fine|штраф|The driver paid a [[fine]].|n|crime
+fine|штрафовать|Councils [[fine]] people who drop litter.|v|crime
+firearm|огнестрельное оружие|Owning a [[firearm]] requires a licence.|n|crime
+fit|приступ|He had a [[fit]] of anger.|n|health
+fixture|постоянный элемент; матч|The match is a major [[fixture]] on the calendar.|n|gen
+flaw|недостаток|The study has a serious [[flaw]].|n|sci
+flawed|ошибочный, с изъяном|The plan was [[flawed]] from the start.|adj|gen
+flee|бежать|Thousands [[fled]] the area.|v|soc
+fleet|флот, автопарк|The company has a [[fleet]] of electric vans.|n|trans
+flesh|плоть, мякоть|The [[flesh]] of the fruit is sweet.|n|gen
+flexibility|гибкость|Remote work offers more [[flexibility]].|n|work
+flourish|процветать|Small businesses [[flourish]] in the town.|v|work
+fluid|жидкость|Drink plenty of [[fluids]].|n|health
+follow-up|последующий|A [[follow-up]] study confirmed the results.|adj|sci
+follow-up|продолжение, дальнейшие действия|She sent a [[follow-up]] email.|n|work
+footage|видеозапись|Police studied the CCTV [[footage]].|n|media
+forge|подделывать; ковать|He [[forged]] a signature.|v|crime
+formula|формула|The [[formula]] for the area of a circle is simple.|n|sci
+formulate|формулировать|Try to [[formulate]] a clear question.|v|edu
+forth|вперёд|They went back and [[forth]] between the cities.|adv|gen
+forthcoming|предстоящий|Details of the [[forthcoming]] event are online.|adj|gen
+fragile|хрупкий|The glass is very [[fragile]].|adj|gen
+franchise|франшиза|He opened a coffee [[franchise]].|n|work
+frankly|откровенно говоря|[[Frankly]], I don't agree.|adv|gen
+freely|свободно|Citizens can [[freely]] express their opinions.|adv|gov
+frustrated|раздосадованный|She felt [[frustrated]] by the delay.|adj|soc
+frustrating|досадный|It is [[frustrating]] to wait so long.|adj|gen
+frustration|разочарование|He showed his [[frustration]].|n|soc
+functional|функциональный|The design is simple and [[functional]].|adj|gen
+fundraising|сбор средств|[[Fundraising]] events help the school.|n|soc
+funeral|похороны|Hundreds attended the [[funeral]].|n|soc
+gallon|галлон|The car uses a [[gallon]] of fuel per hour.|n|trans
+gambling|азартные игры|[[Gambling]] can lead to debt.|n|soc
+gathering|собрание|A small [[gathering]] formed outside the hall.|n|soc
+gaze|взгляд|Her [[gaze]] was fixed on the horizon.|n|gen
+gaze|пристально смотреть|They [[gazed]] at the stars.|v|gen
+gear|снаряжение|Pack your hiking [[gear]].|n|gen
+generic|общий, типовой|[[Generic]] medicines are cheaper.|adj|health
+genocide|геноцид|The museum remembers the victims of [[genocide]].|n|gov
+gig|выступление, подработка|The band played a [[gig]] in Berlin.|n|media
+glance|беглый взгляд|One [[glance]] at the map was enough.|n|gen
+glance|бросать взгляд|She [[glanced]] at her watch.|v|gen
+glimpse|мимолётный взгляд|We caught a [[glimpse]] of the famous actor.|n|gen
+glorious|великолепный|It was a [[glorious]] summer day.|adj|gen
+glory|слава|The team returned home in [[glory]].|n|gen
+governance|управление|Good [[governance]] needs transparency.|n|gov
+grace|грация, изящество|She moved with [[grace]].|n|gen
+grasp|схватывать, понимать|It took time to [[grasp]] the concept.|v|edu
+grave|серьёзный|The doctor is in [[grave]] danger.|adj|gen
+grave|могила|Flowers lay on the [[grave]].|n|gen
+gravity|гравитация; серьёзность|The [[gravity]] of the situation was clear.|n|sci
+grid|сетка; энергосеть|Solar farms feed power into the [[grid]].|n|env
+grief|горе|She was overcome with [[grief]].|n|soc
+grind|молоть|He [[grinds]] coffee beans every morning.|v|gen
+grip|хватка|Keep a firm [[grip]] on the rope.|n|gen
+grip|крепко держать|Fear [[gripped]] the crowd.|v|gen
+guidance|руководство, наставление|Students need [[guidance]] when choosing a course.|n|edu
+guilt|вина|He felt a deep sense of [[guilt]].|n|soc
+gut|кишечник; интуиция|My [[gut]] feeling told me not to go.|n|health
+hack|взлом|A major [[hack]] exposed customer data.|n|tech
+hack|взламывать|Criminals tried to [[hack]] into the system.|v|crime
+hail|приветствовать; называть|Critics [[hailed]] the film as a masterpiece.|v|media
+halfway|на полпути|We stopped [[halfway]] up the mountain.|adv|gen
+halt|останавливать|Heavy rain [[halted]] the match.|v|gen
+hammer|молоток|He hit the nail with a [[hammer]].|n|gen
+hammer|забивать молотком|She [[hammered]] a sign onto the post.|v|gen
+handful|горстка|Only a [[handful]] of students passed.|n|gen
+handling|обращение, обработка|The [[handling]] of the complaint was poor.|n|work
+handy|удобный, полезный|A map is [[handy]] when travelling.|adj|gen
+harassment|домогательство, травля|The company has a policy against [[harassment]].|n|work
+hardware|аппаратное обеспечение|The shop sells computer [[hardware]].|n|tech
+harmony|гармония|People lived in [[harmony]] with nature.|n|soc
+harsh|суровый, жёсткий|The winters here are [[harsh]].|adj|env
+harvest|урожай|The wheat [[harvest]] was poor this year.|n|env
+harvest|собирать урожай|Farmers [[harvest]] the crops in autumn.|v|env
+hatred|ненависть|The speech was full of [[hatred]].|n|soc
+haunt|преследовать|Memories of the war [[haunted]] him.|v|soc

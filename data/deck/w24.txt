@@ -1,0 +1,150 @@
+remain|оставаться|Please [[remain]] seated.|v|gen
+remind|напоминать|[[Remind]] me to call her.|v|gen
+remote|отдалённый|They live in a [[remote]] village.|adj|gen
+rent|арендная плата|The [[rent]] is too high.|n|soc
+rent|арендовать|We [[rent]] a small flat.|v|soc
+repair|ремонт|The car needs a [[repair]].|n|gen
+repeat|повтор|Tonight's show is a [[repeat]].|n|media
+repeated|повторяющийся|After [[repeated]] attempts, he passed.|adj|gen
+represent|представлять|She [[represents]] her country.|v|gov
+request|просить|You can [[request]] a refund.|v|work
+reservation|бронь|I made a [[reservation]] for two.|n|trans
+respect|уважение|Show [[respect]] to elders.|n|soc
+respect|уважать|I [[respect]] her honesty.|v|soc
+responsibility|ответственность|Parents have a [[responsibility]] to teach.|n|soc
+responsible|ответственный|He is [[responsible]] for sales.|adj|work
+result|приводить к результату|Smoking can [[result]] in illness.|v|gen
+retire|уходить на пенсию|He will [[retire]] at 65.|v|work
+retired|вышедший на пенсию|My father is [[retired]].|adj|work
+revise|повторять (материал); пересматривать|I need to [[revise]] for the exam.|v|edu
+ring|кольцо|She wore a gold [[ring]].|n|gen
+rise|рост, подъём|There was a [[rise]] in prices.|n|econ
+risk|риск|Smoking is a health [[risk]].|n|gen
+risk|рисковать|Don't [[risk]] your health.|v|gen
+robot|робот|A [[robot]] cleans the floor.|n|tech
+roll|рулон; булочка|He ate a [[roll]] for breakfast.|n|gen
+roll|катиться|The ball [[rolled]] away.|v|gen
+romantic|романтичный|A [[romantic]] dinner.|adj|soc
+rope|верёвка|Tie the boat with a [[rope]].|n|gen
+rough|грубый, шероховатый|The sea was [[rough]].|adj|gen
+row|ряд|We sat in the front [[row]].|n|gen
+royal|королевский|The [[royal]] family waved.|adj|gov
+rugby|регби|He plays [[rugby]].|n|gen
+rule|править|The king [[ruled]] for years.|v|gov
+safety|безопасность|[[Safety]] comes first.|n|gen
+sail|парус|The [[sail]] filled with wind.|n|trans
+sailor|моряк|The [[sailor]] returned home.|n|trans
+sand|песок|Children play in the [[sand]].|n|env
+scan|сканировать|[[Scan]] the document.|v|tech
+scientific|научный|A [[scientific]] study.|adj|sci
+script|сценарий|He wrote the film [[script]].|n|media
+secondary|средний (образование); второстепенный|[[Secondary]] school starts at 11.|adj|edu
+security|безопасность, охрана|Airport [[security]] was tight.|n|gov
+seed|семя|Plant the [[seed]].|n|env
+sensible|разумный|That's a [[sensible]] idea.|adj|gen
+separate|разделять|[[Separate]] the eggs.|v|gen
+seriously|серьёзно|Take your health [[seriously]].|adv|gen
+servant|слуга|A [[servant]] opened the door.|n|soc
+set|набор|A [[set]] of tools.|n|gen
+set|ставить; устанавливать|[[Set]] the table.|v|gen
+setting|обстановка; настройка|The story has a rural [[setting]].|n|media
+sex|пол|Please state your age and [[sex]].|n|soc
+sexual|сексуальный; половой|[[Sexual]] education is taught at school.|adj|soc
+shake|встряска|Give the bottle a [[shake]].|n|gen
+share|доля|She owns a [[share]] of the firm.|n|econ
+sharp|острый|Use a [[sharp]] knife.|adj|gen
+shelf|полка|Put the book on the [[shelf]].|n|gen
+shell|раковина; скорлупа|A [[shell]] lay on the beach.|n|env
+shine|светить|The sun [[shines]].|v|env
+shiny|блестящий|A [[shiny]] coin.|adj|gen
+shoot|стрелять; снимать|They [[shoot]] films here.|v|media
+shy|застенчивый|He is [[shy]] with strangers.|adj|soc
+sight|зрение; вид|He lost his [[sight]].|n|health
+signal|сигнал|There is no phone [[signal]].|n|tech
+signal|сигнализировать|She [[signalled]] to the driver.|v|gen
+silent|тихий, безмолвный|The room was [[silent]].|adj|gen
+silly|глупый|That's a [[silly]] mistake.|adj|gen
+similarity|сходство|There is a [[similarity]] between them.|n|gen
+similarly|аналогично|[[Similarly]], prices rose in Spain.|adv|acad
+simply|просто|It is [[simply]] too expensive.|adv|gen
+since|с тех пор|He left in May and has not called [[since]].|adv|gen
+sink|тонуть|The ship began to [[sink]].|v|gen
+slice|ломтик|A [[slice]] of bread.|n|gen
+slice|нарезать|[[Slice]] the tomatoes.|v|gen
+slow|замедлять|Traffic [[slowed]] down.|v|trans
+smart|умный|A [[smart]] student.|adj|edu
+smooth|гладкий|The surface is [[smooth]].|adj|gen
+software|программное обеспечение|Install the [[software]].|n|tech
+soil|почва|Rich [[soil]] helps crops grow.|n|env
+solid|твёрдый|Ice is a [[solid]] form of water.|adj|sci
+solid|твёрдое тело|Water becomes a [[solid]] when frozen.|n|sci
+sort|сортировать|[[Sort]] the files by date.|v|gen
+southern|южный|[[Southern]] Spain is hot.|adj|gen
+specifically|конкретно|It was designed [[specifically]] for children.|adv|acad
+spending|расходы|Government [[spending]] increased.|n|econ
+spicy|острый (о еде)|I like [[spicy]] food.|adj|gen
+spirit|дух|The team has a great [[spirit]].|n|soc
+spoken|устный|[[Spoken]] English matters.|adj|edu
+spot|пятно; место|There is a [[spot]] on my shirt.|n|gen
+spread|распространяться|The disease [[spread]] quickly.|v|health
+spring|прыгать, подскакивать|The cat [[sprang]] onto the sofa.|v|gen
+stadium|стадион|The [[stadium]] was full.|n|gen
+staff|персонал|The [[staff]] were friendly.|n|work
+standard|стандартный|It is a [[standard]] procedure.|adj|gen
+standard|стандарт|Living [[standards]] have improved.|n|soc
+state|государственный|A [[state]] school.|adj|gov
+state|заявлять|Please [[state]] your name.|v|gen
+statistic|статистический показатель|The [[statistics]] show a fall.|n|sci
+statue|статуя|A [[statue]] stands in the square.|n|media
+stick|палка|He picked up a [[stick]].|n|gen
+stick|приклеивать; застревать|[[Stick]] the label on the box.|v|gen
+still|неподвижный|Stand [[still]].|adj|gen
+store|хранить|[[Store]] the food in a cool place.|v|gen
+stranger|незнакомец|Don't talk to a [[stranger]].|n|soc
+strength|сила|Build [[strength]] with exercise.|n|health
+string|верёвка, нить|Tie it with [[string]].|n|gen
+strongly|сильно|I [[strongly]] agree.|adv|gen
+studio|студия|The band is in the [[studio]].|n|media
+stuff|вещи, штуки|I packed my [[stuff]].|n|gen
+substance|вещество|A toxic [[substance]].|n|sci
+successfully|успешно|She [[successfully]] completed the course.|adv|gen
+sudden|внезапный|A [[sudden]] noise.|adj|gen
+suffer|страдать|Many people [[suffer]] from stress.|v|health
+suit|подходить|That colour [[suits]] you.|v|gen
+suitable|подходящий|Is this [[suitable]] for children?|adj|gen
+summarize|подводить итог, резюмировать|[[Summarize]] the article.|v|edu
+summary|краткое изложение|Write a [[summary]].|n|edu
+supply|запас, поставка|Water [[supply]] is limited.|n|econ
+supply|снабжать|Farms [[supply]] the city with milk.|v|econ
+supporter|сторонник|A loyal [[supporter]].|n|soc
+surely|несомненно|[[Surely]] you remember.|adv|gen
+surface|поверхность|The [[surface]] was smooth.|n|sci
+survive|выживать|Few animals [[survive]] here.|v|env
+swim|заплыв|Let's go for a [[swim]].|n|health
+switch|переключать|[[Switch]] off the light.|v|tech
+symptom|симптом|A cough is a common [[symptom]].|n|health
+tail|хвост|The dog wagged its [[tail]].|n|env
+talent|талант|She has a [[talent]] for music.|n|soc
+talented|талантливый|A [[talented]] artist.|adj|soc
+tax|налог|Income [[tax]] rose.|n|econ
+tax|облагать налогом|Cigarettes are heavily [[taxed]].|v|econ
+technical|технический|A [[technical]] problem.|adj|tech
+technique|техника, метод|Learn a new [[technique]].|n|gen
+tent|палатка|We put up a [[tent]].|n|gen
+that|настолько|It wasn't [[that]] difficult.|adv|gen
+theirs|их|The house is [[theirs]].|phr|gen
+theme|тема|The main [[theme]] is love.|n|media
+this|настолько|I didn't expect it to be [[this]] hard.|adv|gen
+though|однако|It was cold; I enjoyed it, [[though]].|adv|gen
+though|хотя|[[Though]] tired, he continued.|conj|gen
+throat|горло|I have a sore [[throat]].|n|health
+tight|тугой, тесный|The shoes are too [[tight]].|adj|gen
+tin|жестяная банка|A [[tin]] of beans.|n|gen
+tiny|крошечный|A [[tiny]] insect.|adj|gen
+tip|давать чаевые|Remember to [[tip]] the waiter.|v|gen
+toe|палец ноги|I hurt my [[toe]].|n|health
+tongue|язык (орган)|Bite your [[tongue]].|n|health
+total|общий|The [[total]] cost was high.|adj|gen
+total|итог|The [[total]] is 50 dollars.|n|gen
+totally|полностью|I [[totally]] agree.|adv|gen
+touch|прикосновение|Keep in [[touch]].|n|gen

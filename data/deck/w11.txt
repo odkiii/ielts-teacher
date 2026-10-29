@@ -1,0 +1,150 @@
+bullet|пуля|A [[bullet]] hit the wall.|n|crime
+bunch|связка, группа|He bought a [[bunch]] of flowers.|n|gen
+burn|ожог|She had a minor [[burn]] on her hand.|n|health
+bush|куст|A [[bush]] grows by the gate.|n|env
+but|кроме|Everyone [[but]] Tom came.|prep|gen
+cabin|каюта; хижина|We rented a wooden [[cabin]].|n|gen
+cable|кабель|A [[cable]] connects the screen.|n|tech
+calculate|вычислять|[[Calculate]] the total cost.|v|sci
+canal|канал|Boats travel along the [[canal]].|n|trans
+cancel|отменять|They [[cancelled]] the flight.|v|trans
+cancer|рак|Smoking causes lung [[cancer]].|n|health
+candle|свеча|She lit a [[candle]].|n|gen
+capable|способный|He is [[capable]] of hard work.|adj|gen
+caption|подпись под картинкой|Read the [[caption]] under the photo.|n|media
+caption|подписывать|The editor [[captioned]] each image.|v|media
+capture|захват, съёмка|The [[capture]] of the criminal took hours.|n|crime
+capture|захватывать, запечатлевать|The photo [[captures]] the mood.|v|media
+carbon|углерод|[[Carbon]] emissions must fall.|n|env
+cast|состав актёров|The film has a strong [[cast]].|n|media
+cast|бросать; назначать на роль|She was [[cast]] as the queen.|v|media
+casual|повседневный; случайный|Wear [[casual]] clothes.|adj|gen
+catch|уловка; ловля|There is a [[catch]] in the offer.|n|gen
+cave|пещера|Tourists explored the [[cave]].|n|env
+cell|клетка|A human [[cell]] is tiny.|n|sci
+certainty|уверенность|No one can say with [[certainty]].|n|gen
+certificate|сертификат|She received a [[certificate]] after the course.|n|edu
+chain|приковывать; цепь|They [[chained]] the bike to a post.|v|gen
+chair|председательствовать|She will [[chair]] the meeting.|v|work
+challenging|сложный, но стимулирующий|It is a [[challenging]] job.|adj|work
+championship|чемпионат|The team won the [[championship]].|n|gen
+characteristic|характерный|It is a [[characteristic]] feature of the area.|adj|gen
+characteristic|характеристика|Honesty is her main [[characteristic]].|n|gen
+chart|наносить на график, фиксировать|The study [[charts]] population change.|v|sci
+chase|погоня|The police [[chase]] ended at the bridge.|n|crime
+chase|преследовать|Dogs [[chase]] cats.|v|gen
+cheek|щека|She kissed him on the [[cheek]].|n|gen
+cheer|возглас, ободрение|A loud [[cheer]] rose from the crowd.|n|gen
+cheer|приветствовать, болеть|Fans [[cheered]] the team.|v|gen
+chief|главный|The [[chief]] reason is cost.|adj|gen
+chief|руководитель|The police [[chief]] gave a statement.|n|work
+choir|хор|She sings in the school [[choir]].|n|media
+chop|рубить, нарезать|[[Chop]] the onions finely.|v|gen
+circuit|цепь, схема; трасса|The electrical [[circuit]] failed.|n|tech
+circumstance|обстоятельство|In these [[circumstances]], we must wait.|n|gen
+cite|цитировать, ссылаться|Always [[cite]] your sources.|v|edu
+citizen|гражданин|Every [[citizen]] has the right to vote.|n|gov
+civil|гражданский|[[Civil]] rights are protected by law.|adj|gov
+civilization|цивилизация|Ancient [[civilization]] left great monuments.|n|soc
+classic|классический|It is a [[classic]] example of good design.|adj|media
+classic|классика|The novel is a [[classic]].|n|media
+classify|классифицировать|Scientists [[classify]] plants into groups.|v|sci
+clerk|клерк, служащий|The [[clerk]] helped us at the desk.|n|work
+cliff|скала, обрыв|Birds nest on the [[cliff]].|n|env
+clinic|клиника|The [[clinic]] opens at eight.|n|health
+clip|клип; зажим|Watch this short video [[clip]].|n|media
+close|тупик (улица)|They live in a quiet [[close]].|n|gen
+closely|внимательно, тесно|Read the instructions [[closely]].|adv|gen
+coincidence|совпадение|It was just a [[coincidence]].|n|gen
+collapse|крах, обрушение|The [[collapse]] of the bridge killed three.|n|trans
+collapse|рушиться|The business [[collapsed]] in a year.|v|work
+collector|коллекционер; сборщик|He is a stamp [[collector]].|n|gen
+colony|колония|Spain once had many [[colonies]].|n|gov
+colourful|красочный|The festival was [[colourful]].|adj|gen
+combination|комбинация|The [[combination]] of study and work is hard.|n|gen
+comedian|комик|The [[comedian]] made the audience laugh.|n|media
+comfort|комфорт, утешение|The sofa offers great [[comfort]].|n|gen
+comfort|утешать|She [[comforted]] the crying child.|v|soc
+comic|комический|He told a [[comic]] story.|adj|media
+comic|комикс|She collects [[comics]].|n|media
+command|команда, приказ|The soldiers obeyed the [[command]].|n|gov
+command|приказывать; владеть|He [[commands]] a team of fifty.|v|work
+commander|командир|The [[commander]] ordered a retreat.|n|gov
+commitment|обязательство|Her [[commitment]] to the team is clear.|n|work
+committee|комитет|The [[committee]] met on Monday.|n|work
+commonly|обычно|The disease is [[commonly]] seen in children.|adv|health
+comparative|сравнительный|A [[comparative]] study was published.|adj|sci
+completion|завершение|[[Completion]] of the project is due in May.|n|work
+complicated|сложный|The rules are [[complicated]].|adj|gen
+component|компонент|Each [[component]] is tested.|n|tech
+compose|сочинять; составлять|He [[composes]] film music.|v|media
+composer|композитор|Mozart was a famous [[composer]].|n|media
+compound|соединение|Water is a chemical [[compound]].|n|sci
+comprise|включать в себя|The course [[comprises]] ten modules.|v|edu
+concentration|концентрация, внимание|Sleep improves [[concentration]].|n|edu
+concern|беспокойство; забота|There is growing [[concern]] about prices.|n|gen
+concern|касаться; беспокоить|The news [[concerns]] everyone.|v|gen
+concerned|обеспокоенный|Parents are [[concerned]] about safety.|adj|soc
+concrete|бетонный; конкретный|We need [[concrete]] evidence.|adj|gen
+concrete|бетон|The wall is made of [[concrete]].|n|gen
+confidence|уверенность|Praise builds [[confidence]].|n|soc
+conflict|конфликт|The [[conflict]] lasted years.|n|gov
+conflict|противоречить|The two reports [[conflict]].|v|gen
+confusing|запутывающий|The signs are [[confusing]].|adj|gen
+confusion|путаница|The rule caused [[confusion]].|n|gen
+conscious|осознающий|She is [[conscious]] of the risks.|adj|gen
+conservation|охрана природы|Wildlife [[conservation]] needs funds.|n|env
+conservative|консервативный|He holds [[conservative]] views.|adj|gov
+conservative|консерватор|The [[conservatives]] won seats.|n|gov
+considerable|значительный|A [[considerable]] number of people agree.|adj|gen
+consideration|рассмотрение|Take safety into [[consideration]].|n|gen
+consistently|последовательно|She [[consistently]] scores high.|adv|edu
+console|консоль|He plays games on a [[console]].|n|tech
+conspiracy|заговор|The film is about a [[conspiracy]].|n|media
+constant|постоянный|The noise is [[constant]].|adj|gen
+constantly|постоянно|Prices are [[constantly]] changing.|adv|gen
+construction|строительство|[[Construction]] of the bridge began in May.|n|work
+consult|консультироваться|[[Consult]] a doctor first.|v|health
+consultant|консультант|A management [[consultant]] advised the firm.|n|work
+consumption|потребление|Energy [[consumption]] rises in winter.|n|env
+contemporary|современный|[[Contemporary]] art attracts young visitors.|adj|media
+contest|конкурс|She won the singing [[contest]].|n|media
+contest|оспаривать|The party [[contested]] the result.|v|gov
+contribution|вклад|His [[contribution]] was valuable.|n|work
+controversial|спорный|It is a [[controversial]] topic.|adj|media
+controversy|спор, полемика|The film caused [[controversy]].|n|media
+convenience|удобство|Online banking offers [[convenience]].|n|tech
+convention|конвенция; обычай|Social [[conventions]] differ by country.|n|soc
+conventional|обычный, традиционный|[[Conventional]] medicine works for most people.|adj|health
+convert|преобразовывать|[[Convert]] the file to PDF.|v|tech
+convey|передавать (мысль)|The poster [[conveys]] a clear message.|v|media
+convinced|убеждённый|I am [[convinced]] that this is right.|adj|gen
+convincing|убедительный|Her argument was [[convincing]].|adj|gen
+cope|справляться|How do you [[cope]] with stress?|v|health
+core|основной|Maths is a [[core]] subject.|adj|edu
+core|ядро, суть|The [[core]] of the problem is money.|n|gen
+corporate|корпоративный|[[Corporate]] taxes are rising.|adj|work
+corporation|корпорация|A large [[corporation]] bought the firm.|n|work
+corridor|коридор|The classroom is at the end of the [[corridor]].|n|gen
+council|совет|The city [[council]] voted on the plan.|n|gov
+counter|прилавок, стойка|Pay at the [[counter]].|n|work
+county|графство|Our [[county]] has many farms.|n|gov
+courage|мужество|It takes [[courage]] to speak up.|n|soc
+coverage|освещение (в СМИ); охват|Media [[coverage]] was extensive.|n|media
+crack|трещина|There is a [[crack]] in the wall.|n|gen
+crack|трескаться|The ice began to [[crack]].|v|gen
+craft|ремесло|Pottery is a traditional [[craft]].|n|gen
+crash|авария, сбой|A car [[crash]] closed the road.|n|trans
+crash|разбиваться, сбоиться|The computer [[crashed]].|v|tech
+creation|создание|The [[creation]] of jobs is a priority.|n|work
+creativity|креативность|Art encourages [[creativity]].|n|edu
+creature|существо|Whales are amazing [[creatures]].|n|env
+crew|экипаж, бригада|The [[crew]] welcomed the passengers.|n|trans
+crisis|кризис|The country faces an economic [[crisis]].|n|gov
+criterion|критерий|The main [[criterion]] is experience.|n|work
+critic|критик|The film [[critic]] gave it four stars.|n|media
+critical|критический|He is [[critical]] of the plan.|adj|gen
+critically|критически|Think [[critically]] about the evidence.|adv|edu
+criticism|критика|She accepted the [[criticism]].|n|gen
+criticize|критиковать|Experts [[criticized]] the new law.|v|gov
+crop|урожай, культура|Wheat is the main [[crop]].|n|env

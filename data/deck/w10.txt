@@ -1,0 +1,152 @@
+yield|приносить, давать (урожай)|The orchard [[yields]] tonnes of apples.|v|env
+youngster|молодой человек, подросток|Local [[youngsters]] joined the clean-up.|n|soc
+abandon|бросать, покидать|They had to [[abandon]] the car in the snow.|v|gen
+absolute|абсолютный|She has [[absolute]] confidence in him.|adj|gen
+absorb|впитывать|Plants [[absorb]] carbon dioxide.|v|env
+abstract|абстрактный|[[Abstract]] ideas are hard to explain.|adj|edu
+academic|учёный; научный работник|Several [[academics]] signed the letter.|n|edu
+accent|акцент|She speaks with a Scottish [[accent]].|n|gen
+acceptable|приемлемый|The quality is [[acceptable]].|adj|gen
+accidentally|случайно|I [[accidentally]] deleted the file.|adv|gen
+accommodate|вмещать; размещать|The hall can [[accommodate]] 500 people.|v|gen
+accompany|сопровождать|Children must be [[accompanied]] by an adult.|v|gen
+accomplish|достигать, выполнять|She [[accomplished]] all her goals.|v|gen
+account|объяснять, считаться|Delays [[account]] for the late arrival.|v|gen
+accountant|бухгалтер|An [[accountant]] checked the books.|n|work
+accuracy|точность|The test results have high [[accuracy]].|n|sci
+accurate|точный|The map is not [[accurate]].|adj|gen
+accurately|точно|Describe the data [[accurately]].|adv|sci
+accuse|обвинять|They [[accused]] him of lying.|v|crime
+acid|кислота|Lemons contain [[acid]].|n|sci
+acknowledge|признавать|She [[acknowledged]] her mistake.|v|gen
+activate|активировать|[[Activate]] your account by email.|v|tech
+actual|фактический, настоящий|The [[actual]] cost was higher.|adj|gen
+adapt|приспосабливаться|Animals [[adapt]] to climate change.|v|env
+additional|дополнительный|There is an [[additional]] fee.|adj|gen
+additionally|дополнительно|[[Additionally]], students must attend a workshop.|adv|edu
+address|заниматься (вопросом), обращаться к|We must [[address]] the problem of waste.|v|gov
+adequate|достаточный|The room has [[adequate]] light.|adj|gen
+adjust|регулировать, приспосабливаться|It took time to [[adjust]] to the new job.|v|work
+adopt|принимать, усыновлять|Schools [[adopt]] new methods.|v|edu
+advance|передовой, предварительный|[[Advance]] booking is advised.|adj|gen
+advance|продвижение, прогресс|Medical [[advances]] saved lives.|n|sci
+advance|продвигаться|Technology continues to [[advance]].|v|tech
+affair|дело; роман|Foreign [[affairs]] is a minister's job.|n|gov
+affordable|доступный по цене|[[Affordable]] housing is needed.|adj|soc
+afterwards|впоследствии|We ate, and [[afterwards]] went for a walk.|adv|gen
+agency|агентство|A travel [[agency]] booked our trip.|n|work
+agenda|повестка дня|The first item on the [[agenda]] is the budget.|n|work
+aggressive|агрессивный|His [[aggressive]] behaviour worried teachers.|adj|soc
+agriculture|сельское хозяйство|[[Agriculture]] uses much water.|n|env
+aid|помощь|Food [[aid]] reached the region.|n|soc
+aid|помогать|New tools [[aid]] learning.|v|edu
+aircraft|самолёт|A modern [[aircraft]] is very efficient.|n|trans
+alarm|тревожить, пугать|The report [[alarmed]] parents.|v|gen
+alien|иностранец; пришелец|The film is about an [[alien]].|n|media
+alter|изменять|Climate change will [[alter]] farming.|v|env
+altogether|в целом, совсем|Some people give up meat [[altogether]].|adv|health
+ambulance|скорая помощь|An [[ambulance]] arrived within minutes.|n|health
+amount|составлять|Costs [[amounted]] to a thousand pounds.|v|work
+amusing|забавный|It was an [[amusing]] story.|adj|gen
+analyst|аналитик|A financial [[analyst]] predicted growth.|n|work
+ancestor|предок|Our [[ancestors]] farmed this land.|n|soc
+anger|гнев|He shouted in [[anger]].|n|soc
+angle|угол; точка зрения|Look at the problem from another [[angle]].|n|gen
+animation|анимация|The studio produces [[animation]].|n|media
+anniversary|годовщина|They celebrated their wedding [[anniversary]].|n|soc
+annual|ежегодный|The [[annual]] report is published in May.|adj|work
+annually|ежегодно|The festival is held [[annually]].|adv|gen
+anticipate|предвидеть, ожидать|We [[anticipate]] strong demand.|v|work
+anxiety|тревога|Exams cause [[anxiety]] in many students.|n|health
+anxious|встревоженный|She felt [[anxious]] before the interview.|adj|health
+apology|извинение|He made a public [[apology]].|n|soc
+apparent|очевидный|The benefits are [[apparent]].|adj|gen
+apparently|по-видимому|[[Apparently]], the shop has closed.|adv|gen
+appeal|привлекательность|The film has wide [[appeal]].|n|media
+appeal|апеллировать, привлекать|The design will [[appeal]] to young people.|v|gen
+applicant|кандидат, заявитель|Each [[applicant]] must send a CV.|n|work
+approval|одобрение|The plan needs the council's [[approval]].|n|gov
+approve|одобрять|Parliament [[approved]] the budget.|v|gov
+arise|возникать|Problems may [[arise]] later.|v|gen
+armed|вооружённый|[[Armed]] police guarded the building.|adj|crime
+arms|оружие|The country limits the sale of [[arms]].|n|gov
+arrow|стрела; стрелка|Follow the [[arrow]] to the exit.|n|gen
+artificial|искусственный|The drink contains no [[artificial]] colours.|adj|gen
+artistic|художественный|He has [[artistic]] talent.|adj|media
+artwork|произведение искусства|The gallery displays modern [[artwork]].|n|media
+ashamed|пристыженный|She felt [[ashamed]] of her behaviour.|adj|soc
+aside|в сторону|Put your phone [[aside]] while studying.|adv|edu
+assessment|оценка|Continuous [[assessment]] replaces final exams.|n|edu
+asset|ценный ресурс, актив|Languages are a valuable [[asset]].|n|work
+assign|назначать, поручать|The teacher [[assigned]] a project.|v|edu
+assistance|помощь|Financial [[assistance]] is available.|n|soc
+associate|связывать, ассоциировать|People [[associate]] green with nature.|v|gen
+associated|связанный|Risks [[associated]] with smoking are well known.|adj|health
+association|ассоциация, объединение|The teachers' [[association]] met on Friday.|n|work
+assumption|предположение|The study rests on a wrong [[assumption]].|n|sci
+assure|заверять|I [[assure]] you it is safe.|v|gen
+astonishing|поразительный|The speed of change is [[astonishing]].|adj|gen
+attachment|привязанность; вложение|Open the [[attachment]] in the email.|n|tech
+attempt|попытка|Her first [[attempt]] failed.|n|gen
+attempt|пытаться|He [[attempted]] to fix the machine.|v|gen
+auction|аукцион|The painting sold at [[auction]].|n|work
+automatic|автоматический|The doors are [[automatic]].|adj|tech
+automatically|автоматически|The file saves [[automatically]].|adv|tech
+awareness|осведомлённость|Health [[awareness]] has grown.|n|health
+back|поддерживать|Most voters [[back]] the plan.|v|gov
+bacteria|бактерии|Some [[bacteria]] are harmless.|n|health
+badge|значок|Visitors wear a [[badge]].|n|work
+balanced|сбалансированный|A [[balanced]] diet includes fruit.|adj|health
+ballet|балет|She trains in [[ballet]].|n|media
+balloon|воздушный шар|Children played with [[balloons]].|n|gen
+bar|запрещать; преграждать|Strikers [[barred]] the entrance.|v|gen
+barely|едва|I [[barely]] had time to eat.|adv|gen
+bargain|выгодная покупка|The jacket was a real [[bargain]].|n|gen
+barrier|барьер|Language can be a [[barrier]].|n|soc
+basement|подвал|We store boxes in the [[basement]].|n|gen
+basically|в основном|[[Basically]], it's a question of money.|adv|gen
+basket|корзина|Put the fruit in the [[basket]].|n|gen
+bat|летучая мышь|A [[bat]] flew out of the cave.|n|env
+battle|бороться|Doctors [[battle]] the disease.|v|health
+bay|бухта|Boats anchored in the [[bay]].|n|env
+bear|нести, выносить|She cannot [[bear]] the noise.|v|gen
+beat|ритм|The song has a strong [[beat]].|n|media
+beg|умолять; просить милостыню|They [[beg]] for food.|v|soc
+being|существо|A human [[being]] needs sleep.|n|gen
+beneficial|полезный|Exercise is [[beneficial]] for the heart.|adj|health
+bent|согнутый|The nail was [[bent]].|adj|gen
+beside|рядом с|She sat [[beside]] him.|prep|gen
+besides|кроме того|It's too far; [[besides]], it's raining.|adv|gen
+besides|кроме|Nobody [[besides]] me knew.|prep|gen
+bet|пари|He lost the [[bet]].|n|gen
+bet|держать пари|I [[bet]] it will rain.|v|gen
+beyond|дальше|There is nothing [[beyond]] the hills.|adv|gen
+beyond|за пределами|The task is [[beyond]] my ability.|prep|gen
+bid|заявка, попытка|The city made a [[bid]] for the Olympics.|n|gov
+bid|предлагать цену|Firms [[bid]] for the contract.|v|work
+bill|выставлять счёт|The garage [[billed]] us for repairs.|v|work
+billionaire|миллиардер|The [[billionaire]] gave money to schools.|n|soc
+biological|биологический|[[Biological]] research continues.|adj|sci
+bitter|горький; озлобленный|The coffee tasted [[bitter]].|adj|gen
+blame|вина|He took the [[blame]].|n|soc
+blame|винить|Don't [[blame]] yourself.|v|soc
+blanket|одеяло|She wrapped a [[blanket]] around him.|n|gen
+blind|слепой|He has been [[blind]] since birth.|adj|health
+bold|смелый|It was a [[bold]] decision.|adj|gen
+bombing|бомбардировка|The [[bombing]] destroyed the bridge.|n|gov
+bond|связь, облигация|Shared interests create a [[bond]].|n|soc
+booking|бронирование|Make a [[booking]] online.|n|gen
+border|граничить|France [[borders]] Spain.|v|gov
+bound|обязанный; вероятный|Prices are [[bound]] to rise.|adj|gen
+brake|тормоз|Press the [[brake]] gently.|n|trans
+brake|тормозить|The driver [[braked]] suddenly.|v|trans
+breast|грудь|The doctor examined her [[breast]].|n|health
+breath|дыхание|Take a deep [[breath]].|n|health
+brick|кирпич|The house is built of red [[brick]].|n|gen
+brief|краткий|Give a [[brief]] summary.|adj|gen
+briefly|кратко|He explained the idea [[briefly]].|adv|gen
+broad|широкий|The course covers a [[broad]] range of topics.|adj|edu
+broadcaster|телерадиовещатель|The BBC is a public [[broadcaster]].|n|media
+broadly|в целом|[[Broadly]] speaking, I agree.|adv|gen
+budget|бюджет|The [[budget]] for the project is small.|n|work
+bug|баг; жук|The app has a [[bug]].|n|tech

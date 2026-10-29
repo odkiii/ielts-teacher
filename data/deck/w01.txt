@@ -1,0 +1,150 @@
+abolish|упразднять, отменять|The country voted to [[abolish]] the death penalty.|v|gen
+abortion|аборт|The law on [[abortion]] is debated in many countries.|n|gen
+absence|отсутствие|In the [[absence]] of evidence, the case was dropped.|n|gen
+absent|отсутствующий|Two students were [[absent]] from class today.|adj|gen
+absurd|абсурдный|It is [[absurd]] to expect results without effort.|adj|gen
+abundance|изобилие|The region has an [[abundance]] of fresh water.|n|gen
+abuse|злоупотребление|Drug [[abuse]] is a serious social problem.|n|gen
+abuse|злоупотреблять; оскорблять|Some people [[abuse]] their power.|v|gen
+academy|академия|She studied music at a leading [[academy]].|n|gen
+accelerate|ускорять|New technology can [[accelerate]] economic growth.|v|gen
+acceptance|принятие, признание|There is wider [[acceptance]] of remote work today.|n|gen
+accessible|доступный|The museum is [[accessible]] to wheelchair users.|adj|gen
+accessory|аксессуар|A scarf is a simple fashion [[accessory]].|n|gen
+accomplishment|достижение|Finishing the marathon was a great [[accomplishment]].|n|gen
+accordance|соответствие|The work was done in [[accordance]] with the rules.|n|gen
+accordingly|соответственно|Prices rose, and wages increased [[accordingly]].|adv|gen
+accountability|подотчётность|Politicians should accept [[accountability]] for their decisions.|n|gov
+accountable|ответственный, подотчётный|Managers are [[accountable]] for their team's results.|adj|work
+accumulate|накапливать|Dust can [[accumulate]] quickly in unused rooms.|v|gen
+accumulation|накопление|The [[accumulation]] of waste is a growing problem.|n|env
+accusation|обвинение|He denied the [[accusation]] of cheating.|n|crime
+accused|обвиняемый|The [[accused]] was found not guilty.|n|crime
+acid|кислотный; кислый|[[Acid]] rain damages forests and lakes.|adj|env
+acquisition|приобретение; усвоение|Language [[acquisition]] is faster in young children.|n|edu
+acre|акр|The farm covers about fifty [[acres]].|n|gen
+activation|активация|The [[activation]] of the alarm woke everyone.|n|tech
+activist|активист|An environmental [[activist]] spoke at the rally.|n|soc
+acute|острый; сильный|The city faces an [[acute]] shortage of housing.|adj|gen
+adaptation|адаптация; экранизация|Animals show remarkable [[adaptation]] to cold climates.|n|sci
+adhere|придерживаться|Employees must [[adhere]] to the safety rules.|v|work
+adjacent|смежный, соседний|The hotel is [[adjacent]] to the station.|adj|gen
+adjustment|корректировка|A small [[adjustment]] improved the results.|n|gen
+administer|управлять; вводить|Nurses [[administer]] medicine to patients.|v|health
+administrative|административный|She does [[administrative]] work at a school.|adj|work
+administrator|администратор|The hospital [[administrator]] approved the budget.|n|work
+admission|приём (в вуз); признание|[[Admission]] to the course depends on test results.|n|edu
+adolescent|подросток|An [[adolescent]] needs more sleep than an adult.|n|soc
+adoption|принятие; усыновление|The [[adoption]] of new technology saved time.|n|tech
+adverse|неблагоприятный|Smoking has an [[adverse]] effect on health.|adj|health
+advocate|сторонник|She is a strong [[advocate]] of free education.|n|soc
+advocate|выступать за|Many experts [[advocate]] a shorter working week.|v|soc
+aesthetic|эстетический|The building has great [[aesthetic]] appeal.|adj|gen
+affection|привязанность|He showed deep [[affection]] for his grandmother.|n|soc
+aftermath|последствия|In the [[aftermath]] of the flood, many lost their homes.|n|env
+aggression|агрессия|Violent films may increase [[aggression]] in some children.|n|soc
+agricultural|сельскохозяйственный|[[Agricultural]] land is being lost to housing.|adj|env
+aide|помощник|A teaching [[aide]] helps pupils in class.|n|work
+albeit|хотя и|The plan worked, [[albeit]] slowly.|conj|gen
+alert|бдительный|Drivers must stay [[alert]] on long journeys.|adj|gen
+alert|сигнал тревоги|The weather service issued a storm [[alert]].|n|gen
+alert|предупреждать|The app will [[alert]] you when the bus arrives.|v|tech
+alien|чужой, чуждый|The customs felt [[alien]] to the newcomers.|adj|soc
+align|согласовывать, выравнивать|Teaching should [[align]] with students' needs.|v|edu
+alignment|согласование|The [[alignment]] of goals helped the team.|n|work
+alike|похожий|The twins look very much [[alike]].|adj|gen
+alike|одинаково|Teachers and students [[alike]] enjoyed the trip.|adv|gen
+all-time|рекордный за всё время|Prices reached an [[all-time]] high.|adj|gen
+allegation|утверждение, обвинение|The company rejected the [[allegation]] of fraud.|n|crime
+allege|утверждать (без доказательств)|Police [[allege]] that he stole the money.|v|crime
+allegedly|якобы|He [[allegedly]] took the money from the till.|adv|crime
+alliance|союз|The two countries formed an [[alliance]].|n|gov
+allocate|выделять, распределять|The city will [[allocate]] funds for new parks.|v|gov
+allocation|распределение|The [[allocation]] of resources was unfair.|n|gov
+allowance|пособие; допустимая норма|Students receive a monthly [[allowance]].|n|edu
+ally|союзник|The country is a close [[ally]] of its neighbour.|n|gov
+alongside|рядом с, наряду с|Vinyl records are sold [[alongside]] digital music.|prep|gen
+aluminium|алюминий|Drinks cans are made of [[aluminium]].|n|env
+amateur|любитель; любительский|He plays football at [[amateur]] level.|adj|gen
+amateur|любитель|The photo was taken by an [[amateur]].|n|gen
+ambassador|посол|The [[ambassador]] met the foreign minister.|n|gov
+amend|вносить поправки|Parliament voted to [[amend]] the law.|v|gov
+amendment|поправка|An [[amendment]] was added to the bill.|n|gov
+amid|среди, в условиях|Prices rose [[amid]] fears of a shortage.|prep|gen
+analogy|аналогия|The teacher used an [[analogy]] to explain the idea.|n|edu
+analytics|аналитика|Web [[analytics]] show how people use the site.|n|tech
+anchor|якорь; ведущий (новостей)|The news [[anchor]] read the headlines.|n|media
+angel|ангел|She was an [[angel]] to help us at that time.|n|gen
+anonymous|анонимный|The survey is [[anonymous]].|adj|gen
+appealing|привлекательный|The idea of working from home is [[appealing]].|adj|gen
+appetite|аппетит|Exercise improves your [[appetite]].|n|health
+applaud|аплодировать; одобрять|The audience [[applauded]] for several minutes.|v|gen
+applicable|применимый|This rule is not [[applicable]] to children.|adj|gen
+appoint|назначать|The board will [[appoint]] a new director.|v|work
+appreciation|признательность; понимание|He expressed his [[appreciation]] for the help.|n|gen
+architectural|архитектурный|The city is famous for its [[architectural]] heritage.|adj|gen
+archive|архив|The library keeps an [[archive]] of old newspapers.|n|media
+arena|арена|The concert took place in a huge [[arena]].|n|gen
+arm|вооружать|Police were [[armed]] with batons.|v|crime
+array|набор, множество|The shop sells a wide [[array]] of products.|n|gen
+articulate|чётко выражать|She can [[articulate]] her ideas clearly.|v|gen
+ash|пепел|Volcanic [[ash]] closed the airport.|n|env
+aspiration|стремление|His main [[aspiration]] is to become a doctor.|n|gen
+aspire|стремиться|Many young people [[aspire]] to higher education.|v|edu
+assassination|убийство (политика)|The [[assassination]] shocked the nation.|n|gov
+assault|нападение|He was charged with [[assault]].|n|crime
+assault|нападать|A man [[assaulted]] two passers-by.|v|crime
+assemble|собирать; собираться|Workers [[assemble]] the cars in three hours.|v|work
+assembly|собрание|The school holds an [[assembly]] every Monday.|n|edu
+assert|утверждать, отстаивать|She [[asserted]] her right to speak.|v|gen
+assertion|утверждение|The [[assertion]] is not supported by evidence.|n|sci
+assurance|заверение|The minister gave an [[assurance]] that taxes would not rise.|n|gov
+asylum|убежище|Thousands of people applied for [[asylum]].|n|soc
+attain|достигать|It takes years to [[attain]] fluency.|v|edu
+attendance|посещаемость|Class [[attendance]] fell after the holidays.|n|edu
+attorney|адвокат (США)|The [[attorney]] defended her client in court.|n|crime
+attribute|качество, признак|Honesty is an important [[attribute]] in a leader.|n|gen
+attribute|приписывать|Experts [[attribute]] the rise to cheaper fuel.|v|gen
+audit|аудит|An independent [[audit]] checked the accounts.|n|work
+authentic|подлинный|The restaurant serves [[authentic]] Italian food.|adj|gen
+authorize|разрешать, уполномочивать|Only managers can [[authorize]] payments.|v|work
+auto|автомобильный|The [[auto]] industry employs thousands of people.|n|trans
+autonomy|автономия, самостоятельность|Employees want more [[autonomy]] at work.|n|work
+availability|доступность, наличие|The [[availability]] of fresh food varies by region.|n|gen
+await|ожидать|Thousands of fans [[await]] the new album.|v|gen
+awkward|неловкий; неудобный|There was an [[awkward]] silence in the room.|adj|gen
+backdrop|фон|The mountains form a stunning [[backdrop]].|n|gen
+backing|поддержка|The plan has the [[backing]] of local people.|n|gov
+backup|резервная копия|Always make a [[backup]] of your files.|n|tech
+bail|залог|He was released on [[bail]].|n|crime
+ballot|голосование, бюллетень|Voters cast their [[ballot]] on Sunday.|n|gov
+bang|удар, хлопок|There was a loud [[bang]] outside.|n|gen
+bang|ударять, стучать|He [[banged]] on the door.|v|gen
+banner|баннер, транспарант|Protesters held up a [[banner]].|n|media
+bare|голый, простой|Only the [[bare]] facts were reported.|adj|gen
+barrel|бочка|Oil is sold by the [[barrel]].|n|gen
+bass|бас|The [[bass]] was too loud at the concert.|n|gen
+bat|бить (битой)|He [[bats]] left-handed.|v|gen
+battlefield|поле боя|The old [[battlefield]] is now a museum.|n|gen
+beam|луч|A [[beam]] of light came through the window.|n|gen
+beast|зверь|The story is about a dangerous [[beast]].|n|gen
+behalf|сторона, имя|She spoke on [[behalf]] of the whole team.|n|gen
+beloved|любимый|The teacher was [[beloved]] by all her students.|adj|gen
+bench|скамья|We sat on a [[bench]] in the park.|n|gen
+benchmark|эталон, ориентир|The test sets a [[benchmark]] for quality.|n|work
+beneath|под, ниже|The cave lies [[beneath]] the old castle.|prep|gen
+beneficiary|получатель выгоды|Low-income families are the main [[beneficiary]].|n|soc
+betray|предавать|He felt that his friend had [[betrayed]] him.|v|soc
+bind|связывать|The contract will [[bind]] both sides.|v|gen
+biography|биография|She read a [[biography]] of Marie Curie.|n|media
+bishop|епископ|The [[bishop]] gave a speech at the ceremony.|n|gen
+bizarre|странный, причудливый|It was a [[bizarre]] coincidence.|adj|gen
+blade|лезвие|The [[blade]] of the knife was very sharp.|n|gen
+blast|взрыв|A [[blast]] shook the building.|n|gen
+blast|взрывать|Workers [[blasted]] a tunnel through the rock.|v|gen
+blaze|пожар, яркое пламя|Firefighters fought the [[blaze]] all night.|n|env
+blaze|пылать|Fires [[blazed]] across the dry hills.|v|env
+bleed|кровоточить|The cut began to [[bleed]].|v|health
+blend|смешивать|[[Blend]] the ingredients until smooth.|v|gen
+bless|благословлять|The priest [[blessed]] the couple.|v|gen
+blessing|благословение; благо|The rain was a [[blessing]] for the farmers.|n|gen

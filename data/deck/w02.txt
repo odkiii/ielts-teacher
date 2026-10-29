@@ -1,0 +1,150 @@
+blow|удар|The news was a terrible [[blow]] to the family.|n|gen
+boast|хвастаться|He likes to [[boast]] about his salary.|v|gen
+bolster|укреплять, поддерживать|Good results will [[bolster]] confidence in the economy.|v|gen
+bonus|премия, бонус|Staff received a [[bonus]] at the end of the year.|n|work
+boom|бум, резкий рост|The city enjoyed an economic [[boom]].|n|work
+boost|рост, стимул|Tourism gave a [[boost]] to the local economy.|n|work
+boost|повышать, стимулировать|Exercise can [[boost]] your mood.|v|health
+bounce|отскакивать|The ball [[bounced]] over the fence.|v|gen
+boundary|граница|The river forms the [[boundary]] between the two regions.|n|gen
+bout|приступ, период|She had a short [[bout]] of flu.|n|health
+bow|поклон|The actor took a [[bow]] at the end.|n|gen
+bow|кланяться|They [[bowed]] to the audience.|v|gen
+breach|нарушение|Copying the text is a [[breach]] of copyright.|n|crime
+breach|нарушать|The company [[breached]] the contract.|v|crime
+breakdown|поломка; срыв|A [[breakdown]] delayed the train for an hour.|n|trans
+breed|порода|This [[breed]] of dog is very friendly.|n|gen
+breed|разводить|Farmers [[breed]] sheep for wool.|v|env
+broadband|широкополосный интернет|Rural areas often lack fast [[broadband]].|n|tech
+browser|браузер|Update your [[browser]] to use the site.|n|tech
+brutal|жестокий, суровый|The winter was [[brutal]] this year.|adj|gen
+buck|доллар (разг.)|It cost me fifty [[bucks]].|n|gen
+buddy|приятель|My [[buddy]] helped me move house.|n|soc
+buffer|буфер, защита|Savings act as a [[buffer]] against hard times.|n|gen
+bulk|основная масса, большая часть|The [[bulk]] of the work was done by students.|n|gen
+burden|бремя|Debt is a heavy [[burden]] for young people.|n|soc
+burial|похороны|The [[burial]] took place on Monday.|n|gen
+burst|лопаться, прорываться|The pipe [[burst]] during the cold night.|v|gen
+buzz|жужжание; шумиха|There is a lot of [[buzz]] about the new film.|n|media
+buzz|жужжать|Bees [[buzzed]] around the flowers.|v|gen
+cabinet|шкаф; кабинет министров|The [[cabinet]] met to discuss the budget.|n|gov
+calculation|расчёт|A quick [[calculation]] showed the cost.|n|sci
+cancellation|отмена|The [[cancellation]] of the flight caused delays.|n|trans
+canvas|холст; брезент|The artist painted on a large [[canvas]].|n|gen
+capability|способность|The phone has powerful camera [[capabilities]].|n|tech
+capitalism|капитализм|Many debates focus on the effects of [[capitalism]].|n|gov
+capitalist|капиталистический|Most countries today have a [[capitalist]] economy.|adj|gov
+cargo|груз|The ship carries [[cargo]] across the ocean.|n|trans
+carriage|вагон; экипаж|The train has six [[carriages]].|n|trans
+carve|вырезать|He [[carved]] a bird from a piece of wood.|v|gen
+casino|казино|The [[casino]] attracts many tourists.|n|gen
+casualty|пострадавший, жертва|The accident left two [[casualties]].|n|health
+catalogue|каталог|Browse our [[catalogue]] for new books.|n|gen
+cater|обслуживать, удовлетворять|The hotel [[caters]] for families with children.|v|work
+cattle|крупный рогатый скот|[[Cattle]] graze on the hills.|n|env
+caution|осторожность|Drive with [[caution]] in icy conditions.|n|gen
+cautious|осторожный|Investors are [[cautious]] about the market.|adj|gen
+cease|прекращать(ся)|The factory will [[cease]] production next month.|v|work
+cemetery|кладбище|The [[cemetery]] is behind the church.|n|gen
+chamber|палата; комната|The upper [[chamber]] reviews new laws.|n|gov
+chaos|хаос|Heavy snow caused [[chaos]] on the roads.|n|trans
+characterize|характеризовать|Rapid growth [[characterizes]] the tech sector.|v|gen
+charm|очарование|The old town has a special [[charm]].|n|gen
+charming|очаровательный|We stayed in a [[charming]] little village.|adj|gen
+charter|устав; хартия|The school has a [[charter]] of student rights.|n|gov
+chill|прохлада, озноб|There was a [[chill]] in the evening air.|n|gen
+chill|охлаждать; расслабляться|Let the dessert [[chill]] for an hour.|v|gen
+chunk|большой кусок|He ate a [[chunk]] of cheese.|n|gen
+circulate|циркулировать|Fresh air must [[circulate]] in the room.|v|gen
+circulation|циркуляция; тираж|Poor [[circulation]] makes hands feel cold.|n|health
+citizenship|гражданство|She applied for British [[citizenship]].|n|gov
+civic|гражданский|Voting is a [[civic]] duty.|adj|gov
+civilian|гражданский|The area is open to [[civilian]] traffic.|adj|gov
+civilian|гражданское лицо|Many [[civilians]] were evacuated.|n|gov
+clarity|ясность|The report is written with great [[clarity]].|n|gen
+clash|столкновение|There was a [[clash]] of opinions at the meeting.|n|soc
+classification|классификация|The [[classification]] of species is complex.|n|sci
+cling|цепляться|Children [[clung]] to their parents on the first day.|v|gen
+clinical|клинический|[[Clinical]] trials test new medicines.|adj|health
+closure|закрытие|The [[closure]] of the factory cost 500 jobs.|n|work
+cluster|скопление, группа|A [[cluster]] of villages lies near the lake.|n|gen
+coalition|коалиция|Three parties formed a [[coalition]] government.|n|gov
+coastal|прибрежный|[[Coastal]] towns suffer from rising sea levels.|adj|env
+cocktail|коктейль|She ordered a fruit [[cocktail]].|n|gen
+cognitive|когнитивный|Reading improves [[cognitive]] skills.|adj|sci
+coincide|совпадать|The festival [[coincides]] with the school holidays.|v|gen
+collaborate|сотрудничать|Scientists from five countries [[collaborated]] on the study.|v|sci
+collaboration|сотрудничество|The film was a [[collaboration]] between two studios.|n|work
+collective|коллективный|It was a [[collective]] decision.|adj|soc
+collision|столкновение|The [[collision]] happened at a junction.|n|trans
+columnist|обозреватель|The [[columnist]] wrote about education reform.|n|media
+combat|борьба|The fight against crime requires close [[combat]] of causes.|n|gen
+combat|бороться с|Vaccines help [[combat]] disease.|v|health
+comeback|возвращение|The band made a surprising [[comeback]].|n|media
+commence|начинаться|The lecture will [[commence]] at nine.|v|edu
+commentary|комментарий|The match [[commentary]] was very lively.|n|media
+commentator|комментатор|A political [[commentator]] spoke on the radio.|n|media
+commerce|торговля|Online [[commerce]] is growing fast.|n|work
+commissioner|уполномоченный, комиссар|The [[commissioner]] announced new rules.|n|gov
+commodity|товар|Oil is a valuable [[commodity]].|n|work
+communist|коммунистический|The country had a [[communist]] government for decades.|adj|gov
+companion|спутник, компаньон|A dog can be a loyal [[companion]].|n|soc
+comparable|сопоставимый|Salaries are [[comparable]] in the two cities.|adj|gen
+compassion|сострадание|Nurses need patience and [[compassion]].|n|health
+compel|заставлять|Law [[compels]] companies to publish accounts.|v|gov
+compensate|компенсировать|Insurance will [[compensate]] you for the loss.|v|work
+compensation|компенсация|Workers received [[compensation]] for injuries.|n|work
+competence|компетентность|The test measures basic [[competence]] in maths.|n|work
+competent|компетентный|She is a [[competent]] manager.|adj|work
+compile|составлять|Researchers [[compiled]] a list of common errors.|v|sci
+complement|дополнять|Wine can [[complement]] a good meal.|v|gen
+complexity|сложность|The [[complexity]] of the law confuses many people.|n|gov
+compliance|соблюдение (норм)|Factories must ensure [[compliance]] with safety rules.|n|work
+complication|осложнение|The operation had no [[complications]].|n|health
+comply|соблюдать, подчиняться|All firms must [[comply]] with the law.|v|gov
+composition|состав; сочинение|The [[composition]] of the soil affects crops.|n|sci
+compromise|компромисс|After long talks, they reached a [[compromise]].|n|gov
+compromise|идти на компромисс|Neither side wanted to [[compromise]].|v|gov
+conceal|скрывать|He tried to [[conceal]] the truth.|v|crime
+concede|уступать; признавать|The team had to [[concede]] defeat.|v|gen
+conceive|задумывать; зачать|The project was [[conceived]] ten years ago.|v|gen
+concession|уступка|The union made a [[concession]] on pay.|n|work
+condemn|осуждать|Leaders [[condemned]] the attack.|v|gov
+confess|признаваться|The thief [[confessed]] to the crime.|v|crime
+confession|признание|His [[confession]] surprised the police.|n|crime
+configuration|конфигурация|Check the [[configuration]] before running the program.|n|tech
+confine|ограничивать|Please [[confine]] your answer to 100 words.|v|gen
+confirmation|подтверждение|You will get an email as [[confirmation]].|n|gen
+confront|сталкиваться лицом к лицу|Young drivers [[confront]] high insurance costs.|v|gen
+confrontation|конфронтация|The talks ended in [[confrontation]].|n|gov
+congratulate|поздравлять|They [[congratulated]] her on her success.|v|soc
+congregation|прихожане|The [[congregation]] sang together.|n|soc
+congressional|конгрессовый|A [[congressional]] committee reviewed the bill.|adj|gov
+connectivity|связность, подключение|Rural areas need better [[connectivity]].|n|tech
+conquer|завоёвывать, побеждать|She [[conquered]] her fear of public speaking.|v|gen
+conscience|совесть|He had a guilty [[conscience]].|n|soc
+consciousness|сознание|He lost [[consciousness]] after the fall.|n|health
+consecutive|подряд идущий|It rained for five [[consecutive]] days.|adj|gen
+consensus|консенсус|There is a [[consensus]] that exercise is healthy.|n|sci
+consent|согласие|Children need parental [[consent]] for the trip.|n|soc
+consent|соглашаться|The patient [[consented]] to the operation.|v|health
+consistency|последовательность|Success needs [[consistency]] and patience.|n|gen
+consolidate|укреплять, объединять|The firm plans to [[consolidate]] its offices.|v|work
+constituency|избирательный округ|The MP visited her [[constituency]] on Friday.|n|gov
+constitution|конституция|The [[constitution]] protects free speech.|n|gov
+constitutional|конституционный|It is a [[constitutional]] right.|adj|gov
+constraint|ограничение|Time is a major [[constraint]] on the project.|n|work
+consultation|консультация|The plan was open for public [[consultation]].|n|gov
+contemplate|обдумывать|She began to [[contemplate]] a career change.|v|gen
+contempt|презрение|He treated the rules with [[contempt]].|n|soc
+contend|утверждать; бороться|Critics [[contend]] that the plan is too costly.|v|gen
+contender|претендент|She is a strong [[contender]] for the prize.|n|gen
+content|довольный|She is [[content]] with a simple life.|adj|gen
+contention|утверждение; спор|His main [[contention]] is that prices are too high.|n|gen
+continually|постоянно|Prices are [[continually]] changing.|adv|gen
+contractor|подрядчик|A building [[contractor]] repaired the roof.|n|work
+contrary|противоположный|[[Contrary]] to popular belief, bats are not blind.|adj|gen
+contrary|противоположное|On the [[contrary]], the results were excellent.|n|gen
+contributor|участник, автор вклада|He is a regular [[contributor]] to the magazine.|n|media
+conversion|преобразование|The [[conversion]] of the factory into flats took a year.|n|gen
+convict|осуждать (признавать виновным)|The court [[convicted]] him of fraud.|v|crime
