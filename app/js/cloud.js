@@ -1,8 +1,8 @@
 /* Облако: Supabase Auth + одна строка JSON на пользователя (RLS: только своя). Ключ anon — публичный по дизайну. */
 window.Cloud = (function () {
   'use strict';
-  const URL = 'https://zbfihbrvnhngdhutmnla.supabase.co';
-  const KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpiZmloYnJ2bmhuZ2RodXRtbmxhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODAxNTgzMTQsImV4cCI6MjA5NTczNDMxNH0.u2a4F_adNG1cY0ZLS288MG_LRCiaHl9Q6HVBNDIOPgQ';
+  const URL = 'https://imbodvcjursddpljmpsx.supabase.co';
+  const KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImltYm9kdmNqdXJzZGRwbGptcHN4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTMyNjU4NDEsImV4cCI6MjEwODg0MTg0MX0.7wgOu6NkrjKCmF9po6Rr6DUylbF7XclAdsa6XeJMTuI';
   let sb = null;
   function c() {
     if (!sb) sb = window.supabase.createClient(URL, KEY, { auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: false } });
