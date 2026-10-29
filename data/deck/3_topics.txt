@@ -1,0 +1,106 @@
+curriculum|учебная программа|The national [[curriculum]] includes music and art.|n|edu
+literacy|грамотность|Adult [[literacy]] has risen steadily.|n|edu
+tutor|репетитор, наставник|She hired a [[tutor]] to prepare for the exam.|n|edu
+scholarship|стипендия|He won a [[scholarship]] to study abroad.|n|edu
+graduate|выпускник|Recent [[graduates]] often struggle to find work.|n|edu
+enrol|записываться|More adults are choosing to [[enrol]] on evening courses.|v|edu
+dropout|бросивший учёбу|The [[dropout]] rate is highest among first-year students.|n|edu
+discipline|дисциплина|Strict [[discipline]] does not always improve results.|n|edu
+motivation|мотивация|Lack of [[motivation]] is a common problem.|n|edu
+bullying|травля|[[Bullying]] can damage a child's confidence.|n|edu
+plagiarism|плагиат|[[Plagiarism]] is treated as a serious offence.|n|edu
+deadline|крайний срок|Meeting a [[deadline]] teaches responsibility.|n|work
+workforce|рабочая сила, персонал|A skilled [[workforce]] attracts investment.|n|work
+unemployment|безработица|Youth [[unemployment]] is a major concern.|n|work
+redundancy|сокращение штата|Thousands faced [[redundancy]] when the factory closed.|n|work
+salary|зарплата|A higher [[salary]] does not guarantee happiness.|n|work
+promotion|повышение по службе|Hard work often leads to [[promotion]].|n|work
+career|карьера|She decided to change [[career]] at forty.|n|work
+freelance|фриланс; работать на себя|Many designers choose to work [[freelance]].|adj|work
+commute|ездить на работу; дорога на работу|Long [[commutes]] reduce free time.|n|work
+overtime|сверхурочные|Staff are paid extra for [[overtime]].|n|work
+stress|стресс|Constant [[stress]] harms both body and mind.|n|health
+obesity|ожирение|Childhood [[obesity]] is rising in many countries.|n|health
+epidemic|эпидемия|The [[epidemic]] spread rapidly through the region.|n|health
+vaccination|вакцинация|[[Vaccination]] has eliminated many diseases.|n|health
+diagnosis|диагноз|Early [[diagnosis]] improves the chances of recovery.|n|health
+treatment|лечение|Access to [[treatment]] varies between regions.|n|health
+prescription|рецепт|Antibiotics are available only on [[prescription]].|n|health
+addiction|зависимость|[[Addiction]] to gambling can ruin families.|n|health
+nutrition|питание|Good [[nutrition]] is essential for growing children.|n|health
+wellbeing|благополучие|Green spaces improve residents' [[wellbeing]].|n|health
+chronic|хронический|[[Chronic]] illness places a heavy burden on families.|adj|health
+preventive|профилактический|[[Preventive]] care is cheaper than treatment.|adj|health
+emissions|выбросы|Strict limits on [[emissions]] have improved air quality.|n|env
+deforestation|вырубка лесов|[[Deforestation]] destroys the habitats of many species.|n|env
+biodiversity|биоразнообразие|Intensive farming reduces [[biodiversity]].|n|env
+drought|засуха|A long [[drought]] ruined the harvest.|n|env
+flooding|наводнение|Climate change increases the risk of [[flooding]].|n|env
+landfill|свалка|Most household waste ends up in [[landfill]].|n|env
+recycle|перерабатывать|Households are encouraged to [[recycle]] paper and glass.|v|env
+conserve|сохранять, беречь|People must [[conserve]] water during dry summers.|v|env
+sustainable|устойчивый|[[Sustainable]] farming protects the soil.|adj|env
+pollutant|загрязнитель|Factories release harmful [[pollutants]] into rivers.|n|env
+habitat|среда обитания|Urban growth destroys wildlife [[habitats]].|n|env
+erosion|эрозия|Coastal [[erosion]] threatens several villages.|n|env
+algorithm|алгоритм|An [[algorithm]] decides which videos users see.|n|tech
+automation|автоматизация|[[Automation]] may replace repetitive jobs.|n|tech
+cybercrime|киберпреступность|[[Cybercrime]] costs businesses billions.|n|tech
+surveillance|наблюдение, слежка|Constant [[surveillance]] raises privacy concerns.|n|tech
+bandwidth|пропускная способность|Rural areas often lack sufficient [[bandwidth]].|n|tech
+gadget|гаджет|Children receive their first [[gadget]] at an early age.|n|tech
+obsolete|устаревший|Typewriters became [[obsolete]] within a generation.|adj|tech
+breakthrough|прорыв|A medical [[breakthrough]] saved thousands of lives.|n|tech
+virtual|виртуальный|[[Virtual]] meetings save travel time.|adj|tech
+addictive|вызывающий привыкание|Many apps are deliberately [[addictive]].|adj|tech
+offender|правонарушитель|First-time [[offenders]] rarely receive prison sentences.|n|crime
+sentence|приговор; приговаривать|Courts should give tougher [[sentences]] for violent crime.|n|crime
+penalty|наказание, штраф|The [[penalty]] for speeding has increased.|n|crime
+fraud|мошенничество|Online [[fraud]] affects elderly people most.|n|crime
+theft|кража|Bicycle [[theft]] is common in big cities.|n|crime
+victim|жертва|Support should be given to [[victims]] of crime.|n|crime
+prevention|предотвращение|Crime [[prevention]] is better than punishment.|n|crime
+imprisonment|тюремное заключение|[[Imprisonment]] does not always reduce reoffending.|n|crime
+illegal|незаконный|It is [[illegal]] to drive without insurance.|adj|crime
+inequality|неравенство|Income [[inequality]] is growing in many countries.|n|soc
+poverty|бедность|Education can help break the cycle of [[poverty]].|n|soc
+homelessness|бездомность|[[Homelessness]] is increasing in major cities.|n|soc
+discrimination|дискриминация|Laws protect workers from [[discrimination]].|n|soc
+urbanisation|урбанизация|Rapid [[urbanisation]] puts pressure on housing.|n|soc
+immigrant|иммигрант|[[Immigrants]] often fill gaps in the labour market.|n|soc
+generation|поколение|The older [[generation]] values stability.|n|soc
+stereotype|стереотип|Advertising can reinforce gender [[stereotypes]].|n|media
+lifestyle|образ жизни|A healthy [[lifestyle]] includes regular exercise.|n|health
+volunteer|волонтёр; работать добровольно|Students [[volunteer]] at local care homes.|v|soc
+donate|жертвовать|Many people [[donate]] to charity after disasters.|v|soc
+overpopulation|перенаселение|[[Overpopulation]] strains food and water supplies.|n|soc
+globalisation|глобализация|[[Globalisation]] has linked economies around the world.|n|soc
+multinational|транснациональный; транснациональная компания|Large [[multinationals]] influence local markets.|n|work
+tariff|тариф, пошлина|Higher [[tariffs]] raise the cost of imported goods.|n|gov
+legislation|законодательство|New [[legislation]] protects tenants.|n|gov
+subsidy|субсидия|Farmers receive a [[subsidy]] for each hectare.|n|gov
+taxation|налогообложение|Fair [[taxation]] funds public services.|n|gov
+infrastructure|инфраструктура|Poor [[infrastructure]] slows economic growth.|n|trans
+pedestrian|пешеход|Busy roads are dangerous for [[pedestrians]].|n|trans
+congestion charge|плата за въезд в центр|A [[congestion charge]] discourages car use in the centre.|phr|trans
+rush hour|час пик|Trains are crowded during [[rush hour]].|phr|trans
+carpool|ездить вместе на одной машине|Colleagues can [[carpool]] to save money.|v|trans
+fuel-efficient|экономичный (по топливу)|Buyers increasingly choose [[fuel-efficient]] cars.|adj|trans
+journey|поездка|The [[journey]] takes about two hours.|n|trans
+tourism|туризм|[[Tourism]] provides jobs but harms fragile sites.|n|trans
+broadcast|транслировать; передача|The match was [[broadcast]] in over fifty countries.|v|media
+headline|заголовок|A shocking [[headline]] attracts more readers.|n|media
+viewer|зритель|Younger [[viewers]] prefer streaming to television.|n|media
+sponsorship|спонсорство|Sports clubs depend on [[sponsorship]].|n|media
+censorship|цензура|[[Censorship]] limits access to information.|n|media
+influence|влияние; влиять|Celebrities [[influence]] young people's choices.|v|media
+advertisement|реклама|An [[advertisement]] can shape buying habits.|n|media
+entertainment|развлечения|The [[entertainment]] industry employs millions.|n|media
+museum|музей|Free entry encourages people to visit the [[museum]].|n|soc
+heritage site|объект наследия|The ancient town is a [[heritage site]].|phr|soc
+endangered language|исчезающий язык|Schools can help save an [[endangered language]].|phr|soc
+curiosity|любопытство|[[Curiosity]] drives scientific discovery.|n|sci
+experiment|эксперимент|The [[experiment]] was repeated several times.|n|sci
+variable|переменная|Only one [[variable]] was changed at a time.|n|sci
+sample|выборка, образец|A small [[sample]] may not be representative.|n|sci
+correlation|корреляция|The study found a [[correlation]] between sleep and grades.|n|sci

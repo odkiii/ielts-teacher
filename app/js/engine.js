@@ -261,6 +261,109 @@
     return c;
   }
 
+
+  // ---------- Заучивание (как в Quizlet): карточка не закрывается, пока её не отметят «Выучил» ----------
+  const GAPS = [2, 5, 10, 20]; // через сколько показов вернётся карточка при оценке again/hard/good/easy
+  const isWord = (c) => !!(c && c.t && c.ex);
+  const MARK = /\[\[([^\[\]]+)\]\]/;
+  const plain = (ex) => String(ex).replace(/\[\[([^\[\]]+)\]\]/g, '$1');
+  /** Режим показа: flip → mcq → write по мере роста уровня; выученные повторяются обычной карточкой. */
+  function lrMode(c) {
+    if (!isWord(c) || c.mastered || (c.lv || 0) <= 0) return 'flip';
+    return c.lv <= 2 ? 'mcq' : 'write';
+  }
+  /** Оценка во время заучивания. Возвращает, через сколько показов вернуть карточку. */
+  function lrRate(c, q) {
+    c.seen = true; c.lv = c.lv || 0;
+    if (q === 0) c.lv = 0; else if (q === 2) c.lv = Math.min(5, c.lv + 1); else if (q === 3) c.lv = Math.min(5, c.lv + 2);
+    return GAPS[q];
+  }
+  /** Пользователь сам отметил «Выучил»: дальше — повторение через 3 дня, потом по SM-2. */
+  function master(c, today) { c.seen = true; c.mastered = true; c.lv = 5; c.reps = 1; c.interval = 3; c.ease = c.ease || 2.5; c.due = addDays(today, 3); return c; }
+  function unmaster(c) { c.mastered = false; c.lv = 0; c.reps = 0; c.interval = 0; c.due = null; return c; }
+  /** Повторение выученной карточки. again возвращает её в заучивание. */
+  function reviewMastered(c, q, today) {
+    if (q === 0) { unmaster(c); c.seen = true; return 'relearn'; }
+    review(c, q, today); return 'scheduled';
+  }
+  /** Набор сессии: невыученные карточки в работе (сначала самые слабые) + новые до лимита, и выученные к повторению. */
+  function buildSession(cards, today, cap, newLeft) {
+    const prog = cards.filter((c) => c.seen && !c.mastered).sort((a, b) => (a.lv || 0) - (b.lv || 0)).slice(0, cap);
+    const fresh = cards.filter((c) => !c.seen).slice(0, Math.max(0, Math.min(cap - prog.length, newLeft)));
+    const mdue = cards.filter((c) => c.mastered && c.due && c.due <= today);
+    return { active: prog.concat(fresh).map((c) => c.id), mdue: mdue.map((c) => c.id), due: {}, last: null, counter: 0, doneM: {} };
+  }
+  /** Следующая карточка сессии или null. Сначала повторение выученных, затем самая «ранняя» из заучиваемых. */
+  function pickNext(cards, sess) {
+    const byId = (id) => cards.find((c) => c.id === id);
+    const m = sess.mdue.find((id) => !sess.doneM[id] && id !== sess.last);
+    if (m) return m;
+    const act = sess.active.filter((id) => { const c = byId(id); return c && !c.mastered; });
+    if (!act.length) { const m2 = sess.mdue.find((id) => !sess.doneM[id]); return m2 || null; }
+    const pool = act.length > 1 ? act.filter((id) => id !== sess.last) : act;
+    pool.sort((x, y) => ((sess.due[x] || 0) - (sess.due[y] || 0)) || ((byId(x).lv || 0) - (byId(y).lv || 0)));
+    return pool[0];
+  }
+  /** Тест с пропуском: 4 варианта-леммы. Дистракторы — того же типа (pos) и по возможности из другой темы. */
+  function mcq(c, cards, rnd) {
+    rnd = rnd || Math.random;
+    const same = cards.filter((x) => isWord(x) && x.id !== c.id && x.pos === c.pos && x.t.toLowerCase() !== c.t.toLowerCase());
+    const other = same.filter((x) => x.dom !== c.dom);
+    const pool = (other.length >= 3 ? other : same).slice();
+    const opts = [];
+    while (opts.length < 3 && pool.length) { const i = Math.floor(rnd() * pool.length); const t = pool.splice(i, 1)[0].t; if (!opts.includes(t)) opts.push(t); }
+    opts.push(c.t);
+    for (let i = opts.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [opts[i], opts[j]] = [opts[j], opts[i]]; }
+    return { text: String(c.ex).replace(MARK, '_____'), form: (String(c.ex).match(MARK) || [0, ''])[1], opts, answer: opts.indexOf(c.t) };
+  }
+  const STOP = new Set(['a', 'an', 'the', 'of', 'to', 'in', 'on', 'for', 'with', 'by', 'at', 'be', 'is', 'as', 'or', 'and', 'from', 'up', 'out']);
+  const stem = (w) => (w.length > 6 ? w.slice(0, w.length - 3) : w.length > 4 ? w.slice(0, w.length - 2) : w.length > 3 ? w.slice(0, w.length - 1) : w);
+  /** Грубая самопроверка своего предложения: есть ли слово/фраза, длина, заглавная буква и точка. */
+  function checkSentence(c, s) {
+    const txt = String(s || '').trim(); const low = txt.toLowerCase();
+    const words = txt.split(/\s+/).filter(Boolean);
+    const toks = c.t.toLowerCase().split(/\s+/).map((w) => w.replace(/[^a-z-]/g, '')).filter((w) => w && !STOP.has(w));
+    const key = toks.length ? toks : [c.t.toLowerCase()];
+    const hit = key.filter((w) => new RegExp('\\b' + stem(w).replace(/[-]/g, '\\-') + '[a-z]*').test(low)).length;
+    const used = hit / key.length >= 0.7;
+    const tips = [];
+    if (!used) tips.push('используй «' + c.t + '» в предложении');
+    if (words.length < 7) tips.push('сделай предложение подробнее (7+ слов)');
+    if (txt && !/^[A-Z]/.test(txt)) tips.push('начни с заглавной буквы');
+    if (txt && !/[.!?]$/.test(txt)) tips.push('поставь точку в конце');
+    return { used, words: words.length, ok: used && tips.length === 0, tips };
+  }
+
+
+  // ---------- Анализ текста Writing (простые эвристики, не оценка) ----------
+  const LINKERS = ['however', 'moreover', 'furthermore', 'in addition', 'for example', 'for instance', 'as a result', 'consequently', 'therefore', 'nevertheless', 'on the other hand', 'by contrast', 'whereas', 'while', 'although', 'despite', 'in conclusion', 'to sum up', 'overall', 'admittedly', 'in contrast', 'similarly', 'firstly', 'secondly', 'finally', 'in particular', 'as well as', 'because of', 'due to', 'thus'];
+  const COMMON = new Set('the a an and or but of to in on for with by at from is are was were be been being it this that these those they their there as not have has had will would can could should may might also more most than such which who whom what when where while people very much many some any all one two three'.split(' '));
+  function analyseText(text, kind) {
+    const t = String(text || '').trim();
+    const words = t ? t.split(/\s+/).filter(Boolean) : [];
+    const paras = t ? t.split(/\n\s*\n|\n/).map((x) => x.trim()).filter(Boolean).length : 0;
+    const sentences = (t.match(/[^.!?]+[.!?]+/g) || (t ? [t] : [])).length;
+    const low = t.toLowerCase();
+    const freq = {};
+    (low.match(/[a-z][a-z'-]{3,}/g) || []).forEach((w) => { if (!COMMON.has(w)) freq[w] = (freq[w] || 0) + 1; });
+    const repeats = Object.keys(freq).filter((w) => freq[w] >= 4).sort((a, b) => freq[b] - freq[a]).slice(0, 5).map((w) => [w, freq[w]]);
+    const linkers = LINKERS.filter((l) => new RegExp('\\b' + l + '\\b').test(low));
+    const minWords = kind === 't2' ? 250 : 150;
+    return {
+      words: words.length, minWords, short: words.length < minWords, paras, sentences, avgLen: sentences ? Math.round(10 * words.length / sentences) / 10 : 0,
+      repeats, linkers, hasConclusion: /\b(in conclusion|to sum up|to conclude|in summary|overall)\b/.test(low),
+      hasOverview: /\b(overall|in general|it is clear|the most striking|generally)\b/.test(low),
+    };
+  }
+  /** Проверка ответа типа «короткий ответ»: регистр, пробелы, дефис/пробел не важны. */
+  const normAns = (s) => String(s || '').toLowerCase().replace(/[‐–—-]/g, ' ').replace(/[^a-z0-9 ]/g, '').replace(/\s+/g, ' ').trim();
+  function checkAnswer(item, given) {
+    const g = String(given || '').trim();
+    if (!g) return false;
+    if (Array.isArray(item.a)) return item.a.some((x) => normAns(x) === normAns(g));
+    return String(item.a).toLowerCase() === g.toLowerCase();
+  }
+
   // ---------- Баллы ----------
   function overall(L, R, W, S) {
     const a = (L + R + W + S) / 4;
@@ -278,6 +381,6 @@
     return 3.5;
   }
 
-  const api = { SK, PHASES, pd, fmt, addDays, daysBetween, weekNo, phaseFor, errorSeverity, weights, dayTasks, newCard, dueCards, review, overall, rawToBand };
+  const api = { SK, PHASES, pd, fmt, addDays, daysBetween, weekNo, phaseFor, errorSeverity, weights, dayTasks, newCard, dueCards, review, overall, rawToBand, isWord, plain, lrMode, lrRate, master, unmaster, reviewMastered, buildSession, pickNext, mcq, checkSentence, GAPS, analyseText, checkAnswer };
   if (typeof module !== 'undefined' && module.exports) module.exports = api; else root.Engine = api;
 })(typeof window !== 'undefined' ? window : globalThis);

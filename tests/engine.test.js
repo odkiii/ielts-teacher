@@ -90,3 +90,66 @@ test('overall rounding and raw→band', () => {
   assert.equal(E.rawToBand('listening', 32), 7.5);
   assert.equal(E.rawToBand('reading_general', 34), 7);
 });
+
+// ---------- заучивание ----------
+const Eg = require('../app/js/engine.js');
+const mk = (id, t, pos, dom) => ({ id, t, ru: '', ex: 'We [[' + t + ']] it.', pos, dom, seen: false });
+test('lrMode растёт с уровнем, выученные — flip', () => {
+  const c = mk('a', 'plunge', 'v', 'gen');
+  assert.equal(Eg.lrMode(c), 'flip'); c.lv = 1; assert.equal(Eg.lrMode(c), 'mcq'); c.lv = 3; assert.equal(Eg.lrMode(c), 'write');
+  c.mastered = true; assert.equal(Eg.lrMode(c), 'flip');
+  assert.equal(Eg.lrMode({ id: 'x', f: 'a', b: 'b', lv: 4 }), 'flip');
+});
+test('lrRate: again обнуляет, easy не закрывает карточку', () => {
+  const c = mk('a', 'plunge', 'v', 'gen');
+  assert.equal(Eg.lrRate(c, 3), 20); assert.equal(c.lv, 2); assert.ok(!c.mastered);
+  assert.equal(Eg.lrRate(c, 3), 20); assert.equal(c.lv, 4);
+  assert.equal(Eg.lrRate(c, 3), 20); assert.equal(c.lv, 5); assert.ok(!c.mastered);
+  assert.equal(Eg.lrRate(c, 0), 2); assert.equal(c.lv, 0);
+});
+test('master/review: повторение и возврат в заучивание', () => {
+  const c = mk('a', 'plunge', 'v', 'gen'); Eg.master(c, '2026-11-01');
+  assert.equal(c.mastered, true); assert.equal(c.due, '2026-11-04');
+  assert.equal(Eg.reviewMastered(c, 2, '2026-11-04'), 'scheduled'); assert.ok(c.due > '2026-11-04');
+  assert.equal(Eg.reviewMastered(c, 0, '2026-11-10'), 'relearn'); assert.equal(c.mastered, false); assert.equal(c.lv, 0);
+});
+test('buildSession/pickNext: карточка не исчезает, пока не выучена', () => {
+  const cards = [mk('a', 'plunge', 'v', 'gen'), mk('b', 'soar', 'v', 'env'), mk('c', 'peak', 'v', 'trans')];
+  const s = Eg.buildSession(cards, '2026-11-01', 2, 5);
+  assert.deepEqual(s.active, ['a', 'b']);
+  const seen = new Set();
+  for (let i = 0; i < 12; i++) { const id = Eg.pickNext(cards, s); assert.ok(id); seen.add(id); const c = cards.find((x) => x.id === id); s.counter++; s.due[id] = s.counter + Eg.lrRate(c, 3); s.last = id; }
+  assert.ok(cards.find((x) => x.id === 'a').lv >= 4 && !cards[0].mastered); // всё ещё в работе
+  Eg.master(cards[0], '2026-11-01'); Eg.master(cards[1], '2026-11-01');
+  assert.equal(Eg.pickNext(cards, s), null);
+});
+test('просроченные выученные идут первыми', () => {
+  const cards = [mk('a', 'plunge', 'v', 'gen'), mk('b', 'soar', 'v', 'env')]; Eg.master(cards[1], '2026-10-01');
+  const s = Eg.buildSession(cards, '2026-11-01', 5, 5); assert.deepEqual(s.mdue, ['b']); assert.equal(Eg.pickNext(cards, s), 'b');
+});
+test('mcq: правильный вариант на месте, дистракторы того же pos', () => {
+  const cards = [mk('a', 'plunge', 'v', 'gen'), mk('b', 'soar', 'v', 'env'), mk('c', 'peak', 'v', 'trans'), mk('d', 'decline', 'v', 'soc'), mk('e', 'issue', 'n', 'soc')];
+  const q = Eg.mcq(cards[0], cards, () => 0.3);
+  assert.equal(q.opts.length, 4); assert.equal(q.opts[q.answer], 'plunge'); assert.ok(!q.opts.includes('issue')); assert.ok(q.text.includes('_____'));
+});
+test('checkSentence', () => {
+  const c = { t: 'play a crucial role in', ex: 'x' };
+  assert.equal(Eg.checkSentence(c, 'Teachers play a crucial role in shaping young minds.').ok, true);
+  assert.equal(Eg.checkSentence(c, 'Teachers are important.').used, false);
+  assert.equal(Eg.checkSentence({ t: 'soar', ex: 'x' }, 'prices soared last year').ok, false);
+  assert.equal(Eg.checkSentence({ t: 'soar', ex: 'x' }, 'House prices soared in the city last year.').ok, true);
+});
+
+test('analyseText: слова, абзацы, повторы, связки', () => {
+  const txt = 'Technology helps students. However, technology also distracts students.\n\nFor example, technology may reduce focus. In conclusion, technology matters; technology is everywhere.';
+  const a = Eg.analyseText(txt, 't2');
+  assert.equal(a.paras, 2); assert.ok(a.short); assert.equal(a.minWords, 250);
+  assert.ok(a.linkers.includes('however') && a.linkers.includes('for example') && a.linkers.includes('in conclusion'));
+  assert.equal(a.repeats[0][0], 'technology'); assert.ok(a.hasConclusion);
+  assert.equal(Eg.analyseText('', 't1').words, 0);
+});
+test('checkAnswer: регистр и дефис не важны, неверное — нет', () => {
+  assert.ok(Eg.checkAnswer({ a: ['lower-cost', 'lower cost'] }, ' Lower cost ')); assert.ok(Eg.checkAnswer({ a: ['planters'] }, 'PLANTERS.'));
+  assert.ok(!Eg.checkAnswer({ a: ['planters'] }, 'planter')); assert.ok(!Eg.checkAnswer({ a: ['x'] }, ''));
+  assert.ok(Eg.checkAnswer({ a: 'T' }, 't')); assert.ok(!Eg.checkAnswer({ a: 'NG' }, 'F'));
+});

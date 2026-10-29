@@ -111,10 +111,10 @@
       skills: { L: f.L, R: f.R, W: f.W, S: f.S }, cards: CONTENT.cards.map((c, i) => E.newCard(c.f, c.b, 's' + i)),
       errors: [], days: {}, done: {}, mocks: [], subs: [], newPerDay: f.newPerDay || 10, newToday: { date: '', n: 0 },
     };
-    DB.profiles[p.id] = p; DB.active = p.id; save();
+    DB.profiles[p.id] = p; DB.active = p.id; syncDeck(p); ensureP(p); save();
   }
   function profileForm(p, label) {
-    const v = p || { name: '', module: 'academic', target: { overall: 7.5, min: 7 }, hours: 13, start: nextMonday(today()), skills: { L: 4.5, R: 4.5, W: 4.5, S: 4.5 }, newPerDay: 10, test_date: '' };
+    const v = p || { name: '', module: 'academic', target: { overall: 7.5, min: 7 }, hours: 13, start: nextMonday(today()), skills: { L: 4.5, R: 4.5, W: 4.5, S: 4.5 }, newPerDay: 15, test_date: '' };
     const band = (id, val) => '<input id="' + id + '" type="number" inputmode="decimal" step="0.5" min="1" max="9" value="' + val + '">';
     return '<form id="pf"><label>Имя</label><input id="f_name" value="' + esc(v.name) + '" autocomplete="off">' +
       '<label>Экзамен</label>' + seg('f_module', [['academic', 'Academic'], ['general', 'General']], v.module) +
@@ -135,7 +135,7 @@
   }
 
   // ---------- Сегодня ----------
-  let viewDate = null, session_ = null;
+  let viewDate = null;
   function dayFor(date) { const p = P(); if (!p.days[date]) p.days[date] = E.dayTasks(p, date, CONTENT, RES, p.errors); return p.days[date]; }
   function resLine(r) {
     if (!r) return '';
@@ -144,12 +144,12 @@
     return '<span class="mut">' + esc(r.name) + (r.search ? ' — поиск: «' + esc(r.search) + '»' : '') + '</span>';
   }
   // таймер (глобальный, переживает смену экранов)
-  const timer = { end: 0 };
+  const timer = { end: 0, owner: '', idle: '25 мин' };
   setInterval(() => {
-    const el = $('#tmt'); if (!timer.end) return;
-    const s = Math.max(0, Math.round((timer.end - Date.now()) / 1000));
-    if (el) el.textContent = p2(Math.floor(s / 60)) + ':' + p2(s % 60);
-    if (s <= 0) { timer.end = 0; toast('Время вышло'); try { navigator.vibrate && navigator.vibrate(300); } catch (e) { /* ignore */ } if (el) el.textContent = '25 мин'; }
+    if (!timer.end) return;
+    const el = $('#tmt'); const s = Math.max(0, Math.round((timer.end - Date.now()) / 1000));
+    if (el && el.dataset.owner === timer.owner) el.textContent = p2(Math.floor(s / 60)) + ':' + p2(s % 60);
+    if (s <= 0) { timer.end = 0; toast('Время вышло'); try { navigator.vibrate && navigator.vibrate(300); } catch (e) { /* ignore */ } if (el && el.dataset.owner === timer.owner) el.textContent = timer.idle || '25 мин'; }
   }, 500);
 
   function viewToday() {
@@ -166,7 +166,7 @@
       return '<div class="task' + (done[t.id] ? ' done' : '') + '" data-id="' + esc(t.id) + '"><button class="cb" aria-label="Готово" aria-pressed="' + !!done[t.id] + '"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></button>' +
         '<div><button class="tbody"><div class="ttl">' + esc(t.title) + '</div><div class="tmeta">' + t.minutes + ' мин · ' + esc(SKN[t.skill] || t.skill) + '</div></button>' + (more ? '<div class="more"><div>' + more + '</div></div>' : '') + '</div></div>';
     }).join('') + '</div>';
-    h += '<div class="list" style="margin-top:14px"><button class="rowi" id="tm"><span class="grow">Таймер фокуса</span><b id="tmt">' + (timer.end ? '…' : '25 мин') + '</b></button></div>';
+    h += '<div class="list" style="margin-top:14px"><button class="rowi" id="tm"><span class="grow">Таймер фокуса</span><b id="tmt" data-owner="today">' + (timer.end && timer.owner === 'today' ? '…' : '25 мин') + '</b></button></div>';
     paint(h);
     $('#dprev').onclick = () => { viewDate = E.addDays(date, -1); route(); };
     $('#dnext').onclick = () => { const n = E.addDays(date, 1); viewDate = n === today() ? null : n; route(); };
@@ -181,7 +181,7 @@
       };
       row.querySelector('.tbody').onclick = () => { if (row.querySelector('.more')) row.classList.toggle('open'); };
     });
-    $('#tm').onclick = () => { if (timer.end) { timer.end = 0; $('#tmt').textContent = '25 мин'; } else { timer.end = Date.now() + 25 * 60000; $('#tmt').textContent = '25:00'; } };
+    $('#tm').onclick = () => { if (timer.end && timer.owner === 'today') { timer.end = 0; $('#tmt').textContent = '25 мин'; } else { timer.end = Date.now() + 25 * 60000; timer.owner = 'today'; timer.idle = '25 мин'; $('#tmt').textContent = '25:00'; } };
   }
 
   // ---------- План ----------
@@ -203,40 +203,136 @@
   }
 
   // ---------- Карточки ----------
+  let DECK = [], READ = [], WRITING = null;
+  const hl = (ex) => esc(ex).replace(/\[\[([^\[\]]+)\]\]/g, '<mark>$1</mark>');
+  const POS = { n: 'сущ.', v: 'глагол', adj: 'прил.', adv: 'нареч.', phr: 'выражение', prep: 'предлог', conj: 'союз' };
+  const hash = (s) => { let h = 2166136261; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); } h ^= h >>> 15; h = Math.imul(h, 0x2c1b3c6d); h ^= h >>> 12; return h >>> 0; };
+  const CAP = 12;
+  let sess = null; const cst = { tab: 'learn', cur: null, step: 'q', mq: null, pick: null };
+
+  function syncDeck(p) {
+    const ids = new Set(p.cards.map((c) => c.id)); const byId = {}; DECK.forEach((d) => { byId[d.id] = d; });
+    p.cards.forEach((c) => { const d = byId[c.id]; if (d) { c.t = d.t; c.ru = d.ru; c.ex = d.ex; c.pos = d.pos; c.dom = d.dom; } });
+    let added = 0;
+    DECK.forEach((d) => { if (!ids.has(d.id)) { p.cards.push(Object.assign(E.newCard('', '', d.id), { t: d.t, ru: d.ru, ex: d.ex, pos: d.pos, dom: d.dom, lv: 0 })); added++; } });
+    if (added) { const seen = p.cards.filter((c) => c.seen); const rest = p.cards.filter((c) => !c.seen).sort((a, b) => hash(a.id) - hash(b.id)); p.cards = seen.concat(rest); }
+    return added;
+  }
+  function ensureP(p) { p.drafts = p.drafts || {}; p.writes = p.writes || []; p.reads = p.reads || []; if (!p.newToday) p.newToday = { date: '', n: 0, extra: 0 }; }
+  const newLeft = (p) => Math.max(0, p.newPerDay + (p.newToday.extra || 0) - p.newToday.n);
+  function ensureSess(p) {
+    const t0 = today();
+    if (p.newToday.date !== t0) p.newToday = { date: t0, n: 0, extra: 0 };
+    if (!sess || sess.date !== t0 || sess.pid !== p.id) { sess = E.buildSession(p.cards, t0, CAP, newLeft(p)); sess.date = t0; sess.pid = p.id; cst.cur = null; }
+  }
+  function refill(p) {
+    const act = sess.active.map((id) => p.cards.find((x) => x.id === id)).filter((c) => c && !c.mastered);
+    const room = CAP - act.length; const left = newLeft(p) - act.filter((c) => !c.seen).length;
+    if (room <= 0 || left <= 0) return;
+    p.cards.filter((c) => !c.seen && !sess.active.includes(c.id)).slice(0, Math.min(room, left)).forEach((c) => sess.active.push(c.id));
+  }
+  function addWordCard(p, term, ru, ex) {
+    const re = new RegExp(term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i'); let c;
+    if (ex && re.test(ex)) { c = E.newCard('', '', uid()); Object.assign(c, { t: term, ru, ex: ex.replace(re, (m) => '[[' + m + ']]'), pos: 'phr', dom: 'my', lv: 0 }); }
+    else c = E.newCard(term, ru + (ex ? ' — ' + ex : ''));
+    p.cards.push(c);
+  }
   function viewCards() {
-    const p = P(); const t0 = today();
-    if (p.newToday.date !== t0) p.newToday = { date: t0, n: 0 };
-    if (!session_ || session_.date !== t0) {
-      const q = E.dueCards(p.cards, t0, p.newPerDay, p.newToday.n);
-      session_ = { date: t0, queue: q.due.concat(q.fresh).map((c) => c.id), shown: false };
-    }
-    const seen = p.cards.filter((c) => c.seen).length;
-    let h = head('Карточки', 'В очереди ' + session_.queue.length + ' · изучено ' + seen + ' из ' + p.cards.length, plusBtn('cplus', 'Добавить'));
-    if (session_.queue.length) {
-      const c = p.cards.find((x) => x.id === session_.queue[0]);
-      h += '<div class="flash">' + esc(c.f) + '</div>';
-      if (session_.shown) {
-        h += '<div class="flash back">' + esc(c.b) + '</div><div class="grid4" style="margin-top:14px">' +
-          [['0', 'Снова'], ['1', 'Трудно'], ['2', 'Хорошо'], ['3', 'Легко']].map(([q, n]) => '<button class="btn' + (q === '2' ? ' p' : '') + '" style="padding:0" data-q="' + q + '">' + n + '</button>').join('') + '</div>' +
-          '<p class="mut" style="text-align:center;margin-top:14px">Слово выучено, когда ты применил его в Writing или Speaking.</p>';
-      } else h += '<div style="margin-top:14px"><button class="btn p" id="show">Показать ответ</button></div>';
-    } else h += '<div class="card" style="text-align:center;padding:36px 16px"><div class="big">✓</div><div class="mut" style="margin-top:6px">На сегодня всё · новых ' + p.newToday.n + '/' + p.newPerDay + '</div></div>';
-    paint(h, !session_.shown);
-    if ($('#show')) $('#show').onclick = () => { session_.shown = true; route(false); };
-    $$('button[data-q]').forEach((b) => b.onclick = () => {
-      const c = p.cards.find((x) => x.id === session_.queue[0]); const q = +b.dataset.q;
-      if (!c.seen) p.newToday.n += 1;
-      E.review(c, q, t0); session_.queue.shift(); if (q === 0) session_.queue.push(c.id);
-      session_.shown = false; save(); route(true);
-    });
-    $('#cplus').onclick = () => openSheet('<h2>Новая карточка</h2><div class="stack"><input id="cf" placeholder="Вопрос / контекст" autocomplete="off"><input id="cb" placeholder="Ответ: chunk + пример" autocomplete="off"><button class="btn p" id="cadd">Добавить</button></div>' +
-      '<h3>Импорт</h3><textarea id="csv" placeholder="front;back — по одной на строку"></textarea><div style="margin-top:10px"><button class="btn" id="cimp">Импортировать</button></div>', () => {
-      $('#cadd').onclick = () => { const f = $('#cf').value.trim(), b = $('#cb').value.trim(); if (!f || !b) { toast('Заполни оба поля'); return; } p.cards.push(E.newCard(f, b)); session_ = null; save(); closeSheet(); toast('Добавлено'); route(); };
+    const p = P(); ensureSess(p); refill(p);
+    const mastered = p.cards.filter((c) => c.mastered).length, work = p.cards.filter((c) => c.seen && !c.mastered).length;
+    paint(head('Карточки', '<span id="csub"></span>', plusBtn('cplus', 'Добавить')) + seg('ctab', [['learn', 'Учить'], ['deck', 'Колода']], cst.tab) + '<div id="cbody" style="margin-top:16px"></div>');
+    bindSeg('ctab', (v) => { cst.tab = v; drawCards(); });
+    $('#cplus').onclick = () => openSheet('<h2>Новая карточка</h2><div class="stack"><input id="cf" placeholder="Слово или фраза (English)" autocomplete="off"><input id="cb" placeholder="Перевод" autocomplete="off"><input id="cx" placeholder="Предложение с этим словом" autocomplete="off"><button class="btn p" id="cadd">Добавить</button></div>' +
+      '<h3>Импорт</h3><textarea id="csv" placeholder="слово;перевод;пример — по одной на строку (или front;back)"></textarea><div style="margin-top:10px"><button class="btn" id="cimp">Импортировать</button></div>', () => {
+      $('#cadd').onclick = () => { const f = $('#cf').value.trim(), b = $('#cb').value.trim(); if (!f || !b) { toast('Заполни слово и перевод'); return; } addWordCard(p, f, b, $('#cx').value.trim()); sess = null; save(); closeSheet(); toast('Добавлено'); route(); };
       $('#cimp').onclick = () => {
-        let n = 0; $('#csv').value.split('\n').map((l) => l.trim()).filter(Boolean).forEach((l) => { const i = l.indexOf(';'); if (i > 0) { p.cards.push(E.newCard(l.slice(0, i).trim(), l.slice(i + 1).trim())); n++; } });
-        session_ = null; save(); closeSheet(); toast('Добавлено: ' + n); route();
+        let n = 0; $('#csv').value.split('\n').map((l) => l.trim()).filter(Boolean).forEach((l) => { const a = l.split(';').map((x) => x.trim()); if (a.length >= 3 && a[0] && a[1]) { addWordCard(p, a[0], a[1], a.slice(2).join('; ')); n++; } else if (a.length === 2 && a[0] && a[1]) { p.cards.push(E.newCard(a[0], a[1])); n++; } });
+        sess = null; save(); closeSheet(); toast('Добавлено: ' + n); route();
       };
     });
+    drawCards();
+  }
+  function updSub() {
+    const p = P(); const el = $('#csub'); if (!el) return;
+    el.textContent = p.cards.filter((c) => c.mastered).length + ' выучено из ' + p.cards.length + ' · в работе ' + p.cards.filter((c) => c.seen && !c.mastered).length;
+  }
+  function drawCards() { updSub(); if (cst.tab === 'deck') drawDeck(); else drawLearn(); }
+  const RATES = [['0', 'Снова'], ['1', 'Трудно'], ['2', 'Хорошо'], ['3', 'Легко']];
+  const rateRow = () => '<div class="grid4" style="margin-top:14px">' + RATES.map(([q, n]) => '<button class="btn' + (q === '2' ? ' p' : '') + '" style="padding:0" data-q="' + q + '">' + n + '</button>').join('') + '</div>';
+
+  function applyRate(p, c, q) {
+    const t0 = today();
+    if (!c.seen) p.newToday.n += 1;
+    if (c.mastered) {
+      const r = E.reviewMastered(c, q, t0); sess.doneM[c.id] = true;
+      if (r === 'relearn') { if (!sess.active.includes(c.id)) sess.active.push(c.id); sess.due[c.id] = sess.counter + E.GAPS[0]; }
+    } else sess.due[c.id] = sess.counter + E.lrRate(c, q);
+    sess.counter += 1; sess.last = c.id; save(); cst.cur = null; refill(p); drawCards();
+  }
+  function drawLearn() {
+    const p = P(); const body = $('#cbody'); const id = E.pickNext(p.cards, sess);
+    if (!id) {
+      body.innerHTML = '<div class="card enter" style="text-align:center;padding:30px 16px"><div class="big">✓</div><div class="mut" style="margin:6px 0 16px">На сейчас всё. Новых сегодня: ' + p.newToday.n + '</div><button class="btn p" id="cmore">Ещё 10 новых слов</button></div>';
+      $('#cmore').onclick = () => { p.newToday.extra = (p.newToday.extra || 0) + 10; save(); sess = null; ensureSess(p); refill(p); drawCards(); };
+      return;
+    }
+    const c = p.cards.find((x) => x.id === id);
+    if (cst.cur !== id) { cst.cur = id; cst.step = 'q'; cst.pick = null; cst.mq = E.isWord(c) && !c.mastered && E.lrMode(c) === 'mcq' ? E.mcq(c, p.cards) : null; }
+    const word = E.isWord(c); const review = !!c.mastered; const mode = review ? 'flip' : E.lrMode(c);
+    const lvl = '<div class="mut" style="text-align:center;margin-bottom:8px">' + (review ? 'Повторение выученного' : 'Уровень ' + (c.lv || 0) + ' из 5') + '</div>';
+    const mst = review ? '' : '<div style="text-align:center;margin-top:6px"><button class="link" id="mst">Выучил — больше не заучивать</button></div>';
+    let h = '<div class="enter">' + lvl;
+    if (mode === 'flip') {
+      if (word) h += '<div class="flash"><small>' + (POS[c.pos] || '') + '</small><div class="term">' + esc(c.t) + '</div><div class="exm">' + hl(c.ex) + '</div></div>' + (cst.step === 'a' ? '<div class="flash back"><b>' + esc(c.ru) + '</b></div>' : '');
+      else h += '<div class="flash">' + esc(c.f) + '</div>' + (cst.step === 'a' ? '<div class="flash back">' + esc(c.b) + '</div>' : '');
+      h += cst.step === 'a' ? rateRow() + mst : '<div style="margin-top:14px"><button class="btn p" id="show">Показать перевод</button></div>';
+    } else if (mode === 'mcq') {
+      const q = cst.mq;
+      h += '<div class="flash"><small>Выбери слово · перевод: ' + esc(c.ru) + '</small><div class="exm" style="font-size:19px">' + esc(q.text) + '</div></div><div class="opts">' +
+        q.opts.map((o, i) => '<button class="opt' + (cst.pick != null ? (i === q.answer ? ' ok' : i === cst.pick ? ' bad' : '') : '') + '" data-o="' + i + '"' + (cst.pick != null ? ' disabled' : '') + '>' + esc(o) + '</button>').join('') + '</div>';
+      if (cst.pick != null) h += '<div class="flash back" style="font-size:17px">' + hl(c.ex) + '</div><div style="margin-top:14px"><button class="btn p" id="next">Дальше</button></div>' + mst;
+    } else {
+      h += '<div class="flash"><small>Напиши своё предложение</small><div class="term">' + esc(c.t) + '</div><div class="mut">' + esc(c.ru) + '</div></div>';
+      if (cst.step === 'q') h += '<textarea id="mys" style="margin-top:12px;min-height:90px" placeholder="Предложение со словом «' + esc(c.t) + '»" spellcheck="false" autocapitalize="sentences"></textarea><div style="margin-top:12px"><button class="btn p" id="chk">Проверить</button></div>';
+      else {
+        const r = cst.res; h += '<div class="card" style="margin-top:12px"><div style="font-weight:600;color:var(--' + (r.ok ? 'ok' : 'warn') + ')">' + (r.ok ? 'Хорошее предложение' : 'Можно лучше') + '</div>' + (r.tips.length ? '<ul class="mut" style="margin:6px 0 0;padding-left:18px">' + r.tips.map((t) => '<li>' + esc(t) + '</li>').join('') + '</ul>' : '') +
+          '<div class="mut" style="margin-top:10px">Пример:</div><div class="exm" style="font-size:16px;margin-top:2px">' + hl(c.ex) + '</div></div>' + rateRow() + mst;
+      }
+    }
+    body.innerHTML = h + '</div>';
+    const sh = $('#show'); if (sh) sh.onclick = () => { cst.step = 'a'; drawLearn(); };
+    $$('button[data-q]').forEach((b) => { b.onclick = () => applyRate(p, c, +b.dataset.q); });
+    $$('.opt').forEach((b) => { b.onclick = () => { cst.pick = +b.dataset.o; drawLearn(); }; });
+    const nx = $('#next'); if (nx) nx.onclick = () => applyRate(p, c, cst.pick === cst.mq.answer ? 2 : 0);
+    const ck = $('#chk'); if (ck) ck.onclick = () => {
+      const s = $('#mys').value.trim(); if (!s) { toast('Напиши предложение'); return; }
+      cst.res = E.checkSentence(c, s); c.my = (c.my || []).concat([s]).slice(-3); save(); cst.step = 'a'; drawLearn();
+    };
+    const m = $('#mst'); if (m) m.onclick = () => { if (!c.seen) p.newToday.n += 1; E.master(c, today()); sess.last = c.id; save(); cst.cur = null; toast('Выучено — повторю через 3 дня'); refill(p); drawCards(); };
+  }
+  let deckF = 'all', deckQ = '';
+  function drawDeck() {
+    const p = P();
+    $('#cbody').innerHTML = '<input id="dq" type="search" placeholder="Поиск по слову или переводу" value="' + esc(deckQ) + '" autocomplete="off"><div class="chips" id="df" style="margin:12px -18px 14px">' +
+      [['all', 'Все'], ['work', 'В работе'], ['done', 'Выучено'], ['new', 'Новые']].map(([k, n]) => '<button data-f="' + k + '" class="' + (k === deckF ? 'on' : '') + '">' + n + '</button>').join('') + '</div><div id="dl"></div>';
+    const draw = () => {
+      const q = deckQ.toLowerCase();
+      const list = p.cards.filter((c) => (deckF === 'all' || (deckF === 'done' && c.mastered) || (deckF === 'work' && c.seen && !c.mastered) || (deckF === 'new' && !c.seen)) &&
+        (!q || ((c.t || c.f || '') + ' ' + (c.ru || c.b || '')).toLowerCase().includes(q)));
+      $('#dl').innerHTML = (list.length ? '<div class="list">' + list.slice(0, 80).map((c) => '<button class="rowi" data-c="' + esc(c.id) + '"><div class="grow"><b>' + esc(c.t || c.f) + '</b><div class="mut" style="margin-top:2px">' + esc(c.ru || String(c.b).slice(0, 60)) + '</div></div><span class="chip' + (c.mastered ? ' on' : '') + '">' + (c.mastered ? 'выучено' : c.seen ? 'ур. ' + (c.lv || 0) : 'новое') + '</span></button>').join('') + '</div>' : '<div class="mut" style="text-align:center">Ничего не найдено</div>') +
+        (list.length > 80 ? '<p class="mut" style="text-align:center">Показаны первые 80 из ' + list.length + ' — уточни поиск</p>' : '');
+      $$('[data-c]').forEach((b) => b.onclick = () => {
+        const c = p.cards.find((x) => x.id === b.dataset.c);
+        openSheet('<h2>' + esc(c.t || c.f) + '</h2>' + (E.isWord(c) ? '<p class="mut">' + (POS[c.pos] || '') + ' · ' + esc(c.ru) + '</p><div class="card exm" style="font-size:16px">' + hl(c.ex) + '</div>' : '<div class="card">' + esc(c.b) + '</div>') +
+          (c.my && c.my.length ? '<h3>Мои предложения</h3><div class="stack">' + c.my.map((s) => '<div class="card" style="font-size:15px">' + esc(s) + '</div>').join('') + '</div>' : '') +
+          '<div style="margin-top:16px"><button class="btn' + (c.mastered ? '' : ' p') + '" id="dm">' + (c.mastered ? 'Вернуть в заучивание' : 'Отметить выученной') + '</button></div>', () => {
+          $('#dm').onclick = () => { if (c.mastered) E.unmaster(c); else E.master(c, today()); sess = null; save(); closeSheet(); toast(c.mastered ? 'Выучено' : 'Снова в работе'); viewCards(); };
+        });
+      });
+    };
+    $('#dq').oninput = (e) => { deckQ = e.target.value; draw(); };
+    $$('#df button').forEach((b) => b.onclick = () => { deckF = b.dataset.f; $$('#df button').forEach((x) => x.classList.toggle('on', x === b)); draw(); });
+    draw();
   }
 
   // ---------- Ошибки ----------
@@ -270,31 +366,189 @@
       '\n\nReturn:\n1) A band RANGE for each of the 4 criteria (e.g. 6.0–6.5), each with 1–2 short quotes from the text as evidence.\n2) An overall range.\n3) The 3 highest-impact fixes.\n4) One rewritten paragraph one band higher.\n5) 3 collocations to learn.\n6) A list of errors with codes (W-ART, W-WF, W-SVA, W-PUNCT, W-COLL, W-REP, W-TR, W-CC; for speaking S-FC, S-LR, S-GRA).\nFinish with one JSON line: {"c1":x,"c2":x,"c3":x,"c4":x} using the LOWER end of each range.';
   }
   const KINDS = [['t2', 'Task 2'], ['t1', 'Task 1'], ['gt', 'Письмо'], ['sp', 'Speaking']];
-  let ckKind = 't2';
-  function viewCheck() {
-    const p = P();
-    let h = head('Проверка', 'Промпт для ИИ-экзаменатора', plusBtn('cscore', 'Записать оценку'));
-    h += seg('ck', KINDS, ckKind) + '<label>Задание</label><textarea id="cq" style="min-height:64px" placeholder="Вопрос Task 2 или тема Speaking"></textarea>' +
-      '<label>Твой текст <span id="wc">· 0 слов</span></label><textarea id="ct" style="min-height:180px" spellcheck="false" autocapitalize="off" autocorrect="off"></textarea>' +
-      '<div style="margin-top:14px"><button class="btn p" id="cbuild">Скопировать промпт</button></div><p class="mut">Вставь его в любой ИИ (лучше в два). Бери нижнюю границу; если оценки расходятся больше чем на 0.5 — результат спорный.</p>';
-    if (p.subs.length) h += '<h3>История оценок</h3><div class="list">' + p.subs.slice().reverse().slice(0, 30).map((s) => '<div class="rowi"><div class="grow"><b>' + esc((KINDS.find((k) => k[0] === s.kind) || [0, s.kind])[1]) + '</b> <span class="mut">· ' + esc(fmtD(s.date)) + (s.note ? ' · ' + esc(s.note) : '') + '</span></div><b>' + esc(s.avg) + '</b></div>').join('') + '</div>';
-    paint(h);
-    bindSeg('ck', (v) => { ckKind = v; });
-    $('#ct').oninput = () => { $('#wc').textContent = '· ' + $('#ct').value.trim().split(/\s+/).filter(Boolean).length + ' слов'; };
-    $('#cbuild').onclick = () => {
-      if (!$('#ct').value.trim()) { toast('Вставь свой текст'); return; }
-      const t = buildPrompt(segVal('ck'), $('#cq').value, $('#ct').value);
-      const done = () => toast('Промпт скопирован');
-      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(t).then(done, () => toast('Не удалось скопировать'));
-      else { const ta = document.createElement('textarea'); ta.value = t; document.body.appendChild(ta); ta.select(); try { document.execCommand('copy'); done(); } catch (e) { toast('Не удалось скопировать'); } ta.remove(); }
+  const back = (href) => '<a class="ib" href="' + href + '" aria-label="Назад">' + ico('left') + '</a>';
+  const avgOf = (arr) => arr.reduce((a, b) => a + b, 0) / (arr.length || 1);
+
+  // ----- таймер для страниц практики -----
+  function timerRow(minutes, owner) {
+    return '<div class="list" style="margin:14px 0"><button class="rowi" id="tmw" data-owner="' + owner + '"><span class="grow">Таймер</span><b id="tmt" data-owner="' + owner + '">' + (timer.end && timer.owner === owner ? '…' : minutes + ' мин') + '</b></button></div>';
+  }
+  function bindTimer(minutes, owner) {
+    const b = $('#tmw'); if (!b) return;
+    b.onclick = () => {
+      if (timer.end && timer.owner === owner) { timer.end = 0; $('#tmt').textContent = minutes + ' мин'; return; }
+      timer.end = Date.now() + minutes * 60000; timer.owner = owner; timer.idle = minutes + ' мин'; $('#tmt').textContent = p2(minutes) + ':00';
     };
-    $('#cscore').onclick = () => openSheet('<h2>Оценка</h2>' + seg('sk', KINDS, ckKind) + '<label>Четыре критерия</label><div class="grid4">' + [1, 2, 3, 4].map((i) => '<input id="sc' + i + '" type="number" inputmode="decimal" step="0.5" min="1" max="9">').join('') + '</div><label>Заметка</label><input id="snote" autocomplete="off"><div style="margin-top:16px"><button class="btn p" id="ssave">Сохранить</button></div>', () => {
+  }
+
+  // ----- графики Task 1 (SVG из данных) -----
+  const COL = ['#4f46e5', '#16a34a', '#d97706', '#db2777', '#0891b2'];
+  function niceMax(v) { const s = [5, 10, 20, 25, 50, 100, 200, 250, 500, 1000]; return s.find((x) => x >= v) || Math.ceil(v / 100) * 100; }
+  const legend = (names) => '<div class="legend">' + names.map((n, i) => '<span><i style="background:' + COL[i % COL.length] + '"></i>' + esc(n) + '</span>').join('') + '</div>';
+  function chartHtml(d) {
+    const W = 340, H = 210, L = 40, R = 24, T = 12, B = 30; const iw = W - L - R, ih = H - T - B;
+    if (d.kind === 'table') return '<div class="tbl"><table><tr>' + d.head.map((x) => '<th>' + esc(x) + '</th>').join('') + '</tr>' + d.rows.map((r) => '<tr>' + r.map((x) => '<td>' + esc(x) + '</td>').join('') + '</tr>').join('') + '</table></div>';
+    if (d.kind === 'pie') {
+      const pie = (ch) => {
+        let a0 = -Math.PI / 2; const tot = ch.parts.reduce((s, x) => s + x.v, 0); const cx = 80, cy = 80, r = 70;
+        return '<div style="text-align:center"><svg viewBox="0 0 160 160" width="150" role="img" aria-label="' + esc(ch.label) + '">' + ch.parts.map((x, i) => {
+          const a1 = a0 + 2 * Math.PI * x.v / tot; const large = a1 - a0 > Math.PI ? 1 : 0;
+          const pth = '<path d="M' + cx + ' ' + cy + ' L' + (cx + r * Math.cos(a0)).toFixed(1) + ' ' + (cy + r * Math.sin(a0)).toFixed(1) + ' A' + r + ' ' + r + ' 0 ' + large + ' 1 ' + (cx + r * Math.cos(a1)).toFixed(1) + ' ' + (cy + r * Math.sin(a1)).toFixed(1) + ' Z" fill="' + COL[i % COL.length] + '" stroke="var(--s)" stroke-width="2"/>';
+          const am = (a0 + a1) / 2; a0 = a1;
+          return pth + '<text x="' + (cx + r * 0.62 * Math.cos(am)).toFixed(1) + '" y="' + (cy + r * 0.62 * Math.sin(am) + 4).toFixed(1) + '" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">' + x.v + '</text>';
+        }).join('') + '</svg><div class="mut"><b>' + esc(ch.label) + '</b></div></div>';
+      };
+      return '<div style="display:flex;gap:6px;justify-content:center">' + d.charts.map(pie).join('') + '</div>' + legend(d.charts[0].parts.map((x) => x.n));
+    }
+    const all = d.series.reduce((a, s) => a.concat(s.v), []); const mx = niceMax(Math.max.apply(null, all));
+    const y = (v) => T + ih - ih * v / mx;
+    let g = '';
+    for (let i = 0; i <= 4; i++) { const v = mx * i / 4; g += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + y(v) + '" y2="' + y(v) + '" stroke="currentColor" opacity=".12"/><text x="' + (L - 6) + '" y="' + (y(v) + 4) + '" text-anchor="end" font-size="10" fill="currentColor" opacity=".6">' + Math.round(v) + '</text>'; }
+    let body = '';
+    if (d.kind === 'line') {
+      const xs = d.x.map((_, i) => L + iw * (d.x.length === 1 ? 0.5 : i / (d.x.length - 1)));
+      body = d.series.map((s, k) => '<polyline fill="none" stroke="' + COL[k % COL.length] + '" stroke-width="2.4" stroke-linejoin="round" points="' + s.v.map((v, i) => xs[i].toFixed(1) + ',' + y(v).toFixed(1)).join(' ') + '"/>' + s.v.map((v, i) => '<circle cx="' + xs[i].toFixed(1) + '" cy="' + y(v).toFixed(1) + '" r="3" fill="' + COL[k % COL.length] + '"/>').join('')).join('') +
+        d.x.map((lb, i) => '<text x="' + xs[i].toFixed(1) + '" y="' + (H - 10) + '" text-anchor="middle" font-size="10" fill="currentColor" opacity=".7">' + esc(lb) + '</text>').join('');
+    } else {
+      const gw = iw / d.cats.length, bw = Math.min(26, (gw - 10) / d.series.length);
+      body = d.cats.map((c, i) => d.series.map((s, k) => { const x = L + gw * i + (gw - bw * d.series.length) / 2 + bw * k; return '<rect x="' + x.toFixed(1) + '" y="' + y(s.v[i]).toFixed(1) + '" width="' + (bw - 2).toFixed(1) + '" height="' + (T + ih - y(s.v[i])).toFixed(1) + '" rx="2" fill="' + COL[k % COL.length] + '"/>'; }).join('') +
+        '<text x="' + (L + gw * i + gw / 2).toFixed(1) + '" y="' + (H - 10) + '" text-anchor="middle" font-size="10" fill="currentColor" opacity=".7">' + esc(c) + '</text>').join('');
+    }
+    return '<svg viewBox="0 0 ' + W + ' ' + H + '" width="100%" role="img" aria-label="' + esc(d.title) + '" style="color:var(--fg)">' + g + body + '</svg>' + legend(d.series.map((s) => s.name));
+  }
+
+  const dataText = (d) => d.kind === 'table' ? d.head.join(' | ') + '; ' + d.rows.map((r) => r.join(' | ')).join('; ') : d.kind === 'pie' ? d.charts.map((c) => c.label + ': ' + c.parts.map((x) => x.n + ' ' + x.v).join(', ')).join('; ') : (d.x || d.cats).join(', ') + ' → ' + d.series.map((x) => x.name + ': ' + x.v.join(', ')).join('; ');
+  // ----- Writing -----
+  let wGroup = 't2', fKind = 't2';
+  const WNAME = { t2: 'Task 2', t1: 'Task 1', gt: 'Письмо', free: 'Своя тема' };
+  function viewWriting() {
+    const p = P(); const W = WRITING;
+    const doneIds = new Set(p.writes.map((w) => w.id));
+    let h = head('Writing', 'Задания в формате IELTS') + seg('wg', [['t2', 'Task 2'], ['t1', 'Task 1'], ['gt', 'Письма'], ['free', 'Своё']], wGroup) + '<div id="wl" style="margin-top:16px"></div>';
+    if (p.subs.length) h += '<h3>Оценки</h3><div class="list">' + p.subs.slice().reverse().slice(0, 15).map((s) => '<div class="rowi"><div class="grow"><b>' + esc((KINDS.find((k) => k[0] === s.kind) || [0, s.kind])[1]) + '</b> <span class="mut">· ' + esc(fmtD(s.date)) + (s.note ? ' · ' + esc(s.note) : '') + '</span></div><b>' + esc(s.avg) + '</b></div>').join('') + '</div>';
+    paint(h);
+    const row = (t, title, sub) => '<a class="rowi" href="#write/' + t.id + '"><div class="grow"><b>' + esc(title) + '</b><div class="mut" style="margin-top:2px">' + esc(sub) + '</div></div>' + (doneIds.has(t.id) ? '<span class="chip on">✓</span>' : ico('chev', 'chev')) + '</a>';
+    const draw = () => {
+      let html;
+      if (wGroup === 't2') html = '<div class="list">' + W.task2.map((t) => row(t, t.topic + ' · ' + W.types[t.type], t.q.slice(0, 90) + '…')).join('') + '</div>';
+      else if (wGroup === 't1') html = '<div class="list">' + W.task1.map((t) => row(t, t.title, t.kind === 'table' ? 'таблица' : t.kind === 'pie' ? 'круговые диаграммы' : t.kind === 'bar' ? 'столбчатая диаграмма' : 'линейный график')).join('') + '</div>';
+      else if (wGroup === 'gt') html = '<div class="list">' + W.gt.map((t) => row(t, t.tone + ' letter', t.q.slice(0, 90) + '…')).join('') + '</div>';
+      else html = '<div class="card"><p style="margin:0 0 12px" class="mut">Свой вопрос или тема (из учебника, пробного теста, Speaking-транскрипт): получишь анализ текста и промпт для ИИ-проверки.</p><a class="btn p" href="#write/free" style="display:grid;place-items:center;text-decoration:none">Открыть редактор</a></div>';
+      $('#wl').innerHTML = html;
+    };
+    bindSeg('wg', (v) => { wGroup = v; draw(); });
+    draw();
+  }
+  function scoreSheet(p, kind, ref) {
+    openSheet('<h2>Оценка</h2>' + seg('sk', KINDS, kind) + '<label>Четыре критерия</label><div class="grid4">' + [1, 2, 3, 4].map((i) => '<input id="sc' + i + '" type="number" inputmode="decimal" step="0.5" min="1" max="9">').join('') + '</div><label>Заметка</label><input id="snote" autocomplete="off"><div style="margin-top:16px"><button class="btn p" id="ssave">Сохранить</button></div>', () => {
       bindSeg('sk');
       $('#ssave').onclick = () => {
         const sc = [1, 2, 3, 4].map((i) => num($('#sc' + i).value, NaN)); if (sc.some(isNaN)) { toast('Заполни 4 оценки'); return; }
-        p.subs.push({ id: uid(), date: today(), kind: segVal('sk'), sc, avg: E.overall(sc[0], sc[1], sc[2], sc[3]), note: $('#snote').value.trim() }); save(); closeSheet(); toast('Сохранено'); route();
+        p.subs.push({ id: uid(), date: today(), kind: segVal('sk'), sc, avg: E.overall(sc[0], sc[1], sc[2], sc[3]), note: $('#snote').value.trim(), ref: ref || '' }); save(); closeSheet(); toast('Сохранено'); route();
       };
     });
+  }
+  function copyText(t) {
+    const ok = () => toast('Промпт скопирован');
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(t).then(ok, () => toast('Не удалось скопировать'));
+    else { const ta = document.createElement('textarea'); ta.value = t; document.body.appendChild(ta); ta.select(); try { document.execCommand('copy'); ok(); } catch (e) { toast('Не удалось скопировать'); } ta.remove(); }
+  }
+  function viewWrite(id) {
+    const p = P(); const W = WRITING; let task = null, kind = 't2', title = '';
+    if (id === 'free') { kind = fKind; title = 'Своя тема'; task = { id: 'free', q: '' }; }
+    else if ((task = W.task2.find((t) => t.id === id))) { kind = 't2'; title = 'Task 2 · ' + task.topic; }
+    else if ((task = W.task1.find((t) => t.id === id))) { kind = 't1'; title = 'Task 1'; }
+    else if ((task = W.gt.find((t) => t.id === id))) { kind = 'gt'; title = 'Letter · ' + task.tone; }
+    else { location.hash = '#writing'; return; }
+    const mins = kind === 't2' || kind === 'sp' ? 40 : 20;
+    let h = head(title, id === 'free' ? '' : (kind === 't2' ? esc(W.types[task.type]) : kind === 't1' ? 'минимум 150 слов · 20 минут' : 'минимум 150 слов · 20 минут'), back('#writing'));
+    if (id === 'free') h += seg('fk', KINDS, kind) + '<label>Задание</label><textarea id="wq" style="min-height:70px" placeholder="Вставь вопрос или тему"></textarea>';
+    else {
+      h += '<div class="card"><p style="margin:0">' + esc(task.q || task.title) + '</p>' + (kind === 't1' ? '<div style="margin-top:12px">' + chartHtml(task) + '<p class="mut" style="margin:8px 0 0">Данные вымышленные, составлены для тренировки.</p></div>' : '') + '</div>';
+      const plan = kind === 't2' ? W.skeleton[task.type].map((x) => '<li>' + esc(x) + '</li>').join('') + '</ul><div class="mut" style="margin-top:8px">Идеи: ' + task.ideas.map(esc).join(' · ') + '</div>' :
+        kind === 't1' ? '<li>Intro: перефразируй заголовок графика</li><li>Overview: 2 главных тренда/различия, без цифр</li><li>Details 1 и 2: сгруппируй данные и сравни</li><li>Не пиши мнение и причины, которых нет в данных</li></ul>' :
+          '<li>Обращение и цель письма в первом абзаце</li><li>Раскрой все три пункта задания</li><li>Тон: ' + esc(task.tone) + ' — выдерживай до конца</li><li>Завершение и подпись по стилю</li></ul>';
+      h += '<div class="list" style="margin-top:12px"><div class="task" id="wplan" style="grid-template-columns:1fr"><div><button class="tbody"><div class="ttl">План и подсказки</div></button><div class="more"><div><ul class="mut" style="margin:8px 0 0;padding-left:18px">' + plan + '</div></div></div></div></div>';
+    }
+    h += timerRow(mins, 'w' + id) + '<textarea id="wt" style="min-height:260px" spellcheck="false" autocapitalize="sentences" placeholder="Пиши здесь. Черновик сохраняется сам.">' + esc(p.drafts[id] || '') + '</textarea>' +
+      '<div class="sum" style="margin:8px 0 14px"><span id="wc"></span><span id="wp"></span></div><button class="btn p" id="wchk">Проверить текст</button>';
+    paint(h);
+    bindSeg('fk', (v) => { fKind = v; });
+    bindTimer(mins, 'w' + id);
+    const pl = $('#wplan'); if (pl) pl.querySelector('.tbody').onclick = () => pl.classList.toggle('open');
+    const cnt = () => { const a = E.analyseText($('#wt').value, id === 'free' ? segVal('fk') : kind); $('#wc').textContent = a.words + ' слов · цель ' + a.minWords + '+'; $('#wc').style.color = a.words && a.short ? 'var(--warn)' : ''; $('#wp').textContent = a.paras + ' абз.'; };
+    let dt = null; $('#wt').oninput = () => { cnt(); clearTimeout(dt); dt = setTimeout(() => { p.drafts[id] = $('#wt').value; save(); }, 800); };
+    cnt();
+    $('#wchk').onclick = () => {
+      const text = $('#wt').value; if (!text.trim()) { toast('Сначала напиши текст'); return; }
+      p.drafts[id] = text; save();
+      const k = id === 'free' ? segVal('fk') : kind; const q = id === 'free' ? $('#wq').value : ((task.q || task.title) + (kind === 't1' ? '\nDATA (' + task.kind + '): ' + dataText(task) : '')); const a = E.analyseText(text, k);
+      const row = (ok, t) => '<div class="rowi" style="padding:10px 0"><span style="color:var(--' + (ok ? 'ok' : 'warn') + ')">' + (ok ? '✓' : '!') + '</span><span class="grow">' + t + '</span></div>';
+      openSheet('<h2>Анализ текста</h2><div class="list" style="padding:0 16px">' +
+        row(!a.short, a.words + ' слов (минимум ' + a.minWords + ')') + row(a.paras >= (k === 't2' ? 4 : 3), a.paras + ' абзац(а)' + (k === 't2' ? ' — нужно 4–5' : '')) +
+        row(a.avgLen >= 14 && a.avgLen <= 28, 'Средняя длина предложения: ' + a.avgLen + ' слов') + row(a.linkers.length >= 4, 'Связки: ' + (a.linkers.length ? a.linkers.slice(0, 8).join(', ') : 'нет') + ' (' + a.linkers.length + ')') +
+        row(!a.repeats.length, a.repeats.length ? 'Повторы: ' + a.repeats.map((r) => r[0] + ' ×' + r[1]).join(', ') : 'Сильных повторов нет') +
+        (k === 't2' ? row(a.hasConclusion, a.hasConclusion ? 'Есть вывод' : 'Нет явного вывода (in conclusion…)') : k === 't1' ? row(a.hasOverview, a.hasOverview ? 'Есть overview' : 'Нет overview (Overall, …)') : '') + '</div>' +
+        '<p class="mut">Это проверка формы, не оценка. Содержание и грамматику оценит ИИ — скопируй промпт.</p><div class="stack"><button class="btn p" id="wcp">Скопировать промпт для ИИ</button><button class="btn" id="wsv">Сохранить попытку</button><button class="btn" id="wsc">Записать оценку</button></div>', () => {
+        $('#wcp').onclick = () => copyText(buildPrompt(k, q, text));
+        $('#wsv').onclick = () => { p.writes.push({ id, date: today(), words: a.words, text: text.slice(0, 6000) }); save(); closeSheet(); toast('Попытка сохранена'); };
+        $('#wsc').onclick = () => scoreSheet(p, k, id);
+      });
+    };
+  }
+
+  // ----- Reading -----
+  const RS = { id: null, ans: {}, done: false };
+  const RTAG = { mh: 'R-MH', mi: 'R-MI', tfng: 'R-TFNG', mcq: 'R-MCQ', sc: 'R-COMP' };
+  function viewReading() {
+    const p = P();
+    let h = head('Reading', 'Три учебных текста по формату Academic') + '<div class="list">' + READ.tests.map((t) => {
+      const n = t.groups.reduce((a, g) => a + g.items.length, 0); const rs = p.reads.filter((r) => r.id === t.id); const best = rs.length ? rs.reduce((a, r) => (r.raw > a.raw ? r : a)) : null;
+      return '<a class="rowi" href="#read/' + t.id + '"><div class="grow"><b>' + esc(t.title) + '</b><div class="mut" style="margin-top:2px">' + esc(t.topic) + ' · ' + n + ' вопросов · ' + t.minutes + ' мин</div></div>' + (best ? '<span class="chip on">' + best.raw + '/' + best.total + '</span>' : ico('chev', 'chev')) + '</a>';
+    }).join('') + '</div><p class="mut" style="margin-top:14px">' + esc(READ.note) + ' Реальные тесты — в Cambridge IELTS и на ielts.org.</p>';
+    paint(h);
+  }
+  function viewRead(id) {
+    const p = P(); const t = READ.tests.find((x) => x.id === id); if (!t) { location.hash = '#reading'; return; }
+    if (RS.id !== id) { RS.id = id; RS.ans = {}; RS.done = false; }
+    const ans = RS.ans; const done = RS.done;
+    const items = []; t.groups.forEach((g) => g.items.forEach((it) => items.push(Object.assign({ type: g.type }, it))));
+    const ok = (it) => E.checkAnswer(it, ans[it.n]);
+    let h = head(t.title, esc(t.topic), back('#reading')) + timerRow(t.minutes, 'r' + id);
+    h += '<div class="card stack">' + t.paras.map((x) => '<p style="margin:0"><b style="color:var(--acc)">' + x.k + '</b>&nbsp; ' + esc(x.t) + '</p>').join('') + '</div>';
+    t.groups.forEach((g) => {
+      h += '<h3>' + esc(g.title) + '</h3><p class="mut" style="margin:-4px 0 10px">' + esc(g.instr) + '</p>';
+      if (g.type === 'mh') h += '<div class="card mut" style="margin-bottom:10px">' + g.options.map((o) => '<div><b>' + esc(o[0]) + '</b>&nbsp; ' + esc(o[1]) + '</div>').join('') + '</div>';
+      h += '<div class="list">' + g.items.map((it) => {
+        let inp = '';
+        if (g.type === 'tfng') inp = '<div class="seg" style="margin-top:8px">' + ['T', 'F', 'NG'].map((v) => '<button type="button" data-q="' + it.n + '" data-v="' + v + '" class="' + (ans[it.n] === v ? 'on' : '') + '"' + (done ? ' disabled' : '') + '>' + ({ T: 'True', F: 'False', NG: 'Not given' }[v]) + '</button>').join('') + '</div>';
+        else if (g.type === 'mh' || g.type === 'mi') inp = '<select data-q="' + it.n + '" style="margin-top:8px"' + (done ? ' disabled' : '') + '><option value="">—</option>' + g.options.map((o) => '<option value="' + esc(o[0]) + '"' + (ans[it.n] === o[0] ? ' selected' : '') + '>' + esc(o[0]) + '</option>').join('') + '</select>';
+        else if (g.type === 'mcq') inp = '<div class="opts" style="margin-top:8px">' + it.opts.map((o) => '<button type="button" class="opt' + (ans[it.n] === o[0] ? ' sel' : '') + '" data-q="' + it.n + '" data-v="' + o[0] + '"' + (done ? ' disabled' : '') + '>' + esc(o) + '</button>').join('') + '</div>';
+        else inp = '<input data-q="' + it.n + '" style="margin-top:8px" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" value="' + esc(ans[it.n] || '') + '"' + (done ? ' disabled' : '') + '>';
+        const fb = done ? '<div class="mut" style="margin-top:8px;color:var(--' + (ok(it) ? 'ok' : 'warn') + ')">' + (ok(it) ? '✓ Верно' : '✗ Верный ответ: <b>' + esc(Array.isArray(it.a) ? it.a[0] : it.a) + '</b>') + ' — ' + esc(it.why) + '</div>' : '';
+        return '<div class="rowi" style="display:block"><div><b>' + it.n + '.</b> ' + esc(it.q) + '</div>' + inp + fb + '</div>';
+      }).join('') + '</div>';
+    });
+    if (done) {
+      const raw = items.filter(ok).length; const scaled = Math.round(raw / items.length * 40);
+      const band = E.rawToBand(p.module === 'general' ? 'reading_general' : 'reading_academic', scaled);
+      h += '<div class="card" style="margin-top:18px;text-align:center"><div class="big">' + raw + ' / ' + items.length + '</div><div class="mut">≈ band ' + band + ' (пересчёт на 40 вопросов, приблизительно)</div></div><div class="stack" style="margin-top:12px"><button class="btn p" id="rerr">Добавить ошибки в журнал</button><button class="btn" id="rretry">Пройти заново</button></div>';
+    } else h += '<div style="margin-top:18px"><button class="btn p" id="rsub">Сдать</button></div>';
+    paint(h, !RS.painted); RS.painted = true;
+    bindTimer(t.minutes, 'r' + id);
+    $$('button[data-q]').forEach((b) => { b.onclick = () => { ans[b.dataset.q] = b.dataset.v; $$('button[data-q="' + b.dataset.q + '"]').forEach((x) => x.classList.toggle('on', x === b)); $$('button.opt[data-q="' + b.dataset.q + '"]').forEach((x) => x.classList.toggle('sel', x === b)); }; });
+    $$('select[data-q]').forEach((s) => { s.onchange = () => { ans[s.dataset.q] = s.value; }; });
+    $$('input[data-q]').forEach((s) => { s.oninput = () => { ans[s.dataset.q] = s.value; }; });
+    const sub = $('#rsub'); if (sub) sub.onclick = () => {
+      const un = items.filter((it) => !String(ans[it.n] || '').trim()).length;
+      const fin = () => { RS.done = true; const raw = items.filter(ok).length; const scaled = Math.round(raw / items.length * 40); p.reads.push({ id, date: today(), raw, total: items.length, band: E.rawToBand(p.module === 'general' ? 'reading_general' : 'reading_academic', scaled) }); save(); RS.painted = false; viewRead(id); window.scrollTo(0, 0); };
+      if (un) confirmSheet('Без ответа: ' + un + '. Сдать всё равно?', 'Сдать', fin); else fin();
+    };
+    const re = $('#rerr'); if (re) re.onclick = () => {
+      let n = 0; items.filter((it) => !ok(it)).forEach((it) => { p.errors.push({ id: uid(), date: today(), tag: RTAG[it.type], snippet: t.title + ' · Q' + it.n + ': ' + it.q.slice(0, 60), fix: 'ответ: ' + (Array.isArray(it.a) ? it.a[0] : it.a) }); n++; });
+      delete p.days[today()]; save(); re.disabled = true; toast('Записано ошибок: ' + n);
+    };
+    const rt = $('#rretry'); if (rt) rt.onclick = () => { RS.ans = {}; RS.done = false; RS.painted = false; viewRead(id); window.scrollTo(0, 0); };
   }
 
   // ---------- Прогресс ----------
@@ -306,6 +560,7 @@
     const wk = {}; Object.keys(p.days).forEach((d) => { const dd = p.days[d]; const dn = p.done[d] || {}; const k = dd.week; wk[k] = wk[k] || { plan: 0, done: 0 }; dd.tasks.forEach((t) => { wk[k].plan += t.minutes; if (dn[t.id]) wk[k].done += t.minutes; }); });
     const ks = Object.keys(wk).map(Number).sort((a, b) => b - a).slice(0, 8);
     if (ks.length) h += '<h3>Выполнение по неделям</h3><div class="card stack">' + ks.map((k) => { const pc = Math.round(100 * wk[k].done / Math.max(1, wk[k].plan)); return '<div><div class="sum" style="margin-bottom:6px"><span>Неделя ' + k + '</span><span>' + wk[k].done + ' / ' + wk[k].plan + ' мин</span></div><div class="bar"><i style="width:' + pc + '%"></i></div></div>'; }).join('') + '</div>';
+    if (p.reads.length) h += '<h3>Reading</h3><div class="list">' + p.reads.slice().reverse().slice(0, 6).map((r) => { const t = READ.tests.find((x) => x.id === r.id); return '<div class="rowi"><div class="grow"><b>' + esc(t ? t.title : r.id) + '</b><div class="mut" style="margin-top:2px">' + esc(fmtD(r.date)) + '</div></div><span>' + r.raw + '/' + r.total + ' · ≈' + r.band + '</span></div>'; }).join('') + '</div>';
     paint(h);
     $('#mplus').onclick = () => openSheet('<h2>Новый мок</h2><div class="grid4">' + E.SK.map((s) => '<div><input id="m_' + s + '" type="number" inputmode="decimal" step="0.5" min="1" max="9"><div class="mut" style="text-align:center;margin-top:4px">' + s + '</div></div>').join('') + '</div>' +
       '<label style="display:flex;gap:10px;align-items:center;margin:16px 0"><input type="checkbox" id="m_up" checked style="width:20px;height:20px"> Обновить уровни в профиле</label><button class="btn p" id="msave">Сохранить</button>' +
@@ -352,7 +607,7 @@
     $('#pf').onsubmit = (e) => {
       e.preventDefault(); const f = readProfileForm();
       Object.assign(p, { name: f.name || p.name, module: f.module, target: { overall: f.overall, min: f.min }, hours: f.hours, newPerDay: f.newPerDay, start: f.start, test_date: f.test_date, skills: { L: f.L, R: f.R, W: f.W, S: f.S } });
-      p.days = {}; session_ = null; save(); toast('Профиль сохранён');
+      p.days = {}; sess = null; save(); toast('Профиль сохранён');
     };
     $('#regen').onclick = () => { delete p.days[today()]; save(); toast('План обновлён'); };
     $('#exp').onclick = () => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([JSON.stringify(DB)], { type: 'application/json' })); a.download = 'ielts-teacher-' + today() + '.json'; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 1000); };
@@ -362,7 +617,7 @@
   function viewOnboarding() {
     paint(head('Привет', 'Заполни анкету — план соберётся сам') + profileForm(null, 'Создать план'));
     bindSeg('f_module');
-    $('#pf').onsubmit = (e) => { e.preventDefault(); newProfile(readProfileForm()); session_ = null; location.hash = '#today'; route(); };
+    $('#pf').onsubmit = (e) => { e.preventDefault(); newProfile(readProfileForm()); sess = null; location.hash = '#today'; route(); };
   }
 
   // ---------- вход ----------
@@ -389,26 +644,28 @@
 
   // ---------- маршрутизация ----------
   const TABS = [['today', 'Сегодня'], ['plan', 'План'], ['cards', 'Карточки'], ['errors', 'Ошибки']];
-  const MORE = [['progress', 'Прогресс'], ['check', 'Проверка'], ['res', 'Ресурсы'], ['set', 'Настройки']];
-  function renderTabs(tab) {
+  const MORE = [['progress', 'Прогресс'], ['writing', 'Writing'], ['reading', 'Reading'], ['res', 'Ресурсы'], ['set', 'Настройки']];
+  const MORE_ALIAS = { write: 'writing', read: 'reading' };
+  function renderTabs(tab0) {
+    let tab = tab0;
     const t = $('#tabs'); t.hidden = false;
-    const inMore = MORE.some((m) => m[0] === tab);
+    tab = MORE_ALIAS[tab] || tab; const inMore = MORE.some((m) => m[0] === tab);
     t.innerHTML = TABS.map(([k, n]) => '<a href="#' + k + '" class="' + (k === tab ? 'on' : '') + '">' + ico(k) + n + '</a>').join('') + '<button id="tmore" class="' + (inMore ? 'on' : '') + '">' + ico('more') + (inMore ? MORE.find((m) => m[0] === tab)[1] : 'Ещё') + '</button>';
     $('#tmore').onclick = () => openSheet('<div class="list">' + MORE.map(([k, n]) => '<a class="rowi" href="#' + k + '"><span class="grow">' + n + '</span>' + ico('chev', 'chev') + '</a>').join('') + '</div>', (el) => { el.querySelectorAll('a').forEach((a) => { a.onclick = () => closeSheet(); }); });
   }
   function route(animate) {
     if (!user) return viewAuth();
     closeSheet(true);
-    const tab = (location.hash || '#today').slice(1);
+    const parts = (location.hash || '#today').slice(1).split('/'); const tab = parts[0];
     if (!DB.active || !P()) { $('#tabs').hidden = true; return viewOnboarding(); }
     renderTabs(tab);
-    ({ today: viewToday, plan: viewPlan, cards: viewCards, errors: viewErrors, check: viewCheck, progress: viewProgress, res: viewRes, set: viewSet }[tab] || viewToday)();
+    ({ today: viewToday, plan: viewPlan, cards: viewCards, errors: viewErrors, writing: viewWriting, write: viewWrite, reading: viewReading, read: viewRead, progress: viewProgress, res: viewRes, set: viewSet }[tab] || viewToday)(parts[1]);
     if (animate === false) $('#view').classList.remove('enter');
     window.scrollTo(0, 0);
   }
 
   async function start(u) {
-    user = u; session_ = null;
+    user = u; sess = null;
     const local = readLocal(); let remote = null, offline = false;
     try { remote = await Cloud.pull(u.id); } catch (e) { offline = true; }
     let legacy = null; try { legacy = JSON.parse(localStorage.getItem(LEGACY)); } catch (e) { /* ignore */ }
@@ -420,6 +677,7 @@
     else if (has(legacy)) { DB = legacy; upload = true; }
     else DB = { profiles: {}, active: null };
     if (!DB.active || !DB.profiles[DB.active]) DB.active = Object.keys(DB.profiles)[0] || null;
+    Object.keys(DB.profiles).forEach((k) => { ensureP(DB.profiles[k]); if (syncDeck(DB.profiles[k])) upload = true; });
     writeLocal(upload || offline); syncState = upload ? 'pending' : 'ok';
     if (upload) push();
     if (offline) toast('Нет связи — работаю с кэшем');
@@ -428,8 +686,9 @@
 
   async function init() {
     try {
-      const [c, r] = await Promise.all([fetch('data/content.json').then((x) => x.json()), fetch('data/resources.json').then((x) => x.json())]);
-      CONTENT = c; RES = r;
+      const J = (u) => fetch(u).then((x) => x.json());
+      const [c, r, d, rd, wr] = await Promise.all([J('data/content.json'), J('data/resources.json'), J('data/deck.json'), J('data/reading.json'), J('data/writing.json')]);
+      CONTENT = c; RES = r; DECK = d; READ = rd; WRITING = wr;
     } catch (e) { $('#view').textContent = 'Не удалось загрузить данные: ' + e.message; return; }
     window.addEventListener('hashchange', () => route());
     if (!Cloud.available()) { $('#view').textContent = 'Не загрузилась библиотека входа. Обнови страницу.'; return; }

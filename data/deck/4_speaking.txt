@@ -1,0 +1,89 @@
+get used to|привыкать к|It took me a few months to [[get used to]] the climate.|phr|gen
+look forward to|с нетерпением ждать|I'm really [[looking forward to]] the weekend.|phr|gen
+look after|заботиться о|She [[looks after]] her grandmother on Sundays.|phr|soc
+grow up|вырастать|I [[grew up]] in a small town near the sea.|phr|soc
+take up|начать заниматься|He [[took up]] photography last year.|phr|gen
+give up|бросать, отказываться|I tried to [[give up]] sugar, but it was hard.|phr|health
+turn out|оказываться|The trip [[turned out]] to be much cheaper than I expected.|phr|gen
+find out|выяснять|I [[found out]] about the course from a friend.|phr|edu
+set up|основывать, организовывать|They [[set up]] a small business after university.|phr|work
+carry on|продолжать|I decided to [[carry on]] studying despite the difficulties.|phr|edu
+catch up with|догонять; наверстать|I need to [[catch up with]] my reading this weekend.|phr|edu
+keep up with|не отставать от|It is hard to [[keep up with]] new technology.|phr|tech
+come across|случайно встретить|I [[came across]] an interesting article online.|phr|gen
+end up|в итоге оказаться|We [[ended up]] staying at home because of the rain.|phr|gen
+put off|откладывать|Don't [[put off]] revising until the last minute.|phr|edu
+work out|выяснить; тренироваться|I try to [[work out]] three times a week.|phr|health
+cut down on|сокращать потребление|I'm trying to [[cut down on]] coffee.|phr|health
+bring up|воспитывать; поднимать (тему)|She was [[brought up]] by her grandparents.|phr|soc
+make friends|заводить друзей|It's easy to [[make friends]] at university.|phr|soc
+spend time with|проводить время с|I like to [[spend time with]] my family at weekends.|phr|soc
+be keen on|увлекаться|My brother is [[keen on]] cycling.|phr|gen
+be fond of|любить, быть привязанным к|I'm quite [[fond of]] old films.|phr|gen
+be into|увлекаться (разг.)|I'm really [[into]] documentaries at the moment.|phr|gen
+pretty much|практически|I walk to work [[pretty much]] every day.|phr|gen
+to be honest|честно говоря|[[To be honest]], I've never really liked crowded places.|phr|gen
+as far as I'm concerned|что касается меня|[[As far as I'm concerned]], public parks are essential.|phr|gen
+it depends on|это зависит от|[[It depends on]] how much free time I have.|phr|gen
+I suppose|я полагаю|[[I suppose]] it's a matter of personal taste.|phr|gen
+come to think of it|если подумать|[[Come to think of it]], I haven't called her for weeks.|phr|gen
+the thing is|дело в том, что|[[The thing is]], I don't have much spare time.|phr|gen
+in my experience|по моему опыту|[[In my experience]], most people prefer to shop online.|phr|gen
+as far as I know|насколько я знаю|[[As far as I know]], the museum is free on Sundays.|phr|gen
+on the whole|в целом|[[On the whole]], I enjoyed my time there.|phr|gen
+more often than not|чаще всего|[[More often than not]], we eat dinner together.|phr|gen
+every now and then|время от времени|I go hiking [[every now and then]].|phr|gen
+from time to time|время от времени|We visit our relatives [[from time to time]].|phr|soc
+a great deal of|большое количество|I spent [[a great deal of]] time on this project.|phr|gen
+a bit of a|в некотором роде|Moving abroad was [[a bit of a]] shock at first.|phr|gen
+hard to say|трудно сказать|It's [[hard to say]] which season I prefer.|phr|gen
+I'd rather|я бы предпочёл|I'd [[rather]] stay in than go to a noisy party.|phr|gen
+I'm not much of a|я не любитель|I'm [[not much of a]] cook, to be honest.|phr|gen
+used to|раньше (привычка)|I [[used to]] walk to school every day.|phr|gen
+make the most of|извлечь максимум из|You should [[make the most of]] your free time.|phr|gen
+a piece of cake|проще простого|The first part of the test was [[a piece of cake]].|phr|gen
+under the weather|нездоровый, не в форме|I've been feeling a bit [[under the weather]] lately.|phr|health
+once in a blue moon|очень редко|I eat fast food [[once in a blue moon]].|phr|health
+the more... the more|чем больше..., тем больше|[[The more]] I practise, [[the more]] confident I feel.|phr|edu
+rather than|а не, вместо|I prefer cycling [[rather than]] driving.|phr|trans
+instead of|вместо|Many people walk [[instead of]] taking the bus.|phr|trans
+as well as|так же как; а также|She speaks French [[as well as]] German.|phr|edu
+not only... but also|не только... но и|It is [[not only]] cheap [[but also]] convenient.|phr|gen
+whereas|тогда как|Some students prefer lectures, [[whereas]] others like seminars.|conj|edu
+although|хотя|[[Although]] it was expensive, we booked the trip.|conj|gen
+provided that|при условии, что|Remote work is effective [[provided that]] workers stay in touch.|conj|work
+unless|если не|[[Unless]] we act now, the damage will be irreversible.|conj|env
+nevertheless|тем не менее|The test was hard; [[nevertheless]], most students passed.|adv|edu
+furthermore|кроме того|[[Furthermore]], cycling is good for health.|adv|gen
+consequently|следовательно|Prices rose; [[consequently]], demand fell.|adv|gen
+admittedly|надо признать|[[Admittedly]], the plan has some weaknesses.|adv|gen
+notably|в особенности|Several countries, [[notably]] Japan, have ageing populations.|adv|soc
+undoubtedly|несомненно|Exercise is [[undoubtedly]] good for mental health.|adv|health
+increasingly|всё более|[[Increasingly]], people shop online.|adv|tech
+approximately|приблизительно|[[Approximately]] half of the students live on campus.|adv|sci
+primarily|главным образом|Costs are [[primarily]] driven by wages.|adv|work
+dramatically|резко|Prices fell [[dramatically]] after the new law.|adv|gen
+steadily|неуклонно|Numbers have risen [[steadily]] since 2010.|adv|gen
+slightly|слегка|Unemployment fell [[slightly]] last month.|adv|gen
+substantially|существенно|Wages have increased [[substantially]].|adv|work
+rapidly|быстро|Cities are growing [[rapidly]].|adv|soc
+gradually|постепенно|Attitudes have [[gradually]] changed.|adv|soc
+virtually|практически|[[Virtually]] all students own a smartphone.|adv|tech
+merely|всего лишь|Grades are [[merely]] one measure of ability.|adv|edu
+particularly|особенно|Traffic is [[particularly]] heavy on Mondays.|adv|trans
+scarcely|едва|There is [[scarcely]] any evidence for this claim.|adv|sci
+soar|резко расти|House prices have [[soared]] in recent years.|v|gen
+plunge|резко падать|Sales [[plunged]] after the price rise.|v|gen
+decline|снижаться; снижение|The birth rate has [[declined]] steadily.|v|soc
+fluctuate|колебаться|Temperatures [[fluctuate]] widely in spring.|v|env
+peak|достигать пика|Visitor numbers [[peaked]] in August.|v|trans
+reach a plateau|выйти на плато|Sales [[reached a plateau]] in 2018.|phr|work
+remain stable|оставаться стабильным|Prices [[remained stable]] throughout the year.|phr|gen
+account for|составлять (долю)|Women [[account for]] 60% of the students.|phr|edu
+outnumber|превосходить числом|Women now [[outnumber]] men in many universities.|v|edu
+double|удваиваться|The number of users [[doubled]] in two years.|v|tech
+a significant increase in|значительный рост|There was [[a significant increase in]] online sales.|phr|work
+a sharp decline in|резкий спад|[[A sharp decline in]] birth rates worries governments.|phr|soc
+a slight dip|небольшое снижение|There was [[a slight dip]] in the figures in March.|phr|gen
+the proportion of|доля|[[The proportion of]] older workers has grown.|phr|work
+in comparison with|по сравнению с|[[In comparison with]] 1990, car ownership has doubled.|phr|trans

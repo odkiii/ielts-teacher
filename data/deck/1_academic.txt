@@ -1,0 +1,173 @@
+# t|ru|example ([[form used]])|pos|domain
+analyse|анализировать|Researchers [[analysed]] data from over two thousand students.|v|sci
+approach|подход; подходить к|A more cautious [[approach]] to spending is needed.|n|gen
+assess|оценивать|Teachers [[assess]] progress through regular short tests.|v|edu
+assume|предполагать|Many people [[assume]] that technology always saves time.|v|gen
+authority|власть; орган власти|Local [[authorities]] are responsible for waste collection.|n|gov
+available|доступный|Fresh water is not [[available]] to everyone in rural areas.|adj|gen
+benefit|польза; приносить пользу|Older workers [[benefit]] from flexible schedules.|v|gen
+concept|понятие, концепция|The [[concept]] of lifelong learning is now widely accepted.|n|edu
+consistent|последовательный|Results have been [[consistent]] across several studies.|adj|sci
+constitute|составлять, образовывать|Young adults [[constitute]] the majority of online shoppers.|v|gen
+context|контекст|The word has a different meaning in a medical [[context]].|n|gen
+contract|контракт|Many graduates are offered a temporary [[contract]].|n|work
+create|создавать|New industries [[create]] jobs but also destroy others.|v|gen
+data|данные|Reliable [[data]] on crime is difficult to collect.|n|sci
+define|определять|It is hard to [[define]] what makes a person successful.|v|gen
+derive|происходить; получать|Most of the town's income [[derives]] from tourism.|v|gen
+distribute|распределять|Food is [[distributed]] unevenly across the world.|v|gen
+economy|экономика|A strong [[economy]] depends on a skilled workforce.|n|gov
+environment|окружающая среда; обстановка|Plastic waste damages the marine [[environment]].|n|env
+establish|основывать; устанавливать|The university was [[established]] in 1890.|v|gen
+estimate|оценка; оценивать|Experts [[estimate]] that sea levels will keep rising.|v|sci
+evident|очевидный|The effects of stress are [[evident]] in many workplaces.|adj|gen
+factor|фактор|Cost is the main [[factor]] when choosing a university.|n|gen
+financial|финансовый|Students often face [[financial]] pressure.|adj|work
+function|функция; работать|Sleep plays a vital role in how the brain [[functions]].|v|sci
+identify|выявлять, определять|Doctors can [[identify]] the disease at an early stage.|v|health
+income|доход|Families on a low [[income]] spend more on food.|n|work
+indicate|указывать, свидетельствовать|Recent figures [[indicate]] a fall in unemployment.|v|sci
+individual|отдельный человек; индивидуальный|Each [[individual]] learns in a different way.|n|soc
+interpret|истолковывать|Graphs can be [[interpreted]] in several ways.|v|sci
+involve|включать, вовлекать|The project [[involves]] several local schools.|v|gen
+issue|вопрос, проблема|Homelessness is a serious social [[issue]].|n|soc
+labour|труд, рабочая сила|Cheap [[labour]] attracts many foreign companies.|n|work
+legal|законный, правовой|Drivers face [[legal]] consequences for using phones.|adj|crime
+major|крупный, основной|Obesity is a [[major]] public health concern.|adj|health
+method|метод|Traditional teaching [[methods]] are still widely used.|n|edu
+occur|происходить, случаться|Most accidents [[occur]] close to home.|v|gen
+period|период|Prices rose sharply over a short [[period]].|n|gen
+policy|политика (курс)|The government introduced a new housing [[policy]].|n|gov
+principle|принцип|The [[principle]] of equal access underpins public libraries.|n|gov
+proceed|продолжать, приступать|Construction will [[proceed]] once funding is approved.|v|gen
+process|процесс|Learning a language is a slow [[process]].|n|gen
+require|требовать, нуждаться|Many jobs now [[require]] digital skills.|v|work
+research|исследование|Scientific [[research]] needs long-term funding.|n|sci
+respond|реагировать, отвечать|Cities must [[respond]] quickly to population growth.|v|gen
+role|роль|Parents play a key [[role]] in early education.|n|soc
+sector|сектор|The service [[sector]] employs most workers in the country.|n|work
+significant|значительный|There has been a [[significant]] rise in online learning.|adj|gen
+similar|схожий|Both countries face [[similar]] challenges.|adj|gen
+source|источник|Coal remains a major [[source]] of energy.|n|env
+specific|конкретный|Students need [[specific]] feedback on their writing.|adj|edu
+structure|структура|The [[structure]] of the family has changed over time.|n|soc
+theory|теория|The [[theory]] was challenged by new evidence.|n|sci
+vary|различаться, варьироваться|Salaries [[vary]] widely between regions.|v|work
+achieve|достигать|Clear goals help students [[achieve]] better results.|v|edu
+acquire|приобретать (навык, знание)|Children [[acquire]] language remarkably quickly.|v|edu
+administration|администрация, управление|School [[administration]] takes up a lot of teachers' time.|n|edu
+affect|влиять|Poor sleep can seriously [[affect]] performance at work.|v|health
+appropriate|подходящий|Not all content is [[appropriate]] for young children.|adj|media
+aspect|аспект|Every [[aspect]] of daily life has been changed by the internet.|n|tech
+assist|помогать|Software can [[assist]] teachers with marking.|v|tech
+category|категория|Items are sorted into three [[categories]].|n|gen
+chapter|глава|Each [[chapter]] deals with a different period of history.|n|edu
+commission|комиссия; поручать|A special [[commission]] was set up to study the problem.|n|gov
+community|сообщество|A strong [[community]] helps reduce loneliness.|n|soc
+complex|сложный|Climate change is a [[complex]] problem with no simple solution.|adj|env
+compute|вычислять|Computers can [[compute]] results in seconds.|v|tech
+conclude|делать вывод|The study [[concluded]] that exercise improves memory.|v|sci
+conduct|проводить (исследование)|Scientists [[conducted]] experiments over six months.|v|sci
+consequence|последствие|Deforestation has serious [[consequences]] for wildlife.|n|env
+construct|строить|Developers plan to [[construct]] affordable housing.|v|gen
+consume|потреблять|Developed countries [[consume]] far more energy per person.|v|env
+credit|кредит|Many young people rely on [[credit]] to pay for education.|n|work
+culture|культура|Language is closely linked to [[culture]].|n|soc
+design|проектировать; дизайн|Schools should be [[designed]] to encourage movement.|v|gen
+distinct|отчётливый, различный|There are two [[distinct]] groups of learners.|adj|gen
+element|элемент|Practice is an essential [[element]] of language learning.|n|gen
+equate|приравнивать|Success should not be [[equated]] with wealth.|v|soc
+evaluate|оценивать (качество)|Governments must [[evaluate]] whether policies actually work.|v|gov
+evidence|доказательства|There is little [[evidence]] that the scheme reduces crime.|n|sci
+feature|особенность; характерная черта|A key [[feature]] of the city is its public parks.|n|gen
+final|окончательный|The [[final]] decision rests with the committee.|adj|gen
+focus|сосредоточиться; фокус|Schools should [[focus]] on practical skills.|v|edu
+impact|влияние|Social media has a strong [[impact]] on teenagers.|n|media
+institute|институт|The research [[institute]] receives public funding.|n|sci
+invest|инвестировать|Governments should [[invest]] in renewable energy.|v|gov
+item|предмет, пункт|Each [[item]] on the list was checked carefully.|n|gen
+journal|журнал (научный)|The results were published in a medical [[journal]].|n|sci
+maintain|поддерживать, сохранять|It is expensive to [[maintain]] old roads.|v|trans
+normal|нормальный|Remote work has become [[normal]] for many firms.|adj|work
+obtain|получать|Students must [[obtain]] a visa before they travel.|v|edu
+participate|участвовать|Pupils who [[participate]] in sport tend to perform better.|v|edu
+perceive|воспринимать|Many people [[perceive]] cycling as dangerous.|v|trans
+positive|положительный|Volunteering has a [[positive]] effect on mental health.|adj|health
+potential|потенциал; потенциальный|Solar power has enormous [[potential]].|n|env
+previous|предыдущий|Applicants need [[previous]] experience in teaching.|adj|work
+primary|основной; начальный|Cars are the [[primary]] cause of air pollution in cities.|adj|env
+purchase|покупка; покупать|Online [[purchases]] have risen sharply.|n|work
+range|диапазон, спектр|The course offers a wide [[range]] of subjects.|n|edu
+region|регион|Rural [[regions]] often lack reliable internet.|n|gen
+regulate|регулировать|Governments should [[regulate]] advertising to children.|v|gov
+relevant|уместный, имеющий отношение|Courses must stay [[relevant]] to the job market.|adj|edu
+reside|проживать|About half of the population [[resides]] in cities.|v|soc
+resource|ресурс|Water is a scarce [[resource]] in many regions.|n|env
+restrict|ограничивать|Some countries [[restrict]] access to social media.|v|gov
+secure|обеспечивать; надёжный|A stable job helps people [[secure]] a mortgage.|v|work
+seek|искать, стремиться|Many graduates [[seek]] work abroad.|v|work
+select|выбирать|Applicants are [[selected]] on the basis of merit.|v|work
+site|место, участок|The old factory [[site]] will become a park.|n|gen
+strategy|стратегия|Companies need a long-term [[strategy]].|n|work
+survey|опрос; обследовать|A recent [[survey]] found that most people support the plan.|n|sci
+text|текст|Students analyse a short [[text]] each week.|n|edu
+tradition|традиция|Many [[traditions]] are disappearing in big cities.|n|soc
+transfer|переносить, передавать|Skills learned in one job can be [[transferred]] to another.|v|work
+aware|осведомлённый|Few consumers are [[aware]] of the environmental cost.|adj|env
+capacity|ёмкость, способность|Hospitals are operating at full [[capacity]].|n|health
+challenge|вызов, трудность|Ageing populations pose a major [[challenge]].|n|soc
+clarify|прояснять|Teachers should [[clarify]] what is expected.|v|edu
+commit|совершать; брать на себя обязательство|Fewer people [[commit]] crimes in areas with good schools.|v|crime
+comprehensive|всесторонний, исчерпывающий|The report provides a [[comprehensive]] overview of the issue.|adj|gen
+contribute|вносить вклад; способствовать|Poor diet [[contributes]] to many health problems.|v|health
+crucial|решающий, крайне важный|Early intervention is [[crucial]] in treating addiction.|adj|health
+demonstrate|демонстрировать, доказывать|The experiment [[demonstrated]] the value of regular practice.|v|sci
+despite|несмотря на|[[Despite]] higher wages, many workers feel undervalued.|prep|work
+diverse|разнообразный|A [[diverse]] workforce brings fresh ideas.|adj|work
+emerge|появляться|New forms of work have [[emerged]] with digital platforms.|v|tech
+enable|позволять, давать возможность|Technology [[enables]] people to work from anywhere.|v|tech
+enhance|улучшать, усиливать|Music lessons can [[enhance]] concentration.|v|edu
+ensure|обеспечивать, гарантировать|Laws must [[ensure]] that all citizens are treated equally.|v|gov
+estimate|приблизительная оценка|The official [[estimate]] is far below the real cost.|n|sci
+exceed|превышать|Demand for housing [[exceeds]] supply in most cities.|v|soc
+expand|расширяться|Low-cost airlines have [[expanded]] rapidly.|v|trans
+expose|подвергать воздействию|Children are [[exposed]] to advertising from an early age.|v|media
+facilitate|облегчать, содействовать|Online tools [[facilitate]] communication between teams.|v|tech
+fundamental|фундаментальный|Education is a [[fundamental]] human right.|adj|edu
+generate|порождать, вырабатывать|Wind farms [[generate]] electricity without producing emissions.|v|env
+globe|земной шар|Cultural trends spread quickly across the [[globe]].|n|soc
+highlight|подчёркивать, выделять|The report [[highlights]] the need for urgent reform.|v|gen
+hypothesis|гипотеза|The [[hypothesis]] was tested in three different schools.|n|sci
+implement|осуществлять, внедрять|The city plans to [[implement]] a congestion charge.|v|gov
+implication|следствие, подтекст|The findings have important [[implications]] for teachers.|n|sci
+incorporate|включать в состав|Schools should [[incorporate]] practical skills into the curriculum.|v|edu
+innovation|нововведение|Constant [[innovation]] keeps firms competitive.|n|tech
+instance|случай, пример|In many [[instances]], parents are unaware of the risks.|n|gen
+integrate|интегрировать|Newcomers find it easier to [[integrate]] if they learn the language.|v|soc
+internal|внутренний|[[Internal]] migration has reshaped the country.|adj|soc
+investigate|расследовать, изучать|Police will [[investigate]] the cause of the fire.|v|crime
+isolate|изолировать|Remote work can [[isolate]] employees from colleagues.|v|work
+justify|оправдывать, обосновывать|Nothing can [[justify]] such high prices.|v|gen
+likewise|так же, аналогично|Cars cause pollution; [[likewise]], aeroplanes damage the atmosphere.|adv|gen
+mental|умственный, психический|[[Mental]] health services are underfunded.|adj|health
+migrate|мигрировать|Many young people [[migrate]] to cities for work.|v|soc
+minimise|минимизировать|Good design can [[minimise]] energy waste.|v|env
+objective|цель; объективный|The main [[objective]] of the policy is to cut pollution.|n|gov
+obvious|очевидный|The benefits of exercise are [[obvious]].|adj|health
+overall|в целом|[[Overall]], the advantages outweigh the drawbacks.|adv|gen
+perspective|точка зрения|Travel gives people a broader [[perspective]].|n|soc
+phenomenon|явление|Urbanisation is a global [[phenomenon]].|n|soc
+predict|предсказывать|No one can [[predict]] how technology will develop.|v|tech
+prohibit|запрещать|Many cities [[prohibit]] smoking in public places.|v|gov
+rely|полагаться|Many farmers [[rely]] on seasonal workers.|v|work
+reluctant|неохотный|Employers are [[reluctant]] to hire inexperienced staff.|adj|work
+retain|сохранять, удерживать|Companies try to [[retain]] skilled employees.|v|work
+reveal|выявлять, раскрывать|The data [[reveal]] a gap between rich and poor.|v|sci
+shift|сдвиг; смещаться|There has been a [[shift]] towards online shopping.|n|soc
+somewhat|несколько, отчасти|The situation has [[somewhat]] improved.|adv|gen
+stable|стабильный|A [[stable]] government attracts foreign investment.|adj|gov
+sufficient|достаточный|Many workers do not earn a [[sufficient]] wage.|adj|work
+sustain|поддерживать, выдерживать|The planet cannot [[sustain]] such rapid growth.|v|env
+tend|иметь тенденцию|Wealthier people [[tend]] to live longer.|v|health
+undergo|претерпевать|The city has [[undergone]] a major transformation.|v|soc
+widespread|широко распространённый|There is [[widespread]] concern about data privacy.|adj|tech

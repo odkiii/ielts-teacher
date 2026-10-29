@@ -1,5 +1,5 @@
 {
   "name": "ielts-teacher",
   "private": true,
-  "scripts": { "test": "node --test tests/*.test.js", "data": "python3 scripts/build_data.py", "start": "python3 -m http.server 8080 -d app" }
+  "scripts": { "test": "node --test tests/*.test.js", "data": "python3 scripts/build_data.py && python3 scripts/build_deck.py", "start": "python3 -m http.server 8080 -d app" }
 }
