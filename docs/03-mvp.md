@@ -40,3 +40,6 @@ npm run data         # пересобрать app/data/resources.json (нуже�
 - Новый ресурс → `data/resources_extra.yaml` (или `resources.yaml`) → `npm run data`.
 - Темы/вопросы/карточки → `app/data/content.json`.
 - Чтобы ресурс попал в ежедневные задания, добавь его `id` в `resourceMap` в `content.json`.
+
+## Аккаунты и облако (v2)
+Вход — Supabase Auth (email + пароль). Данные профиля — одна JSON-строка в `public.ielts_user_data` (RLS: пользователь видит только свою). Клиент: `app/vendor/supabase.js` (UMD, локально), настройки — `app/js/cloud.js` (URL и anon-ключ публичные по дизайну). Для своего деплоя создай проект Supabase, выполни SQL таблицы и подставь URL/ключ. Локальный кэш: `localStorage` (`ielts_v2_<user id>`), при отсутствии сети изменения отправятся позже.

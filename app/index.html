@@ -2,18 +2,22 @@
 <html lang="ru">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#fafaf9">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0b0b0d">
+<meta name="color-scheme" content="light dark">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
 <title>IELTS Teacher</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <strong>IELTS Teacher</strong>
-  <span id="who"></span>
-</header>
-<nav id="nav"></nav>
 <main id="view">Загрузка…</main>
-<footer>Данные хранятся только в этом браузере. Делай экспорт (Настройки) раз в неделю.</footer>
+<nav id="tabs" hidden></nav>
+<div id="sheets"></div>
+<div id="toasts" aria-live="polite"></div>
+<script src="vendor/supabase.js"></script>
+<script src="js/cloud.js"></script>
 <script src="js/engine.js"></script>
 <script src="js/app.js"></script>
 </body>
