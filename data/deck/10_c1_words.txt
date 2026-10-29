@@ -1,0 +1,26 @@
+#level C1
+ubiquitous|повсеместный|Smartphones have become [[ubiquitous]].|adj|tech
+mitigate|смягчать (последствия)|Trees can [[mitigate]] the effects of heat in cities.|v|env
+exacerbate|усугублять|Long working hours can [[exacerbate]] stress.|v|health
+detrimental|вредный, пагубный|Lack of sleep is [[detrimental]] to learning.|adj|health
+plausible|правдоподобный|That is a [[plausible]] explanation.|adj|sci
+inevitable|неизбежный|Some change is [[inevitable]].|adj|gen
+prevalent|распространённый|Obesity is [[prevalent]] in many countries.|adj|health
+undermine|подрывать|Fake news can [[undermine]] trust in the media.|v|media
+foster|способствовать, взращивать|Schools should [[foster]] creativity.|v|edu
+hinder|мешать, затруднять|Poor roads [[hinder]] economic growth.|v|gov
+nuance|нюанс|The translation misses every [[nuance]].|n|gen
+scrutiny|тщательная проверка|The plan came under close [[scrutiny]].|n|gov
+viable|жизнеспособный|Solar power is a [[viable]] alternative.|adj|env
+compelling|убедительный|She made a [[compelling]] argument.|adj|gen
+substantial|существенный|There was a [[substantial]] increase in costs.|adj|gen
+equanimity|невозмутимость|She accepted the criticism with [[equanimity]].|n|gen|C2
+cogent|убедительный, логичный|He gave a [[cogent]] reason for the change.|adj|gen|C2
+incorrigible|неисправимый|He is an [[incorrigible]] optimist.|adj|gen|C2
+iniquitous|вопиюще несправедливый|The tax system was widely seen as [[iniquitous]].|adj|gov|C2
+censorious|осуждающий, придирчивый|She gave him a [[censorious]] look.|adj|soc|C2
+overweening|непомерный, самоуверенный|His [[overweening]] pride ruined his career.|adj|gen|C2
+verisimilitude|правдоподобие|The film's detail gives it [[verisimilitude]].|n|media|C2
+prolixity|многословие|The report suffers from [[prolixity]].|n|media|C2
+imbue with|наполнять, наделять (качеством)|Good teachers [[imbue]] pupils with a love of reading.|v|edu|C2
+remonstrate with|настойчиво возражать|Parents [[remonstrated]] with the head teacher.|v|soc|C2

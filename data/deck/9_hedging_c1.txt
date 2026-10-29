@@ -1,0 +1,27 @@
+#level B2
+tend to|иметь тенденцию, как правило|Teenagers [[tend to]] stay up late.|hedge|gen|B2
+to some extent|до некоторой степени|I agree with this view [[to some extent]].|hedge|gen|B2
+to a certain degree|в известной мере|This is true [[to a certain degree]].|hedge|gen|B2
+by and large|в целом|[[By and large]], the plan worked.|hedge|gen|C1
+arguably|можно утверждать|This is [[arguably]] the best solution.|adv|gen|C1
+presumably|по-видимому|[[Presumably]], the exam will be harder next year.|adv|gen|C1
+admittedly|надо признать|[[Admittedly]], the cost is high.|adv|gen|C1
+nevertheless|тем не менее|The test was long; [[nevertheless]], most students finished.|adv|gen|B2
+in particular|в частности|Young people, [[in particular]], use social media.|hedge|gen|B2
+as far as I am concerned|что касается меня|[[As far as I am concerned]], cities need more parks.|hedge|gen|B2
+it goes without saying that|само собой разумеется, что|[[It goes without saying that]] education matters.|hedge|gen|C1
+contrary to popular belief|вопреки распространённому мнению|[[Contrary to popular belief]], cities can be green.|hedge|gen|C1
+all things considered|учитывая всё|[[All things considered]], the benefits are greater.|hedge|gen|C1
+on balance|взвесив всё|[[On balance]], remote work is a positive trend.|hedge|gen|C1
+for the most part|по большей части|[[For the most part]], the results were positive.|hedge|gen|C1
+given that|учитывая, что|[[Given that]] cities are crowded, space is expensive.|conj|gen|C1
+whereas|тогда как|Cars are fast, [[whereas]] bikes are cheap.|conj|gen|B2
+provided that|при условии, что|You can go [[provided that]] you finish homework.|conj|gen|B2
+in contrast|в отличие|[[In contrast]], rural areas lost residents.|hedge|gen|B2
+that said|тем не менее, при этом|[[That said]], there are exceptions.|hedge|gen|C1
+a case in point|яркий пример|Tokyo is [[a case in point]].|hedge|gen|C1
+what is more|более того|[[What is more]], it saves time.|hedge|gen|B2
+can improve|может улучшить (осторожное утверждение)|Working from home [[can improve]] productivity in some jobs.|hedge|work|B2
+may face fewer interruptions|может сталкиваться с меньшим числом помех|Employees at home [[may face fewer interruptions]].|hedge|work|C1
+it is widely believed that|широко распространено мнение, что|[[It is widely believed that]] sleep helps memory.|hedge|health|B2
+this suggests that|это говорит о том, что|[[This suggests that]] prices will keep rising.|hedge|gen|B2

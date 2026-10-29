@@ -209,17 +209,19 @@
   // ---------- Карточки ----------
   let DECK = [], READ = [], WRITING = null;
   const hl = (ex) => esc(ex).replace(/\[\[([^\[\]]+)\]\]/g, '<mark>$1</mark>');
-  const POS = { n: 'сущ.', v: 'глагол', adj: 'прил.', adv: 'нареч.', phr: 'выражение', prep: 'предлог', conj: 'союз' };
+  const POS = { n: 'сущ.', v: 'глагол', adj: 'прил.', adv: 'нареч.', phr: 'выражение', coll: 'коллокация', phv: 'фразовый глагол', idiom: 'идиома', hedge: 'оборот', prep: 'предлог', conj: 'союз' };
   const hash = (s) => { let h = 2166136261; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); } h ^= h >>> 15; h = Math.imul(h, 0x2c1b3c6d); h ^= h >>> 12; return h >>> 0; };
   const CAP = 12;
   let sess = null; const cst = { tab: 'learn', cur: null, step: 'q', mq: null, pick: null };
 
+  const userCef = (p) => (p.cefMode && p.cefMode !== 'auto') ? p.cefMode : E.cefOf(p.skills);
   function syncDeck(p) {
     const ids = new Set(p.cards.map((c) => c.id)); const byId = {}; DECK.forEach((d) => { byId[d.id] = d; });
-    p.cards.forEach((c) => { const d = byId[c.id]; if (d) { c.t = d.t; c.ru = d.ru; c.ex = d.ex; c.pos = d.pos; c.dom = d.dom; } });
+    p.cards.forEach((c) => { const d = byId[c.id]; if (d) { c.t = d.t; c.ru = d.ru; c.ex = d.ex; c.pos = d.pos; c.dom = d.dom; c.cef = d.cef; } });
     let added = 0;
-    DECK.forEach((d) => { if (!ids.has(d.id)) { p.cards.push(Object.assign(E.newCard('', '', d.id), { t: d.t, ru: d.ru, ex: d.ex, pos: d.pos, dom: d.dom, lv: 0 })); added++; } });
-    if (added) { const seen = p.cards.filter((c) => c.seen); const rest = p.cards.filter((c) => !c.seen).sort((a, b) => hash(a.id) - hash(b.id)); p.cards = seen.concat(rest); }
+    DECK.forEach((d) => { if (!ids.has(d.id)) { p.cards.push(Object.assign(E.newCard('', '', d.id), { t: d.t, ru: d.ru, ex: d.ex, pos: d.pos, dom: d.dom, cef: d.cef, lv: 0 })); added++; } });
+    const seen = p.cards.filter((c) => c.seen); const lvl = userCef(p); const rk = (c) => E.cefRank(lvl, c.cef);
+    const rest = p.cards.filter((c) => !c.seen).sort((a, b) => (rk(a) - rk(b)) || (hash(a.id) - hash(b.id))); p.cards = seen.concat(rest);
     return added;
   }
   function ensureP(p) { p.errors.forEach((e) => E.errInit(e, today())); p.drafts = p.drafts || {}; p.writes = p.writes || []; p.reads = p.reads || []; if (!p.newToday) p.newToday = { date: '', n: 0, extra: 0 }; }
@@ -244,7 +246,7 @@
   function viewCards() {
     const p = P(); ensureSess(p); refill(p);
     const mastered = p.cards.filter((c) => c.mastered).length, work = p.cards.filter((c) => c.seen && !c.mastered).length;
-    paint(head('Карточки', '<span id="csub"></span>', plusBtn('cplus', 'Добавить')) + seg('ctab', [['learn', 'Учить'], ['deck', 'Колода']], cst.tab) + '<div id="cbody" style="margin-top:16px"></div>');
+    paint(head('Карточки', '<span id="csub"></span>', plusBtn('cplus', 'Добавить')) + seg('ctab', [['learn', 'Учить'], ['deck', 'Колода']], cst.tab) + (p.cards.filter((c) => c.seen).length >= 4 ? '<div class="list" style="margin-top:12px"><a class="rowi" href="#vw"><div class="grow"><b>Напиши текст со словами</b><div class="mut" style="margin-top:2px">Закрепи выученное в письме</div></div></a></div>' : '') + '<div id="cbody" style="margin-top:16px"></div>');
     bindSeg('ctab', (v) => { cst.tab = v; drawCards(); });
     $('#cplus').onclick = () => openSheet('<h2>Новая карточка</h2><div class="stack"><input id="cf" placeholder="Слово или фраза (English)" autocomplete="off"><input id="cb" placeholder="Перевод" autocomplete="off"><input id="cx" placeholder="Предложение с этим словом" autocomplete="off"><button class="btn p" id="cadd">Добавить</button></div>' +
       '<h3>Импорт</h3><textarea id="csv" placeholder="слово;перевод;пример — по одной на строку (или front;back)"></textarea><div style="margin-top:10px"><button class="btn" id="cimp">Импортировать</button></div>', () => {
@@ -287,7 +289,7 @@
     const mst = review ? '' : '<div style="text-align:center;margin-top:6px"><button class="link" id="mst">Выучил — больше не заучивать</button></div>';
     let h = '<div class="enter">' + lvl;
     if (mode === 'flip') {
-      if (word) h += '<div class="flash"><small>' + (POS[c.pos] || '') + '</small><div class="term">' + esc(c.t) + '</div><div class="exm">' + hl(c.ex) + '</div></div>' + (cst.step === 'a' ? '<div class="flash back"><b>' + esc(c.ru) + '</b></div>' : '');
+      if (word) h += '<div class="flash"><small>' + (POS[c.pos] || '') + (c.cef ? ' · ' + c.cef : '') + '</small><div class="term">' + esc(c.t) + '</div><div class="exm">' + hl(c.ex) + '</div></div>' + (cst.step === 'a' ? '<div class="flash back"><b>' + esc(c.ru) + '</b></div>' : '');
       else h += '<div class="flash">' + esc(c.f) + '</div>' + (cst.step === 'a' ? '<div class="flash back">' + esc(c.b) + '</div>' : '');
       h += cst.step === 'a' ? rateRow() + mst : '<div style="margin-top:14px"><button class="btn p" id="show">Показать перевод</button></div>';
     } else if (mode === 'mcq') {
@@ -327,7 +329,7 @@
         (list.length > 80 ? '<p class="mut" style="text-align:center">Показаны первые 80 из ' + list.length + ' — уточни поиск</p>' : '');
       $$('[data-c]').forEach((b) => b.onclick = () => {
         const c = p.cards.find((x) => x.id === b.dataset.c);
-        openSheet('<h2>' + esc(c.t || c.f) + '</h2>' + (E.isWord(c) ? '<p class="mut">' + (POS[c.pos] || '') + ' · ' + esc(c.ru) + '</p><div class="card exm" style="font-size:16px">' + hl(c.ex) + '</div>' : '<div class="card">' + esc(c.b) + '</div>') +
+        openSheet('<h2>' + esc(c.t || c.f) + '</h2>' + (E.isWord(c) ? '<p class="mut">' + (POS[c.pos] || '') + (c.cef ? ' · ' + c.cef : '') + ' · ' + esc(c.ru) + '</p><div class="card exm" style="font-size:16px">' + hl(c.ex) + '</div>' : '<div class="card">' + esc(c.b) + '</div>') +
           (c.my && c.my.length ? '<h3>Мои предложения</h3><div class="stack">' + c.my.map((s) => '<div class="card" style="font-size:15px">' + esc(s) + '</div>').join('') + '</div>' : '') +
           '<div style="margin-top:16px"><button class="btn' + (c.mastered ? '' : ' p') + '" id="dm">' + (c.mastered ? 'Вернуть в заучивание' : 'Отметить выученной') + '</button></div>', () => {
           $('#dm').onclick = () => { if (c.mastered) E.unmaster(c); else E.master(c, today()); sess = null; save(); closeSheet(); toast(c.mastered ? 'Выучено' : 'Снова в работе'); viewCards(); };
@@ -337,6 +339,42 @@
     $('#dq').oninput = (e) => { deckQ = e.target.value; draw(); };
     $$('#df button').forEach((b) => b.onclick = () => { deckF = b.dataset.f; $$('#df button').forEach((x) => x.classList.toggle('on', x === b)); draw(); });
     draw();
+  }
+
+  // ---------- Практика: текст с выученными словами ----------
+  let vw = null;
+  function vwPick(p) {
+    const t0 = today(); const seen = p.cards.filter((c) => c.seen && c.t && c.ex).sort((a, b) => ((a.wu || 0) - (b.wu || 0)) || (hash(a.id + t0) - hash(b.id + t0)));
+    const out = []; const k = {};
+    seen.forEach((c) => { if (out.length < 6 && (k[c.pos] || 0) < 2) { k[c.pos] = (k[c.pos] || 0) + 1; out.push(c.id); } });
+    seen.forEach((c) => { if (out.length < 6 && !out.includes(c.id)) out.push(c.id); });
+    return out;
+  }
+  function viewVw() {
+    const p = P(); const t0 = today();
+    let h = head('Текст со словами', 'Закрепи выученное в письме', back('#cards'));
+    if (p.cards.filter((c) => c.seen && c.t && c.ex).length < 4) { paint(h + '<div class="card">Сначала выучи хотя бы 4 карточки — потом сюда попадут именно они.</div>'); return; }
+    if (!vw || vw.pid !== p.id || vw.date !== t0) { const ids = vwPick(p); const qs = WRITING.task2; vw = { pid: p.id, date: t0, ids, res: null, q: qs[hash(t0 + ids.join()) % qs.length].q }; }
+    const cs = vw.ids.map((id) => p.cards.find((c) => c.id === id)).filter(Boolean);
+    const draft = (p.drafts && p.drafts.vw) || '';
+    h += '<div class="card"><div class="mut">Тема (можно писать и о другом)</div><div style="margin-top:6px">' + esc(vw.q) + '</div></div>';
+    h += '<h3>Используй минимум 4 из 6</h3><div class="list">' + cs.map((c, i) => '<div class="rowi"><div class="grow"><b>' + esc(c.t) + '</b> <span class="mut">— ' + esc(c.ru) + '</span><div class="mut" style="margin-top:2px">' + (vw.res ? (vw.res.used[i] ? '✓ использовано' : '✗ не найдено') + ' · ' : '') + hl(c.ex) + '</div></div></div>').join('') + '</div>';
+    h += '<textarea id="vt" rows="9" style="margin-top:12px" placeholder="Напиши 1–2 абзаца (80–150 слов). Слова должны звучать естественно — не вставляй их в каждое предложение.">' + esc(draft) + '</textarea><div class="mut" id="vwc" style="margin:4px 2px 0"></div>';
+    if (vw.res) h += '<div class="card" style="margin-top:12px"><b>' + vw.res.n + ' из ' + cs.length + '</b> слов использовано' + (vw.res.n >= 4 ? ' — зачтено.' : ' — нужно минимум 4.') + (vw.res.wc < 60 ? '<div class="mut" style="margin-top:6px">Текст короткий (' + vw.res.wc + ' слов) — для практики лучше 80+.</div>' : '') + '<div class="mut" style="margin-top:6px">Попроси ИИ проверить естественность и формы: кнопка «Промпт для ИИ».</div></div>';
+    h += '<div style="margin-top:12px"><button class="btn p" id="vchk">Проверить</button></div><div style="display:grid;grid-template-columns:1fr 1fr;gap:8px" style="margin-top:8px"><button class="btn" id="vcopy">Промпт для ИИ</button><button class="btn" id="vnew">Другие слова</button></div>';
+    paint(h);
+    const upd = () => { const n = $('#vt').value.trim().split(/\s+/).filter(Boolean).length; $('#vwc').textContent = 'Слов: ' + n; };
+    $('#vt').oninput = () => { upd(); p.drafts.vw = $('#vt').value; save(); }; upd();
+    $('#vchk').onclick = () => {
+      const text = $('#vt').value.trim(); const wc = text.split(/\s+/).filter(Boolean).length;
+      if (wc < 20) { toast('Напиши хотя бы 20 слов'); return; }
+      const used = cs.map((c) => E.checkSentence(c, text).used); const n = used.filter(Boolean).length;
+      used.forEach((u, i) => { if (u) cs[i].wu = (cs[i].wu || 0) + 1; });
+      p.vwrites = p.vwrites || []; p.vwrites.push({ date: t0, ids: vw.ids.slice(), n, wc, text });
+      vw.res = { used, n, wc }; save(); viewVw(); toast(n >= 4 ? 'Зачтено: ' + n + ' из ' + cs.length : 'Использовано: ' + n);
+    };
+    $('#vcopy').onclick = () => { const text = $('#vt').value.trim(); if (!text) { toast('Сначала напиши текст'); return; } copyText(buildPrompt('t2', vw.q + '\n\nThe candidate was asked to use these target expressions naturally: ' + cs.map((c) => c.t).join('; ') + '. Also comment, for each one, whether it is used correctly and naturally (collocation, form, register), and suggest a better alternative if not.', text)); };
+    $('#vnew').onclick = () => { cs.forEach((c) => { c.wu = (c.wu || 0) + 1; }); p.drafts.vw = ''; vw = null; save(); viewVw(); };
   }
 
   // ---------- Ошибки ----------
@@ -670,8 +708,10 @@
     const standalone = matchMedia('(display-mode: standalone)').matches || navigator.standalone;
     const ios = /iphone|ipad|ipod/i.test(navigator.userAgent);
     if (!standalone) h += '<div class="list" style="margin-top:12px"><button class="rowi" id="inst"><span class="grow">Установить как приложение<div class="mut" style="margin-top:2px">' + (ios ? 'Safari → Поделиться → На экран «Домой»' : 'Иконка на главном экране, работает офлайн') + '</div></span></button></div>';
+    h += '<div class="list" style="margin-top:12px"><div class="rowi"><span class="grow">Уровень карточек<div class="mut" style="margin-top:2px">Сейчас: ' + userCef(p) + ' — слова на ступень выше</div></span><select id="cefm">' + ['auto', 'B1', 'B2', 'C1', 'C2'].map((v) => '<option value="' + v + '"' + ((p.cefMode || 'auto') === v ? ' selected' : '') + '>' + (v === 'auto' ? 'Авто' : v) + '</option>').join('') + '</select></div></div>';
     h += '<h3>Профиль</h3>' + profileForm(p, 'Сохранить');
     paint(h);
+    $('#cefm').onchange = () => { p.cefMode = $('#cefm').value; syncDeck(p); sess = null; save(); toast('Уровень карточек: ' + userCef(p)); viewSet(); };
     const ib = $('#inst'); if (ib) ib.onclick = async () => { if (deferredInstall) { deferredInstall.prompt(); deferredInstall = null; } else toast(ios ? 'Safari → Поделиться → На экран «Домой»' : 'Меню браузера → Установить приложение'); };
     bindSeg('f_module');
     $('#pf').onsubmit = (e) => {
@@ -719,7 +759,7 @@
   function renderTabs(tab0) {
     let tab = tab0;
     const t = $('#tabs'); t.hidden = false;
-    tab = MORE_ALIAS[tab] || (tab === 'fix' ? 'errors' : tab); const inMore = MORE.some((m) => m[0] === tab);
+    tab = MORE_ALIAS[tab] || (tab === 'fix' ? 'errors' : tab === 'vw' ? 'cards' : tab); const inMore = MORE.some((m) => m[0] === tab);
     t.innerHTML = TABS.map(([k, n]) => '<a href="#' + k + '" class="' + (k === tab ? 'on' : '') + '">' + ico(k) + n + '</a>').join('') + '<button id="tmore" class="' + (inMore ? 'on' : '') + '">' + ico('more') + (inMore ? MORE.find((m) => m[0] === tab)[1] : 'Ещё') + '</button>';
     $('#tmore').onclick = () => openSheet('<div class="list">' + MORE.map(([k, n]) => '<a class="rowi" href="#' + k + '"><span class="grow">' + n + '</span>' + ico('chev', 'chev') + '</a>').join('') + '</div>', (el) => { el.querySelectorAll('a').forEach((a) => { a.onclick = () => closeSheet(); }); });
   }
@@ -729,7 +769,7 @@
     const parts = (location.hash || '#today').slice(1).split('/'); const tab = parts[0];
     if (!DB.active || !P()) { $('#tabs').hidden = true; return viewOnboarding(); }
     renderTabs(tab);
-    ({ today: viewToday, plan: viewPlan, cards: viewCards, errors: viewErrors, fix: viewFix, writing: viewWriting, write: viewWrite, reading: viewReading, read: viewRead, progress: viewProgress, res: viewRes, set: viewSet }[tab] || viewToday)(parts[1]);
+    ({ today: viewToday, plan: viewPlan, cards: viewCards, errors: viewErrors, fix: viewFix, vw: viewVw, writing: viewWriting, write: viewWrite, reading: viewReading, read: viewRead, progress: viewProgress, res: viewRes, set: viewSet }[tab] || viewToday)(parts[1]);
     if (animate === false) $('#view').classList.remove('enter');
     window.scrollTo(0, 0);
   }

@@ -1,0 +1,68 @@
+#level B2
+make a decision|принимать решение|It took her a week to [[make a decision]].|coll|gen|B1
+reach a decision|прийти к решению|The committee finally [[reached a decision]].|coll|gen|B2
+influence someone's decision|влиять на чьё-то решение|Price can [[influence your decision]] when you buy a car.|coll|gen|B2
+take a break|сделать перерыв|Students should [[take a break]] every hour.|coll|gen|B1
+pay attention to|обращать внимание на|Drivers must [[pay attention to]] road signs.|coll|gen|B1
+do research|проводить исследование|Scientists [[do research]] into new vaccines.|coll|sci|B1
+carry out research|проводить исследование|The team [[carried out research]] on sleep.|coll|sci|B2
+meet someone's needs|удовлетворять потребности|The service [[meets the needs]] of elderly people.|coll|soc|B2
+raise a question|поднимать вопрос|The report [[raises a question]] about safety.|coll|gen|B2
+pose a threat|представлять угрозу|Plastic [[poses a threat]] to marine life.|coll|env|C1
+pose a problem|создавать проблему|Ageing populations [[pose a problem]] for governments.|coll|gov|B2
+face a challenge|сталкиваться с трудностью|Small businesses [[face many challenges]].|coll|work|B2
+overcome obstacles|преодолевать препятствия|She [[overcame many obstacles]] to finish her degree.|coll|gen|B2
+strike a balance|находить баланс|Schools must [[strike a balance]] between study and play.|coll|edu|C1
+widen the gap|увеличивать разрыв|Cuts may [[widen the gap]] between rich and poor.|coll|soc|C1
+bridge the gap|преодолевать разрыв|Online courses help [[bridge the gap]] in access to education.|coll|edu|C1
+have a negative impact on|негативно влиять на|Noise can [[have a negative impact on]] health.|coll|gen|B2
+have a profound effect on|оказывать глубокое влияние на|Reading [[has a profound effect on]] children's imagination.|coll|gen|C1
+shed light on|проливать свет на|The study [[sheds light on]] why people forget.|coll|sci|C1
+draw attention to|привлекать внимание к|The campaign [[draws attention to]] air pollution.|coll|media|B2
+gain popularity|становиться популярным|Electric scooters have [[gained popularity]] in cities.|coll|trans|B2
+a growing number of|растущее число|[[A growing number of]] people work remotely.|coll|work|B2
+a steady decline|постепенный спад|There was [[a steady decline]] in sales.|coll|gen|B2
+a sharp increase|резкий рост|The graph shows [[a sharp increase]] in 2020.|coll|gen|B2
+a significant proportion of|значительная доля|[[A significant proportion of]] students study abroad.|coll|edu|B2
+the vast majority of|подавляющее большинство|[[The vast majority of]] respondents agreed.|coll|gen|B2
+by far the most|безусловно самый (с большим отрывом)|Cycling was [[by far the most]] popular activity.|coll|gen|B2
+one in five|каждый пятый|[[One in five]] adults lives alone.|coll|gen|B1
+the share of respondents|доля опрошенных|[[The share of respondents]] who cycle doubled.|coll|gen|B2
+reach a peak|достигать пика|Sales [[reached a peak]] in July.|coll|gen|B2
+remain stable|оставаться стабильным|Prices [[remained stable]] for years.|coll|gen|B2
+heavy traffic|плотное движение|[[Heavy traffic]] causes long delays.|coll|trans|B1
+fierce competition|жёсткая конкуренция|There is [[fierce competition]] for good jobs.|coll|work|C1
+mounting pressure|растущее давление|Teachers are under [[mounting pressure]].|coll|edu|C1
+a heated debate|жаркие споры|The plan led to [[a heated debate]].|coll|gov|C1
+widespread concern|широкая обеспокоенность|There is [[widespread concern]] about data privacy.|coll|tech|C1
+raise public awareness|повышать осведомлённость общества|Ads can [[raise public awareness]] of health risks.|coll|media|B2
+tackle unemployment|бороться с безработицей|Governments try to [[tackle unemployment]].|coll|gov|B2
+reduce stress|снижать стресс|Walking helps me [[reduce stress]].|coll|health|B1
+seek advice|обращаться за советом|I often [[seek advice]] from friends.|coll|soc|B2
+coping strategies|способы справляться с трудностями|She learned new [[coping strategies]].|coll|health|B2
+personal growth|личностный рост|Travel encourages [[personal growth]].|coll|soc|B2
+combat feelings of loneliness|бороться с чувством одиночества|Clubs help [[combat feelings of loneliness]].|coll|soc|C1
+practise mindfulness|практиковать осознанность|I [[practise mindfulness]] every morning.|coll|health|B2
+healthy lifestyle|здоровый образ жизни|A [[healthy lifestyle]] includes enough sleep.|coll|health|B1
+lead a sedentary lifestyle|вести малоподвижный образ жизни|Many office workers [[lead a sedentary lifestyle]].|coll|health|C1
+make progress|делать успехи|She is [[making good progress]] in English.|coll|edu|B1
+make an effort|прилагать усилия|Please [[make an effort]] to arrive on time.|coll|gen|B1
+make a living|зарабатывать на жизнь|He [[makes a living]] as a driver.|coll|work|B2
+run a business|управлять бизнесом|She [[runs a small business]].|coll|work|B1
+cut costs|сокращать расходы|Firms [[cut costs]] by using automation.|coll|work|B2
+strong evidence|убедительные доказательства|There is [[strong evidence]] that exercise helps.|coll|sci|B2
+a reliable source|надёжный источник|Always check that you use [[a reliable source]].|coll|media|B2
+conduct a survey|проводить опрос|We [[conducted a survey]] of 200 students.|coll|sci|B2
+draw a conclusion|делать вывод|It is hard to [[draw a conclusion]] from so little data.|coll|sci|B2
+reach a consensus|достичь консенсуса|The experts failed to [[reach a consensus]].|coll|gov|C1
+a vested interest|корыстная заинтересованность|Companies have [[a vested interest]] in selling more.|coll|work|C1
+far-reaching consequences|далеко идущие последствия|The decision had [[far-reaching consequences]].|coll|gov|C1
+irreversible damage|необратимый ущерб|Pollution can cause [[irreversible damage]].|coll|env|C1
+take it for granted|воспринимать как должное|People often [[take it for granted]] that water is clean.|coll|gen|B2
+maintain your composure|сохранять самообладание|He managed to [[maintain his composure]] during the interview.|coll|gen|C1
+a major breakthrough|крупный прорыв|Scientists announced [[a major breakthrough]].|coll|sci|B2
+an ageing population|стареющее население|An [[ageing population]] puts pressure on pensions.|coll|soc|B2
+a rapid rise|быстрый рост|There has been [[a rapid rise]] in house prices.|coll|gen|B2
+take (full) advantage of|использовать с выгодой|Students should [[take advantage of]] free courses.|coll|edu|B2
+take responsibility for|брать на себя ответственность|Companies must [[take responsibility for]] waste.|coll|gov|B2
+come to terms with|смириться с|He is slowly [[coming to terms with]] the loss.|coll|soc|C1

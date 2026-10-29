@@ -189,3 +189,11 @@ test('W-PUNCT учитывает регистр и апостроф; без fix 
   const c = { tag: 'W-PUNCT', snippet: 'at first', fix: 'At first' }; assert.ok(!Eg.errCheck(c, 'at first')); assert.ok(Eg.errCheck(c, 'At first,'));
   assert.equal(Eg.errDue([{ tag: 'W-REP', snippet: 'x', fix: '', due: '2026-01-01' }], '2026-11-01').length, 0);
 });
+
+test('cefOf / cefRank: карточки на ступень выше', () => {
+  assert.equal(E.cefOf({ L: 4.5, R: 4.5, W: 4.5, S: 4.5 }), 'B1');
+  assert.equal(E.cefOf({ L: 6, R: 6.5, W: 6, S: 6 }), 'B2');
+  assert.equal(E.cefOf({ L: 7.5, R: 7.5, W: 7, S: 7 }), 'C1');
+  assert.equal(E.cefRank('B1', 'B2'), 0); assert.equal(E.cefRank('B1', 'B1'), 1);
+  assert.equal(E.cefRank('B1', 'C1'), 2); assert.equal(E.cefRank('C1', 'B1'), 3); assert.equal(E.cefRank('B1', 'C2'), 4);
+});
