@@ -1,0 +1,26 @@
+:root{--bg:#fff;--fg:#1a1a1a;--mut:#666;--line:#ddd;--acc:#1f5fbf;--card:#f6f7f9;--ok:#1b7f3b;--warn:#b45309}
+@media(prefers-color-scheme:dark){:root{--bg:#15171a;--fg:#e8e8e8;--mut:#9aa0a6;--line:#2b2f33;--acc:#6aa5ff;--card:#1e2125;--ok:#4ade80;--warn:#fbbf24}}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.45 system-ui,sans-serif;background:var(--bg);color:var(--fg)}
+header{display:flex;justify-content:space-between;padding:10px 14px;border-bottom:1px solid var(--line)}
+nav{display:flex;gap:4px;flex-wrap:wrap;padding:8px 10px;border-bottom:1px solid var(--line)}
+nav a{padding:6px 10px;border-radius:6px;color:var(--fg);text-decoration:none;font-size:14px}
+nav a.on{background:var(--acc);color:#fff}
+main{max-width:860px;margin:0 auto;padding:14px}
+footer{color:var(--mut);font-size:12px;text-align:center;padding:20px}
+h2{margin:6px 0 10px;font-size:20px}h3{margin:16px 0 6px;font-size:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin:8px 0}
+.task{display:flex;gap:10px;align-items:flex-start}
+.task.done{opacity:.55}.task.done .t{text-decoration:line-through}
+.t{font-weight:600}.mut{color:var(--mut);font-size:13px}
+.badge{display:inline-block;font-size:11px;padding:1px 6px;border-radius:10px;border:1px solid var(--line);margin-right:4px}
+.warn{color:var(--warn)}.ok{color:var(--ok)}
+input,select,textarea,button{font:inherit;color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:6px 8px}
+textarea{width:100%;min-height:110px}
+button{cursor:pointer}button.p{background:var(--acc);color:#fff;border-color:var(--acc)}
+label{display:block;margin:8px 0 2px;font-size:13px;color:var(--mut)}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.row>*{flex:0 0 auto}
+.bar{height:8px;background:var(--line);border-radius:4px;overflow:hidden}.bar>i{display:block;height:100%;background:var(--acc)}
+table{border-collapse:collapse;width:100%;font-size:14px}td,th{border-bottom:1px solid var(--line);padding:4px 6px;text-align:left}
+.big{font-size:22px;padding:18px;text-align:center}
+a{color:var(--acc)}

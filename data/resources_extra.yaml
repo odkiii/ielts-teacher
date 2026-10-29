@@ -1,0 +1,122 @@
+# Дополнительные ресурсы (status: user_provided — предложены сообществом, содержимое не проверено мейнтейнером).
+# Формат тот же, что в resources.yaml. Скрипт scripts/build_data.py объединяет оба файла в app/data/resources.json.
+# Instagram может быть недоступен в ряде стран (например, в РФ): ru_risk: access.
+
+resources:
+  - id: tg-stasybooeng
+    name: Telegram @stasybooeng
+    url: https://t.me/stasybooeng
+    type: telegram
+    skills: [ALL]
+    level: unknown
+    cost: unknown
+    ru_risk: false
+    status: user_provided
+    notes: Содержимое не проверено. Пользователь пометил как полезный.
+
+  - id: tg-ieltswithtutor
+    name: Telegram @ieltswithtutoraf
+    url: https://t.me/ieltswithtutoraf
+    type: telegram
+    skills: [ALL]
+    level: unknown
+    cost: unknown
+    ru_risk: false
+    status: user_provided
+
+  - id: tg-studywitharuzhan
+    name: Telegram @studywitharuzhan (Аружан, IELTS 8.0 по её словам)
+    url: https://t.me/studywitharuzhan
+    type: telegram
+    skills: [ALL]
+    level: A2-C1
+    cost: unknown
+    ru_risk: false
+    status: user_provided
+    notes: >
+      Проект не ссылается на файлы и книги из канала: используй только легальные копии учебников.
+
+  - id: ig-studywitharuzhan
+    name: Instagram @studywitharuzhan
+    url: https://www.instagram.com/studywitharuzhan
+    type: instagram
+    skills: [ALL]
+    level: unknown
+    cost: free
+    ru_risk: access
+    status: user_provided
+
+  - id: ig-ielts-advantage
+    name: Instagram @ielts_advantage
+    url: https://www.instagram.com/ielts_advantage
+    type: instagram
+    skills: [W, S]
+    level: unknown
+    cost: free
+    ru_risk: access
+    status: user_provided
+
+  - id: ig-english-pro-tips
+    name: Instagram @english_pro_tips
+    url: https://www.instagram.com/english_pro_tips
+    type: instagram
+    skills: [V, G]
+    level: unknown
+    cost: free
+    ru_risk: access
+    status: user_provided
+
+  - id: efset
+    name: EF SET — бесплатный тест уровня (CEFR)
+    url: https://www.efset.org/ru/
+    type: test
+    skills: [L, R]
+    level: A1-C2
+    cost: free
+    ru_risk: false
+    status: user_provided
+    tags: [placement]
+    notes: Даёт уровень CEFR для стартовой точки, не IELTS band.
+
+  - id: engnovate
+    name: Engnovate — пробные IELTS-тесты онлайн
+    url: https://engnovate.com/
+    type: practice
+    skills: [L, R, W, S]
+    level: B1-C1
+    cost: unknown
+    ru_risk: false
+    status: user_provided
+    tags: [practice]
+    notes: Условия бесплатного доступа и качество не проверены.
+
+  - id: yourielts-speaking
+    name: yourielts.ru — темы и вопросы IELTS Speaking
+    url: https://yourielts.ru/prepare-for-ielts/ielts-speaking
+    type: practice
+    skills: [S]
+    level: B1-C1
+    cost: free
+    ru_risk: false
+    status: user_provided
+    tags: [topics]
+
+  - id: ted-ed-lessons
+    name: TED-Ed Lessons — короткие видео с субтитрами и заданиями
+    url: https://ed.ted.com/lessons
+    type: video
+    skills: [L, V]
+    level: B1-C1
+    cost: free
+    ru_risk: false
+    status: user_provided
+
+  - id: cambridge-dictionary-grammar
+    name: Cambridge Dictionary — British Grammar (справочник по грамматике)
+    url: https://dictionary.cambridge.org/grammar/british-grammar/
+    type: reference
+    skills: [G]
+    level: A1-C2
+    cost: free
+    ru_risk: false
+    status: to_verify

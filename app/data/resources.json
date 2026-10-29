@@ -1,0 +1,711 @@
+[
+ {
+  "id": "idp-prepare-writing-band8",
+  "name": "IDP — Writing Task 2, почему не получается Band 8 (разбор критериев + чек-лист)",
+  "url": "https://ielts.idp.com/prepare/article-writing-task-2-why-cant-i-get-a-band-8",
+  "type": "article",
+  "skills": [
+   "W"
+  ],
+  "level": "B2-C1",
+  "cost": "free",
+  "ru_risk": false,
+  "status": "seen_2026-10-29",
+  "tags": [
+   "official",
+   "band_descriptors",
+   "checklist"
+  ]
+ },
+ {
+  "id": "idp-prepare-hub",
+  "name": "IDP — IELTS Prepare (статьи, видео, практические тесты, вебинары)",
+  "url": "https://ielts.idp.com/prepare",
+  "type": "hub",
+  "skills": [
+   "ALL"
+  ],
+  "level": "B1-C1",
+  "cost": "free_limited",
+  "ru_risk": false,
+  "status": "to_verify",
+  "tags": [
+   "official",
+   "official_practice"
+  ],
+  "notes": "Часть материалов бесплатна, часть — триал 4–30 дней; проверить доступность из РФ."
+ },
+ {
+  "id": "ielts-org",
+  "name": "IELTS.org — официальный сайт (free downloads, band descriptors, примеры)",
+  "url": "https://ielts.org",
+  "type": "hub",
+  "skills": [
+   "ALL"
+  ],
+  "level": "B1-C1",
+  "cost": "free",
+  "ru_risk": false,
+  "status": "to_verify",
+  "tags": [
+   "official",
+   "band_descriptors",
+   "official_practice"
+  ]
+ },
+ {
+  "id": "bc-ielts-update",
+  "name": "British Council — обновление формата IELTS (компьютер, Writing on Paper, OSR)",
+  "url": "https://takeielts.britishcouncil.org/take-ielts/book/paper-computer/ielts-test-update",
+  "type": "article",
+  "skills": [],
+  "level": "n/a",
+  "cost": "free",
+  "ru_risk": true,
+  "status": "seen_2026-10-29",
+  "tags": [
+   "official",
+   "test_format"
+  ],
+  "notes": "Только для чтения/справки; в публичные материалы не вставлять."
+ },
+ {
+  "id": "bc-road-to-ielts-testdrive",
+  "name": "Road to IELTS (British Council) — бесплатный Test Drive",
+  "url": "https://www.roadtoielts.com/testdrive/index.html",
+  "type": "course",
+  "skills": [
+   "L",
+   "R",
+   "W",
+   "S"
+  ],
+  "level": "B1-C1",
+  "cost": "free_limited",
+  "ru_risk": true,
+  "status": "seen_2026-10-29",
+  "tags": [
+   "official"
+  ],
+  "notes": "Free-версия ограничена (~10 ч). Риск из-за BC в РФ."
+ },
+ {
+  "id": "cambridge-guided-hours",
+  "name": "Cambridge English — сколько учебных часов нужно на уровень CEFR",
+  "url": "https://support.cambridgeenglish.org/hc/en-gb/articles/202838506-Guided-learning-hours",
+  "type": "article",
+  "skills": [],
+  "level": "n/a",
+  "cost": "free",
+  "ru_risk": false,
+  "status": "seen_2026-10-29",
+  "tags": [
+   "planning"
+  ]
+ },
+ {
+  "id": "cambridge-ielts-series",
+  "name": "Cambridge IELTS (серия Authentic Examination Papers, до 20-й книги — проверь актуальные тома)",
+  "url": null,
+  "type": "book",
+  "skills": [
+   "L",
+   "R",
+   "W",
+   "S"
+  ],
+  "level": "B2-C1",
+  "cost": "paid",
+  "ru_risk": false,
+  "status": "to_verify",
+  "tags": [
+   "official_practice",
+   "mock_tests"
+  ],
+  "notes": "Самые реалистичные тесты. Легальной бесплатной версии нет; пиратские сборники в базу не включаем. Покупать по одному тому (электронная версия подойдёт), Academic и General — разные.\n"
+ },
+ {
+  "id": "ielts-liz",
+  "name": "IELTS Liz (сайт, стратегии и разборы всех секций, ссылки на открытые ресурсы)",
+  "url": "https://ieltsliz.com/useful-websites-and-resources-for-ielts/",
+  "type": "site",
+  "skills": [
+   "ALL"
+  ],
+  "level": "B1-C1",
+  "cost": "free",
+  "ru_risk": false,
+  "status": "seen_2026-10-29",
+  "tags": [
+   "teacher",
+   "strategies"
+  ]
+ },
+ {
+  "id": "ielts-simon",
+  "name": "IELTS Simon (Simon Corcoran) — блог и модельные ответы по Writing",
+  "url": "https://ielts-simon.com",
+  "type": "site",
+  "skills": [
+   "W",
+   "S"
+  ],
+  "level": "B2-C1",
+  "cost": "free",
+  "ru_risk": false,
+  "status": "seen_2026-10-29",
+  "tags": [
+   "teacher",
+   "model_answers"
+  ]
+ },
+ {
+  "id": "yt-ielts-advantage",
+  "name": "YouTube-канал «IELTS Advantage» (Chris) — подробные стратегии, сильный Writing T1/T2",
+  "url": null,
+  "search_query": "IELTS Advantage YouTube Chris",
+  "type": "youtube_channel",
+  "skills": [
+   "W",
+   "S",
+   "L",
+   "R"
+  ],
+  "level": "B2-C1",
+  "cost": "free",
+  "ru_risk": false,
+  "status": "to_verify",
+  "tags": [
+   "teacher",
+   "strategies"
+  ],
+  "notes": "Проверь название канала и URL вручную."
+ },
+ {
+  "id": "yt-e2-ielts",
+  "name": "YouTube-канал «E2 IELTS» (Jay и Mark) — структурированные видеоуроки по всем секциям",
+  "url": null,
+  "search_query": "E2 IELTS YouTube",
+  "type": "youtube_channel",
+  "skills": [
+   "ALL"
+  ],
+  "level": "B1-C1",
+  "cost": "free",
+  "ru_risk": false,
+  "status": "to_verify",
+  "tags": [
+   "teacher",
+   "strategies"
+  ],
+  "notes": "Бесплатного контента много; параллельно продаются курсы."
+ },
+ {
+  "id": "yt-ielts-liz",
+  "name": "YouTube-канал «IELTS Liz»",
+  "url": null,
+  "search_query": "IELTS Liz YouTube",
+  "type": "youtube_channel",
+  "skills": [
+   "ALL"
+  ],
+  "level": "B1-C1",
+  "cost": "free",
+  "ru_risk": false,
+  "status": "to_verify",
+  "tags": [
+   "teacher",
+   "strategies"
+  ]
+ },
+ {
+  "id": "yt-ielts-simon",
+  "name": "YouTube-канал «IELTS Simon»",
+  "url": null,
+  "search_query": "IELTS Simon YouTube",
+  "type": "youtube_channel",
+  "skills": [
+   "W",
+   "S"
+  ],
+  "level": "B2-C1",
+  "cost": "free",
+  "ru_risk": false,
+  "status": "to_verify",
+  "tags": [
+   "teacher",
+   "model_answers"
+  ]
+ },
+ {
+  "id": "academic-english-uk-listening",
+  "name": "Academic English UK — бесплатные материалы по Listening, списки сайтов",
+  "url": "https://academic-englishuk.com/free/",
+  "type": "site",
+  "skills": [
+   "L",
+   "V"
+  ],
+  "level": "B1-C2",
+  "cost": "free_limited",
+  "ru_risk": false,
+  "status": "seen_2026-10-29",
+  "tags": [
+   "academic",
+   "lists"
+  ]
+ },
+ {
+  "id": "engexam-listening",
+  "name": "EngExam.info — IELTS Listening practice tests (сторонний сайт)",
+  "url": "https://engexam.info/ielts-listening-practice-tests/",
+  "type": "practice",
+  "skills": [
+   "L"
+  ],
+  "level": "B2-C1",
+  "cost": "free",
+  "ru_risk": false,
+  "status": "seen_2026-10-29",
+  "tags": [
+   "practice",
+   "third_party"
+  ],
+  "notes": "Правовой статус материалов неясен — использовать с осторожностью, не копировать в репозиторий."
+ },
+ {
+  "id": "bbc-6-minute-english",
+  "name": "BBC Learning English — 6 Minute English (аудио + скрипт + словарь)",
+  "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english",
+  "type": "audio",
+  "skills": [
+   "L",
+   "S",
+   "V"
+  ],
+  "level": "B1-B2",
+  "cost": "free",
+  "ru_risk": false,
+  "status": "seen_2026-10-29",
+  "tags": [
+   "shadowing",
+   "transcripts"
+  ],
+  "notes": "Может быть недоступен в части регионов; проверь доступность."
+ },
+ {
+  "id": "elllo",
+  "name": "ELLLO — короткие аудио с разными акцентами, скрипт и квиз",
+  "url": "http://www.elllo.org",
+  "type": "audio",
+  "skills": [
+   "L",
+   "S"
+  ],
+  "level": "A2-C1",
+  "cost": "free",
+  "ru_risk": false,
+  "status": "seen_2026-10-29",
+  "tags": [
+   "accents",
+   "transcripts"
+  ]
+ },
+ {
+  "id": "breaking-news-english",
+  "name": "Breaking News English — 2-минутные новости, разные скорости",
+  "url": "https://www.breakingnewsenglish.com",
+  "type": "audio",
+  "skills": [
+   "L",
+   "V"
+  ],
+  "level": "A2-C1",
+  "cost": "free",
+  "ru_risk": false,
+  "status": "seen_2026-10-29"
+ },
+ {
+  "id": "ted-talks",
+  "name": "TED Talks (субтитры и транскрипты)",
+  "url": "https://www.ted.com/talks",
+  "type": "video",
+  "skills": [
+   "L",
+   "S",
+   "V"
+  ],
+  "level": "B2-C1",
+  "cost": "free",
+  "ru_risk": false,
+  "status": "seen_2026-10-29",
+  "tags": [
+   "shadowing",
+   "academic"
+  ]
+ },
+ {
+  "id": "reading-uni-lectures",
+  "name": "University of Reading — лекции для практики (B2–C1)",
+  "url": "https://www.reading.ac.uk/sacll/UniversityofReadingLectures/SACLL-UniofReadingLectures.aspx",
+  "type": "audio",
+  "skills": [
+   "L"
+  ],
+  "level": "B2-C1",
+  "cost": "free",
+  "ru_risk": false,
+  "status": "seen_2026-10-29",
+  "tags": [
+   "academic",
+   "lectures"
+  ]
+ },
+ {
+  "id": "yt-yale",
+  "name": "YouTube — Yale (академические лекции)",
+  "url": "https://www.youtube.com/yale/videos",
+  "type": "youtube_channel",
+  "skills": [
+   "L",
+   "R"
+  ],
+  "level": "C1",
+  "cost": "free",
+  "ru_risk": false,
+  "status": "seen_2026-10-29",
+  "tags": [
+   "academic",
+   "lectures"
+  ]
+ },
+ {
+  "id": "yt-stanford",
+  "name": "YouTube — Stanford (академические лекции)",
+  "url": "https://www.youtube.com/c/stanford/videos",
+  "type": "youtube_channel",
+  "skills": [
+   "L",
+   "R"
+  ],
+  "level": "C1",
+  "cost": "free",
+  "ru_risk": false,
+  "status": "seen_2026-10-29",
+  "tags": [
+   "academic",
+   "lectures"
+  ]
+ },
+ {
+  "id": "voa-learning-english",
+  "name": "VOA Learning English (замедленные новости)",
+  "url": "https://learningenglish.voanews.com",
+  "type": "audio",
+  "skills": [
+   "L",
+   "R"
+  ],
+  "level": "A2-B2",
+  "cost": "free",
+  "ru_risk": false,
+  "status": "to_verify"
+ },
+ {
+  "id": "librivox",
+  "name": "LibriVox — бесплатные аудиокниги (для shadowing)",
+  "url": "https://librivox.org",
+  "type": "audio",
+  "skills": [
+   "L",
+   "S"
+  ],
+  "level": "B2-C2",
+  "cost": "free",
+  "ru_risk": false,
+  "status": "to_verify"
+ },
+ {
+  "id": "shadowingenglish",
+  "name": "ShadowingEnglish.com — shadowing по YouTube-видео с транскриптами",
+  "url": "https://shadowingenglish.com",
+  "type": "tool",
+  "skills": [
+   "L",
+   "S"
+  ],
+  "level": "B1-C1",
+  "cost": "free_limited",
+  "ru_risk": false,
+  "status": "seen_2026-10-29"
+ },
+ {
+  "id": "ngsl-nawl",
+  "name": "New General Service List / New Academic Word List (бесплатные списки и инструменты)",
+  "url": "https://www.newgeneralservicelist.com/new-academic-word-list",
+  "type": "wordlist",
+  "skills": [
+   "V"
+  ],
+  "level": "B1-C1",
+  "cost": "free",
+  "ru_risk": false,
+  "status": "seen_2026-10-29",
+  "tags": [
+   "wordlist"
+  ],
+  "notes": "Проверь условия лицензии списков перед копированием в репозиторий."
+ },
+ {
+  "id": "oxford-wordlists",
+  "name": "Oxford 3000/5000, Oxford Phrase List, OPAL (Oxford Phrasal Academic Lexicon)",
+  "url": "https://www.oxfordlearnersdictionaries.com/about/wordlists/",
+  "type": "wordlist",
+  "skills": [
+   "V"
+  ],
+  "level": "A1-C1",
+  "cost": "free",
+  "ru_risk": false,
+  "status": "seen_2026-10-29",
+  "tags": [
+   "wordlist",
+   "phrases"
+  ]
+ },
+ {
+  "id": "awl-eap-foundation",
+  "name": "Academic Word List (Coxhead) — списки и сублисты",
+  "url": "https://eapfoundation.com/vocab/academic/awllists/",
+  "type": "wordlist",
+  "skills": [
+   "V"
+  ],
+  "level": "B2-C1",
+  "cost": "free",
+  "ru_risk": false,
+  "status": "seen_2026-10-29",
+  "tags": [
+   "wordlist"
+  ]
+ },
+ {
+  "id": "avl-english-corpora",
+  "name": "Academic Vocabulary List (Gardner & Davies) — 3 000 слов",
+  "url": "https://www.english-corpora.org/coca/avl.asp",
+  "type": "wordlist",
+  "skills": [
+   "V"
+  ],
+  "level": "C1",
+  "cost": "free",
+  "ru_risk": false,
+  "status": "seen_2026-10-29",
+  "tags": [
+   "wordlist"
+  ]
+ },
+ {
+  "id": "english-vocabulary-profile",
+  "name": "English Vocabulary Profile (Cambridge) — слова и значения по уровням CEFR",
+  "url": "https://www.englishprofile.org",
+  "type": "wordlist",
+  "skills": [
+   "V"
+  ],
+  "level": "A1-C2",
+  "cost": "free",
+  "ru_risk": false,
+  "status": "to_verify"
+ },
+ {
+  "id": "anki",
+  "name": "Anki — SRS-карточки (запасной вариант экспорта)",
+  "url": "https://apps.ankiweb.net",
+  "type": "tool",
+  "skills": [
+   "V"
+  ],
+  "level": "n/a",
+  "cost": "free_limited",
+  "ru_risk": false,
+  "status": "to_verify",
+  "notes": "Условия по мобильным клиентам проверь на сайте."
+ },
+ {
+  "id": "fsrs",
+  "name": "FSRS — открытый алгоритм интервальных повторений",
+  "url": "https://github.com/open-spaced-repetition",
+  "type": "tool",
+  "skills": [
+   "V"
+  ],
+  "level": "n/a",
+  "cost": "free",
+  "ru_risk": false,
+  "status": "to_verify"
+ },
+ {
+  "id": "tg-stasybooeng",
+  "name": "Telegram @stasybooeng",
+  "url": "https://t.me/stasybooeng",
+  "type": "telegram",
+  "skills": [
+   "ALL"
+  ],
+  "level": "unknown",
+  "cost": "unknown",
+  "ru_risk": false,
+  "status": "user_provided",
+  "notes": "Содержимое не проверено. Пользователь пометил как полезный."
+ },
+ {
+  "id": "tg-ieltswithtutor",
+  "name": "Telegram @ieltswithtutoraf",
+  "url": "https://t.me/ieltswithtutoraf",
+  "type": "telegram",
+  "skills": [
+   "ALL"
+  ],
+  "level": "unknown",
+  "cost": "unknown",
+  "ru_risk": false,
+  "status": "user_provided"
+ },
+ {
+  "id": "tg-studywitharuzhan",
+  "name": "Telegram @studywitharuzhan (Аружан, IELTS 8.0 по её словам)",
+  "url": "https://t.me/studywitharuzhan",
+  "type": "telegram",
+  "skills": [
+   "ALL"
+  ],
+  "level": "A2-C1",
+  "cost": "unknown",
+  "ru_risk": false,
+  "status": "user_provided",
+  "notes": "Проект не ссылается на файлы и книги из канала: используй только легальные копии учебников.\n"
+ },
+ {
+  "id": "ig-studywitharuzhan",
+  "name": "Instagram @studywitharuzhan",
+  "url": "https://www.instagram.com/studywitharuzhan",
+  "type": "instagram",
+  "skills": [
+   "ALL"
+  ],
+  "level": "unknown",
+  "cost": "free",
+  "ru_risk": "access",
+  "status": "user_provided"
+ },
+ {
+  "id": "ig-ielts-advantage",
+  "name": "Instagram @ielts_advantage",
+  "url": "https://www.instagram.com/ielts_advantage",
+  "type": "instagram",
+  "skills": [
+   "W",
+   "S"
+  ],
+  "level": "unknown",
+  "cost": "free",
+  "ru_risk": "access",
+  "status": "user_provided"
+ },
+ {
+  "id": "ig-english-pro-tips",
+  "name": "Instagram @english_pro_tips",
+  "url": "https://www.instagram.com/english_pro_tips",
+  "type": "instagram",
+  "skills": [
+   "V",
+   "G"
+  ],
+  "level": "unknown",
+  "cost": "free",
+  "ru_risk": "access",
+  "status": "user_provided"
+ },
+ {
+  "id": "efset",
+  "name": "EF SET — бесплатный тест уровня (CEFR)",
+  "url": "https://www.efset.org/ru/",
+  "type": "test",
+  "skills": [
+   "L",
+   "R"
+  ],
+  "level": "A1-C2",
+  "cost": "free",
+  "ru_risk": false,
+  "status": "user_provided",
+  "tags": [
+   "placement"
+  ],
+  "notes": "Даёт уровень CEFR для стартовой точки, не IELTS band."
+ },
+ {
+  "id": "engnovate",
+  "name": "Engnovate — пробные IELTS-тесты онлайн",
+  "url": "https://engnovate.com/",
+  "type": "practice",
+  "skills": [
+   "L",
+   "R",
+   "W",
+   "S"
+  ],
+  "level": "B1-C1",
+  "cost": "unknown",
+  "ru_risk": false,
+  "status": "user_provided",
+  "tags": [
+   "practice"
+  ],
+  "notes": "Условия бесплатного доступа и качество не проверены."
+ },
+ {
+  "id": "yourielts-speaking",
+  "name": "yourielts.ru — темы и вопросы IELTS Speaking",
+  "url": "https://yourielts.ru/prepare-for-ielts/ielts-speaking",
+  "type": "practice",
+  "skills": [
+   "S"
+  ],
+  "level": "B1-C1",
+  "cost": "free",
+  "ru_risk": false,
+  "status": "user_provided",
+  "tags": [
+   "topics"
+  ]
+ },
+ {
+  "id": "ted-ed-lessons",
+  "name": "TED-Ed Lessons — короткие видео с субтитрами и заданиями",
+  "url": "https://ed.ted.com/lessons",
+  "type": "video",
+  "skills": [
+   "L",
+   "V"
+  ],
+  "level": "B1-C1",
+  "cost": "free",
+  "ru_risk": false,
+  "status": "user_provided"
+ },
+ {
+  "id": "cambridge-dictionary-grammar",
+  "name": "Cambridge Dictionary — British Grammar (справочник по грамматике)",
+  "url": "https://dictionary.cambridge.org/grammar/british-grammar/",
+  "type": "reference",
+  "skills": [
+   "G"
+  ],
+  "level": "A1-C2",
+  "cost": "free",
+  "ru_risk": false,
+  "status": "to_verify"
+ }
+]
