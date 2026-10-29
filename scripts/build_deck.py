@@ -4,7 +4,7 @@ pos: n v adj adv prep conj phr | coll (коллокация) phv (фразовы
 Уровень CEFR НЕ задаётся вручную: он берётся из data/official_levels.json (официальные списки Oxford 3000/5000;
 собирается scripts/official_levels.py). Нет совпадения — у карточки нет уровня.
 """
-import glob, json, re, sys, os
+import glob, hashlib, json, re, sys, os
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 cards, seen, errs = [], set(), []
 OFF = json.load(open(os.path.join(root, 'data', 'official_levels.json'), encoding='utf-8')) if os.path.exists(os.path.join(root, 'data', 'official_levels.json')) else {}
@@ -23,11 +23,14 @@ for f in sorted(glob.glob(os.path.join(root, "data", "deck", "*.txt"))):
         if key in seen:
             print("skip duplicate:", t, pos); continue
         seen.add(key)
-        card = {"id": "d%03d" % (len(cards) + 1), "t": t, "ru": ru, "ex": ex, "pos": pos, "dom": dom}
+        card = {"id": "k" + hashlib.sha1((t.lower() + "|" + pos).encode()).hexdigest()[:8], "t": t, "ru": ru, "ex": ex, "pos": pos, "dom": dom}
         o = OFF.get(t + "|" + pos, {})
         if o.get("cef"): card.update(cef=o["cef"], src=o["src"])
         if o.get("acl"): card["acl"] = 1
         cards.append(card)
+ids = [c['id'] for c in cards]
+if len(ids) != len(set(ids)):
+    errs.append('id collision')
 if errs:
     print("\n".join(errs)); sys.exit(1)
 json.dump(cards, open(os.path.join(root, "app", "data", "deck.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))

@@ -36,7 +36,7 @@
   // ---------- хранение и синхронизация ----------
   let ver = 0, pushTimer = null, lastErr = 0, syncState = 'ok';
   const lkey = () => 'ielts_v2_' + (user ? user.id : 'anon');
-  function writeLocal(dirty) { try { localStorage.setItem(lkey(), JSON.stringify({ db: DB, dirty: !!dirty })); } catch (e) { /* ignore */ } }
+  function writeLocal(dirty) { try { localStorage.setItem(lkey(), JSON.stringify({ db: pack(), dirty: !!dirty })); } catch (e) { /* ignore */ } }
   function readLocal() { try { return JSON.parse(localStorage.getItem(lkey())); } catch (e) { return null; } }
   function save() {
     if (!user) return;
@@ -48,7 +48,7 @@
     if (!user || !window.Cloud) return;
     const v = ver;
     try {
-      await Cloud.push(user.id, DB);
+      await Cloud.push(user.id, pack());
       if (v === ver) { writeLocal(false); syncState = 'ok'; } else pushTimer = setTimeout(push, 300);
     } catch (e) {
       syncState = 'error';
@@ -215,14 +215,37 @@
   let sess = null; const cst = { tab: 'learn', cur: null, step: 'q', mq: null, pick: null };
 
   const userCef = (p) => (p.cefMode && p.cefMode !== 'auto') ? p.cefMode : E.cefOf(p.skills);
+  // Колода лежит в app/data/deck.json, а не в базе пользователя: в облако уходит только прогресс по начатым карточкам.
+  const STATIC = ['t', 'ru', 'ex', 'pos', 'dom', 'cef', 'src', 'acl', 'f', 'b'];
+  let DECKIDS = new Set();
+  function pack() {
+    const out = { active: DB.active, profiles: {} };
+    Object.keys(DB.profiles).forEach((k) => {
+      const p = DB.profiles[k]; const q = Object.assign({}, p);
+      q.cards = p.cards.filter((c) => !DECKIDS.has(c.id) || c.seen).map((c) => {
+        if (!DECKIDS.has(c.id)) return c;
+        const o = {}; Object.keys(c).forEach((key) => { if (!STATIC.includes(key)) o[key] = c[key]; }); return o;
+      });
+      out.profiles[k] = q;
+    });
+    return out;
+  }
+  /** Возвращает true, если пришлось менять сохранённые данные (миграция id) — тогда их нужно выгрузить. */
   function syncDeck(p) {
-    const ids = new Set(p.cards.map((c) => c.id)); const byId = {}; DECK.forEach((d) => { byId[d.id] = d; });
-    p.cards.forEach((c) => { const d = byId[c.id]; if (d) { c.t = d.t; c.ru = d.ru; c.ex = d.ex; c.pos = d.pos; c.dom = d.dom; c.cef = d.cef; } });
-    let added = 0;
-    DECK.forEach((d) => { if (!ids.has(d.id)) { p.cards.push(Object.assign(E.newCard('', '', d.id), { t: d.t, ru: d.ru, ex: d.ex, pos: d.pos, dom: d.dom, cef: d.cef, lv: 0 })); added++; } });
+    const byId = {}, byKey = {}; DECK.forEach((d) => { byId[d.id] = d; byKey[d.t.toLowerCase() + '|' + d.pos] = d; });
+    let changed = false;
+    // старые id вида d001 → стабильные id по содержимому
+    p.cards.forEach((c) => { if (/^d\d+$/.test(c.id) && c.t) { const d = byKey[c.t.toLowerCase() + '|' + c.pos]; if (d) { c.id = d.id; changed = true; } } });
+    const before = p.cards.length;
+    const uniq = new Map(); p.cards.forEach((c) => { const o = uniq.get(c.id); if (!o || (c.seen && !o.seen)) uniq.set(c.id, c); });
+    p.cards = Array.from(uniq.values()).filter((c) => c.f || c.t || byId[c.id]);
+    if (p.cards.length !== before) changed = true;
+    p.cards.forEach((c) => { const d = byId[c.id]; if (d) { c.t = d.t; c.ru = d.ru; c.ex = d.ex; c.pos = d.pos; c.dom = d.dom; c.cef = d.cef; c.src = d.src; c.acl = d.acl; } });
+    const ids = new Set(p.cards.map((c) => c.id));
+    DECK.forEach((d) => { if (!ids.has(d.id)) p.cards.push(Object.assign(E.newCard('', '', d.id), { t: d.t, ru: d.ru, ex: d.ex, pos: d.pos, dom: d.dom, cef: d.cef, src: d.src, acl: d.acl, lv: 0 })); });
     const seen = p.cards.filter((c) => c.seen); const lvl = userCef(p); const rk = (c) => E.cefRank(lvl, c.cef);
     const rest = p.cards.filter((c) => !c.seen).sort((a, b) => (rk(a) - rk(b)) || (hash(a.id) - hash(b.id))); p.cards = seen.concat(rest);
-    return added;
+    return changed;
   }
   function ensureP(p) { p.errors.forEach((e) => E.errInit(e, today())); p.drafts = p.drafts || {}; p.writes = p.writes || []; p.reads = p.reads || []; if (!p.newToday) p.newToday = { date: '', n: 0, extra: 0 }; }
   const newLeft = (p) => Math.max(0, p.newPerDay + (p.newToday.extra || 0) - p.newToday.n);
@@ -720,7 +743,7 @@
       p.days = {}; sess = null; save(); toast('Профиль сохранён');
     };
     $('#regen').onclick = () => { delete p.days[today()]; save(); toast('План обновлён'); };
-    $('#exp').onclick = () => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([JSON.stringify(DB)], { type: 'application/json' })); a.download = 'ielts-teacher-' + today() + '.json'; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 1000); };
+    $('#exp').onclick = () => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([JSON.stringify(pack())], { type: 'application/json' })); a.download = 'ielts-teacher-' + today() + '.json'; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 1000); };
     $('#out').onclick = () => confirmSheet('Выйти из аккаунта?', 'Выйти', async () => { await push(); await Cloud.signOut(); });
   }
 
@@ -801,7 +824,7 @@
     try {
       const J = (u) => fetch(u).then((x) => x.json());
       const [c, r, d, rd, wr] = await Promise.all([J('data/content.json'), J('data/resources.json'), J('data/deck.json'), J('data/reading.json'), J('data/writing.json')]);
-      CONTENT = c; RES = r; DECK = d; READ = rd; WRITING = wr;
+      CONTENT = c; RES = r; DECK = d; DECKIDS = new Set(d.map((x) => x.id)); READ = rd; WRITING = wr;
     } catch (e) { $('#view').textContent = 'Не удалось загрузить данные: ' + e.message; return; }
     window.addEventListener('hashchange', () => route());
     if (!Cloud.available()) { $('#view').textContent = 'Не загрузилась библиотека входа. Обнови страницу.'; return; }
