@@ -170,3 +170,22 @@ test('parseFeedback: без JSON берёт нижние границы; мус�
   assert.deepEqual(r.scores, [5.5, 6, 5.5, 5]);
   const e = Eg.parseFeedback('hello'); assert.equal(e.scores, null); assert.equal(e.errors.length, 0);
 });
+
+test('исправление ошибок: интервалы 1→3→7 дней, закрытие после 3 верных, сброс при ошибке', () => {
+  const e = { tag: 'W-WF', snippet: 'did you ever needed', fix: 'did you ever need' };
+  Eg.errInit(e, '2026-11-01'); assert.equal(e.due, '2026-11-02');
+  assert.equal(Eg.errDue([e], '2026-11-01').length, 0); assert.equal(Eg.errDue([e], '2026-11-02').length, 1);
+  assert.ok(Eg.errCheck(e, 'Did you ever need.')); assert.ok(!Eg.errCheck(e, 'did you ever needed'));
+  assert.equal(Eg.errRate(e, true, '2026-11-02'), 'next'); assert.equal(e.due, '2026-11-03');
+  assert.equal(Eg.errRate(e, true, '2026-11-03'), 'next'); assert.equal(e.due, '2026-11-06');
+  assert.equal(Eg.errRate(e, false, '2026-11-06'), 'again'); assert.equal(e.n, 0); assert.equal(e.due, '2026-11-06');
+  Eg.errRate(e, true, '2026-11-06'); Eg.errRate(e, true, '2026-11-07'); assert.equal(Eg.errRate(e, true, '2026-11-10'), 'closed');
+  assert.equal(e.done, true); assert.equal(e.due, '2026-12-10');
+  assert.equal(Eg.errRate(e, true, '2026-12-10'), 'kept'); assert.equal(Eg.errRate(e, false, '2027-02-01'), 'again'); assert.equal(e.done, false);
+});
+test('W-PUNCT учитывает регистр и апостроф; без fix не тренируется', () => {
+  const p = { tag: 'W-PUNCT', snippet: 'thats why', fix: 'that’s why' };
+  assert.ok(Eg.errCheck(p, "that's why")); assert.ok(!Eg.errCheck(p, 'thats why'));
+  const c = { tag: 'W-PUNCT', snippet: 'at first', fix: 'At first' }; assert.ok(!Eg.errCheck(c, 'at first')); assert.ok(Eg.errCheck(c, 'At first,'));
+  assert.equal(Eg.errDue([{ tag: 'W-REP', snippet: 'x', fix: '', due: '2026-01-01' }], '2026-11-01').length, 0);
+});

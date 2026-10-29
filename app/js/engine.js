@@ -403,6 +403,28 @@
     return out;
   }
 
+
+  // ---------- Исправление своих ошибок с интервальными повторениями ----------
+  const EI = [1, 3, 7]; // дни до следующего показа после 1-го, 2-го, 3-го верного исправления
+  /** Нормализация для сравнения: без пунктуации; регистр важен только для W-PUNCT. Апострофы и кавычки унифицируются. */
+  function normFix(s, tag) {
+    let t = String(s || '').replace(/[’‘`´]/g, "'").replace(/[“”«»"]/g, '').replace(/[.,;:!?()]/g, ' ').replace(/\s+/g, ' ').trim();
+    return tag === 'W-PUNCT' ? t : t.toLowerCase();
+  }
+  const errDrillable = (e) => !!(e && e.fix && e.snippet && !e.nodrill);
+  /** Подготовка записи к повторениям: первый показ завтра. */
+  function errInit(e, today) { if (errDrillable(e) && !e.due) { e.n = 0; e.done = false; e.due = addDays(today, 1); } return e; }
+  function errDue(errors, today) { return errors.filter((e) => errDrillable(e) && e.due && e.due <= today).sort((a, b) => (a.due < b.due ? -1 : a.due > b.due ? 1 : 0)); }
+  function errCheck(e, given) { return normFix(given, e.tag) === normFix(e.fix, e.tag); }
+  /** Результат попытки. Ошибка «закрыта» после 3 верных исправлений подряд (и раз в месяц проверяется снова). */
+  function errRate(e, correct, today) {
+    if (!correct) { e.n = 0; e.done = false; e.due = today; e.miss = (e.miss || 0) + 1; return 'again'; }
+    if (e.done) { e.due = addDays(today, 60); return 'kept'; }
+    e.n = (e.n || 0) + 1;
+    if (e.n >= 3) { e.done = true; e.due = addDays(today, 30); return 'closed'; }
+    e.due = addDays(today, EI[e.n - 1]); return 'next';
+  }
+
   // ---------- Баллы ----------
   function overall(L, R, W, S) {
     const a = (L + R + W + S) / 4;
@@ -420,6 +442,6 @@
     return 3.5;
   }
 
-  const api = { SK, PHASES, pd, fmt, addDays, daysBetween, weekNo, phaseFor, errorSeverity, weights, dayTasks, newCard, dueCards, review, overall, rawToBand, isWord, plain, lrMode, lrRate, master, unmaster, reviewMastered, buildSession, pickNext, mcq, checkSentence, GAPS, analyseText, checkAnswer, parseFeedback };
+  const api = { SK, PHASES, pd, fmt, addDays, daysBetween, weekNo, phaseFor, errorSeverity, weights, dayTasks, newCard, dueCards, review, overall, rawToBand, isWord, plain, lrMode, lrRate, master, unmaster, reviewMastered, buildSession, pickNext, mcq, checkSentence, GAPS, analyseText, checkAnswer, parseFeedback, errDrillable, normFix, errInit, errDue, errCheck, errRate, EI };
   if (typeof module !== 'undefined' && module.exports) module.exports = api; else root.Engine = api;
 })(typeof window !== 'undefined' ? window : globalThis);

@@ -161,6 +161,8 @@
     const nav = '<button class="ib" id="dprev" aria-label="Вчера">' + ico('left') + '</button><button class="ib" id="dnext" aria-label="Завтра">' + ico('right') + '</button>';
     let h = head(isToday ? 'Сегодня' : fmtD(date), sub, nav);
     h += '<div class="sum"><span id="sdn">' + s0.dn + ' из ' + d.total + ' мин</span><span id="spc">' + s0.pct + '%</span></div><div class="bar" style="margin-bottom:16px"><i id="sbar" style="width:' + s0.pct + '%"></i></div>';
+    const fdue = isToday ? E.errDue(p.errors, today()).length : 0;
+    if (fdue) h += fixBanner(fdue);
     h += '<div class="list">' + d.tasks.map((t) => {
       const more = (t.desc ? '<p>' + esc(t.desc) + '</p>' : '') + (t.resource ? '<div>' + resLine(t.resource) + '</div>' : '');
       return '<div class="task' + (done[t.id] ? ' done' : '') + '" data-id="' + esc(t.id) + '"><button class="cb" aria-label="Готово" aria-pressed="' + !!done[t.id] + '"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></button>' +
@@ -218,7 +220,7 @@
     if (added) { const seen = p.cards.filter((c) => c.seen); const rest = p.cards.filter((c) => !c.seen).sort((a, b) => hash(a.id) - hash(b.id)); p.cards = seen.concat(rest); }
     return added;
   }
-  function ensureP(p) { p.drafts = p.drafts || {}; p.writes = p.writes || []; p.reads = p.reads || []; if (!p.newToday) p.newToday = { date: '', n: 0, extra: 0 }; }
+  function ensureP(p) { p.errors.forEach((e) => E.errInit(e, today())); p.drafts = p.drafts || {}; p.writes = p.writes || []; p.reads = p.reads || []; if (!p.newToday) p.newToday = { date: '', n: 0, extra: 0 }; }
   const newLeft = (p) => Math.max(0, p.newPerDay + (p.newToday.extra || 0) - p.newToday.n);
   function ensureSess(p) {
     const t0 = today();
@@ -336,16 +338,46 @@
   }
 
   // ---------- Ошибки ----------
+  const fixBanner = (n) => '<div class="list" style="margin-bottom:14px"><a class="rowi" href="#fix"><div class="grow"><b>Исправь свои ошибки</b><div class="mut" style="margin-top:2px">' + n + ' фраз на сегодня</div></div>' + ico('chev', 'chev') + '</a></div>';
+  const errDots = (e) => (E.errDrillable && !E.errDrillable(e)) ? '' : ' <span class="mut" style="letter-spacing:2px;color:var(--acc)">' + (e.done ? '✓' : '●'.repeat(e.n || 0) + '○'.repeat(3 - (e.n || 0))) + '</span>';
+  // ---------- Исправь свои ошибки ----------
+  let fixQ = null;
+  function viewFix() {
+    const p = P(); const t0 = today();
+    if (!fixQ || fixQ.date !== t0 || fixQ.fresh) fixQ = { date: t0, ids: E.errDue(p.errors, t0).map((e) => e.id), ok: 0, bad: 0, step: 'q', res: null, total: 0 };
+    if (!fixQ.total) fixQ.total = fixQ.ids.length;
+    const e = fixQ.ids.length ? p.errors.find((x) => x.id === fixQ.ids[0]) : null;
+    let h = head('Исправь', fixQ.total ? 'Сделано ' + (fixQ.ok + fixQ.bad) + ' из ' + fixQ.total : '', back('#errors'));
+    if (!e) {
+      const next = p.errors.filter((x) => E.errDrillable(x) && x.due).map((x) => x.due).sort()[0];
+      h += '<div class="card" style="text-align:center;padding:32px 16px"><div class="big">✓</div><div style="margin-top:6px">' + (fixQ.total ? 'Верно: ' + fixQ.ok + ' · ошибок: ' + fixQ.bad : 'На сегодня исправлять нечего') + '</div><div class="mut" style="margin-top:6px">' + (next ? 'Следующее повторение: ' + esc(fmtD(next)) : 'Загрузи оценку ИИ в Writing — ошибки появятся здесь') + '</div></div>';
+      paint(h); return;
+    }
+    const dots = e.done ? '✓ закрыта' : '●'.repeat(e.n || 0) + '○'.repeat(3 - (e.n || 0));
+    h += '<div class="flash" style="min-height:0"><small><span class="chip">' + esc(e.tag) + '</span> <span style="letter-spacing:2px;color:var(--acc)">' + dots + '</span></small><div class="mut">Перепиши без ошибки</div><div class="term" style="font-size:22px;margin-top:8px">«' + esc(e.snippet) + '»</div></div>';
+    if (fixQ.step === 'q') h += '<input id="fx" style="margin-top:12px" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" placeholder="Правильный вариант"><div style="margin-top:12px"><button class="btn p" id="fchk">Проверить</button></div><div style="text-align:center"><button class="link" id="fskip">Не помню — показать ответ</button></div>';
+    else h += '<div class="card" style="margin-top:12px"><div style="font-weight:600;color:var(--' + (fixQ.res.ok ? 'ok' : 'warn') + ')">' + (fixQ.res.ok ? (fixQ.res.r === 'closed' ? 'Верно — ошибка закрыта' : 'Верно') : 'Не совсем') + '</div><div style="margin-top:6px">Правильно: <b>' + esc(e.fix) + '</b></div>' + (fixQ.res.ok ? '<div class="mut" style="margin-top:6px">Следующий показ: ' + esc(fmtD(e.due)) + '</div>' : '<div class="mut" style="margin-top:6px">Вернётся в этой же серии</div>') + '</div><div style="margin-top:12px"><button class="btn p" id="fnext">Дальше</button></div>';
+    paint(h, fixQ.step === 'q' && fixQ.ok + fixQ.bad === 0);
+    const fin = (ok) => { const r = E.errRate(e, ok, t0); fixQ.res = { ok, r }; if (ok) fixQ.ok++; else fixQ.bad++; fixQ.step = 'a'; save(); viewFix(); };
+    const c = $('#fchk'); if (c) c.onclick = () => { const v = $('#fx').value.trim(); if (!v) { toast('Напиши исправленный вариант'); return; } fin(E.errCheck(e, v)); };
+    const sk = $('#fskip'); if (sk) sk.onclick = () => fin(false);
+    const fx = $('#fx'); if (fx) fx.onkeydown = (ev) => { if (ev.key === 'Enter') c.click(); };
+    const nx = $('#fnext'); if (nx) nx.onclick = () => { const id = fixQ.ids.shift(); if (!fixQ.res.ok) fixQ.ids.push(id); fixQ.step = 'q'; fixQ.res = null; viewFix(); };
+  }
+
+
   function viewErrors() {
     const p = P(); const t0 = today(); const sev = E.errorSeverity(p.errors, t0);
     const top = Object.keys(sev).sort((a, b) => sev[b] - sev[a]).slice(0, 5);
     let h = head('Ошибки', p.errors.length ? 'Записей: ' + p.errors.length : 'Пока пусто', plusBtn('eplus', 'Добавить'));
+    const dueN = E.errDue(p.errors, t0).length;
+    if (dueN) h += fixBanner(dueN);
     if (top.length) h += '<div class="chips" style="margin-bottom:14px">' + top.map((t) => '<span class="chip on" style="flex:none">' + esc(t) + ' · ' + p.errors.filter((e) => e.tag === t && e.date >= E.addDays(t0, -30)).length + '</span>').join('') + '</div>';
-    if (p.errors.length) h += '<div class="list">' + p.errors.slice().reverse().slice(0, 100).map((e) => '<button class="rowi" data-e="' + esc(e.id) + '"><div class="grow"><div><span class="chip">' + esc(e.tag) + '</span> <span class="mut">' + esc(fmtD(e.date)) + '</span></div><div style="margin-top:6px">' + esc(e.snippet) + (e.fix ? ' <span class="mut">→</span> <b>' + esc(e.fix) + '</b>' : '') + '</div></div></button>').join('') + '</div>';
+    if (p.errors.length) h += '<div class="list">' + p.errors.slice().reverse().slice(0, 100).map((e) => '<button class="rowi" data-e="' + esc(e.id) + '"><div class="grow"><div><span class="chip">' + esc(e.tag) + '</span> <span class="mut">' + esc(fmtD(e.date)) + '</span>' + errDots(e) + '</div><div style="margin-top:6px">' + esc(e.snippet) + (e.fix ? ' <span class="mut">→</span> <b>' + esc(e.fix) + '</b>' : '') + '</div></div></button>').join('') + '</div>';
     else h += '<div class="card mut" style="text-align:center;padding:28px">Записывай ошибки из тестов и проверок: самые частые попадут в задания.</div>';
     paint(h);
     $('#eplus').onclick = () => openSheet('<h2>Новая ошибка</h2><div class="stack"><select id="etag">' + TAGS.map((t) => '<option>' + t + '</option>').join('') + '</select><input id="esn" placeholder="Фрагмент с ошибкой" autocomplete="off"><input id="efx" placeholder="Правильно" autocomplete="off"><button class="btn p" id="eadd">Добавить</button></div>', () => {
-      $('#eadd').onclick = () => { const s = $('#esn').value.trim(); if (!s) { toast('Укажи фрагмент'); return; } p.errors.push({ id: uid(), date: t0, tag: $('#etag').value, snippet: s, fix: $('#efx').value.trim() }); delete p.days[t0]; save(); closeSheet(); toast('Записано'); route(); };
+      $('#eadd').onclick = () => { const s = $('#esn').value.trim(); if (!s) { toast('Укажи фрагмент'); return; } const ne = { id: uid(), date: t0, tag: $('#etag').value, snippet: s, fix: $('#efx').value.trim() }; E.errInit(ne, t0); p.errors.push(ne); delete p.days[t0]; save(); closeSheet(); toast('Записано'); route(); };
     });
     $$('[data-e]').forEach((b) => b.onclick = () => {
       const e = p.errors.find((x) => x.id === b.dataset.e);
@@ -471,7 +503,7 @@
           const avg = E.overall(v[0], v[1], v[2], v[3]);
           p.subs.push({ id: uid(), date: today(), kind: segVal('aik'), sc: v, avg, note: r.overallRange ? 'ИИ ' + r.overallRange : '', ref: ref || '', src: 'ai', fixes: r.fixes, rewrite: r.rewrite, colls: r.collocations });
           let n = 0;
-          if ($('#aie') && $('#aie').checked) { fresh.forEach((e) => { p.errors.push({ id: uid(), date: today(), tag: e.tag, snippet: e.snippet, fix: e.fix, src: 'ai', ref: ref || '' }); n++; }); delete p.days[today()]; }
+          if ($('#aie') && $('#aie').checked) { fresh.forEach((e) => { const ne = { id: uid(), date: today(), tag: e.tag, snippet: e.snippet, fix: e.fix, src: 'ai', ref: ref || '' }; E.errInit(ne, today()); p.errors.push(ne); n++; }); delete p.days[today()]; }
           if ($('#aic') && $('#aic').checked) { p.colls = p.colls || []; r.collocations.forEach((c) => { if (!p.colls.some((x) => x.t.toLowerCase() === c.toLowerCase())) p.colls.push({ t: c, date: today() }); }); }
           save(); closeSheet(); toast('Оценка ' + avg + ' · ошибок записано: ' + n); route();
         };
@@ -575,7 +607,7 @@
       if (un) confirmSheet('Без ответа: ' + un + '. Сдать всё равно?', 'Сдать', fin); else fin();
     };
     const re = $('#rerr'); if (re) re.onclick = () => {
-      let n = 0; items.filter((it) => !ok(it)).forEach((it) => { p.errors.push({ id: uid(), date: today(), tag: RTAG[it.type], snippet: t.title + ' · Q' + it.n + ': ' + it.q.slice(0, 60), fix: 'ответ: ' + (Array.isArray(it.a) ? it.a[0] : it.a) }); n++; });
+      let n = 0; items.filter((it) => !ok(it)).forEach((it) => { p.errors.push({ id: uid(), date: today(), tag: RTAG[it.type], snippet: t.title + ' · Q' + it.n + ': ' + it.q.slice(0, 60), fix: 'ответ: ' + (Array.isArray(it.a) ? it.a[0] : it.a), nodrill: true }); n++; });
       delete p.days[today()]; save(); re.disabled = true; toast('Записано ошибок: ' + n);
     };
     const rt = $('#rretry'); if (rt) rt.onclick = () => { RS.ans = {}; RS.done = false; RS.painted = false; viewRead(id); window.scrollTo(0, 0); };
@@ -679,7 +711,7 @@
   function renderTabs(tab0) {
     let tab = tab0;
     const t = $('#tabs'); t.hidden = false;
-    tab = MORE_ALIAS[tab] || tab; const inMore = MORE.some((m) => m[0] === tab);
+    tab = MORE_ALIAS[tab] || (tab === 'fix' ? 'errors' : tab); const inMore = MORE.some((m) => m[0] === tab);
     t.innerHTML = TABS.map(([k, n]) => '<a href="#' + k + '" class="' + (k === tab ? 'on' : '') + '">' + ico(k) + n + '</a>').join('') + '<button id="tmore" class="' + (inMore ? 'on' : '') + '">' + ico('more') + (inMore ? MORE.find((m) => m[0] === tab)[1] : 'Ещё') + '</button>';
     $('#tmore').onclick = () => openSheet('<div class="list">' + MORE.map(([k, n]) => '<a class="rowi" href="#' + k + '"><span class="grow">' + n + '</span>' + ico('chev', 'chev') + '</a>').join('') + '</div>', (el) => { el.querySelectorAll('a').forEach((a) => { a.onclick = () => closeSheet(); }); });
   }
@@ -689,7 +721,7 @@
     const parts = (location.hash || '#today').slice(1).split('/'); const tab = parts[0];
     if (!DB.active || !P()) { $('#tabs').hidden = true; return viewOnboarding(); }
     renderTabs(tab);
-    ({ today: viewToday, plan: viewPlan, cards: viewCards, errors: viewErrors, writing: viewWriting, write: viewWrite, reading: viewReading, read: viewRead, progress: viewProgress, res: viewRes, set: viewSet }[tab] || viewToday)(parts[1]);
+    ({ today: viewToday, plan: viewPlan, cards: viewCards, errors: viewErrors, fix: viewFix, writing: viewWriting, write: viewWrite, reading: viewReading, read: viewRead, progress: viewProgress, res: viewRes, set: viewSet }[tab] || viewToday)(parts[1]);
     if (animate === false) $('#view').classList.remove('enter');
     window.scrollTo(0, 0);
   }
