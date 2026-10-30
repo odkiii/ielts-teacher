@@ -477,10 +477,14 @@
     const om = t.match(/overall range[\s\S]{0,40}?(\d(?:\.\d)?\s*[–—-]\s*\d(?:\.\d)?)/i); if (om) out.overallRange = om[1].replace(/\s/g, '');
     const seen = new Set(); const re = /^[\s·•*\-–>]*\**\s*((?:W|S|L|R)-[A-Z]{2,6})\s*\**\s*[:：]\s*(.+)$/gm; let m;
     while ((m = re.exec(t))) {
-      const body = m[2].trim(); const parts = body.split(/\s*(?:→|->|⇒|=>)\s*/);
+      let body = m[2].trim(); let ctx = '';
+      const bar = body.split(/\s*\|\|\s*/); if (bar.length > 1) { ctx = unq(bar[0]); body = bar.slice(1).join(' '); }
+      const parts = body.split(/\s*(?:→|->|⇒|=>)\s*/);
       const snippet = unq(parts[0]); const fix = parts.length > 1 ? unq(parts.slice(1).join(' → ')) : '';
       if (!snippet) continue; const key = m[1] + '|' + snippet.toLowerCase(); if (seen.has(key)) continue; seen.add(key);
-      out.errors.push({ tag: m[1], snippet: snippet.slice(0, 160), fix: fix.slice(0, 160) });
+      const er = { tag: m[1], snippet: snippet.slice(0, 160), fix: fix.slice(0, 160) };
+      if (ctx && ctx.toLowerCase().indexOf(snippet.toLowerCase()) >= 0) er.ctx = ctx.slice(0, 400);
+      out.errors.push(er);
     }
     const sec = (head, stop) => { const i = t.search(head); if (i < 0) return ''; const rest = t.slice(i); const k = rest.slice(5).search(stop); return k < 0 ? rest : rest.slice(0, k + 5); };
     const colBlock = sec(/collocations? to learn/i, /\n\s*(?:6\)|6\.|list of errors|errors? with codes)/i);
@@ -499,6 +503,21 @@
   function normFix(s, tag) {
     let t = String(s || '').replace(/[’‘`´]/g, "'").replace(/[“”«»"]/g, '').replace(/[.,;:!?()]/g, ' ').replace(/\s+/g, ' ').trim();
     return tag === 'W-PUNCT' ? t : t.toLowerCase();
+  }
+  /** Предложение целиком с выделенным фрагментом: {a, bad, b} или null. */
+  function ctxParts(e, useFix) {
+    const c = e && e.ctx, sn = e && e.snippet; if (!c || !sn) return null;
+    const i = c.toLowerCase().indexOf(sn.toLowerCase()); if (i < 0) return null;
+    return { a: c.slice(0, i), bad: useFix ? (e.fix || sn) : c.slice(i, i + sn.length), b: c.slice(i + sn.length) };
+  }
+  /** Находит в текстах предложение, где встречается фрагмент ошибки. */
+  function findCtx(texts, snippet) {
+    const low = String(snippet || '').toLowerCase(); if (!low) return '';
+    for (const t of texts) {
+      const sents = String(t || '').split(/(?<=[.!?])\s+|\n+/);
+      const hit = sents.find((x) => x.toLowerCase().indexOf(low) >= 0); if (hit) return hit.trim();
+    }
+    return '';
   }
   const errDrillable = (e) => !!(e && e.fix && e.snippet && !e.nodrill);
   /** Подготовка записи к повторениям: первый показ завтра. */
@@ -545,6 +564,6 @@
     return 3.5;
   }
 
-  const api = { exAll, exIdx, exOf, SK, PHASES, pd, fmt, addDays, daysBetween, weekNo, phaseFor, errorSeverity, weights, dayTasks, newCard, dueCards, review, overall, rawToBand, isWord, plain, lrMode, lrRate, master, unmaster, reviewMastered, contexts, buildSession, pickFresh, GROUPS, GROUP_LABEL, MAIN_GROUPS, group, inGroup, choices, typeCheck, hintOf, drillQueue, form, pickNext, mcq, checkSentence, GAPS, analyseText, checkAnswer, parseFeedback, errDrillable, normFix, errInit, errDue, errCheck, errRate, EI, CEF, cefOf, cefRank };
+  const api = { ctxParts, findCtx, exAll, exIdx, exOf, SK, PHASES, pd, fmt, addDays, daysBetween, weekNo, phaseFor, errorSeverity, weights, dayTasks, newCard, dueCards, review, overall, rawToBand, isWord, plain, lrMode, lrRate, master, unmaster, reviewMastered, contexts, buildSession, pickFresh, GROUPS, GROUP_LABEL, MAIN_GROUPS, group, inGroup, choices, typeCheck, hintOf, drillQueue, form, pickNext, mcq, checkSentence, GAPS, analyseText, checkAnswer, parseFeedback, errDrillable, normFix, errInit, errDue, errCheck, errRate, EI, CEF, cefOf, cefRank };
   if (typeof module !== 'undefined' && module.exports) module.exports = api; else root.Engine = api;
 })(typeof window !== 'undefined' ? window : globalThis);

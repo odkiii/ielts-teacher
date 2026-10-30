@@ -242,3 +242,14 @@ test('exOf rotates through the three example sentences', () => {
   assert.equal(E.exIdx({ ex: 'z' }), 0);
   assert.equal(E.exOf({ ex: 'z', rv: 5 }), 'z');
 });
+
+test('parseFeedback reads full sentence context and ctxParts splits it', () => {
+  const r = E.parseFeedback('W-TR: Did you ever needed a break? || Did you ever needed → Have you ever needed.\nW-WF: old style item → fixed item');
+  assert.equal(r.errors[0].ctx, 'Did you ever needed a break?');
+  assert.equal(r.errors[0].snippet, 'Did you ever needed');
+  assert.equal(r.errors[1].ctx, undefined);
+  const e = { ctx: 'Did you ever needed a break?', snippet: 'did you ever needed', fix: 'Have you ever needed' };
+  assert.deepEqual(E.ctxParts(e), { a: '', bad: 'Did you ever needed', b: ' a break?' });
+  assert.equal(E.ctxParts(e, true).bad, 'Have you ever needed');
+  assert.equal(E.findCtx(['One. Schools will teach well. Two.'], 'schools will teach'), 'Schools will teach well.');
+});

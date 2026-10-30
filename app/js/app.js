@@ -519,6 +519,7 @@
     if (!fixQ || fixQ.date !== t0 || fixQ.fresh) fixQ = { date: t0, ids: E.errDue(p.errors, t0).map((e) => e.id), ok: 0, bad: 0, step: 'q', res: null, total: 0 };
     if (!fixQ.total) fixQ.total = fixQ.ids.length;
     const e = fixQ.ids.length ? p.errors.find((x) => x.id === fixQ.ids[0]) : null;
+    if (e && !e.ctx) { const c = E.findCtx(userTexts(p), e.snippet); if (c) { e.ctx = c; save(); } }
     let h = head('Исправь', fixQ.total ? 'Сделано ' + (fixQ.ok + fixQ.bad) + ' из ' + fixQ.total : '', back('#errors'));
     if (!e) {
       const next = p.errors.filter((x) => E.errDrillable(x) && x.due).map((x) => x.due).sort()[0];
@@ -526,18 +527,26 @@
       paint(h); return;
     }
     const dots = e.done ? '✓ закрыта' : '●'.repeat(e.n || 0) + '○'.repeat(3 - (e.n || 0));
-    h += '<div class="flash" style="min-height:0"><small><span class="chip">' + esc(e.tag) + '</span> <span style="letter-spacing:2px;color:var(--acc)">' + dots + '</span></small><div class="mut">Перепиши без ошибки</div><div class="term" style="font-size:22px;margin-top:8px">«' + esc(e.snippet) + '»</div></div>';
+    h += '<div class="flash" style="min-height:0"><small><span class="chip">' + esc(e.tag) + '</span> <span style="letter-spacing:2px;color:var(--acc)">' + dots + '</span></small>' + (E.ctxParts(e) ? '<div class="mut">Исправь выделенную часть предложения</div><div class="term" style="font-size:19px;line-height:1.45;margin-top:8px;font-weight:600">' + esc(E.ctxParts(e).a) + '<mark class="gap">' + esc(E.ctxParts(e).bad) + '</mark>' + esc(E.ctxParts(e).b) + '</div>' : '<div class="mut">Перепиши без ошибки</div><div class="term" style="font-size:22px;margin-top:8px">«' + esc(e.snippet) + '»</div>') + '</div>';
     if (fixQ.step === 'q') h += '<input id="fx" style="margin-top:12px" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" placeholder="Правильный вариант"><div style="margin-top:12px"><button class="btn p" id="fchk">Проверить</button></div><div style="text-align:center"><button class="link" id="fskip">Не помню — показать ответ</button></div>';
-    else h += '<div class="card" style="margin-top:12px"><div style="font-weight:600;color:var(--' + (fixQ.res.ok ? 'ok' : 'warn') + ')">' + (fixQ.res.ok ? (fixQ.res.r === 'closed' ? 'Верно — ошибка закрыта' : 'Верно') : 'Не совсем') + '</div><div style="margin-top:6px">Правильно: <b>' + esc(e.fix) + '</b></div>' + (fixQ.res.ok ? '<div class="mut" style="margin-top:6px">Следующий показ: ' + esc(fmtD(e.due)) + '</div>' : '<div class="mut" style="margin-top:6px">Вернётся в этой же серии</div>') + '</div><div style="margin-top:12px"><button class="btn p" id="fnext">Дальше</button></div>';
+    else h += '<div class="card" style="margin-top:12px"><div style="font-weight:600;color:var(--' + (fixQ.res.ok ? 'ok' : 'warn') + ')">' + (fixQ.res.ok ? (fixQ.res.r === 'closed' ? 'Верно — ошибка закрыта' : 'Верно') : 'Не совсем') + '</div><div style="margin-top:6px">Правильно: <b>' + esc(e.fix) + '</b></div>' + (E.ctxParts(e, true) ? '<div class="exm" style="font-size:16px">' + esc(E.ctxParts(e, true).a) + '<b>' + esc(E.ctxParts(e, true).bad) + '</b>' + esc(E.ctxParts(e, true).b) + '</div>' : '') + '<div style="margin-top:8px"><button class="link" id="fedit">Эталон неверный? Исправить запись</button></div>' + (fixQ.res.ok ? '<div class="mut" style="margin-top:6px">Следующий показ: ' + esc(fmtD(e.due)) + '</div>' : '<div class="mut" style="margin-top:6px">Вернётся в этой же серии</div>') + '</div><div style="margin-top:12px"><button class="btn p" id="fnext">Дальше</button></div>';
     paint(h, fixQ.step === 'q' && fixQ.ok + fixQ.bad === 0);
     const fin = (ok) => { const r = E.errRate(e, ok, t0); fixQ.res = { ok, r }; if (ok) fixQ.ok++; else fixQ.bad++; fixQ.step = 'a'; save(); viewFix(); };
     const c = $('#fchk'); if (c) c.onclick = () => { const v = $('#fx').value.trim(); if (!v) { toast('Напиши исправленный вариант'); return; } fin(E.errCheck(e, v)); };
+    const fe = $('#fedit'); if (fe) fe.onclick = () => editErr(p, e, () => viewFix());
     const sk = $('#fskip'); if (sk) sk.onclick = () => fin(false);
     const fx = $('#fx'); if (fx) fx.onkeydown = (ev) => { if (ev.key === 'Enter') c.click(); };
     const nx = $('#fnext'); if (nx) nx.onclick = () => { const id = fixQ.ids.shift(); if (!fixQ.res.ok) fixQ.ids.push(id); fixQ.step = 'q'; fixQ.res = null; viewFix(); };
   }
 
 
+  const userTexts = (p) => [].concat((p.writes || []).map((w) => w.text), (p.vwrites || []).map((w) => w.text), Object.keys(p.drafts || {}).map((k) => p.drafts[k]), p.cards.reduce((a, c) => a.concat(c.my || []), []));
+  function editErr(p, e, done) {
+    openSheet('<h2>Запись об ошибке</h2><div class="stack"><label>Предложение целиком</label><textarea id="eec" style="min-height:70px">' + esc(e.ctx || '') + '</textarea><label>Фрагмент с ошибкой</label><input id="ees" value="' + esc(e.snippet) + '"><label>Правильно (только этот фрагмент)</label><input id="eef" value="' + esc(e.fix || '') + '"><button class="btn p" id="eesv">Сохранить</button><button class="btn" id="eedl">Удалить запись</button></div>', () => {
+      $('#eesv').onclick = () => { const sn = $('#ees').value.trim(); if (!sn) { toast('Укажи фрагмент'); return; } e.snippet = sn; e.fix = $('#eef').value.trim(); e.ctx = $('#eec').value.trim(); if (e.ctx && e.ctx.toLowerCase().indexOf(sn.toLowerCase()) < 0) { toast('Фрагмент должен входить в предложение'); return; } e.n = 0; e.done = false; save(); closeSheet(); toast('Сохранено'); (done || route)(); };
+      $('#eedl').onclick = () => { p.errors = p.errors.filter((x) => x.id !== e.id); if (fixQ && fixQ.ids) fixQ.ids = fixQ.ids.filter((x) => x !== e.id); save(); closeSheet(); toast('Удалено'); route(); };
+    });
+  }
   function viewErrors() {
     const p = P(); const t0 = today(); const sev = E.errorSeverity(p.errors, t0);
     const top = Object.keys(sev).sort((a, b) => sev[b] - sev[a]).slice(0, 5);
@@ -546,15 +555,16 @@
     h += aiRow();
     if (dueN) h += fixBanner(dueN);
     if (top.length) h += '<div class="chips" style="margin-bottom:14px">' + top.map((t) => '<span class="chip on" style="flex:none">' + esc(t) + ' · ' + p.errors.filter((e) => e.tag === t && e.date >= E.addDays(t0, -30)).length + '</span>').join('') + '</div>';
-    if (p.errors.length) h += '<div class="list">' + p.errors.slice().reverse().slice(0, 100).map((e) => '<button class="rowi" data-e="' + esc(e.id) + '"><div class="grow"><div><span class="chip">' + esc(e.tag) + '</span> <span class="mut">' + esc(fmtD(e.date)) + '</span>' + errDots(e) + '</div><div style="margin-top:6px">' + esc(e.snippet) + (e.fix ? ' <span class="mut">→</span> <b>' + esc(e.fix) + '</b>' : '') + '</div></div></button>').join('') + '</div>';
+    if (p.errors.length) h += '<div class="list">' + p.errors.slice().reverse().slice(0, 100).map((e) => '<button class="rowi" data-e="' + esc(e.id) + '"><div class="grow"><div><span class="chip">' + esc(e.tag) + '</span> <span class="mut">' + esc(fmtD(e.date)) + '</span>' + errDots(e) + '</div><div style="margin-top:6px">' + esc(e.snippet) + (e.fix ? ' <span class="mut">→</span> <b>' + esc(e.fix) + '</b>' : '') + '</div>' + (e.ctx ? '<div class="mut" style="margin-top:4px;font-size:14px">' + esc(e.ctx) + '</div>' : '') + '</div></button>').join('') + '</div>';
     else h += '<div class="card mut" style="text-align:center;padding:28px">Записывай ошибки из тестов и проверок: самые частые попадут в задания.</div>';
     paint(h);
-    $('#eplus').onclick = () => openSheet('<h2>Новая ошибка</h2><div class="stack"><select id="etag">' + TAGS.map((t) => '<option>' + t + '</option>').join('') + '</select><input id="esn" placeholder="Фрагмент с ошибкой" autocomplete="off"><input id="efx" placeholder="Правильно" autocomplete="off"><button class="btn p" id="eadd">Добавить</button></div>', () => {
-      $('#eadd').onclick = () => { const s = $('#esn').value.trim(); if (!s) { toast('Укажи фрагмент'); return; } const ne = { id: uid(), date: t0, tag: $('#etag').value, snippet: s, fix: $('#efx').value.trim() }; E.errInit(ne, t0); p.errors.push(ne); delete p.days[t0]; save(); closeSheet(); toast('Записано'); route(); };
+    $('#eplus').onclick = () => openSheet('<h2>Новая ошибка</h2><div class="stack"><select id="etag">' + TAGS.map((t) => '<option>' + t + '</option>').join('') + '</select><input id="esn" placeholder="Фрагмент с ошибкой" autocomplete="off"><input id="efx" placeholder="Правильно" autocomplete="off"><textarea id="ecx" placeholder="Всё предложение целиком (лучше с ним)" style="min-height:70px"></textarea><button class="btn p" id="eadd">Добавить</button></div>', () => {
+      $('#eadd').onclick = () => { const s = $('#esn').value.trim(); if (!s) { toast('Укажи фрагмент'); return; } const ne = { id: uid(), date: t0, tag: $('#etag').value, snippet: s, fix: $('#efx').value.trim() }; const cx = $('#ecx').value.trim(); if (cx && cx.toLowerCase().indexOf(s.toLowerCase()) >= 0) ne.ctx = cx; E.errInit(ne, t0); p.errors.push(ne); delete p.days[t0]; save(); closeSheet(); toast('Записано'); route(); };
     });
     $$('[data-e]').forEach((b) => b.onclick = () => {
       const e = p.errors.find((x) => x.id === b.dataset.e);
-      confirmSheet('Удалить запись «' + e.snippet.slice(0, 40) + '»?', 'Удалить', () => { p.errors = p.errors.filter((x) => x.id !== e.id); save(); toast('Удалено'); route(); });
+      if (!e.ctx) { const c = E.findCtx(userTexts(p), e.snippet); if (c) e.ctx = c; }
+      editErr(p, e);
     });
   }
 
@@ -568,7 +578,7 @@
   function buildPrompt(kind, q, text) {
     return 'You are a strict, experienced IELTS examiner. Use the public IELTS band descriptors for this task type. Be conservative: if unsure, choose the LOWER band. Do not inflate scores.\n\n' + RUBRIC[kind] +
       '\n\nQUESTION:\n' + q + '\n\nCANDIDATE ' + (kind === 'sp' ? 'TRANSCRIPT' : 'RESPONSE') + ' (' + text.trim().split(/\s+/).filter(Boolean).length + ' words):\n' + text +
-      '\n\nReturn:\n1) A band RANGE for each of the 4 criteria (e.g. 6.0–6.5), each with 1–2 short quotes from the text as evidence.\n2) An overall range.\n3) The 3 highest-impact fixes.\n4) One rewritten paragraph one band higher.\n5) 3 collocations to learn.\n6) A list of errors with codes (W-ART, W-WF, W-SVA, W-PUNCT, W-COLL, W-REP, W-TR, W-CC; for speaking S-FC, S-LR, S-GRA).\nFinish with one JSON line: {"c1":x,"c2":x,"c3":x,"c4":x} using the LOWER end of each range.';
+      '\n\nReturn:\n1) A band RANGE for each of the 4 criteria (e.g. 6.0–6.5), each with 1–2 short quotes from the text as evidence.\n2) An overall range.\n3) The 3 highest-impact fixes.\n4) One rewritten paragraph one band higher.\n5) 3 collocations to learn.\n6) A list of errors, ONE per line, in EXACTLY this format: CODE: <the complete original sentence containing the error, copied verbatim> || <wrong fragment, copied verbatim from that sentence> → <corrected fragment>. Codes: W-ART, W-WF, W-SVA, W-PUNCT, W-COLL, W-REP, W-TR, W-CC; for speaking S-FC, S-LR, S-GRA. Example: W-TR: Did you ever needed a break? || Did you ever needed → Have you ever needed.\n\nACCURACY RULES for every correction: (a) put the corrected fragment back into the full sentence and re-read it: the sentence must be fully correct, natural English with the SAME meaning; (b) check tense and aspect carefully: present perfect with ever/never/already/yet/just/since/for/so far, past simple only with finished-time markers, no future will after if/when/as soon as in time or conditional clauses, correct sequence of tenses; (c) check subject-verb agreement, articles, countable/uncountable nouns, prepositions, word forms and collocations; (d) include enough words in the fragment (e.g. the auxiliary verb) so the whole fix is visible; (e) if you are not 100% sure, SEARCH THE WEB (Cambridge Dictionary and Cambridge Grammar, Oxford Collocations Dictionary, British Council LearnEnglish) and follow them; never invent a rule; (f) if a sentence is acceptable, do not list it as an error.\nFinish with one JSON line: {"c1":x,"c2":x,"c3":x,"c4":x} using the LOWER end of each range.';
   }
   const KINDS = [['t2', 'Task 2'], ['t1', 'Task 1'], ['gt', 'Письмо'], ['sp', 'Speaking']];
   const back = (href) => '<a class="ib" href="' + href + '" aria-label="Назад">' + ico('left') + '</a>';
@@ -676,7 +686,7 @@
           const avg = E.overall(v[0], v[1], v[2], v[3]);
           p.subs.push({ id: uid(), date: today(), kind: segVal('aik'), sc: v, avg, note: r.overallRange ? 'ИИ ' + r.overallRange : '', ref: ref || '', src: 'ai', fixes: r.fixes, rewrite: r.rewrite, colls: r.collocations });
           let n = 0;
-          if ($('#aie') && $('#aie').checked) { fresh.forEach((e) => { const ne = { id: uid(), date: today(), tag: e.tag, snippet: e.snippet, fix: e.fix, src: 'ai', ref: ref || '' }; E.errInit(ne, today()); p.errors.push(ne); n++; }); delete p.days[today()]; }
+          if ($('#aie') && $('#aie').checked) { fresh.forEach((e) => { const ne = { id: uid(), date: today(), tag: e.tag, snippet: e.snippet, fix: e.fix, ctx: e.ctx || E.findCtx(userTexts(p), e.snippet) || undefined, src: 'ai', ref: ref || '' }; E.errInit(ne, today()); p.errors.push(ne); n++; }); delete p.days[today()]; }
           if ($('#aic') && $('#aic').checked) { p.colls = p.colls || []; r.collocations.forEach((c) => { if (!p.colls.some((x) => x.t.toLowerCase() === c.toLowerCase())) p.colls.push({ t: c, date: today() }); }); }
           save(); closeSheet(); toast('Оценка ' + avg + ' · ошибок записано: ' + n); route();
         };

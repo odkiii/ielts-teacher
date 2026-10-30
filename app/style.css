@@ -134,3 +134,4 @@ body.drilling #cbody{margin-top:0!important}
 .wp1{display:flex;align-items:baseline;gap:8px}.wp1 .link{margin-left:auto;font-size:18px;text-decoration:none}
 .wtr{margin-top:4px;font-size:17px;font-weight:600}
 u.err{text-decoration:underline wavy var(--warn);text-underline-offset:3px}
+mark.gap{background:color-mix(in srgb,var(--warn) 18%,transparent);color:var(--fg);border-radius:4px;padding:0 2px;border-bottom:2px solid var(--warn)}
