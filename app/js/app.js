@@ -111,7 +111,7 @@
     const p = {
       id: uid(), name: f.name || 'Я', module: f.module, target: { overall: f.overall, min: f.min }, test_date: f.test_date || '', hours: f.hours, start: f.start,
       skills: { L: f.L, R: f.R, W: f.W, S: f.S }, cards: CONTENT.cards.map((c, i) => E.newCard(c.f, c.b, 's' + i)),
-      errors: [], days: {}, done: {}, mocks: [], subs: [], newPerDay: f.newPerDay || 10, newToday: { date: '', n: 0 },
+      errors: [], days: {}, done: {}, mocks: [], subs: [], study: {}, placement: f.placement || null, newPerDay: f.newPerDay || 10, newToday: { date: '', n: 0 },
     };
     DB.profiles[p.id] = p; DB.active = p.id; syncDeck(p); ensureP(p); save();
   }
@@ -134,6 +134,68 @@
       L: num($('#f_L').value, 4.5), R: num($('#f_R').value, 4.5), W: num($('#f_W').value, 4.5), S: num($('#f_S').value, 4.5),
       hours: num($('#f_hours').value, 13), newPerDay: num($('#f_new').value, 10), start: $('#f_start').value || nextMonday(today()), test_date: $('#f_test').value,
     };
+  }
+
+  // ---------- таймер учёбы ----------
+  let lastTouch = Date.now(), studyDirty = 0;
+  ['pointerdown', 'touchstart', 'keydown', 'wheel', 'scroll'].forEach((ev) => window.addEventListener(ev, () => { lastTouch = Date.now(); }, { passive: true, capture: true }));
+  const studySec = () => { const p = P(); return (p && p.study && p.study[today()]) || 0; };
+  function showStudy() {
+    const el = document.getElementById('stm'), es = document.getElementById('sts'); if (!el) return;
+    const t = studySec(); const m = Math.floor(t / 60), s2 = t % 60;
+    if (el.update) { el.update(m); es.update(s2); } else { el.textContent = p2(m); es.textContent = p2(s2); }
+  }
+  setInterval(() => {
+    if (!user || !DB.active || !P()) return;
+    const p = P(); p.study = p.study || {}; const d = today(); const cur = p.study[d] || 0;
+    const nx = E.studyTick(cur, lastTouch, Date.now(), !document.hidden);
+    if (nx === cur) return;
+    p.study[d] = nx; studyDirty++; showStudy();
+    if (studyDirty >= 20) { studyDirty = 0; save(); }
+  }, 1000);
+  document.addEventListener('visibilitychange', () => { if (document.hidden && studyDirty) { studyDirty = 0; save(); push(); } });
+  function studyRow() {
+    const nf = (id, v) => '<number-flow id="' + id + '" class="nf" data-v="' + v + '"></number-flow>';
+    const t = studySec();
+    return '<div class="studyrow"><span>Ты сегодня учишься уже</span><b class="stime">' + nf('stm', Math.floor(t / 60)) + '<i>:</i>' + nf('sts', t % 60) + '</b></div>';
+  }
+  function initStudy() {
+    ['stm', 'sts'].forEach((id) => {
+      const el = document.getElementById(id); if (!el) return;
+      if (el.update) { el.format = { minimumIntegerDigits: 2, useGrouping: false }; el.trend = 1; el.update(Number(el.dataset.v)); } else el.textContent = p2(el.dataset.v);
+    });
+  }
+
+  // ---------- входной тест ----------
+  let placeDone = null; // результат теста до создания профиля
+  function viewPlacement(onDone, onSkip) {
+    $('#tabs').hidden = true;
+    const items = E.placementItems(DECK); const ans = []; let i = 0;
+    const intro = () => {
+      paint(head('Входной тест', 'Определим твой уровень') + '<div class="card stack"><p>' + items.length + ' коротких вопросов: грамматика и слова (уровни A2 → C1, по официальным спискам Oxford). Идут от лёгких к сложным. Занимает около 5 минут.</p>' +
+        '<p class="mut">По результату подберу уровень карточек, задания и слабые темы. Если не уверен — выбирай «не знаю», это честнее, чем угадывать.</p></div>' +
+        '<div style="margin-top:16px"><button class="btn p" id="pgo">Начать</button></div>' + (onSkip ? '<div style="text-align:center"><button class="link" id="pskip">Пропустить и указать уровень вручную</button></div>' : ''));
+      $('#pgo').onclick = step; if (onSkip) $('#pskip').onclick = onSkip;
+    };
+    const step = () => {
+      if (i >= items.length) return fin();
+      const it = items[i];
+      const q = it.k === 'v' ? 'Что значит слово <b>' + esc(it.q) + '</b>?' : esc(it.q).replace('___', '<mark class="gap">&nbsp;&nbsp;&nbsp;&nbsp;</mark>');
+      paint(head('Вопрос ' + (i + 1) + ' из ' + items.length, it.k === 'v' ? 'Слова' : 'Грамматика') + '<div class="bar" style="margin-bottom:16px"><i style="width:' + Math.round(100 * i / items.length) + '%"></i></div>' +
+        '<div class="card" style="font-size:18px;margin-bottom:12px">' + q + '</div><div class="list">' + it.opts.map((o, k) => '<button class="rowi" data-k="' + k + '"><span class="grow">' + esc(o) + '</span></button>').join('') +
+        '<button class="rowi" data-k="-1"><span class="grow mut">Не знаю</span></button></div>', false);
+      $$('.rowi[data-k]').forEach((b) => { b.onclick = () => { ans.push({ lv: it.lv, topic: it.topic, ok: Number(b.dataset.k) === it.a }); i++; step(); }; });
+    };
+    const fin = () => {
+      const r = E.placementScore(ans); r.date = today(); r.n = ans.length; r.ok = ans.filter((a) => a.ok).length;
+      const tn = { tenses: 'времена', prepositions: 'предлоги', articles: 'артикли', conditionals: 'условные', agreement: 'согласование', modals: 'модальные', passive: 'пассив', collocations: 'коллокации', relative: 'относительные', inversion: 'инверсия', subjunctive: 'сослагательное', linking: 'связки', vocab: 'словарь' };
+      paint(head('Твой уровень', 'Входной тест пройден') + '<div class="card stack" style="text-align:center"><div style="font-size:44px;font-weight:700">' + r.cefr + '</div><div class="mut">примерно IELTS ' + r.band + ' · верно ' + r.ok + ' из ' + r.n + '</div></div>' +
+        '<div class="card stack" style="margin-top:12px">' + ['A2', 'B1', 'B2', 'C1'].map((l) => '<div class="sum"><span>' + l + '</span><span>' + r.byLv[l].ok + ' / ' + r.byLv[l].n + '</span></div>').join('') + '</div>' +
+        (r.weak.length ? '<p class="mut" style="margin-top:12px">Слабые темы: ' + r.weak.map((t) => esc(tn[t] || t)).join(', ') + '. Они попадут в приоритет заданий.</p>' : '') +
+        '<p class="mut">Тест проверяет грамматику и слова. Listening и Speaking уточнятся по ходу занятий и пробных тестов.</p><div style="margin-top:16px"><button class="btn p" id="pok">Дальше</button></div>');
+      $('#pok').onclick = () => onDone(r);
+    };
+    intro();
   }
 
   // ---------- Сегодня ----------
@@ -165,6 +227,7 @@
     h += '<div class="sum"><span id="sdn">' + s0.dn + ' из ' + d.total + ' мин</span><span id="spc">' + s0.pct + '%</span></div><div class="bar" style="margin-bottom:16px"><i id="sbar" style="width:' + s0.pct + '%"></i></div>';
     const fdue = isToday ? E.errDue(p.errors, today()).length : 0;
     if (fdue) h += fixBanner(fdue);
+    if (isToday) h += studyRow();
     if (isToday) h += aiRow();
     h += '<div class="list">' + d.tasks.map((t) => {
       const more = (t.desc ? '<p>' + esc(t.desc) + '</p>' : '') + (t.resource ? '<div>' + resLine(t.resource) + '</div>' : '');
@@ -172,7 +235,7 @@
         '<div><button class="tbody"><div class="ttl">' + esc(t.title) + '</div><div class="tmeta">' + t.minutes + ' мин · ' + esc(SKN[t.skill] || t.skill) + '</div></button>' + (more ? '<div class="more"><div>' + more + '</div></div>' : '') + '</div></div>';
     }).join('') + '</div>';
     h += '<div class="list" style="margin-top:14px"><button class="rowi" id="tm"><span class="grow">Таймер фокуса</span><b id="tmt" data-owner="today">' + (timer.end && timer.owner === 'today' ? '…' : '25 мин') + '</b></button></div>';
-    paint(h);
+    paint(h); if (isToday) initStudy();
     $('#dprev').onclick = () => { viewDate = E.addDays(date, -1); route(); };
     $('#dnext').onclick = () => { const n = E.addDays(date, 1); viewDate = n === today() ? null : n; route(); };
     $$('.task').forEach((row) => {
@@ -293,7 +356,7 @@
     const rest = p.cards.filter((c) => !c.seen).sort((a, b) => ((b.rec ? 1 : 0) - (a.rec ? 1 : 0)) || (rk(a) - rk(b)) || (hash(a.id) - hash(b.id))); p.cards = seen.concat(rest);
     return changed;
   }
-  function ensureP(p) { p.errors.forEach((e) => E.errInit(e, today())); p.drafts = p.drafts || {}; p.writes = p.writes || []; p.reads = p.reads || []; if (!p.newToday) p.newToday = { date: '', n: 0, extra: 0 }; }
+  function ensureP(p) { p.errors.forEach((e) => E.errInit(e, today())); p.drafts = p.drafts || {}; p.study = p.study || {}; p.writes = p.writes || []; p.reads = p.reads || []; if (!p.newToday) p.newToday = { date: '', n: 0, extra: 0 }; }
   const grpOf = (p) => p.cgrp || 'main';
   const newLeft = (p) => Math.max(0, p.newPerDay + (p.newToday.extra || 0) - p.newToday.n);
   function ensureSess(p) {
@@ -852,8 +915,10 @@
     const ios = /iphone|ipad|ipod/i.test(navigator.userAgent);
     if (!standalone) h += '<div class="list" style="margin-top:12px"><button class="rowi" id="inst"><span class="grow">Установить как приложение<div class="mut" style="margin-top:2px">' + (ios ? 'Safari → Поделиться → На экран «Домой»' : 'Иконка на главном экране, работает офлайн') + '</div></span></button></div>';
     h += '<div class="list" style="margin-top:12px"><div class="rowi"><span class="grow">Уровень карточек<div class="mut" style="margin-top:2px">Сейчас: ' + userCef(p) + ' — слова на ступень выше</div></span><select id="cefm">' + ['auto', 'B1', 'B2', 'C1', 'C2'].map((v) => '<option value="' + v + '"' + ((p.cefMode || 'auto') === v ? ' selected' : '') + '>' + (v === 'auto' ? 'Авто' : v) + '</option>').join('') + '</select></div></div>';
+    h += '<div class="list" style="margin-top:12px"><button class="rowi" id="retest"><span class="grow">Пройти входной тест заново<div class="mut" style="margin-top:2px">' + (p.placement ? 'Сейчас: ' + esc(p.placement.cefr) + ' · ' + esc(p.placement.date) : 'Определит уровень и подберёт задания') + '</div></span>' + ico('chev', 'chev') + '</button></div>';
     h += '<h3>Профиль</h3>' + profileForm(p, 'Сохранить');
     paint(h);
+    $('#retest').onclick = () => viewPlacement((r) => { p.placement = r; p.skills = E.placementSkills(r.band); p.days = {}; syncDeck(p); sess = null; save(); toast('Уровень: ' + r.cefr); location.hash = '#set'; route(); });
     $('#cefm').onchange = () => { p.cefMode = $('#cefm').value; syncDeck(p); sess = null; save(); toast('Уровень карточек: ' + userCef(p)); viewSet(); };
     const ib = $('#inst'); if (ib) ib.onclick = async () => { if (deferredInstall) { deferredInstall.prompt(); deferredInstall = null; } else toast(ios ? 'Safari → Поделиться → На экран «Домой»' : 'Меню браузера → Установить приложение'); };
     bindSeg('f_module');
@@ -868,24 +933,27 @@
   }
 
   function viewOnboarding() {
-    paint(head('Привет', 'Заполни анкету — план соберётся сам') + profileForm(null, 'Создать план'));
+    if (placeDone === null) return viewPlacement((r) => { placeDone = r; viewOnboarding(); }, () => { placeDone = false; viewOnboarding(); });
+    const pre = placeDone ? E.placementSkills(placeDone.band) : null;
+    const f0 = pre ? { name: '', module: 'academic', target: { overall: 7.5, min: 7 }, hours: 13, start: nextMonday(today()), skills: pre, newPerDay: 15, test_date: '' } : null;
+    paint(head('Привет', 'Заполни анкету — план соберётся сам') + (pre ? '<p class="mut">Уровень из теста: ' + placeDone.cefr + ' (≈ IELTS ' + placeDone.band + '). Навыки ниже уже заполнены — поправь, если знаешь точнее.</p>' : '') + profileForm(f0, 'Создать план'));
     bindSeg('f_module');
-    $('#pf').onsubmit = (e) => { e.preventDefault(); newProfile(readProfileForm()); sess = null; location.hash = '#today'; route(); };
+    $('#pf').onsubmit = (e) => { e.preventDefault(); const f = readProfileForm(); if (placeDone) f.placement = placeDone; newProfile(f); placeDone = null; sess = null; location.hash = '#today'; route(); };
   }
 
   // ---------- вход ----------
   function viewAuth() {
     $('#tabs').hidden = true;
     let signup = false;
-    paint('<div class="auth"><h1>IELTS Teacher</h1><p class="sub">Войди — данные будут на всех твоих устройствах</p><form id="af"><input id="ae" type="email" inputmode="email" autocomplete="email" autocapitalize="none" autocorrect="off" placeholder="Email" required><input id="ap" type="password" autocomplete="current-password" placeholder="Пароль" minlength="6" required><div class="err" id="aerr"></div><button class="btn p" id="asub" type="submit">Войти</button></form><div style="text-align:center;margin-top:8px"><button class="link" id="atog" type="button">Нет аккаунта? Создать</button></div></div>');
-    $('#atog').onclick = () => { signup = !signup; $('#asub').textContent = signup ? 'Создать аккаунт' : 'Войти'; $('#atog').textContent = signup ? 'Уже есть аккаунт? Войти' : 'Нет аккаунта? Создать'; $('#ap').autocomplete = signup ? 'new-password' : 'current-password'; $('#aerr').textContent = ''; };
+    paint('<div class="auth"><h1>IELTS Teacher</h1><p class="sub">Войди — данные будут на всех твоих устройствах</p><form id="af"><input id="ae" type="email" inputmode="email" autocomplete="email" autocapitalize="none" autocorrect="off" placeholder="Email" required><input id="ap" type="password" autocomplete="current-password" placeholder="Пароль" minlength="6" required><div class="err" id="aerr"></div><p class="mut" id="anote" hidden style="font-size:14px;margin:0 0 10px">Мы отправим письмо на этот адрес. Откройте его и перейдите по ссылке, чтобы подтвердить аккаунт — после этого вы сразу попадёте в приложение.</p><button class="btn p" id="asub" type="submit">Войти</button></form><div style="text-align:center;margin-top:8px"><button class="link" id="atog" type="button">Нет аккаунта? Создать</button></div></div>');
+    $('#atog').onclick = () => { signup = !signup; $('#anote').hidden = !signup; $('#asub').textContent = signup ? 'Создать аккаунт' : 'Войти'; $('#atog').textContent = signup ? 'Уже есть аккаунт? Войти' : 'Нет аккаунта? Создать'; $('#ap').autocomplete = signup ? 'new-password' : 'current-password'; $('#aerr').textContent = ''; };
     $('#af').onsubmit = async (e) => {
       e.preventDefault(); const b = $('#asub'); b.disabled = true; $('#aerr').textContent = '';
       try {
         const em = $('#ae').value.trim(), pw = $('#ap').value;
         const r = signup ? await Cloud.signUp(em, pw) : await Cloud.signIn(em, pw);
         if (r.error) throw r.error;
-        if (!r.data.session) { $('#aerr').style.color = 'var(--mut)'; $('#aerr').textContent = 'Проверь почту и подтверди email, затем войди.'; b.disabled = false; return; }
+        if (!r.data.session) { $('#af').innerHTML = '<p style="font-size:17px">Письмо отправлено на <b>' + esc(em) + '</b>.</p><p class="mut">Откройте его и перейдите по ссылке, чтобы подтвердить аккаунт. После перехода вы сразу окажетесь в приложении — входить заново не нужно. Не пришло? Проверьте «Спам».</p>'; return; }
         await start(r.data.session.user);
       } catch (err) {
         const m = String(err.message || err);

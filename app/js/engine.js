@@ -547,6 +547,77 @@
     return d === 1 ? 0 : d === 0 ? 1 : d === 2 ? 2 : d < 0 ? 3 : 4;
   }
 
+
+  // ---------- Входной тест (placement) ----------
+  /** Оригинальные грамматические вопросы: [уровень, тема, вопрос с ___, варианты, индекс верного] */
+  const PL_GRAM = [
+    ['A2', 'tenses', 'She ___ to work by bus every day.', ['go', 'goes', 'going', 'is go'], 1],
+    ['A2', 'prepositions', 'We arrived ___ the airport at six.', ['to', 'at', 'in', 'on'], 1],
+    ['A2', 'tenses', 'Yesterday I ___ a very interesting film.', ['see', 'seen', 'saw', 'was seeing'], 2],
+    ['B1', 'tenses', 'I ___ in this city since 2019.', ['live', 'am living', 'have lived', 'lived'], 2],
+    ['B1', 'articles', 'He plays ___ guitar very well.', ['a', 'the', '—', 'an'], 1],
+    ['B1', 'conditionals', 'If it rains tomorrow, we ___ at home.', ['stay', 'would stay', 'will stay', 'stayed'], 2],
+    ['B1', 'agreement', 'Neither of the answers ___ correct.', ['are', 'is', 'were', 'be'], 1],
+    ['B1', 'modals', 'You ___ wear a seat belt. It is the law.', ['might', 'must', 'would', 'can'], 1],
+    ['B2', 'conditionals', 'If I ___ more time last year, I would have finished the course.', ['had', 'have had', 'had had', 'would have'], 2],
+    ['B2', 'passive', 'The bridge ___ by the time we get there.', ['will repair', 'will be repaired', 'will have been repaired', 'is repairing'], 2],
+    ['B2', 'collocations', 'The government must ___ urgent action to reduce emissions.', ['do', 'make', 'take', 'hold'], 2],
+    ['B2', 'relative', 'The researcher, ___ study was published last month, won an award.', ['who', 'whom', 'whose', 'which'], 2],
+    ['B2', 'tenses', 'By next June she ___ here for ten years.', ['works', 'will work', 'will have worked', 'has worked'], 2],
+    ['C1', 'inversion', 'Not only ___ the exam, but she also got the top mark.', ['she passed', 'did she pass', 'she did pass', 'passed she'], 1],
+    ['C1', 'conditionals', '___ you need any help, please let me know.', ['Should', 'Would', 'Might', 'Did'], 0],
+    ['C1', 'collocations', 'The new policy has had a profound ___ on small businesses.', ['effect', 'affect', 'influence of', 'result to'], 0],
+    ['C1', 'subjunctive', 'The committee insisted that he ___ the report by Friday.', ['submits', 'submitted', 'submit', 'would submit'], 2],
+    ['C1', 'linking', '___ the heavy traffic, we reached the venue on time.', ['Despite', 'Although', 'However', 'Because'], 0],
+  ];
+  const PL_LV = ['A2', 'B1', 'B2', 'C1'];
+  /** Вопросы по словам: из колоды берём слова с официальным уровнем CEFR и переводом, 4 варианта перевода. */
+  function placementVocab(deck, perLevel, rnd) {
+    const r = rnd || Math.random; const out = [];
+    PL_LV.forEach((lv) => {
+      const pool = deck.filter((c) => c.cef === lv && c.ru && c.t && !/\s/.test(c.t) && String(c.ru).length < 28);
+      const poolAll = deck.filter((c) => c.ru && String(c.ru).length < 28);
+      const pick = new Set();
+      let guard = 0;
+      while (pick.size < Math.min(perLevel, pool.length) && guard++ < 500) pick.add(Math.floor(r() * pool.length));
+      pick.forEach((i) => {
+        const c = pool[i]; const first = (x) => String(x).split(/[,;]/)[0].trim();
+        const ans = first(c.ru); const opts = new Set([ans]); let g = 0;
+        while (opts.size < 4 && g++ < 300) { const d = poolAll[Math.floor(r() * poolAll.length)]; if (d.pos === c.pos || g > 100) opts.add(first(d.ru)); }
+        const o = [...opts].sort(() => r() - 0.5);
+        out.push({ k: 'v', lv, topic: 'vocab', q: c.t, opts: o, a: o.indexOf(ans), id: c.id });
+      });
+    });
+    return out;
+  }
+  function placementItems(deck, rnd) {
+    const g = PL_GRAM.map((x, i) => ({ k: 'g', lv: x[0], topic: x[1], q: x[2], opts: x[3], a: x[4], id: 'g' + i }));
+    const all = g.concat(placementVocab(deck, 4, rnd));
+    return PL_LV.reduce((a, lv) => a.concat(all.filter((x) => x.lv === lv)), []); // от лёгких к сложным
+  }
+  /** answers: [{lv, topic, ok}] → {cefr, band, byLv, weak} */
+  function placementScore(answers) {
+    const byLv = {}; const wk = {};
+    PL_LV.forEach((l) => { byLv[l] = { n: 0, ok: 0 }; });
+    answers.forEach((a) => { const b = byLv[a.lv]; if (!b) return; b.n++; if (a.ok) b.ok++; else wk[a.topic] = (wk[a.topic] || 0) + 1; });
+    const acc = (l) => (byLv[l].n ? byLv[l].ok / byLv[l].n : 0);
+    let idx = -1; // -1 — ниже A2
+    for (let i = 0; i < PL_LV.length; i++) { if (acc(PL_LV[i]) >= 0.6 && (i === 0 || acc(PL_LV[i - 1]) >= 0.5)) idx = i; else break; }
+    const bands = [3.5, 4.0, 5.0, 6.0, 7.0]; // idx -1..3
+    const cefr = ['A1', 'A2', 'B1', 'B2', 'C1'][idx + 1];
+    const weak = Object.keys(wk).sort((a, b) => wk[b] - wk[a]).slice(0, 4);
+    return { cefr, band: bands[idx + 1], byLv, weak };
+  }
+  /** Оценка навыков: R/W опираются на тест, L/S — на 0.5 ниже (в тесте не проверяются) */
+  function placementSkills(band) { const lo = Math.max(1, band - 0.5); return { L: lo, R: band, W: band, S: lo }; }
+
+  // ---------- Таймер учёбы ----------
+  const STUDY_IDLE = 30;
+  /** Один тик в секунду: считаем, только если вкладка видна и с последнего касания прошло ≤ 30 с. Возвращает новое число секунд. */
+  function studyTick(sec, lastTouchMs, nowMs, visible) {
+    return visible && nowMs - lastTouchMs <= STUDY_IDLE * 1000 ? sec + 1 : sec;
+  }
+
   // ---------- Баллы ----------
   function overall(L, R, W, S) {
     const a = (L + R + W + S) / 4;
@@ -564,6 +635,6 @@
     return 3.5;
   }
 
-  const api = { ctxParts, findCtx, exAll, exIdx, exOf, SK, PHASES, pd, fmt, addDays, daysBetween, weekNo, phaseFor, errorSeverity, weights, dayTasks, newCard, dueCards, review, overall, rawToBand, isWord, plain, lrMode, lrRate, master, unmaster, reviewMastered, contexts, buildSession, pickFresh, GROUPS, GROUP_LABEL, MAIN_GROUPS, group, inGroup, choices, typeCheck, hintOf, drillQueue, form, pickNext, mcq, checkSentence, GAPS, analyseText, checkAnswer, parseFeedback, errDrillable, normFix, errInit, errDue, errCheck, errRate, EI, CEF, cefOf, cefRank };
+  const api = { ctxParts, findCtx, exAll, exIdx, exOf, SK, PHASES, pd, fmt, addDays, daysBetween, weekNo, phaseFor, errorSeverity, weights, dayTasks, newCard, dueCards, review, overall, rawToBand, isWord, plain, lrMode, lrRate, master, unmaster, reviewMastered, contexts, buildSession, pickFresh, GROUPS, GROUP_LABEL, MAIN_GROUPS, group, inGroup, choices, typeCheck, hintOf, drillQueue, form, pickNext, mcq, checkSentence, GAPS, analyseText, checkAnswer, parseFeedback, errDrillable, normFix, errInit, errDue, errCheck, errRate, EI, CEF, cefOf, cefRank, PL_GRAM, placementItems, placementScore, placementSkills, studyTick, STUDY_IDLE };
   if (typeof module !== 'undefined' && module.exports) module.exports = api; else root.Engine = api;
 })(typeof window !== 'undefined' ? window : globalThis);

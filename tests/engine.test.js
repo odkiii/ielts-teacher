@@ -253,3 +253,24 @@ test('parseFeedback reads full sentence context and ctxParts splits it', () => {
   assert.equal(E.ctxParts(e, true).bad, 'Have you ever needed');
   assert.equal(E.findCtx(['One. Schools will teach well. Two.'], 'schools will teach'), 'Schools will teach well.');
 });
+
+test('placementScore: уровень по доле верных', () => {
+  const mk = (lv, ok, n) => Array.from({ length: n }, (_, i) => ({ lv, topic: 't', ok: i < ok }));
+  const r = E.placementScore([].concat(mk('A2', 4, 4), mk('B1', 4, 5), mk('B2', 3, 5), mk('C1', 1, 5)));
+  assert.equal(r.cefr, 'B2'); assert.equal(r.band, 6.0);
+  assert.equal(E.placementScore(mk('A2', 1, 4)).cefr, 'A1');
+  assert.equal(E.cefOf(E.placementSkills(6.0)), 'B2');
+});
+test('placementItems: от лёгких к сложным, верный индекс в границах', () => {
+  const deck = [];
+  ['A2', 'B1', 'B2', 'C1'].forEach((lv) => { for (let i = 0; i < 30; i++) deck.push({ id: lv + i, t: 'w' + lv + i, ru: 'п' + lv + i, pos: 'n', cef: lv }); });
+  const it = E.placementItems(deck, () => 0.37);
+  assert.ok(it.length >= 18);
+  const o = ['A2', 'B1', 'B2', 'C1']; for (let i = 1; i < it.length; i++) assert.ok(o.indexOf(it[i].lv) >= o.indexOf(it[i - 1].lv));
+  it.forEach((x) => { assert.ok(x.a >= 0 && x.a < x.opts.length); assert.equal(new Set(x.opts).size, x.opts.length); });
+});
+test('studyTick: считает только при активности и видимости', () => {
+  assert.equal(E.studyTick(5, 1000, 11000, true), 6);
+  assert.equal(E.studyTick(5, 1000, 32000, true), 5);
+  assert.equal(E.studyTick(5, 1000, 2000, false), 5);
+});

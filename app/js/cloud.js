@@ -5,14 +5,14 @@ window.Cloud = (function () {
   const KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImltYm9kdmNqdXJzZGRwbGptcHN4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTMyNjU4NDEsImV4cCI6MjEwODg0MTg0MX0.7wgOu6NkrjKCmF9po6Rr6DUylbF7XclAdsa6XeJMTuI';
   let sb = null;
   function c() {
-    if (!sb) sb = window.supabase.createClient(URL, KEY, { auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: false } });
+    if (!sb) sb = window.supabase.createClient(URL, KEY, { auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true, flowType: 'implicit' } });
     return sb;
   }
   return {
     available: () => !!window.supabase,
     async session() { const r = await c().auth.getSession(); return r.data.session; },
     signIn: (email, password) => c().auth.signInWithPassword({ email, password }),
-    signUp: (email, password) => c().auth.signUp({ email, password }),
+    signUp: (email, password) => c().auth.signUp({ email, password, options: { emailRedirectTo: location.origin + location.pathname } }),
     signOut: () => c().auth.signOut(),
     onAuth: (fn) => c().auth.onAuthStateChange((ev, s) => fn(ev, s)),
     async pull(uid) {
