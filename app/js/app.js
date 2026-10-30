@@ -379,7 +379,7 @@
   function viewCards() {
     const p = P(); ensureSess(p); refill(p);
     const mastered = p.cards.filter((c) => c.mastered).length, work = p.cards.filter((c) => c.seen && !c.mastered).length;
-    paint(head('Карточки', '<span id="csub"></span>', plusBtn('cplus', 'Добавить')) + seg('ctab', [['learn', 'Учить'], ['drill', 'Закрепить'], ['deck', 'Колода']], cst.tab) + (p.cards.filter((c) => c.seen).length >= 4 ? '<div class="list cta" id="vwlink" style="margin-top:12px"><a class="rowi" href="#vw"><div class="grow"><b>Напиши текст со словами</b><div class="mut" style="margin-top:2px">Закрепи выученное в письме</div></div></a></div>' : '') + '<div id="cbody" style="margin-top:16px"></div>');
+    paint(head('Карточки', '<span id="csub"></span>', plusBtn('cplus', 'Добавить')) + seg('ctab', [['learn', 'Учить'], ['drill', 'Закрепить'], ['deck', 'Колода']], cst.tab) + (p.cards.filter((c) => c.seen).length >= 4 ? '<div class="list cta" id="vwlink" style="margin-top:12px"><a class="rowi" href="#vw"><div class="grow"><b>Задание IELTS со своими словами</b><div class="mut" style="margin-top:2px">Task 2, Task 1 или письмо — с выученными словами</div></div></a></div>' : '') + '<div id="cbody" style="margin-top:16px"></div>');
     bindSeg('ctab', (v) => { cst.tab = v; if (v === 'drill') cst.dr = null; drawCards(); });
     $('#cplus').onclick = () => openSheet('<h2>Новая карточка</h2><div class="stack"><input id="cf" placeholder="Слово или фраза (English)" autocomplete="off"><input id="cb" placeholder="Перевод" autocomplete="off"><input id="cx" placeholder="Предложение с этим словом" autocomplete="off"><button class="btn p" id="cadd">Добавить</button></div>' +
       '<h3>Импорт</h3><textarea id="csv" placeholder="слово;перевод;пример — по одной на строку (или front;back)"></textarea><div style="margin-top:10px"><button class="btn" id="cimp">Импортировать</button></div>', () => {
@@ -546,30 +546,38 @@
     return out;
   }
   function viewVw() {
-    const p = P(); const t0 = today();
-    let h = head('Текст со словами', 'Закрепи выученное в письме', back('#cards'));
+    const p = P(); const t0 = today(); const W = WRITING;
+    let h = head('Задание IELTS со словами', 'Выполни задание, используя выученные слова', back('#cards'));
     if (p.cards.filter((c) => c.seen && c.t && c.ex).length < 4) { paint(h + '<div class="card">Сначала выучи хотя бы 4 карточки — потом сюда попадут именно они.</div>'); return; }
-    if (!vw || vw.pid !== p.id || vw.date !== t0) { const ids = vwPick(p); const qs = WRITING.task2; vw = { pid: p.id, date: t0, ids, res: null, q: qs[hash(t0 + ids.join()) % qs.length].q }; }
+    if (!vw || vw.pid !== p.id || vw.date !== t0) { const ids = vwPick(p); vw = { pid: p.id, date: t0, ids, res: null, kind: ['t2', 't2', 't1', 'gt'][hash(t0) % 4], n: 0 }; }
+    const kind = vw.kind; const pool = kind === 't2' ? W.task2 : kind === 't1' ? W.task1 : W.gt;
+    const task = pool[(hash(t0 + kind) + vw.n) % pool.length]; const key = 'vw' + kind + task.id;
+    const need = kind === 't1' ? 3 : 4;
     const cs = vw.ids.map((id) => p.cards.find((c) => c.id === id)).filter(Boolean);
-    const draft = (p.drafts && p.drafts.vw) || '';
-    h += '<div class="card"><div class="mut">Тема (можно писать и о другом)</div><div style="margin-top:6px">' + esc(vw.q) + '</div></div>';
-    h += '<h3>Используй минимум 4 из 6</h3><div class="list">' + cs.map((c, i) => '<div class="rowi"><div class="grow"><b>' + esc(c.t) + '</b> <span class="mut">— ' + esc(c.ru) + '</span><div class="mut" style="margin-top:2px">' + (vw.res ? (vw.res.used[i] ? '✓ использовано' : '✗ не найдено') + ' · ' : '') + hl(E.exOf(c)) + '</div></div></div>').join('') + '</div>';
-    h += '<textarea id="vt" rows="9" style="margin-top:12px" placeholder="Напиши 1–2 абзаца (80–150 слов). Слова должны звучать естественно — не вставляй их в каждое предложение.">' + esc(draft) + '</textarea><div class="mut" id="vwc" style="margin:4px 2px 0"></div>';
-    if (vw.res) h += '<div class="card" style="margin-top:12px"><b>' + vw.res.n + ' из ' + cs.length + '</b> слов использовано' + (vw.res.n >= 4 ? ' — зачтено.' : ' — нужно минимум 4.') + (vw.res.wc < 60 ? '<div class="mut" style="margin-top:6px">Текст короткий (' + vw.res.wc + ' слов) — для практики лучше 80+.</div>' : '') + '<div class="mut" style="margin-top:6px">Попроси ИИ проверить естественность и формы: кнопка «Промпт для ИИ».</div>' + ltHtml(vw.text || '', vw.lt) + '</div>';
-    h += '<div style="margin-top:12px"><button class="btn p" id="vchk">Проверить</button></div><div style="display:grid;grid-template-columns:1fr 1fr;gap:8px" style="margin-top:8px"><button class="btn" id="vcopy">Промпт для ИИ</button><button class="btn" id="vnew">Другие слова</button></div>';
+    const draft = (p.drafts && p.drafts[key]) || '';
+    const qtext = (task.q || task.title) + (kind === 't1' ? '\nDATA (' + task.kind + '): ' + dataText(task) : '');
+    h += seg('vk', [['t2', 'Task 2'], ['t1', 'Task 1'], ['gt', 'Письмо']], kind);
+    h += '<div class="card" style="margin-top:12px"><div class="mut">' + (kind === 't2' ? 'Task 2 · ' + esc(task.topic) : kind === 't1' ? 'Task 1' : 'Letter · ' + esc(task.tone)) + ' · минимум ' + (kind === 't2' ? 250 : 150) + ' слов</div><p style="margin:6px 0 0">' + esc(task.q || task.title) + '</p>' + (kind === 't1' ? '<div style="margin-top:12px">' + chartHtml(task) + '</div>' : '') + '</div>';
+    h += '<h3>Вплети минимум ' + need + ' из 6 слов</h3><div class="list">' + cs.map((c, i) => '<div class="rowi"><div class="grow"><b>' + esc(c.t) + '</b> <span class="mut">— ' + esc(c.ru) + '</span><div class="mut" style="margin-top:2px">' + (vw.res ? (vw.res.used[i] ? '✓ использовано' : '✗ не найдено') + ' · ' : '') + hl(E.exOf(c)) + '</div></div></div>').join('') + '</div>';
+    h += '<textarea id="vt" style="min-height:240px;margin-top:12px" spellcheck="false" placeholder="Пиши ответ на задание. Слова должны звучать естественно, а не вставляться в каждое предложение. Черновик сохраняется сам.">' + esc(draft) + '</textarea><div class="mut" id="vwc" style="margin:4px 2px 0"></div>';
+    if (vw.res) h += '<div class="card" style="margin-top:12px"><b>' + vw.res.n + ' из ' + cs.length + '</b> слов использовано' + (vw.res.n >= need ? ' — зачтено.' : ' — нужно минимум ' + need + '.') + (vw.res.short ? '<div class="mut" style="margin-top:6px">Текст короче нормы IELTS (' + vw.res.wc + ' слов).</div>' : '') + '<div class="mut" style="margin-top:6px">Оценку и проверку естественности слов даст ИИ: «Промпт для ИИ», затем «Загрузить отчёт ИИ».</div>' + ltHtml(vw.text || '', vw.lt) + '</div>';
+    h += '<div style="margin-top:12px"><button class="btn p" id="vchk">Проверить слова</button></div><div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px"><button class="btn" id="vcopy">Промпт для ИИ</button><button class="btn" id="vimp">Загрузить отчёт ИИ</button></div><div style="text-align:center"><button class="link" id="vnew">Другое задание и слова</button></div>';
     paint(h);
-    const upd = () => { const n = $('#vt').value.trim().split(/\s+/).filter(Boolean).length; $('#vwc').textContent = 'Слов: ' + n; };
-    $('#vt').oninput = () => { upd(); p.drafts.vw = $('#vt').value; save(); }; upd();
+    bindSeg('vk', (v) => { vw.kind = v; vw.res = null; vw.n = 0; viewVw(); });
+    const upd = () => { const a = E.analyseText($('#vt').value, kind); $('#vwc').textContent = a.words + ' слов · цель ' + a.minWords + '+'; $('#vwc').style.color = a.words && a.short ? 'var(--warn)' : ''; };
+    $('#vt').oninput = () => { upd(); p.drafts[key] = $('#vt').value; save(); }; upd();
     $('#vchk').onclick = () => {
-      const text = $('#vt').value.trim(); const wc = text.split(/\s+/).filter(Boolean).length;
-      if (wc < 20) { toast('Напиши хотя бы 20 слов'); return; }
+      const text = $('#vt').value.trim(); const a = E.analyseText(text, kind);
+      if (a.words < 20) { toast('Напиши хотя бы 20 слов'); return; }
       const used = cs.map((c) => E.checkSentence(c, text).used); const n = used.filter(Boolean).length;
       used.forEach((u, i) => { if (u) cs[i].wu = (cs[i].wu || 0) + 1; });
-      p.vwrites = p.vwrites || []; p.vwrites.push({ date: t0, ids: vw.ids.slice(), n, wc, text });
-      vw.res = { used, n, wc }; vw.lt = undefined; vw.text = text; save(); viewVw(); ltCheck(text).then((ms) => { if (vw && vw.text === text) { vw.lt = ms; viewVw(); } }); toast(n >= 4 ? 'Зачтено: ' + n + ' из ' + cs.length : 'Использовано: ' + n);
+      p.vwrites = p.vwrites || []; p.vwrites.push({ date: t0, ids: vw.ids.slice(), n, wc: a.words, kind, task: task.id, text });
+      vw.res = { used, n, wc: a.words, short: a.short }; vw.lt = undefined; vw.text = text; save(); viewVw(); ltCheck(text).then((ms) => { if (vw && vw.text === text) { vw.lt = ms; viewVw(); } }); toast(n >= need ? 'Зачтено: ' + n + ' из ' + cs.length : 'Использовано: ' + n);
     };
-    $('#vcopy').onclick = () => { const text = $('#vt').value.trim(); if (!text) { toast('Сначала напиши текст'); return; } copyText(buildPrompt('t2', vw.q + '\n\nThe candidate was asked to use these target expressions naturally: ' + cs.map((c) => c.t).join('; ') + '. Also comment, for each one, whether it is used correctly and naturally (collocation, form, register), and suggest a better alternative if not.', text)); };
-    $('#vnew').onclick = () => { cs.forEach((c) => { c.wu = (c.wu || 0) + 1; }); p.drafts.vw = ''; vw = null; save(); viewVw(); };
+    const full = () => qtext + '\n\nThe candidate was asked to use these target expressions naturally: ' + cs.map((c) => c.t).join('; ') + '. Also comment, for each one, whether it is used correctly and naturally (collocation, form, register), and suggest a better alternative if not.';
+    $('#vcopy').onclick = () => { const text = $('#vt').value.trim(); if (!text) { toast('Сначала напиши текст'); return; } copyText(buildPrompt(kind, full(), text)); };
+    $('#vimp').onclick = () => importSheet(p, kind, 'vw:' + task.id);
+    $('#vnew').onclick = () => { cs.forEach((c) => { c.wu = (c.wu || 0) + 1; }); vw = Object.assign(vw, { ids: vwPick(p), res: null, n: vw.n + 1 }); vw.ids = vwPick(p); save(); viewVw(); };
   }
 
   // ---------- Ошибки ----------
@@ -728,17 +736,18 @@
       };
     });
   }
+  const guessKind = (t) => (/task\s*1|graph|chart|overview/i.test(t) && !/task\s*2/i.test(t) ? 't1' : /task\s*2|essay/i.test(t) ? 't2' : /letter|salutation|dear /i.test(t) ? 'gt' : '');
   function importSheet(p, kind0, ref) {
     openSheet('<h2>Оценка от ИИ</h2><p class="mut" style="margin-top:-6px">Вставь весь ответ ИИ целиком — оценки, ошибки и коллокации разберутся сами.</p><textarea id="ai" style="min-height:150px" placeholder="Вставь ответ ИИ"></textarea><div style="margin-top:12px"><button class="btn p" id="aip">Разобрать</button></div><div id="aiout"></div><div style="text-align:center;margin-top:6px"><button class="link" id="aiman">Ввести оценки вручную</button></div>', () => {
       $('#aiman').onclick = () => scoreSheet(p, kind0, ref);
       $('#aip').onclick = () => {
-        const r = E.parseFeedback($('#ai').value);
+        const text0 = $('#ai').value; const r = E.parseFeedback(text0);
         if (!r.scores && !r.errors.length) { toast('Не нашёл оценок и ошибок — вставь ответ целиком'); return; }
         const sc = r.scores || ['', '', '', ''];
         const tags = {}; r.errors.forEach((e) => { tags[e.tag] = (tags[e.tag] || 0) + 1; });
         const known = new Set(p.errors.map((e) => e.tag + '|' + e.snippet.toLowerCase()));
         const fresh = r.errors.filter((e) => !known.has(e.tag + '|' + e.snippet.toLowerCase()));
-        $('#aiout').innerHTML = '<div class="enter"><h3>Нашёл</h3>' + seg('aik', KINDS, r.kind || kind0) + '<label>Четыре критерия' + (r.overallRange ? ' · ИИ: ' + esc(r.overallRange) : '') + '</label><div class="grid4">' + sc.map((v, i) => '<input id="as' + (i + 1) + '" type="number" inputmode="decimal" step="0.5" min="1" max="9" value="' + v + '">').join('') + '</div>' +
+        $('#aiout').innerHTML = '<div class="enter"><h3>Нашёл</h3>' + seg('aik', KINDS, r.kind || guessKind(text0) || kind0) + '<label>Четыре критерия' + (r.overallRange ? ' · ИИ: ' + esc(r.overallRange) : '') + '</label><div class="grid4">' + sc.map((v, i) => '<input id="as' + (i + 1) + '" type="number" inputmode="decimal" step="0.5" min="1" max="9" value="' + v + '">').join('') + '</div>' +
           '<div class="chips" style="margin:14px -18px 0">' + Object.keys(tags).map((t) => '<span class="chip on" style="flex:none">' + esc(t) + ' ×' + tags[t] + '</span>').join('') + '</div>' +
           '<label style="display:flex;gap:10px;align-items:center;margin:14px 0 0"><input type="checkbox" id="aie" checked style="width:20px;height:20px"> Записать ошибки в журнал: ' + fresh.length + (r.errors.length - fresh.length ? ' (ещё ' + (r.errors.length - fresh.length) + ' уже есть)' : '') + '</label>' +
           (r.collocations.length ? '<label style="display:flex;gap:10px;align-items:center;margin:10px 0 0"><input type="checkbox" id="aic" checked style="width:20px;height:20px"> Сохранить коллокации: ' + r.collocations.length + '</label>' : '') +
