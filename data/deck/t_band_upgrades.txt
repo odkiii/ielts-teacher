@@ -1,0 +1,38 @@
+complicated|сложный, запутанный (вместо difficult)|The tax system is far too [[complicated]].|adj|gen
+arduous|трудный, изнурительный (вместо difficult, band 7)|It was an [[arduous]] journey across the mountains.|adj|gen
+daunting|пугающе сложный (вместо difficult, band 8–9)|Learning a new language can be a [[daunting]] task.|adj|gen
+basic|базовый (вместо simple)|Students need [[basic]] computer skills.|adj|gen
+plain|простой, без изысков (вместо simple, band 7)|She wore a [[plain]] white dress.|adj|gen
+elementary|элементарный (вместо simple, band 8–9)|The test checks only [[elementary]] grammar.|adj|gen
+annoyed|раздражённый (вместо angry)|He was [[annoyed]] by the constant noise.|adj|gen
+furious|в ярости (вместо angry, band 7)|She was [[furious]] about the delay.|adj|gen
+enraged|разъярённый (вместо angry, band 8–9)|The crowd was [[enraged]] by the decision.|adj|gen
+cheerful|жизнерадостный (вместо happy)|The staff were [[cheerful]] and helpful.|adj|gen
+joyful|радостный (вместо happy, band 7)|The wedding was a [[joyful]] occasion.|adj|gen
+ecstatic|в восторге (вместо happy, band 8–9)|Fans were [[ecstatic]] after the win.|adj|gen
+needy|нуждающийся (вместо poor)|Charities support [[needy]] families.|adj|soc
+impoverished|обедневший (вместо poor, band 7)|Many [[impoverished]] regions lack clean water.|adj|soc
+destitute|нищий (вместо poor, band 8–9)|War left thousands of families [[destitute]].|adj|soc
+wealthy|состоятельный (вместо rich)|A [[wealthy]] businessman funded the school.|adj|soc
+prosperous|процветающий (вместо rich, band 7)|It is a [[prosperous]] and stable country.|adj|soc
+affluent|обеспеченный (вместо rich, band 8–9)|[[Affluent]] families can afford private tutors.|adj|soc
+valuable|ценный (вместо important)|Work experience is [[valuable]] for graduates.|adj|gen
+significant|значительный (вместо important)|There was a [[significant]] rise in prices.|adj|acad
+attractive|привлекательный (вместо beautiful)|The city has many [[attractive]] parks.|adj|gen
+stunning|потрясающий (вместо beautiful, band 7)|The view from the hill is [[stunning]].|adj|gen
+exquisite|изысканный (вместо beautiful, band 8–9)|The museum displays [[exquisite]] jewellery.|adj|gen
+occupied|занятой (вместо busy)|She is [[occupied]] with exam preparation.|adj|gen
+engaged|занятый, вовлечённый (вместо busy, band 7)|He is [[engaged]] in a research project.|adj|work
+swamped|заваленный делами (вместо busy, band 8–9)|I am [[swamped]] with work this week.|adj|work
+isolated|изолированный (вместо lonely)|Elderly people often feel [[isolated]].|adj|soc
+desolate|заброшенный, безлюдный (вместо lonely, band 7)|The village looked [[desolate]] in winter.|adj|gen
+forlorn|покинутый, одинокий (вместо lonely, band 8–9)|The [[forlorn]] child waited at the station.|adj|gen
+sluggish|вялый (вместо slow)|The economy remained [[sluggish]] last year.|adj|econ
+gradual|постепенный (вместо slow, band 7)|There has been a [[gradual]] improvement in results.|adj|gen
+leisurely|неторопливый (вместо slow, band 8–9)|We took a [[leisurely]] walk along the river.|adj|gen
+engaging|увлекательный (вместо interesting)|She gave an [[engaging]] presentation.|adj|gen
+fascinating|завораживающий (вместо interesting, band 7)|The documentary was [[fascinating]].|adj|gen
+captivating|пленяющий (вместо interesting, band 8–9)|He told a [[captivating]] story.|adj|gen
+damaging|вредный (вместо harmful)|Plastic has a [[damaging]] effect on oceans.|adj|env
+detrimental|пагубный (вместо harmful, band 7)|Lack of sleep is [[detrimental]] to health.|adj|health
+deleterious|губительный (вместо harmful, band 8–9)|Smoking has a [[deleterious]] effect on the lungs.|adj|health

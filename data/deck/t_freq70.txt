@@ -1,0 +1,23 @@
+level|уровень; выравнивать; ровный|The water [[level]] rose after the storm.|n|gen
+patronage|покровительство, финансовая поддержка|The festival depends on royal [[patronage]].|n|soc
+emphasize|подчёркивать|The teacher [[emphasized]] the importance of practice.|v|acad
+sneakers|кроссовки|He bought new [[sneakers]] for running.|n|gen
+cloud|облако; нечто, омрачающее|A dark [[cloud]] covered the sky.|n|env
+compliment|комплимент; хвалить|She gave me a [[compliment]] on my speech.|n|soc
+cluster|скопление; группироваться|A [[cluster]] of houses stood by the road.|n|gen
+drop|капля; падать|A single [[drop]] of rain fell on my hand.|n|gen
+funeral|похороны|Hundreds of people attended the [[funeral]].|n|soc
+extraordinary|необычайный, выдающийся|She showed [[extraordinary]] courage.|adj|gen
+chiefly|главным образом|The area is known [[chiefly]] for its wine.|adv|acad
+diver|ныряльщик, дайвер|The [[diver]] explored the wreck.|n|gen
+purify|очищать|Filters [[purify]] the water.|v|env
+protracted|затяжной|They faced a [[protracted]] legal battle.|adj|acad
+different|другой, отличающийся|Her ideas are [[different]] from mine.|adj|gen
+tender|нежный; мягкий|The meat was soft and [[tender]].|adj|gen
+become|становиться; подходить (о наряде)|She wants to [[become]] a doctor.|v|gen
+prairie|прерия|Bison once roamed the [[prairie]].|n|env
+romanticism|романтизм|[[Romanticism]] emphasised emotion and imagination.|n|media
+armour|доспехи, броня|The knight wore heavy [[armour]].|n|gen
+density|плотность|The city has a high population [[density]].|n|sci
+fervent|пылкий|He is a [[fervent]] supporter of the team.|adj|gen
+suburb|пригород|They live in a quiet [[suburb]].|n|soc

@@ -20,13 +20,20 @@ for f in sorted(glob.glob(os.path.join(root, "data", "deck", "*.txt"))):
         if not re.search(r"\[\[[^\[\]]+\]\]", ex) or ex.count("[[") != ex.count("]]"):
             errs.append(f"{os.path.basename(f)}:{n} bad [[ ]] in example: {t}"); continue
         key = (t.lower(), pos)
+        rec = os.path.basename(f).startswith("t_")  # рекомендации учителя: идут в начало очереди новых
         if key in seen:
-            print("skip duplicate:", t, pos); continue
+            if rec:
+                for c0 in cards:
+                    if (c0["t"].lower(), c0["pos"]) == key: c0["rec"] = 1
+            else:
+                print("skip duplicate:", t, pos)
+            continue
         seen.add(key)
         card = {"id": "k" + hashlib.sha1((t.lower() + "|" + pos).encode()).hexdigest()[:8], "t": t, "ru": ru, "ex": ex, "pos": pos, "dom": dom}
         o = OFF.get(t + "|" + pos, {})
         if o.get("cef"): card.update(cef=o["cef"], src=o["src"])
         if o.get("acl"): card["acl"] = 1
+        if rec: card["rec"] = 1
         cards.append(card)
 ids = [c['id'] for c in cards]
 if len(ids) != len(set(ids)):

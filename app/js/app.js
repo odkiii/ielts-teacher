@@ -216,7 +216,7 @@
 
   const userCef = (p) => (p.cefMode && p.cefMode !== 'auto') ? p.cefMode : E.cefOf(p.skills);
   // Колода лежит в app/data/deck.json, а не в базе пользователя: в облако уходит только прогресс по начатым карточкам.
-  const STATIC = ['t', 'ru', 'ex', 'pos', 'dom', 'cef', 'src', 'acl', 'f', 'b'];
+  const STATIC = ['t', 'ru', 'ex', 'pos', 'dom', 'cef', 'src', 'acl', 'rec', 'f', 'b'];
   let DECKIDS = new Set();
   function pack() {
     const out = { active: DB.active, profiles: {} };
@@ -240,11 +240,11 @@
     const uniq = new Map(); p.cards.forEach((c) => { const o = uniq.get(c.id); if (!o || (c.seen && !o.seen)) uniq.set(c.id, c); });
     p.cards = Array.from(uniq.values()).filter((c) => c.f || c.t || byId[c.id]);
     if (p.cards.length !== before) changed = true;
-    p.cards.forEach((c) => { const d = byId[c.id]; if (d) { c.t = d.t; c.ru = d.ru; c.ex = d.ex; c.pos = d.pos; c.dom = d.dom; c.cef = d.cef; c.src = d.src; c.acl = d.acl; } });
+    p.cards.forEach((c) => { const d = byId[c.id]; if (d) { c.t = d.t; c.ru = d.ru; c.ex = d.ex; c.pos = d.pos; c.dom = d.dom; c.cef = d.cef; c.src = d.src; c.acl = d.acl; c.rec = d.rec; } });
     const ids = new Set(p.cards.map((c) => c.id));
-    DECK.forEach((d) => { if (!ids.has(d.id)) p.cards.push(Object.assign(E.newCard('', '', d.id), { t: d.t, ru: d.ru, ex: d.ex, pos: d.pos, dom: d.dom, cef: d.cef, src: d.src, acl: d.acl, lv: 0 })); });
+    DECK.forEach((d) => { if (!ids.has(d.id)) p.cards.push(Object.assign(E.newCard('', '', d.id), { t: d.t, ru: d.ru, ex: d.ex, pos: d.pos, dom: d.dom, cef: d.cef, src: d.src, acl: d.acl, rec: d.rec, lv: 0 })); });
     const seen = p.cards.filter((c) => c.seen); const lvl = userCef(p); const rk = (c) => E.cefRank(lvl, c.cef);
-    const rest = p.cards.filter((c) => !c.seen).sort((a, b) => (rk(a) - rk(b)) || (hash(a.id) - hash(b.id))); p.cards = seen.concat(rest);
+    const rest = p.cards.filter((c) => !c.seen).sort((a, b) => ((b.rec ? 1 : 0) - (a.rec ? 1 : 0)) || (rk(a) - rk(b)) || (hash(a.id) - hash(b.id))); p.cards = seen.concat(rest);
     return changed;
   }
   function ensureP(p) { p.errors.forEach((e) => E.errInit(e, today())); p.drafts = p.drafts || {}; p.writes = p.writes || []; p.reads = p.reads || []; if (!p.newToday) p.newToday = { date: '', n: 0, extra: 0 }; }
@@ -255,11 +255,11 @@
     if (!sess || sess.date !== t0 || sess.pid !== p.id) { sess = E.buildSession(p.cards, t0, CAP, newLeft(p)); sess.date = t0; sess.pid = p.id; cst.cur = null; }
   }
   function refill(p) {
-    const act = sess.active.map((id) => p.cards.find((x) => x.id === id)).filter((c) => c && !c.mastered);
-    const room = CAP - act.length; const left = newLeft(p) - act.filter((c) => !c.seen).length;
-    if (room <= 0 || left <= 0) return;
-    p.cards.filter((c) => !c.seen && !sess.active.includes(c.id)).slice(0, Math.min(room, left)).forEach((c) => sess.active.push(c.id));
+    const left = newLeft(p) - sess.active.map((id) => p.cards.find((x) => x.id === id)).filter((c) => c && !c.seen).length;
+    if (left <= 0) return;
+    E.pickFresh(p.cards.filter((c) => !c.seen && !sess.active.includes(c.id)), left, t0r()).forEach((c) => sess.active.push(c.id));
   }
+  const t0r = () => today();
   function addWordCard(p, term, ru, ex) {
     const re = new RegExp(term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i'); let c;
     if (ex && re.test(ex)) { c = E.newCard('', '', uid()); Object.assign(c, { t: term, ru, ex: ex.replace(re, (m) => '[[' + m + ']]'), pos: 'phr', dom: 'my', lv: 0 }); }
@@ -292,6 +292,7 @@
   function applyRate(p, c, q) {
     const t0 = today();
     if (!c.seen) p.newToday.n += 1;
+    if (!c.fs) c.fs = t0; c.ls = t0;
     if (c.mastered) {
       const r = E.reviewMastered(c, q, t0); sess.doneM[c.id] = true;
       if (r === 'relearn') { if (!sess.active.includes(c.id)) sess.active.push(c.id); sess.due[c.id] = sess.counter + E.GAPS[0]; }

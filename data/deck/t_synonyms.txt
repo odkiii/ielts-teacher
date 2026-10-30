@@ -1,0 +1,59 @@
+effortless|лёгкий, без усилий|Her performance looked [[effortless]].|adj|gen
+manageable|посильный, выполнимый|The workload is [[manageable]].|adj|work
+essential|необходимый, важнейший|Water is [[essential]] for life.|adj|gen
+crucial|решающий|Early diagnosis is [[crucial]].|adj|health
+key|ключевой|Teamwork is a [[key]] factor.|adj|gen
+minor|незначительный, второстепенный|It was only a [[minor]] mistake.|adj|gen
+compact|компактный|The device is small and [[compact]].|adj|tech
+slight|небольшой, лёгкий|There was a [[slight]] delay.|adj|gen
+limited|ограниченный|Resources are [[limited]].|adj|gen
+large|большой|A [[large]] number of students agreed.|adj|gen
+enormous|огромный|The project needs [[enormous]] funding.|adj|gen
+massive|массивный, масштабный|There was a [[massive]] increase in demand.|adj|gen
+gigantic|гигантский|A [[gigantic]] wave hit the coast.|adj|env
+outdated|устаревший|The equipment is [[outdated]].|adj|tech
+aged|пожилой|Care for [[aged]] parents is costly.|adj|soc
+ancient|древний|They visited [[ancient]] ruins.|adj|gen
+elderly|пожилой|The [[elderly]] need better healthcare.|adj|soc
+active|активный; занятой|She leads an [[active]] life.|adj|gen
+crowded|переполненный|The trains are [[crowded]] at rush hour.|adj|trans
+hectic|суматошный|I had a [[hectic]] week at work.|adj|work
+modern|современный|[[Modern]] technology saves time.|adj|gen
+fresh|свежий|She came up with a [[fresh]] idea.|adj|gen
+updated|обновлённый|Use the [[updated]] version of the form.|adj|tech
+latest|новейший|He bought the [[latest]] model.|adj|tech
+firm|твёрдый, прочный|He has a [[firm]] belief in education.|adj|gen
+powerful|мощный|It is a [[powerful]] engine.|adj|gen
+durable|прочный, долговечный|The material is light and [[durable]].|adj|gen
+solid|твёрдый, надёжный|The bridge has a [[solid]] structure.|adj|gen
+demonstrate|демонстрировать, доказывать|The study [[demonstrates]] a clear link.|v|acad
+display|показывать, выставлять|The museum [[displays]] ancient coins.|v|gen
+illustrate|иллюстрировать|The graph [[illustrates]] the trend.|v|acad
+indicate|указывать|Results [[indicate]] a rise in sales.|v|acad
+clever|умный, сообразительный|It was a [[clever]] solution.|adj|gen
+bright|яркий; способный|She is a [[bright]] student.|adj|edu
+capable|способный|He is [[capable]] of hard work.|adj|work
+intelligent|умный|Dolphins are [[intelligent]] animals.|adj|sci
+apply|применять; подавать заявку|Students [[apply]] theory to practice.|v|acad
+employ|использовать; нанимать|Teachers [[employ]] different methods.|v|acad
+implement|внедрять, реализовывать|The city will [[implement]] the new plan.|v|acad
+operate|управлять; действовать|Workers [[operate]] heavy machinery.|v|work
+faint|слабый, едва заметный|I heard a [[faint]] sound.|adj|gen
+ineffective|неэффективный|The policy proved [[ineffective]].|adj|acad
+unstable|нестабильный|The economy is [[unstable]].|adj|econ
+receive|получать|Students [[receive]] feedback on essays.|v|gen
+obtain|получать, добывать|You can [[obtain]] a visa online.|v|acad
+acquire|приобретать|Children [[acquire]] language quickly.|v|acad
+achieve|достигать|She worked hard to [[achieve]] her goal.|v|gen
+believe|верить, полагать|Many people [[believe]] in recycling.|v|gen
+consider|рассматривать, считать|Employers [[consider]] experience important.|v|gen
+assume|предполагать|Do not [[assume]] that everyone agrees.|v|acad
+suppose|полагать, допускать|Let us [[suppose]] that prices will rise.|v|acad
+develop|развивать|The company will [[develop]] a new app.|v|work
+create|создавать|Parks [[create]] green space in cities.|v|gen
+construct|строить|They plan to [[construct]] a new bridge.|v|gen
+produce|производить|The factory can [[produce]] 500 cars a day.|v|work
+facilitate|облегчать, способствовать|Technology can [[facilitate]] learning.|v|acad
+support|поддерживать|Parents [[support]] their children.|v|gen
+assist|помогать|Volunteers [[assist]] elderly people.|v|soc
+guide|направлять, вести|A tutor will [[guide]] students.|v|edu

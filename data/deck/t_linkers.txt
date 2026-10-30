@@ -1,0 +1,29 @@
+furthermore|кроме того (добавление)|[[Furthermore]], the plan reduces costs.|phr|link
+additionally|вдобавок|[[Additionally]], students gain practical skills.|phr|link
+what is more|более того|[[What is more]], the course is free.|phr|link
+besides|к тому же|[[Besides]], it saves a lot of time.|phr|link
+not only that|и не только это|[[Not only that]], it also improves health.|phr|link
+nevertheless|тем не менее (контраст)|The task was hard; [[nevertheless]], she finished it.|phr|link
+nonetheless|тем не менее|The results were small but [[nonetheless]] important.|phr|link
+on the other hand|с другой стороны|[[On the other hand]], cars cause pollution.|phr|link
+in contrast|в отличие от этого|[[In contrast]], rural areas lost population.|phr|link
+even so|даже так|[[Even so]], many people still disagree.|phr|link
+due to|из-за, по причине (причина)|The match was cancelled [[due to]] rain.|phr|link
+owing to|из-за|[[Owing to]] heavy traffic, he was late.|phr|link
+as a result of|в результате|[[As a result of]] the ban, air quality improved.|phr|link
+for this reason|по этой причине|[[For this reason]], many schools have changed.|phr|link
+since|так как, поскольку|[[Since]] prices rose, fewer people bought cars.|conj|link
+thus|таким образом (результат)|Costs fell; [[thus]] more people could afford it.|phr|link
+hence|следовательно|Demand is rising, [[hence]] higher prices.|phr|link
+accordingly|соответственно|The rules changed, and firms adapted [[accordingly]].|phr|link
+therefore|поэтому|Pollution is rising; [[therefore]], action is needed.|phr|link
+for example|например (пример)|Many cities, [[for example]] Paris, ban cars.|phr|link
+for instance|например|Some jobs, [[for instance]] nursing, are in demand.|phr|link
+to illustrate|чтобы проиллюстрировать|[[To illustrate]], consider the case of Japan.|phr|link
+such as|такие как|Fruits [[such as]] apples are healthy.|phr|link
+in particular|в особенности|Young people, [[in particular]], benefit from the scheme.|phr|link
+indeed|действительно (усиление)|[[Indeed]], the evidence is clear.|phr|link
+in fact|на самом деле|[[In fact]], most students agree.|phr|link
+notably|в частности, особенно|Several countries, [[notably]] Spain, have changed laws.|adv|link
+clearly|очевидно|[[Clearly]], more investment is needed.|adv|link
+importantly|что важно|[[Importantly]], the study was well designed.|adv|link

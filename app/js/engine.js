@@ -286,12 +286,31 @@
     if (q === 0) { unmaster(c); c.seen = true; return 'relearn'; }
     review(c, q, today); return 'scheduled';
   }
-  /** Набор сессии: невыученные карточки в работе (сначала самые слабые) + новые до лимита, и выученные к повторению. */
+  const strHash = (str) => { let h = 2166136261; for (let i = 0; i < str.length; i++) { h ^= str.charCodeAt(i); h = Math.imul(h, 16777619); } return h >>> 0; };
+  const seeded = (seed) => { let a = strHash(String(seed)) || 1; return () => { a = (a + 0x6D2B79F5) >>> 0; let t = a; t = Math.imul(t ^ (t >>> 15), t | 1); t ^= t + Math.imul(t ^ (t >>> 7), t | 61); return ((t ^ (t >>> 14)) >>> 0) / 4294967296; }; };
+  /** n новых карточек: колода уже упорядочена «на ступень выше уровня → свой уровень → …», берём случайные из начала (окно 4×n), чтобы набор менялся день ото дня. */
+  function pickFresh(unseen, n, seed) {
+    if (n <= 0) return [];
+    const win = unseen.slice(0, Math.max(n * 4, n)); const rnd = seeded(seed);
+    for (let i = win.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [win[i], win[j]] = [win[j], win[i]]; }
+    return win.slice(0, n);
+  }
+  const RECENT = 10, OLDEST = 5;
+  /** Набор дня: новые + 10 «вчерашних» (последние введённые) + 5 самых давних из невыученных; плюс выученные к повторению.
+   *  Карточки, которых уже касались сегодня (ls === today), остаются в наборе — состав не меняется от перезагрузки. */
   function buildSession(cards, today, cap, newLeft) {
-    const prog = cards.filter((c) => c.seen && !c.mastered).sort((a, b) => (a.lv || 0) - (b.lv || 0)).slice(0, cap);
-    const fresh = cards.filter((c) => !c.seen).slice(0, Math.max(0, Math.min(cap - prog.length, newLeft)));
+    const unm = cards.filter((c) => c.seen && !c.mastered);
+    const touched = unm.filter((c) => c.ls === today);
+    const older = unm.filter((c) => c.ls !== today);
+    const touchedOld = touched.filter((c) => (c.fs || '') < today).length;
+    const quota = Math.max(0, RECENT + OLDEST - touchedOld);
+    const recent = older.slice().sort((a, b) => (b.fs || '').localeCompare(a.fs || '') || (a.lv || 0) - (b.lv || 0)).slice(0, Math.min(RECENT, quota));
+    const rid = new Set(recent.map((c) => c.id));
+    const oldest = older.filter((c) => !rid.has(c.id)).sort((a, b) => (a.ls || '').localeCompare(b.ls || '') || (a.fs || '').localeCompare(b.fs || '')).slice(0, Math.min(OLDEST, quota - recent.length));
+    const fresh = pickFresh(cards.filter((c) => !c.seen), newLeft, today);
     const mdue = cards.filter((c) => c.mastered && c.due && c.due <= today);
-    return { active: prog.concat(fresh).map((c) => c.id), mdue: mdue.map((c) => c.id), due: {}, last: null, counter: 0, doneM: {} };
+    const ids = []; touched.concat(recent, oldest, fresh).forEach((c) => { if (!ids.includes(c.id)) ids.push(c.id); });
+    return { active: ids, mdue: mdue.map((c) => c.id), due: {}, last: null, counter: 0, doneM: {} };
   }
   /** Следующая карточка сессии или null. Сначала повторение выученных, затем самая «ранняя» из заучиваемых. */
   function pickNext(cards, sess) {
@@ -456,6 +475,6 @@
     return 3.5;
   }
 
-  const api = { SK, PHASES, pd, fmt, addDays, daysBetween, weekNo, phaseFor, errorSeverity, weights, dayTasks, newCard, dueCards, review, overall, rawToBand, isWord, plain, lrMode, lrRate, master, unmaster, reviewMastered, buildSession, pickNext, mcq, checkSentence, GAPS, analyseText, checkAnswer, parseFeedback, errDrillable, normFix, errInit, errDue, errCheck, errRate, EI, CEF, cefOf, cefRank };
+  const api = { SK, PHASES, pd, fmt, addDays, daysBetween, weekNo, phaseFor, errorSeverity, weights, dayTasks, newCard, dueCards, review, overall, rawToBand, isWord, plain, lrMode, lrRate, master, unmaster, reviewMastered, buildSession, pickFresh, pickNext, mcq, checkSentence, GAPS, analyseText, checkAnswer, parseFeedback, errDrillable, normFix, errInit, errDue, errCheck, errRate, EI, CEF, cefOf, cefRank };
   if (typeof module !== 'undefined' && module.exports) module.exports = api; else root.Engine = api;
 })(typeof window !== 'undefined' ? window : globalThis);

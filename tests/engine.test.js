@@ -115,8 +115,9 @@ test('master/review: повторение и возврат в заучиван�
 });
 test('buildSession/pickNext: карточка не исчезает, пока не выучена', () => {
   const cards = [mk('a', 'plunge', 'v', 'gen'), mk('b', 'soar', 'v', 'env'), mk('c', 'peak', 'v', 'trans')];
-  const s = Eg.buildSession(cards, '2026-11-01', 2, 5);
-  assert.deepEqual(s.active, ['a', 'b']);
+  const s = Eg.buildSession(cards, '2026-11-01', 2, 2);
+  assert.equal(s.active.length, 2);
+  cards.forEach((c) => { c.seen = true; }); s.active = ['a', 'b'];
   const seen = new Set();
   for (let i = 0; i < 12; i++) { const id = Eg.pickNext(cards, s); assert.ok(id); seen.add(id); const c = cards.find((x) => x.id === id); s.counter++; s.due[id] = s.counter + Eg.lrRate(c, 3); s.last = id; }
   assert.ok(cards.find((x) => x.id === 'a').lv >= 4 && !cards[0].mastered); // всё ещё в работе
@@ -196,4 +197,19 @@ test('cefOf / cefRank: карточки на ступень выше', () => {
   assert.equal(E.cefOf({ L: 7.5, R: 7.5, W: 7, S: 7 }), 'C1');
   assert.equal(E.cefRank('B1', 'B2'), 0); assert.equal(E.cefRank('B1', 'B1'), 1);
   assert.equal(E.cefRank('B1', 'C1'), 2); assert.equal(E.cefRank('C1', 'B1'), 3); assert.equal(E.cefRank('B1', 'C2'), 4); assert.equal(E.cefRank('B1', 'A2'), 3); assert.equal(E.cefRank('B1', undefined), 1);
+});
+
+test('сессия: новые + 10 недавних + 5 самых давних, без застоя старых', () => {
+  const cards = []; for (let i = 0; i < 60; i++) cards.push(Object.assign(mk('c' + i, 'w' + i, 'v', 'gen'), i < 40 ? { seen: true, fs: '2026-10-' + String(1 + (i % 20)).padStart(2, '0'), ls: '2026-10-' + String(1 + (i % 20)).padStart(2, '0') } : {}));
+  const s = Eg.buildSession(cards, '2026-11-01', 12, 10);
+  const byId = (id) => cards.find((c) => c.id === id);
+  const fresh = s.active.filter((id) => !byId(id).seen), old = s.active.filter((id) => byId(id).seen);
+  assert.equal(fresh.length, 10); assert.equal(old.length, 15);
+  const s2 = Eg.buildSession(cards, '2026-11-02', 12, 10);
+  assert.notDeepEqual(s.active.filter((id) => !byId(id).seen).sort(), s2.active.filter((id) => !byId(id).seen).sort());
+});
+test('сессия после перезагрузки не добавляет лишних старых', () => {
+  const cards = []; for (let i = 0; i < 30; i++) cards.push(Object.assign(mk('c' + i, 'w' + i, 'v', 'gen'), { seen: true, fs: '2026-10-' + String(1 + i % 20).padStart(2, '0'), ls: '2026-10-20' }));
+  const a = Eg.buildSession(cards, '2026-11-01', 12, 0); a.active.slice(0, 15).forEach((id) => { cards.find((c) => c.id === id).ls = '2026-11-01'; });
+  const b = Eg.buildSession(cards, '2026-11-01', 12, 0); assert.equal(b.active.length, 15);
 });
