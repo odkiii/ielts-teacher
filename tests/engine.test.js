@@ -274,3 +274,10 @@ test('studyTick: считает только при активности и ви
   assert.equal(E.studyTick(5, 1000, 32000, true), 5);
   assert.equal(E.studyTick(5, 1000, 2000, false), 5);
 });
+
+test('sentenceTypes: находит шесть типов и связки', () => {
+  const r = E.sentenceTypes('Remote work is popular. Offices are costly, so firms save money. Although some people disagree, the shift is clear. Homes are being redesigned for work. But will cities cope? If firms adapt, staff will gain.');
+  assert.equal(r.n, 6);
+  ['simple', 'compound', 'complex', 'passive', 'question', 'conditional'].forEach((k) => assert.ok(r.types[k] >= 1, k));
+  assert.ok(r.markers.includes('although') && r.markers.includes('if'));
+});

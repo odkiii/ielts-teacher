@@ -4,7 +4,7 @@
   const E = window.Engine;
   const LEGACY = 'ielts_lab_v1';
   const TAGS = ['L-SPELL', 'L-PLURAL', 'L-NUM', 'L-DISTR', 'L-MAP', 'L-LIMIT', 'R-TFNG', 'R-MH', 'R-MI', 'R-COMP', 'R-MCQ', 'R-TIME', 'W-TR', 'W-CC', 'W-LR', 'W-GRA', 'W-ART', 'W-WF', 'W-SVA', 'W-PUNCT', 'W-COLL', 'W-REP', 'S-FC', 'S-LR', 'S-GRA', 'S-P'];
-  const SKN = { L: 'Listening', R: 'Reading', W: 'Writing', S: 'Speaking', V: 'Лексика', G: 'Грамматика', M: 'Мок', ALL: 'Разное' };
+  const SKN = { L: 'Listening (слух)', R: 'Reading (чтение)', W: 'Writing (письмо)', S: 'Speaking (речь)', V: 'Лексика', G: 'Грамматика', M: 'Мок', ALL: 'Разное' };
   let CONTENT, RES, DB = { profiles: {}, active: null }, user = null, session = null;
 
   const $ = (s) => document.querySelector(s);
@@ -121,7 +121,7 @@
     return '<form id="pf"><label>Имя</label><input id="f_name" value="' + esc(v.name) + '" autocomplete="off">' +
       '<label>Экзамен</label>' + seg('f_module', [['academic', 'Academic'], ['general', 'General']], v.module) +
       '<div class="grid2"><div><label>Цель overall</label>' + band('f_overall', v.target.overall) + '</div><div><label>Минимум по навыку</label>' + band('f_min', v.target.min) + '</div></div>' +
-      '<label>Текущий уровень</label><div class="grid4">' + ['L', 'R', 'W', 'S'].map((s) => '<div>' + band('f_' + s, v.skills[s]) + '<div class="mut" style="text-align:center;margin-top:4px">' + s + '</div></div>').join('') + '</div>' +
+      '<label>Твой текущий уровень по каждой части экзамена</label><p class="mut" style="margin:0 0 8px;font-size:14px">Оценка IELTS от 1 до 9. Не знаешь — оставь 4.5, уточнится после тестов и заданий.</p><div class="grid2">' + [['L', 'Listening · слух'], ['R', 'Reading · чтение'], ['W', 'Writing · письмо'], ['S', 'Speaking · речь']].map((x) => '<div><div class="mut" style="margin-bottom:4px">' + x[1] + '</div>' + band('f_' + x[0], v.skills[x[0]]) + '</div>').join('') + '</div>' +
       '<div class="grid2"><div><label>Часов в неделю</label><input id="f_hours" type="number" inputmode="numeric" min="3" max="40" value="' + v.hours + '"></div>' +
       '<div><label>Новых карточек/день</label><input id="f_new" type="number" inputmode="numeric" min="0" max="40" value="' + v.newPerDay + '"></div></div>' +
       '<div class="grid2"><div><label>Старт плана</label><input id="f_start" type="date" value="' + v.start + '"></div>' +
@@ -198,6 +198,49 @@
     intro();
   }
 
+  function glossarySheet() {
+    const G = [
+      ['Listening, Reading, Writing, Speaking', 'Четыре части экзамена: понимание речи на слух, чтение, письмо и говорение. За каждую дают оценку от 1 до 9.'],
+      ['Band (бэнд)', 'Оценка IELTS по шкале 1–9 с шагом 0.5. Общий балл — среднее четырёх частей. Цель в приложении — твой целевой балл, например 7.5.'],
+      ['Task 1 и Task 2', 'Два задания Writing. Task 1: описать график, таблицу (или написать письмо в General), 150+ слов, 20 минут. Task 2: эссе-рассуждение, 250+ слов, 40 минут. Task 2 весит больше.'],
+      ['Мок (пробный экзамен)', 'Тренировочный тест целиком в условиях экзамена, чтобы честно увидеть свой уровень.'],
+      ['Карточки', 'Слова и фразы, которые приложение показывает тебе по расписанию: как раз перед тем, как ты их забудешь. Так они запоминаются надолго.'],
+      ['Коллокация', 'Слова, которые носители ставят рядом: make a decision (а не do a decision). Правильные сочетания сильно поднимают оценку за лексику.'],
+      ['Перефраз', 'Та же мысль другими словами. Нужен в Writing (пересказать тему) и Reading (в тексте всё перефразировано).'],
+      ['Overview', 'Общий вывод в Task 1: главные тренды или различия без мелких цифр.'],
+      ['Уровень A1–C2', 'Шкала знания языка (CEFR). Для IELTS 6.5–7.5 нужен примерно B2–C1.'],
+      ['Журнал ошибок', 'Вкладка «Ошибки»: твои собственные ошибки, которые приложение заставит исправить несколько раз, пока ты не перестанешь их делать.'],
+    ];
+    openSheet('<h2>Что значат слова</h2><div class="stack">' + G.map((g) => '<div><b>' + esc(g[0]) + '</b><div class="mut" style="margin-top:2px">' + esc(g[1]) + '</div></div>').join('') + '</div>');
+  }
+  document.addEventListener('click', (e) => { if (e.target.closest && e.target.closest('[data-gl]')) glossarySheet(); });
+
+  // ---------- Task 2 на 8+ ----------
+  const T2TYPES = [
+    ['simple', 'Простое', 'Подлежащее + сказуемое + дополнение.', 'Remote work saves time.', 'Короткий «удар»: итог мысли или конец абзаца.'],
+    ['compound', 'Сложносочинённое', 'Мысль А, + and / but / so / yet / or + мысль Б.', 'Commutes are long, so many employees arrive exhausted.', 'Связать две равноценные мысли.'],
+    ['complex', 'Сложноподчинённое', 'Although / While / Whereas / Because / Since / Unless + часть 1, часть 2.', 'Although offices build teamwork, many tasks are done better alone.', 'Главный «поднимающий» тип: уступка, причина, контраст.'],
+    ['passive', 'Пассив', 'Предмет + to be + третья форма глагола.', 'Remote teams are often judged by results rather than by hours.', 'Академичный тон, когда важен предмет, а не кто действует.'],
+    ['question', 'Вопрос', 'Один риторический вопрос на эссе.', 'Yet can a company keep its culture when everyone works online?', 'Оживить абзац, подвести к аргументу. Не злоупотребляй: одного достаточно.'],
+    ['conditional', 'Условное', 'If + условие, + результат.', 'If firms offer flexible hours, they will keep talented staff.', 'Логика «если… то…»: последствия и прогнозы.'],
+  ];
+  function typesHtml(text) {
+    const r = E.sentenceTypes(text); if (r.n < 3) return '';
+    const row = (ok, t) => '<div class="rowi" style="padding:10px 0"><span style="color:var(--' + (ok ? 'ok' : 'warn') + ')">' + (ok ? '✓' : '!') + '</span><span class="grow">' + t + '</span></div>';
+    return '<h3>Разнообразие предложений</h3><div class="list" style="padding:0 16px">' + T2TYPES.map((t) => row(r.types[t[0]] > 0, esc(t[1]) + ' — ' + r.types[t[0]])).join('') +
+      row(r.markers.length >= 5, 'Разных связок и союзов: ' + r.markers.length + ' (нужно 5+)' + (r.markers.length ? ': ' + esc(r.markers.slice(0, 8).join(', ')) : '')) + '</div><p class="mut">Подсчёт приблизительный: программа ищет типичные признаки. Качество и естественность оценит ИИ.</p>';
+  }
+  function viewT2() {
+    let h = head('Task 2 на 8+', 'Как писать эссе с разнообразной грамматикой', back('#writing'));
+    h += '<div class="card stack"><p style="margin:0"><b>Главная идея.</b> За грамматику (четверть оценки Task 2) проверяют две вещи сразу: насколько разные конструкции ты используешь и насколько часто предложения без ошибок. Если писать только короткими простыми предложениями, потолок около 6–6.5. Для 7 и выше нужны сложные конструкции, а для 8 — чтобы большинство предложений были безошибочными.</p><p class="mut" style="margin:0">Поэтому тренируем и то и другое: смелые, но контролируемые предложения. Идея шести типов предложений взята из гайда E2 Test Prep (E2Language.com); примеры и объяснения здесь написаны заново.</p></div>';
+    h += '<h3>Шесть типов предложений</h3><div class="list">' + T2TYPES.map((t, i) => '<div class="rowi" style="align-items:flex-start"><div class="grow"><b>' + (i + 1) + '. ' + esc(t[1]) + '</b><div class="mut" style="margin-top:2px">' + esc(t[2]) + '</div><div style="margin-top:6px"><i>' + esc(t[3]) + '</i></div><div class="mut" style="margin-top:4px">' + esc(t[4]) + '</div></div></div>').join('') + '</div>';
+    h += '<h3>План за 5 минут</h3><div class="card"><ol style="margin:0;padding-left:20px;display:grid;gap:8px"><li><b>Введение.</b> 1-е предложение — перефраз темы своими словами. 2-е — твоя позиция в сложноподчинённом (Although… / While…).</li><li><b>Абзац 1 (довод А).</b> Тема абзаца → пример или факт в пассиве → контраст с «Although».</li><li><b>Абзац 2 (довод Б).</b> Тема абзаца → один риторический вопрос → условное «If… then…» с последствием.</li><li><b>Вывод.</b> Повтори позицию другими словами → заверши коротким простым предложением.</li></ol></div>';
+    h += '<h3>Проверка перед сдачей</h3><div class="card"><ul style="margin:0;padding-left:20px;display:grid;gap:6px"><li>Использовал минимум 5 разных связок (although, while, whereas, because, since, unless…)?</li><li>Есть все шесть типов предложений?</li><li>Четыре абзаца: введение, два основных, вывод?</li><li>Проверил окончание -s у множественного числа (governments, а не government)?</li><li>Проверил артикли a / an / the?</li><li>Ответил на каждую часть вопроса?</li></ul></div>';
+    h += '<p class="mut" style="margin-top:12px">Если сомневаешься в сложной конструкции — лучше упрости одну фразу, чем делать ошибки в каждом предложении. Но совсем без сложных не пиши.</p>';
+    h += '<div style="margin-top:12px"><a class="btn p" href="#writing" style="display:block;text-align:center;text-decoration:none">Выбрать задание Task 2</a></div><div style="margin-top:8px"><a class="btn" href="#vw" style="display:block;text-align:center;text-decoration:none">Задание со своими словами</a></div>';
+    paint(h);
+  }
+
   // ---------- Сегодня ----------
   let viewDate = null;
   function dayFor(date) { const p = P(); if (!p.days[date]) p.days[date] = E.dayTasks(p, date, CONTENT, RES, p.errors); return p.days[date]; }
@@ -234,7 +277,7 @@
       return '<div class="task' + (done[t.id] ? ' done' : '') + '" data-id="' + esc(t.id) + '"><button class="cb" aria-label="Готово" aria-pressed="' + !!done[t.id] + '"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></button>' +
         '<div><button class="tbody"><div class="ttl">' + esc(t.title) + '</div><div class="tmeta">' + t.minutes + ' мин · ' + esc(SKN[t.skill] || t.skill) + '</div></button>' + (more ? '<div class="more"><div>' + more + '</div></div>' : '') + '</div></div>';
     }).join('') + '</div>';
-    h += '<div class="list" style="margin-top:14px"><button class="rowi" id="tm"><span class="grow">Таймер фокуса</span><b id="tmt" data-owner="today">' + (timer.end && timer.owner === 'today' ? '…' : '25 мин') + '</b></button></div>';
+    h += '<div style="text-align:center;margin-top:8px"><button class="link" data-gl="1">Что значат слова и буквы?</button></div>';
     paint(h); if (isToday) initStudy();
     $('#dprev').onclick = () => { viewDate = E.addDays(date, -1); route(); };
     $('#dnext').onclick = () => { const n = E.addDays(date, 1); viewDate = n === today() ? null : n; route(); };
@@ -249,7 +292,6 @@
       };
       row.querySelector('.tbody').onclick = () => { if (row.querySelector('.more')) row.classList.toggle('open'); };
     });
-    $('#tm').onclick = () => { if (timer.end && timer.owner === 'today') { timer.end = 0; $('#tmt').textContent = '25 мин'; } else { timer.end = Date.now() + 25 * 60000; timer.owner = 'today'; timer.idle = '25 мин'; $('#tmt').textContent = '25:00'; } };
   }
 
   // ---------- План ----------
@@ -560,7 +602,7 @@
     h += '<div class="card" style="margin-top:12px"><div class="mut">' + (kind === 't2' ? 'Task 2 · ' + esc(task.topic) : kind === 't1' ? 'Task 1' : 'Letter · ' + esc(task.tone)) + ' · минимум ' + (kind === 't2' ? 250 : 150) + ' слов</div><p style="margin:6px 0 0">' + esc(task.q || task.title) + '</p>' + (kind === 't1' ? '<div style="margin-top:12px">' + chartHtml(task) + '</div>' : '') + '</div>';
     h += '<h3>Вплети минимум ' + need + ' из 6 слов</h3><div class="list">' + cs.map((c, i) => '<div class="rowi"><div class="grow"><b>' + esc(c.t) + '</b> <span class="mut">— ' + esc(c.ru) + '</span><div class="mut" style="margin-top:2px">' + (vw.res ? (vw.res.used[i] ? '✓ использовано' : '✗ не найдено') + ' · ' : '') + hl(E.exOf(c)) + '</div></div></div>').join('') + '</div>';
     h += '<textarea id="vt" style="min-height:240px;margin-top:12px" spellcheck="false" placeholder="Пиши ответ на задание. Слова должны звучать естественно, а не вставляться в каждое предложение. Черновик сохраняется сам.">' + esc(draft) + '</textarea><div class="mut" id="vwc" style="margin:4px 2px 0"></div>';
-    if (vw.res) h += '<div class="card" style="margin-top:12px"><b>' + vw.res.n + ' из ' + cs.length + '</b> слов использовано' + (vw.res.n >= need ? ' — зачтено.' : ' — нужно минимум ' + need + '.') + (vw.res.short ? '<div class="mut" style="margin-top:6px">Текст короче нормы IELTS (' + vw.res.wc + ' слов).</div>' : '') + '<div class="mut" style="margin-top:6px">Оценку и проверку естественности слов даст ИИ: «Промпт для ИИ», затем «Загрузить отчёт ИИ».</div>' + ltHtml(vw.text || '', vw.lt) + '</div>';
+    if (vw.res) h += '<div class="card" style="margin-top:12px"><b>' + vw.res.n + ' из ' + cs.length + '</b> слов использовано' + (vw.res.n >= need ? ' — зачтено.' : ' — нужно минимум ' + need + '.') + (vw.res.short ? '<div class="mut" style="margin-top:6px">Текст короче нормы IELTS (' + vw.res.wc + ' слов).</div>' : '') + '<div class="mut" style="margin-top:6px">Оценку и проверку естественности слов даст ИИ: «Промпт для ИИ», затем «Загрузить отчёт ИИ».</div>' + (kind === 't2' ? typesHtml(vw.text || '') : '') + ltHtml(vw.text || '', vw.lt) + '</div>';
     h += '<div style="margin-top:12px"><button class="btn p" id="vchk">Проверить слова</button></div><div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px"><button class="btn" id="vcopy">Промпт для ИИ</button><button class="btn" id="vimp">Загрузить отчёт ИИ</button></div><div style="text-align:center"><button class="link" id="vnew">Другое задание и слова</button></div>';
     paint(h);
     bindSeg('vk', (v) => { vw.kind = v; vw.res = null; vw.n = 0; viewVw(); });
@@ -650,7 +692,7 @@
   function buildPrompt(kind, q, text) {
     return 'You are a strict, experienced IELTS examiner. Use the public IELTS band descriptors for this task type. Be conservative: if unsure, choose the LOWER band. Do not inflate scores.\n\n' + RUBRIC[kind] +
       '\n\nQUESTION:\n' + q + '\n\nCANDIDATE ' + (kind === 'sp' ? 'TRANSCRIPT' : 'RESPONSE') + ' (' + text.trim().split(/\s+/).filter(Boolean).length + ' words):\n' + text +
-      '\n\nReturn:\n1) A band RANGE for each of the 4 criteria (e.g. 6.0–6.5), each with 1–2 short quotes from the text as evidence.\n2) An overall range.\n3) The 3 highest-impact fixes.\n4) One rewritten paragraph one band higher.\n5) 3 collocations to learn.\n6) A list of errors, ONE per line, in EXACTLY this format: CODE: <the complete original sentence containing the error, copied verbatim> || <wrong fragment, copied verbatim from that sentence> → <corrected fragment>. Codes: W-ART, W-WF, W-SVA, W-PUNCT, W-COLL, W-REP, W-TR, W-CC; for speaking S-FC, S-LR, S-GRA. Example: W-TR: Did you ever needed a break? || Did you ever needed → Have you ever needed.\n\nACCURACY RULES for every correction: (a) put the corrected fragment back into the full sentence and re-read it: the sentence must be fully correct, natural English with the SAME meaning; (b) check tense and aspect carefully: present perfect with ever/never/already/yet/just/since/for/so far, past simple only with finished-time markers, no future will after if/when/as soon as in time or conditional clauses, correct sequence of tenses; (c) check subject-verb agreement, articles, countable/uncountable nouns, prepositions, word forms and collocations; (d) include enough words in the fragment (e.g. the auxiliary verb) so the whole fix is visible; (e) if you are not 100% sure, SEARCH THE WEB (Cambridge Dictionary and Cambridge Grammar, Oxford Collocations Dictionary, British Council LearnEnglish) and follow them; never invent a rule; (f) if a sentence is acceptable, do not list it as an error.\nFinish with one JSON line: {"c1":x,"c2":x,"c3":x,"c4":x} using the LOWER end of each range.';
+      (kind === 't2' ? '\n\nFor Grammatical Range and Accuracy, also state which sentence types the candidate used (simple, compound, complex, passive, question, conditional), how many are error-free, and which structure to attempt next.' : '') + '\n\nReturn:\n1) A band RANGE for each of the 4 criteria (e.g. 6.0–6.5), each with 1–2 short quotes from the text as evidence.\n2) An overall range.\n3) The 3 highest-impact fixes.\n4) One rewritten paragraph one band higher.\n5) 3 collocations to learn.\n6) A list of errors, ONE per line, in EXACTLY this format: CODE: <the complete original sentence containing the error, copied verbatim> || <wrong fragment, copied verbatim from that sentence> → <corrected fragment>. Codes: W-ART, W-WF, W-SVA, W-PUNCT, W-COLL, W-REP, W-TR, W-CC; for speaking S-FC, S-LR, S-GRA. Example: W-TR: Did you ever needed a break? || Did you ever needed → Have you ever needed.\n\nACCURACY RULES for every correction: (a) put the corrected fragment back into the full sentence and re-read it: the sentence must be fully correct, natural English with the SAME meaning; (b) check tense and aspect carefully: present perfect with ever/never/already/yet/just/since/for/so far, past simple only with finished-time markers, no future will after if/when/as soon as in time or conditional clauses, correct sequence of tenses; (c) check subject-verb agreement, articles, countable/uncountable nouns, prepositions, word forms and collocations; (d) include enough words in the fragment (e.g. the auxiliary verb) so the whole fix is visible; (e) if you are not 100% sure, SEARCH THE WEB (Cambridge Dictionary and Cambridge Grammar, Oxford Collocations Dictionary, British Council LearnEnglish) and follow them; never invent a rule; (f) if a sentence is acceptable, do not list it as an error.\nFinish with one JSON line: {"c1":x,"c2":x,"c3":x,"c4":x} using the LOWER end of each range.';
   }
   const KINDS = [['t2', 'Task 2'], ['t1', 'Task 1'], ['gt', 'Письмо'], ['sp', 'Speaking']];
   const back = (href) => '<a class="ib" href="' + href + '" aria-label="Назад">' + ico('left') + '</a>';
@@ -711,7 +753,7 @@
   function viewWriting() {
     const p = P(); const W = WRITING;
     const doneIds = new Set(p.writes.map((w) => w.id));
-    let h = head('Writing', 'Задания в формате IELTS', '<button class="btn sm" id="wimp">Оценка ИИ</button>') + seg('wg', [['t2', 'Task 2'], ['t1', 'Task 1'], ['gt', 'Письма'], ['free', 'Своё']], wGroup) + '<div id="wl" style="margin-top:16px"></div>';
+    let h = head('Writing', 'Задания в формате IELTS', '<button class="btn sm" id="wimp">Оценка ИИ</button>') + '<div class="list cta" style="margin-bottom:14px"><a class="rowi" href="#t2"><div class="grow"><b>Как писать Task 2 на 8+</b><div class="mut" style="margin-top:2px">Шесть типов предложений, план за 5 минут, чек-лист</div></div>' + ico('chev', 'chev') + '</a></div>' + seg('wg', [['t2', 'Task 2'], ['t1', 'Task 1'], ['gt', 'Письма'], ['free', 'Своё']], wGroup) + '<div id="wl" style="margin-top:16px"></div>';
     if (p.subs.length) h += '<h3>Оценки</h3><div class="list">' + p.subs.slice().reverse().slice(0, 15).map((s) => '<div class="rowi"><div class="grow"><b>' + esc((KINDS.find((k) => k[0] === s.kind) || [0, s.kind])[1]) + '</b> <span class="mut">· ' + esc(fmtD(s.date)) + (s.note ? ' · ' + esc(s.note) : '') + '</span></div><b>' + esc(s.avg) + '</b></div>').join('') + '</div>';
     paint(h);
     $('#wimp').onclick = () => importSheet(p, wGroup === 't1' ? 't1' : wGroup === 'gt' ? 'gt' : 't2', '');
@@ -806,7 +848,7 @@
         row(!a.short, a.words + ' слов (минимум ' + a.minWords + ')') + row(a.paras >= (k === 't2' ? 4 : 3), a.paras + ' абзац(а)' + (k === 't2' ? ' — нужно 4–5' : '')) +
         row(a.avgLen >= 14 && a.avgLen <= 28, 'Средняя длина предложения: ' + a.avgLen + ' слов') + row(a.linkers.length >= 4, 'Связки: ' + (a.linkers.length ? a.linkers.slice(0, 8).join(', ') : 'нет') + ' (' + a.linkers.length + ')') +
         row(!a.repeats.length, a.repeats.length ? 'Повторы: ' + a.repeats.map((r) => r[0] + ' ×' + r[1]).join(', ') : 'Сильных повторов нет') +
-        (k === 't2' ? row(a.hasConclusion, a.hasConclusion ? 'Есть вывод' : 'Нет явного вывода (in conclusion…)') : k === 't1' ? row(a.hasOverview, a.hasOverview ? 'Есть overview' : 'Нет overview (Overall, …)') : '') + '</div>' +
+        (k === 't2' ? row(a.hasConclusion, a.hasConclusion ? 'Есть вывод' : 'Нет явного вывода (in conclusion…)') : k === 't1' ? row(a.hasOverview, a.hasOverview ? 'Есть overview' : 'Нет overview (Overall, …)') : '') + '</div>' + (k === 't2' ? typesHtml(text) : '') +
         '<h3>Ошибки и сочетания слов</h3><div id="ltb">' + ltHtml(text, undefined) + '</div><p class="mut">Это проверка формы, не оценка. Содержание и смысл оценит ИИ — скопируй промпт.</p><div class="stack"><button class="btn p" id="wcp">Скопировать промпт для ИИ</button><button class="btn" id="wsv">Сохранить попытку</button><button class="btn" id="wsc">Вставить ответ ИИ</button></div>', () => {
         ltCheck(text).then((ms) => { const b = $('#ltb'); if (b) b.innerHTML = ltHtml(text, ms); });
         $('#wcp').onclick = () => copyText(buildPrompt(k, q, text));
@@ -874,14 +916,14 @@
   function viewProgress() {
     const p = P(); const t0 = today();
     let h = head('Прогресс', p.mocks.length ? 'Последний мок: ' + p.mocks[p.mocks.length - 1].overall : 'Моков пока нет', plusBtn('mplus', 'Новый мок'));
-    h += aiRow() + '<div class="grid4">' + E.SK.map((s) => '<div class="card tile"><div class="mut">' + s + '</div><b>' + p.skills[s] + '</b><div class="mut">→ ' + p.target.overall + '</div></div>').join('') + '</div>';
+    h += aiRow() + '<div class="grid4">' + E.SK.map((s) => '<div class="card tile"><div class="mut">' + esc(SKN[s]) + '</div><b>' + p.skills[s] + '</b><div class="mut">→ ' + p.target.overall + '</div></div>').join('') + '</div>';
     if (p.mocks.length) h += '<h3>Моки</h3><div class="list">' + p.mocks.slice().reverse().map((m) => '<div class="rowi"><div class="grow"><b>' + esc(fmtD(m.date, { day: 'numeric', month: 'long' })) + '</b><div class="mut" style="margin-top:2px">L ' + m.L + ' · R ' + m.R + ' · W ' + m.W + ' · S ' + m.S + '</div></div><span class="big" style="font-size:22px">' + m.overall + '</span></div>').join('') + '</div>';
     const wk = {}; Object.keys(p.days).forEach((d) => { const dd = p.days[d]; const dn = p.done[d] || {}; const k = dd.week; wk[k] = wk[k] || { plan: 0, done: 0 }; dd.tasks.forEach((t) => { wk[k].plan += t.minutes; if (dn[t.id]) wk[k].done += t.minutes; }); });
     const ks = Object.keys(wk).map(Number).sort((a, b) => b - a).slice(0, 8);
     if (ks.length) h += '<h3>Выполнение по неделям</h3><div class="card stack">' + ks.map((k) => { const pc = Math.round(100 * wk[k].done / Math.max(1, wk[k].plan)); return '<div><div class="sum" style="margin-bottom:6px"><span>Неделя ' + k + '</span><span>' + wk[k].done + ' / ' + wk[k].plan + ' мин</span></div><div class="bar"><i style="width:' + pc + '%"></i></div></div>'; }).join('') + '</div>';
     if (p.reads.length) h += '<h3>Reading</h3><div class="list">' + p.reads.slice().reverse().slice(0, 6).map((r) => { const t = READ.tests.find((x) => x.id === r.id); return '<div class="rowi"><div class="grow"><b>' + esc(t ? t.title : r.id) + '</b><div class="mut" style="margin-top:2px">' + esc(fmtD(r.date)) + '</div></div><span>' + r.raw + '/' + r.total + ' · ≈' + r.band + '</span></div>'; }).join('') + '</div>';
     paint(h);
-    $('#mplus').onclick = () => openSheet('<h2>Новый мок</h2><div class="grid4">' + E.SK.map((s) => '<div><input id="m_' + s + '" type="number" inputmode="decimal" step="0.5" min="1" max="9"><div class="mut" style="text-align:center;margin-top:4px">' + s + '</div></div>').join('') + '</div>' +
+    $('#mplus').onclick = () => openSheet('<h2>Новый мок</h2><div class="grid4">' + E.SK.map((s) => '<div><input id="m_' + s + '" type="number" inputmode="decimal" step="0.5" min="1" max="9"><div class="mut" style="text-align:center;margin-top:4px">' + esc(SKN[s]) + '</div></div>').join('') + '</div>' +
       '<label style="display:flex;gap:10px;align-items:center;margin:16px 0"><input type="checkbox" id="m_up" checked style="width:20px;height:20px"> Обновить уровни в профиле</label><button class="btn p" id="msave">Сохранить</button>' +
       '<h3>Raw → band</h3><div class="grid2"><select id="rk"><option value="listening">Listening</option><option value="reading_' + p.module + '">Reading</option></select><input id="rr" type="number" inputmode="numeric" min="0" max="40" placeholder="Верных /40"></div><p class="mut" id="rout"></p>', () => {
       const calc = () => { const v = num($('#rr').value, NaN); $('#rout').textContent = isNaN(v) ? '' : '≈ band ' + E.rawToBand($('#rk').value, v) + ' (по таблице конкретного теста может отличаться)'; };
@@ -925,6 +967,7 @@
     if (!standalone) h += '<div class="list" style="margin-top:12px"><button class="rowi" id="inst"><span class="grow">Установить как приложение<div class="mut" style="margin-top:2px">' + (ios ? 'Safari → Поделиться → На экран «Домой»' : 'Иконка на главном экране, работает офлайн') + '</div></span></button></div>';
     h += '<div class="list" style="margin-top:12px"><div class="rowi"><span class="grow">Уровень карточек<div class="mut" style="margin-top:2px">Сейчас: ' + userCef(p) + ' — слова на ступень выше</div></span><select id="cefm">' + ['auto', 'B1', 'B2', 'C1', 'C2'].map((v) => '<option value="' + v + '"' + ((p.cefMode || 'auto') === v ? ' selected' : '') + '>' + (v === 'auto' ? 'Авто' : v) + '</option>').join('') + '</select></div></div>';
     h += '<div class="list" style="margin-top:12px"><button class="rowi" id="retest"><span class="grow">Пройти входной тест заново<div class="mut" style="margin-top:2px">' + (p.placement ? 'Сейчас: ' + esc(p.placement.cefr) + ' · ' + esc(p.placement.date) : 'Определит уровень и подберёт задания') + '</div></span>' + ico('chev', 'chev') + '</button></div>';
+    h += '<div class="list" style="margin-top:12px"><button class="rowi" data-gl="1"><span class="grow">Что значат слова и буквы<div class="mut" style="margin-top:2px">Band, Task 1/2, мок, коллокация…</div></span>' + ico('chev', 'chev') + '</button></div>';
     h += '<h3>Профиль</h3>' + profileForm(p, 'Сохранить');
     paint(h);
     $('#retest').onclick = () => viewPlacement((r) => { p.placement = r; p.skills = E.placementSkills(r.band); p.days = {}; syncDeck(p); sess = null; save(); toast('Уровень: ' + r.cefr); location.hash = '#set'; route(); });
@@ -979,7 +1022,7 @@
   function renderTabs(tab0) {
     let tab = tab0;
     const t = $('#tabs'); t.hidden = false;
-    tab = MORE_ALIAS[tab] || (tab === 'fix' ? 'errors' : tab === 'vw' ? 'cards' : tab); const inMore = MORE.some((m) => m[0] === tab);
+    tab = MORE_ALIAS[tab] || (tab === 'fix' ? 'errors' : tab === 'vw' ? 'cards' : tab === 't2' ? 'writing' : tab); const inMore = MORE.some((m) => m[0] === tab);
     t.innerHTML = TABS.map(([k, n]) => '<a href="#' + k + '" class="' + (k === tab ? 'on' : '') + '">' + ico(k) + n + '</a>').join('') + '<button id="tmore" class="' + (inMore ? 'on' : '') + '">' + ico('more') + (inMore ? MORE.find((m) => m[0] === tab)[1] : 'Ещё') + '</button>';
     $('#tmore').onclick = () => openSheet('<div class="list">' + MORE.map(([k, n]) => '<a class="rowi" href="#' + k + '"><span class="grow">' + n + '</span>' + ico('chev', 'chev') + '</a>').join('') + '</div>', (el) => { el.querySelectorAll('a').forEach((a) => { a.onclick = () => closeSheet(); }); });
   }
@@ -989,7 +1032,7 @@
     const parts = (location.hash || '#today').slice(1).split('/'); const tab = parts[0];
     if (!DB.active || !P()) { $('#tabs').hidden = true; return viewOnboarding(); }
     renderTabs(tab);
-    ({ today: viewToday, plan: viewPlan, cards: viewCards, errors: viewErrors, fix: viewFix, vw: viewVw, writing: viewWriting, write: viewWrite, reading: viewReading, read: viewRead, progress: viewProgress, res: viewRes, set: viewSet }[tab] || viewToday)(parts[1]);
+    ({ today: viewToday, plan: viewPlan, cards: viewCards, errors: viewErrors, fix: viewFix, vw: viewVw, t2: viewT2, writing: viewWriting, write: viewWrite, reading: viewReading, read: viewRead, progress: viewProgress, res: viewRes, set: viewSet }[tab] || viewToday)(parts[1]);
     if (animate === false) $('#view').classList.remove('enter');
     window.scrollTo(0, 0);
   }

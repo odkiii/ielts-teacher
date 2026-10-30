@@ -95,7 +95,7 @@
         t.resource = resFor('L:basic', content, resources, idx);
       } else if (early) {
         t.title = 'Listening: диктант 5 предложений + слушание со скриптом';
-        t.desc = 'Послушай отрывок 2–3 раза без текста, запиши, сверь со скриптом, выпиши 5 непонятных chunks в карточки.';
+        t.desc = 'Послушай отрывок 2–3 раза без текста, запиши, сверь со скриптом, выпиши 5 непонятных слов или словосочетаний в карточки.';
         t.resource = resFor('L:basic', content, resources, idx);
       } else if (mid) {
         t.title = 'Listening: лекция/монолог + конспект';
@@ -103,7 +103,7 @@
         t.resource = resFor(idx % 3 === 0 ? 'L:test' : 'L:academic', content, resources, idx);
       } else {
         t.title = 'Listening: секция по таймеру (Section ' + (3 + (idx % 2)) + ') + разбор ошибок';
-        t.desc = 'Один проход, как на экзамене. Каждая ошибка → журнал с тегом.';
+        t.desc = 'Один проход, как на экзамене. Каждую ошибку запиши на вкладке «Ошибки».';
         t.resource = resFor('L:test', content, resources, idx);
       }
     } else if (skill === 'R') {
@@ -112,7 +112,7 @@
         t.resource = resFor('R:test', content, resources, idx);
       } else if (early) {
         t.title = 'Reading: статья B1–B2, поиск перефразов';
-        t.desc = 'Читай 15–20 минут. Подчеркни 8 перефразов и 8 новых chunks; перескажи абзац своими словами.';
+        t.desc = 'Читай 15–20 минут. Подчеркни 8 перефразов (то же самое другими словами) и 8 новых словосочетаний; перескажи абзац своими словами.';
         t.resource = resFor('R:basic', content, resources, idx);
       } else if (mid) {
         const qt = pick(content.questionTypes, idx);
@@ -136,7 +136,7 @@
           t.desc = l.text + ' 20 минут, 150+ слов.';
         } else {
           t.title = 'Writing Task 1 (Academic): ' + pick(content.task1Types, idx);
-          t.desc = 'Возьми задание Task 1 нужного типа из официальных/открытых тестов. Сначала Overview, затем 2 абзаца деталей. 20 минут, 150+ слов.';
+          t.desc = 'Возьми задание Task 1 нужного типа из официальных/открытых тестов. Сначала Overview (общий вывод: главные тренды без цифр), затем 2 абзаца с деталями. 20 минут, 150+ слов.';
         }
       } else {
         const q = pick(content.writingPrompts, idx);
@@ -180,22 +180,22 @@
     const lighten = week % 4 === 0 ? 0.7 : 1;
     const ctx = { phase, idx, profile, content, resources, sev, content_: content };
     const tasks = [];
-    const srs = () => ({ skill: 'V', title: 'Карточки (SRS): повторения + новые chunks', minutes: 15, desc: 'Вкладка «Карточки». Новое слово — только с примером и коллокацией.', resource: null, id: '' });
+    const srs = () => ({ skill: 'V', title: 'Карточки: повтори старые слова и выучи новые', minutes: 15, desc: 'Вкладка «Карточки». Приложение само покажет, что пора повторить, и добавит новые слова. Учи слово вместе с примером, а не отдельно.', resource: null, id: '' });
     const recap = () => ({ skill: 'ALL', title: 'Недельный обзор: прогресс, топ-3 ошибки, план на неделю', minutes: 20, desc: 'Вкладка «Прогресс». Один вывод и одно изменение на следующую неделю.', resource: null, id: '' });
 
     if (phase.id === 'P0') {
       const round = week;
-      const m = { 1: ['L', 'Диагностика Listening: полный официальный тест нужного модуля, без пауз', 'L:test'], 2: ['R', 'Диагностика Reading: полный официальный тест (60 мин)', 'R:test'], 3: ['W', 'Диагностика Writing: Task 1 (20 мин) + Task 2 (40 мин), набор на клавиатуре', 'W'], 4: ['S', 'Диагностика Speaking: запись Part 1–3 по открытым вопросам', 'S'] };
+      const m = { 1: ['L', 'Стартовая проверка Listening: полный официальный тест, без пауз', 'L:test'], 2: ['R', 'Стартовая проверка Reading: полный официальный тест (60 мин)', 'R:test'], 3: ['W', 'Стартовая проверка Writing: Task 1 (20 мин) + Task 2 (40 мин)', 'W'], 4: ['S', 'Стартовая проверка Speaking: запись ответов на Part 1–3', 'S'] };
       if (m[dow]) {
         const [s, title, key] = m[dow];
-        tasks.push(fixedTask(s, title + ' (раунд ' + round + '/2)', 70, 'Результат внеси на вкладке «Прогресс → Новый мок»; ошибки — в журнал.', key, ctx));
+        tasks.push(fixedTask(s, title + ' (раунд ' + round + '/2)', 70, 'Результат внеси: «Ещё» → «Прогресс» → «Новый мок» (мок — пробный экзамен); ошибки добавь на вкладке «Ошибки».', key, ctx));
         tasks.push(srs());
       } else if (dow === 5) {
         tasks.push(srs());
-        tasks.push(fixedTask('ALL', 'Разбор диагностики: журнал ошибок и обновление профиля', 45, 'Для L/R пересчитай raw → band (вкладка «Прогресс»). Writing/Speaking — оценка по протоколу двух ИИ (вкладка «Проверка»).', null, ctx));
+        tasks.push(fixedTask('ALL', 'Разбор стартовой проверки: ошибки и обновление уровня', 45, 'Для Listening и Reading переведи число верных ответов в оценку IELTS (band) — вкладка «Прогресс». Для Writing и Speaking нажми «Загрузить отчёт ИИ»: вставь ответ проверяющего, и оценки с ошибками сохранятся.', null, ctx));
       } else if (dow === 6) {
-        tasks.push(fixedTask('L', 'Экстенсивное слушание (подкаст/6 Minute English)', 45, 'Без напряжения: понимать общий смысл.', 'L:basic', ctx));
-        tasks.push(fixedTask('R', 'Экстенсивное чтение: статья по интересной теме', 45, '', 'R:basic', ctx));
+        tasks.push(fixedTask('L', 'Лёгкое слушание для удовольствия (подкаст или 6 Minute English)', 45, 'Без напряжения: понимать общий смысл.', 'L:basic', ctx));
+        tasks.push(fixedTask('R', 'Лёгкое чтение для удовольствия: статья по интересной теме', 45, '', 'R:basic', ctx));
       } else {
         tasks.push(fixedTask('L', 'Лёгкий день: слушание на интересную тему', 30, '', 'L:basic', ctx));
         tasks.push(recap());
@@ -212,28 +212,28 @@
         const pt = skillTask(primary, Object.assign({}, ctx, { minutes: pm, idx: dow === 5 ? idx + 1 : idx }));
         tasks.push(pt);
         if (dow === 1) tasks.push(fixedTask('G', 'Грамматика: одна тема из журнала ошибок + 10 упражнений', sm, 'Справочник/учебник: Cambridge Dictionary Grammar или Murphy / Grammar for IELTS. Затем 3 своих предложения.', 'G', ctx));
-        else if (dow === 2) tasks.push(fixedTask('V', 'Активация лексики: 8 новых chunks → 8 своих предложений', sm, 'Сегодняшние chunks используй в Writing/Speaking в течение 3 дней.', 'V', ctx));
+        else if (dow === 2) tasks.push(fixedTask('V', 'Закрепление слов: 8 новых словосочетаний → 8 своих предложений', sm, 'Сегодняшние словосочетания используй в Writing/Speaking в течение 3 дней.', 'V', ctx));
         else {
           const others = SK.filter((s) => s !== primary).sort((a, b) => w[b] - w[a]);
           const sec = dow === 4 && w.L < 0.3 ? 'L' : others[0];
           tasks.push(skillTask(sec, Object.assign({}, ctx, { minutes: sm, idx: idx + 2 })));
-          if (dow === 4) tasks.push(fixedTask('S', 'Shadowing: 3 прогона одного отрывка, запись себя', 10, '', 'S', ctx));
+          if (dow === 4) tasks.push(fixedTask('S', 'Повторяй за диктором: 3 раза один отрывок и запиши себя', 10, '', 'S', ctx));
         }
-        if (primary === 'W' || primary === 'S') tasks.push({ skill: 'ALL', title: 'Разбор ошибок → журнал (вкладка «Ошибки»)', minutes: 10, desc: 'Каждая ошибка: фрагмент → исправление → тег.', resource: null, id: '' });
+        if (primary === 'W' || primary === 'S') tasks.push({ skill: 'ALL', title: 'Разбор ошибок → журнал (вкладка «Ошибки»)', minutes: 10, desc: 'Каждая ошибка: что написал → как правильно.', resource: null, id: '' });
       } else if (dow === 6) {
         const k = week % 4;
         if (k === 0) {
-          tasks.push(fixedTask('ALL', 'ПОЛНЫЙ МОК (часть 1): Listening + Reading подряд, как на экзамене', 100, 'Официальный тест нужного модуля. Результат — вкладка «Прогресс → Новый мок».', 'L:test', ctx));
-          tasks.push(fixedTask('W', 'ПОЛНЫЙ МОК (часть 2): Writing Task 1 + Task 2, 60 мин', 60, '', 'W', ctx));
-          tasks.push({ skill: 'ALL', title: 'Разбор мока: все ошибки в журнал, 3 вывода', minutes: 45, desc: '', resource: null, id: '' });
+          tasks.push(fixedTask('ALL', 'ПРОБНЫЙ ЭКЗАМЕН (часть 1): Listening + Reading подряд, как на экзамене', 100, 'Официальный тест нужного модуля. Результат внеси: «Ещё» → «Прогресс» → «Новый мок» (мок — пробный экзамен).', 'L:test', ctx));
+          tasks.push(fixedTask('W', 'ПРОБНЫЙ ЭКЗАМЕН (часть 2): Writing Task 1 + Task 2, 60 мин', 60, '', 'W', ctx));
+          tasks.push({ skill: 'ALL', title: 'Разбор пробного экзамена: все ошибки в журнал, 3 вывода', minutes: 45, desc: '', resource: null, id: '' });
         } else {
           const sec = { 1: ['L', 'Listening: полный тест по таймеру', 'L:test'], 2: ['R', 'Reading: полный тест, 60 мин', 'R:test'], 3: ['W', 'Writing: Task 1 + Task 2 по таймеру', 'W'] }[k];
-          tasks.push(fixedTask(sec[0], 'Мок-секция — ' + sec[1], r5(dayMin * 0.65), '', sec[2], ctx));
-          tasks.push({ skill: 'ALL', title: 'Разбор: ошибки в журнал, повтор слабых типов', minutes: r5(dayMin * 0.35), desc: '', resource: null, id: '' });
+          tasks.push(fixedTask(sec[0], 'Пробный экзамен, часть: ' + sec[1], r5(dayMin * 0.65), '', sec[2], ctx));
+          tasks.push({ skill: 'ALL', title: 'Разбор: ошибки в журнал и повтор слабых типов заданий', minutes: r5(dayMin * 0.35), desc: '', resource: null, id: '' });
         }
       } else {
         tasks.push(srs());
-        tasks.push(fixedTask('L', 'Экстенсивное слушание/чтение по интересам (лёгкий день)', r5(dayMin - 35), 'Подкаст или лекция; 5 минут shadowing.', 'L:academic', ctx));
+        tasks.push(fixedTask('L', 'Лёгкое слушание или чтение по интересам (отдых)', r5(dayMin - 35), 'Подкаст или лекция; 5 минут повторения за диктором (shadowing).', 'L:academic', ctx));
         tasks.push(fixedTask('S', 'Speaking в паре (если есть партнёр): 10 мин Part 2–3 с обратной связью', 10, '', 'S', ctx));
         tasks.push(recap());
       }
@@ -618,6 +618,27 @@
     return visible && nowMs - lastTouchMs <= STUDY_IDLE * 1000 ? sec + 1 : sec;
   }
 
+  // ---------- Разнообразие предложений (для Task 2) ----------
+  const SUBORD = ['although', 'though', 'even though', 'while', 'whilst', 'whereas', 'because', 'since', 'unless', 'whenever', 'when', 'after', 'before', 'until', 'so that', 'provided that', 'as long as', 'which', 'whose', 'who', 'where', 'if'];
+  const IRR_PP = 'made|done|seen|given|taken|shown|known|built|held|paid|found|brought|kept|left|sold|told|written|chosen|driven|spent|lost|held|set|put|cut|begun|grown|thrown|worn|forgotten|broken|taught|caught|thought|understood';
+  /** Делит текст на предложения и считает, какие из шести типов в нём есть */
+  function sentenceTypes(text) {
+    const sents = String(text || '').replace(/\s+/g, ' ').split(/(?<=[.!?])\s+(?=[A-Z"“‘'])/).map((x) => x.trim()).filter((x) => x.split(' ').length >= 2);
+    const t = { simple: 0, compound: 0, complex: 0, passive: 0, question: 0, conditional: 0 }; const marks = new Set();
+    const rePass = new RegExp('\\b(is|are|was|were|be|been|being)\\s+(?:\\w+ly\\s+)?(?:\\w+(?:ed)|' + IRR_PP + ')\\b', 'i');
+    sents.forEach((x) => {
+      const low = x.toLowerCase(); let any = false;
+      if (/\?\s*["”’']?$/.test(x)) { t.question++; any = true; }
+      if (/\b(if|unless|provided that|as long as)\b/.test(low) && !/\?\s*$/.test(x)) { t.conditional++; any = true; }
+      const ms = SUBORD.filter((m) => new RegExp('(^|[^a-z])' + m + '([^a-z]|$)').test(low)); ms.forEach((m) => marks.add(m));
+      if (ms.length) { t.complex++; any = true; }
+      if (/,\s*(and|but|or|so|yet|nor)\s+\w+/i.test(x) || /;\s/.test(x)) { t.compound++; any = true; }
+      if (rePass.test(x)) { t.passive++; any = true; }
+      if (!any && x.split(' ').length <= 12) t.simple++;
+    });
+    return { n: sents.length, types: t, markers: Array.from(marks) };
+  }
+
   // ---------- Баллы ----------
   function overall(L, R, W, S) {
     const a = (L + R + W + S) / 4;
@@ -635,6 +656,6 @@
     return 3.5;
   }
 
-  const api = { ctxParts, findCtx, exAll, exIdx, exOf, SK, PHASES, pd, fmt, addDays, daysBetween, weekNo, phaseFor, errorSeverity, weights, dayTasks, newCard, dueCards, review, overall, rawToBand, isWord, plain, lrMode, lrRate, master, unmaster, reviewMastered, contexts, buildSession, pickFresh, GROUPS, GROUP_LABEL, MAIN_GROUPS, group, inGroup, choices, typeCheck, hintOf, drillQueue, form, pickNext, mcq, checkSentence, GAPS, analyseText, checkAnswer, parseFeedback, errDrillable, normFix, errInit, errDue, errCheck, errRate, EI, CEF, cefOf, cefRank, PL_GRAM, placementItems, placementScore, placementSkills, studyTick, STUDY_IDLE };
+  const api = { ctxParts, findCtx, exAll, exIdx, exOf, SK, PHASES, pd, fmt, addDays, daysBetween, weekNo, phaseFor, errorSeverity, weights, dayTasks, newCard, dueCards, review, overall, rawToBand, isWord, plain, lrMode, lrRate, master, unmaster, reviewMastered, contexts, buildSession, pickFresh, GROUPS, GROUP_LABEL, MAIN_GROUPS, group, inGroup, choices, typeCheck, hintOf, drillQueue, form, pickNext, mcq, checkSentence, GAPS, analyseText, checkAnswer, parseFeedback, errDrillable, normFix, errInit, errDue, errCheck, errRate, EI, CEF, cefOf, cefRank, PL_GRAM, placementItems, placementScore, placementSkills, studyTick, STUDY_IDLE, sentenceTypes };
   if (typeof module !== 'undefined' && module.exports) module.exports = api; else root.Engine = api;
 })(typeof window !== 'undefined' ? window : globalThis);
