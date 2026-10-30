@@ -1,0 +1,39 @@
+rise|расти, подниматься|The number of users [[rose]] from 2 million to 5 million.|v|t1
+fall|падать, снижаться|Unemployment [[fell]] sharply in 2015.|v|t1
+increase|увеличиваться; рост|Sales [[increased]] steadily over the decade.|v|t1
+drop|снижаться; падение|Prices [[dropped]] by 10 per cent.|v|t1
+grow|расти|The population [[grew]] gradually until 2000.|v|t1
+surge|резко возрасти|Online sales [[surged]] during the pandemic.|v|t1
+rocket|стремительно вырасти|Demand [[rocketed]] in the final year.|v|t1
+dip|слегка снизиться|Profits [[dipped]] slightly in March.|v|t1
+slump|резко обвалиться|House prices [[slumped]] after the crisis.|v|t1
+level off|выровняться, стабилизироваться|The figures [[levelled off]] at around 40 per cent.|phv|t1
+remain steady|оставаться стабильным|Exports [[remained steady]] at 200 units.|phr|t1
+hit a low|достичь минимума|Sales [[hit a low]] in February.|phr|t1
+reach a peak|достичь пика|Temperatures [[reached a peak]] in July.|phr|t1
+a slight increase|небольшой рост|There was [[a slight increase]] in the second year.|coll|t1
+a gradual decline|постепенное снижение|The chart shows [[a gradual decline]] in smoking.|coll|t1
+a steady rise|стабильный рост|There was [[a steady rise]] in car ownership.|coll|t1
+a dramatic fall|резкое падение|The graph shows [[a dramatic fall]] in prices.|coll|t1
+a significant drop|значительное снижение|There was [[a significant drop]] in sales.|coll|t1
+a marked increase|заметный рост|The data reveal [[a marked increase]] in demand.|coll|t1
+twofold|вдвое|Production rose [[twofold]] between 2000 and 2010.|adv|t1
+double|удваиваться|The figure [[doubled]] over ten years.|v|t1
+triple|утраиваться|Exports [[tripled]] in five years.|v|t1
+halve|сокращаться вдвое|Emissions [[halved]] between 1990 and 2010.|v|t1
+the majority of|большая часть|[[The majority of]] respondents preferred trains.|phr|t1
+a minority of|меньшинство|Only [[a minority of]] people used buses.|phr|t1
+a quarter of|четверть|[[A quarter of]] the budget went on education.|phr|t1
+proportion|доля|The [[proportion]] of women in the workforce rose.|n|t1
+respectively|соответственно|Rates were 5% and 8%, [[respectively]].|adv|t1
+compared with|по сравнению с|Fares are low [[compared with]] other cities.|phr|t1
+whereas|тогда как|Rail use rose, [[whereas]] bus use fell.|conj|t1
+while|в то время как|Sales rose, [[while]] profits fell.|conj|t1
+approximately|приблизительно|[[Approximately]] 30 per cent of adults smoked.|adv|t1
+roughly|примерно|[[Roughly]] half of the students walked to school.|adv|t1
+just over|чуть больше|[[Just over]] 20 per cent took the bus.|phr|t1
+just under|чуть меньше|[[Just under]] a third of households owned a car.|phr|t1
+the figure for|показатель по|[[The figure for]] women was higher.|phr|t1
+over the period|за период|Rates fell [[over the period]] shown.|phr|t1
+by contrast|напротив|[[By contrast]], the figure for cars fell.|phr|t1
+overall|в целом|[[Overall]], there was an upward trend.|adv|t1

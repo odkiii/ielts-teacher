@@ -72,14 +72,14 @@ virtually|практически|[[Virtually]] all students own a smartphone.|ad
 merely|всего лишь|Grades are [[merely]] one measure of ability.|adv|edu
 particularly|особенно|Traffic is [[particularly]] heavy on Mondays.|adv|trans
 scarcely|едва|There is [[scarcely]] any evidence for this claim.|adv|sci
-soar|резко расти|House prices have [[soared]] in recent years.|v|gen
-plunge|резко падать|Sales [[plunged]] after the price rise.|v|gen
-decline|снижаться; снижение|The birth rate has [[declined]] steadily.|v|soc
-fluctuate|колебаться|Temperatures [[fluctuate]] widely in spring.|v|env
-peak|достигать пика|Visitor numbers [[peaked]] in August.|v|trans
-reach a plateau|выйти на плато|Sales [[reached a plateau]] in 2018.|phr|work
-remain stable|оставаться стабильным|Prices [[remained stable]] throughout the year.|phr|gen
-account for|составлять (долю)|Women [[account for]] 60% of the students.|phr|edu
+soar|резко расти|House prices have [[soared]] in recent years.|v|t1
+plunge|резко падать|Sales [[plunged]] after the price rise.|v|t1
+decline|снижаться; снижение|The birth rate has [[declined]] steadily.|v|t1
+fluctuate|колебаться|Temperatures [[fluctuate]] widely in spring.|v|t1
+peak|достигать пика|Visitor numbers [[peaked]] in August.|v|t1
+reach a plateau|выйти на плато|Sales [[reached a plateau]] in 2018.|phr|t1
+remain stable|оставаться стабильным|Prices [[remained stable]] throughout the year.|phr|t1
+account for|составлять (долю)|Women [[account for]] 60% of the students.|phr|t1
 outnumber|превосходить числом|Women now [[outnumber]] men in many universities.|v|edu
 double|удваиваться|The number of users [[doubled]] in two years.|v|tech
 a significant increase in|значительный рост|There was [[a significant increase in]] online sales.|phr|work

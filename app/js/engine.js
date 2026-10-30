@@ -335,6 +335,59 @@
     for (let i = opts.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [opts[i], opts[j]] = [opts[j], opts[i]]; }
     return { text: String(c.ex).replace(MARK, '_____'), form: (String(c.ex).match(MARK) || [0, ''])[1], opts, answer: opts.indexOf(c.t) };
   }
+  // ---------- Группы карточек ----------
+  const GROUPS = [['w', 'Слова'], ['coll', 'Коллокации'], ['phv', 'Фразовые глаголы'], ['idiom', 'Идиомы'], ['link', 'Связки и обороты'], ['t1', 'Task 1: графики'], ['t2', 'Task 2: эссе'], ['sp', 'Speaking'], ['let', 'Письма'], ['par', 'Парафразы']];
+  const GROUP_LABEL = Object.fromEntries(GROUPS);
+  const MAIN_GROUPS = ['w', 'coll', 'phv', 'idiom', 'link'];
+  /** Группа карточки: что именно сейчас учим. */
+  function group(c) {
+    if (!isWord(c)) {
+      const f = String(c.f || '');
+      if (/^Task 1/.test(f)) return 't1'; if (/^Task 2/.test(f)) return 't2';
+      if (/^collocation/i.test(f)) return 'coll'; if (/^paraphrase/i.test(f)) return 'par';
+      if (/^Letter/i.test(f)) return 'let'; return 'sp';
+    }
+    if (c.dom === 't1') return 't1';
+    if (c.pos === 'coll') return 'coll'; if (c.pos === 'phv') return 'phv'; if (c.pos === 'idiom') return 'idiom';
+    if (c.pos === 'hedge' || c.dom === 'link') return 'link';
+    return 'w';
+  }
+  const inGroup = (c, g) => (g === 'main' || !g ? MAIN_GROUPS.includes(group(c)) : g === 'all' ? true : group(c) === g);
+  // ---------- Мини-задания ----------
+  const form = (c) => (String(c.ex).match(MARK) || [0, c.t])[1];
+  function shuffled(a, rnd) { const r = a.slice(); for (let i = r.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [r[i], r[j]] = [r[j], r[i]]; } return r; }
+  /** 4 варианта по полю field ('t' — английское слово, 'ru' — перевод); дистракторы того же типа и той же группы. */
+  function choices(c, cards, field, rnd) {
+    rnd = rnd || Math.random; const g = group(c);
+    const norm = (x) => String(x[field]).toLowerCase();
+    const base = cards.filter((x) => isWord(x) && x.id !== c.id && norm(x) !== norm(c));
+    const pool = shuffled(base.filter((x) => x.pos === c.pos && group(x) === g), rnd).concat(shuffled(base.filter((x) => group(x) === g), rnd), shuffled(base, rnd));
+    const opts = [c[field]]; for (const x of pool) { if (opts.length >= 4) break; if (!opts.some((o) => String(o).toLowerCase() === norm(x))) opts.push(x[field]); }
+    const out = shuffled(opts, rnd); return { opts: out, answer: out.indexOf(c[field]) };
+  }
+  const lev = (a, b) => { const d = Array.from({ length: a.length + 1 }, (_, i) => [i]); for (let j = 1; j <= b.length; j++) d[0][j] = j; for (let i = 1; i <= a.length; i++) for (let j = 1; j <= b.length; j++) d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1)); return d[a.length][b.length]; };
+  const clean = (x) => String(x).toLowerCase().replace(/[^a-z\s'-]/g, '').replace(/\s+/g, ' ').trim();
+  /** Проверка введённого слова: 'ok' — верно (форма из примера или лемма), 'near' — опечатка в одну букву, 'bad'. */
+  function typeCheck(c, input) {
+    const a = clean(input); if (!a) return 'bad';
+    const targets = [clean(form(c)), clean(c.t)];
+    if (targets.includes(a)) return 'ok';
+    return targets.some((t) => t.length >= 5 && lev(a, t) <= 1) ? 'near' : 'bad';
+  }
+  /** Подсказка: первая буква каждого слова формы и длина. */
+  const hintOf = (c) => clean(form(c)).split(' ').map((w) => w[0] + '_'.repeat(Math.max(0, w.length - 1))).join(' ');
+  /** Очередь мини-заданий: 3 раунда (вставь слово → выбери по переводу/слову → впиши), слабые карточки первыми. */
+  function drillQueue(cards, today, max, rnd) {
+    rnd = rnd || Math.random;
+    const ok = cards.filter((c) => isWord(c) && c.seen);
+    const todays = ok.filter((c) => c.ls === today).sort((a, b) => (a.lv || 0) - (b.lv || 0));
+    const rest = ok.filter((c) => c.ls !== today).sort((a, b) => (a.lv || 0) - (b.lv || 0));
+    const pick = todays.concat(rest).slice(0, max);
+    const q = []; shuffled(pick, rnd).forEach((c) => q.push({ id: c.id, type: 'gap' }));
+    shuffled(pick, rnd).forEach((c, i) => q.push({ id: c.id, type: i % 2 ? 'ru2en' : 'en2ru' }));
+    shuffled(pick, rnd).forEach((c) => q.push({ id: c.id, type: 'type' }));
+    return q;
+  }
   const STOP = new Set(['a', 'an', 'the', 'of', 'to', 'in', 'on', 'for', 'with', 'by', 'at', 'be', 'is', 'as', 'or', 'and', 'from', 'up', 'out']);
   const stem = (w) => (w.length > 6 ? w.slice(0, w.length - 3) : w.length > 4 ? w.slice(0, w.length - 2) : w.length > 3 ? w.slice(0, w.length - 1) : w);
   /** Грубая самопроверка своего предложения: есть ли слово/фраза, длина, заглавная буква и точка. */
@@ -475,6 +528,6 @@
     return 3.5;
   }
 
-  const api = { SK, PHASES, pd, fmt, addDays, daysBetween, weekNo, phaseFor, errorSeverity, weights, dayTasks, newCard, dueCards, review, overall, rawToBand, isWord, plain, lrMode, lrRate, master, unmaster, reviewMastered, buildSession, pickFresh, pickNext, mcq, checkSentence, GAPS, analyseText, checkAnswer, parseFeedback, errDrillable, normFix, errInit, errDue, errCheck, errRate, EI, CEF, cefOf, cefRank };
+  const api = { SK, PHASES, pd, fmt, addDays, daysBetween, weekNo, phaseFor, errorSeverity, weights, dayTasks, newCard, dueCards, review, overall, rawToBand, isWord, plain, lrMode, lrRate, master, unmaster, reviewMastered, buildSession, pickFresh, GROUPS, GROUP_LABEL, MAIN_GROUPS, group, inGroup, choices, typeCheck, hintOf, drillQueue, form, pickNext, mcq, checkSentence, GAPS, analyseText, checkAnswer, parseFeedback, errDrillable, normFix, errInit, errDue, errCheck, errRate, EI, CEF, cefOf, cefRank };
   if (typeof module !== 'undefined' && module.exports) module.exports = api; else root.Engine = api;
 })(typeof window !== 'undefined' ? window : globalThis);

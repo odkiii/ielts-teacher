@@ -213,3 +213,19 @@ test('сессия после перезагрузки не добавляет �
   const a = Eg.buildSession(cards, '2026-11-01', 12, 0); a.active.slice(0, 15).forEach((id) => { cards.find((c) => c.id === id).ls = '2026-11-01'; });
   const b = Eg.buildSession(cards, '2026-11-01', 12, 0); assert.equal(b.active.length, 15);
 });
+
+test('группы карточек', () => {
+  assert.equal(Eg.group({ f: 'Task 1: резко вырос', b: '' }), 't1');
+  assert.equal(Eg.group({ f: 'paraphrase: increase', b: '' }), 'par');
+  assert.equal(Eg.group(mk('a', 'soar', 'v', 't1')), 't1');
+  assert.equal(Eg.group(mk('a', 'x y', 'coll', 'acad')), 'coll');
+  assert.equal(Eg.group(mk('a', 'plunge', 'v', 'gen')), 'w');
+  assert.ok(Eg.inGroup(mk('a', 'x', 'v', 'gen'), 'main')); assert.ok(!Eg.inGroup(mk('a', 'x', 'v', 't1'), 'main'));
+});
+test('typeCheck и choices', () => {
+  const c = Object.assign(mk('a', 'plunge', 'v', 'gen'), { ex: 'Sales [[plunged]] fast.' });
+  assert.equal(Eg.typeCheck(c, 'Plunged'), 'ok'); assert.equal(Eg.typeCheck(c, 'plunge'), 'ok'); assert.equal(Eg.typeCheck(c, 'plunjed'), 'near'); assert.equal(Eg.typeCheck(c, 'soar'), 'bad');
+  assert.equal(Eg.hintOf(c), 'p______');
+  const cards = [c, mk('b', 'soar', 'v', 'gen'), mk('c', 'peak', 'v', 'gen'), mk('d', 'dip', 'v', 'gen'), mk('e', 'fall', 'v', 'gen')]; cards.forEach((x) => { x.ru = 'ру-' + x.t; });
+  const ch = Eg.choices(c, cards, 'ru'); assert.equal(ch.opts.length, 4); assert.equal(ch.opts[ch.answer], 'ру-plunge');
+});

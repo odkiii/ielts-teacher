@@ -147,4 +147,4 @@ supplement|дополнять|She [[supplements]] her income with tutoring.|v|wo
 supportive|поддерживающий|My family has been very [[supportive]].|adj|soc
 supposedly|якобы, предположительно|The route is [[supposedly]] faster.|adv|gen
 suppress|подавлять|The government tried to [[suppress]] the news.|v|gov
-surge|всплеск, резкий рост|There was a [[surge]] in demand.|n|work
+surge|всплеск, резкий рост|There was a [[surge]] in demand.|n|t1

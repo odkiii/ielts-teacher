@@ -21,14 +21,14 @@ draw attention to|привлекать внимание к|The campaign [[draws 
 gain popularity|становиться популярным|Electric scooters have [[gained popularity]] in cities.|coll|trans
 a growing number of|растущее число|[[A growing number of]] people work remotely.|coll|work
 a steady decline|постепенный спад|There was [[a steady decline]] in sales.|coll|gen
-a sharp increase|резкий рост|The graph shows [[a sharp increase]] in 2020.|coll|gen
+a sharp increase|резкий рост|The graph shows [[a sharp increase]] in 2020.|coll|t1
 a significant proportion of|значительная доля|[[A significant proportion of]] students study abroad.|coll|edu
 the vast majority of|подавляющее большинство|[[The vast majority of]] respondents agreed.|coll|gen
 by far the most|безусловно самый (с большим отрывом)|Cycling was [[by far the most]] popular activity.|coll|gen
 one in five|каждый пятый|[[One in five]] adults lives alone.|coll|gen
 the share of respondents|доля опрошенных|[[The share of respondents]] who cycle doubled.|coll|gen
 reach a peak|достигать пика|Sales [[reached a peak]] in July.|coll|gen
-remain stable|оставаться стабильным|Prices [[remained stable]] for years.|coll|gen
+remain stable|оставаться стабильным|Prices [[remained stable]] for years.|coll|t1
 heavy traffic|плотное движение|[[Heavy traffic]] causes long delays.|coll|trans
 fierce competition|жёсткая конкуренция|There is [[fierce competition]] for good jobs.|coll|work
 mounting pressure|растущее давление|Teachers are under [[mounting pressure]].|coll|edu

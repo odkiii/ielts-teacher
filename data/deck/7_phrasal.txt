@@ -36,8 +36,8 @@ look up to|уважать|Pupils [[look up to]] their teachers.|phv|soc
 look down on|смотреть свысока|Nobody should [[look down on]] others.|phv|soc
 get over|оправиться|It took months to [[get over]] the illness.|phv|health
 get along with|ладить с|I [[get along with]] my colleagues.|phv|soc
-account for|составлять (долю); объяснять|Cars [[account for]] 60% of journeys.|phv|gen
-level off|выравниваться|Prices [[levelled off]] after 2015.|phv|gen
+account for|составлять (долю); объяснять|Cars [[account for]] 60% of journeys.|phv|t1
+level off|выравниваться|Prices [[levelled off]] after 2015.|phv|t1
 go up|расти|Prices [[went up]] sharply.|phv|gen
 build up|наращивать|Athletes [[build up]] strength gradually.|phv|health
 iron out|уладить (проблемы)|They need to [[iron out]] a few problems.|phv|work

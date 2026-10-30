@@ -6,7 +6,7 @@ religious movement|религиозное движение|A [[religious movemen
 religious practice|религиозная практика|[[Religious practice]] varies by country.|coll|acad
 rely heavily on|сильно полагаться на|The region [[relies heavily on]] tourism.|coll|acad
 remain constant|оставаться постоянным|Prices [[remained constant]].|coll|acad
-remain stable|оставаться стабильным|The economy [[remained stable]].|coll|acad
+remain stable|оставаться стабильным|The economy [[remained stable]].|coll|t1
 remain unchanged|оставаться неизменным|The rules [[remain unchanged]].|coll|acad
 remain unclear|оставаться неясным|The cause [[remains unclear]].|coll|acad
 remarkably similar|удивительно похожий|The two designs are [[remarkably similar]].|coll|acad

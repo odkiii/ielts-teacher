@@ -20,7 +20,7 @@ be likely to|вероятно, будет|Graduates are [[likely to]] earn more 
 lead to|приводить к|Poor planning can [[lead to]] traffic congestion.|phr|trans
 result in|приводить к (результату)|Long working hours may [[result in]] stress and illness.|phr|work
 be attributed to|объясняться, быть вызванным|The rise in obesity can be [[attributed to]] poor diets.|phr|health
-account for|объяснять; составлять|Transport [[accounts for]] a quarter of carbon emissions.|phr|env
+account for|объяснять; составлять|Transport [[accounts for]] a quarter of carbon emissions.|phr|t1
 give rise to|порождать|Rapid urbanisation has [[given rise to]] many social problems.|phr|soc
 come up with|придумать|Students were asked to [[come up with]] their own solutions.|phr|edu
 deal with|справляться с|Cities must [[deal with]] rising levels of waste.|phr|env

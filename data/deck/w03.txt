@@ -94,7 +94,7 @@ dignity|достоинство|Everyone deserves to live with [[dignity]].|n|soc
 dilemma|дилемма|She faced a [[dilemma]] between family and career.|n|soc
 dimension|измерение, аспект|Climate change has a social [[dimension]].|n|gen
 diminish|уменьшать(ся)|Interest in the topic has [[diminished]].|v|gen
-dip|снижение; снижаться|Sales took a [[dip]] in winter.|n|gen
+dip|снижение; снижаться|Sales took a [[dip]] in winter.|n|t1
 diplomat|дипломат|The [[diplomat]] spoke four languages.|n|gov
 diplomatic|дипломатический|The two states restored [[diplomatic]] relations.|adj|gov
 disastrous|катастрофический|The decision had [[disastrous]] results.|adj|gen
