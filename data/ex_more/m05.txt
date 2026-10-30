@@ -1,0 +1,400 @@
+government control|coll|The state keeps tight [[government control]] over prices.
+government control|coll|Schools want less [[government control]].
+government department|coll|She works in a [[government department]].
+government department|coll|Each [[government department]] has its own budget.
+government expenditure|coll|[[Government expenditure]] on health has risen.
+government expenditure|coll|The graph shows [[government expenditure]] by year.
+government intervention|coll|Some markets need [[government intervention]].
+government intervention|coll|Critics oppose [[government intervention]] in business.
+government policy|coll|[[Government policy]] on housing is changing.
+government policy|coll|The strike was a protest against [[government policy]].
+graphical representation|coll|The chart is a [[graphical representation]] of sales.
+graphical representation|coll|A [[graphical representation]] makes data easier to read.
+great accuracy|coll|The machine measures time with [[great accuracy]].
+great accuracy|coll|She described the scene with [[great accuracy]].
+great diversity|coll|The region has [[great diversity]] of wildlife.
+great diversity|coll|There is [[great diversity]] among students.
+great impact|coll|The book had a [[great impact]] on young readers.
+great impact|coll|Social media has a [[great impact]] on teenagers.
+great majority|coll|The [[great majority]] of students passed.
+great majority|coll|The [[great majority]] of people prefer tea.
+great potential|coll|Solar energy has [[great potential]].
+great potential|coll|The young player has [[great potential]].
+great proportion of|coll|A [[great proportion of]] the budget goes on salaries.
+great proportion of|coll|A [[great proportion of]] children walk to school.
+great range of|coll|The shop offers a [[great range of]] books.
+great range of|coll|The course covers a [[great range of]] topics.
+great significance|coll|The discovery is of [[great significance]].
+great significance|coll|The day holds [[great significance]] for them.
+greater autonomy|coll|Schools want [[greater autonomy]].
+greater autonomy|coll|Workers asked for [[greater autonomy]].
+greater awareness|coll|The campaign led to [[greater awareness]] of recycling.
+greater awareness|coll|We need [[greater awareness]] of mental health.
+greater emphasis|coll|Schools should place [[greater emphasis]] on speaking.
+greater emphasis|coll|The firm puts [[greater emphasis]] on safety.
+greater equality|coll|The law aims for [[greater equality]].
+greater equality|coll|Taxes can promote [[greater equality]].
+greater flexibility|coll|Remote work gives [[greater flexibility]].
+greater flexibility|coll|Staff asked for [[greater flexibility]] in hours.
+greater likelihood|coll|Smokers have a [[greater likelihood]] of illness.
+greater likelihood|coll|There is a [[greater likelihood]] of rain today.
+greatly enhance|coll|Practice can [[greatly enhance]] your skills.
+greatly enhance|coll|New tools [[greatly enhance]] learning.
+greatly increase|coll|Exercise can [[greatly increase]] energy.
+greatly increase|coll|Tax cuts may [[greatly increase]] spending.
+greatly influenced by|coll|She was [[greatly influenced by]] her teacher.
+greatly influenced by|coll|The design is [[greatly influenced by]] Japan.
+greatly reduced|coll|The risk is [[greatly reduced]] by vaccines.
+greatly reduced|coll|Noise was [[greatly reduced]] by the new windows.
+grow rapidly|coll|Cities [[grow rapidly]] in Asia.
+grow rapidly|coll|Children [[grow rapidly]] in their first year.
+growing awareness|coll|There is a [[growing awareness]] of climate risks.
+growing awareness|coll|A [[growing awareness]] of health has changed diets.
+growing trend|coll|Working from home is a [[growing trend]].
+growing trend|coll|There is a [[growing trend]] towards organic food.
+guiding principle|coll|Honesty is our [[guiding principle]].
+guiding principle|coll|Safety is the [[guiding principle]] of the design.
+hardly surprising|coll|It is [[hardly surprising]] that prices rose.
+hardly surprising|coll|Given the rain, it is [[hardly surprising]] they cancelled.
+have access to|coll|Students [[have access to]] a library.
+have access to|coll|Not everyone [[has access to]] clean water.
+have consequences|coll|Every choice can [[have consequences]].
+have consequences|coll|Pollution will [[have consequences]] for health.
+have limitations|coll|The study [[has limitations]].
+have limitations|coll|Every method [[has limitations]].
+have potential|coll|The idea [[has potential]].
+have potential|coll|Young players [[have potential]].
+have a strategy|coll|You need to [[have a strategy]] for the exam.
+have a strategy|coll|The firm [[has a strategy]] for growth.
+have a tendency to|coll|Teenagers [[have a tendency to]] sleep late.
+have a tendency to|coll|Some people [[have a tendency to]] worry.
+have an obligation|coll|Doctors [[have an obligation]] to help.
+have an obligation|coll|Firms [[have an obligation]] to protect workers.
+heated debate|coll|The topic sparked a [[heated debate]].
+heated debate|coll|There was a [[heated debate]] in class.
+heavily influenced by|coll|His style is [[heavily influenced by]] jazz.
+heavily influenced by|coll|Prices are [[heavily influenced by]] oil.
+hierarchical structure|coll|The army has a [[hierarchical structure]].
+hierarchical structure|coll|Firms with a [[hierarchical structure]] decide slowly.
+high concentration|coll|The water has a [[high concentration]] of salt.
+high concentration|coll|A [[high concentration]] of workers live near the factory.
+high correlation|coll|There is a [[high correlation]] between sleep and mood.
+high correlation|coll|The study found a [[high correlation]] between height and weight.
+high expectations|coll|Parents often have [[high expectations]].
+high expectations|coll|The team has [[high expectations]] for the season.
+high incidence|coll|The area has a [[high incidence]] of asthma.
+high incidence|coll|A [[high incidence]] of crime worries residents.
+high intensity|coll|[[High intensity]] exercise burns calories.
+high intensity|coll|The lamp has a [[high intensity]] of light.
+high level|coll|The job needs a [[high level]] of skill.
+high level|coll|The city has a [[high level]] of pollution.
+high order|coll|The task requires [[high order]] thinking.
+high order|coll|Analysis is a [[high order]] skill.
+high percentage|coll|A [[high percentage]] of users are young.
+high percentage|coll|A [[high percentage]] of the cost is labour.
+high priority|coll|Safety is a [[high priority]].
+high priority|coll|Education should be a [[high priority]].
+high probability|coll|There is a [[high probability]] of rain.
+high probability|coll|A [[high probability]] of failure scared investors.
+high profile|coll|It was a [[high profile]] case.
+high profile|coll|She has a [[high profile]] in the media.
+high proportion of|coll|A [[high proportion of]] students work part-time.
+high proportion of|coll|The area has a [[high proportion of]] elderly residents.
+high quality|coll|The shop sells [[high quality]] clothes.
+high quality|coll|[[High quality]] teaching matters.
+high rate|coll|The city has a [[high rate]] of crime.
+high rate|coll|A [[high rate]] of interest discourages loans.
+high score|coll|She got a [[high score]] in the test.
+high score|coll|A [[high score]] earns a prize.
+high standard|coll|The school keeps a [[high standard]] of teaching.
+high standard|coll|The work was of a [[high standard]].
+high status|coll|Doctors have [[high status]] in society.
+high status|coll|The job has [[high status]].
+high turnover|coll|Hotels often have [[high turnover]] of staff.
+high turnover|coll|A [[high turnover]] is costly.
+high unemployment|coll|[[High unemployment]] hurts families.
+high unemployment|coll|The region suffers from [[high unemployment]].
+high value|coll|The stamp is of [[high value]].
+high value|coll|The firm sells [[high value]] goods.
+higher frequency|coll|Words of [[higher frequency]] are learned first.
+higher frequency|coll|The sound has a [[higher frequency]].
+higher degree of|coll|Pilots need a [[higher degree of]] skill.
+higher degree of|coll|The task requires a [[higher degree of]] accuracy.
+higher education|coll|[[Higher education]] is expensive.
+higher education|coll|She wants to enter [[higher education]].
+highly charged|coll|The debate was [[highly charged]].
+highly charged|coll|It is a [[highly charged]] issue.
+highly competitive|coll|The market is [[highly competitive]].
+highly competitive|coll|Entry to the course is [[highly competitive]].
+highly complex|coll|The system is [[highly complex]].
+highly complex|coll|The brain is a [[highly complex]] organ.
+highly controversial|coll|The law is [[highly controversial]].
+highly controversial|coll|His plan is [[highly controversial]].
+highly correlated with|coll|Income is [[highly correlated with]] education.
+highly correlated with|coll|Sales are [[highly correlated with]] advertising.
+highly critical|coll|The report was [[highly critical]] of the school.
+highly critical|coll|Reviewers were [[highly critical]] of the film.
+highly dependent|coll|The town is [[highly dependent]] on tourism.
+highly dependent|coll|Children are [[highly dependent]] on adults.
+highly desirable|coll|Skills in IT are [[highly desirable]].
+highly desirable|coll|The location is [[highly desirable]].
+highly developed|coll|Japan has a [[highly developed]] economy.
+highly developed|coll|Dogs have a [[highly developed]] sense of smell.
+highly educated|coll|The staff are [[highly educated]].
+highly educated|coll|[[Highly educated]] workers earn more.
+highly effective|coll|The drug is [[highly effective]].
+highly effective|coll|It is a [[highly effective]] method.
+highly efficient|coll|The new engine is [[highly efficient]].
+highly efficient|coll|She is a [[highly efficient]] manager.
+highly influential|coll|His book was [[highly influential]].
+highly influential|coll|She is a [[highly influential]] writer.
+highly likely|coll|Rain is [[highly likely]] tomorrow.
+highly likely|coll|It is [[highly likely]] that prices will rise.
+highly problematic|coll|The plan is [[highly problematic]].
+highly problematic|coll|Using old data is [[highly problematic]].
+highly relevant|coll|The study is [[highly relevant]] to teachers.
+highly relevant|coll|This point is [[highly relevant]].
+highly selective|coll|The university is [[highly selective]].
+highly selective|coll|Birds are [[highly selective]] about food.
+highly sensitive|coll|The skin is [[highly sensitive]].
+highly sensitive|coll|The data are [[highly sensitive]].
+highly significant|coll|The result is [[highly significant]].
+highly significant|coll|It was a [[highly significant]] discovery.
+highly skilled|coll|The factory employs [[highly skilled]] workers.
+highly skilled|coll|[[Highly skilled]] nurses are in demand.
+highly sophisticated|coll|The software is [[highly sophisticated]].
+highly sophisticated|coll|The scam was [[highly sophisticated]].
+highly structured|coll|The course is [[highly structured]].
+highly structured|coll|A [[highly structured]] day helps children.
+highly successful|coll|She is a [[highly successful]] lawyer.
+highly successful|coll|The campaign was [[highly successful]].
+highly unlikely|coll|Snow is [[highly unlikely]] in July.
+highly unlikely|coll|It is [[highly unlikely]] that he will win.
+highly valued|coll|Honesty is [[highly valued]] in teams.
+highly valued|coll|Her work is [[highly valued]].
+highly variable|coll|The weather is [[highly variable]].
+highly variable|coll|Results were [[highly variable]].
+historical account|coll|He wrote a [[historical account]] of the war.
+historical account|coll|The book gives a [[historical account]] of the city.
+historical analysis|coll|The paper offers a [[historical analysis]] of trade.
+historical analysis|coll|A [[historical analysis]] reveals patterns.
+historical background|coll|Learn the [[historical background]] of the conflict.
+historical background|coll|The guide gives the [[historical background]].
+historical change|coll|The film shows [[historical change]].
+historical change|coll|[[Historical change]] is often slow.
+historical circumstances|coll|Under such [[historical circumstances]], war was likely.
+historical circumstances|coll|We must consider the [[historical circumstances]].
+historical context|coll|Place the poem in its [[historical context]].
+historical context|coll|The [[historical context]] explains the law.
+historical data|coll|Analysts use [[historical data]] to predict trends.
+historical data|coll|[[Historical data]] show a rise.
+historical development|coll|The book traces the [[historical development]] of law.
+historical development|coll|The [[historical development]] of the city was slow.
+historical event|coll|The fall of the wall was a major [[historical event]].
+historical event|coll|The film is about a [[historical event]].
+historical evidence|coll|There is little [[historical evidence]] for the claim.
+historical evidence|coll|[[Historical evidence]] comes from letters.
+historical factors|coll|[[Historical factors]] explain the differences.
+historical factors|coll|The essay considers [[historical factors]].
+historical interpretation|coll|There is more than one [[historical interpretation]].
+historical interpretation|coll|The [[historical interpretation]] of the war has changed.
+historical knowledge|coll|You need [[historical knowledge]] to read the novel.
+historical knowledge|coll|Her [[historical knowledge]] is impressive.
+historical period|coll|The Victorian era is a [[historical period]].
+historical period|coll|Each [[historical period]] has its style.
+historical perspective|coll|Look at the problem from a [[historical perspective]].
+historical perspective|coll|A [[historical perspective]] helps us understand.
+historical reality|coll|The film is far from [[historical reality]].
+historical reality|coll|Historians seek [[historical reality]].
+historical record|coll|The [[historical record]] is incomplete.
+historical record|coll|Archives hold the [[historical record]].
+historical roots|coll|The custom has deep [[historical roots]].
+historical roots|coll|The problem has [[historical roots]].
+historical study|coll|A [[historical study]] of the town was published.
+historical study|coll|He wrote a [[historical study]] of trade.
+historical writing|coll|[[Historical writing]] needs evidence.
+historical writing|coll|She teaches [[historical writing]].
+historically specific|coll|These ideas are [[historically specific]].
+historically specific|coll|Such laws are [[historically specific]].
+hold a conference|coll|The university will [[hold a conference]] in May.
+hold a conference|coll|They [[hold a conference]] every year.
+holistic approach|coll|Doctors take a [[holistic approach]] to health.
+holistic approach|coll|A [[holistic approach]] treats the whole person.
+homogeneous group|coll|The class is a [[homogeneous group]].
+homogeneous group|coll|The sample was a [[homogeneous group]] of adults.
+huge amount of|coll|The firm lost a [[huge amount of]] money.
+huge amount of|coll|It takes a [[huge amount of]] energy.
+human activity|coll|[[Human activity]] has changed the climate.
+human activity|coll|Noise is the result of [[human activity]].
+human behavior|coll|Psychology studies [[human behavior]].
+human behavior|coll|[[Human behavior]] is hard to predict.
+human interaction|coll|Online chat cannot replace [[human interaction]].
+human interaction|coll|Robots lack [[human interaction]].
+human society|coll|Laws are vital in [[human society]].
+human society|coll|[[Human society]] has changed rapidly.
+human species|coll|The [[human species]] began in Africa.
+human species|coll|Fire helped the [[human species]] survive.
+ideally suited|coll|The place is [[ideally suited]] for a school.
+ideally suited|coll|She is [[ideally suited]] to the job.
+identify factors|coll|We must [[identify factors]] that cause stress.
+identify factors|coll|The study aims to [[identify factors]] linked to success.
+identify features|coll|Learners [[identify features]] of the text.
+identify features|coll|The software can [[identify features]] in photos.
+identify a problem|coll|The first step is to [[identify the problem]].
+identify a problem|coll|Tests help to [[identify a problem]] early.
+identify a way|coll|We must [[identify a way]] to cut costs.
+identify a way|coll|The team tried to [[identify a way]] forward.
+identify an area|coll|The survey helps to [[identify areas]] for improvement.
+identify an area|coll|Please [[identify an area]] to study.
+identify an issue|coll|Auditors [[identify an issue]] in the accounts.
+identify an issue|coll|It is easy to [[identify the issue]].
+immediate environment|coll|Plants adapt to their [[immediate environment]].
+immediate environment|coll|The child explores the [[immediate environment]].
+immediately apparent|coll|The danger was not [[immediately apparent]].
+immediately apparent|coll|The cause was [[immediately apparent]].
+immediately following|coll|The test is held [[immediately following]] the lecture.
+immediately following|coll|In the days [[immediately following]] the storm, roads closed.
+immediately obvious|coll|The answer is not [[immediately obvious]].
+immediately obvious|coll|The benefits are not [[immediately obvious]].
+immediately preceding|coll|The year [[immediately preceding]] the war was calm.
+immediately preceding|coll|Read the sentence [[immediately preceding]] the quote.
+imported goods|coll|[[Imported goods]] are taxed.
+imported goods|coll|The shop sells [[imported goods]] from Italy.
+imported products|coll|[[Imported products]] cost more.
+imported products|coll|The law limits [[imported products]].
+impose constraints|coll|Budgets [[impose constraints]] on research.
+impose constraints|coll|The rules [[impose constraints]] on designers.
+impose limitations|coll|Age can [[impose limitations]] on sport.
+impose limitations|coll|The law [[imposes limitations]] on speed.
+impose restrictions|coll|The city will [[impose restrictions]] on cars.
+impose restrictions|coll|Schools [[impose restrictions]] on phones.
+improved performance|coll|Training led to [[improved performance]].
+improved performance|coll|The team showed [[improved performance]].
+increase awareness|coll|Posters [[increase awareness]] of recycling.
+increase awareness|coll|The campaign aims to [[increase awareness]].
+increase dramatically|coll|Prices [[increased dramatically]] last year.
+increase dramatically|coll|Sales may [[increase dramatically]] in December.
+increase the likelihood|coll|Smoking will [[increase the likelihood]] of cancer.
+increase the likelihood|coll|Practice can [[increase the likelihood]] of success.
+increased awareness|coll|There is [[increased awareness]] of health.
+increased awareness|coll|The campaign led to [[increased awareness]].
+increased competition|coll|[[Increased competition]] lowers prices.
+increased competition|coll|Shops face [[increased competition]] online.
+increased demand|coll|[[Increased demand]] raised prices.
+increased demand|coll|The shop saw [[increased demand]] in winter.
+increased importance|coll|Skills have taken on [[increased importance]].
+increased importance|coll|The issue has gained [[increased importance]].
+increased interest|coll|There is [[increased interest]] in cycling.
+increased interest|coll|The film led to [[increased interest]] in history.
+increased level|coll|An [[increased level]] of noise annoyed residents.
+increased level|coll|The test showed an [[increased level]] of sugar.
+increased number|coll|An [[increased number]] of students apply.
+increased number|coll|The park saw an [[increased number]] of visitors.
+increased pressure|coll|Teachers face [[increased pressure]].
+increased pressure|coll|[[Increased pressure]] caused the pipe to burst.
+increased production|coll|[[Increased production]] lowered costs.
+increased production|coll|The factory reported [[increased production]].
+increased productivity|coll|New tools led to [[increased productivity]].
+increased productivity|coll|[[Increased productivity]] raises wages.
+increased risk|coll|Smoking brings an [[increased risk]] of cancer.
+increased risk|coll|There is an [[increased risk]] of flooding.
+increasing awareness|coll|There is [[increasing awareness]] of mental health.
+increasing awareness|coll|[[Increasing awareness]] has changed habits.
+increasing complexity|coll|The [[increasing complexity]] of law worries many.
+increasing complexity|coll|Software shows [[increasing complexity]].
+increasing demand|coll|There is [[increasing demand]] for nurses.
+increasing demand|coll|[[Increasing demand]] pushes up prices.
+increasing emphasis|coll|There is [[increasing emphasis]] on exams.
+increasing emphasis|coll|Schools place [[increasing emphasis]] on coding.
+increasing importance|coll|English is of [[increasing importance]].
+increasing importance|coll|Data have taken on [[increasing importance]].
+increasing interest|coll|There is [[increasing interest]] in yoga.
+increasing interest|coll|Students show [[increasing interest]] in science.
+increasing pressure|coll|Workers face [[increasing pressure]].
+increasing pressure|coll|There is [[increasing pressure]] on hospitals.
+increasing proportion of|coll|An [[increasing proportion of]] people shop online.
+increasing proportion of|coll|An [[increasing proportion of]] energy is solar.
+increasing tendency|coll|There is an [[increasing tendency]] to work from home.
+increasing tendency|coll|Teens show an [[increasing tendency]] to sleep late.
+increasing trend|coll|There is an [[increasing trend]] to rent homes.
+increasing trend|coll|The graph shows an [[increasing trend]].
+increasingly aware|coll|Consumers are [[increasingly aware]] of ethics.
+increasingly aware|coll|Teachers are [[increasingly aware]] of stress.
+increasingly common|coll|Remote work is [[increasingly common]].
+increasingly common|coll|Online shopping is [[increasingly common]].
+increasingly complex|coll|Laws are becoming [[increasingly complex]].
+increasingly complex|coll|The world is [[increasingly complex]].
+increasingly difficult|coll|Housing is [[increasingly difficult]] to afford.
+increasingly difficult|coll|It is [[increasingly difficult]] to find staff.
+increasingly important|coll|English is [[increasingly important]].
+increasingly important|coll|Data skills are [[increasingly important]].
+increasingly popular|coll|Cycling is [[increasingly popular]].
+increasingly popular|coll|The app is [[increasingly popular]] among teens.
+increasingly sophisticated|coll|Scams are [[increasingly sophisticated]].
+increasingly sophisticated|coll|Tools are [[increasingly sophisticated]].
+independent state|coll|Kenya became an [[independent state]] in 1963.
+independent state|coll|Each [[independent state]] has its own laws.
+independent variable|coll|Time is the [[independent variable]].
+independent variable|coll|Change the [[independent variable]] and observe the result.
+indigenous people|coll|[[Indigenous people]] protect the forest.
+indigenous people|coll|The law protects [[indigenous people]].
+indigenous population|coll|The [[indigenous population]] fell sharply.
+indigenous population|coll|The [[indigenous population]] speaks its own language.
+individual behavior|coll|[[Individual behavior]] shapes society.
+individual behavior|coll|Stress can change [[individual behavior]].
+individual case|coll|Each [[individual case]] is different.
+individual case|coll|Judges review every [[individual case]].
+individual characteristics|coll|[[Individual characteristics]] affect learning.
+individual characteristics|coll|The test records [[individual characteristics]].
+individual choice|coll|Diet is a matter of [[individual choice]].
+individual choice|coll|[[Individual choice]] matters in a free society.
+individual component|coll|Test each [[individual component]].
+individual component|coll|Each [[individual component]] has a code.
+individual differences|coll|Teachers must consider [[individual differences]].
+individual differences|coll|[[Individual differences]] affect memory.
+individual element|coll|Study each [[individual element]] of the design.
+individual element|coll|Every [[individual element]] must fit.
+individual experience|coll|[[Individual experience]] shapes opinion.
+individual experience|coll|Her [[individual experience]] was different.
+individual interests|coll|Schools should respect [[individual interests]].
+individual interests|coll|[[Individual interests]] may clash with group needs.
+individual item|coll|Each [[individual item]] was checked.
+individual item|coll|Pay for each [[individual item]] separately.
+individual needs|coll|Teachers meet [[individual needs]].
+individual needs|coll|Plans should suit [[individual needs]].
+individual response|coll|Each [[individual response]] was recorded.
+individual response|coll|An [[individual response]] to stress varies.
+individual responsibility|coll|Health is a matter of [[individual responsibility]].
+individual responsibility|coll|[[Individual responsibility]] matters in teams.
+individual rights|coll|The law protects [[individual rights]].
+individual rights|coll|[[Individual rights]] must be balanced with safety.
+individual variable|coll|Test each [[individual variable]] separately.
+individual variable|coll|An [[individual variable]] may affect the result.
+individual variation|coll|There is much [[individual variation]] in sleep.
+individual variation|coll|[[Individual variation]] affects the results.
+industrial capitalism|coll|[[Industrial capitalism]] grew in the 1800s.
+industrial capitalism|coll|Marx criticized [[industrial capitalism]].
+industrial country|coll|Japan is an [[industrial country]].
+industrial country|coll|Every [[industrial country]] uses energy.
+industrial development|coll|[[Industrial development]] raised living standards.
+industrial development|coll|The region needs [[industrial development]].
+industrial production|coll|[[Industrial production]] rose by two per cent.
+industrial production|coll|[[Industrial production]] causes pollution.
+industrial society|coll|Life in an [[industrial society]] is fast.
+industrial society|coll|Work changed in [[industrial society]].
+industrialized country|coll|An [[industrialized country]] uses more energy.
+industrialized country|coll|Every [[industrialized country]] faces pollution.
+industrialized nation|coll|The UK is an [[industrialized nation]].
+industrialized nation|coll|An [[industrialized nation]] needs raw materials.
+increasingly linked to|coll|Obesity is [[increasingly linked to]] diet.
+increasingly linked to|coll|Stress is [[increasingly linked to]] illness.
+infinite number of|coll|There is an [[infinite number of]] stars.
+infinite number of|coll|An [[infinite number of]] answers is possible.
+information flow|coll|Good managers control the [[information flow]].
+information flow|coll|The internet speeds up [[information flow]].
+information gathering|coll|[[Information gathering]] is the first step.
+information gathering|coll|Spies are skilled at [[information gathering]].
+information processing|coll|The brain is good at [[information processing]].
+information processing|coll|Computers do [[information processing]] quickly.
+information retrieval|coll|Libraries use systems for [[information retrieval]].
+information retrieval|coll|Search engines do [[information retrieval]].

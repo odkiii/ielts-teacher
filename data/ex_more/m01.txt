@@ -1,0 +1,400 @@
+begin a process|coll|The council will [[begin a process]] of consultation.
+begin a process|coll|Patients [[begin a process]] of recovery after surgery.
+behave differently|coll|Children often [[behave differently]] at home and at school.
+behave differently|coll|Some animals [[behave differently]] in groups.
+beneficial effect|coll|Exercise has a [[beneficial effect]] on mood.
+beneficial effect|coll|The new law had a [[beneficial effect]] on small firms.
+binary opposition|coll|Day and night form a [[binary opposition]].
+binary opposition|coll|The critic discusses the [[binary opposition]] of good and evil.
+binary system|coll|Computers use a [[binary system]] of zeros and ones.
+binary system|coll|He explained the [[binary system]] to the class.
+biological evolution|coll|[[Biological evolution]] takes millions of years.
+biological evolution|coll|Darwin's work explained [[biological evolution]].
+biological science|coll|She studies [[biological science]] at university.
+biological science|coll|[[Biological science]] has changed medicine.
+biological sex|coll|[[Biological sex]] is recorded at birth.
+biological sex|coll|The form asks for your [[biological sex]].
+brief account|coll|He gave a [[brief account]] of the events.
+brief account|coll|Here is a [[brief account]] of how the firm began.
+brief description|coll|Write a [[brief description]] of your hometown.
+brief description|coll|The label gives a [[brief description]] of the painting.
+brief discussion|coll|We had a [[brief discussion]] before the lesson.
+brief discussion|coll|After a [[brief discussion]], they agreed on a plan.
+brief history|coll|The museum offers a [[brief history]] of the city.
+brief history|coll|He wrote a [[brief history]] of the internet.
+brief introduction|coll|Start your essay with a [[brief introduction]].
+brief introduction|coll|The book begins with a [[brief introduction]] to grammar.
+brief overview|coll|The talk gave a [[brief overview]] of the project.
+brief overview|coll|Here is a [[brief overview]] of the main findings.
+brief period|coll|Prices fell for a [[brief period]].
+brief period|coll|He lived in Spain for a [[brief period]].
+brief review|coll|The paper opens with a [[brief review]] of earlier work.
+brief review|coll|She wrote a [[brief review]] of the film.
+brief summary|coll|Give a [[brief summary]] of the plot.
+brief summary|coll|The abstract is a [[brief summary]] of the article.
+brief time|coll|He stayed for only a [[brief time]].
+brief time|coll|The sun appeared for a [[brief time]].
+briefly describe|coll|Please [[briefly describe]] your job.
+briefly describe|coll|The author [[briefly describes]] the experiment.
+briefly discuss|coll|I will [[briefly discuss]] two causes of stress.
+briefly discuss|coll|The chapter [[briefly discusses]] the history of tea.
+broad agreement|coll|There is [[broad agreement]] on the need for change.
+broad agreement|coll|The two parties reached [[broad agreement]].
+broad category|coll|Foods fall into three [[broad categories]].
+broad category|coll|Jobs can be sorted into a few [[broad categories]].
+broad definition|coll|The law uses a [[broad definition]] of violence.
+broad definition|coll|Some experts prefer a [[broad definition]] of intelligence.
+broad range of|coll|The course covers a [[broad range of]] topics.
+broad range of|coll|The shop sells a [[broad range of]] products.
+broad spectrum|coll|The drug works against a [[broad spectrum]] of bacteria.
+broad spectrum|coll|The festival attracts a [[broad spectrum]] of visitors.
+broader context|coll|Place the event in a [[broader context]].
+broader context|coll|The results must be seen in a [[broader context]].
+broadly defined|coll|Culture is [[broadly defined]] in this study.
+broadly defined|coll|The term is [[broadly defined]] by the law.
+broadly similar|coll|The two systems are [[broadly similar]].
+broadly similar|coll|Their views are [[broadly similar]].
+business sector|coll|The [[business sector]] is growing fast.
+business sector|coll|Jobs in the [[business sector]] pay well.
+business transaction|coll|Record every [[business transaction]] in the book.
+business transaction|coll|The bank checks each large [[business transaction]].
+capitalist country|coll|The US is a [[capitalist country]].
+capitalist country|coll|Many people migrate to a [[capitalist country]].
+capitalist economy|coll|A [[capitalist economy]] relies on free markets.
+capitalist economy|coll|China has moved towards a [[capitalist economy]].
+capitalist society|coll|Critics often attack [[capitalist society]].
+capitalist society|coll|Inequality is common in a [[capitalist society]].
+capitalist system|coll|The [[capitalist system]] rewards profit.
+capitalist system|coll|He argued against the [[capitalist system]].
+capitalist world|coll|The [[capitalist world]] faced a financial crisis.
+capitalist world|coll|Brands compete everywhere in the [[capitalist world]].
+career development|coll|Training supports [[career development]].
+career development|coll|The firm invests in staff [[career development]].
+career opportunity|coll|The job is a great [[career opportunity]].
+career opportunity|coll|Studying abroad can create a new [[career opportunity]].
+careful analysis|coll|[[Careful analysis]] reveals a clear pattern.
+careful analysis|coll|The decision followed [[careful analysis]] of the data.
+careful attention|coll|The issue needs [[careful attention]].
+careful attention|coll|She read the contract with [[careful attention]].
+careful consideration|coll|After [[careful consideration]], we declined the offer.
+careful consideration|coll|The proposal deserves [[careful consideration]].
+careful thought|coll|Choose your topic with [[careful thought]].
+careful thought|coll|The plan was made after [[careful thought]].
+carefully controlled|coll|It was a [[carefully controlled]] experiment.
+carefully controlled|coll|The temperature is [[carefully controlled]] in the lab.
+carefully selected|coll|Use [[carefully selected]] examples in your essay.
+carefully selected|coll|The books were [[carefully selected]] by experts.
+carry information|coll|Nerves [[carry information]] to the brain.
+carry information|coll|Cables [[carry information]] across the ocean.
+carry out the task|coll|Students must [[carry out the task]] alone.
+carry out the task|coll|It took two hours to [[carry out the task]].
+cast doubt on|coll|New data [[cast doubt on]] the theory.
+cast doubt on|coll|The results [[cast doubt on]] his claim.
+causal link|coll|There is a [[causal link]] between the two events.
+causal link|coll|Scientists found no [[causal link]] with the drug.
+causal relation|coll|The study found no [[causal relation]].
+causal relation|coll|A [[causal relation]] is hard to prove.
+causal relationship|coll|A [[causal relationship]] exists between smoking and cancer.
+causal relationship|coll|The data do not show a [[causal relationship]].
+cause consequences|coll|Pollution can [[cause serious consequences]] for health.
+cause consequences|coll|Small mistakes may [[cause serious consequences]].
+cause stress|coll|Noise can [[cause stress]].
+cause stress|coll|Long commutes [[cause stress]] for many workers.
+central authority|coll|A [[central authority]] sets the rules.
+central authority|coll|The state has a strong [[central authority]].
+central concept|coll|Freedom is a [[central concept]] in his work.
+central concept|coll|Energy is a [[central concept]] in physics.
+central concern|coll|Safety is a [[central concern]] for parents.
+central concern|coll|Cost remains the [[central concern]].
+central control|coll|The state keeps [[central control]] over prices.
+central control|coll|Schools want less [[central control]].
+central core|coll|The [[central core]] of the argument is clear.
+central core|coll|Trust is the [[central core]] of any friendship.
+central feature|coll|Speed is a [[central feature]] of the design.
+central feature|coll|A big fountain is the [[central feature]] of the park.
+central focus|coll|Health is the [[central focus]] of the report.
+central focus|coll|Reading is the [[central focus]] of the course.
+central government|coll|[[Central government]] funds local schools.
+central government|coll|Cities depend on [[central government]] for money.
+central importance|coll|Trust is of [[central importance]] in teamwork.
+central importance|coll|Clean water is of [[central importance]] to health.
+central issue|coll|Cost is the [[central issue]] in this debate.
+central issue|coll|The [[central issue]] is how to pay for it.
+central part|coll|Teamwork is a [[central part]] of the job.
+central part|coll|Music is a [[central part]] of their culture.
+central point|coll|Her [[central point]] was very simple.
+central point|coll|The [[central point]] of the lecture was fairness.
+central position|coll|Education holds a [[central position]] in society.
+central position|coll|The shop has a [[central position]] in town.
+central problem|coll|Funding is the [[central problem]] for charities.
+central problem|coll|The [[central problem]] is lack of time.
+central question|coll|The [[central question]] remains unanswered.
+central question|coll|The essay's [[central question]] is whether art matters.
+central role|coll|Women played a [[central role]] in the reform.
+central role|coll|Sleep plays a [[central role]] in memory.
+central tenet|coll|Equality is a [[central tenet]] of the party.
+central tenet|coll|Respect is a [[central tenet]] of the faith.
+central theme|coll|Loss is the [[central theme]] of the novel.
+central theme|coll|Friendship is the [[central theme]] of the film.
+central aspect|coll|Language is a [[central aspect]] of identity.
+central aspect|coll|Trust is a [[central aspect]] of leadership.
+central assumptions|coll|The study challenges [[central assumptions]] of the model.
+central assumptions|coll|Economists question the [[central assumptions]] of the theory.
+central characteristics|coll|List the [[central characteristics]] of the group.
+central characteristics|coll|Honesty is among his [[central characteristics]].
+central circumstances|coll|The [[central circumstances]] of the case are unclear.
+central circumstances|coll|The report explains the [[central circumstances]] of the accident.
+change constantly|coll|Technology [[changes constantly]].
+change constantly|coll|The weather here [[changes constantly]].
+change dramatically|coll|Prices [[changed dramatically]] after the war.
+change dramatically|coll|Cities may [[change dramatically]] within ten years.
+change rapidly|coll|Cities [[change rapidly]] in Asia.
+change rapidly|coll|Fashion can [[change rapidly]].
+change an attitude|coll|Campaigns try to [[change attitudes]] to smoking.
+change an attitude|coll|It is hard to [[change an attitude]] overnight.
+changing attitudes|coll|[[Changing attitudes]] shape public policy.
+changing attitudes|coll|The survey shows [[changing attitudes]] to work.
+changing circumstances|coll|Firms must adapt to [[changing circumstances]].
+changing circumstances|coll|Because of [[changing circumstances]], the trip was cancelled.
+changing nature|coll|The [[changing nature]] of work worries many people.
+changing nature|coll|The essay explores the [[changing nature]] of family.
+changing needs|coll|Schools must meet the [[changing needs]] of pupils.
+changing needs|coll|Cities should respond to the [[changing needs]] of residents.
+changing pattern|coll|There is a [[changing pattern]] of migration.
+changing pattern|coll|The graph shows a [[changing pattern]] of spending.
+changing world|coll|We live in a [[changing world]].
+changing world|coll|Education should prepare students for a [[changing world]].
+characteristic feature|coll|A [[characteristic feature]] of his style is humour.
+characteristic feature|coll|Bright colours are a [[characteristic feature]] of the region.
+chemical reaction|coll|Rust is a [[chemical reaction]] between iron and oxygen.
+chemical reaction|coll|The [[chemical reaction]] produced heat.
+civil case|coll|It is a [[civil case]], not a criminal one.
+civil case|coll|The judge heard the [[civil case]] on Monday.
+civil society|coll|[[Civil society]] groups raise public awareness.
+civil society|coll|A strong [[civil society]] supports democracy.
+class consciousness|coll|Marx wrote about [[class consciousness]].
+class consciousness|coll|[[Class consciousness]] grew among factory workers.
+classic example|coll|This is a [[classic example]] of media bias.
+classic example|coll|Venice is a [[classic example]] of a city built on water.
+classic study|coll|It is a [[classic study]] in psychology.
+classic study|coll|Students still read this [[classic study]].
+classic text|coll|Read the [[classic text]] first.
+classic text|coll|The book is a [[classic text]] in economics.
+classic work|coll|Hamlet is a [[classic work]] of English drama.
+classic work|coll|The film is based on a [[classic work]] of literature.
+classical theory|coll|[[Classical theory]] predicts that markets reach balance.
+classical theory|coll|The new data challenge [[classical theory]].
+clear boundary|coll|There is no [[clear boundary]] between the two subjects.
+clear boundary|coll|Parents should set a [[clear boundary]] for screen time.
+clear distinction|coll|Make a [[clear distinction]] between fact and opinion.
+clear distinction|coll|There is a [[clear distinction]] between the two terms.
+clear evidence|coll|There is [[clear evidence]] of harm.
+clear evidence|coll|The photos provide [[clear evidence]] of damage.
+clear focus|coll|The essay needs a [[clear focus]].
+clear focus|coll|Good lessons have a [[clear focus]].
+clear indication|coll|It is a [[clear indication]] of progress.
+clear indication|coll|The results give a [[clear indication]] of demand.
+clear relationship|coll|There is a [[clear relationship]] between income and health.
+clear relationship|coll|The chart shows a [[clear relationship]] between age and risk.
+clear statement|coll|Write a [[clear statement]] of purpose.
+clear statement|coll|The minister made a [[clear statement]] on taxes.
+clear structure|coll|A good essay has a [[clear structure]].
+clear structure|coll|The talk had a [[clear structure]].
+clearly defined|coll|Set [[clearly defined]] goals.
+clearly defined|coll|Each role is [[clearly defined]].
+clearly demonstrated|coll|The effect was [[clearly demonstrated]] in the lab.
+clearly demonstrated|coll|Her skill was [[clearly demonstrated]] on stage.
+clearly established|coll|The link is [[clearly established]].
+clearly established|coll|Rules must be [[clearly established]] on the first day.
+clearly evident|coll|The change is [[clearly evident]] in the data.
+clearly evident|coll|His talent was [[clearly evident]] from an early age.
+clearly identified|coll|Risks must be [[clearly identified]].
+clearly identified|coll|The causes were [[clearly identified]] by researchers.
+clearly important|coll|Sleep is [[clearly important]] for learning.
+clearly important|coll|Fresh water is [[clearly important]] for life.
+clearly related to|coll|Stress is [[clearly related to]] illness.
+clearly related to|coll|Poor results are [[clearly related to]] lack of sleep.
+clearly understand|coll|Students must [[clearly understand]] the task.
+clearly understand|coll|Make sure you [[clearly understand]] the question.
+clearly visible|coll|The damage is [[clearly visible]] from the road.
+clearly visible|coll|The stars are [[clearly visible]] here.
+climate change|coll|[[Climate change]] threatens coastal cities.
+climate change|coll|Schools teach pupils about [[climate change]].
+climatic conditions|coll|Crops depend on [[climatic conditions]].
+climatic conditions|coll|Harsh [[climatic conditions]] make farming difficult.
+close contact|coll|Avoid [[close contact]] with sick people.
+close contact|coll|They stayed in [[close contact]] by email.
+close proximity|coll|They live in [[close proximity]] to the school.
+close proximity|coll|Shops in [[close proximity]] share customers.
+close relationship|coll|They have a [[close relationship]].
+close relationship|coll|A [[close relationship]] with a teacher helps learning.
+close scrutiny|coll|The plan came under [[close scrutiny]].
+close scrutiny|coll|Her work was subject to [[close scrutiny]].
+closely allied to|coll|The two fields are [[closely allied to]] each other.
+closely allied to|coll|Psychology is [[closely allied to]] medicine.
+closely associated with|coll|Diet is [[closely associated with]] health.
+closely associated with|coll|The festival is [[closely associated with]] spring.
+closely connected to|coll|Language is [[closely connected to]] culture.
+closely connected to|coll|Sleep is [[closely connected to]] mood.
+closely linked to|coll|Poverty is [[closely linked to]] crime.
+closely linked to|coll|Obesity is [[closely linked to]] diet.
+closely related to|coll|The two ideas are [[closely related to]] each other.
+closely related to|coll|Wolves are [[closely related to]] dogs.
+closely resemble|coll|Twins often [[closely resemble]] each other.
+closely resemble|coll|The copies [[closely resemble]] the original.
+closely tied|coll|Income is [[closely tied]] to education.
+closely tied|coll|Her success is [[closely tied]] to hard work.
+closer examination|coll|On [[closer examination]], the claim fails.
+closer examination|coll|The painting needs [[closer examination]].
+closer inspection|coll|On [[closer inspection]], the watch was fake.
+closer inspection|coll|[[Closer inspection]] revealed small cracks.
+closer look|coll|Take a [[closer look]] at the graph.
+closer look|coll|A [[closer look]] shows some errors.
+cognitive ability|coll|Sleep affects [[cognitive ability]].
+cognitive ability|coll|Tests measure a child's [[cognitive ability]].
+cognitive development|coll|Play supports [[cognitive development]].
+cognitive development|coll|Reading aloud boosts [[cognitive development]].
+cognitive skills|coll|Puzzles train [[cognitive skills]].
+cognitive skills|coll|Older adults can improve their [[cognitive skills]].
+collaborative learning|coll|[[Collaborative learning]] builds teamwork.
+collaborative learning|coll|The school promotes [[collaborative learning]].
+collect data|coll|Scientists [[collect data]] in the field.
+collect data|coll|We used a survey to [[collect data]].
+collect information|coll|Police [[collect information]] from witnesses.
+collect information|coll|Use a form to [[collect information]] from customers.
+collective action|coll|[[Collective action]] can protect the environment.
+collective action|coll|Workers took [[collective action]] for better pay.
+collective identity|coll|Shared food builds a [[collective identity]].
+collective identity|coll|Language shapes a [[collective identity]].
+collective memory|coll|War remains part of the nation's [[collective memory]].
+collective memory|coll|Museums keep a [[collective memory]] alive.
+combined effect|coll|The [[combined effect]] of heat and noise was harmful.
+combined effect|coll|The [[combined effect]] of the two drugs is unknown.
+come into conflict with|coll|Old customs sometimes [[come into conflict with]] new laws.
+come into conflict with|coll|The company [[came into conflict with]] local residents.
+come into contact with|coll|Wash your hands if you [[come into contact with]] chemicals.
+come into contact with|coll|Children [[come into contact with]] many new ideas at school.
+commercial activity|coll|[[Commercial activity]] slows in winter.
+commercial activity|coll|The port is a hub of [[commercial activity]].
+commercial transaction|coll|Each [[commercial transaction]] must be recorded.
+commercial transaction|coll|The law covers every [[commercial transaction]].
+commit a crime|coll|Some people [[commit a crime]] out of need.
+commit a crime|coll|He was punished for [[committing a crime]].
+commit an offence|coll|It is illegal to [[commit an offence]] online.
+commit an offence|coll|He [[committed an offence]] and paid a fine.
+common ancestor|coll|Humans and apes share a [[common ancestor]].
+common ancestor|coll|Scientists traced the [[common ancestor]] of the two species.
+common approach|coll|A [[common approach]] is to ask users directly.
+common approach|coll|Schools take a [[common approach]] to homework.
+common assumption|coll|It is a [[common assumption]] that money brings happiness.
+common assumption|coll|The study challenges a [[common assumption]].
+common characteristic|coll|Honesty is a [[common characteristic]] of good leaders.
+common characteristic|coll|They share a [[common characteristic]]: curiosity.
+common culture|coll|Language gives people a [[common culture]].
+common culture|coll|The region shares a [[common culture]].
+common error|coll|Spelling is a [[common error]] among learners.
+common error|coll|It is a [[common error]] to forget the article.
+common feature|coll|Noise is a [[common feature]] of big cities.
+common feature|coll|Hills are a [[common feature]] of the area.
+common goal|coll|The team shares a [[common goal]].
+common goal|coll|Nations work towards a [[common goal]].
+common method|coll|Surveys are a [[common method]] in social science.
+common method|coll|A [[common method]] is to compare two groups.
+common source|coll|Coal is a [[common source]] of energy.
+common source|coll|The two stories have a [[common source]].
+common theme|coll|Loneliness is a [[common theme]] in his poems.
+common theme|coll|A [[common theme]] runs through all the essays.
+common usage|coll|The word is now in [[common usage]].
+common usage|coll|Dictionaries record [[common usage]].
+commonly accepted|coll|It is [[commonly accepted]] that exercise is healthy.
+commonly accepted|coll|This is a [[commonly accepted]] rule of grammar.
+commonly associated with|coll|Red is [[commonly associated with]] danger.
+commonly associated with|coll|Tea is [[commonly associated with]] England.
+commonly called|coll|The disease is [[commonly called]] flu.
+commonly called|coll|The tool is [[commonly called]] a hammer.
+commonly encountered|coll|This is a [[commonly encountered]] problem in schools.
+commonly encountered|coll|The error is [[commonly encountered]] by beginners.
+commonly found in|coll|Iron is [[commonly found in]] red meat.
+commonly found in|coll|Such birds are [[commonly found in]] wetlands.
+commonly known as|coll|The condition is [[commonly known as]] hay fever.
+commonly known as|coll|He is [[commonly known as]] Bob.
+commonly referred to as|coll|The tower is [[commonly referred to as]] Big Ben.
+commonly referred to as|coll|The period is [[commonly referred to as]] the Renaissance.
+commonly used|coll|English is [[commonly used]] in business.
+commonly used|coll|This drug is [[commonly used]] to treat pain.
+communicate effectively|coll|Good managers [[communicate effectively]].
+communicate effectively|coll|Learn to [[communicate effectively]] in an interview.
+comparative analysis|coll|The paper offers a [[comparative analysis]] of two systems.
+comparative analysis|coll|A [[comparative analysis]] shows similar results.
+comparative research|coll|[[Comparative research]] across countries is useful.
+comparative research|coll|She carried out [[comparative research]] on schools.
+comparative study|coll|A [[comparative study]] of three cities was published.
+comparative study|coll|He is writing a [[comparative study]] of two poets.
+compelling argument|coll|She made a [[compelling argument]] for change.
+compelling argument|coll|There is a [[compelling argument]] against the plan.
+compelling evidence|coll|There is [[compelling evidence]] of climate change.
+compelling evidence|coll|The court heard [[compelling evidence]].
+compelling reason|coll|There is no [[compelling reason]] to wait.
+compelling reason|coll|He gave a [[compelling reason]] for leaving.
+competitive market|coll|It is a [[competitive market]] for new phones.
+competitive market|coll|Firms in a [[competitive market]] cut prices.
+competitive pressure|coll|[[Competitive pressure]] forced the firm to innovate.
+competitive pressure|coll|Students face [[competitive pressure]] to get top grades.
+complete a task|coll|It took an hour to [[complete the task]].
+complete a task|coll|Learners must [[complete a task]] in ten minutes.
+complex area|coll|Law is a [[complex area]] of study.
+complex area|coll|Tax is a [[complex area]] for most people.
+complex interaction|coll|It is a [[complex interaction]] of genes and diet.
+complex interaction|coll|The [[complex interaction]] between the two groups is unclear.
+complex issue|coll|Immigration is a [[complex issue]].
+complex issue|coll|It is a [[complex issue]] with no easy answer.
+complex pattern|coll|The birds follow a [[complex pattern]] of migration.
+complex pattern|coll|The data show a [[complex pattern]].
+complex problem|coll|Climate change is a [[complex problem]].
+complex problem|coll|Teams solve a [[complex problem]] together.
+complex process|coll|Learning a language is a [[complex process]].
+complex process|coll|Making steel is a [[complex process]].
+complex question|coll|It is a [[complex question]] without a simple answer.
+complex question|coll|Students struggled with the [[complex question]].
+complex relationship|coll|He has a [[complex relationship]] with his father.
+complex relationship|coll|The essay explores the [[complex relationship]] between art and money.
+complex set of|coll|There is a [[complex set of]] reasons for the change.
+complex set of|coll|The system has a [[complex set of]] rules.
+complex situation|coll|The country is in a [[complex situation]].
+complex situation|coll|Doctors faced a [[complex situation]].
+complex structure|coll|The brain has a [[complex structure]].
+complex structure|coll|The bridge has a [[complex structure]] of steel beams.
+complex system|coll|The body is a [[complex system]].
+complex system|coll|The city's transport is a [[complex system]].
+comprehensive account|coll|The book gives a [[comprehensive account]] of the war.
+comprehensive account|coll|She wrote a [[comprehensive account]] of her trip.
+comprehensive approach|coll|We need a [[comprehensive approach]] to health.
+comprehensive approach|coll|The school takes a [[comprehensive approach]] to safety.
+comprehensive overview|coll|The report provides a [[comprehensive overview]] of trends.
+comprehensive overview|coll|He gave a [[comprehensive overview]] of the project.
+comprehensive review|coll|A [[comprehensive review]] of the law is needed.
+comprehensive review|coll|The team carried out a [[comprehensive review]].
+comprehensive system|coll|The city built a [[comprehensive system]] of bike lanes.
+comprehensive system|coll|It is a [[comprehensive system]] for tracking sales.
+conceptual framework|coll|The paper sets out a [[conceptual framework]].
+conceptual framework|coll|A clear [[conceptual framework]] helps researchers.
+concerted effort|coll|It took a [[concerted effort]] to clean the river.
+concerted effort|coll|A [[concerted effort]] is needed to cut waste.
+concluding remarks|coll|In her [[concluding remarks]], she thanked the team.
+concluding remarks|coll|The speaker made a few [[concluding remarks]].
+concluding section|coll|The [[concluding section]] sums up the main points.
+concluding section|coll|Read the [[concluding section]] first.
+concluding probability|coll|The [[concluding probability]] was reported at the end.
+concluding probability|coll|Statisticians explained the [[concluding probability]] in the final table.
+conduct research|coll|Universities [[conduct research]] in many fields.
+conduct research|coll|She plans to [[conduct research]] on sleep.
+conduct a study|coll|They will [[conduct a study]] on diet.
+conduct a study|coll|Doctors [[conducted a study]] of 2,000 patients.
+conduct an analysis|coll|Analysts [[conducted an analysis]] of sales.
+conduct an analysis|coll|We need to [[conduct an analysis]] of the risks.
+conduct an interview|coll|Journalists [[conduct an interview]] with the mayor.
+conduct an interview|coll|It is hard to [[conduct an interview]] by phone.
+conflict resolution|coll|Schools teach [[conflict resolution]] skills.
+conflict resolution|coll|The course focuses on [[conflict resolution]].
+conflicting interests|coll|Politicians often face [[conflicting interests]].
+conflicting interests|coll|The two groups have [[conflicting interests]] in the land.

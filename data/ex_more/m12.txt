@@ -1,0 +1,252 @@
+underlying process|coll|The study explains the [[underlying process]] of ageing.
+underlying process|coll|Learn the [[underlying process]], not just the steps.
+underlying reason|coll|The [[underlying reason]] is lack of trust.
+underlying reason|coll|There is an [[underlying reason]] for the delay.
+underlying structure|coll|The [[underlying structure]] of the essay is clear.
+underlying structure|coll|Grammar shows the [[underlying structure]] of a language.
+undertake research|coll|Students [[undertake research]] in their final year.
+undertake research|coll|The firm will [[undertake research]] into sleep.
+undertake work|coll|Volunteers [[undertake work]] in the park.
+undertake work|coll|Builders [[undertake work]] on the bridge.
+undertake an activity|coll|Children [[undertake an activity]] each week.
+undertake an activity|coll|Do not [[undertake an activity]] without a guide.
+unequal power|coll|There is [[unequal power]] between the two sides.
+unequal power|coll|[[Unequal power]] causes conflict.
+unfair treatment|coll|Workers complained of [[unfair treatment]].
+unfair treatment|coll|The law bans [[unfair treatment]].
+unintended consequences|coll|Laws can have [[unintended consequences]].
+unintended consequences|coll|The ban led to [[unintended consequences]].
+unique individual|coll|Every child is a [[unique individual]].
+unique individual|coll|Teachers treat each pupil as a [[unique individual]].
+unique opportunity|coll|It is a [[unique opportunity]] to travel.
+unique opportunity|coll|The course is a [[unique opportunity]] to learn.
+unique position|coll|The city is in a [[unique position]] on the coast.
+unique position|coll|She holds a [[unique position]] in the firm.
+universally accepted|coll|The rule is [[universally accepted]].
+universally accepted|coll|No [[universally accepted]] definition exists.
+unlimited access|coll|Members get [[unlimited access]] to the gym.
+unlimited access|coll|The card gives [[unlimited access]] to buses.
+unskilled worker|coll|An [[unskilled worker]] earns little.
+unskilled worker|coll|The factory hires [[unskilled workers]].
+urban area|coll|Most people live in an [[urban area]].
+urban area|coll|Traffic is heavy in an [[urban area]].
+urban center|coll|The city is a major [[urban center]].
+urban center|coll|Jobs concentrate in an [[urban center]].
+urban design|coll|Good [[urban design]] reduces traffic.
+urban design|coll|She studies [[urban design]].
+urban development|coll|[[Urban development]] brings new homes.
+urban development|coll|The plan controls [[urban development]].
+urban environment|coll|Noise is common in an [[urban environment]].
+urban environment|coll|Trees improve the [[urban environment]].
+use criteria|coll|Judges [[use criteria]] to mark essays.
+use criteria|coll|Please [[use criteria]] to choose a topic.
+use effectively|coll|Learn to [[use time effectively]].
+use effectively|coll|Tools help teachers [[use resources effectively]].
+use resources|coll|Schools must [[use resources]] wisely.
+use resources|coll|Firms [[use resources]] such as water and energy.
+use sparingly|coll|[[Use salt sparingly]].
+use sparingly|coll|Paper should be [[used sparingly]].
+use statistics|coll|Journalists [[use statistics]] to support claims.
+use statistics|coll|Writers often [[use statistics]] in essays.
+use a format|coll|Please [[use the format]] shown.
+use a format|coll|Reports [[use a format]] with headings.
+use a method|coll|Researchers [[use a method]] called sampling.
+use a method|coll|The team [[used a new method]].
+use a methodology|coll|The paper [[uses a methodology]] based on surveys.
+use a methodology|coll|Explain why you [[use this methodology]].
+use a procedure|coll|Nurses [[use a procedure]] for each test.
+use a procedure|coll|Always [[use the correct procedure]].
+use a source|coll|Always cite a source you [[use]] in your essay.
+use a source|coll|Writers [[use a source]] to back claims.
+use a strategy|coll|Good readers [[use a strategy]] when stuck.
+use a strategy|coll|The team [[used a strategy]] of waiting.
+use a technique|coll|Artists [[use a technique]] known as glazing.
+use a technique|coll|Learners [[use a technique]] such as flashcards.
+use a theory|coll|Scientists [[use a theory]] to explain facts.
+use a theory|coll|The author [[uses a theory]] of learning.
+use an analysis|coll|The report [[uses an analysis]] of sales.
+use an analysis|coll|Managers [[use an analysis]] to decide.
+use an approach|coll|The school [[uses an approach]] based on play.
+use an approach|coll|We [[use a different approach]] in class.
+use a definition|coll|The study [[uses a definition]] of poverty.
+use a definition|coll|Please [[use a definition]] from a dictionary.
+use the concept|coll|Economists [[use the concept]] of supply.
+use the concept|coll|The author [[uses the concept]] of freedom.
+use the data|coll|Researchers [[use the data]] to test ideas.
+use the data|coll|Please [[use the data]] in the table.
+useful information|coll|The website gives [[useful information]].
+useful information|coll|This leaflet has [[useful information]].
+useful material|coll|The library has [[useful material]].
+useful material|coll|Find [[useful material]] for your essay.
+useful means|coll|A map is a [[useful means]] of finding places.
+useful means|coll|Diaries are a [[useful means]] of reflection.
+useful source|coll|Newspapers are a [[useful source]] of news.
+useful source|coll|The site is a [[useful source]] of data.
+useful summary|coll|The table gives a [[useful summary]].
+useful summary|coll|Write a [[useful summary]] of the chapter.
+useful tool|coll|A dictionary is a [[useful tool]].
+useful tool|coll|Charts are a [[useful tool]] for data.
+valid argument|coll|She made a [[valid argument]].
+valid argument|coll|It is a [[valid argument]], but not strong.
+valuable information|coll|The report gives [[valuable information]].
+valuable information|coll|Interviews give [[valuable information]].
+valuable resources|coll|Libraries are [[valuable resources]].
+valuable resources|coll|Water and soil are [[valuable resources]].
+various aspects|coll|The course covers [[various aspects]] of law.
+various aspects|coll|The paper discusses [[various aspects]] of diet.
+vary considerably|coll|Prices [[vary considerably]] between shops.
+vary considerably|coll|Opinions [[vary considerably]].
+vary greatly|coll|Climates [[vary greatly]] across the country.
+vary greatly|coll|Results [[vary greatly]] by age.
+vary significantly|coll|Pay can [[vary significantly]] by region.
+vary significantly|coll|Rents [[vary significantly]] by city.
+vary widely|coll|Teaching methods [[vary widely]].
+vary widely|coll|Views [[vary widely]] on this.
+varying degree|coll|Children learn to a [[varying degree]].
+varying degree|coll|All schools are affected to a [[varying degree]].
+vast amount of|coll|The firm holds a [[vast amount of]] data.
+vast amount of|coll|It takes a [[vast amount of]] energy.
+vast area|coll|The forest covers a [[vast area]].
+vast area|coll|Russia is a [[vast area]] of land.
+vast array of|coll|The shop sells a [[vast array of]] goods.
+vast array of|coll|The festival offers a [[vast array of]] music.
+vast majority|coll|The [[vast majority]] of voters agreed.
+vast majority|coll|The [[vast majority]] of students passed.
+vast number|coll|A [[vast number]] of people attended.
+vast number|coll|A [[vast number]] of books were lost.
+vast quantities of|coll|Factories use [[vast quantities of]] water.
+vast quantities of|coll|The city produces [[vast quantities of]] waste.
+vast range of|coll|The library has a [[vast range of]] books.
+vast range of|coll|The course covers a [[vast range of]] topics.
+verbal communication|coll|[[Verbal communication]] uses words.
+verbal communication|coll|Tone matters in [[verbal communication]].
+verbal language|coll|[[Verbal language]] differs from body language.
+verbal language|coll|Babies learn [[verbal language]] by listening.
+vested interest|coll|Banks have a [[vested interest]] in stability.
+vested interest|coll|Some groups have a [[vested interest]] in the status quo.
+virtual community|coll|Gamers form a [[virtual community]].
+virtual community|coll|A [[virtual community]] shares tips online.
+virtually impossible|coll|It is [[virtually impossible]] to park here.
+virtually impossible|coll|The task seemed [[virtually impossible]].
+visual image|coll|A [[visual image]] helps memory.
+visual image|coll|The ad uses a strong [[visual image]].
+visual media|coll|[[Visual media]] shape opinion.
+visual media|coll|Teens use [[visual media]] daily.
+visual perception|coll|Light affects [[visual perception]].
+visual perception|coll|The study tests [[visual perception]].
+visual representation|coll|A graph is a [[visual representation]] of data.
+visual representation|coll|The map is a [[visual representation]] of the city.
+vital importance|coll|Water is of [[vital importance]].
+vital importance|coll|Sleep is of [[vital importance]] for children.
+vital part|coll|Practice is a [[vital part]] of learning.
+vital part|coll|Water is a [[vital part]] of life.
+vital role|coll|Bees play a [[vital role]] in farming.
+vital role|coll|Teachers play a [[vital role]] in society.
+vulnerable group|coll|Children are a [[vulnerable group]].
+vulnerable group|coll|Aid targets each [[vulnerable group]].
+welfare reform|coll|The party promised [[welfare reform]].
+welfare reform|coll|[[Welfare reform]] cut costs.
+well aware|coll|I am [[well aware]] of the risks.
+well aware|coll|Teachers are [[well aware]] of the problem.
+well designed|coll|It is a [[well designed]] app.
+well designed|coll|The test is [[well designed]].
+well documented|coll|The effect is [[well documented]].
+well documented|coll|It is a [[well documented]] problem.
+well educated|coll|She is a [[well educated]] woman.
+well educated|coll|A [[well educated]] workforce attracts firms.
+well established|coll|The firm is [[well established]].
+well established|coll|It is a [[well established]] method.
+well received|coll|The film was [[well received]].
+well received|coll|Her speech was [[well received]].
+western democracy|coll|Each [[western democracy]] has its own system.
+western democracy|coll|The UK is a [[western democracy]].
+western society|coll|Obesity is common in [[western society]].
+western society|coll|Change came fast to [[western society]].
+western tradition|coll|Law is part of the [[western tradition]].
+western tradition|coll|Philosophy began in the [[western tradition]] in Greece.
+whole area|coll|The [[whole area]] was flooded.
+whole area|coll|Rain fell across the [[whole area]].
+whole period|coll|Prices rose over the [[whole period]].
+whole period|coll|The [[whole period]] was calm.
+whole range of|coll|The shop sells a [[whole range of]] goods.
+whole range of|coll|The course covers a [[whole range of]] topics.
+wide area|coll|The signal covers a [[wide area]].
+wide area|coll|Fires spread over a [[wide area]].
+wide array of|coll|The store offers a [[wide array of]] products.
+wide array of|coll|The menu has a [[wide array of]] dishes.
+wide range of|coll|The shop sells a [[wide range of]] books.
+wide range of|coll|The course covers a [[wide range of]] topics.
+wide variation|coll|There is [[wide variation]] in prices.
+wide variation|coll|Results show [[wide variation]] by region.
+widely accepted|coll|The theory is [[widely accepted]].
+widely accepted|coll|It is a [[widely accepted]] rule.
+widely adopted|coll|The method is [[widely adopted]].
+widely adopted|coll|The standard was [[widely adopted]] by schools.
+widely available|coll|The drug is [[widely available]].
+widely available|coll|Fresh fruit is [[widely available]] here.
+widely believed|coll|It is [[widely believed]] that sleep helps memory.
+widely believed|coll|The myth is [[widely believed]].
+widely different|coll|The two systems are [[widely different]].
+widely different|coll|Opinions are [[widely different]].
+widely discussed|coll|The topic is [[widely discussed]].
+widely discussed|coll|It is a [[widely discussed]] problem.
+widely dispersed|coll|The group is [[widely dispersed]].
+widely dispersed|coll|Villages are [[widely dispersed]] in the hills.
+widely distributed|coll|The book is [[widely distributed]].
+widely distributed|coll|The species is [[widely distributed]].
+widely known|coll|The author is [[widely known]].
+widely known|coll|It is a [[widely known]] fact.
+widely read|coll|The book is [[widely read]].
+widely read|coll|He is a [[widely read]] author.
+widely recognized|coll|The brand is [[widely recognized]].
+widely recognized|coll|It is a [[widely recognized]] problem.
+widely regarded as|coll|She is [[widely regarded as]] a great writer.
+widely regarded as|coll|The film is [[widely regarded as]] a classic.
+widely shared|coll|The view is [[widely shared]].
+widely shared|coll|The video was [[widely shared]].
+widely used|coll|The tool is [[widely used]].
+widely used|coll|It is a [[widely used]] method.
+wider audience|coll|The show reached a [[wider audience]].
+wider audience|coll|Social media gives writers a [[wider audience]].
+wider community|coll|The school serves the [[wider community]].
+wider community|coll|The project helps the [[wider community]].
+wider context|coll|See the issue in a [[wider context]].
+wider context|coll|The result matters in a [[wider context]].
+wider implications|coll|The decision has [[wider implications]].
+wider implications|coll|Consider the [[wider implications]].
+wider issue|coll|Cost is part of a [[wider issue]].
+wider issue|coll|The case raises a [[wider issue]].
+wider public|coll|The report reached the [[wider public]].
+wider public|coll|Share the findings with the [[wider public]].
+wider society|coll|Schools serve [[wider society]].
+wider society|coll|The change affects [[wider society]].
+widespread acceptance|coll|The idea gained [[widespread acceptance]].
+widespread acceptance|coll|There is [[widespread acceptance]] of the rule.
+widespread belief|coll|It is a [[widespread belief]] that money buys happiness.
+widespread belief|coll|There is a [[widespread belief]] in luck.
+widespread support|coll|The plan has [[widespread support]].
+widespread support|coll|The law gained [[widespread support]].
+widespread use|coll|Phones are in [[widespread use]].
+widespread use|coll|The [[widespread use]] of cars causes pollution.
+work effectively|coll|Teams [[work effectively]] when they trust each other.
+work effectively|coll|Learn to [[work effectively]] under pressure.
+written comment|coll|The teacher left a [[written comment]].
+written comment|coll|Send a [[written comment]] by Friday.
+written communication|coll|Good [[written communication]] is vital.
+written communication|coll|Emails are [[written communication]].
+written statement|coll|The witness gave a [[written statement]].
+written statement|coll|The firm issued a [[written statement]].
+younger generation|coll|The [[younger generation]] uses phones more.
+younger generation|coll|Teachers shape the [[younger generation]].
+a slight increase|coll|There was [[a slight increase]] in sales.
+a slight increase|coll|The graph shows [[a slight increase]] in prices.
+a gradual decline|coll|There was [[a gradual decline]] in birth rates.
+a gradual decline|coll|The chart shows [[a gradual decline]] in sales.
+a steady rise|coll|There was [[a steady rise]] in temperatures.
+a steady rise|coll|The graph shows [[a steady rise]] in users.
+a dramatic fall|coll|There was [[a dramatic fall]] in prices.
+a dramatic fall|coll|The graph shows [[a dramatic fall]] in sales.
+a significant drop|coll|There was [[a significant drop]] in crime.
+a significant drop|coll|The chart shows [[a significant drop]] in income.
+a marked increase|coll|There was [[a marked increase]] in demand.
+a marked increase|coll|The data show [[a marked increase]] in sales.

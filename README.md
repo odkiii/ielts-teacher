@@ -95,3 +95,9 @@ python3 scripts/check_links.py   # проверка ссылок в базе р�
 ## 📄 Лицензия
 
 [MIT](LICENSE) — используй, форкай, улучшай.
+
+## Word popup, three examples, error check
+
+- Tap any English word in an example to see its translation, IPA transcription (US, from CMUdict) and hear it. Translations come from the deck itself (`scripts/build_lex.py` → `app/data/lex.json`); words not in the deck get a machine translation from MyMemory, cached in the browser.
+- Every collocation has three example sentences (`data/ex_more/*.txt`, merged by `scripts/build_deck.py`); they rotate between reviews and drills.
+- Sentences and texts you write are checked for grammar and word-combination errors with the public LanguageTool API. The text you check is sent to api.languagetool.org; nothing is sent for other screens.

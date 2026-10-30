@@ -1,0 +1,400 @@
+consider appropriate|coll|Do what you [[consider appropriate]] in the situation.
+consider appropriate|coll|The judge will [[consider appropriate]] penalties.
+consider relevant|coll|Include any facts you [[consider relevant]].
+consider relevant|coll|The panel will [[consider relevant]] evidence only.
+consider a possibility|coll|We should [[consider the possibility]] of delay.
+consider a possibility|coll|Doctors must [[consider every possibility]].
+consider an aspect|coll|The essay should [[consider this aspect]] of the problem.
+consider an aspect|coll|Let us [[consider another aspect]] of the plan.
+consider an issue|coll|Councils must [[consider the issue]] of parking.
+consider an issue|coll|Voters [[consider the issue]] of tax carefully.
+consider the impact of|coll|Planners must [[consider the impact of]] new roads.
+consider the impact of|coll|We should [[consider the impact of]] social media on teens.
+consider the implications|coll|Leaders must [[consider the implications]] of their choices.
+consider the implications|coll|Please [[consider the implications]] before you sign.
+consider the role of|coll|The report [[considers the role of]] parents in learning.
+consider the role of|coll|Let us [[consider the role of]] luck in success.
+considerable amount of|coll|It takes a [[considerable amount of]] time to learn Chinese.
+considerable amount of|coll|The project needs a [[considerable amount of]] money.
+considerable attention|coll|The case received [[considerable attention]] in the press.
+considerable attention|coll|The topic has attracted [[considerable attention]].
+considerable debate|coll|There is [[considerable debate]] about the best method.
+considerable debate|coll|The law caused [[considerable debate]].
+considerable degree of|coll|The task requires a [[considerable degree of]] skill.
+considerable degree of|coll|There is a [[considerable degree of]] uncertainty.
+considerable detail|coll|The guide explains the rules in [[considerable detail]].
+considerable detail|coll|He described the trip in [[considerable detail]].
+considerable effort|coll|Learning to swim took [[considerable effort]].
+considerable effort|coll|With [[considerable effort]], she passed the exam.
+considerable evidence|coll|There is [[considerable evidence]] for this view.
+considerable evidence|coll|The team collected [[considerable evidence]].
+considerable extent|coll|Success depends to a [[considerable extent]] on luck.
+considerable extent|coll|The problem has grown to a [[considerable extent]].
+considerable importance|coll|The treaty was of [[considerable importance]].
+considerable importance|coll|Sleep is of [[considerable importance]] to health.
+considerable influence|coll|Parents have [[considerable influence]] on children.
+considerable influence|coll|The media exert [[considerable influence]] on opinion.
+considerable interest|coll|The film aroused [[considerable interest]].
+considerable interest|coll|She showed [[considerable interest]] in art.
+considerable research|coll|There has been [[considerable research]] into sleep.
+considerable research|coll|The topic needs [[considerable research]].
+considerable support|coll|The plan has [[considerable support]] among voters.
+considerable support|coll|The idea gained [[considerable support]].
+considerable variation|coll|There is [[considerable variation]] in prices.
+considerable variation|coll|The data show [[considerable variation]] by region.
+consistent pattern|coll|The data show a [[consistent pattern]].
+consistent pattern|coll|There is a [[consistent pattern]] of growth.
+consistent results|coll|The tests gave [[consistent results]].
+consistent results|coll|Good methods produce [[consistent results]].
+constant rate|coll|Water flows at a [[constant rate]].
+constant rate|coll|Prices rose at a [[constant rate]].
+constituent elements|coll|Scientists studied the [[constituent elements]] of the rock.
+constituent elements|coll|List the [[constituent elements]] of the system.
+constituent parts|coll|Break the machine into its [[constituent parts]].
+constituent parts|coll|The [[constituent parts]] of the mixture were separated.
+contain information|coll|The leaflet [[contains information]] about side effects.
+contain information|coll|Each file [[contains information]] about one customer.
+contain an element of|coll|The story [[contains an element of]] truth.
+contain an element of|coll|Every joke [[contains an element of]] surprise.
+contemporary debate|coll|It is a key topic in the [[contemporary debate]].
+contemporary debate|coll|The [[contemporary debate]] centres on privacy.
+contemporary issue|coll|Pollution is a [[contemporary issue]].
+contemporary issue|coll|The course explores a [[contemporary issue]] each week.
+contemporary life|coll|Stress is part of [[contemporary life]].
+contemporary life|coll|The novel describes [[contemporary life]] in Tokyo.
+contemporary society|coll|Technology shapes [[contemporary society]].
+contemporary society|coll|Debt is common in [[contemporary society]].
+contemporary world|coll|English is vital in the [[contemporary world]].
+contemporary world|coll|Many problems of the [[contemporary world]] are global.
+contextual factors|coll|[[Contextual factors]] affect how people read.
+contextual factors|coll|The study took [[contextual factors]] into account.
+continued existence|coll|The [[continued existence]] of the species is at risk.
+continued existence|coll|They fight for the [[continued existence]] of the school.
+continued growth|coll|The firm expects [[continued growth]].
+continued growth|coll|[[Continued growth]] needs more investment.
+continued use|coll|The [[continued use]] of coal harms the air.
+continued use|coll|[[Continued use]] of the drug can cause problems.
+continuous process|coll|Learning is a [[continuous process]].
+continuous process|coll|Improvement is a [[continuous process]] in the factory.
+contribute significantly|coll|Diet can [[contribute significantly]] to health.
+contribute significantly|coll|Tourism [[contributes significantly]] to the economy.
+contribute to the development of|coll|Play can [[contribute to the development of]] language.
+contribute to the development of|coll|Trade has [[contributed to the development of]] cities.
+controversial issue|coll|Tax is a [[controversial issue]].
+controversial issue|coll|It is a [[controversial issue]] among parents.
+conventional view|coll|The [[conventional view]] is that money brings happiness.
+conventional view|coll|The study challenges the [[conventional view]].
+conventional wisdom|coll|[[Conventional wisdom]] says breakfast is vital.
+conventional wisdom|coll|Her findings contradict [[conventional wisdom]].
+convey information|coll|Charts [[convey information]] clearly.
+convey information|coll|Signs [[convey information]] to drivers.
+convey meaning|coll|Tone can [[convey meaning]] as well as words.
+convey meaning|coll|Gestures [[convey meaning]] without speech.
+convey a message|coll|The poster [[conveys a message]] about safety.
+convey a message|coll|Music can [[convey a message]] to a wide audience.
+convincing evidence|coll|There is no [[convincing evidence]] for the claim.
+convincing evidence|coll|The lawyer presented [[convincing evidence]].
+coping strategy|coll|Exercise is a good [[coping strategy]] for stress.
+coping strategy|coll|Humour can be a useful [[coping strategy]].
+core area|coll|Maths is a [[core area]] of the curriculum.
+core area|coll|The firm focuses on its [[core area]] of finance.
+core element|coll|Trust is a [[core element]] of friendship.
+core element|coll|Grammar is a [[core element]] of the course.
+core issue|coll|Cost is the [[core issue]].
+core issue|coll|The [[core issue]] is lack of trust.
+core skills|coll|Reading and writing are [[core skills]].
+core skills|coll|Employers want staff with [[core skills]] in IT.
+core value|coll|Honesty is a [[core value]] of the company.
+core value|coll|Respect is a [[core value]] in our school.
+correct interpretation|coll|It is the [[correct interpretation]] of the data.
+correct interpretation|coll|Experts disagree on the [[correct interpretation]] of the poem.
+correct an error|coll|Teachers help students [[correct an error]].
+correct an error|coll|Please [[correct the error]] before you submit.
+counter argument|coll|A good essay includes a [[counter argument]].
+counter argument|coll|He raised a strong [[counter argument]].
+cover a range of|coll|The course [[covers a range of]] topics.
+cover a range of|coll|The exhibition [[covers a range of]] styles.
+cover a topic|coll|The lecture [[covered the topic]] of climate change.
+cover a topic|coll|We cannot [[cover this topic]] in one lesson.
+cover an area|coll|The park [[covers an area]] of ten square miles.
+cover an area|coll|Forests [[cover a large area]] of the country.
+create conditions|coll|Good teachers [[create conditions]] for learning.
+create conditions|coll|Peace [[creates conditions]] for growth.
+create opportunities|coll|Tourism [[creates opportunities]] for local people.
+create opportunities|coll|New technology [[creates opportunities]] for small firms.
+create problems|coll|Cheap flights can [[create problems]] for the environment.
+create problems|coll|Noise [[creates problems]] for neighbours.
+create an environment|coll|Schools should [[create a safe environment]] for pupils.
+create an environment|coll|Managers must [[create an environment]] of trust.
+create an impression|coll|Dress well to [[create a good impression]].
+create an impression|coll|The film [[creates an impression]] of danger.
+create an opportunity|coll|The fair [[creates an opportunity]] to meet employers.
+create an opportunity|coll|Good policy can [[create an opportunity]] for growth.
+creative process|coll|Writing is a [[creative process]].
+creative process|coll|The artist explained her [[creative process]].
+creative thinking|coll|Games encourage [[creative thinking]].
+creative thinking|coll|The job demands [[creative thinking]].
+creative work|coll|Her [[creative work]] won a prize.
+creative work|coll|Quiet places help [[creative work]].
+criminal offence|coll|Theft is a [[criminal offence]].
+criminal offence|coll|Driving without a licence is a [[criminal offence]].
+critical analysis|coll|Write a [[critical analysis]] of the poem.
+critical analysis|coll|The paper offers a [[critical analysis]] of the policy.
+critical approach|coll|Take a [[critical approach]] to the sources.
+critical approach|coll|His [[critical approach]] to history is rare.
+critical attention|coll|The film received [[critical attention]].
+critical attention|coll|The book has attracted [[critical attention]].
+critical essay|coll|The students wrote a [[critical essay]] on the novel.
+critical essay|coll|A [[critical essay]] must give reasons.
+critical evaluation|coll|The task requires a [[critical evaluation]] of the data.
+critical evaluation|coll|She wrote a [[critical evaluation]] of the policy.
+critical examination|coll|The theory needs [[critical examination]].
+critical examination|coll|The report offers a [[critical examination]] of schools.
+critical factor|coll|Time is a [[critical factor]] in emergencies.
+critical factor|coll|Trust is a [[critical factor]] for success.
+critical importance|coll|Clean water is of [[critical importance]].
+critical importance|coll|Speed is of [[critical importance]] here.
+critical inquiry|coll|Universities encourage [[critical inquiry]].
+critical inquiry|coll|Good science depends on [[critical inquiry]].
+critical introduction|coll|He wrote a [[critical introduction]] to the poems.
+critical introduction|coll|The book is a [[critical introduction]] to economics.
+critical issue|coll|Housing is a [[critical issue]] in the city.
+critical issue|coll|Funding is a [[critical issue]] for hospitals.
+critical perspective|coll|She takes a [[critical perspective]] on the media.
+critical perspective|coll|A [[critical perspective]] helps readers question sources.
+critical point|coll|The patient has reached a [[critical point]].
+critical point|coll|At this [[critical point]], we need calm leaders.
+critical reflection|coll|Students are asked for [[critical reflection]] on their work.
+critical reflection|coll|[[Critical reflection]] improves teaching.
+critical review|coll|She wrote a [[critical review]] of the film.
+critical review|coll|The journal published a [[critical review]] of the book.
+critical role|coll|Teachers play a [[critical role]] in society.
+critical role|coll|Luck played a [[critical role]] in the win.
+critical scrutiny|coll|The plan faced [[critical scrutiny]].
+critical scrutiny|coll|The results need [[critical scrutiny]].
+critical theory|coll|He teaches [[critical theory]] at university.
+critical theory|coll|[[Critical theory]] questions power in society.
+critical thinking|coll|Schools should teach [[critical thinking]].
+critical thinking|coll|[[Critical thinking]] helps us spot fake news.
+critical writing|coll|[[Critical writing]] needs clear evidence.
+critical writing|coll|Her [[critical writing]] is admired.
+critically evaluate|coll|You must [[critically evaluate]] each source.
+critically evaluate|coll|The essay will [[critically evaluate]] the theory.
+crucial difference|coll|There is a [[crucial difference]] between the two terms.
+crucial difference|coll|The [[crucial difference]] is cost.
+crucial factor|coll|Time is a [[crucial factor]].
+crucial factor|coll|Location is a [[crucial factor]] for a shop.
+crucial importance|coll|Sleep is of [[crucial importance]] for children.
+crucial importance|coll|The decision is of [[crucial importance]].
+crucial part|coll|Practice is a [[crucial part]] of learning.
+crucial part|coll|Listening is a [[crucial part]] of teamwork.
+crucial point|coll|This is a [[crucial point]] in the debate.
+crucial point|coll|At the [[crucial point]] of the match, he scored.
+crucial question|coll|The [[crucial question]] is who will pay.
+crucial question|coll|It raises a [[crucial question]] about safety.
+crucial role|coll|Bees play a [[crucial role]] in farming.
+crucial role|coll|Water plays a [[crucial role]] in health.
+cultural activity|coll|Theatre is a popular [[cultural activity]].
+cultural activity|coll|The town offers many [[cultural activities]].
+cultural aspect|coll|Food is a [[cultural aspect]] of every country.
+cultural aspect|coll|The [[cultural aspect]] of language is often ignored.
+cultural attitudes|coll|[[Cultural attitudes]] to age differ widely.
+cultural attitudes|coll|Laws reflect [[cultural attitudes]].
+cultural background|coll|Students come from a different [[cultural background]].
+cultural background|coll|Respect each person's [[cultural background]].
+cultural boundary|coll|Language can cross a [[cultural boundary]].
+cultural boundary|coll|Trade crosses every [[cultural boundary]].
+cultural change|coll|The country has seen rapid [[cultural change]].
+cultural change|coll|Technology drives [[cultural change]].
+cultural context|coll|You must understand the [[cultural context]] of the poem.
+cultural context|coll|Words change meaning in a different [[cultural context]].
+cultural differences|coll|Travel teaches us about [[cultural differences]].
+cultural differences|coll|[[Cultural differences]] can cause misunderstanding.
+cultural dimension|coll|Language has a strong [[cultural dimension]].
+cultural dimension|coll|The festival has a [[cultural dimension]].
+cultural diversity|coll|The city celebrates [[cultural diversity]].
+cultural diversity|coll|[[Cultural diversity]] makes schools richer.
+cultural factors|coll|[[Cultural factors]] shape eating habits.
+cultural factors|coll|The study looks at [[cultural factors]] in health.
+cultural heritage|coll|The castle is part of our [[cultural heritage]].
+cultural heritage|coll|We must protect our [[cultural heritage]].
+cultural history|coll|He teaches the [[cultural history]] of Europe.
+cultural history|coll|The museum tells the [[cultural history]] of the town.
+cultural identity|coll|Language is part of [[cultural identity]].
+cultural identity|coll|Immigrants often keep their [[cultural identity]].
+cultural influence|coll|Rome had a strong [[cultural influence]] on Europe.
+cultural influence|coll|Film has great [[cultural influence]].
+cultural institution|coll|The museum is a major [[cultural institution]].
+cultural institution|coll|Libraries are an important [[cultural institution]].
+cultural issue|coll|Dress code is a [[cultural issue]].
+cultural issue|coll|The book tackles a sensitive [[cultural issue]].
+cultural life|coll|The city has a rich [[cultural life]].
+cultural life|coll|Students take part in the [[cultural life]] of the town.
+cultural norm|coll|Shaking hands is a [[cultural norm]] in many places.
+cultural norm|coll|Breaking a [[cultural norm]] can cause offence.
+cultural perspective|coll|Look at the issue from a [[cultural perspective]].
+cultural perspective|coll|A [[cultural perspective]] helps explain the behaviour.
+cultural phenomenon|coll|Football is a global [[cultural phenomenon]].
+cultural phenomenon|coll|The show became a [[cultural phenomenon]].
+cultural practice|coll|Tea drinking is a daily [[cultural practice]].
+cultural practice|coll|Each [[cultural practice]] has a history.
+cultural significance|coll|The temple has great [[cultural significance]].
+cultural significance|coll|The festival has [[cultural significance]] for locals.
+cultural theory|coll|He studies [[cultural theory]] at university.
+cultural theory|coll|[[Cultural theory]] explains how groups share meaning.
+cultural tradition|coll|Singing is a strong [[cultural tradition]] in Wales.
+cultural tradition|coll|Each [[cultural tradition]] teaches values.
+cultural values|coll|School reflects the [[cultural values]] of society.
+cultural values|coll|Advertising shapes [[cultural values]].
+culturally specific|coll|Many jokes are [[culturally specific]].
+culturally specific|coll|Gestures are often [[culturally specific]].
+current climate|coll|In the [[current climate]], jobs are scarce.
+current climate|coll|Banks are cautious in the [[current climate]].
+current issue|coll|Debate on prices is a [[current issue]].
+current issue|coll|Students discuss a [[current issue]] each week.
+current policy|coll|[[Current policy]] favours small firms.
+current policy|coll|Under [[current policy]], fees will rise.
+current research|coll|[[Current research]] suggests a link between sleep and mood.
+current research|coll|[[Current research]] focuses on clean energy.
+current status|coll|Check the [[current status]] of your order.
+current status|coll|The [[current status]] of the project is unclear.
+current technology|coll|[[Current technology]] cannot solve this problem.
+current technology|coll|With [[current technology]], we can map the sea.
+current trend|coll|The [[current trend]] is towards remote work.
+current trend|coll|A [[current trend]] in fashion is recycling.
+currently available|coll|The tickets are [[currently available]] online.
+currently available|coll|This is the best model [[currently available]].
+daily living|coll|Phones help with [[daily living]].
+daily living|coll|The cost of [[daily living]] has risen.
+data gathering|coll|[[Data gathering]] took six months.
+data gathering|coll|Good [[data gathering]] needs clear questions.
+data set|coll|The [[data set]] contains 5,000 records.
+data set|coll|Researchers shared the [[data set]] online.
+deal with an issue|coll|Councils must [[deal with the issue]] of waste.
+deal with an issue|coll|How do you [[deal with an issue]] like this?
+deem appropriate|coll|Use the method you [[deem appropriate]].
+deem appropriate|coll|The court will take any action it [[deems appropriate]].
+deem necessary|coll|Take any steps you [[deem necessary]].
+deem necessary|coll|The police may use force if they [[deem it necessary]].
+deep understanding of|coll|Teachers need a [[deep understanding of]] their subject.
+deep understanding of|coll|She has a [[deep understanding of]] music.
+deeper level|coll|Good readers think on a [[deeper level]].
+deeper level|coll|On a [[deeper level]], the poem is about loss.
+deeply embedded|coll|Such habits are [[deeply embedded]] in society.
+deeply embedded|coll|The belief is [[deeply embedded]] in the culture.
+deeply rooted|coll|Racism is [[deeply rooted]] in the history.
+deeply rooted|coll|The custom is [[deeply rooted]] in the village.
+defining characteristic|coll|Humour is her [[defining characteristic]].
+defining characteristic|coll|Speed is the [[defining characteristic]] of the car.
+defining concept|coll|Freedom is the [[defining concept]] of the book.
+defining concept|coll|Trust is the [[defining concept]] of the brand.
+defining feature|coll|A big river is a [[defining feature]] of the city.
+defining feature|coll|Curiosity is a [[defining feature]] of children.
+deliberate attempt|coll|It was a [[deliberate attempt]] to mislead.
+deliberate attempt|coll|There was a [[deliberate attempt]] to hide the facts.
+democratic institution|coll|Courts are a [[democratic institution]].
+democratic institution|coll|Free media is a key [[democratic institution]].
+democratic process|coll|Voting is part of the [[democratic process]].
+democratic process|coll|Protest is part of the [[democratic process]].
+democratic society|coll|A free press is vital in a [[democratic society]].
+democratic society|coll|In a [[democratic society]], people can vote.
+democratic state|coll|Norway is a [[democratic state]].
+democratic state|coll|A [[democratic state]] protects free speech.
+demographic change|coll|[[Demographic change]] affects schools.
+demographic change|coll|The city faces rapid [[demographic change]].
+demographic characteristics|coll|The survey records [[demographic characteristics]] such as age.
+demographic characteristics|coll|[[Demographic characteristics]] vary by region.
+demographic factor|coll|Age is a key [[demographic factor]].
+demographic factor|coll|Income is a [[demographic factor]] in voting.
+demonstrate competence|coll|Candidates must [[demonstrate competence]] in maths.
+demonstrate competence|coll|The test lets pilots [[demonstrate competence]].
+densely populated|coll|Bangladesh is a [[densely populated]] country.
+densely populated|coll|[[Densely populated]] areas face housing problems.
+deny access to|coll|The school cannot [[deny access to]] disabled pupils.
+deny access to|coll|The firm [[denied access to]] the data.
+dependent variable|coll|Test score is the [[dependent variable]].
+dependent variable|coll|Change one factor and measure the [[dependent variable]].
+describe a method|coll|The paper [[describes a method]] for testing water.
+describe a method|coll|Please [[describe the method]] you used.
+describe a process|coll|Students must [[describe a process]] in Task 1.
+describe a process|coll|The diagram [[describes a process]] of making paper.
+describe a procedure|coll|The nurse [[described the procedure]] to the patient.
+describe a procedure|coll|The manual [[describes a procedure]] for safety checks.
+descriptive statistics|coll|[[Descriptive statistics]] summarise the data.
+descriptive statistics|coll|Report the mean in your [[descriptive statistics]].
+desired outcome|coll|They achieved the [[desired outcome]].
+desired outcome|coll|The [[desired outcome]] is lower costs.
+detailed analysis|coll|A [[detailed analysis]] shows several errors.
+detailed analysis|coll|The report offers a [[detailed analysis]] of sales.
+detailed examination|coll|The engine needs a [[detailed examination]].
+detailed examination|coll|A [[detailed examination]] revealed the cause.
+detailed information|coll|The website gives [[detailed information]] about courses.
+detailed information|coll|Please send [[detailed information]] about the product.
+detailed study|coll|A [[detailed study]] of 500 families was done.
+detailed study|coll|The topic deserves a [[detailed study]].
+develop a method|coll|Scientists [[developed a method]] for testing blood.
+develop a method|coll|We need to [[develop a method]] for sharing files.
+develop a strategy|coll|The firm must [[develop a strategy]] for growth.
+develop a strategy|coll|Teams [[develop a strategy]] before each match.
+develop a technique|coll|She [[developed a technique]] for faster reading.
+develop a technique|coll|Doctors [[developed a new technique]] for surgery.
+develop a theory|coll|Einstein [[developed a theory]] of gravity.
+develop a theory|coll|Researchers [[developed a theory]] to explain the data.
+develop an approach|coll|The school [[developed an approach]] to reading.
+develop an approach|coll|We should [[develop an approach]] that suits everyone.
+develop an argument|coll|Use examples to [[develop an argument]].
+develop an argument|coll|She [[developed her argument]] over three paragraphs.
+developmental process|coll|Learning to walk is a [[developmental process]].
+developmental process|coll|Growing up is a long [[developmental process]].
+developmental stage|coll|Each child is at a different [[developmental stage]].
+developmental stage|coll|Toys should suit the [[developmental stage]] of the child.
+diagnostic test|coll|The doctor ordered a [[diagnostic test]].
+diagnostic test|coll|Students took a [[diagnostic test]] at the start of the course.
+differ considerably|coll|Prices [[differ considerably]] from shop to shop.
+differ considerably|coll|The two reports [[differ considerably]].
+differ significantly|coll|The results [[differ significantly]] by age.
+differ significantly|coll|Views on tax [[differ significantly]].
+differ widely|coll|Opinions [[differ widely]] on this topic.
+differ widely|coll|Teaching methods [[differ widely]] between schools.
+digital information|coll|[[Digital information]] can be copied easily.
+digital information|coll|Banks protect [[digital information]] with passwords.
+digital media|coll|Teens spend hours on [[digital media]].
+digital media|coll|[[Digital media]] has changed news.
+digital technology|coll|[[Digital technology]] has changed education.
+digital technology|coll|Farmers use [[digital technology]] to track crops.
+direct access|coll|Students have [[direct access]] to the library.
+direct access|coll|The hotel has [[direct access]] to the beach.
+direct communication|coll|[[Direct communication]] avoids misunderstanding.
+direct communication|coll|The manager prefers [[direct communication]] with staff.
+direct consequences|coll|Pollution has [[direct consequences]] for health.
+direct consequences|coll|Cuts had [[direct consequences]] for schools.
+direct contact|coll|Avoid [[direct contact]] with the chemical.
+direct contact|coll|Teachers are in [[direct contact]] with parents.
+direct evidence|coll|There is no [[direct evidence]] of harm.
+direct evidence|coll|The photo is [[direct evidence]] of the damage.
+direct impact|coll|Prices have a [[direct impact]] on sales.
+direct impact|coll|The storm had a [[direct impact]] on farms.
+direct involvement|coll|There is no [[direct involvement]] of the police.
+direct involvement|coll|Parents want [[direct involvement]] in school decisions.
+direct link|coll|There is a [[direct link]] between smoking and cancer.
+direct link|coll|The study found a [[direct link]] between sleep and memory.
+direct observation|coll|Scientists learn by [[direct observation]].
+direct observation|coll|The method relies on [[direct observation]] of animals.
+direct relationship|coll|There is a [[direct relationship]] between effort and results.
+direct relationship|coll|The graph shows a [[direct relationship]] between age and height.
+direct role|coll|The firm played a [[direct role]] in the project.
+direct role|coll|Teachers have a [[direct role]] in pupils' success.
+directly affect|coll|Weather can [[directly affect]] crops.
+directly affect|coll|Prices [[directly affect]] what we buy.
+directly affected|coll|Residents were [[directly affected]] by the flood.
+directly affected|coll|Workers were [[directly affected]] by the cuts.
+directly connected to|coll|Sleep is [[directly connected to]] mood.
+directly connected to|coll|The crime is [[directly connected to]] drugs.
+directly involved in|coll|Parents are [[directly involved in]] the school.
+directly involved in|coll|He was not [[directly involved in]] the decision.
+directly linked to|coll|Stress is [[directly linked to]] illness.
+directly linked to|coll|Obesity is [[directly linked to]] diet.
+directly proportional to|coll|Speed is [[directly proportional to]] distance over time.
+directly proportional to|coll|The cost is [[directly proportional to]] the weight.
+directly related to|coll|Success is [[directly related to]] effort.
+directly related to|coll|The illness is [[directly related to]] stress.

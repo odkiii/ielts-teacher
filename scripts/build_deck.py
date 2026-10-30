@@ -47,6 +47,19 @@ for f in sorted(glob.glob(os.path.join(root, "data", "ex_ru", "*.txt"))):
 for c0 in cards:
     r = EXR.get((c0["t"].lower(), c0["pos"]))
     if r: c0["exr"] = r
+# дополнительные примеры: data/ex_more/*.txt, строки «term|pos|English sentence with [[phrase]]» (до 2 на карточку)
+EX2 = {}
+for f in sorted(glob.glob(os.path.join(root, "data", "ex_more", "*.txt"))):
+    for n, line in enumerate(open(f, encoding="utf-8"), 1):
+        line = line.rstrip("\n")
+        if not line.strip() or line.startswith("#"): continue
+        q = line.split("|", 2)
+        if len(q) != 3 or "[[" not in q[2] or "]]" not in q[2]: errs.append(f"{os.path.basename(f)}:{n} bad ex_more line"); continue
+        EX2.setdefault((q[0].strip().lower(), q[1].strip()), []).append(q[2].strip())
+for c0 in cards:
+    m = EX2.get((c0["t"].lower(), c0["pos"]))
+    if m: c0["ex2"] = m[:2]
+print("cards with 3 examples:", sum(1 for c0 in cards if c0.get("ex2")), "| collocations:", sum(1 for c0 in cards if c0["pos"] == "coll"))
 print("ex translations:", sum(1 for c0 in cards if c0.get("exr")), "of", len(cards))
 ids = [c['id'] for c in cards]
 if len(ids) != len(set(ids)):

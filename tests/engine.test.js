@@ -235,3 +235,10 @@ test('contexts: другие предложения со словом', () => {
   const a = Object.assign(mk('a', 'plunge', 'v', 'gen'), { ex: 'Sales [[plunged]] fast.' }), b = Object.assign(mk('b', 'sales', 'n', 'gen'), { ex: 'The [[sales]] team plunged into work.' });
   assert.deepEqual(Eg.contexts(a, [a, b], 3), ['The sales team [[plunged]] into work.']);
 });
+
+test('exOf rotates through the three example sentences', () => {
+  const c = { ex: 'a [[x]]', ex2: ['b [[x]]', 'c [[x]]'] };
+  assert.deepEqual([0, 1, 2, 3].map((n) => { c.rv = n; return E.exOf(c); }), ['a [[x]]', 'b [[x]]', 'c [[x]]', 'a [[x]]']);
+  assert.equal(E.exIdx({ ex: 'z' }), 0);
+  assert.equal(E.exOf({ ex: 'z', rv: 5 }), 'z');
+});

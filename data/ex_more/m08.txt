@@ -1,0 +1,400 @@
+overall structure|coll|The [[overall structure]] of the essay is clear.
+overall structure|coll|Plan the [[overall structure]] before you write.
+overwhelming majority|coll|The [[overwhelming majority]] voted yes.
+overwhelming majority|coll|An [[overwhelming majority]] of students agreed.
+paid employment|coll|Many students find [[paid employment]] in summer.
+paid employment|coll|She left [[paid employment]] to study.
+paramount importance|coll|Safety is of [[paramount importance]].
+paramount importance|coll|Trust is of [[paramount importance]] in teams.
+particular area|coll|The study focuses on a [[particular area]] of the city.
+particular area|coll|Experts work in a [[particular area]].
+particular aspect|coll|Look at one [[particular aspect]] of the problem.
+particular aspect|coll|The report covers a [[particular aspect]] of health.
+particular emphasis|coll|The course puts [[particular emphasis]] on speaking.
+particular emphasis|coll|The speech placed [[particular emphasis]] on trust.
+particular feature|coll|A [[particular feature]] of the phone is its camera.
+particular feature|coll|I like one [[particular feature]] of the app.
+particular focus|coll|The study has a [[particular focus]] on children.
+particular focus|coll|The paper pays [[particular focus]] to costs.
+particular individual|coll|A [[particular individual]] may react differently.
+particular individual|coll|The law does not target any [[particular individual]].
+particular meaning|coll|The word has a [[particular meaning]] here.
+particular meaning|coll|Each symbol has a [[particular meaning]].
+particularly acute|coll|The problem is [[particularly acute]] in cities.
+particularly acute|coll|Shortages are [[particularly acute]] in winter.
+particularly apparent|coll|The effect was [[particularly apparent]] in children.
+particularly apparent|coll|The change is [[particularly apparent]] in cities.
+particularly appropriate|coll|The tool is [[particularly appropriate]] for beginners.
+particularly appropriate|coll|That example is [[particularly appropriate]].
+particularly concerned with|coll|The book is [[particularly concerned with]] education.
+particularly concerned with|coll|Doctors are [[particularly concerned with]] sleep.
+particularly effective|coll|The drug is [[particularly effective]] in children.
+particularly effective|coll|Humour is [[particularly effective]] in speeches.
+particularly evident|coll|The effect is [[particularly evident]] in winter.
+particularly evident|coll|Stress was [[particularly evident]] in exam week.
+particularly influential|coll|Her book was [[particularly influential]].
+particularly influential|coll|Teachers are [[particularly influential]] at that age.
+particularly relevant|coll|This point is [[particularly relevant]] to students.
+particularly relevant|coll|The rule is [[particularly relevant]] for drivers.
+particularly sensitive|coll|Her skin is [[particularly sensitive]].
+particularly sensitive|coll|This is a [[particularly sensitive]] topic.
+particularly significant|coll|The result is [[particularly significant]].
+particularly significant|coll|It was a [[particularly significant]] moment.
+particularly striking|coll|The contrast is [[particularly striking]].
+particularly striking|coll|The change was [[particularly striking]] in 2020.
+particularly successful|coll|The campaign was [[particularly successful]].
+particularly successful|coll|She was [[particularly successful]] in maths.
+particularly suited to|coll|The plant is [[particularly suited to]] dry climates.
+particularly suited to|coll|The job is [[particularly suited to]] young graduates.
+particularly useful|coll|The tool is [[particularly useful]] for travellers.
+particularly useful|coll|This tip is [[particularly useful]].
+particularly valuable|coll|Her advice was [[particularly valuable]].
+particularly valuable|coll|Experience is [[particularly valuable]] in this job.
+partly responsible for|coll|Diet is [[partly responsible for]] the rise in obesity.
+partly responsible for|coll|The weather was [[partly responsible for]] the delay.
+party leader|coll|The [[party leader]] gave a speech.
+party leader|coll|She became [[party leader]] in 2018.
+past research|coll|[[Past research]] suggests a link.
+past research|coll|[[Past research]] focused on adults.
+peace treaty|coll|The two sides signed a [[peace treaty]].
+peace treaty|coll|A [[peace treaty]] ended the war.
+perceived importance|coll|The [[perceived importance]] of the exam is high.
+perceived importance|coll|[[Perceived importance]] affects effort.
+perceived need|coll|There is a [[perceived need]] for new schools.
+perceived need|coll|Marketing creates a [[perceived need]].
+perceived threat|coll|A [[perceived threat]] can cause fear.
+perceived threat|coll|The [[perceived threat]] was exaggerated.
+perform a function|coll|The heart must [[perform a function]] daily.
+perform a function|coll|Each part of the tool [[performs a function]].
+perform a study|coll|Researchers [[performed a study]] on sleep.
+perform a study|coll|They plan to [[perform a study]] in schools.
+perform a task|coll|Robots [[perform a task]] quickly.
+perform a task|coll|Learners [[perform a task]] in pairs.
+personal choice|coll|What to eat is a [[personal choice]].
+personal choice|coll|Career is a [[personal choice]].
+personal circumstances|coll|It depends on your [[personal circumstances]].
+personal circumstances|coll|Because of [[personal circumstances]], she left.
+personal communication|coll|The idea came from [[personal communication]].
+personal communication|coll|Cite [[personal communication]] carefully.
+personal contact|coll|[[Personal contact]] builds trust.
+personal contact|coll|They keep in [[personal contact]].
+personal control|coll|People want [[personal control]] over their lives.
+personal control|coll|Stress rises when [[personal control]] falls.
+personal experience|coll|Use [[personal experience]] in your answer.
+personal experience|coll|I know from [[personal experience]].
+personal information|coll|Never share [[personal information]] online.
+personal information|coll|The form asks for [[personal information]].
+personal interest|coll|He has a [[personal interest]] in history.
+personal interest|coll|Choose a topic of [[personal interest]].
+personal knowledge|coll|She has [[personal knowledge]] of the area.
+personal knowledge|coll|I have no [[personal knowledge]] of him.
+personal quality|coll|Honesty is a [[personal quality]].
+personal quality|coll|Employers value [[personal qualities]].
+personal relationship|coll|They have a close [[personal relationship]].
+personal relationship|coll|A [[personal relationship]] with clients helps.
+personal responsibility|coll|Health is a matter of [[personal responsibility]].
+personal responsibility|coll|Teach children [[personal responsibility]].
+personal safety|coll|Think about your [[personal safety]].
+personal safety|coll|She feared for her [[personal safety]].
+personal space|coll|Respect other people's [[personal space]].
+personal space|coll|Crowded trains invade [[personal space]].
+physical activity|coll|[[Physical activity]] improves mood.
+physical activity|coll|Children need daily [[physical activity]].
+physical appearance|coll|Do not judge by [[physical appearance]].
+physical appearance|coll|Her [[physical appearance]] changed.
+physical characteristics|coll|List the [[physical characteristics]] of the animal.
+physical characteristics|coll|Height is one of the [[physical characteristics]].
+physical contact|coll|Avoid [[physical contact]] in the game.
+physical contact|coll|Babies need [[physical contact]].
+physical development|coll|Play supports [[physical development]].
+physical development|coll|Diet affects [[physical development]].
+physical environment|coll|Plants respond to the [[physical environment]].
+physical environment|coll|The school improved its [[physical environment]].
+physical features|coll|Mountains are [[physical features]] of the land.
+physical features|coll|The map shows [[physical features]].
+physical health|coll|Sport improves [[physical health]].
+physical health|coll|Sleep supports [[physical health]].
+physical needs|coll|Food meets our [[physical needs]].
+physical needs|coll|Basic [[physical needs]] come first.
+physical presence|coll|His [[physical presence]] calmed the room.
+physical presence|coll|Remote work reduces [[physical presence]] in offices.
+physical properties|coll|Study the [[physical properties]] of metals.
+physical properties|coll|Colour is one of the [[physical properties]].
+physical proximity|coll|[[Physical proximity]] helps teamwork.
+physical proximity|coll|Lack of [[physical proximity]] makes meetings hard.
+physical science|coll|Chemistry is a [[physical science]].
+physical science|coll|She studies [[physical science]].
+physical space|coll|The office needs more [[physical space]].
+physical space|coll|Virtual worlds need no [[physical space]].
+physical symptom|coll|Headache is a [[physical symptom]] of stress.
+physical symptom|coll|Fever is a [[physical symptom]] of flu.
+physical world|coll|Physics explains the [[physical world]].
+physical world|coll|Children explore the [[physical world]].
+pilot study|coll|Run a [[pilot study]] first.
+pilot study|coll|The [[pilot study]] had 20 people.
+pioneering work|coll|Her [[pioneering work]] changed medicine.
+pioneering work|coll|He did [[pioneering work]] on genes.
+pivotal role|coll|She played a [[pivotal role]] in the talks.
+pivotal role|coll|Water plays a [[pivotal role]] in farming.
+place emphasis on|coll|Schools [[place emphasis on]] reading.
+place emphasis on|coll|The report [[places emphasis on]] cost.
+planning stage|coll|The project is still in the [[planning stage]].
+planning stage|coll|Mistakes are cheap at the [[planning stage]].
+plausible explanation|coll|There is a [[plausible explanation]] for the rise.
+plausible explanation|coll|Experts offered a [[plausible explanation]].
+play a role in|coll|Diet can [[play a role in]] health.
+play a role in|coll|Luck may [[play a role in]] success.
+political activism|coll|Students are drawn to [[political activism]].
+political activism|coll|Social media boosts [[political activism]].
+political activity|coll|[[Political activity]] rose before the vote.
+political activity|coll|She limits her [[political activity]].
+political agenda|coll|The party has a clear [[political agenda]].
+political agenda|coll|The film has a [[political agenda]].
+political arena|coll|She entered the [[political arena]] in 2010.
+political arena|coll|Debate is common in the [[political arena]].
+political authority|coll|The king had [[political authority]].
+political authority|coll|Power gives [[political authority]].
+political circumstances|coll|Under such [[political circumstances]], reform is hard.
+political circumstances|coll|[[Political circumstances]] forced him to leave.
+political climate|coll|The [[political climate]] is tense.
+political climate|coll|In the current [[political climate]], change is hard.
+political conflict|coll|The region has a long [[political conflict]].
+political conflict|coll|[[Political conflict]] hurt trade.
+political consciousness|coll|The book raised [[political consciousness]].
+political consciousness|coll|Youth [[political consciousness]] is growing.
+political consensus|coll|There is a [[political consensus]] on safety.
+political consensus|coll|They reached a [[political consensus]].
+political consequences|coll|The scandal had [[political consequences]].
+political consequences|coll|Think of the [[political consequences]] of the law.
+political consideration|coll|Policy is shaped by [[political consideration]].
+political consideration|coll|The choice was a [[political consideration]].
+political context|coll|See the law in its [[political context]].
+political context|coll|The [[political context]] explains the protest.
+political culture|coll|The country has a strong [[political culture]].
+political culture|coll|[[Political culture]] shapes voting.
+political debate|coll|Taxes dominate the [[political debate]].
+political debate|coll|The [[political debate]] was heated.
+political dimension|coll|The issue has a [[political dimension]].
+political dimension|coll|Food has a [[political dimension]].
+political economy|coll|He studies [[political economy]].
+political economy|coll|[[Political economy]] links power and wealth.
+political environment|coll|Firms adapt to the [[political environment]].
+political environment|coll|The [[political environment]] is stable.
+political factors|coll|[[Political factors]] affect trade.
+political factors|coll|The study includes [[political factors]].
+political identity|coll|Class shapes [[political identity]].
+political identity|coll|Teens form a [[political identity]].
+political ideology|coll|Her [[political ideology]] is liberal.
+political ideology|coll|[[Political ideology]] affects voting.
+political implications|coll|The decision has [[political implications]].
+political implications|coll|Consider the [[political implications]] first.
+political instability|coll|[[Political instability]] hurts growth.
+political instability|coll|The region suffers from [[political instability]].
+political institution|coll|Parliament is a [[political institution]].
+political institution|coll|A [[political institution]] needs trust.
+political leader|coll|A [[political leader]] spoke to the crowd.
+political leader|coll|Every [[political leader]] attended.
+political mobilization|coll|[[Political mobilization]] grew before the vote.
+political mobilization|coll|Social media aids [[political mobilization]].
+political movement|coll|A new [[political movement]] began.
+political movement|coll|She joined a [[political movement]].
+political organization|coll|He leads a [[political organization]].
+political organization|coll|Each [[political organization]] needs funds.
+political participation|coll|[[Political participation]] is falling.
+political participation|coll|Schools promote [[political participation]].
+political party|coll|He joined a [[political party]].
+political party|coll|Each [[political party]] has a leader.
+political philosophy|coll|He teaches [[political philosophy]].
+political philosophy|coll|[[Political philosophy]] asks what justice is.
+political reality|coll|The plan ignores [[political reality]].
+political reality|coll|[[Political reality]] limits change.
+political reform|coll|The country needs [[political reform]].
+political reform|coll|[[Political reform]] began in 1990.
+political representation|coll|Women demanded [[political representation]].
+political representation|coll|Minorities lack [[political representation]].
+political significance|coll|The meeting had great [[political significance]].
+political significance|coll|The protest has [[political significance]].
+political spectrum|coll|Voters span the [[political spectrum]].
+political spectrum|coll|He sits on the left of the [[political spectrum]].
+political stability|coll|Peace brings [[political stability]].
+political stability|coll|Investors want [[political stability]].
+political status|coll|Refugees often lack [[political status]].
+political status|coll|The island has special [[political status]].
+political structure|coll|The country's [[political structure]] changed.
+political structure|coll|A federal [[political structure]] shares power.
+politically correct|coll|Some find the term [[politically correct]].
+politically correct|coll|He avoided saying anything [[politically correct]].
+politically motivated|coll|The arrest was [[politically motivated]].
+politically motivated|coll|It was a [[politically motivated]] attack.
+poorly understood|coll|The disease is [[poorly understood]].
+poorly understood|coll|The cause remains [[poorly understood]].
+popular culture|coll|Films shape [[popular culture]].
+popular culture|coll|She studies [[popular culture]].
+popular media|coll|[[Popular media]] shape views.
+popular media|coll|Teens follow [[popular media]].
+pose a challenge|coll|Language barriers [[pose a challenge]].
+pose a challenge|coll|The new rules [[pose a challenge]] to small firms.
+pose a question|coll|The teacher will [[pose a question]].
+pose a question|coll|The film [[poses a question]] about trust.
+pose a threat to|coll|Plastic [[poses a threat to]] sea life.
+pose a threat to|coll|Cheap imports [[pose a threat to]] local firms.
+positive action|coll|The firm took [[positive action]] on pay.
+positive action|coll|[[Positive action]] helps minorities.
+positive aspect|coll|Low cost is a [[positive aspect]].
+positive aspect|coll|Every plan has a [[positive aspect]].
+positive attitude|coll|A [[positive attitude]] helps learning.
+positive attitude|coll|She has a [[positive attitude]] to change.
+positive connotation|coll|The word has a [[positive connotation]].
+positive connotation|coll|Use words with a [[positive connotation]].
+positive correlation|coll|There is a [[positive correlation]] between study and grades.
+positive correlation|coll|The graph shows a [[positive correlation]].
+positive discrimination|coll|Some oppose [[positive discrimination]].
+positive discrimination|coll|The law banned [[positive discrimination]].
+positive effect|coll|Exercise has a [[positive effect]] on mood.
+positive effect|coll|The law had a [[positive effect]] on trade.
+positive feature|coll|Low cost is a [[positive feature]].
+positive feature|coll|The park is a [[positive feature]] of the area.
+positive feedback|coll|[[Positive feedback]] motivates learners.
+positive feedback|coll|The app received [[positive feedback]].
+positive image|coll|The firm wants a [[positive image]].
+positive image|coll|Ads create a [[positive image]] of the brand.
+positive impact|coll|Sport has a [[positive impact]] on mood.
+positive impact|coll|The scheme had a [[positive impact]] on jobs.
+positive influence|coll|Teachers are a [[positive influence]].
+positive influence|coll|Music was a [[positive influence]] on him.
+positive outcome|coll|We expect a [[positive outcome]].
+positive outcome|coll|Talks led to a [[positive outcome]].
+positive relationship|coll|There is a [[positive relationship]] between sleep and mood.
+positive relationship|coll|Build a [[positive relationship]] with clients.
+positive result|coll|The test gave a [[positive result]].
+positive result|coll|A [[positive result]] pleased researchers.
+positive value|coll|The result was a [[positive value]].
+positive value|coll|Honesty has [[positive value]].
+positive view|coll|She takes a [[positive view]] of life.
+positive view|coll|Many hold a [[positive view]] of the plan.
+positively associated with|coll|Income is [[positively associated with]] health.
+positively associated with|coll|Exercise is [[positively associated with]] mood.
+positively correlated with|coll|Study time is [[positively correlated with]] grades.
+positively correlated with|coll|Height is [[positively correlated with]] weight.
+possible consequences|coll|Think of the [[possible consequences]].
+possible consequences|coll|Smokers should know the [[possible consequences]].
+possible explanation|coll|One [[possible explanation]] is stress.
+possible explanation|coll|Experts suggest a [[possible explanation]].
+possible outcome|coll|One [[possible outcome]] is higher prices.
+possible outcome|coll|List each [[possible outcome]].
+possible source|coll|Dust is a [[possible source]] of allergy.
+possible source|coll|Police checked each [[possible source]].
+potential benefits|coll|The [[potential benefits]] are large.
+potential benefits|coll|Consider the [[potential benefits]] and risks.
+potential conflict|coll|A [[potential conflict]] was avoided.
+potential conflict|coll|The treaty reduces [[potential conflict]].
+potential customer|coll|A [[potential customer]] called today.
+potential customer|coll|Ads target each [[potential customer]].
+potential harm|coll|Weigh the [[potential harm]] of the drug.
+potential harm|coll|The label warns of [[potential harm]].
+potential impact|coll|The [[potential impact]] on jobs is large.
+potential impact|coll|Assess the [[potential impact]] first.
+potential problem|coll|Cost is a [[potential problem]].
+potential problem|coll|Spot each [[potential problem]] early.
+potential risk|coll|Smoking is a [[potential risk]].
+potential risk|coll|List each [[potential risk]].
+potential source|coll|The river is a [[potential source]] of power.
+potential source|coll|Wind is a [[potential source]] of energy.
+potential value|coll|The land has [[potential value]].
+potential value|coll|Consider the [[potential value]] of the idea.
+potentially dangerous|coll|The chemical is [[potentially dangerous]].
+potentially dangerous|coll|It is a [[potentially dangerous]] game.
+powerful force|coll|Wind is a [[powerful force]].
+powerful force|coll|Money is a [[powerful force]] in politics.
+powerful group|coll|A [[powerful group]] controls trade.
+powerful group|coll|The union is a [[powerful group]].
+powerful influence|coll|Friends have a [[powerful influence]] on teens.
+powerful influence|coll|Advertising has a [[powerful influence]].
+powerful tool|coll|Language is a [[powerful tool]].
+powerful tool|coll|The internet is a [[powerful tool]] for learning.
+practical consideration|coll|Cost is a [[practical consideration]].
+practical consideration|coll|There are [[practical considerations]] to think about.
+practical difficulties|coll|The plan faced [[practical difficulties]].
+practical difficulties|coll|There are [[practical difficulties]] with the idea.
+practical issue|coll|Parking is a [[practical issue]].
+practical issue|coll|Time is a [[practical issue]] for students.
+practical significance|coll|The finding has [[practical significance]].
+practical significance|coll|The result lacks [[practical significance]].
+preceding chapter|coll|The [[preceding chapter]] described the method.
+preceding chapter|coll|See the [[preceding chapter]] for details.
+preceding discussion|coll|The [[preceding discussion]] shows costs matter.
+preceding discussion|coll|From the [[preceding discussion]], we learn much.
+preceding section|coll|The [[preceding section]] covers history.
+preceding section|coll|Refer to the [[preceding section]].
+precise definition|coll|Give a [[precise definition]] of the term.
+precise definition|coll|The law lacks a [[precise definition]].
+precise nature|coll|The [[precise nature]] of the problem is unclear.
+precise nature|coll|Doctors checked the [[precise nature]] of the injury.
+predictive power|coll|The model has strong [[predictive power]].
+predictive power|coll|The theory lacks [[predictive power]].
+preferential treatment|coll|Some customers get [[preferential treatment]].
+preferential treatment|coll|He denied seeking [[preferential treatment]].
+preliminary data|coll|[[Preliminary data]] suggest a rise.
+preliminary data|coll|The [[preliminary data]] are encouraging.
+preliminary findings|coll|The [[preliminary findings]] were published.
+preliminary findings|coll|[[Preliminary findings]] need checking.
+preliminary result|coll|A [[preliminary result]] is expected soon.
+preliminary result|coll|The [[preliminary result]] looks good.
+premature death|coll|Smoking causes [[premature death]].
+premature death|coll|Poor diet can lead to [[premature death]].
+present context|coll|In the [[present context]], this is vital.
+present context|coll|The idea is useful in the [[present context]].
+present data|coll|The [[present data]] show a fall.
+present data|coll|Based on the [[present data]], costs will rise.
+present difficulties|coll|The [[present difficulties]] will pass.
+present difficulties|coll|Despite [[present difficulties]], the firm grew.
+present evidence|coll|The [[present evidence]] is weak.
+present evidence|coll|[[Present evidence]] suggests a link.
+present a challenge|coll|Language barriers [[present a challenge]].
+present a challenge|coll|The test will [[present a challenge]].
+present a summary|coll|Please [[present a summary]] of the report.
+present a summary|coll|The chart [[presents a summary]] of sales.
+present an argument|coll|Use facts to [[present an argument]].
+present an argument|coll|She [[presented an argument]] for change.
+presidential election|coll|The [[presidential election]] is in November.
+presidential election|coll|Turnout in the [[presidential election]] was high.
+previous chapter|coll|The [[previous chapter]] explained the method.
+previous chapter|coll|See the [[previous chapter]].
+previous decade|coll|Prices rose in the [[previous decade]].
+previous decade|coll|The [[previous decade]] was calm.
+previous discussion|coll|As in the [[previous discussion]], cost is key.
+previous discussion|coll|The [[previous discussion]] was short.
+previous experience|coll|The job needs [[previous experience]].
+previous experience|coll|She has no [[previous experience]] of teaching.
+previous generation|coll|The [[previous generation]] worked longer hours.
+previous generation|coll|Each [[previous generation]] faced change.
+previous knowledge|coll|The course needs no [[previous knowledge]].
+previous knowledge|coll|Build on [[previous knowledge]].
+previous paragraph|coll|See the [[previous paragraph]].
+previous paragraph|coll|The [[previous paragraph]] gave an example.
+previous part|coll|The [[previous part]] covered theory.
+previous part|coll|Read the [[previous part]] first.
+previous research|coll|[[Previous research]] focused on adults.
+previous research|coll|This builds on [[previous research]].
+previous section|coll|The [[previous section]] described the data.
+previous section|coll|Refer to the [[previous section]].
+previous study|coll|A [[previous study]] found a link.
+previous study|coll|The [[previous study]] used a small sample.
+previous work|coll|Her [[previous work]] was in health.
+previous work|coll|The paper builds on [[previous work]].
+previously described|coll|The method was [[previously described]].
+previously described|coll|Use the [[previously described]] tool.
+previously discussed|coll|The [[previously discussed]] plan was cheaper.
+previously discussed|coll|As [[previously discussed]], costs matter.
+previously known|coll|The species was not [[previously known]].
+previously known|coll|The data revealed a [[previously known]] effect.
+previously mentioned|coll|The [[previously mentioned]] study is relevant.
+previously mentioned|coll|As [[previously mentioned]], sleep matters.
+previously thought|coll|It is bigger than [[previously thought]].
+previously thought|coll|The effect is stronger than [[previously thought]].
+primarily concerned with|coll|The book is [[primarily concerned with]] education.
+primarily concerned with|coll|The study is [[primarily concerned with]] cost.
+primarily responsible for|coll|Teachers are [[primarily responsible for]] teaching.
+primarily responsible for|coll|The manager is [[primarily responsible for]] hiring.
+primary aim|coll|Our [[primary aim]] is to cut waste.
+primary aim|coll|The [[primary aim]] of the study is to measure sleep.

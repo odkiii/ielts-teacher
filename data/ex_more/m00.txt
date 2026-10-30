@@ -1,0 +1,400 @@
+make a decision|coll|Parents often [[make decisions]] about schooling together.
+make a decision|coll|You should not [[make a decision]] when you are angry.
+reach a decision|coll|The jury took two days to [[reach a decision]].
+reach a decision|coll|After a long meeting, the board [[reached a decision]] about the budget.
+influence someone's decision|coll|Advertising can [[influence consumers' decisions]].
+influence someone's decision|coll|Her teacher's advice [[influenced her decision]] to study biology.
+take a break|coll|Students should [[take a break]] every hour.
+take a break|coll|We [[took a break]] and had some coffee.
+pay attention to|coll|Please [[pay attention to]] the safety instructions.
+pay attention to|coll|Children often fail to [[pay attention to]] details.
+do research|coll|Scientists [[do research]] to find new treatments.
+do research|coll|I need to [[do some research]] before writing my essay.
+carry out research|coll|The university will [[carry out research]] on climate change.
+carry out research|coll|They [[carried out research]] among more than 500 teenagers.
+meet someone's needs|coll|The new library [[meets the needs]] of all students.
+meet someone's needs|coll|It is hard to [[meet the needs]] of a growing population.
+raise a question|coll|The results [[raise a question]] about the method used.
+raise a question|coll|His speech [[raised an important question]] about fairness.
+pose a threat|coll|Plastic waste [[poses a threat]] to marine life.
+pose a threat|coll|Some experts say robots [[pose a threat]] to jobs.
+pose a problem|coll|Heavy traffic [[poses a problem]] in many big cities.
+pose a problem|coll|The lack of water [[poses a serious problem]] for farmers.
+face a challenge|coll|Young graduates often [[face a challenge]] when looking for work.
+face a challenge|coll|The country [[faces a major challenge]] in reducing pollution.
+overcome obstacles|coll|She [[overcame many obstacles]] to become a doctor.
+overcome obstacles|coll|Teamwork helps people [[overcome obstacles]].
+strike a balance|coll|It is important to [[strike a balance]] between work and rest.
+strike a balance|coll|Schools must [[strike a balance]] between theory and practice.
+widen the gap|coll|Rising prices may [[widen the gap]] between rich and poor.
+widen the gap|coll|Lack of internet access [[widens the gap]] in education.
+bridge the gap|coll|Training courses can [[bridge the gap]] between school and work.
+bridge the gap|coll|Good translators [[bridge the gap]] between cultures.
+have a negative impact on|coll|Noise can [[have a negative impact on]] sleep.
+have a negative impact on|coll|Cutting funds [[had a negative impact on]] the research.
+have a profound effect on|coll|Travel can [[have a profound effect on]] a person's outlook.
+have a profound effect on|coll|The war [[had a profound effect on]] the whole region.
+shed light on|coll|The study may [[shed light on]] the causes of the disease.
+shed light on|coll|New evidence [[sheds light on]] how the pyramids were built.
+draw attention to|coll|The charity wants to [[draw attention to]] homelessness.
+draw attention to|coll|The report [[draws attention to]] the risks of overwork.
+gain popularity|coll|Electric cars are [[gaining popularity]] around the world.
+gain popularity|coll|Online learning [[gained popularity]] during the pandemic.
+a growing number of|coll|[[A growing number of]] people work from home.
+a growing number of|coll|[[A growing number of]] students choose to study abroad.
+a steady decline|coll|There has been [[a steady decline]] in newspaper sales.
+a steady decline|coll|The graph shows [[a steady decline]] in birth rates.
+a sharp increase|coll|There was [[a sharp increase]] in house prices last year.
+a sharp increase|coll|The chart shows [[a sharp increase]] in online sales.
+a significant proportion of|coll|[[A significant proportion of]] young adults live with their parents.
+a significant proportion of|coll|[[A significant proportion of]] the budget goes on health.
+the vast majority of|coll|[[The vast majority of]] respondents supported the plan.
+the vast majority of|coll|[[The vast majority of]] tourists visit in summer.
+by far the most|coll|Cycling is [[by far the most]] popular sport here.
+by far the most|coll|This was [[by far the most]] difficult exam I have taken.
+one in five|coll|[[One in five]] adults reads no books at all.
+one in five|coll|Almost [[one in five]] children are overweight.
+the share of respondents|coll|[[The share of respondents]] who exercise daily has risen.
+the share of respondents|coll|[[The share of respondents]] aged over 50 was only 12%.
+reach a peak|coll|Sales [[reached a peak]] in December.
+reach a peak|coll|Unemployment [[reached a peak]] in 2010 and then fell.
+remain stable|coll|Prices [[remained stable]] throughout the year.
+remain stable|coll|The patient's condition has [[remained stable]].
+heavy traffic|coll|[[Heavy traffic]] delays buses every morning.
+heavy traffic|coll|We were late because of [[heavy traffic]] on the bridge.
+fierce competition|coll|Small shops face [[fierce competition]] from supermarkets.
+fierce competition|coll|There is [[fierce competition]] for places at top universities.
+mounting pressure|coll|The minister is under [[mounting pressure]] to resign.
+mounting pressure|coll|[[Mounting pressure]] at work made him ill.
+a heated debate|coll|The new law led to [[a heated debate]] in parliament.
+a heated debate|coll|We had [[a heated debate]] about homework.
+widespread concern|coll|There is [[widespread concern]] about food prices.
+widespread concern|coll|The plan caused [[widespread concern]] among parents.
+raise public awareness|coll|Posters can [[raise public awareness]] of healthy eating.
+raise public awareness|coll|The campaign aims to [[raise public awareness]] of recycling.
+tackle unemployment|coll|The government plans to [[tackle unemployment]] by creating jobs.
+tackle unemployment|coll|New training schemes may help to [[tackle unemployment]].
+reduce stress|coll|Yoga can help to [[reduce stress]].
+reduce stress|coll|Listening to music helps me [[reduce stress]] after work.
+seek advice|coll|Patients should [[seek advice]] from a doctor.
+seek advice|coll|Many students [[seek advice]] from their tutors.
+coping strategies|coll|Teenagers need good [[coping strategies]] for exam stress.
+coping strategies|coll|The course teaches [[coping strategies]] for anxiety.
+personal growth|coll|Travelling is a great way to achieve [[personal growth]].
+personal growth|coll|Reading books contributes to [[personal growth]].
+combat feelings of loneliness|coll|Volunteering can [[combat feelings of loneliness]].
+combat feelings of loneliness|coll|Clubs help older people [[combat feelings of loneliness]].
+practise mindfulness|coll|Many workers [[practise mindfulness]] during their lunch break.
+practise mindfulness|coll|I try to [[practise mindfulness]] every morning.
+healthy lifestyle|coll|A [[healthy lifestyle]] includes sleep and exercise.
+healthy lifestyle|coll|Schools should encourage a [[healthy lifestyle]].
+lead a sedentary lifestyle|coll|Office workers often [[lead a sedentary lifestyle]].
+lead a sedentary lifestyle|coll|People who [[lead a sedentary lifestyle]] risk heart disease.
+make progress|coll|She is [[making progress]] in her English studies.
+make progress|coll|The two sides are slowly [[making progress]] in the talks.
+make an effort|coll|You must [[make an effort]] to learn new words daily.
+make an effort|coll|He [[made an effort]] to be polite.
+make a living|coll|He [[makes a living]] by teaching music.
+make a living|coll|It is hard to [[make a living]] as a painter.
+run a business|coll|She [[runs a business]] selling handmade soap.
+run a business|coll|It takes patience to [[run a business]] successfully.
+cut costs|coll|Companies often [[cut costs]] during a recession.
+cut costs|coll|The school had to [[cut costs]] and reduce staff.
+strong evidence|coll|There is [[strong evidence]] that exercise improves memory.
+strong evidence|coll|The police found [[strong evidence]] against him.
+a reliable source|coll|Always check that the website is [[a reliable source]].
+a reliable source|coll|Official statistics are [[a reliable source]] of data.
+conduct a survey|coll|Researchers [[conducted a survey]] among 300 students.
+conduct a survey|coll|The council plans to [[conduct a survey]] of local residents.
+draw a conclusion|coll|It is too early to [[draw a conclusion]] from these results.
+draw a conclusion|coll|Readers can [[draw their own conclusions]] from the data.
+reach a consensus|coll|Experts have failed to [[reach a consensus]] on the causes.
+reach a consensus|coll|After discussion, the group [[reached a consensus]].
+a vested interest|coll|Tobacco firms have [[a vested interest]] in selling cigarettes.
+a vested interest|coll|Parents have [[a vested interest]] in good schools.
+far-reaching consequences|coll|The decision may have [[far-reaching consequences]].
+far-reaching consequences|coll|Climate change has [[far-reaching consequences]] for farming.
+irreversible damage|coll|Overfishing can cause [[irreversible damage]] to the ocean.
+irreversible damage|coll|Mining did [[irreversible damage]] to the valley.
+take it for granted|coll|Many people [[take it for granted]] that water is clean.
+take it for granted|coll|We often [[take it for granted]] that electricity is always there.
+maintain your composure|coll|It is hard to [[maintain your composure]] in an interview.
+maintain your composure|coll|She [[maintained her composure]] despite the criticism.
+a major breakthrough|coll|Doctors announced [[a major breakthrough]] in cancer treatment.
+a major breakthrough|coll|The team made [[a major breakthrough]] in solar energy.
+an ageing population|coll|Japan has [[an ageing population]].
+an ageing population|coll|[[An ageing population]] puts pressure on health services.
+a rapid rise|coll|There was [[a rapid rise]] in the use of smartphones.
+a rapid rise|coll|The city saw [[a rapid rise]] in rents.
+take (full) advantage of|coll|Students should [[take full advantage of]] the library.
+take (full) advantage of|coll|Tourists [[take advantage of]] the cheap flights in winter.
+take responsibility for|coll|Everyone should [[take responsibility for]] their own actions.
+take responsibility for|coll|The manager [[took responsibility for]] the mistake.
+come to terms with|coll|It took him years to [[come to terms with]] the loss.
+come to terms with|coll|She is trying to [[come to terms with]] her new situation.
+abstract concept|coll|Freedom is an [[abstract concept]].
+abstract concept|coll|Children find an [[abstract concept]] like time hard to grasp.
+academic achievement|coll|Sleep has a strong effect on [[academic achievement]].
+academic achievement|coll|Parents are proud of her [[academic achievement]].
+academic career|coll|He chose an [[academic career]] after finishing his PhD.
+academic career|coll|She began her [[academic career]] in Cambridge.
+academic circles|coll|The theory is widely discussed in [[academic circles]].
+academic circles|coll|His book is well known in [[academic circles]].
+academic community|coll|The findings surprised the [[academic community]].
+academic community|coll|The [[academic community]] welcomed the new journal.
+academic debate|coll|The topic remains the subject of [[academic debate]].
+academic debate|coll|There is ongoing [[academic debate]] about the cause.
+academic discipline|coll|Economics is an [[academic discipline]] with many branches.
+academic discipline|coll|Each [[academic discipline]] has its own methods.
+academic discourse|coll|Formal language is typical of [[academic discourse]].
+academic discourse|coll|Students must learn the style of [[academic discourse]].
+academic institution|coll|Every [[academic institution]] sets its own entry rules.
+academic institution|coll|The [[academic institution]] was founded in 1850.
+academic journal|coll|Her article appeared in a leading [[academic journal]].
+academic journal|coll|You should cite an [[academic journal]], not a blog.
+academic life|coll|He enjoys the freedom of [[academic life]].
+academic life|coll|[[Academic life]] can be stressful for new lecturers.
+academic performance|coll|Poor diet can affect [[academic performance]].
+academic performance|coll|Teachers monitor each pupil's [[academic performance]].
+academic research|coll|[[Academic research]] often takes years to complete.
+academic research|coll|The firm funds [[academic research]] at three universities.
+academic skills|coll|The course helps students build [[academic skills]].
+academic skills|coll|Note-taking is one of the key [[academic skills]].
+academic study|coll|There is little [[academic study]] of this problem.
+academic study|coll|An [[academic study]] found a link between sleep and mood.
+academic success|coll|Motivation is a key to [[academic success]].
+academic success|coll|Good teachers help children reach [[academic success]].
+academic work|coll|She spends evenings on her [[academic work]].
+academic work|coll|His [[academic work]] focuses on language learning.
+academic world|coll|He is well known in the [[academic world]].
+academic world|coll|The [[academic world]] is becoming more international.
+academic writing|coll|[[Academic writing]] should be clear and formal.
+academic writing|coll|I need to improve my [[academic writing]] before the exam.
+academic year|coll|The [[academic year]] ends in June.
+academic year|coll|Fees rise at the start of the next [[academic year]].
+accept responsibility|coll|Leaders must [[accept responsibility]] for their decisions.
+accept responsibility|coll|He refused to [[accept responsibility]] for the failure.
+acceptable behavior|coll|Schools explain what counts as [[acceptable behavior]].
+acceptable behavior|coll|Shouting at staff is not [[acceptable behavior]].
+accurate assessment|coll|Doctors need an [[accurate assessment]] of the injury.
+accurate assessment|coll|It is hard to make an [[accurate assessment]] so early.
+accurate description|coll|The witness gave an [[accurate description]] of the thief.
+accurate description|coll|The guidebook offers an [[accurate description]] of the route.
+accurate information|coll|Voters need [[accurate information]] before an election.
+accurate information|coll|The site provides [[accurate information]] on prices.
+accurate measurement|coll|[[Accurate measurement]] is vital in chemistry.
+accurate measurement|coll|The tool allows [[accurate measurement]] of distance.
+accurate picture|coll|The survey gives an [[accurate picture]] of student life.
+accurate picture|coll|These figures do not give an [[accurate picture]] of the economy.
+accurate record|coll|Keep an [[accurate record]] of all your expenses.
+accurate record|coll|Nurses must maintain an [[accurate record]] of each patient.
+achieve a goal|coll|Hard work helps people [[achieve a goal]].
+achieve a goal|coll|She [[achieved her goal]] of running a marathon.
+achieve an objective|coll|The team [[achieved its objective]] ahead of time.
+achieve an objective|coll|It is easier to [[achieve an objective]] with a clear plan.
+achieve an outcome|coll|It is difficult to [[achieve an outcome]] that suits everyone.
+achieve an outcome|coll|The talks [[achieved a positive outcome]] for both sides.
+acquire knowledge|coll|Children [[acquire knowledge]] quickly through play.
+acquire knowledge|coll|Students come to university to [[acquire knowledge]].
+active involvement|coll|The project needs the [[active involvement]] of local people.
+active involvement|coll|Learning improves with the [[active involvement]] of parents.
+active participant|coll|He is an [[active participant]] in class discussions.
+active participant|coll|Patients should be [[active participants]] in their treatment.
+active participation|coll|The course requires [[active participation]].
+active participation|coll|[[Active participation]] helps students remember more.
+active role|coll|Parents should play an [[active role]] in their child's education.
+active role|coll|She took an [[active role]] in the campaign.
+actively involved|coll|He is [[actively involved]] in local politics.
+actively involved|coll|Residents became [[actively involved]] in the clean-up.
+acutely aware|coll|She was [[acutely aware]] of the danger.
+acutely aware|coll|Teachers are [[acutely aware]] of the problem of bullying.
+add information|coll|You can [[add information]] to the table later.
+add information|coll|Please [[add information]] about your previous job.
+additional cost|coll|There is no [[additional cost]] for children.
+additional cost|coll|Delivery will mean an [[additional cost]] of five pounds.
+additional information|coll|For [[additional information]], visit our website.
+additional information|coll|The report includes [[additional information]] in the appendix.
+additional problem|coll|Noise is an [[additional problem]] in the city centre.
+additional problem|coll|The delay created an [[additional problem]] for the builders.
+additional resources|coll|Schools need [[additional resources]] to help weaker pupils.
+additional resources|coll|The hospital requested [[additional resources]] from the state.
+additional support|coll|Some pupils need [[additional support]] with reading.
+additional support|coll|The charity offers [[additional support]] to new parents.
+address an issue|coll|The government must [[address the issue]] of housing.
+address an issue|coll|The essay fails to [[address the issue]] of cost.
+administrative practices|coll|The report reviews the hospital's [[administrative practices]].
+administrative practices|coll|Changing [[administrative practices]] can save time and money.
+adopt a procedure|coll|The hospital will [[adopt a new procedure]] for safety checks.
+adopt a procedure|coll|Many firms have [[adopted a procedure]] for handling complaints.
+adopt an approach|coll|We should [[adopt a flexible approach]] to teaching.
+adopt an approach|coll|The city [[adopted a new approach]] to waste.
+advanced economy|coll|Germany is an [[advanced economy]].
+advanced economy|coll|An [[advanced economy]] relies on skilled workers.
+adverse effect|coll|The drug has an [[adverse effect]] on sleep.
+adverse effect|coll|Smoking has an [[adverse effect]] on health.
+adverse reaction|coll|He had an [[adverse reaction]] to the medicine.
+adverse reaction|coll|Some patients suffer an [[adverse reaction]] to penicillin.
+adversely affect|coll|Noise can [[adversely affect]] children's learning.
+adversely affect|coll|Cuts may [[adversely affect]] the quality of care.
+affect the outcome|coll|Bad weather could [[affect the outcome]] of the match.
+affect the outcome|coll|Small errors may [[affect the outcome]] of the experiment.
+affect the development of|coll|Poor diet can [[affect the development of]] children.
+affect the development of|coll|Stress may [[affect the development of]] the brain.
+allocate resources|coll|Governments [[allocate resources]] to health and education.
+allocate resources|coll|It is hard to [[allocate resources]] fairly.
+allow access to|coll|The card [[allows access to]] the library.
+allow access to|coll|The app [[allows access to]] your bank account.
+almost identical|coll|The two samples were [[almost identical]].
+almost identical|coll|The twins look [[almost identical]].
+alternative approach|coll|Try an [[alternative approach]] if this one fails.
+alternative approach|coll|The firm took an [[alternative approach]] to marketing.
+alternative explanation|coll|There is an [[alternative explanation]] for the result.
+alternative explanation|coll|The scientist offered an [[alternative explanation]].
+alternative form|coll|Wind power is an [[alternative form]] of energy.
+alternative form|coll|Both words are [[alternative forms]] of the same spelling.
+alternative interpretation|coll|The data allow an [[alternative interpretation]].
+alternative interpretation|coll|Critics suggest an [[alternative interpretation]] of the poem.
+alternative means|coll|They sought [[alternative means]] of transport.
+alternative means|coll|Farmers looked for [[alternative means]] of irrigation.
+alternative method|coll|Use an [[alternative method]] if this one fails.
+alternative method|coll|Doctors tested an [[alternative method]] of treatment.
+alternative model|coll|The study proposes an [[alternative model]] of growth.
+alternative model|coll|They developed an [[alternative model]] for schools.
+alternative solution|coll|We need an [[alternative solution]] to the problem.
+alternative solution|coll|Engineers suggested an [[alternative solution]].
+alternative source|coll|Solar is an [[alternative source]] of power.
+alternative source|coll|Look for an [[alternative source]] of information.
+alternative strategy|coll|The firm adopted an [[alternative strategy]].
+alternative strategy|coll|Coaches often change to an [[alternative strategy]] at half time.
+alternative view|coll|Consider an [[alternative view]] before you decide.
+alternative view|coll|The article presents an [[alternative view]] of history.
+alternative way|coll|There is an [[alternative way]] to pay online.
+alternative way|coll|Is there an [[alternative way]] to get to the airport?
+ample evidence|coll|There is [[ample evidence]] for this claim.
+ample evidence|coll|The court heard [[ample evidence]] of fraud.
+analytical approach|coll|She takes an [[analytical approach]] to problems.
+analytical approach|coll|An [[analytical approach]] helps in science subjects.
+analytical tool|coll|Statistics is a key [[analytical tool]].
+analytical tool|coll|The software is a useful [[analytical tool]] for researchers.
+anecdotal evidence|coll|[[Anecdotal evidence]] is not enough to prove the claim.
+anecdotal evidence|coll|The article relies on [[anecdotal evidence]].
+annual conference|coll|She spoke at the [[annual conference]] in Paris.
+annual conference|coll|The [[annual conference]] attracts thousands of delegates.
+annual meeting|coll|The [[annual meeting]] takes place in May.
+annual meeting|coll|Shareholders attended the [[annual meeting]].
+annual rate|coll|Prices grew at an [[annual rate]] of three per cent.
+annual rate|coll|The [[annual rate]] of inflation fell slightly.
+annual report|coll|The [[annual report]] shows a profit.
+annual report|coll|Each firm must publish an [[annual report]].
+annual review|coll|Staff have an [[annual review]] with their manager.
+annual review|coll|My [[annual review]] went well.
+apply equally|coll|The rule [[applies equally]] to all students.
+apply equally|coll|These conditions [[apply equally]] to men and women.
+apply a method|coll|Researchers [[apply a method]] to test their ideas.
+apply a method|coll|It is easy to [[apply this method]] in small classes.
+apply the theory|coll|Students [[apply the theory]] in practical work.
+apply the theory|coll|It is hard to [[apply the theory]] to real life.
+appropriate action|coll|The school took [[appropriate action]] against bullies.
+appropriate action|coll|Take [[appropriate action]] as soon as possible.
+appropriate behavior|coll|Teach children [[appropriate behavior]] from an early age.
+appropriate behavior|coll|Interviewers expect [[appropriate behavior]] from candidates.
+appropriate conditions|coll|Plants grow best under [[appropriate conditions]].
+appropriate conditions|coll|The samples were kept in [[appropriate conditions]].
+appropriate data|coll|Collect [[appropriate data]] before you start.
+appropriate data|coll|The study uses [[appropriate data]] from five countries.
+appropriate form|coll|Use the [[appropriate form]] of the verb.
+appropriate form|coll|Please complete the [[appropriate form]] online.
+appropriate language|coll|Use [[appropriate language]] in a formal essay.
+appropriate language|coll|Children need to learn [[appropriate language]] for school.
+appropriate level|coll|Choose books at an [[appropriate level]].
+appropriate level|coll|Make sure the exercise is at an [[appropriate level]].
+appropriate point|coll|Pause at an [[appropriate point]] in your talk.
+appropriate point|coll|At an [[appropriate point]], the teacher asked a question.
+appropriate response|coll|The [[appropriate response]] is to stay calm.
+appropriate response|coll|The government gave an [[appropriate response]] to the crisis.
+appropriate skills|coll|Candidates need [[appropriate skills]] for this job.
+appropriate skills|coll|Training gives workers [[appropriate skills]].
+appropriate treatment|coll|Patients receive [[appropriate treatment]] within a week.
+appropriate treatment|coll|Early diagnosis allows [[appropriate treatment]].
+appropriate way|coll|Find an [[appropriate way]] to complain.
+appropriate way|coll|What is the most [[appropriate way]] to greet a client?
+armed conflict|coll|[[Armed conflict]] displaces millions of people.
+armed conflict|coll|The region has suffered years of [[armed conflict]].
+artificial intelligence|coll|[[Artificial intelligence]] is changing the way we work.
+artificial intelligence|coll|Many banks use [[artificial intelligence]] to detect fraud.
+assess the impact of|coll|We must [[assess the impact of]] the new policy.
+assess the impact of|coll|Researchers [[assessed the impact of]] social media on sleep.
+assessment process|coll|The [[assessment process]] takes several weeks.
+assessment process|coll|Candidates must pass a fair [[assessment process]].
+associated factors|coll|The study examines [[associated factors]] such as income.
+associated factors|coll|Several [[associated factors]] may explain the rise.
+assume responsibility|coll|He had to [[assume responsibility]] for the whole team.
+assume responsibility|coll|Young people [[assume responsibility]] when they leave home.
+assume the role of|coll|She [[assumed the role of]] manager last year.
+assume the role of|coll|He had to [[assume the role of]] a teacher.
+atomic energy|coll|[[Atomic energy]] provides power for some cities.
+atomic energy|coll|Debates about [[atomic energy]] are often heated.
+attend a conference|coll|He will [[attend a conference]] in Berlin next week.
+attend a conference|coll|Doctors from many countries [[attended the conference]].
+available data|coll|[[Available data]] suggest that crime is falling.
+available data|coll|Based on [[available data]], the plan seems sound.
+available evidence|coll|The [[available evidence]] is limited.
+available evidence|coll|According to the [[available evidence]], the drug is safe.
+available information|coll|Use all [[available information]] before you decide.
+available information|coll|Based on [[available information]], the flight is delayed.
+available resources|coll|Schools must use [[available resources]] wisely.
+available resources|coll|The region has few [[available resources]].
+average score|coll|The [[average score]] in the test was 70.
+average score|coll|Girls had a higher [[average score]] than boys.
+background knowledge|coll|Reading needs [[background knowledge]] of the topic.
+background knowledge|coll|You do not need any [[background knowledge]] for this course.
+basic assumption|coll|The model rests on a [[basic assumption]].
+basic assumption|coll|Everyone shares the [[basic assumption]] that more is better.
+basic component|coll|Water is a [[basic component]] of life.
+basic component|coll|Flour is a [[basic component]] of bread.
+basic concept|coll|Learn the [[basic concept]] first.
+basic concept|coll|Supply and demand is a [[basic concept]] in economics.
+basic element|coll|Trust is a [[basic element]] of teamwork.
+basic element|coll|Oxygen is a [[basic element]] for human life.
+basic function|coll|The [[basic function]] of the heart is to pump blood.
+basic function|coll|The phone's [[basic function]] is to make calls.
+basic information|coll|The leaflet gives [[basic information]] about the course.
+basic information|coll|Please provide [[basic information]] about yourself.
+basic premise|coll|The [[basic premise]] of the book is simple.
+basic premise|coll|Critics reject the [[basic premise]] of the theory.
+basic principle|coll|It follows a [[basic principle]] of physics.
+basic principle|coll|Fairness is a [[basic principle]] of the law.
+basic research|coll|[[Basic research]] drives scientific discovery.
+basic research|coll|Governments should fund [[basic research]].
+basic structure|coll|Note the [[basic structure]] of an essay.
+basic structure|coll|The [[basic structure]] of the building is steel.
+basic technique|coll|Learn a [[basic technique]] before trying advanced skills.
+basic technique|coll|The class teaches [[basic techniques]] of painting.
+bear resemblance to|coll|The new model [[bears resemblance to]] the original.
+bear resemblance to|coll|The story [[bears little resemblance to]] real events.
+become apparent|coll|The problem soon [[became apparent]].
+become apparent|coll|It will [[become apparent]] who is right.
+become available|coll|New data [[became available]] in May.
+become available|coll|The tickets will [[become available]] next week.
+become aware|coll|She [[became aware]] of the risk too late.
+become aware|coll|People [[become aware]] of the problem through the news.
+become blurred|coll|The boundaries between work and leisure have [[become blurred]].
+become blurred|coll|Her vision [[became blurred]] after the accident.
+become established|coll|The practice [[became established]] in the 1990s.
+become established|coll|The firm quickly [[became established]] in Asia.
+become evident|coll|The effects of the policy [[became evident]] later.
+become evident|coll|It soon [[became evident]] that the plan would fail.
+become independent|coll|Young people [[become independent]] at university.
+become independent|coll|The country [[became independent]] in 1960.
+become involved in|coll|He [[became involved in]] local politics.
+become involved in|coll|Students often [[become involved in]] volunteer work.
+become obvious|coll|The mistake soon [[became obvious]].
+become obvious|coll|It will [[become obvious]] why we need change.
+become visible|coll|The cracks [[became visible]] after the storm.
+become visible|coll|The stars [[become visible]] at night.
+become widespread|coll|Smartphones [[became widespread]] very quickly.
+become widespread|coll|The habit has [[become widespread]] among teenagers.
+become a source of|coll|Tourism has [[become a source of]] income.
+become a source of|coll|The river may [[become a source of]] clean energy.
+become the focus of|coll|Obesity has [[become the focus of]] public debate.
+become the focus of|coll|The case [[became the focus of]] media attention.

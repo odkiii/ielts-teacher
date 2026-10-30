@@ -1,0 +1,400 @@
+make explicit|coll|The teacher tries to [[make explicit]] the rules of grammar.
+make explicit|coll|Authors should [[make explicit]] their assumptions.
+make policy|coll|Governments [[make policy]] on health.
+make policy|coll|Experts help to [[make policy]] on climate.
+make provision for|coll|Schools must [[make provision for]] disabled pupils.
+make provision for|coll|The budget [[makes provision for]] new roads.
+make visible|coll|Graphs [[make visible]] hidden trends.
+make visible|coll|The campaign aims to [[make visible]] the problem of waste.
+make a comment|coll|Would you like to [[make a comment]]?
+make a comment|coll|She [[made a comment]] about the weather.
+make a distinction|coll|It is important to [[make a distinction]] between fact and opinion.
+make a distinction|coll|The law [[makes a distinction]] between adults and children.
+make a judgement|coll|It is too early to [[make a judgement]].
+make a judgement|coll|Teachers [[make a judgement]] about each essay.
+make a prediction|coll|Experts [[make a prediction]] about prices.
+make a prediction|coll|It is hard to [[make a prediction]] about the weather.
+make a recommendation|coll|The panel will [[make a recommendation]] next week.
+make a recommendation|coll|Doctors [[make a recommendation]] to rest.
+make a statement|coll|The minister will [[make a statement]] today.
+make a statement|coll|Fashion can [[make a statement]] about who you are.
+make a transition|coll|Teens [[make a transition]] from school to work.
+make a transition|coll|The firm will [[make a transition]] to green energy.
+make an argument|coll|Use data to [[make an argument]].
+make an argument|coll|She [[made an argument]] against the tax.
+make an assessment|coll|Nurses [[make an assessment]] of each patient.
+make an assessment|coll|It is too early to [[make an assessment]].
+make an assumption|coll|Do not [[make an assumption]] without evidence.
+make an assumption|coll|We [[made an assumption]] about prices.
+make an impact|coll|The film [[made an impact]] on young viewers.
+make an impact|coll|She hopes to [[make an impact]] in her new job.
+make an impression|coll|Dress well to [[make an impression]].
+make an impression|coll|The speaker [[made a strong impression]] on the audience.
+make an observation|coll|Scientists [[make an observation]] before a theory.
+make an observation|coll|Let me [[make an observation]] about the data.
+male dominance|coll|The film shows [[male dominance]] in business.
+male dominance|coll|Critics challenge [[male dominance]] in politics.
+manual worker|coll|A [[manual worker]] often works outdoors.
+manual worker|coll|The factory employs many [[manual workers]].
+manufacturing sector|coll|The [[manufacturing sector]] employs many people.
+manufacturing sector|coll|Jobs in the [[manufacturing sector]] fell.
+marked contrast|coll|The north is in [[marked contrast]] to the south.
+marked contrast|coll|His mood was in [[marked contrast]] to hers.
+markedly different|coll|The two cities are [[markedly different]].
+markedly different|coll|Results were [[markedly different]] in girls.
+maximum duration|coll|The [[maximum duration]] of the course is six weeks.
+maximum duration|coll|Check the [[maximum duration]] of the visa.
+mean score|coll|The [[mean score]] was 72.
+mean score|coll|Girls had a higher [[mean score]].
+meaningful way|coll|Find a [[meaningful way]] to help.
+meaningful way|coll|Children learn in a [[meaningful way]] through play.
+media coverage|coll|The case got wide [[media coverage]].
+media coverage|coll|[[Media coverage]] of the event was positive.
+medical assistance|coll|Injured people need [[medical assistance]].
+medical assistance|coll|Call for [[medical assistance]] at once.
+medical treatment|coll|He needs [[medical treatment]].
+medical treatment|coll|[[Medical treatment]] is free in many countries.
+meet criteria|coll|Applicants must [[meet the criteria]].
+meet criteria|coll|The plan does not [[meet the criteria]].
+meet expectations|coll|The film did not [[meet expectations]].
+meet expectations|coll|Results [[met expectations]].
+meet a requirement|coll|Students must [[meet the requirements]] for entry.
+meet a requirement|coll|The product does not [[meet a requirement]] of the law.
+meet a target|coll|The firm failed to [[meet its target]].
+meet a target|coll|Staff worked hard to [[meet the target]].
+meet an objective|coll|The course helps to [[meet its objectives]].
+meet an objective|coll|We did not [[meet the objective]] of cutting costs.
+mental health|coll|Exercise improves [[mental health]].
+mental health|coll|Schools support pupils' [[mental health]].
+mental illness|coll|[[Mental illness]] affects many families.
+mental illness|coll|Talking openly about [[mental illness]] helps.
+mental state|coll|The doctor checked his [[mental state]].
+mental state|coll|Sleep affects your [[mental state]].
+methodological approach|coll|The paper uses a clear [[methodological approach]].
+methodological approach|coll|She criticized the [[methodological approach]].
+methodological issue|coll|Sample size is a [[methodological issue]].
+methodological issue|coll|The study raises a [[methodological issue]].
+methodological problem|coll|Bias is a [[methodological problem]].
+methodological problem|coll|The team faced a [[methodological problem]].
+metropolitan area|coll|The [[metropolitan area]] has ten million people.
+metropolitan area|coll|Commuters travel across the [[metropolitan area]].
+middle income|coll|[[Middle income]] families struggle with rent.
+middle income|coll|It is a [[middle income]] country.
+middle management|coll|[[Middle management]] links staff and bosses.
+middle management|coll|She works in [[middle management]].
+migrant worker|coll|A [[migrant worker]] picks fruit in summer.
+migrant worker|coll|Many [[migrant workers]] send money home.
+military action|coll|The country threatened [[military action]].
+military action|coll|[[Military action]] was avoided.
+military force|coll|The government used [[military force]].
+military force|coll|[[Military force]] is a last choice.
+military power|coll|The country has strong [[military power]].
+military power|coll|[[Military power]] shapes politics.
+military service|coll|Men did [[military service]] for two years.
+military service|coll|[[Military service]] is compulsory there.
+minimum level|coll|Keep the heating at a [[minimum level]].
+minimum level|coll|Students need a [[minimum level]] of English.
+minimum requirement|coll|A degree is the [[minimum requirement]].
+minimum requirement|coll|Meet the [[minimum requirement]] first.
+minimum standard|coll|The school failed to meet a [[minimum standard]].
+minimum standard|coll|Hotels must keep a [[minimum standard]] of hygiene.
+minimum value|coll|The [[minimum value]] on the chart is five.
+minimum value|coll|Find the [[minimum value]] of the data.
+minimum wage|coll|Many workers earn the [[minimum wage]].
+minimum wage|coll|The government raised the [[minimum wage]].
+minor change|coll|Make a [[minor change]] to the text.
+minor change|coll|A [[minor change]] in diet helped her.
+minor role|coll|He played a [[minor role]] in the film.
+minor role|coll|Luck played a [[minor role]].
+minority group|coll|Every [[minority group]] has rights.
+minority group|coll|Schools support each [[minority group]].
+missing data|coll|[[Missing data]] affects results.
+missing data|coll|The study had a lot of [[missing data]].
+modern culture|coll|Phones shape [[modern culture]].
+modern culture|coll|Fast food is part of [[modern culture]].
+modern method|coll|Farmers use a [[modern method]] of irrigation.
+modern method|coll|A [[modern method]] saves time.
+modern society|coll|Stress is common in [[modern society]].
+modern society|coll|Technology shapes [[modern society]].
+modern technology|coll|[[Modern technology]] makes life easier.
+modern technology|coll|Farms rely on [[modern technology]].
+modified form|coll|The drug is sold in a [[modified form]].
+modified form|coll|The rule exists in a [[modified form]].
+modified version|coll|A [[modified version]] of the plan was approved.
+modified version|coll|They released a [[modified version]] of the app.
+moral dilemma|coll|Doctors face a [[moral dilemma]].
+moral dilemma|coll|The film presents a [[moral dilemma]].
+moral philosophy|coll|He teaches [[moral philosophy]].
+moral philosophy|coll|[[Moral philosophy]] asks what is right.
+moral principle|coll|Honesty is a [[moral principle]].
+moral principle|coll|He refused to break a [[moral principle]].
+multiple identities|coll|Migrants may have [[multiple identities]].
+multiple identities|coll|Online, people try on [[multiple identities]].
+multiple sources|coll|Check facts using [[multiple sources]].
+multiple sources|coll|The report draws on [[multiple sources]].
+municipal government|coll|[[Municipal government]] runs the buses.
+municipal government|coll|She works in [[municipal government]].
+mutual recognition|coll|The treaty allows [[mutual recognition]] of degrees.
+mutual recognition|coll|[[Mutual recognition]] eases trade.
+mutual support|coll|Friends give [[mutual support]].
+mutual support|coll|The group offers [[mutual support]].
+mutual trust|coll|Teamwork rests on [[mutual trust]].
+mutual trust|coll|Marriage needs [[mutual trust]].
+mutual understanding|coll|Travel builds [[mutual understanding]].
+mutual understanding|coll|They reached a [[mutual understanding]].
+mutually exclusive|coll|The two options are [[mutually exclusive]].
+mutually exclusive|coll|These goals are not [[mutually exclusive]].
+narrow definition|coll|The law uses a [[narrow definition]] of crime.
+narrow definition|coll|A [[narrow definition]] excludes many cases.
+narrow range of|coll|The shop sells a [[narrow range of]] goods.
+narrow range of|coll|The test covers a [[narrow range of]] skills.
+national average|coll|Wages are below the [[national average]].
+national average|coll|The city has an unemployment rate above the [[national average]].
+national boundary|coll|Trade crosses every [[national boundary]].
+national boundary|coll|The river forms a [[national boundary]].
+national conference|coll|She spoke at the [[national conference]].
+national conference|coll|The party holds a [[national conference]] each year.
+national culture|coll|Food is part of [[national culture]].
+national culture|coll|Films reflect [[national culture]].
+national economy|coll|Tourism boosts the [[national economy]].
+national economy|coll|The [[national economy]] grew.
+national government|coll|The [[national government]] funds roads.
+national government|coll|Cities depend on the [[national government]].
+national identity|coll|Language shapes [[national identity]].
+national identity|coll|Sport builds [[national identity]].
+national income|coll|[[National income]] rose by three per cent.
+national income|coll|Taxes raise [[national income]].
+national institution|coll|The museum is a [[national institution]].
+national institution|coll|The BBC is a [[national institution]].
+national interest|coll|The law serves the [[national interest]].
+national interest|coll|Leaders act in the [[national interest]].
+national language|coll|Spanish is the [[national language]].
+national language|coll|Schools teach the [[national language]].
+national legislation|coll|[[National legislation]] protects workers.
+national legislation|coll|The treaty needs [[national legislation]].
+national market|coll|The firm sells in the [[national market]].
+national market|coll|The [[national market]] is small.
+national media|coll|The story reached the [[national media]].
+national media|coll|[[National media]] covered the vote.
+national movement|coll|A [[national movement]] demanded change.
+national movement|coll|He led a [[national movement]] for reform.
+national policy|coll|[[National policy]] favours renewable energy.
+national policy|coll|A [[national policy]] on schools was adopted.
+national press|coll|The [[national press]] reported the news.
+national press|coll|She writes for the [[national press]].
+national security|coll|The law protects [[national security]].
+national security|coll|[[National security]] depends on allies.
+national survey|coll|A [[national survey]] asked 5,000 adults.
+national survey|coll|The [[national survey]] shows a fall.
+native speaker|coll|She is a [[native speaker]] of English.
+native speaker|coll|[[Native speakers]] use idioms.
+natural conditions|coll|The plants grew in [[natural conditions]].
+natural conditions|coll|Under [[natural conditions]], rivers flood.
+natural disaster|coll|A [[natural disaster]] hit the coast.
+natural disaster|coll|Floods are a [[natural disaster]].
+natural environment|coll|Protect the [[natural environment]].
+natural environment|coll|Animals live in their [[natural environment]].
+natural history|coll|The museum covers [[natural history]].
+natural history|coll|He wrote a book on [[natural history]].
+natural language|coll|Computers now understand [[natural language]].
+natural language|coll|[[Natural language]] evolves.
+natural law|coll|Gravity is a [[natural law]].
+natural law|coll|Some thinkers believe in [[natural law]].
+natural order|coll|Some say war disturbs the [[natural order]].
+natural order|coll|Seasons follow a [[natural order]].
+natural philosophy|coll|Newton studied [[natural philosophy]].
+natural philosophy|coll|[[Natural philosophy]] became science.
+natural process|coll|Ageing is a [[natural process]].
+natural process|coll|Erosion is a [[natural process]].
+natural resources|coll|The country is rich in [[natural resources]].
+natural resources|coll|We must protect [[natural resources]].
+natural right|coll|Liberty is a [[natural right]].
+natural right|coll|Thinkers argued for [[natural rights]].
+natural science|coll|Physics is a [[natural science]].
+natural science|coll|She studies [[natural science]].
+natural tendency|coll|Humans have a [[natural tendency]] to help.
+natural tendency|coll|Children have a [[natural tendency]] to explore.
+natural world|coll|Children love the [[natural world]].
+natural world|coll|The film explores the [[natural world]].
+naturally occurring|coll|Salt is a [[naturally occurring]] mineral.
+naturally occurring|coll|The compound is [[naturally occurring]].
+necessary information|coll|Give all [[necessary information]].
+necessary information|coll|Collect the [[necessary information]] first.
+negative aspect|coll|Cost is a [[negative aspect]] of the plan.
+negative aspect|coll|Every plan has a [[negative aspect]].
+negative attitude|coll|A [[negative attitude]] harms learning.
+negative attitude|coll|She has a [[negative attitude]] to change.
+negative connotation|coll|The word has a [[negative connotation]].
+negative connotation|coll|Avoid terms with a [[negative connotation]].
+negative consequences|coll|Pollution has [[negative consequences]].
+negative consequences|coll|Debt can have [[negative consequences]].
+negative correlation|coll|There is a [[negative correlation]] between price and demand.
+negative correlation|coll|The graph shows a [[negative correlation]].
+negative effect|coll|Noise has a [[negative effect]] on sleep.
+negative effect|coll|The drug has a [[negative effect]] on mood.
+negative feedback|coll|[[Negative feedback]] can help you improve.
+negative feedback|coll|The app got [[negative feedback]].
+negative impact|coll|Plastic has a [[negative impact]] on seas.
+negative impact|coll|Stress has a [[negative impact]] on health.
+negative outcome|coll|Avoid a [[negative outcome]].
+negative outcome|coll|A [[negative outcome]] was unlikely.
+negative side|coll|Every job has a [[negative side]].
+negative side|coll|The [[negative side]] of fame is lack of privacy.
+negative stereotype|coll|Films often use a [[negative stereotype]].
+negative stereotype|coll|Schools challenge each [[negative stereotype]].
+negative value|coll|Debt has a [[negative value]].
+negative value|coll|The result was a [[negative value]].
+negative view|coll|He has a [[negative view]] of politics.
+negative view|coll|Many hold a [[negative view]] of the plan.
+negatively correlated with|coll|Stress is [[negatively correlated with]] sleep.
+negatively correlated with|coll|Price is [[negatively correlated with]] demand.
+new initiative|coll|The city launched a [[new initiative]] on recycling.
+new initiative|coll|A [[new initiative]] helps young workers.
+new insight|coll|Reading gives a [[new insight]] into the past.
+new insight|coll|The study offers a [[new insight]] into sleep.
+new perspective|coll|Travel gives you a [[new perspective]].
+new perspective|coll|She offered a [[new perspective]] on the issue.
+newly acquired|coll|He used his [[newly acquired]] skills.
+newly acquired|coll|The [[newly acquired]] land is a park.
+newly created|coll|A [[newly created]] team handles complaints.
+newly created|coll|The [[newly created]] job pays well.
+newly discovered|coll|A [[newly discovered]] planet is large.
+newly discovered|coll|The [[newly discovered]] letters surprised historians.
+newly emerging|coll|[[Newly emerging]] markets attract investors.
+newly emerging|coll|A [[newly emerging]] trend is remote work.
+newly established|coll|The [[newly established]] firm hired ten staff.
+newly established|coll|A [[newly established]] charity helps refugees.
+newly formed|coll|The [[newly formed]] group met on Friday.
+newly formed|coll|A [[newly formed]] team won.
+next decade|coll|Prices will rise in the [[next decade]].
+next decade|coll|Jobs will change over the [[next decade]].
+next generation|coll|Schools shape the [[next generation]].
+next generation|coll|The [[next generation]] of phones is faster.
+next phase|coll|The [[next phase]] starts in May.
+next phase|coll|We are ready for the [[next phase]].
+normal conditions|coll|Under [[normal conditions]], the plant grows fast.
+normal conditions|coll|The test was done under [[normal conditions]].
+normal development|coll|Sleep supports [[normal development]].
+normal development|coll|Check the child's [[normal development]].
+normal distribution|coll|Heights follow a [[normal distribution]].
+normal distribution|coll|The graph shows a [[normal distribution]].
+normal practice|coll|It is [[normal practice]] to ask for ID.
+normal practice|coll|Doctors follow [[normal practice]].
+notable exception|coll|With one [[notable exception]], all agreed.
+notable exception|coll|There is one [[notable exception]] to the rule.
+nuclear energy|coll|[[Nuclear energy]] is controversial.
+nuclear energy|coll|The country relies on [[nuclear energy]].
+nuclear family|coll|The [[nuclear family]] is smaller today.
+nuclear family|coll|A [[nuclear family]] has two parents and children.
+nuclear power|coll|[[Nuclear power]] supplies electricity.
+nuclear power|coll|Debate on [[nuclear power]] continues.
+nuclear war|coll|People fear [[nuclear war]].
+nuclear war|coll|A [[nuclear war]] would be a disaster.
+nuclear weapon|coll|The treaty bans every [[nuclear weapon]].
+nuclear weapon|coll|Few nations have a [[nuclear weapon]].
+numerical data|coll|Charts display [[numerical data]].
+numerical data|coll|The study uses [[numerical data]].
+numerical value|coll|Give a [[numerical value]] for the cost.
+numerical value|coll|Each answer has a [[numerical value]].
+numerous studies|coll|[[Numerous studies]] link sleep and memory.
+numerous studies|coll|[[Numerous studies]] show the benefit.
+objective criteria|coll|Use [[objective criteria]] to judge.
+objective criteria|coll|Hiring should follow [[objective criteria]].
+objective reality|coll|Science describes [[objective reality]].
+objective reality|coll|Perception may differ from [[objective reality]].
+obtain data|coll|Researchers [[obtain data]] from surveys.
+obtain data|coll|It is hard to [[obtain data]] on this.
+obtain information|coll|Where can I [[obtain information]] on visas?
+obtain information|coll|Police tried to [[obtain information]].
+obtain a result|coll|It took weeks to [[obtain a result]].
+obtain a result|coll|Repeat the test to [[obtain a result]].
+obvious difference|coll|There is an [[obvious difference]] in price.
+obvious difference|coll|The [[obvious difference]] is size.
+obvious example|coll|Tea is an [[obvious example]] of a British drink.
+obvious example|coll|An [[obvious example]] is the car.
+obvious point|coll|It is an [[obvious point]], but important.
+obvious point|coll|Her [[obvious point]] was made clear.
+obvious reason|coll|There is no [[obvious reason]] for the delay.
+obvious reason|coll|For the [[obvious reason]] of cost, we stopped.
+occur frequently|coll|Errors [[occur frequently]] in speech.
+occur frequently|coll|Storms [[occur frequently]] here.
+occur naturally|coll|Gold [[occurs naturally]] in rock.
+occur naturally|coll|The chemical [[occurs naturally]] in fruit.
+offer insight into|coll|The film [[offers insight into]] life in space.
+offer insight into|coll|Diaries [[offer insight into]] history.
+offer an opportunity|coll|The course [[offers an opportunity]] to travel.
+offer an opportunity|coll|The job [[offers an opportunity]] to learn.
+official statistics|coll|[[Official statistics]] show a fall.
+official statistics|coll|Use [[official statistics]] in the essay.
+once established|coll|[[Once established]], habits are hard to break.
+once established|coll|[[Once established]], the firm grew fast.
+ongoing debate|coll|There is an [[ongoing debate]] about fees.
+ongoing debate|coll|The topic is an [[ongoing debate]].
+ongoing process|coll|Learning is an [[ongoing process]].
+ongoing process|coll|Recovery is an [[ongoing process]].
+online access|coll|Students have [[online access]] to books.
+online access|coll|Many villages lack [[online access]].
+online database|coll|Search the [[online database]] for papers.
+online database|coll|The library has an [[online database]].
+online journal|coll|She publishes in an [[online journal]].
+online journal|coll|The [[online journal]] is free.
+online version|coll|Read the [[online version]] of the guide.
+online version|coll|The [[online version]] is cheaper.
+open access|coll|The paper is [[open access]].
+open access|coll|Journals offer [[open access]] to readers.
+opening chapter|coll|The [[opening chapter]] sets the scene.
+opening chapter|coll|I enjoyed the [[opening chapter]].
+opening section|coll|The [[opening section]] explains the aim.
+opening section|coll|Read the [[opening section]] first.
+opinion leader|coll|An [[opinion leader]] influences others.
+opinion leader|coll|Brands seek an [[opinion leader]] online.
+optimal solution|coll|Find the [[optimal solution]].
+optimal solution|coll|The [[optimal solution]] saves money.
+oral history|coll|She records [[oral history]] from elders.
+oral history|coll|[[Oral history]] preserves memory.
+oral presentation|coll|Students give an [[oral presentation]].
+oral presentation|coll|The course ends with an [[oral presentation]].
+organizing principle|coll|Fairness is the [[organizing principle]] of the system.
+organizing principle|coll|Time is the [[organizing principle]] of the book.
+organizational structure|coll|The firm changed its [[organizational structure]].
+organizational structure|coll|A flat [[organizational structure]] speeds decisions.
+original author|coll|The [[original author]] revised the text.
+original author|coll|Credit the [[original author]].
+original context|coll|The quote was taken out of its [[original context]].
+original context|coll|Read the line in its [[original context]].
+original data|coll|The team kept the [[original data]].
+original data|coll|Check the [[original data]] first.
+original intent|coll|The law has lost its [[original intent]].
+original intent|coll|Judges study the [[original intent]].
+original meaning|coll|The word lost its [[original meaning]].
+original meaning|coll|Find the [[original meaning]] of the term.
+original model|coll|The new car improves the [[original model]].
+original model|coll|The [[original model]] was slow.
+original position|coll|Return to your [[original position]].
+original position|coll|He kept his [[original position]].
+original research|coll|The thesis needs [[original research]].
+original research|coll|She published [[original research]].
+original source|coll|Always cite the [[original source]].
+original source|coll|Trace the quote to its [[original source]].
+original text|coll|Compare the translation with the [[original text]].
+original text|coll|The [[original text]] is in Latin.
+original version|coll|I prefer the [[original version]] of the song.
+original version|coll|The [[original version]] was longer.
+original work|coll|It is an [[original work]], not a copy.
+original work|coll|Plagiarism means copying [[original work]].
+originally developed|coll|The drug was [[originally developed]] for pain.
+originally developed|coll|The game was [[originally developed]] in Japan.
+originally intended|coll|The tool was [[originally intended]] for schools.
+originally intended|coll|The park was [[originally intended]] for cars.
+overall aim|coll|The [[overall aim]] is to cut waste.
+overall aim|coll|The [[overall aim]] of the course is fluency.
+overall effect|coll|The [[overall effect]] was positive.
+overall effect|coll|The [[overall effect]] of the cuts is unclear.
+overall level|coll|The [[overall level]] of noise is low.
+overall level|coll|The [[overall level]] of spending rose.
+overall performance|coll|The team's [[overall performance]] improved.
+overall performance|coll|Her [[overall performance]] was strong.
+overall picture|coll|The [[overall picture]] is hopeful.
+overall picture|coll|The chart gives the [[overall picture]].
+overall rate|coll|The [[overall rate]] of crime fell.
+overall rate|coll|The [[overall rate]] of growth was low.

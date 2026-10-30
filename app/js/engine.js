@@ -264,6 +264,9 @@
 
   // ---------- Заучивание (как в Quizlet): карточка не закрывается, пока её не отметят «Выучил» ----------
   const GAPS = [2, 5, 10, 20]; // через сколько показов вернётся карточка при оценке again/hard/good/easy
+  const exAll = (c) => [c.ex].concat(c.ex2 || []);
+  const exIdx = (c) => (c.ex2 && c.ex2.length ? (c.rv || 0) % (1 + c.ex2.length) : 0);
+  const exOf = (c) => exAll(c)[exIdx(c)];
   const isWord = (c) => !!(c && c.t && c.ex);
   const MARK = /\[\[([^\[\]]+)\]\]/;
   const plain = (ex) => String(ex).replace(/\[\[([^\[\]]+)\]\]/g, '$1');
@@ -333,7 +336,7 @@
     while (opts.length < 3 && pool.length) { const i = Math.floor(rnd() * pool.length); const t = pool.splice(i, 1)[0].t; if (!opts.includes(t)) opts.push(t); }
     opts.push(c.t);
     for (let i = opts.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [opts[i], opts[j]] = [opts[j], opts[i]]; }
-    return { text: String(c.ex).replace(MARK, '_____'), form: (String(c.ex).match(MARK) || [0, ''])[1], opts, answer: opts.indexOf(c.t) };
+    return { text: String(exOf(c)).replace(MARK, '_____'), form: (String(exOf(c)).match(MARK) || [0, ''])[1], opts, answer: opts.indexOf(c.t) };
   }
   // ---------- Группы карточек ----------
   const GROUPS = [['w', 'Слова'], ['coll', 'Коллокации'], ['phv', 'Фразовые глаголы'], ['idiom', 'Идиомы'], ['link', 'Связки и обороты'], ['t1', 'Task 1: графики'], ['t2', 'Task 2: эссе'], ['sp', 'Speaking'], ['let', 'Письма'], ['par', 'Парафразы']];
@@ -354,7 +357,7 @@
   }
   const inGroup = (c, g) => (g === 'main' || !g ? MAIN_GROUPS.includes(group(c)) : g === 'all' ? true : group(c) === g);
   // ---------- Мини-задания ----------
-  const form = (c) => (String(c.ex).match(MARK) || [0, c.t])[1];
+  const form = (c) => (String(exOf(c)).match(MARK) || [0, c.t])[1];
   function shuffled(a, rnd) { const r = a.slice(); for (let i = r.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [r[i], r[j]] = [r[j], r[i]]; } return r; }
   /** 4 варианта по полю field ('t' — английское слово, 'ru' — перевод); дистракторы того же типа и той же группы. */
   function choices(c, cards, field, rnd) {
@@ -542,6 +545,6 @@
     return 3.5;
   }
 
-  const api = { SK, PHASES, pd, fmt, addDays, daysBetween, weekNo, phaseFor, errorSeverity, weights, dayTasks, newCard, dueCards, review, overall, rawToBand, isWord, plain, lrMode, lrRate, master, unmaster, reviewMastered, contexts, buildSession, pickFresh, GROUPS, GROUP_LABEL, MAIN_GROUPS, group, inGroup, choices, typeCheck, hintOf, drillQueue, form, pickNext, mcq, checkSentence, GAPS, analyseText, checkAnswer, parseFeedback, errDrillable, normFix, errInit, errDue, errCheck, errRate, EI, CEF, cefOf, cefRank };
+  const api = { exAll, exIdx, exOf, SK, PHASES, pd, fmt, addDays, daysBetween, weekNo, phaseFor, errorSeverity, weights, dayTasks, newCard, dueCards, review, overall, rawToBand, isWord, plain, lrMode, lrRate, master, unmaster, reviewMastered, contexts, buildSession, pickFresh, GROUPS, GROUP_LABEL, MAIN_GROUPS, group, inGroup, choices, typeCheck, hintOf, drillQueue, form, pickNext, mcq, checkSentence, GAPS, analyseText, checkAnswer, parseFeedback, errDrillable, normFix, errInit, errDue, errCheck, errRate, EI, CEF, cefOf, cefRank };
   if (typeof module !== 'undefined' && module.exports) module.exports = api; else root.Engine = api;
 })(typeof window !== 'undefined' ? window : globalThis);

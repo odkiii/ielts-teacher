@@ -1,0 +1,400 @@
+primary care|coll|[[Primary care]] doctors see most patients first.
+primary care|coll|The clinic offers [[primary care]] to families.
+primary concern|coll|Safety is our [[primary concern]].
+primary concern|coll|Cost was her [[primary concern]].
+primary data|coll|Researchers collect [[primary data]] through surveys.
+primary data|coll|[[Primary data]] is costly to gather.
+primary education|coll|[[Primary education]] starts at six.
+primary education|coll|She works in [[primary education]].
+primary focus|coll|Health is the [[primary focus]] of the study.
+primary focus|coll|The [[primary focus]] of the course is writing.
+primary function|coll|The [[primary function]] of the heart is to pump blood.
+primary function|coll|The [[primary function]] of the tool is cutting.
+primary objective|coll|Our [[primary objective]] is to cut costs.
+primary objective|coll|The [[primary objective]] is to protect jobs.
+primary purpose|coll|The [[primary purpose]] of the visit is research.
+primary purpose|coll|Its [[primary purpose]] is to inform.
+primary reason|coll|Cost is the [[primary reason]] for the delay.
+primary reason|coll|The [[primary reason]] is lack of time.
+primary research|coll|[[Primary research]] collects new data.
+primary research|coll|The firm did its own [[primary research]].
+primary responsibility|coll|Parents have [[primary responsibility]] for children.
+primary responsibility|coll|Her [[primary responsibility]] is training.
+primary source|coll|A diary is a [[primary source]].
+primary source|coll|Historians rely on a [[primary source]].
+primary task|coll|The [[primary task]] is to collect data.
+primary task|coll|His [[primary task]] is teaching.
+prime example|coll|Venice is a [[prime example]] of a water city.
+prime example|coll|This is a [[prime example]] of good design.
+prime time|coll|The show airs in [[prime time]].
+prime time|coll|Adverts in [[prime time]] cost more.
+principal source|coll|Oil is the [[principal source]] of income.
+principal source|coll|Rain is the [[principal source]] of water here.
+prior experience|coll|No [[prior experience]] is needed.
+prior experience|coll|The job requires [[prior experience]].
+prior knowledge|coll|The course needs no [[prior knowledge]].
+prior knowledge|coll|Link new words to [[prior knowledge]].
+private individual|coll|A [[private individual]] owns the land.
+private individual|coll|The law protects each [[private individual]].
+private investment|coll|[[Private investment]] funds new roads.
+private investment|coll|The city seeks [[private investment]].
+private sector|coll|She works in the [[private sector]].
+private sector|coll|Wages are higher in the [[private sector]].
+private sphere|coll|Family belongs to the [[private sphere]].
+private sphere|coll|The law should not enter the [[private sphere]].
+privileged position|coll|The firm holds a [[privileged position]].
+privileged position|coll|Doctors enjoy a [[privileged position]].
+problem area|coll|Spelling is a [[problem area]] for her.
+problem area|coll|Check each [[problem area]] of the plan.
+process data|coll|Computers [[process data]] fast.
+process data|coll|The software can [[process data]] from sensors.
+process information|coll|The brain can [[process information]] quickly.
+process information|coll|Children [[process information]] in different ways.
+professional activity|coll|Teaching is a [[professional activity]].
+professional activity|coll|Limit your [[professional activity]] after 6 pm.
+professional body|coll|She joined a [[professional body]] for teachers.
+professional body|coll|A [[professional body]] sets the standards.
+professional colleague|coll|Ask a [[professional colleague]] for advice.
+professional colleague|coll|She thanked her [[professional colleagues]].
+professional development|coll|Training supports [[professional development]].
+professional development|coll|Teachers take courses for [[professional development]].
+professional experience|coll|He has ten years of [[professional experience]].
+professional experience|coll|[[Professional experience]] matters to employers.
+professional knowledge|coll|Doctors need deep [[professional knowledge]].
+professional knowledge|coll|She shared her [[professional knowledge]].
+professional practice|coll|The code governs [[professional practice]].
+professional practice|coll|Good [[professional practice]] protects clients.
+professional qualification|coll|A [[professional qualification]] helps your career.
+professional qualification|coll|She earned a [[professional qualification]] in law.
+professional staff|coll|The clinic hires [[professional staff]].
+professional staff|coll|[[Professional staff]] manage the lab.
+professional standard|coll|The work meets a high [[professional standard]].
+professional standard|coll|Teachers follow a [[professional standard]].
+professional status|coll|Nurses want higher [[professional status]].
+professional status|coll|The role has [[professional status]].
+professional support|coll|Seek [[professional support]] for stress.
+professional support|coll|Pupils get [[professional support]] at school.
+professional training|coll|The job requires [[professional training]].
+professional training|coll|Nurses receive [[professional training]].
+professional work|coll|She enjoys her [[professional work]].
+professional work|coll|His [[professional work]] is in finance.
+profound effect|coll|Books can have a [[profound effect]] on children.
+profound effect|coll|The loss had a [[profound effect]] on him.
+profound impact|coll|The internet had a [[profound impact]] on trade.
+profound impact|coll|Travel had a [[profound impact]] on her.
+prominent feature|coll|A tower is a [[prominent feature]] of the city.
+prominent feature|coll|Bright colours are a [[prominent feature]].
+prominent member|coll|He is a [[prominent member]] of the club.
+prominent member|coll|A [[prominent member]] of the team spoke.
+prominent role|coll|Women play a [[prominent role]] in the party.
+prominent role|coll|She took a [[prominent role]] in the campaign.
+promote equality|coll|Laws [[promote equality]].
+promote equality|coll|Schools should [[promote equality]].
+promote the development of|coll|Grants [[promote the development of]] small firms.
+promote the development of|coll|Play can [[promote the development of]] language.
+properly understood|coll|The risk is not [[properly understood]].
+properly understood|coll|The problem is [[properly understood]] by experts.
+proposed legislation|coll|The [[proposed legislation]] bans smoking.
+proposed legislation|coll|Critics oppose the [[proposed legislation]].
+prove successful|coll|The plan may [[prove successful]].
+prove successful|coll|The new method [[proved successful]].
+prove useful|coll|A dictionary may [[prove useful]].
+prove useful|coll|The tool [[proved useful]] to teachers.
+provide access to|coll|Libraries [[provide access to]] books.
+provide access to|coll|The app [[provides access to]] your account.
+provide assistance|coll|Staff [[provide assistance]] to visitors.
+provide assistance|coll|The charity [[provides assistance]] to families.
+provide care|coll|Nurses [[provide care]] to the sick.
+provide care|coll|Families often [[provide care]] for elders.
+provide context|coll|Examples [[provide context]] for new words.
+provide context|coll|The notes [[provide context]] for the poem.
+provide coverage|coll|Insurance [[provides coverage]] for accidents.
+provide coverage|coll|The channel [[provides coverage]] of the games.
+provide data|coll|Sensors [[provide data]] on air quality.
+provide data|coll|The survey will [[provide data]] on spending.
+provide details|coll|Please [[provide details]] of your trip.
+provide details|coll|The article does not [[provide details]].
+provide evidence|coll|Scientists [[provide evidence]] for their claims.
+provide evidence|coll|You must [[provide evidence]] in your essay.
+provide feedback|coll|Teachers [[provide feedback]] on essays.
+provide feedback|coll|Please [[provide feedback]] on the course.
+provide guidance|coll|Tutors [[provide guidance]] to students.
+provide guidance|coll|The leaflet [[provides guidance]] on safety.
+provide information|coll|Signs [[provide information]] about the route.
+provide information|coll|Please [[provide information]] about your health.
+provide insight into|coll|Diaries [[provide insight into]] the past.
+provide insight into|coll|The film [[provides insight into]] life in space.
+provide material|coll|The museum will [[provide material]] for the class.
+provide material|coll|Books [[provide material]] for essays.
+provide resources|coll|The state must [[provide resources]] for schools.
+provide resources|coll|The library [[provides resources]] for students.
+provide support|coll|Friends [[provide support]] in hard times.
+provide support|coll|The charity [[provides support]] for refugees.
+provide a benefit|coll|The scheme will [[provide a benefit]] to families.
+provide a benefit|coll|Exercise can [[provide a benefit]] to the heart.
+provide a clue|coll|The photo may [[provide a clue]].
+provide a clue|coll|Word endings can [[provide a clue]] to meaning.
+provide a focus|coll|Goals [[provide a focus]] for study.
+provide a focus|coll|A theme can [[provide a focus]] for the essay.
+provide a foundation for|coll|Basic skills [[provide a foundation for]] learning.
+provide a foundation for|coll|Trust [[provides a foundation for]] teamwork.
+provide a service|coll|The council must [[provide a service]] to residents.
+provide a service|coll|Banks [[provide a service]] to customers.
+provide a source|coll|The river can [[provide a source]] of power.
+provide a source|coll|Fish [[provide a source]] of protein.
+provide a summary|coll|Please [[provide a summary]] of the article.
+provide a summary|coll|The abstract will [[provide a summary]].
+provide an alternative|coll|Buses [[provide an alternative]] to cars.
+provide an alternative|coll|Solar power [[provides an alternative]] to coal.
+provide an example|coll|Please [[provide an example]].
+provide an example|coll|The text [[provides an example]] of good writing.
+provide an explanation|coll|You must [[provide an explanation]] for the delay.
+provide an explanation|coll|The report fails to [[provide an explanation]].
+provide an illustration|coll|The chart [[provides an illustration]] of the trend.
+provide an illustration|coll|This story [[provides an illustration]] of the problem.
+provide an indication of|coll|The figures [[provide an indication of]] demand.
+provide an indication of|coll|Early tests [[provide an indication of]] success.
+provide an opportunity|coll|The trip will [[provide an opportunity]] to practise English.
+provide an opportunity|coll|The fair [[provides an opportunity]] to meet employers.
+provide an overview of|coll|The talk will [[provide an overview of]] the field.
+provide an overview of|coll|The chapter [[provides an overview of]] trends.
+public access|coll|The park offers [[public access]].
+public access|coll|[[Public access]] to records is limited.
+public administration|coll|She studies [[public administration]].
+public administration|coll|Reform of [[public administration]] began.
+public attitudes|coll|[[Public attitudes]] to smoking have changed.
+public attitudes|coll|The poll shows [[public attitudes]] to tax.
+public authority|coll|A [[public authority]] runs the park.
+public authority|coll|The [[public authority]] issued a warning.
+public awareness|coll|The campaign raised [[public awareness]].
+public awareness|coll|[[Public awareness]] of health is rising.
+public debate|coll|The plan sparked [[public debate]].
+public debate|coll|There is [[public debate]] on the issue.
+public discourse|coll|Social media changed [[public discourse]].
+public discourse|coll|Tone in [[public discourse]] became harsh.
+public display|coll|The painting is on [[public display]].
+public display|coll|[[Public display]] of emotion is rare here.
+public domain|coll|The book is now in the [[public domain]].
+public domain|coll|Her photos are in the [[public domain]].
+public expenditure|coll|[[Public expenditure]] on health has risen.
+public expenditure|coll|The graph shows [[public expenditure]] by year.
+public funds|coll|Schools rely on [[public funds]].
+public funds|coll|The project used [[public funds]].
+public image|coll|The firm improved its [[public image]].
+public image|coll|The star protects her [[public image]].
+public institution|coll|A library is a [[public institution]].
+public institution|coll|Trust in every [[public institution]] fell.
+public perception|coll|[[Public perception]] of the police has changed.
+public perception|coll|The ad shaped [[public perception]].
+public policy|coll|She studies [[public policy]].
+public policy|coll|[[Public policy]] affects health.
+public sector|coll|He works in the [[public sector]].
+public sector|coll|[[Public sector]] pay was frozen.
+public sphere|coll|Media shape the [[public sphere]].
+public sphere|coll|Women entered the [[public sphere]].
+public transport|coll|[[Public transport]] cuts traffic.
+public transport|coll|I go to work by [[public transport]].
+public welfare|coll|The law protects [[public welfare]].
+public welfare|coll|Taxes pay for [[public welfare]].
+publicly available|coll|The data are [[publicly available]].
+publicly available|coll|The report is [[publicly available]] online.
+publish research|coll|Scientists [[publish research]] in journals.
+publish research|coll|She hopes to [[publish research]] next year.
+publish a journal|coll|The university will [[publish a journal]].
+publish a journal|coll|They [[publish a journal]] every month.
+publish a report|coll|The agency will [[publish a report]] on Friday.
+publish a report|coll|The firm must [[publish a report]] each year.
+publish an article|coll|She hopes to [[publish an article]].
+publish an article|coll|He [[published an article]] on sleep.
+published literature|coll|Review the [[published literature]] first.
+published literature|coll|The [[published literature]] on diet is large.
+published material|coll|Cite all [[published material]].
+published material|coll|[[Published material]] must be checked.
+published research|coll|[[Published research]] shows a link.
+published research|coll|Most [[published research]] is in English.
+published work|coll|Her [[published work]] includes ten papers.
+published work|coll|Cite the [[published work]] of others.
+purchasing power|coll|Inflation reduces [[purchasing power]].
+purchasing power|coll|Students have little [[purchasing power]].
+qualitative analysis|coll|[[Qualitative analysis]] studies words, not numbers.
+qualitative analysis|coll|The paper uses [[qualitative analysis]].
+qualitative approach|coll|A [[qualitative approach]] explores views.
+qualitative approach|coll|She takes a [[qualitative approach]].
+qualitative data|coll|Interviews give [[qualitative data]].
+qualitative data|coll|[[Qualitative data]] is rich in detail.
+qualitative method|coll|Interviews are a [[qualitative method]].
+qualitative method|coll|A [[qualitative method]] suits small samples.
+qualitative research|coll|[[Qualitative research]] explores experience.
+qualitative research|coll|She does [[qualitative research]] on schools.
+qualitative study|coll|A [[qualitative study]] of ten teachers was done.
+qualitative study|coll|The [[qualitative study]] used interviews.
+qualitatively different|coll|The two groups are [[qualitatively different]].
+qualitatively different|coll|It is a [[qualitatively different]] experience.
+quantitative analysis|coll|[[Quantitative analysis]] uses numbers.
+quantitative analysis|coll|The paper includes [[quantitative analysis]].
+quantitative approach|coll|A [[quantitative approach]] measures change.
+quantitative approach|coll|They took a [[quantitative approach]].
+quantitative data|coll|Surveys give [[quantitative data]].
+quantitative data|coll|[[Quantitative data]] can be charted.
+quantitative method|coll|A survey is a [[quantitative method]].
+quantitative method|coll|A [[quantitative method]] needs large samples.
+quantitative research|coll|[[Quantitative research]] tests ideas with numbers.
+quantitative research|coll|He prefers [[quantitative research]].
+quantitative result|coll|The [[quantitative result]] was clear.
+quantitative result|coll|A [[quantitative result]] shows a rise of five per cent.
+quantitative study|coll|A [[quantitative study]] of 1,000 adults was done.
+quantitative study|coll|The [[quantitative study]] used a survey.
+racial differences|coll|[[Racial differences]] should not decide pay.
+racial differences|coll|The study ignored [[racial differences]].
+racial discrimination|coll|The law bans [[racial discrimination]].
+racial discrimination|coll|He faced [[racial discrimination]] at work.
+racial equality|coll|The group fights for [[racial equality]].
+racial equality|coll|[[Racial equality]] is a core value.
+racial group|coll|Each [[racial group]] has rights.
+racial group|coll|The survey asks your [[racial group]].
+racial stereotype|coll|Films often show a [[racial stereotype]].
+racial stereotype|coll|Schools challenge each [[racial stereotype]].
+radical change|coll|The city needs a [[radical change]].
+radical change|coll|Technology brought [[radical change]].
+radical critique|coll|The book offers a [[radical critique]] of schools.
+radical critique|coll|She wrote a [[radical critique]] of the system.
+radical differences|coll|There are [[radical differences]] between the two views.
+radical differences|coll|[[Radical differences]] divide the parties.
+radical transformation|coll|The city underwent a [[radical transformation]].
+radical transformation|coll|The firm needs a [[radical transformation]].
+radically different|coll|The two systems are [[radically different]].
+radically different|coll|His view is [[radically different]] from hers.
+raise awareness|coll|Posters [[raise awareness]] of recycling.
+raise awareness|coll|The charity aims to [[raise awareness]] of disease.
+raise an issue|coll|She will [[raise the issue]] at the meeting.
+raise an issue|coll|The report [[raises an issue]] of safety.
+random error|coll|A [[random error]] affected the result.
+random error|coll|[[Random error]] is hard to avoid.
+random sample|coll|Choose a [[random sample]] of 100 people.
+random sample|coll|A [[random sample]] avoids bias.
+random variable|coll|Height is a [[random variable]].
+random variable|coll|Each [[random variable]] has a distribution.
+randomly assigned to|coll|Patients were [[randomly assigned to]] two groups.
+randomly assigned to|coll|Students were [[randomly assigned to]] classes.
+randomly chosen|coll|Names were [[randomly chosen]] from a list.
+randomly chosen|coll|A [[randomly chosen]] group took part.
+randomly selected|coll|Houses were [[randomly selected]] for the survey.
+randomly selected|coll|A [[randomly selected]] sample was tested.
+rapid expansion|coll|The city saw [[rapid expansion]].
+rapid expansion|coll|[[Rapid expansion]] caused problems.
+rapidly changing|coll|We live in a [[rapidly changing]] world.
+rapidly changing|coll|The [[rapidly changing]] market worried investors.
+rapidly growing|coll|It is a [[rapidly growing]] city.
+rapidly growing|coll|The [[rapidly growing]] firm hired staff.
+raw data|coll|The team shared the [[raw data]].
+raw data|coll|[[Raw data]] must be cleaned.
+reach an agreement|coll|The two sides failed to [[reach an agreement]].
+reach an agreement|coll|They finally [[reached an agreement]] on price.
+readily accessible|coll|Information should be [[readily accessible]].
+readily accessible|coll|The library is [[readily accessible]] by bus.
+readily available|coll|Fresh fruit is [[readily available]] here.
+readily available|coll|The tools are [[readily available]].
+readily understood|coll|The graph is [[readily understood]].
+readily understood|coll|The rules are [[readily understood]] by children.
+ready access|coll|Students have [[ready access]] to computers.
+ready access|coll|The hotel has [[ready access]] to the beach.
+real issue|coll|Cost is the [[real issue]].
+real issue|coll|The [[real issue]] is trust.
+receive feedback|coll|Students [[receive feedback]] on each essay.
+receive feedback|coll|It is useful to [[receive feedback]] early.
+receive information|coll|Parents [[receive information]] by email.
+receive information|coll|Visitors [[receive information]] at the desk.
+receive treatment|coll|Patients [[receive treatment]] free.
+receive treatment|coll|He [[received treatment]] for his injury.
+recent decades|coll|Life expectancy has risen in [[recent decades]].
+recent decades|coll|Prices fell in [[recent decades]].
+recent evidence|coll|[[Recent evidence]] suggests a link.
+recent evidence|coll|[[Recent evidence]] supports the theory.
+recent research|coll|[[Recent research]] shows that sleep helps.
+recent research|coll|According to [[recent research]], diet matters.
+recent study|coll|A [[recent study]] found a link.
+recent study|coll|A [[recent study]] of 500 adults was published.
+recent survey|coll|A [[recent survey]] shows a fall.
+recent survey|coll|According to a [[recent survey]], most prefer tea.
+reciprocal relationship|coll|There is a [[reciprocal relationship]] between trust and teamwork.
+reciprocal relationship|coll|A [[reciprocal relationship]] benefits both sides.
+record data|coll|Scientists [[record data]] daily.
+record data|coll|Sensors [[record data]] on air quality.
+recurrent theme|coll|Loss is a [[recurrent theme]] in his poems.
+recurrent theme|coll|A [[recurrent theme]] in the talks was cost.
+reduce emissions|coll|Cars must [[reduce emissions]].
+reduce emissions|coll|Governments aim to [[reduce emissions]] by 2030.
+reduce the likelihood|coll|Exercise can [[reduce the likelihood]] of illness.
+reduce the likelihood|coll|Safety rules [[reduce the likelihood]] of accidents.
+reflective practice|coll|Teachers use [[reflective practice]] to improve.
+reflective practice|coll|[[Reflective practice]] builds skill.
+reflective question|coll|Ask a [[reflective question]] after each lesson.
+reflective question|coll|A [[reflective question]] helps learners think.
+regional development|coll|Funding supports [[regional development]].
+regional development|coll|[[Regional development]] creates jobs.
+regional differences|coll|There are [[regional differences]] in accent.
+regional differences|coll|[[Regional differences]] affect prices.
+regional variation|coll|There is [[regional variation]] in rents.
+regional variation|coll|[[Regional variation]] in dialect is common.
+regulatory agency|coll|A [[regulatory agency]] checks food safety.
+regulatory agency|coll|The [[regulatory agency]] fined the firm.
+regulatory framework|coll|The country updated its [[regulatory framework]].
+regulatory framework|coll|A clear [[regulatory framework]] protects consumers.
+related activity|coll|Reading and a [[related activity]] such as writing help.
+related activity|coll|Each [[related activity]] adds practice.
+related area|coll|Law and a [[related area]], such as tax, are covered.
+related area|coll|She works in a [[related area]].
+related aspect|coll|Cost is a [[related aspect]] of the plan.
+related aspect|coll|Another [[related aspect]] is time.
+related factor|coll|Age is a [[related factor]].
+related factor|coll|Each [[related factor]] was examined.
+related information|coll|Read the [[related information]] first.
+related information|coll|The page links to [[related information]].
+related issue|coll|Housing is a [[related issue]].
+related issue|coll|A [[related issue]] is transport.
+related problem|coll|Noise is a [[related problem]].
+related problem|coll|A [[related problem]] is cost.
+related question|coll|A [[related question]] is why prices rose.
+related question|coll|She answered a [[related question]].
+related topic|coll|Read about a [[related topic]].
+related topic|coll|Diet is a [[related topic]].
+relative autonomy|coll|Schools enjoy [[relative autonomy]].
+relative autonomy|coll|The region has [[relative autonomy]].
+relative merits|coll|Discuss the [[relative merits]] of both plans.
+relative merits|coll|Students debated the [[relative merits]] of cars and trains.
+relative status|coll|[[Relative status]] affects pay.
+relative status|coll|The study compares [[relative status]] across groups.
+relatively common|coll|The illness is [[relatively common]] in winter.
+relatively common|coll|Such errors are [[relatively common]].
+relatively constant|coll|Prices stayed [[relatively constant]].
+relatively constant|coll|The temperature is [[relatively constant]].
+relatively few|coll|[[Relatively few]] students fail.
+relatively few|coll|There are [[relatively few]] jobs here.
+relatively high|coll|Prices are [[relatively high]].
+relatively high|coll|The city has a [[relatively high]] rate of crime.
+relatively little|coll|There is [[relatively little]] research on this.
+relatively little|coll|We know [[relatively little]] about the cause.
+relatively low|coll|Costs are [[relatively low]].
+relatively low|coll|Pay is [[relatively low]] in this sector.
+relatively minor|coll|The damage was [[relatively minor]].
+relatively minor|coll|It was a [[relatively minor]] issue.
+relatively rare|coll|The disease is [[relatively rare]].
+relatively rare|coll|Snow is [[relatively rare]] here.
+relatively recent|coll|The habit is [[relatively recent]].
+relatively recent|coll|It is a [[relatively recent]] discovery.
+relatively simple|coll|The task is [[relatively simple]].
+relatively simple|coll|The rules are [[relatively simple]].
+relatively stable|coll|Prices stayed [[relatively stable]].
+relatively stable|coll|The economy is [[relatively stable]].
+relatively straightforward|coll|The process is [[relatively straightforward]].
+relatively straightforward|coll|The test was [[relatively straightforward]].
+relevant data|coll|Collect all [[relevant data]].
+relevant data|coll|The study uses [[relevant data]] from five countries.
+relevant factors|coll|Consider all [[relevant factors]].
+relevant factors|coll|The panel listed the [[relevant factors]].
+relevant information|coll|Please provide [[relevant information]].
+relevant information|coll|The site holds [[relevant information]].
+relevant issue|coll|Cost is a [[relevant issue]].
+relevant issue|coll|Raise any [[relevant issue]] at the meeting.
+relevant literature|coll|Review the [[relevant literature]] first.
+relevant literature|coll|The essay cites [[relevant literature]].
