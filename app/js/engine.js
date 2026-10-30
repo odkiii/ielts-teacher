@@ -70,16 +70,16 @@
     'L-PLURAL': 'Диктант: окончания -s/-ed, единственное/множественное число',
     'L-NUM': 'Диктант на числа, даты, цены',
     'L-DISTR': 'Тренировка «ловушек»: исправления и отрицания по ходу записи',
-    'L-MAP': 'Map/plan labelling: направления и предлоги места',
+    'L-MAP': 'Подписи к плану или карте: направления и предлоги места',
     'L-LIMIT': 'Практика лимита слов: считать слова в ответе',
   };
   const R_TAG = {
-    'R-TFNG': 'Только True/False/Not Given: 3 коротких отрывка, обоснуй каждый ответ цитатой',
-    'R-MH': 'Matching Headings: сначала главная мысль абзаца, потом заголовок',
-    'R-MI': 'Matching Information: поиск по перефразам, не по словам',
-    'R-COMP': 'Completion: слова из текста, лимит слов, форма слова',
-    'R-MCQ': 'MCQ: исключай неверные варианты с доказательством',
-    'R-TIME': 'Тайминг: 20 минут на текст, жёсткий таймер',
+    'R-TFNG': 'Только «Верно / Неверно / Не указано» (True/False/Not Given): 3 коротких отрывка, обоснуй каждый ответ цитатой',
+    'R-MH': 'Подбор заголовков к абзацам: сначала главная мысль абзаца, потом заголовок',
+    'R-MI': 'Поиск абзаца по информации: поиск по перефразам, не по словам',
+    'R-COMP': 'Заполнение пропусков: слова из текста, лимит слов, форма слова',
+    'R-MCQ': 'Выбор ответа из вариантов: исключай неверные варианты с доказательством',
+    'R-TIME': 'Время: 20 минут на текст, жёсткий таймер',
   };
 
   function skillTask(skill, ctx) {
@@ -91,71 +91,71 @@
     const tag = weakTag(sev, skill);
     if (skill === 'L') {
       if (tag && L_TAG[tag] && idx % 2 === 0) {
-        t.title = 'Listening: ' + L_TAG[tag];
+        t.title = 'Аудирование: ' + L_TAG[tag];
         t.resource = resFor('L:basic', content, resources, idx);
       } else if (early) {
-        t.title = 'Listening: диктант 5 предложений + слушание со скриптом';
+        t.title = 'Аудирование: диктант 5 предложений + слушание со скриптом';
         t.desc = 'Послушай отрывок 2–3 раза без текста, запиши, сверь со скриптом, выпиши 5 непонятных слов или словосочетаний в карточки.';
         t.resource = resFor('L:basic', content, resources, idx);
       } else if (mid) {
-        t.title = 'Listening: лекция/монолог + конспект';
+        t.title = 'Аудирование: лекция/монолог + конспект';
         t.desc = 'Слушай один раз, делай заметки по ключевым словам; затем сверка со скриптом/субтитрами. Раз в 3 дня — одна секция официального теста.';
         t.resource = resFor(idx % 3 === 0 ? 'L:test' : 'L:academic', content, resources, idx);
       } else {
-        t.title = 'Listening: секция по таймеру (Section ' + (3 + (idx % 2)) + ') + разбор ошибок';
+        t.title = 'Аудирование: секция по таймеру (секция ' + (3 + (idx % 2)) + ') + разбор ошибок';
         t.desc = 'Один проход, как на экзамене. Каждую ошибку запиши на вкладке «Ошибки».';
         t.resource = resFor('L:test', content, resources, idx);
       }
     } else if (skill === 'R') {
       if (tag && R_TAG[tag] && idx % 2 === 0) {
-        t.title = 'Reading: ' + R_TAG[tag];
+        t.title = 'Чтение: ' + R_TAG[tag];
         t.resource = resFor('R:test', content, resources, idx);
       } else if (early) {
-        t.title = 'Reading: статья B1–B2, поиск перефразов';
+        t.title = 'Чтение: статья B1–B2, поиск перефразов';
         t.desc = 'Читай 15–20 минут. Подчеркни 8 перефразов (то же самое другими словами) и 8 новых словосочетаний; перескажи абзац своими словами.';
         t.resource = resFor('R:basic', content, resources, idx);
       } else if (mid) {
         const qt = pick(content.questionTypes, idx);
-        t.title = 'Reading: тип вопросов — ' + qt;
+        t.title = 'Чтение: тип вопросов — ' + qt;
         t.desc = '2–3 задания именно этого типа, затем разбор логики ошибок.';
         t.resource = resFor('R:test', content, resources, idx);
       } else {
-        t.title = 'Reading: один текст за 20 минут (строго) + разбор';
+        t.title = 'Чтение: один текст за 20 минут (строго) + разбор';
         t.resource = resFor('R:test', content, resources, idx);
       }
     } else if (skill === 'W') {
       const isT1day = idx % 2 === 1;
       if (early) {
         const q = pick(content.writingPrompts, idx);
-        t.title = 'Writing: два связных абзаца (80–120 слов)';
+        t.title = 'Письмо: два связных абзаца (80–120 слов)';
         t.desc = 'Тема: «' + q.text + '». Один абзац — одна идея + пример. Проверь по чек-листу, исправь, отправь на проверку (вкладка «Проверка»).';
       } else if (isT1day) {
         if (profile.module === 'general') {
           const l = pick(content.letterPrompts, idx);
-          t.title = 'Writing Task 1 (General): письмо — ' + l.tone;
+          t.title = 'Письмо, задание 1 (General): письмо — ' + l.tone;
           t.desc = l.text + ' 20 минут, 150+ слов.';
         } else {
-          t.title = 'Writing Task 1 (Academic): ' + pick(content.task1Types, idx);
-          t.desc = 'Возьми задание Task 1 нужного типа из официальных/открытых тестов. Сначала Overview (общий вывод: главные тренды без цифр), затем 2 абзаца с деталями. 20 минут, 150+ слов.';
+          t.title = 'Письмо, задание 1 (Academic): ' + pick(content.task1Types, idx);
+          t.desc = 'Возьми задание 1 нужного типа из официальных/открытых тестов. Сначала Overview (общий вывод: главные тренды без цифр), затем 2 абзаца с деталями. 20 минут, 150+ слов.';
         }
       } else {
         const q = pick(content.writingPrompts, idx);
-        t.title = 'Writing Task 2 (' + q.type + ')' + (early || mid ? '' : ' — по таймеру 40 мин');
+        t.title = 'Письмо, задание 2: эссе (' + q.type + ')' + (early || mid ? '' : ' — по таймеру 40 мин');
         t.desc = 'Вопрос: «' + q.text + '». План 5 мин → текст 250+ слов → самопроверка по чек-листу → проверка → перепиши слабый абзац.';
       }
       t.resource = resFor('W', content, resources, idx);
     } else if (skill === 'S') {
       if (early) {
         const tp = pick(content.speakingTopics, idx);
-        t.title = 'Speaking Part 1: тема «' + tp + '» — 6 вопросов, запись';
+        t.title = 'Говорение, часть 1: тема «' + tp + '» — 6 вопросов, запись';
         t.desc = 'Отвечай 2–3 предложениями: ответ + причина + пример. Прослушай запись, отметь паузы и ошибки.';
       } else if (mid) {
         const c = pick(content.cueCards, idx);
-        t.title = 'Speaking Part 2: «' + c + '»';
+        t.title = 'Говорение, часть 2: «' + c + '»';
         t.desc = '1 минута на заметки (ключевые слова), 2 минуты речи, запись. Повтори тему на следующий день, улучшив концовку.';
       } else {
         const c = pick(content.cueCards, idx + 3);
-        t.title = 'Speaking: полный прогон Part 1–3 (11–14 мин) — «' + c + '»';
+        t.title = 'Говорение: полный прогон частей 1–3 (11–14 мин) — «' + c + '»';
         t.desc = 'В паре: один экзаменатор, один кандидат, затем обмен. Оценка по 4 критериям, ошибки в журнал.';
       }
       t.resource = resFor('S', content, resources, idx);
@@ -185,14 +185,14 @@
 
     if (phase.id === 'P0') {
       const round = week;
-      const m = { 1: ['L', 'Стартовая проверка Listening: полный официальный тест, без пауз', 'L:test'], 2: ['R', 'Стартовая проверка Reading: полный официальный тест (60 мин)', 'R:test'], 3: ['W', 'Стартовая проверка Writing: Task 1 (20 мин) + Task 2 (40 мин)', 'W'], 4: ['S', 'Стартовая проверка Speaking: запись ответов на Part 1–3', 'S'] };
+      const m = { 1: ['L', 'Стартовая проверка Аудирование: полный официальный тест, без пауз', 'L:test'], 2: ['R', 'Стартовая проверка Чтение: полный официальный тест (60 мин)', 'R:test'], 3: ['W', 'Стартовая проверка письма: задание 1 (20 мин) + задание 2 (40 мин)', 'W'], 4: ['S', 'Стартовая проверка говорения: запись ответов на части 1–3', 'S'] };
       if (m[dow]) {
         const [s, title, key] = m[dow];
         tasks.push(fixedTask(s, title + ' (раунд ' + round + '/2)', 70, 'Результат внеси: «Ещё» → «Прогресс» → «Новый мок» (мок — пробный экзамен); ошибки добавь на вкладке «Ошибки».', key, ctx));
         tasks.push(srs());
       } else if (dow === 5) {
         tasks.push(srs());
-        tasks.push(fixedTask('ALL', 'Разбор стартовой проверки: ошибки и обновление уровня', 45, 'Для Listening и Reading переведи число верных ответов в оценку IELTS (band) — вкладка «Прогресс». Для Writing и Speaking нажми «Загрузить отчёт ИИ»: вставь ответ проверяющего, и оценки с ошибками сохранятся.', null, ctx));
+        tasks.push(fixedTask('ALL', 'Разбор стартовой проверки: ошибки и обновление уровня', 45, 'Для аудирования и чтения переведи число верных ответов в оценку IELTS (band) — вкладка «Прогресс». Для письма и говорения нажми «Загрузить отчёт ИИ»: вставь ответ проверяющего, и оценки с ошибками сохранятся.', null, ctx));
       } else if (dow === 6) {
         tasks.push(fixedTask('L', 'Лёгкое слушание для удовольствия (подкаст или 6 Minute English)', 45, 'Без напряжения: понимать общий смысл.', 'L:basic', ctx));
         tasks.push(fixedTask('R', 'Лёгкое чтение для удовольствия: статья по интересной теме', 45, '', 'R:basic', ctx));
@@ -212,7 +212,7 @@
         const pt = skillTask(primary, Object.assign({}, ctx, { minutes: pm, idx: dow === 5 ? idx + 1 : idx }));
         tasks.push(pt);
         if (dow === 1) tasks.push(fixedTask('G', 'Грамматика: одна тема из журнала ошибок + 10 упражнений', sm, 'Справочник/учебник: Cambridge Dictionary Grammar или Murphy / Grammar for IELTS. Затем 3 своих предложения.', 'G', ctx));
-        else if (dow === 2) tasks.push(fixedTask('V', 'Закрепление слов: 8 новых словосочетаний → 8 своих предложений', sm, 'Сегодняшние словосочетания используй в Writing/Speaking в течение 3 дней.', 'V', ctx));
+        else if (dow === 2) tasks.push(fixedTask('V', 'Закрепление слов: 8 новых словосочетаний → 8 своих предложений', sm, 'Сегодняшние словосочетания используй в письме и речи в течение 3 дней.', 'V', ctx));
         else {
           const others = SK.filter((s) => s !== primary).sort((a, b) => w[b] - w[a]);
           const sec = dow === 4 && w.L < 0.3 ? 'L' : others[0];
@@ -223,18 +223,18 @@
       } else if (dow === 6) {
         const k = week % 4;
         if (k === 0) {
-          tasks.push(fixedTask('ALL', 'ПРОБНЫЙ ЭКЗАМЕН (часть 1): Listening + Reading подряд, как на экзамене', 100, 'Официальный тест нужного модуля. Результат внеси: «Ещё» → «Прогресс» → «Новый мок» (мок — пробный экзамен).', 'L:test', ctx));
-          tasks.push(fixedTask('W', 'ПРОБНЫЙ ЭКЗАМЕН (часть 2): Writing Task 1 + Task 2, 60 мин', 60, '', 'W', ctx));
+          tasks.push(fixedTask('ALL', 'ПРОБНЫЙ ЭКЗАМЕН (часть 1): аудирование + чтение подряд, как на экзамене', 100, 'Официальный тест нужного модуля. Результат внеси: «Ещё» → «Прогресс» → «Новый мок» (мок — пробный экзамен).', 'L:test', ctx));
+          tasks.push(fixedTask('W', 'ПРОБНЫЙ ЭКЗАМЕН (часть 2): Письмо: задание 1 + задание 2, 60 мин', 60, '', 'W', ctx));
           tasks.push({ skill: 'ALL', title: 'Разбор пробного экзамена: все ошибки в журнал, 3 вывода', minutes: 45, desc: '', resource: null, id: '' });
         } else {
-          const sec = { 1: ['L', 'Listening: полный тест по таймеру', 'L:test'], 2: ['R', 'Reading: полный тест, 60 мин', 'R:test'], 3: ['W', 'Writing: Task 1 + Task 2 по таймеру', 'W'] }[k];
+          const sec = { 1: ['L', 'Аудирование: полный тест по таймеру', 'L:test'], 2: ['R', 'Чтение: полный тест, 60 мин', 'R:test'], 3: ['W', 'Письмо: задание 1 + задание 2 по таймеру', 'W'] }[k];
           tasks.push(fixedTask(sec[0], 'Пробный экзамен, часть: ' + sec[1], r5(dayMin * 0.65), '', sec[2], ctx));
           tasks.push({ skill: 'ALL', title: 'Разбор: ошибки в журнал и повтор слабых типов заданий', minutes: r5(dayMin * 0.35), desc: '', resource: null, id: '' });
         }
       } else {
         tasks.push(srs());
         tasks.push(fixedTask('L', 'Лёгкое слушание или чтение по интересам (отдых)', r5(dayMin - 35), 'Подкаст или лекция; 5 минут повторения за диктором (shadowing).', 'L:academic', ctx));
-        tasks.push(fixedTask('S', 'Speaking в паре (если есть партнёр): 10 мин Part 2–3 с обратной связью', 10, '', 'S', ctx));
+        tasks.push(fixedTask('S', 'Говорение в паре (если есть партнёр): 10 мин, части 2–3 с обратной связью', 10, '', 'S', ctx));
         tasks.push(recap());
       }
     }
@@ -339,7 +339,7 @@
     return { text: String(exOf(c)).replace(MARK, '_____'), form: (String(exOf(c)).match(MARK) || [0, ''])[1], opts, answer: opts.indexOf(c.t) };
   }
   // ---------- Группы карточек ----------
-  const GROUPS = [['w', 'Слова'], ['coll', 'Коллокации'], ['phv', 'Фразовые глаголы'], ['idiom', 'Идиомы'], ['link', 'Связки и обороты'], ['t1', 'Task 1: графики'], ['t2', 'Task 2: эссе'], ['sp', 'Speaking'], ['let', 'Письма'], ['par', 'Парафразы']];
+  const GROUPS = [['w', 'Слова'], ['coll', 'Сочетания слов'], ['phv', 'Фразовые глаголы'], ['idiom', 'Идиомы'], ['link', 'Связки и обороты'], ['t1', 'Задание 1: графики'], ['t2', 'Задание 2: эссе'], ['sp', 'Говорение'], ['let', 'Письма'], ['par', 'Пересказ другими словами']];
   const GROUP_LABEL = Object.fromEntries(GROUPS);
   const MAIN_GROUPS = ['w', 'coll', 'phv', 'idiom', 'link'];
   /** Группа карточки: что именно сейчас учим. */

@@ -56,14 +56,14 @@
   ]
  },
  "questionTypes": [
-  "True/False/Not Given",
-  "Matching Headings",
-  "Matching Information",
-  "Sentence Completion",
-  "Multiple Choice",
-  "Summary Completion",
-  "Yes/No/Not Given",
-  "Table/Flow-chart Completion"
+  "Верно / Неверно / Не указано (True/False/Not Given)",
+  "Подбор заголовков к абзацам",
+  "Поиск абзаца по информации",
+  "Завершение предложений",
+  "Выбор ответа из вариантов",
+  "Заполнение краткого пересказа",
+  "Да / Нет / Не указано (Yes/No/Not Given)",
+  "Заполнение таблицы или схемы"
  ],
  "task1Types": [
   "линейный график (динамика)",
@@ -102,51 +102,51 @@
  ],
  "writingPrompts": [
   {
-   "type": "opinion",
+   "type": "мнение",
    "text": "Some people believe that children should start learning a foreign language at primary school. To what extent do you agree or disagree?"
   },
   {
-   "type": "discussion",
+   "type": "две точки зрения",
    "text": "Some people think governments should spend money on public transport, while others think roads should be improved. Discuss both views and give your opinion."
   },
   {
-   "type": "advantages/disadvantages",
+   "type": "плюсы и минусы",
    "text": "More people now work from home. Do the advantages of this outweigh the disadvantages?"
   },
   {
-   "type": "problem/solution",
+   "type": "проблема и решение",
    "text": "In many cities, traffic congestion is a growing problem. What are the causes, and what measures could be taken to reduce it?"
   },
   {
-   "type": "opinion",
+   "type": "мнение",
    "text": "Some argue that university education should be free for everyone. To what extent do you agree or disagree?"
   },
   {
-   "type": "two-part",
+   "type": "двойной вопрос",
    "text": "Many people spend a large part of their free time on social media. Why is this? Is it a positive or negative development?"
   },
   {
-   "type": "discussion",
+   "type": "две точки зрения",
    "text": "Some people prefer to buy products made in their own country; others prefer imported goods. Discuss both views and give your opinion."
   },
   {
-   "type": "problem/solution",
+   "type": "проблема и решение",
    "text": "Obesity is increasing in many countries. What are the reasons, and what can individuals and governments do about it?"
   },
   {
-   "type": "opinion",
+   "type": "мнение",
    "text": "Technology makes people less creative. To what extent do you agree or disagree?"
   },
   {
-   "type": "advantages/disadvantages",
+   "type": "плюсы и минусы",
    "text": "Tourism brings money to many regions but may damage local culture and the environment. Do the benefits outweigh the drawbacks?"
   },
   {
-   "type": "two-part",
+   "type": "двойной вопрос",
    "text": "Fewer people read books nowadays. What are the reasons for this, and is it a problem?"
   },
   {
-   "type": "opinion",
+   "type": "мнение",
    "text": "It is better for a country to have a few large cities than many small towns. To what extent do you agree or disagree?"
   }
  ],
