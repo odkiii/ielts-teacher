@@ -396,11 +396,15 @@
     const toks = String(c.t).toLowerCase().split(/\s+/).map((w) => w.replace(/[^a-z-]/g, '')).filter((w) => w && !STOP.has(w));
     if (!toks.length) return [];
     const w = toks.slice().sort((a, b) => b.length - a.length)[0];
-    const re = new RegExp('\\b' + stem(w).replace(/[-]/g, '\\-') + '[a-z]*', 'i');
+    const base = w.replace(/-/g, '\\-'); const f = new Set([w, w + 's', w + 'es', w + 'ed', w + 'd', w + 'ing', w + 'er', w + 'est']);
+    if (/[^aeiou]y$/.test(w)) { const y = w.slice(0, -1); ['ies', 'ied', 'ier', 'iest'].forEach((e) => f.add(y + e)); }
+    if (/e$/.test(w)) f.add(w.slice(0, -1) + 'ing');
+    if (/[^aeiou][aeiou][^aeiouwxy]$/.test(w)) { f.add(w + w.slice(-1) + 'ed'); f.add(w + w.slice(-1) + 'ing'); }
+    const re = new RegExp('\\b(' + Array.from(f).map((x) => x.replace(/-/g, '\\-')).join('|') + ')\\b', 'i');
     const out = [];
     for (const x of cards) {
       if (out.length >= n) break;
-      if (!isWord(x) || x.id === c.id || x.t.toLowerCase() === c.t.toLowerCase()) continue;
+      if (!isWord(x) || x.id === c.id || x.t.toLowerCase() === c.t.toLowerCase() || (c.pos && x.pos !== c.pos)) continue;
       const t = plain(x.ex); if (!re.test(t)) continue;
       out.push(t.replace(re, (m) => '[[' + m + ']]'));
     }

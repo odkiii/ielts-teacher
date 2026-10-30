@@ -232,7 +232,7 @@ test('typeCheck и choices', () => {
 });
 
 test('contexts: другие предложения со словом', () => {
-  const a = Object.assign(mk('a', 'plunge', 'v', 'gen'), { ex: 'Sales [[plunged]] fast.' }), b = Object.assign(mk('b', 'sales', 'n', 'gen'), { ex: 'The [[sales]] team plunged into work.' });
+  const a = Object.assign(mk('a', 'plunge', 'v', 'gen'), { ex: 'Sales [[plunged]] fast.' }), b = Object.assign(mk('b', 'sales', 'v', 'gen'), { ex: 'The [[sales]] team plunged into work.' });
   assert.deepEqual(Eg.contexts(a, [a, b], 3), ['The sales team [[plunged]] into work.']);
 });
 
@@ -280,4 +280,10 @@ test('sentenceTypes: находит шесть типов и связки', () =
   assert.equal(r.n, 6);
   ['simple', 'compound', 'complex', 'passive', 'question', 'conditional'].forEach((k) => assert.ok(r.types[k] >= 1, k));
   assert.ok(r.markers.includes('although') && r.markers.includes('if'));
+});
+
+test('contexts: только точные формы слова', () => {
+  const mk = (id, t, ex, pos) => ({ id, t, ex, pos: pos || 'adj' });
+  const c = mk('1', 'plain', 'x'); const o = [mk('2', 'plan', 'The city plans a charge.', 'v'), mk('3', 'simple', 'She wore a plain dress.'), mk('4', 'durable', 'The duration is long.'), mk('5', 'x', 'A plainer look.')];
+  assert.deepEqual(E.contexts(c, o, 5), ['She wore a [[plain]] dress.', 'A [[plainer]] look.']);
 });
