@@ -379,7 +379,7 @@
   function viewCards() {
     const p = P(); ensureSess(p); refill(p);
     const mastered = p.cards.filter((c) => c.mastered).length, work = p.cards.filter((c) => c.seen && !c.mastered).length;
-    paint(head('Карточки', '<span id="csub"></span>', plusBtn('cplus', 'Добавить')) + seg('ctab', [['learn', 'Учить'], ['drill', 'Закрепить'], ['deck', 'Колода']], cst.tab) + (p.cards.filter((c) => c.seen).length >= 4 ? '<div class="list" id="vwlink" style="margin-top:12px"><a class="rowi" href="#vw"><div class="grow"><b>Напиши текст со словами</b><div class="mut" style="margin-top:2px">Закрепи выученное в письме</div></div></a></div>' : '') + '<div id="cbody" style="margin-top:16px"></div>');
+    paint(head('Карточки', '<span id="csub"></span>', plusBtn('cplus', 'Добавить')) + seg('ctab', [['learn', 'Учить'], ['drill', 'Закрепить'], ['deck', 'Колода']], cst.tab) + (p.cards.filter((c) => c.seen).length >= 4 ? '<div class="list cta" id="vwlink" style="margin-top:12px"><a class="rowi" href="#vw"><div class="grow"><b>Напиши текст со словами</b><div class="mut" style="margin-top:2px">Закрепи выученное в письме</div></div></a></div>' : '') + '<div id="cbody" style="margin-top:16px"></div>');
     bindSeg('ctab', (v) => { cst.tab = v; if (v === 'drill') cst.dr = null; drawCards(); });
     $('#cplus').onclick = () => openSheet('<h2>Новая карточка</h2><div class="stack"><input id="cf" placeholder="Слово или фраза (English)" autocomplete="off"><input id="cb" placeholder="Перевод" autocomplete="off"><input id="cx" placeholder="Предложение с этим словом" autocomplete="off"><button class="btn p" id="cadd">Добавить</button></div>' +
       '<h3>Импорт</h3><textarea id="csv" placeholder="слово;перевод;пример — по одной на строку (или front;back)"></textarea><div style="margin-top:10px"><button class="btn" id="cimp">Импортировать</button></div>', () => {
@@ -573,8 +573,8 @@
   }
 
   // ---------- Ошибки ----------
-  const aiRow = () => '<div class="list" style="margin-bottom:14px"><button class="rowi" data-ai="1"><div class="grow"><b>Загрузить отчёт ИИ</b><div class="mut" style="margin-top:2px">Вставь ответ проверяющего — баллы и ошибки сохранятся</div></div></button></div>';
-  const fixBanner = (n) => '<div class="list" style="margin-bottom:14px"><a class="rowi" href="#fix"><div class="grow"><b>Исправь свои ошибки</b><div class="mut" style="margin-top:2px">' + n + ' фраз на сегодня</div></div>' + ico('chev', 'chev') + '</a></div>';
+  const aiRow = () => '<div class="list cta" style="margin-bottom:14px"><button class="rowi" data-ai="1"><div class="grow"><b>Загрузить отчёт ИИ</b><div class="mut" style="margin-top:2px">Вставь ответ проверяющего — баллы и ошибки сохранятся</div></div></button></div>';
+  const fixBanner = (n) => '<div class="list cta" style="margin-bottom:14px"><a class="rowi" href="#fix"><div class="grow"><b>Исправь свои ошибки</b><div class="mut" style="margin-top:2px">' + n + ' фраз на сегодня</div></div>' + ico('chev', 'chev') + '</a></div>';
   const errDots = (e) => (E.errDrillable && !E.errDrillable(e)) ? '' : ' <span class="mut" style="letter-spacing:2px;color:var(--acc)">' + (e.done ? '✓' : '●'.repeat(e.n || 0) + '○'.repeat(3 - (e.n || 0))) + '</span>';
   // ---------- Исправь свои ошибки ----------
   let fixQ = null;

@@ -144,3 +144,7 @@ input,textarea,select{font-size:16px}
 .stime{color:var(--fg);font-size:22px;font-variant-numeric:tabular-nums;display:inline-flex;align-items:center}
 .stime i{font-style:normal;margin:0 1px;opacity:.6}
 number-flow.nf{--number-flow-char-height:.95em}
+
+.list.cta{background:var(--acc);border-color:var(--acc);color:var(--accfg)}
+.list.cta .mut,.list.cta .chev{color:inherit;opacity:.85}
+.list.cta .rowi:active{filter:brightness(.92)}
