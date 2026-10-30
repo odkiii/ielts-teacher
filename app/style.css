@@ -135,3 +135,7 @@ body.drilling #cbody{margin-top:0!important}
 .wtr{margin-top:4px;font-size:17px;font-weight:600}
 u.err{text-decoration:underline wavy var(--warn);text-underline-offset:3px}
 mark.gap{background:color-mix(in srgb,var(--warn) 18%,transparent);color:var(--fg);border-radius:4px;padding:0 2px;border-bottom:2px solid var(--warn)}
+
+html,body{touch-action:pan-x pan-y;overscroll-behavior-y:none}
+input,textarea,select{font-size:16px}
+#tabs{transform:translateZ(0);-webkit-transform:translateZ(0);will-change:transform}

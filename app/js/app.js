@@ -212,6 +212,7 @@
   const trLine = (c) => '<div class="exr">' + (c.exr && E.exIdx(c) === 0 ? hl(c.exr) : '<mark>' + esc(c.t) + '</mark> — ' + esc(c.ru)) + '</div>';
   const tapW = (t) => t.replace(/([A-Za-z][A-Za-z'’-]*)|([^A-Za-z]+)/g, (m, w, o) => w ? '<span class="w" data-w="' + esc(w.toLowerCase()) + '">' + esc(w) + '</span>' : esc(o));
   const hl = (ex) => String(ex == null ? '' : ex).split(/(\[\[[^\[\]]+\]\])/).map((x) => /^\[\[/.test(x) ? '<mark>' + tapW(x.slice(2, -2)) + '</mark>' : tapW(x)).join('');
+  ['gesturestart', 'gesturechange', 'gestureend'].forEach((n) => document.addEventListener(n, (ev) => ev.preventDefault())); // iOS: без щипкового зума
   // ---------- Попап слова: перевод + транскрипция ----------
   let LEX = null, lexP = null;
   const lexLoad = () => lexP || (lexP = fetch('data/lex.json').then((r) => r.json()).then((j) => (LEX = j)).catch(() => (LEX = {})));
