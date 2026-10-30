@@ -388,6 +388,21 @@
     shuffled(pick, rnd).forEach((c) => q.push({ id: c.id, type: 'type' }));
     return q;
   }
+  /** Другие предложения колоды с этим словом — чтобы увидеть его в контексте. */
+  function contexts(c, cards, n) {
+    const toks = String(c.t).toLowerCase().split(/\s+/).map((w) => w.replace(/[^a-z-]/g, '')).filter((w) => w && !STOP.has(w));
+    if (!toks.length) return [];
+    const w = toks.slice().sort((a, b) => b.length - a.length)[0];
+    const re = new RegExp('\\b' + stem(w).replace(/[-]/g, '\\-') + '[a-z]*', 'i');
+    const out = [];
+    for (const x of cards) {
+      if (out.length >= n) break;
+      if (!isWord(x) || x.id === c.id || x.t.toLowerCase() === c.t.toLowerCase()) continue;
+      const t = plain(x.ex); if (!re.test(t)) continue;
+      out.push(t.replace(re, (m) => '[[' + m + ']]'));
+    }
+    return out;
+  }
   const STOP = new Set(['a', 'an', 'the', 'of', 'to', 'in', 'on', 'for', 'with', 'by', 'at', 'be', 'is', 'as', 'or', 'and', 'from', 'up', 'out']);
   const stem = (w) => (w.length > 6 ? w.slice(0, w.length - 3) : w.length > 4 ? w.slice(0, w.length - 2) : w.length > 3 ? w.slice(0, w.length - 1) : w);
   /** Грубая самопроверка своего предложения: есть ли слово/фраза, длина, заглавная буква и точка. */
@@ -400,8 +415,7 @@
     const used = hit / key.length >= 0.7;
     const tips = [];
     if (!used) tips.push('используй «' + c.t + '» в предложении');
-    if (words.length < 7) tips.push('сделай предложение подробнее (7+ слов)');
-    if (txt && !/^[A-Z]/.test(txt)) tips.push('начни с заглавной буквы');
+    if (words.length < 5) tips.push('сделай предложение подробнее (минимум 5 слов)');
     if (txt && !/[.!?]$/.test(txt)) tips.push('поставь точку в конце');
     return { used, words: words.length, ok: used && tips.length === 0, tips };
   }
@@ -528,6 +542,6 @@
     return 3.5;
   }
 
-  const api = { SK, PHASES, pd, fmt, addDays, daysBetween, weekNo, phaseFor, errorSeverity, weights, dayTasks, newCard, dueCards, review, overall, rawToBand, isWord, plain, lrMode, lrRate, master, unmaster, reviewMastered, buildSession, pickFresh, GROUPS, GROUP_LABEL, MAIN_GROUPS, group, inGroup, choices, typeCheck, hintOf, drillQueue, form, pickNext, mcq, checkSentence, GAPS, analyseText, checkAnswer, parseFeedback, errDrillable, normFix, errInit, errDue, errCheck, errRate, EI, CEF, cefOf, cefRank };
+  const api = { SK, PHASES, pd, fmt, addDays, daysBetween, weekNo, phaseFor, errorSeverity, weights, dayTasks, newCard, dueCards, review, overall, rawToBand, isWord, plain, lrMode, lrRate, master, unmaster, reviewMastered, contexts, buildSession, pickFresh, GROUPS, GROUP_LABEL, MAIN_GROUPS, group, inGroup, choices, typeCheck, hintOf, drillQueue, form, pickNext, mcq, checkSentence, GAPS, analyseText, checkAnswer, parseFeedback, errDrillable, normFix, errInit, errDue, errCheck, errRate, EI, CEF, cefOf, cefRank };
   if (typeof module !== 'undefined' && module.exports) module.exports = api; else root.Engine = api;
 })(typeof window !== 'undefined' ? window : globalThis);

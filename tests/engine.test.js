@@ -137,7 +137,8 @@ test('checkSentence', () => {
   const c = { t: 'play a crucial role in', ex: 'x' };
   assert.equal(Eg.checkSentence(c, 'Teachers play a crucial role in shaping young minds.').ok, true);
   assert.equal(Eg.checkSentence(c, 'Teachers are important.').used, false);
-  assert.equal(Eg.checkSentence({ t: 'soar', ex: 'x' }, 'prices soared last year').ok, false);
+  assert.equal(Eg.checkSentence({ t: 'soar', ex: 'x' }, 'prices soared').ok, false);
+  assert.equal(Eg.checkSentence({ t: 'unstable', ex: 'x' }, 'the economy is unstable right now.').ok, true);
   assert.equal(Eg.checkSentence({ t: 'soar', ex: 'x' }, 'House prices soared in the city last year.').ok, true);
 });
 
@@ -228,4 +229,9 @@ test('typeCheck и choices', () => {
   assert.equal(Eg.hintOf(c), 'p______');
   const cards = [c, mk('b', 'soar', 'v', 'gen'), mk('c', 'peak', 'v', 'gen'), mk('d', 'dip', 'v', 'gen'), mk('e', 'fall', 'v', 'gen')]; cards.forEach((x) => { x.ru = 'ру-' + x.t; });
   const ch = Eg.choices(c, cards, 'ru'); assert.equal(ch.opts.length, 4); assert.equal(ch.opts[ch.answer], 'ру-plunge');
+});
+
+test('contexts: другие предложения со словом', () => {
+  const a = Object.assign(mk('a', 'plunge', 'v', 'gen'), { ex: 'Sales [[plunged]] fast.' }), b = Object.assign(mk('b', 'sales', 'n', 'gen'), { ex: 'The [[sales]] team plunged into work.' });
+  assert.deepEqual(Eg.contexts(a, [a, b], 3), ['The sales team [[plunged]] into work.']);
 });

@@ -118,3 +118,13 @@ mark{background:none;color:var(--acc);font-weight:700}
 .tbl{overflow-x:auto}.tbl table{border-collapse:collapse;width:100%;font-size:14px}.tbl td,.tbl th{padding:8px 6px;border-bottom:1px solid var(--line);text-align:left}.tbl th{color:var(--mut);font-weight:600}
 select{appearance:none;-webkit-appearance:none;background-image:linear-gradient(45deg,transparent 50%,var(--mut) 50%),linear-gradient(135deg,var(--mut) 50%,transparent 50%);background-position:calc(100% - 20px) 50%,calc(100% - 15px) 50%;background-size:5px 5px;background-repeat:no-repeat;padding-right:34px}
 .seg button:disabled{opacity:.7}
+
+.exr{margin-top:8px;font-size:15px;line-height:1.35;color:var(--mut)}
+.exr mark{color:var(--acc)}
+body.drilling .head,body.drilling #ctab,body.drilling #vwlink{display:none}
+body.drilling #cbody{margin-top:0!important}
+.drill .dtop{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.drill .flash{min-height:0;padding:16px 14px;font-size:19px}
+.drill .flash .term{font-size:22px}
+.drill .opts{gap:6px;margin-top:10px}
+.drill .opt{min-height:44px;padding:8px 14px}

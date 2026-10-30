@@ -98,6 +98,7 @@
   const head = (title, sub, acts) => '<div class="head"><div><h1>' + esc(title) + '</h1>' + (sub ? '<p class="sub">' + sub + '</p>' : '') + '</div><div class="acts">' + (acts || '') + '</div></div>';
   const plusBtn = (id, label) => '<button class="ib" id="' + id + '" aria-label="' + esc(label) + '">' + ico('plus') + '</button>';
   function paint(html, animate) {
+    document.body.classList.remove('drilling');
     const v = $('#view'); v.innerHTML = html; v.classList.remove('enter');
     if (animate !== false) { void v.offsetWidth; v.classList.add('enter'); }
     const ai = v.querySelector('[data-ai]'); if (ai) ai.onclick = () => importSheet(P(), 't2', '');
@@ -208,6 +209,7 @@
 
   // ---------- Карточки ----------
   let DECK = [], READ = [], WRITING = null;
+  const trLine = (c) => '<div class="exr">' + (c.exr ? hl(c.exr) : '<mark>' + esc(c.t) + '</mark> — ' + esc(c.ru)) + '</div>';
   const hl = (ex) => esc(ex).replace(/\[\[([^\[\]]+)\]\]/g, '<mark>$1</mark>');
   const POS = { n: 'сущ.', v: 'глагол', adj: 'прил.', adv: 'нареч.', phr: 'выражение', coll: 'коллокация', phv: 'фразовый глагол', idiom: 'идиома', hedge: 'оборот', prep: 'предлог', conj: 'союз' };
   const hash = (s) => { let h = 2166136261; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); } h ^= h >>> 15; h = Math.imul(h, 0x2c1b3c6d); h ^= h >>> 12; return h >>> 0; };
@@ -216,7 +218,7 @@
 
   const userCef = (p) => (p.cefMode && p.cefMode !== 'auto') ? p.cefMode : E.cefOf(p.skills);
   // Колода лежит в app/data/deck.json, а не в базе пользователя: в облако уходит только прогресс по начатым карточкам.
-  const STATIC = ['t', 'ru', 'ex', 'pos', 'dom', 'cef', 'src', 'acl', 'rec', 'f', 'b'];
+  const STATIC = ['t', 'ru', 'ex', 'pos', 'dom', 'cef', 'src', 'acl', 'rec', 'exr', 'f', 'b'];
   let DECKIDS = new Set();
   function pack() {
     const out = { active: DB.active, profiles: {} };
@@ -240,9 +242,9 @@
     const uniq = new Map(); p.cards.forEach((c) => { const o = uniq.get(c.id); if (!o || (c.seen && !o.seen)) uniq.set(c.id, c); });
     p.cards = Array.from(uniq.values()).filter((c) => c.f || c.t || byId[c.id]);
     if (p.cards.length !== before) changed = true;
-    p.cards.forEach((c) => { const d = byId[c.id]; if (d) { c.t = d.t; c.ru = d.ru; c.ex = d.ex; c.pos = d.pos; c.dom = d.dom; c.cef = d.cef; c.src = d.src; c.acl = d.acl; c.rec = d.rec; } });
+    p.cards.forEach((c) => { const d = byId[c.id]; if (d) { c.t = d.t; c.ru = d.ru; c.ex = d.ex; c.pos = d.pos; c.dom = d.dom; c.cef = d.cef; c.src = d.src; c.acl = d.acl; c.rec = d.rec; c.exr = d.exr; } });
     const ids = new Set(p.cards.map((c) => c.id));
-    DECK.forEach((d) => { if (!ids.has(d.id)) p.cards.push(Object.assign(E.newCard('', '', d.id), { t: d.t, ru: d.ru, ex: d.ex, pos: d.pos, dom: d.dom, cef: d.cef, src: d.src, acl: d.acl, rec: d.rec, lv: 0 })); });
+    DECK.forEach((d) => { if (!ids.has(d.id)) p.cards.push(Object.assign(E.newCard('', '', d.id), { t: d.t, ru: d.ru, ex: d.ex, pos: d.pos, dom: d.dom, cef: d.cef, src: d.src, acl: d.acl, rec: d.rec, exr: d.exr, lv: 0 })); });
     const seen = p.cards.filter((c) => c.seen); const lvl = userCef(p); const rk = (c) => E.cefRank(lvl, c.cef);
     const rest = p.cards.filter((c) => !c.seen).sort((a, b) => ((b.rec ? 1 : 0) - (a.rec ? 1 : 0)) || (rk(a) - rk(b)) || (hash(a.id) - hash(b.id))); p.cards = seen.concat(rest);
     return changed;
@@ -270,7 +272,7 @@
   function viewCards() {
     const p = P(); ensureSess(p); refill(p);
     const mastered = p.cards.filter((c) => c.mastered).length, work = p.cards.filter((c) => c.seen && !c.mastered).length;
-    paint(head('Карточки', '<span id="csub"></span>', plusBtn('cplus', 'Добавить')) + seg('ctab', [['learn', 'Учить'], ['drill', 'Закрепить'], ['deck', 'Колода']], cst.tab) + (p.cards.filter((c) => c.seen).length >= 4 ? '<div class="list" style="margin-top:12px"><a class="rowi" href="#vw"><div class="grow"><b>Напиши текст со словами</b><div class="mut" style="margin-top:2px">Закрепи выученное в письме</div></div></a></div>' : '') + '<div id="cbody" style="margin-top:16px"></div>');
+    paint(head('Карточки', '<span id="csub"></span>', plusBtn('cplus', 'Добавить')) + seg('ctab', [['learn', 'Учить'], ['drill', 'Закрепить'], ['deck', 'Колода']], cst.tab) + (p.cards.filter((c) => c.seen).length >= 4 ? '<div class="list" id="vwlink" style="margin-top:12px"><a class="rowi" href="#vw"><div class="grow"><b>Напиши текст со словами</b><div class="mut" style="margin-top:2px">Закрепи выученное в письме</div></div></a></div>' : '') + '<div id="cbody" style="margin-top:16px"></div>');
     bindSeg('ctab', (v) => { cst.tab = v; if (v === 'drill') cst.dr = null; drawCards(); });
     $('#cplus').onclick = () => openSheet('<h2>Новая карточка</h2><div class="stack"><input id="cf" placeholder="Слово или фраза (English)" autocomplete="off"><input id="cb" placeholder="Перевод" autocomplete="off"><input id="cx" placeholder="Предложение с этим словом" autocomplete="off"><button class="btn p" id="cadd">Добавить</button></div>' +
       '<h3>Импорт</h3><textarea id="csv" placeholder="слово;перевод;пример — по одной на строку (или front;back)"></textarea><div style="margin-top:10px"><button class="btn" id="cimp">Импортировать</button></div>', () => {
@@ -310,7 +312,7 @@
       return;
     }
     const c = p.cards.find((x) => x.id === id);
-    if (cst.cur !== id) { cst.cur = id; cst.step = 'q'; cst.pick = null; cst.mq = E.isWord(c) && !c.mastered && E.lrMode(c) === 'mcq' ? E.mcq(c, p.cards) : null; }
+    if (cst.cur !== id) { cst.cur = id; cst.step = 'q'; cst.pick = null; cst.hint = false; cst.mq = E.isWord(c) && !c.mastered && E.lrMode(c) === 'mcq' ? E.mcq(c, p.cards) : null; }
     const word = E.isWord(c); const review = !!c.mastered; const mode = review ? 'flip' : E.lrMode(c);
     const gl = E.GROUP_LABEL[E.group(c)];
     const lvl = grpBar(p) + '<div class="mut" style="text-align:center;margin-bottom:8px"><span class="chip on">' + esc(gl) + '</span> ' + (review ? 'Повторение выученного' : 'Уровень ' + (c.lv || 0) + ' из 5') + '</div>';
@@ -319,32 +321,34 @@
     let h = '<div class="enter">' + lvl;
     if (mode === 'flip') {
       h += how(word ? 'Прочитай слово и пример, вспомни перевод. Потом нажми «Показать перевод» и честно оцени.' : 'Это шаблонная фраза (' + esc(gl) + '). Вспомни, как сказать по-английски, затем открой ответ.');
-      if (word) h += '<div class="flash"><small>' + (POS[c.pos] || '') + (c.cef ? ' · ' + c.cef : '') + '</small><div class="term">' + esc(c.t) + '</div><div class="exm">' + hl(c.ex) + '</div></div>' + (cst.step === 'a' ? '<div class="flash back"><b>' + esc(c.ru) + '</b></div>' : '');
+      if (word) h += '<div class="flash"><small>' + (POS[c.pos] || '') + (c.cef ? ' · ' + c.cef : '') + '</small><div class="term">' + esc(c.t) + '</div><div class="exm">' + hl(c.ex) + '</div></div>' + (cst.step === 'a' ? '<div class="flash back"><div><b>' + esc(c.ru) + '</b>' + trLine(c) + '</div></div>' : '');
       else h += '<div class="flash">' + esc(c.f) + '</div>' + (cst.step === 'a' ? '<div class="flash back">' + esc(c.b) + '</div>' : '');
       h += cst.step === 'a' ? '<p class="mut" style="text-align:center;margin:10px 0 0;font-size:13px">Снова — вернётся через 2 карточки · Трудно — через 5 · Хорошо — через 10 · Легко — через 20</p>' + rateRow() + mst : '<div style="margin-top:14px"><button class="btn p" id="show">Показать перевод</button></div>';
     } else if (mode === 'mcq') {
-      const q = cst.mq; h += how('Выбери слово, которое подходит в пропуск. Подсказка — перевод.');
-      h += '<div class="flash"><small>Выбери слово · перевод: ' + esc(c.ru) + '</small><div class="exm" style="font-size:19px">' + esc(q.text) + '</div></div><div class="opts">' +
+      const q = cst.mq; h += how('Выбери слово, которое подходит в пропуск.');
+      h += '<div class="flash"><small>' + (cst.hint ? 'перевод: ' + esc(c.ru) : 'Выбери слово') + '</small><div class="exm" style="font-size:19px">' + esc(q.text) + '</div></div><div class="opts">' +
         q.opts.map((o, i) => '<button class="opt' + (cst.pick != null ? (i === q.answer ? ' ok' : i === cst.pick ? ' bad' : '') : '') + '" data-o="' + i + '"' + (cst.pick != null ? ' disabled' : '') + '>' + esc(o) + '</button>').join('') + '</div>';
-      if (cst.pick != null) h += '<div class="flash back" style="font-size:17px">' + hl(c.ex) + '</div><div style="margin-top:14px"><button class="btn p" id="next">Дальше</button></div>' + mst;
+      if (cst.pick == null && !cst.hint) h += '<div style="text-align:center;margin-top:8px"><button class="link" id="hint">Взять подсказку</button></div>';
+      if (cst.pick != null) h += '<div class="flash back" style="font-size:17px"><div>' + hl(c.ex) + trLine(c) + '</div></div><div style="margin-top:14px"><button class="btn p" id="next">Дальше</button></div>' + (cst.pick === q.answer ? mst : '');
     } else {
       h += how('Составь своё предложение с этим словом — так оно запомнится надёжнее всего.');
       h += '<div class="flash"><small>Напиши своё предложение</small><div class="term">' + esc(c.t) + '</div><div class="mut">' + esc(c.ru) + '</div></div>';
       if (cst.step === 'q') h += '<textarea id="mys" style="margin-top:12px;min-height:90px" placeholder="Предложение со словом «' + esc(c.t) + '»" spellcheck="false" autocapitalize="sentences"></textarea><div style="margin-top:12px"><button class="btn p" id="chk">Проверить</button></div>';
       else {
-        const r = cst.res; h += '<div class="card" style="margin-top:12px"><div style="font-weight:600;color:var(--' + (r.ok ? 'ok' : 'warn') + ')">' + (r.ok ? 'Хорошее предложение' : 'Можно лучше') + '</div>' + (r.tips.length ? '<ul class="mut" style="margin:6px 0 0;padding-left:18px">' + r.tips.map((t) => '<li>' + esc(t) + '</li>').join('') + '</ul>' : '') +
-          '<div class="mut" style="margin-top:10px">Пример:</div><div class="exm" style="font-size:16px;margin-top:2px">' + hl(c.ex) + '</div></div>' + rateRow() + mst;
+        const r = cst.res; h += '<div class="card" style="margin-top:12px"><div class="mut">Твоё предложение:</div><div style="font-size:16px;margin:2px 0 10px">' + esc(cst.mine || '') + '</div><div style="font-weight:600;color:var(--' + (r.ok ? 'ok' : 'warn') + ')">' + (r.ok ? 'Хорошее предложение' : 'Можно лучше') + '</div>' + (r.tips.length ? '<ul class="mut" style="margin:6px 0 0;padding-left:18px">' + r.tips.map((t) => '<li>' + esc(t) + '</li>').join('') + '</ul>' : '') +
+          '<div class="mut" style="margin-top:10px">Примеры в контексте:</div>' + [c.ex].concat(E.contexts(c, p.cards, 3)).map((x) => '<div class="exm" style="font-size:15px;margin-top:4px">' + hl(x) + '</div>').join('') + trLine(c) + '</div>' + rateRow() + mst;
       }
     }
     body.innerHTML = h + '</div>';
     $$('#gf button').forEach((b) => { b.onclick = () => { p.cgrp = b.dataset.g; sess = null; cst.cur = null; save(); ensureSess(p); refill(p); drawCards(); }; });
+    const ht = $('#hint'); if (ht) ht.onclick = () => { cst.hint = true; drawLearn(); };
     const sh = $('#show'); if (sh) sh.onclick = () => { cst.step = 'a'; drawLearn(); };
     $$('button[data-q]').forEach((b) => { b.onclick = () => applyRate(p, c, +b.dataset.q); });
     $$('.opt').forEach((b) => { b.onclick = () => { cst.pick = +b.dataset.o; drawLearn(); }; });
     const nx = $('#next'); if (nx) nx.onclick = () => applyRate(p, c, cst.pick === cst.mq.answer ? 2 : 0);
     const ck = $('#chk'); if (ck) ck.onclick = () => {
       const s = $('#mys').value.trim(); if (!s) { toast('Напиши предложение'); return; }
-      cst.res = E.checkSentence(c, s); c.my = (c.my || []).concat([s]).slice(-3); save(); cst.step = 'a'; drawLearn();
+      cst.res = E.checkSentence(c, s); cst.mine = s; c.my = (c.my || []).concat([s]).slice(-3); save(); cst.step = 'a'; drawLearn();
     };
     const m = $('#mst'); if (m) m.onclick = () => { if (!c.seen) p.newToday.n += 1; E.master(c, today()); sess.last = c.id; save(); cst.cur = null; toast('Выучено — повторю через 3 дня'); refill(p); drawCards(); };
   }
@@ -356,6 +360,7 @@
   }
   function drawDrill() {
     const p = P(); const body = $('#cbody'); if (!cst.dr) startDrill(p); const d = cst.dr;
+    document.body.classList.remove('drilling');
     if (!d.q.length) { body.innerHTML = '<div class="card" style="text-align:center;padding:26px 16px"><div class="big">📚</div><div class="mut" style="margin:8px 0 16px">Пока нечего закреплять: сначала пройди несколько карточек на вкладке «Учить».</div><button class="btn p" id="gol">К карточкам</button></div>'; $('#gol').onclick = () => { cst.tab = 'learn'; viewCards(); }; return; }
     const it = d.q[d.i];
     if (!it) {
@@ -367,32 +372,34 @@
       $('#again').onclick = () => { cst.dr = null; drawDrill(); }; $('#gol').onclick = () => { cst.tab = 'learn'; sess = null; viewCards(); };
       return;
     }
+    document.body.classList.add('drilling');
     const c = p.cards.find((x) => x.id === it.id);
     if (!it.m) { if (it.type === 'gap') it.m = E.mcq(c, p.cards); else if (it.type === 'ru2en') it.m = E.choices(c, p.cards, 't'); else if (it.type === 'en2ru') it.m = E.choices(c, p.cards, 'ru'); }
-    const prog = '<div class="mut" style="text-align:center;margin-bottom:8px">Задание ' + (d.i + 1) + ' из ' + d.q.length + '</div>';
-    const how = (t) => '<p class="mut" style="text-align:center;margin:0 0 10px;font-size:14px">' + t + '</p>';
+    it.h = it.h || 0;
     const optsH = (m) => '<div class="opts">' + m.opts.map((o, i) => '<button class="opt' + (it.pick != null ? (i === m.answer ? ' ok' : i === it.pick ? ' bad' : '') : '') + '" data-o="' + i + '"' + (it.pick != null ? ' disabled' : '') + '>' + esc(o) + '</button>').join('') + '</div>';
-    let h = '<div class="enter">' + prog, answered = false;
-    if (it.type === 'gap') {
-      h += how('Вставь слово в пропуск. Подсказка — перевод.') + '<div class="flash"><small>перевод: ' + esc(c.ru) + '</small><div class="exm" style="font-size:19px">' + esc(it.m.text) + '</div></div>' + optsH(it.m);
-      if (it.pick != null) { answered = true; h += '<div class="flash back" style="font-size:17px">' + hl(c.ex) + '</div>'; }
-    } else if (it.type === 'ru2en') {
-      h += how('Как это по-английски?') + '<div class="flash"><small>' + esc(E.GROUP_LABEL[E.group(c)]) + '</small><div class="term" style="font-size:24px">' + esc(c.ru) + '</div></div>' + optsH(it.m);
-      if (it.pick != null) { answered = true; h += '<div class="flash back" style="font-size:17px">' + hl(c.ex) + '</div>'; }
-    } else if (it.type === 'en2ru') {
-      h += how('Выбери правильный перевод.') + '<div class="flash"><small>' + esc(E.GROUP_LABEL[E.group(c)]) + '</small><div class="term">' + esc(c.t) + '</div><div class="exm">' + hl(c.ex) + '</div></div>' + optsH(it.m);
-      if (it.pick != null) answered = true;
-    } else {
-      h += how('Впиши пропущенное слово. Подсказка: первая буква и длина.') + '<div class="flash"><small>перевод: ' + esc(c.ru) + '</small><div class="exm" style="font-size:19px">' + esc(String(c.ex).replace(/\[\[[^\[\]]+\]\]/, '_____')) + '</div><div class="mut" style="letter-spacing:2px;margin-top:6px">' + esc(E.hintOf(c)) + '</div></div>';
-      if (it.res == null) h += '<input id="dr_in" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="слово" style="margin-top:12px"><div style="margin-top:12px"><button class="btn p" id="dr_ok">Проверить</button></div>';
-      else { answered = true; h += '<div class="flash back" style="font-size:17px">' + (it.res === 'near' ? 'Почти: опечатка. ' : it.res === 'bad' ? 'Не совсем. ' : '') + hl(c.ex) + '</div>'; }
+    const maxH = it.type === 'type' ? 2 : it.type === 'gap' ? 1 : 0;
+    const answered = it.type === 'type' ? it.res != null : it.pick != null;
+    const tr = (it.h >= 1 || answered) && (it.type === 'gap' || it.type === 'type') ? '<small>перевод: ' + esc(c.ru) + '</small>' : '';
+    const lab = esc(E.GROUP_LABEL[E.group(c)]);
+    let card = '';
+    if (it.type === 'gap') card = '<div class="flash">' + (tr || '<small>Вставь слово в пропуск</small>') + '<div class="exm">' + (answered ? hl(c.ex) + trLine(c) : esc(it.m.text)) + '</div></div>' + optsH(it.m);
+    else if (it.type === 'ru2en') card = '<div class="flash"><small>Как это по-английски? · ' + lab + '</small><div class="term" style="font-size:24px">' + esc(c.ru) + '</div>' + (answered ? '<div class="exm" style="font-size:16px">' + hl(c.ex) + trLine(c) + '</div>' : '') + '</div>' + optsH(it.m);
+    else if (it.type === 'en2ru') card = '<div class="flash"><small>Выбери перевод · ' + lab + '</small><div class="term">' + esc(c.t) + '</div><div class="exm" style="font-size:16px">' + hl(c.ex) + (answered ? trLine(c) : '') + '</div></div>' + optsH(it.m);
+    else card = '<div class="flash">' + (tr || '<small>Впиши пропущенное слово</small>') + '<div class="exm">' + (answered ? hl(c.ex) + trLine(c) : esc(String(c.ex).replace(/\[\[[^\[\]]+\]\]/, '_____'))) + '</div>' + (!answered && it.h >= 2 ? '<div class="mut" style="letter-spacing:2px;margin-top:6px">' + esc(E.hintOf(c)) + '</div>' : '') + (answered && it.res !== 'ok' ? '<div class="mut" style="margin-top:4px">' + (it.res === 'near' ? 'Почти — опечатка' : 'Не совсем') + '</div>' : '') + '</div>' +
+      (it.res == null ? '<input id="dr_in" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="слово" style="margin-top:10px">' : '');
+    let act = '';
+    if (answered) act = '<button class="btn p" id="dr_next">Дальше</button>';
+    else {
+      if (it.type === 'type') act += '<button class="btn p" id="dr_ok">Проверить</button>';
+      if (it.h < maxH) act += '<div style="text-align:center;margin-top:8px"><button class="link" id="dr_hint">' + (it.type === 'type' && it.h === 1 ? 'Ещё подсказка: первая буква' : 'Взять подсказку') + '</button></div>';
     }
-    if (answered) h += '<div style="margin-top:14px"><button class="btn p" id="dr_next">Дальше</button></div>';
-    body.innerHTML = h + '</div>';
+    body.innerHTML = '<div class="drill enter"><div class="dtop"><span class="mut">' + (d.i + 1) + ' из ' + d.q.length + '</span><button class="link" id="dr_x">Выйти</button></div>' + card + '<div style="margin-top:10px">' + act + '</div></div>';
     const fin = (ok) => { if (!ok) { d.bad[c.id] = true; if (!it.retry) d.q.push({ id: c.id, type: it.type, retry: true }); } };
     $$('.opt').forEach((b) => { b.onclick = () => { it.pick = +b.dataset.o; fin(it.pick === it.m.answer); drawDrill(); }; });
     const ok = $('#dr_ok'); if (ok) { const go = () => { const v = $('#dr_in').value.trim(); if (!v) { toast('Впиши слово'); return; } it.res = E.typeCheck(c, v); fin(it.res !== 'bad'); drawDrill(); }; ok.onclick = go; $('#dr_in').onkeydown = (e) => { if (e.key === 'Enter') go(); }; }
+    const ht = $('#dr_hint'); if (ht) ht.onclick = () => { const v = $('#dr_in') ? $('#dr_in').value : ''; it.h += 1; drawDrill(); if (v && $('#dr_in')) $('#dr_in').value = v; };
     const nx = $('#dr_next'); if (nx) nx.onclick = () => { d.i += 1; drawDrill(); };
+    $('#dr_x').onclick = () => { cst.tab = 'learn'; cst.dr = null; viewCards(); };
   }
   let deckF = 'all', deckQ = '', deckG = 'all';
   function drawDeck() {

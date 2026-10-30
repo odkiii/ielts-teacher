@@ -35,6 +35,19 @@ for f in sorted(glob.glob(os.path.join(root, "data", "deck", "*.txt"))):
         if o.get("acl"): card["acl"] = 1
         if rec: card["rec"] = 1
         cards.append(card)
+# переводы примеров: data/ex_ru/*.txt, строки «term|pos|русское предложение с [[словом]]»
+EXR = {}
+for f in sorted(glob.glob(os.path.join(root, "data", "ex_ru", "*.txt"))):
+    for n, line in enumerate(open(f, encoding="utf-8"), 1):
+        line = line.rstrip("\n")
+        if not line.strip() or line.startswith("#"): continue
+        q = line.split("|", 2)
+        if len(q) != 3: errs.append(f"{os.path.basename(f)}:{n} bad ex_ru line"); continue
+        EXR[(q[0].strip().lower(), q[1].strip())] = q[2].strip()
+for c0 in cards:
+    r = EXR.get((c0["t"].lower(), c0["pos"]))
+    if r: c0["exr"] = r
+print("ex translations:", sum(1 for c0 in cards if c0.get("exr")), "of", len(cards))
 ids = [c['id'] for c in cards]
 if len(ids) != len(set(ids)):
     errs.append('id collision')
